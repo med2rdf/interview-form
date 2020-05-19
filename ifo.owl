@@ -1,0 +1,21 @@
+@prefix pio: <http://pmda.go.jp/owl/pi.owl#> .
+@prefix ifo: <http://pmda.go.jp/owl/if.owl#> .
+
+ifo:key
+  rdfs:subPropertyOf ...
+
+ifo:value
+  rdfs:subPropertyOf ...
+
+ifo:IF_1
+  rdfs:label "概要に関する項目" .
+
+ifo:IF_1_1
+  rdfs:subClassOf ifo:IF_1 ;
+  rdfs:label "開発の経緯" .
+
+
+ifo:IF_2_1_1
+  rdfs:label "和名" .
+
+

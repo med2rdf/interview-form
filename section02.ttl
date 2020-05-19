@@ -1,0 +1,13 @@
+@base <http://pmda.go.jp/rdf/YJCode:2590014F1021/> .
+@prefix pio: <http://pmda.go.jp/owl/pi.owl#> .
+@prefix ifo: <http://pmda.go.jp/owl/if.owl#> .
+
+<IF/2>
+  rdf:type ifo:IF_2 .
+
+<IF/2/1>
+  rdf:type ifo:IF_2_1 .
+
+<IF/2/1/1>
+  ifo:value "ベタニス錠 25mg", "べタニス錠 50mg" .
+
