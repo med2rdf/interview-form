@@ -1,0 +1,20 @@
+@base <http://pmda.go.jp/rdf/YJCode:2590014F1021/> .
+@prefix pio: <http://pmda.go.jp/owl/pi.owl#> .
+@prefix ifo: <http://pmda.go.jp/owl/if.owl#> .
+
+<IF/6>
+  rdf:type ifo:IF_6 ;
+  ifo:key "薬効薬理に関する項目" .
+
+<IF/6/1>
+  rdf:type ifo:IF_6_1 ;
+  ifo:key "1.薬理学的に関連ある化合物又は化合物群" ;
+  ifo:value """
+該当資料なし
+""" .
+
+<IF/6/2>
+  rdf:type ifo:IF_6_2 ;
+  ifo:key "2.薬理作用" ;
+  ifo:value """
+""" .
