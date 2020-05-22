@@ -8,14 +8,23 @@ ifo:value
   rdfs:subPropertyOf ...
 
 ifo:IF_1
+  a owl:Class ;
   rdfs:label "概要に関する項目" .
 
 ifo:IF_1_1
-  rdfs:subClassOf ifo:IF_1 ;
+  a owl:Class ;
   rdfs:label "開発の経緯" .
 
+ifo:IF_1_2
+  a owl:Class ;
+  rdfs:label "製品の治療学的特性" .
 
-ifo:IF_2_1_1
-  rdfs:label "和名" .
+# セクションの順番や箇条書き、テーブルなどをジェネリックに表現できるオントロジーとして仕上げていく
+
+# 記載要領のバージョンによって項目名などが違うのをどう吸収するか（当面 2018 だけサポート？）
+# * 日本病院薬剤師会のIF記載要領2018に準拠して作成
+# * 日本病院薬剤師会の IF 記載要領 2013 に準拠して作成 → いずれすべて 2018 に揃えられるはず
+# * 2008 もある
+# * 1998 もある
 
 
