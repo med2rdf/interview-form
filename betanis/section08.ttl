@@ -4,7 +4,7 @@
 
 <IF/8>
   rdf:type ifo:IF_8 ;
-  ifo:key "Ⅷ．安全性（使用上の注意等）Ⅱ関する項目" .
+  ifo:key "Ⅷ．安全性（使用上の注意等）に関する項目" .
 
 <IF/8/1>
   rdf:type ifo:IF_8_1 ;
