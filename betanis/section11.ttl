@@ -1,0 +1,34 @@
+@base <http://pmda.go.jp/rdf/YJCode:2590014F1021/> .
+@prefix pio: <http://pmda.go.jp/owl/pi.owl#> .
+@prefix ifo: <http://pmda.go.jp/owl/if.owl#> .
+
+<IF/11>
+  rdf:type ifo:IF_11 ;
+  ifo:key "ⅩⅠ．文献" .
+
+<IF/11/1>
+  rdf:type ifo:IF_11_1 ;
+  ifo:key "1. 引用文献" ;
+
+<IF/11/1/1>
+ rdf:type ifo:IF_11_1_1 ;
+ # inf:value """本間　之夫　他・・・・・・・・・””” ; 　引用の書き方
+ inf:文献番号  "R-4271" ;
+ #文献番号は分けて書きたい。
+#
+#
+ <IF/11/1/3>
+  rdf:type inf:IF_11_1_3 ;
+  ## 書き方
+  inf:PMID "11412210" ;
+  #PMDIも分けて書きたい
+  Inf:文献番号 "R-04276" ;
+#
+#
+  <IF/11/1/11>
+   rdf:type inf:IF_11_1_11 ;
+  ## 書き方
+  inf:承認 2011-7-1
+  inf:CTD  "2.7.6.7" ;
+  # CTDの章も分けて書きたい（承認日はどうかくか？）
+  Inf:文献番号 "DIR110060" ;
