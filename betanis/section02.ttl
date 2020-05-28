@@ -1,7 +1,3 @@
-@base <http://pmda.go.jp/rdf/YJCode:2590014F1021/> .
-@prefix pio: <http://pmda.go.jp/owl/pi.owl#> .
-@prefix ifo: <http://pmda.go.jp/owl/if.owl#> .
-
 <IF/2>
   rdf:type ifo:IF_2 .
 
