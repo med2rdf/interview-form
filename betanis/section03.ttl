@@ -1,0 +1,18 @@
+@base <http://pmda.go.jp/rdf/YJCode:2590014F1021/> .
+@prefix pio: <http://pmda.go.jp/owl/pi.owl#> .
+@prefix ifo: <http://pmda.go.jp/owl/if.owl#> .
+
+
+<IF/3>
+  rdf:type ifo:IF_3 ;
+  ifo:key "III. 有効成分に関する項目" .
+
+<IF/3/1>
+	rdf:type ifo:IF_3_1 ;
+	ifo:key "1. 物理化学的性質" ;
+
+<IF/3/1/1>
+	rdf:type ifo:IF_3_1_1 ;
+	ifo:key "(1) 外観・性状" ;
+	ifo:value "白色〜微帯褐白色の結晶又は粉末である。" .
+ 
