@@ -1,6 +1,24 @@
-@base <http://pmda.go.jp/rdf/YJCode:2590014F1021/> .
-@prefix pio: <http://pmda.go.jp/owl/pi.owl#> .
-@prefix ifo: <http://pmda.go.jp/owl/if.owl#> .
+@base <https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix ifo: <http://med2rdf.org/ontology/ifo/> .
+@prefix yjcode: <http://med2rdf.org/drug/> .
+
+<>
+  ifo:drug_proprietary_id
+    yjcode:2590014F1021 ,
+    yjcode:2590014F2028 .
+
+yjcode:2590014F1021
+  rdfs:label
+    "ベタニス錠 25mg" ;
+  dct:identifier
+    "2590014F1021" .
+
+yjcode:2590014F2028
+  rdfs:label
+    "ベタニス錠 50mg" ;
+  dct:identifier
+    "2590014F2028" . 
 
 <IF/0>
   rdf:type ifo:IF_0 ;
