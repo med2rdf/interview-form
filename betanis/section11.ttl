@@ -1,3 +1,162 @@
+# proposed by skwsm
+# やりきったらこんな感じ
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<IF/11/1>
+  rdf:type ifo:IF_11_1 ;
+  rdf:type olo:OrderedList ;
+  obo:length 77;
+  olo:slot [
+    olo:index 1 ;
+    olo:item [
+      a bibo:Article ;
+      dct:creator "本間 之夫 他" ;
+      prism:publicationName "日本排尿機能学会誌" ;
+      prism:volume 14 ;
+      prism:number 2 ;
+      prism:startingPage 266 ;
+      prism:endingPage 277 ;
+      dct:issued "2003"^^xsd:gYear ;
+      ifo:internal_reference_id "R-04271"
+    ]
+  ], [
+    olo:index 2 ;
+    olo:item [
+      a bibo:Article ;
+      dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/15971719>
+    ]
+  ], [
+    olo:index 3 ;
+    olo:item [
+      a bibo:Article ;
+      dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/11412210> ;
+      ifo:internal_reference_id "R-04276"
+    ]
+  ], [
+    olo:index 4 ;
+    olo:item [
+      a bibo:BookSection ;
+      dct:issued "2005"^^xsd:gYear ;
+      prism:publicationName "過活動膀胱診療ガイドライン" ;
+      bibo:editor [
+        rdf:type foaf:Group ;
+        rdfs:label "日本排尿機能学会過活動膀胱ガイドライン作成委員会"
+      ] ;
+      prism:startingPage 30 ;
+      prism:endingPage 51 ;
+      dct:publisher [
+        rdf:type foaf:Agent ;
+        rdfs:label "ブラックウェルパブリッシング"
+      ]
+      ifo:internal_reference_id "VC-00077"
+    ]
+  ], [
+    olo:index 5 ;
+    olo:item [
+      a bibo:Article ;
+      dct:creator "山口 脩" ;
+      prism:publicationName "泌尿器外科" ;
+      prism:volume 11 ;
+      prism:number 19 ;
+      prism:startingPage 266 ;
+      prism:endingPage 277 ;
+      dct:issued "2009"^^xsd:gYear ;
+      ifo:internal_reference_id "R-05842"
+    ]
+  ], [
+    olo:index 6 ;
+    olo:item [
+      a bibo:Article ;
+      dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/17293563> ;
+      ifo:internal_reference_id "BE-00010"
+    ]
+  ], [
+    olo:index 7 ;
+    olo:item [
+      a bibo:Article ;
+      dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/23224420> ;
+      ifo:internal_reference_id "BE-00100"
+    ]
+  ], [
+    olo:index 8 ;
+    olo:item [
+      a bibo:BookSection ;
+      dct:issued "2005"^^xsd:gYear ;
+      prism:publicationName "過活動膀胱診療ガイドライン" ;
+      bibo:editor [
+        rdf:type foaf:Group ;
+        rdfs:label "日本排尿機能学会過活動膀胱ガイドライン作成委員会"
+      ] ;
+      prism:startingPage 2 ;
+      prism:endingPage 5 ;
+      dct:publisher [
+        rdf:type foaf:Agent ;
+        rdfs:label "ブラックウェルパブリッシング"
+      ]
+      ifo:internal_reference_id "R-04252"
+    ]
+  ], [
+    olo:index 9 ;
+      olo:item [
+      a bibo:BookSection ;
+      dct:issued "2005"^^xsd:gYear ;
+      prism:publicationName "過活動膀胱診療ガイドライン" ;
+      bibo:editor [
+        rdf:type foaf:Group ;
+        rdfs:label "日本排尿機能学会過活動膀胱ガイドライン作成委員会"
+      ] ;
+      prism:startingPage 24 ;
+      prism:endingPage 29 ;
+      dct:publisher [
+        rdf:type foaf:Agent ;
+        rdfs:label "ブラックウェルパブリッシング"
+      ]
+      ifo:internal_reference_id "R-04253"
+    ]
+  ], [
+    olo:index 10 ;
+    olo:item [
+      a bibo:BookSection ;
+      dct:issued "2005"^^xsd:gYear ;
+      prism:publicationName "過活動膀胱診療ガイドライン" ;
+      bibo:editor [
+        rdf:type foaf:Group ;
+        rdfs:label "日本排尿機能学会過活動膀胱ガイドライン作成委員会"
+      ] ;
+      prism:startingPage 52 ;
+      prism:endingPage 54 ;
+      dct:publisher [
+        rdf:type foaf:Agent ;
+        rdfs:label "ブラックウェルパブリッシング"
+      ]
+      ifo:internal_reference_id "R-04254"
+    ]
+  ], [
+    olo:index 11 ;
+    olo:item [
+      a bibo:Document ;
+      rdfs:label "社内報告書" ;
+      ifo:ctd_number "CTD2.7.6.7" ;
+      ifo:dir_number "DIR110060"
+    ]
+  ], [
+    olo:index 12 ;
+    olo:item [
+      a bibo:Document ;
+      rdfs:label "社内報告書" ;
+      ifo:ctd_number "CTD2.7.6.24" ;
+      ifo:dir_number "DIR110073"
+    ]
+  ] .
+###
+
 <IF/11>
   rdf:type ifo:IF_11 ;
   ifo:key "ⅩⅠ．文献" .
