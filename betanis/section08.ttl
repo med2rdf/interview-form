@@ -524,15 +524,24 @@
   """ .
 
 <IF/8/8/2>
-  rdf:type ifo:IF_8_8_2 ;
-  ifo:table  <IF/8/8/2/table/1> .
+  rdf:type ifo:IF_8_8_2
+  ifo:key "(2) その他の副作用" ;
+  ifo:table  <IF/8/8/2/table/1>, <IF/8/8/2/table/2> .
 
 <IF/8/8/2/table/1>
   rdf:type ifo:Table ;
-  rdf:value <http://.../.../talbe_8_8_2.png> .
+  ifo:caption "11.2 その他の副作用" ;
+  ifo:file "table_8_8_2_1.jpg" .
+
   ## 添付文書のその他の副作用の一覧表（XMLは分けて書いている？？？）
 
-   ## ◆製造販売承認申請時に用いた臨床試験成績に関する資料に基づき作成した副作用、臨床検査異常値発現例一覧表の入れ方要検討
+<IF/8/8/2/table/2>
+  rdf:type inf:Table ;
+  ifo:caption """
+  ◆製造販売承認申請時に用いた臨床試験成績に関する資料に基づき作成した副作用、臨床検査異常値発現例一覧表
+  """ ;
+  ifo:file "table_8_8_2_2.jpg" .
+
    ## 副作用発現状況の表は表でまとめてでOK
 
 <IF/8/9>
