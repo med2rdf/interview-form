@@ -24,37 +24,37 @@
     olo:item <IF#ref1>
   ], [
     olo:index 2 ;
-    olo:item <IF/11/1#2>
+    olo:item <IF#ref2>
   ], [
     olo:index 3 ;
-    olo:item <IF/11/1#3>
+    olo:item <IF#ref3>
   ], [
     olo:index 4 ;
-    olo:item <IF/11/1#4>
+    olo:item <IF#ref4>
   ], [
     olo:index 5 ;
-    olo:item <IF/11/1#5>
+    olo:item <IF#ref5>
   ], [
     olo:index 6 ;
-    olo:item <IF/11/1#6>
+    olo:item <IF#ref6>
   ], [
     olo:index 7 ;
-    olo:item <IF/11/1#7>
+    olo:item <IF#ref7>
   ], [
     olo:index 8 ;
-    olo:item <IF/11/1#8>
+    olo:item <IF#ref8>
   ], [
     olo:index 9 ;
-    olo:item <IF/11/1#9>
+    olo:item <IF#ref9>
   ], [
     olo:index 10 ;
-    olo:item <IF/11/1#10>
+    olo:item <IF#ref10>
   ], [
     olo:index 11 ;
-    olo:item <IF/11/1#11>
+    olo:item <IF#ref11>
   ], [
     olo:index 12 ;
-    olo:item <IF/11/1#12>
+    olo:item <IF#ref12>
   ] .
 
 <IF#ref1>
@@ -68,16 +68,16 @@
   dct:issued "2003"^^xsd:gYear ;
   ifo:internal_reference_id "R-04271" .
 
-<IF/11/1#2>
+<IF#ref2>
   a bibo:Article ;
   dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/15971719> .
 
-<IF/11/1#3>
+<IF#ref3>
   a bibo:Article ;
   dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/11412210> ;
   ifo:internal_reference_id "R-04276" .
 
-<IF/11/1#4>
+<IF#ref4>
   a bibo:BookSection ;
   dct:issued "2005"^^xsd:gYear ;
   prism:publicationName "過活動膀胱診療ガイドライン" ;
@@ -93,7 +93,7 @@
   ] ;
   ifo:internal_reference_id "VC-00077" .
 
-<IF/11/1#5>
+<IF#ref5>
   a bibo:Article ;
   dct:creator "山口 脩" ;
   prism:publicationName "泌尿器外科" ;
@@ -104,17 +104,17 @@
   dct:issued "2009"^^xsd:gYear ;
   ifo:internal_reference_id "R-05842" .
 
-<IF/11/1#6>
+<IF#ref6>
   a bibo:Article ;
   dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/17293563> ;
   ifo:internal_reference_id "BE-00010" .
 
-<IF/11/1#7>
+<IF#ref7>
   a bibo:Article ;
   dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/23224420> ;
   ifo:internal_reference_id "BE-00100" .
 
-<IF/11/1#8>
+<IF#ref8>
   a bibo:BookSection ;
   dct:issued "2005"^^xsd:gYear ;
   prism:publicationName "過活動膀胱診療ガイドライン" ;
@@ -130,7 +130,7 @@
   ] ;
   ifo:internal_reference_id "R-04252" .
 
-<IF/11/1#9>
+<IF#ref9>
   a bibo:BookSection ;
   dct:issued "2005"^^xsd:gYear ;
   prism:publicationName "過活動膀胱診療ガイドライン" ;
@@ -146,7 +146,7 @@
   ] ;
   ifo:internal_reference_id "R-04253" .
 
-<IF/11/1#10>
+<IF#ref10>
   a bibo:BookSection ;
   dct:issued "2005"^^xsd:gYear ;
   prism:publicationName "過活動膀胱診療ガイドライン" ;
@@ -162,13 +162,13 @@
   ] ;
   ifo:internal_reference_id "R-04254" .
 
-<IF/11/1#11>
+<IF#ref11>
   a bibo:Document ;
   rdfs:label "社内報告書" ;
   ifo:ctd_number "CTD2.7.6.7" ;
   ifo:dir_number "DIR110060" .
 
-<IF/11/1#12>
+<IF#ref12>
   a bibo:Document ;
   rdfs:label "社内報告書" ;
   ifo:ctd_number "CTD2.7.6.24" ;
