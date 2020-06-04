@@ -5,6 +5,7 @@
 # 他の場所からの文献への参照は、dct:reference <IF/11/1#2> のように記述できます。
 # 問題は、元のIFから変換するのが大変ということ。スペックを提示したら誰かがやってくれるならこれでいいと思いますが。
 #
+@base <https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -20,7 +21,7 @@
   obo:length 77;
   olo:slot [
     olo:index 1 ;
-    olo:item <IF/11/1#1>
+    olo:item <IF#ref1>
   ], [
     olo:index 2 ;
     olo:item <IF/11/1#2>
