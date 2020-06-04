@@ -6,8 +6,10 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <http://med2rdf.org/ontology/ifo/>
+    <http://purl.org/dc/terms/description> "An ontology of the concepts which are necessary to rdfize interview forms."@en ;
     a owl:Ontology ;
     rdfs:label "interview form ontology"@en ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> ;
     owl:versionInfo 0.01 .
 
 :IF_1
@@ -461,6 +463,16 @@
     rdfs:label "検証的試験"@ja ;
     rdfs:subClassOf :IF_5_5 .
 
+:IF_5_5_4_1
+    a owl:Class ;
+    rdfs:label "有効性検証試験"@ja ;
+    rdfs:subClassOf :IF_5_5_4 .
+
+:IF_5_5_4_2
+    a owl:Class ;
+    rdfs:label "安全性試験"@ja ;
+    rdfs:subClassOf :IF_5_5_4 .
+
 :IF_5_5_5
     a owl:Class ;
     rdfs:label "患者・病態別試験"@ja ;
@@ -470,6 +482,16 @@
     a owl:Class ;
     rdfs:label "治療的使用"@ja ;
     rdfs:subClassOf :IF_5_5 .
+
+:IF_5_5_6_1
+    a owl:Class ;
+    rdfs:label "使用成績調査"@ja ;
+    rdfs:subClassOf :IF_5_5_6 .
+
+:IF_5_5_6_2
+    a owl:Class ;
+    rdfs:label "承認条件として実施予定の内容又は実施した調査・試験の概要"@ja ;
+    rdfs:subClassOf :IF_5_5_6 .
 
 :IF_5_5_7
     a owl:Class ;
