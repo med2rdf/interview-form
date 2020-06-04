@@ -1,0 +1,64 @@
+@base <https://www.info.pmda.go.jp/go/interview/1/180188_4291427A1024_1_025_1F.pdf> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix olo: <http://purl.org/ontology/olo/core#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<IF/11/1>
+  rdf:type ifo:IF_11_1 ;
+  rdf:type olo:OrderedList ;
+  obo:length 72;
+  olo:slot [
+    olo:index 1 ;
+    olo:item <IF#ref1>
+  ], [
+    olo:index 2 ;
+    olo:item <IF#ref2>
+  ], [
+    olo:index 3 ;
+    olo:item <IF#ref3>
+  ], [
+    olo:index 4 ;
+    olo:item <IF#ref4>
+  ], [
+    olo:index 5 ;
+    olo:item <IF#ref5>
+  ], [
+    olo:index 6 ;
+    olo:item <IF#ref6>
+  ] .
+  
+<IF#ref1>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/27928714> .
+
+<IF#ref2>
+  a bibo:Document ;
+  rdfs:label "小野薬品工業社内資料(海外第I相単回投与(CA209001)試験)" ;
+  dct:date "2014-07-14"^^xsd:date ;
+  ifo:ctd_number "CTD 2.7.6.2"
+  ifo:internal_reference_id "CA209001" .
+
+<IF#ref3>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/20516446> .
+
+<IF#ref4>
+  a bibo:Document ;
+  rdfs:label "小野薬品工業社内資料(海外第I相反復投与(CA209003)試験" ;
+  dct:date "2014-07-14"^^xsd:date ;
+  ifo:ctd_number "CTD 2.7.6.3"
+  ifo:internal_reference_id "CA209003" .
+
+<IF#ref5>
+  a bibo:Article ;
+  ifo:internal_reference_id "CA209003" .
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/22658127> .
+
+<IF#ref6>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/26861469> .
