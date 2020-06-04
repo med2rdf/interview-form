@@ -1,0 +1,68 @@
+<IF/12>
+  rdf:type ifo:IF_12 ;
+  ifo:key "ⅩⅡ.  参考資料 " .
+
+<IF/12/1>
+  rdf:type ifo:IF_12_1 ;
+  ifo:key "1.主な外国での発売状況 "
+  ifo:value """
+  世界 81 の国と地域で承認 (2019 年 5 月現在)
+  """ .
+
+<IF/12/1/1>
+  rdf:type ifo:IF_12_1_1 ;
+  ifo:key "本邦";
+  ifo:value "" .
+    ##どうする
+
+<IF/12/1/2>
+  rdf:type ifo:IF_12_1_2 ;
+  ifo:key "米国" ;
+  ifo:販売名 "MYRBETRIQ" ;
+  ifo:剤形・規格・容量  "Extended-release tablets: 25 mg and 50 mg" ;
+  ifo:販売企業名 "Astellas Pharma US Inc." ;
+  ifo:発売年月 2012-10 ;
+  ifo:効能・効果 """
+  The treatment of overactive bladder (OAB) with symptoms of urge urinary incontinence, urgency, and urinary frequency.
+  """ ;
+  ifo:用法・用量 """
+  ・Recommended starting dose is 25 mg once daily, alone or in combination with solifenacin succinate 5 mg, once daily.
+  ・Based on individual efficacy and tolerability, may increase dose to 50 mg once daily, alone or in combination with solifenacin succinate 5 mg, once daily .
+  ・Swallow whole with water, with or without food, do not chew, divide or crush .
+  ・Patients with Severe Renal Impairment or Patients with Moderate Hepatic Impairment: Maximum dose is 25 mg MYRBETRIQ once daily.
+  ・Patients with End Stage Renal Disease (ESRD) or Patients with Severe Hepatic Impairment: Not recommended.
+  """ .
+
+  <IF/12/1/3>
+    rdf:type ifo:IF_12_1_3 ;
+    ifo:key "EU" ;
+    ifo:販売名 "BETMIGA" ;
+    ifo:剤形・規格・容量  "prolonged-release tablets: 25 mg and 50 mg" ;
+    ifo:販売企業名 "Astellas Pharma Europe B.V." ;
+    ifo:発売年月 2013-02 ;
+    ifo:効能・効果 """
+    Symptomatic treatment of urgency, increased micturition frequency and/or urgency incontinence as may occur in adult patients with overactive bladder (OAB) syndrome.
+    """ ;
+    ifo:用法・用量 """
+    Posology
+    Adults (including elderly patients)
+    The recommended dose is 50 mg once daily.
+
+    Special populations
+    Renal and hepatic impairment
+    Betmiga has not been studied in patients with end stage renal disease (GFR < 15 mL/min/1.73 m2 or patients requiring haemodialysis) or severe hepatic impairment (Child-Pugh Class C) and it is therefore not recommended for use in these patient populations.
+
+    The following table provides the daily dosing recommendations for subjects with renal or hepatic impairment in the absence and presence of strong CYP3A inhibitors.
+    ###表あり###
+    Gender
+    No dose adjustment is necessary according to gender.
+
+    Paediatric population
+    The safety and efficacy of mirabegron in children below 18 years of age have not yet been established.
+    No data are available.
+
+    Method of administration
+    The tablet is to be taken with liquids, swallowed whole and is not to be chewed, divided, or crushed. It may be taken with or without food.
+
+      * Interaction with other medicinal products and other forms of interaction
+    """ .
