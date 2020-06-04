@@ -57,7 +57,7 @@
     olo:item <IF/11/1#12>
   ] .
 
-<IF/11/1#1>
+<IF#ref1>
   a bibo:Article ;
   dct:creator "本間 之夫 他" ;
   prism:publicationName "日本排尿機能学会誌" ;
