@@ -25,13 +25,13 @@ yjcode:2590014F2028
   ifo:key "表紙" .
   dct:modified "2019-12"^^xsd:date ;
   ifo:version 15 ;
-  ifo:日本標準商品分類番号  87259 ;
+  ifo:日本標準商品分類番号 87259 ;
   ifo:記載要領 "2018" ;
 
   rdfs:label "ベニタス錠25mg"@ja, "ベニタス錠50mg"@ja, "Benitas Tablets 25mg, 50mg"@en ;
   rdfs:comment "選択的β3アドレナリン受容体作動性過活動膀胱治療剤 ミラベグロン錠" ;
 
-  rdfs:薬効分類名 "選択的β_3アドレナリン受容体作動性過活動膀胱治療" ;
+  rdfs:薬効分類名 "選択的β_3アドレナリン受容体作動性過活動膀胱治療剤" ;
   rdfs:一般名称 "ミラベグロン錠" ;
   ifo:logo <http://...../logo.png> ;
 
