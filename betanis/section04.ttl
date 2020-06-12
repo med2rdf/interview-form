@@ -1,0 +1,17 @@
+<IF/4>
+	rdf:type ifo:IF_2 ;
+	ifo:key "IV. 製剤に関する項目" .
+
+<IF/4/1>
+	rdf:type ifo:IF_4_1 ;
+	ifo:key "1. 剤形" .
+
+<IF/4/1/1>
+	rdf:type ifo:IF_4_1_1 ;
+	ifo:key "(1) 剤形の区別" ;
+	ifo:value "フィルムコーティング錠" .
+
+<IF/4/1/2>
+	rdf:type ifo:IF_4_1_2 ;
+	ifo:key "(2) 剤形の外観及び性状" ;
+	ifo:table
