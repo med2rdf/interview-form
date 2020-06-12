@@ -88,7 +88,8 @@
 <IF/8/6/2>
   rdf:type ifo:IF_8_6_2 ;
   ifo:key "(2) 腎機能障害患者"  ;
-  ifo:value "設定されていない" .
+  ifo:添付文書 ifo:NotAvailable ;
+  ifo:解説 "設定されていない" .
     ### 添付文書に記載が無いときに　ifo:valueでよいか？
 
 <IF/8/6/2>
