@@ -55,6 +55,201 @@
   ], [
     olo:index 12 ;
     olo:item <IF#ref12>
+  ], [
+    olo:index 13 ;
+    olo:item <IF#ref13>
+  ], [
+    olo:index 14 ;
+    olo:item <IF#ref14>
+  ], [
+    olo:index 15 ;
+    olo:item <IF#ref15>
+  ], [
+    olo:index 16 ;
+    olo:item <IF#ref16>
+  ], [
+    olo:index 17 ;
+    olo:item <IF#ref17>
+  ], [
+    olo:index 18 ;
+    olo:item <IF#ref18>
+  ], [
+    olo:index 19 ;
+    olo:item <IF#ref19>
+  ], [
+    olo:index 20 ;
+    olo:item <IF#ref20>
+  ], [
+    olo:index 21 ;
+    olo:item <IF#ref21>
+  ], [
+    olo:index 22 ;
+    olo:item <IF#ref22>
+  ], [
+    olo:index 23 ;
+    olo:item <IF#ref23>
+  ], [
+    olo:index 24 ;
+    olo:item <IF#ref24>
+  ], [
+    olo:index 25 ;
+    olo:item <IF#ref25>
+  ], [
+    olo:index 26 ;
+    olo:item <IF#ref26>
+  ], [
+    olo:index 27 ;
+    olo:item <IF#ref27>
+  ], [
+    olo:index 28 ;
+    olo:item <IF#ref28>
+  ], [
+    olo:index 29 ;
+    olo:item <IF#ref29>
+  ], [
+    olo:index 30 ;
+    olo:item <IF#ref30>
+  ], [
+    olo:index 31 ;
+    olo:item <IF#ref31>
+  ], [
+    olo:index 32 ;
+    olo:item <IF#ref32>
+  ], [
+    olo:index 33 ;
+    olo:item <IF#ref33>
+  ], [
+    olo:index 34 ;
+    olo:item <IF#ref34>
+  ], [
+    olo:index 35 ;
+    olo:item <IF#ref35>
+  ], [
+    olo:index 36 ;
+    olo:item <IF#ref36>
+  ], [
+    olo:index 37 ;
+    olo:item <IF#ref37>
+  ], [
+    olo:index 38 ;
+    olo:item <IF#ref38>
+  ], [
+    olo:index 39 ;
+    olo:item <IF#ref39>
+  ], [
+    olo:index 40 ;
+    olo:item <IF#ref40>
+  ], [
+    olo:index 41 ;
+    olo:item <IF#ref41>
+  ], [
+    olo:index 42 ;
+    olo:item <IF#ref42>
+  ], [
+    olo:index 43 ;
+    olo:item <IF#ref43>
+  ], [
+    olo:index 44 ;
+    olo:item <IF#ref44>
+  ], [
+    olo:index 45 ;
+    olo:item <IF#ref45>
+  ], [
+    olo:index 46 ;
+    olo:item <IF#ref46>
+  ], [
+    olo:index 47 ;
+    olo:item <IF#ref47>
+  ], [
+    olo:index 48 ;
+    olo:item <IF#ref48>
+  ], [
+    olo:index 49 ;
+    olo:item <IF#ref49>
+  ], [
+    olo:index 50 ;
+    olo:item <IF#ref50>
+  ], [
+    olo:index 51 ;
+    olo:item <IF#ref51>
+  ], [
+    olo:index 52 ;
+    olo:item <IF#ref52>
+  ], [
+    olo:index 53 ;
+    olo:item <IF#ref53>
+  ], [
+    olo:index 54 ;
+    olo:item <IF#ref54>
+  ], [
+    olo:index 55 ;
+    olo:item <IF#ref55>
+  ], [
+    olo:index 56 ;
+    olo:item <IF#ref56>
+  ], [
+    olo:index 57 ;
+    olo:item <IF#ref57>
+  ], [
+    olo:index 58 ;
+    olo:item <IF#ref58>
+  ], [
+    olo:index 59 ;
+    olo:item <IF#ref59>
+  ], [
+    olo:index 60 ;
+    olo:item <IF#ref60>
+  ], [
+    olo:index 61 ;
+    olo:item <IF#ref61>
+  ], [
+    olo:index 62 ;
+    olo:item <IF#ref62>
+  ], [
+    olo:index 63 ;
+    olo:item <IF#ref63>
+  ], [
+    olo:index 64 ;
+    olo:item <IF#ref64>
+  ], [
+    olo:index 65 ;
+    olo:item <IF#ref65>
+  ], [
+    olo:index 66 ;
+    olo:item <IF#ref66>
+  ], [
+    olo:index 67 ;
+    olo:item <IF#ref67>
+  ], [
+    olo:index 68 ;
+    olo:item <IF#ref68>
+  ], [
+    olo:index 69 ;
+    olo:item <IF#ref69>
+  ], [
+    olo:index 70 ;
+    olo:item <IF#ref70>
+  ], [
+    olo:index 71 ;
+    olo:item <IF#ref71>
+  ], [
+    olo:index 72 ;
+    olo:item <IF#ref72>
+  ], [
+    olo:index 73 ;
+    olo:item <IF#ref73>
+  ], [
+    olo:index 74 ;
+    olo:item <IF#ref74>
+  ], [
+    olo:index 75 ;
+    olo:item <IF#ref75>
+  ], [
+    olo:index 76 ;
+    olo:item <IF#ref76>
+  ], [
+    olo:index 77 ;
+    olo:item <IF#ref77>
   ] .
 
 <IF#ref1>
@@ -70,11 +265,11 @@
 
 <IF#ref2>
   a bibo:Article ;
-  dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/15971719> .
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/15971719> .
 
 <IF#ref3>
   a bibo:Article ;
-  dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/11412210> ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/11412210> ;
   ifo:internal_reference_id "R-04276" .
 
 <IF#ref4>
@@ -106,12 +301,12 @@
 
 <IF#ref6>
   a bibo:Article ;
-  dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/17293563> ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/17293563> ;
   ifo:internal_reference_id "BE-00010" .
 
 <IF#ref7>
   a bibo:Article ;
-  dct:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/23224420> ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23224420> ;
   ifo:internal_reference_id "BE-00100" .
 
 <IF#ref8>
@@ -164,6 +359,7 @@
 
 <IF#ref11>
   a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
   rdfs:label "社内報告書" ;
   ifo:ctd_number "CTD2.7.6.7" ;
   ifo:dir_number "DIR110060" .
@@ -173,6 +369,412 @@
   rdfs:label "社内報告書" ;
   ifo:ctd_number "CTD2.7.6.24" ;
   ifo:dir_number "DIR110073" .
+
+<IF#ref13>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23149929> ;
+  ifo:internal_reference_id "BE-00099" .
+
+<IF#ref14>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.2.2.2.5.2" ;
+  ifo:dir_number "DIR190220" .
+
+<IF#ref15>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.6.26" ;
+  ifo:dir_number "DIR110075" .
+
+<IF#ref16>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:dir_number "DIR180383" .
+
+<IF#ref17>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.6.27", "CTD2.7.2.3.2.2" ;
+  ifo:dir_number "DIR110065" .
+
+<IF#ref18>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/24471907> ;
+  ifo:internal_reference_id "BE-00245" .
+
+<IF#ref19>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.6.28" ;
+  ifo:dir_number "DIR110076" .
+
+<IF#ref20>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/28120446> ;
+  ifo:internal_reference_id "BE-00494" .
+
+<IF#ref21>
+  a bibo:Document ;
+  rdfs:label "社内報告書" ;
+  ifo:dir_number "DIR180384" .
+
+<IF#ref22>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "長期投与試験" ;
+  ifo:ctd_number "CTD2.7.4.4.4" .
+# ↑　申請資料概要 2.7.4.4.4　をこのように書いていいのか？
+
+<IF#ref23>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/27860325> ;
+  ifo:internal_reference_id "BE-00605" .
+
+<IF#ref24>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/27624693> ;
+  ifo:internal_reference_id "BE-00469" .
+
+<IF#ref25>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/30079630> ;
+  ifo:internal_reference_id "BE-00680" .
+
+<IF#ref26>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/25639296> ;
+  ifo:internal_reference_id "BE-00370" .
+
+<IF#ref27>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/27829538> ;
+  ifo:internal_reference_id "BE-00501" .
+
+<IF#ref28>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/30548692> ;
+  ifo:internal_reference_id "BE-00767" .
+
+<IF#ref29>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23239087> ;
+  ifo:internal_reference_id "BE-00144" .
+
+<IF#ref30>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/16054622> .
+
+<IF#ref31>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/18490916> ;
+  ifo:internal_reference_id "R-07572" .
+
+<IF#ref32>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.2.2.1.1.1" ;
+  ifo:dir_number "DIR110077" .
+
+<IF#ref33>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.2.2.2.1" ;
+  ifo:dir_number "DIR110078" .
+
+<IF#ref34>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.2.2.4" ;
+  ifo:dir_number "DIR110104" .
+
+<IF#ref35>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23832377> ;
+  ifo:internal_reference_id "BE-00212" .
+
+<IF#ref36>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.2.2.4.4" ;
+  ifo:dir_number "DIR110105" .
+
+<IF#ref37>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/24178236> ;
+  ifo:internal_reference_id "BE-00287" .
+
+<IF#ref38>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/25791612> ;
+  ifo:internal_reference_id "BE-00331" .
+
+<IF#ref39>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.6.6" ;
+  ifo:dir_number "DIR110061" .
+
+<IF#ref40>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "DIR110111" ;
+  ifo:dir_number "DIR110107" .
+
+<IF#ref41>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.4.6.3" ;
+  ifo:dir_number "DIR110111" .
+
+<IF#ref42>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.4.4.1" ;
+  ifo:dir_number "DIR110108" .
+
+<IF#ref43>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.4.4.6" ;
+  ifo:dir_number "DIR110109" .
+
+<IF#ref44>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.4.6.4" ;
+  ifo:dir_number "DIR110049" .
+
+<IF#ref45>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.2.2.1.1" ;
+  ifo:dir_number "DIR110110" .
+
+<IF#ref46>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.2.3.1.3" ;
+  ifo:dir_number "DIR110119" .
+
+<IF#ref47>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/22509825> ;
+  ifo:internal_reference_id "BE-00069" .
+
+<IF#ref48>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/29164523> ;
+  ifo:internal_reference_id "BE-00658" .
+
+<IF#ref49>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.2.2.1.2.2" ;
+  ifo:dir_number "DIR110058" .
+
+<IF#ref50>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/22834478> ;
+  ifo:internal_reference_id "BE-00094" .
+
+<IF#ref51>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23063375> ;
+  ifo:internal_reference_id "BE-00091" .
+
+<IF#ref52>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.2.2.5" ;
+  ifo:dir_number "DIR190221" .
+
+<IF#ref53>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/22269146> ;
+  ifo:internal_reference_id "BE-00307" .
+
+<IF#ref54>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23560393> ;
+  ifo:internal_reference_id "BE-00146" .
+
+<IF#ref55>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/27350625> ;
+  ifo:internal_reference_id "BE-00098" .
+
+<IF#ref56>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23208320> ;
+  ifo:internal_reference_id "BE-00098" .
+
+<IF#ref57>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.6.14" ;
+  ifo:dir_number "DIR110066" .
+
+<IF#ref58>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.6.15" ;
+  ifo:dir_number "DIR110067" .
+
+<IF#ref59>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.7.6.13" ;
+  ifo:dir_number "DDIR110063" .
+
+<IF#ref60>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.3.1" ;
+  ifo:dir_number "DIR110050" .
+
+<IF#ref61>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.7.7A" ;
+  ifo:dir_number "DIR110056" .
+
+<IF#ref62>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.3.2" ;
+  ifo:dir_number "DIR110051" .
+
+<IF#ref63>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.7.7B" ;
+  ifo:dir_number "DIR110057" .
+
+<IF#ref64>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.6.2" ;
+  ifo:dir_number "DIR110052" .
+
+<IF#ref65>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.6.4" ;
+  ifo:dir_number "DIR110053" .
+
+<IF#ref66>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.6.7" ;
+  ifo:dir_number "DIR110054" .
+
+<IF#ref67>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.6.11" ;
+  ifo:dir_number "DIR110055" .
+
+<IF#ref68>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23625188> ;
+  ifo:internal_reference_id "BE-00147" .
+
+<IF#ref69>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23728524> ;
+  ifo:internal_reference_id "BE-00242" .
+
+<IF#ref70>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.2.4" ;
+  ifo:dir_number "DIR110106" .
+
+<IF#ref71>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.2" ;
+  ifo:dir_number "DIR110112" .
+
+<IF#ref72>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.3" ;
+  ifo:dir_number "DIR110113" .
+
+<IF#ref73>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.9.7" ;
+  ifo:dir_number "DIR110118" .
+
+<IF#ref74>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.6" ;
+  ifo:dir_number "DIR110114" .
+
+<IF#ref75>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.7" ;
+  ifo:dir_number "DIR110115" .
+
+<IF#ref76>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.8.1" ;
+  ifo:dir_number "DIR110116" .
+
+<IF#ref77>
+  a bibo:Document ;
+  dct:dateAccepted "2011-07-01"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTD2.6.6.8.4" ;
+  ifo:dir_number "DIR110117" .
+
+<IF/11/2>
+  rdf:type ifo:IF_11_2 ;
+  rdf:value "" .
+
 
 ###
 
