@@ -1,0 +1,8 @@
+<IF/12>
+  rdf:type ifo:IF_13 ;
+  ifo:key "ⅩⅢ．備考" .
+
+<IF/13/1>
+  rdf:type ifo:IF_13_1 ;
+  ifo:key "その他の関連資料" ;
+  ifo:value "該当資料なし" .
