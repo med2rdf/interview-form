@@ -1,67 +1,67 @@
-<IF/3>
+<IF_3>
   rdf:type ifo:IF_3 ;
   ifo:key "III. 有効成分に関する項目" .
 
-<IF/3/1>
+<IF_3_1>
 	rdf:type ifo:IF_3_1 ;
 	ifo:key "1. 物理化学的性質" ;
 
-<IF/3/1/1>
+<IF_3_1_1>
 	rdf:type ifo:IF_3_1_1 ;
 	ifo:key "(1) 外観・性状" ;
 	ifo:value "白色〜微帯褐白色の結晶又は粉末である。" .
  
-<IF/3/1/2>
+<IF_3_1_2>
 	rdf:type ifo:IF_3_1_2 ;
 	ifo:key "(2) 溶解性" ;
-	ifo:table <IF/3/1/2/table/1> .
+	ifo:table <IF_3_1_2:table1> .
 
-<IF/3/1/2/table/1>
+<IF_3_1_2:table1>
 	rdf:type ifo:Table ;
 	ifo:caption "ミラベグロンの溶解性(室温)" ;
-	ifo:file "table_3_1_2_1.jpg" .
+	rdfs:seeAlso <http://....../3_1_2_t1.xlsx> .
 
-<IF/3/1/3>
+<IF_3_1_3>
 	rdf:type ifo:IF_3_1_3 ;
 	ifo:key "(3) 吸湿性" ;
 	ifo:value "吸湿性は認められない。" .
 
-<IF/3/1/4>
+<IF_3_1_4>
 	rdf:type ifo:IF_3_1_4 ;
 	ifo:key "(4) 融点（分解点）、沸点、凝固点" ;
 	ifo:value "融解：約144℃" .
 
-<IF/3/1/5>
+<IF_3_1_5>
 	rdf:type ifo:IF_3_1_5 ;
 	ifo:key "(5) 酸塩基解離定数" ;
 	ifo:value "pKa=4.5 及び 8.0" .
 
-<IF/3/1/6>
+<IF_3_1_6>
 	rdf:type ifo:IF_3_1_6 ;
 	ifo:key "(6) 分配係数" ;
-	ifo:table <IF/3/1/6/table/1> .
+	ifo:table <IF_3_1_6:table1> .
 
-<IF/3/1/6/table/1>
+<IF_3_1_6:table1>
 	rdf:type ifo:Table ;
 	ifo:caption "" ;
-	ifo:file "table_3_1_6_1.jpg"
+	rdfs:seeAlso <http://....../3_1_6_t1.xlsx> .
 
-<IF/3/1/7>
+<IF_3_1_7>
 	rdf:type ifo:IF_3_1_7 ;
 	ifo:key "(7) その他の主な示性値" ;
 	ifo:value "旋光度(エタノール(99.5)中 $\[\alpha\]_D^{20}:-19.8^\circ$
 
-<IF/3/2>
+<IF_3_2>
 	rdf:type ifo:IF_3_2 ;
 	ifo:key "2. 有効成分の各種条件化における安定性" ;
-	ifo:table <IF/3/2/table/1> .
+	ifo:table <IF_3_2:table1> .
 
-<IF/3/2/table/1>
+<IF_3_2:table1>
 	rdf:type ifo:Table ;
 	ifo:caption "" ;
-	ifo:file "table_3_2.jpg"
+	rdfs:seeAlso <http://....../3_2_t1.xlsx> .
 
-<IF/3/3>
+<IF_3_3>
 	rdf:type ifo:IF_3_3 ;
 	ifo:key "3. 有効成分の確認試験法、定量法" 
 	ifo:value """
