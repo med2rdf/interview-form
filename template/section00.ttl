@@ -1,0 +1,80 @@
+@base <http://med2rdf.org/if/XXXXXX_XXXXXXXXXXXX_X_XXX_XX#> .
+@prefix yjc: <http://med2rdf.org/if/yjcode/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix ifo: <http://med2rdf.org/ontology/ifo/> .
+
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix pav:   <http://purl.org/pav/> .
+
+<>
+  rdfs:seeAlso
+    <https://www.info.pmda.go.jp/go/interview/1/XXXXXX_XXXXXXXXXXXX_X_XXX_XX.pdf>
+  ifo:drug_proprietary_id
+    yjc:XXXXXXXXXXXX ,
+    yjc:YYYYYYYYYYYY .
+
+yjcode:XXXXXXXXXXXX
+  rdfs:label
+    "医薬品販売名1" ;
+  dct:identifier
+    "XXXXXXXXXXXX" .
+
+yjcode:YYYYYYYYYYYY
+  rdfs:label
+    "医薬品販売名2" ;
+  dct:identifier
+    "YYYYYYYYYYYY" .
+
+<IF_0>
+  rdf:type
+    ifo:IF_0 ;
+  dct:modified
+    "20XX-XX"^^xsd:date ;
+  pav:version
+    XX ;  # 第XX版
+  ifo:日本標準商品分類番号
+    XXXXX ;
+  ifo:記載要領
+    "20XX" ;
+  rdfs:label
+    "医薬品販売名1"@ja, "医薬品販売名2"@ja, "Drug name in English"@en ;
+  rdfs:comment
+    "薬効分類名 剤名" ;
+  rdfs:薬効分類名
+    "薬効分類名" ;
+  rdfs:一般名称
+    "一般名称" ;
+  foaf:depicts
+    <http://...../logo.png> ;
+  ifo:剤形
+    "剤形" ;
+  ifo:製剤の規制区分
+    "製剤の規制区分" ;
+  ifo:規格・含量
+    """
+    規格・含量
+""" ;
+  ifo:一般名
+    "日本語一般名"@ja, "Generic name in English"@en ;
+  ifo:製造販売承認年月日
+    20XX-XX-XX ;
+  ifo:薬価基準収載年月日
+    20XX-XX-XX ;
+  ifo:販売開始年月日
+    20XX-XX-XX ;
+  ifo:製造販売
+    "製薬会社名" ;
+  ifo:医薬情報担当者の連絡先
+    "" ;
+  ifo:問い合わせ窓口 """
+    問い合わせ窓口
+""" ;
+  ifo:添付文書改訂年月
+    "20XX-XX"^^xsd:date .
+
