@@ -1,21 +1,34 @@
-<IF/12>
+<IF_12>
   rdf:type ifo:IF_12 ;
   ifo:key "ⅩⅡ.  参考資料 " .
 
-<IF/12/1>
+<IF_12_1>
   rdf:type ifo:IF_12_1 ;
-  ifo:key "1.主な外国での発売状況 "
+  ifo:key "1.主な外国での発売状況 " ;
   ifo:value """
   世界 81 の国と地域で承認 (2019 年 5 月現在)
   """ .
 
-<IF/12/1/1>
+<IF_12_1_1>
   rdf:type ifo:IF_12_1_1 ;
-  ifo:key "本邦";
-  ifo:value "" .
-    ##どうする
+  ifo:key "本邦" ;
+  ifo:効能・効果　"""
+  過活動膀胱における尿意切迫感、頻尿及び切迫性尿失禁
 
-<IF/12/1/2>
+　注意事項：
+    1 本剤を適用する際、十分な問診により臨床症状を確認するとともに、類似の症状を呈する疾患(尿路感染症、尿路結石、膀胱癌や前立腺癌などの下部尿路における新生物等)があることに留意し、尿検査等により除外診断を実施すること。なお、必要に応じて専門的な検査も考慮すること。
+    2 下部尿路閉塞疾患(前立腺肥大症等)を合併している患者では、それに対する治療(α1 遮断薬等)を優先させること。
+  """ ;
+  ifo:用法・用量 """
+　通常、成人にはミラベグロンとして 50mg を 1 日 1 回食後に経口投与する。
+　
+　注意事項：
+    1 中等度の肝機能障害患者(Child-Pugh スコア 7~9)への投与は 1 日 1 回 25mg から開始する。 
+    2 重度の腎機能障害患者(eGFR15~29mL/min/1.73m2)への投与は 1 日 1 回 25mg から開始する。
+  """ .
+    ## 安倍さんチェック
+
+<IF_12_1_2>
   rdf:type ifo:IF_12_1_2 ;
   ifo:key "米国" ;
   ifo:販売名 "MYRBETRIQ" ;
@@ -33,7 +46,7 @@
   ・Patients with End Stage Renal Disease (ESRD) or Patients with Severe Hepatic Impairment: Not recommended.
   """ .
 
-  <IF/12/1/3>
+  <IF_12_1_3>
     rdf:type ifo:IF_12_1_3 ;
     ifo:key "EU" ;
     ifo:販売名 "BETMIGA" ;
@@ -67,15 +80,15 @@
       * Interaction with other medicinal products and other forms of interaction
     """ .
 
-<IF/12/2>
+<IF_12_2>
  rdf:type ifo:IF_12_2 ;
  ifo:key "2.海外における臨床支援情報 " .
 
-<IF/12/2/1>
+<IF_12_2_1>
   rdf:type ifo:IF_12_2_1 ;
   ifo:value "(1) 妊婦への投与に関する海外情報（FDA、オーストラリア分類）" .
 
-<IF/12/2/1/1>
+<IF_12_2_1_1>
   rdf:type ifo:IF_12_2_1_1 ;
   ifo:key "日本" ;
   ifo:value """
@@ -86,7 +99,7 @@
   授乳を避けさせること。動物実験(ラット)で乳汁移行が認められている。また、授乳期に本薬を母動物に投与した場合、出生児で生存率の低値及び体重増加抑制が認められている。
   """ .
 
-<IF/12/2/1/2>
+<IF_12_2_1_2>
   rdf:type ifo:IF_12_2_1_2 ;
   ifo:key "米国" ;
   ifo:value """
@@ -105,9 +118,9 @@
   There is no information on the presence of mirabegron in human milk, the effects on the breastfed child, or the effects on milk production. Mirabegron-related material was present in rat milk and in the stomach of nursing pups following administrations of a single 10 mg/kg oral dose of 14C-labeled mirabegron to lactating rats.
   The developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for MYRBETRIQ and any potential adverse effects on the breastfed child from MYRBETRIQ or from the underlying maternal condition.
   (2018 年 4 月改訂)
-  """ ;
+  """ .
 
-<IF/12/2/1/3>
+<IF_12_2_1_3>
   rdf:type ifo:IF_12_2_1_3 ;
   ifo:key "オーストラリア分類" ;
   ifo:value "B3 (2019年6月)" ;
@@ -119,11 +132,11 @@
   〈https://www.tga.gov.au/file/1307/download〉(2019/05/17 アクセス)
   """ .
 
-<IF/12/2/2>
+<IF_12_2_2>
   rdf:type ifo:IF_12_2_2 ;
   ifo:value "(2) 小児等に関する記載" .
 
-<IF/12/2/2/1>
+<IF_12_2_2_1>
   rdf:type ifo:IF_12_2_2_1 ;
   ifo:key "日本" ;
   ifo:value """
@@ -133,15 +146,15 @@
   小児等を対象とした有効性及び安全性を指標とした国内の臨床試験は実施していない。
   """ .
 
-<IF/12/2/2/2>
+<IF_12_2_2_2>
   rdf:type ifo:IF_12_2_2_2 ;
   ifo:key "米国" ;
   ifo:value """
   The safety and effectiveness of MYRBETRIQ in pediatric patients have not been established.
   (2018年4月)
-  """ ;
+  """ .
 
-<IF/12/2/2/3>
+<IF_12_2_2_3>
   rdf:type ifo:IF_12_2_2_3 ;
   ifo:key "英国" ;
   ifo:value """ 
