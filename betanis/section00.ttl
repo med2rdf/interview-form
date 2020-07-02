@@ -1,77 +1,86 @@
-@base <https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf> .
+@base <http://med2rdf.org/if/800126_2590014F1021_1_015_1F#> .
+@prefix yjc: <http://med2rdf.org/if/yjcode/> .
 @prefix pio: <http://med2rdf.org/ontology/pio/> .
 @prefix ifo: <http://med2rdf.org/ontology/ifo/> .
-@prefix yjcode: <http://med2rdf.org/drug/> .
+
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix pav:   <http://purl.org/pav/> .
 
 <>
+  rdfs:seeAlso
+    <https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf> .
   ifo:drug_proprietary_id
-    yjcode:2590014F1021 ,
-    yjcode:2590014F2028 .
+    yjc:2590014F1021 ,
+    yjc:2590014F2028 .
 
-yjcode:2590014F1021
+yjc:2590014F1021
   rdfs:label
     "ベタニス錠 25mg" ;
   dct:identifier
     "2590014F1021" .
 
-yjcode:2590014F2028
+yjc:2590014F2028
   rdfs:label
     "ベタニス錠 50mg" ;
   dct:identifier
     "2590014F2028" . 
 
 <IF/0>
-  rdf:type ifo:IF_0 ;
-  ifo:key "表紙" .
-  dct:modified "2019-12"^^xsd:date ;
-  ifo:version 15 ;
-  ifo:日本標準商品分類番号 87259 ;
-  ifo:記載要領 "2018" ;
-
-  rdfs:label "ベニタス錠25mg"@ja, "ベニタス錠50mg"@ja, "Benitas Tablets 25mg, 50mg"@en ;
-  rdfs:comment "選択的β3アドレナリン受容体作動性過活動膀胱治療剤 ミラベグロン錠" ;
-
-  rdfs:薬効分類名 "選択的β_3アドレナリン受容体作動性過活動膀胱治療剤" ;
-  rdfs:一般名称 "ミラベグロン錠" ;
-  ifo:logo <http://...../logo.png> ;
-
-  ifo:剤形 "フィルムコーティング錠" ;
-  ifo:製剤の規制区分 "劇薬、処方箋医薬品(注意-医師等の処方箋により使用すること)" ;
+  rdf:type
+    ifo:IF_0 ;
+  ifo:key
+    "表紙" .
+  dct:modified
+    "2019-12"^^xsd:date ;
+  pav:version
+    15 ;
+  ifo:日本標準商品分類番号
+    87259 ;
+  ifo:記載要領
+    "2018" ;
+  rdfs:label
+    "ベニタス錠25mg"@ja, "ベニタス錠50mg"@ja, "Benitas Tablets 25mg, 50mg"@en ;
+  rdfs:comment
+    "選択的β3アドレナリン受容体作動性過活動膀胱治療剤 ミラベグロン錠" ;
+  rdfs:薬効分類名
+    "選択的β_3アドレナリン受容体作動性過活動膀胱治療剤" ;
+  rdfs:一般名称
+    "ミラベグロン錠" ;
+  foaf:depicts
+    <http://...../logo.png> ;
+  ifo:剤形
+    "フィルムコーティング錠" ;
+  ifo:製剤の規制区分
+    "劇薬、処方箋医薬品(注意-医師等の処方箋により使用すること)" ;
 
   ifo:規格・含量 """
 ベタニス錠 25mg:1 錠中にミラベグロン 25mg を含有する。
 ベタニス錠 50mg:1 錠中にミラベグロン 50mg を含有する。
 """ ;
-
-  ifo:一般名                "ミラベグロン(JAN)"@ja, "Mirabegron(JAN)"@en ;
-  ifo:製造販売承認年月日    2011-07-01 ;
-  ifo:薬価基準収載年月日    2011-09-12 ;
-  ifo:販売開始年月日        2011-09-16 ;
-
-# ifo:製造販売(輸入)・提携・販売会社名 "製造販売:アステラス製薬株式会社" ;
-  ifo:製造販売              "アステラス製薬株式会社" ;
-
-  ifo:医薬情報担当者の連絡先 "" ;
-
+  ifo:一般名
+    "ミラベグロン(JAN)"@ja, "Mirabegron(JAN)"@en ;
+  ifo:製造販売承認年月日
+    2011-07-01 ;
+  ifo:薬価基準収載年月日
+    2011-09-12 ;
+  ifo:販売開始年月日
+    2011-09-16 ;
+  ifo:製造販売
+    "アステラス製薬株式会社" ;
+  ifo:医薬情報担当者の連絡先
+    "" ;
   ifo:問い合わせ窓口 """
 アステラス製薬株式会社
  メディカルインフォメーションセンター TEL 0120-189-371
  医療従事者向け情報サイト(Astellas Medical Net)
   https://amn.astellas.jp/
 """ ;
-
-  ifo:添付文書改訂年月 "2019-07"^^xsd:date .
-
-### 別解
-# <IF/0>
-#   rdf:type ifo:IF_0 ;
-#   ifo:key "表紙" .
-#   rdf:value [
-#     key
-#     value
-#   ], [
-#     key
-#     value
-#   ] ;
-#   ifo:🐶 "いぬ" .
+  ifo:添付文書改訂年月
+    "2019-07"^^xsd:date .
 
