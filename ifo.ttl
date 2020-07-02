@@ -22,12 +22,12 @@
 
 :IF_1_1
     a owl:Class ;
-    rdfs:label "製品の治療学的特性"@ja ;
+    rdfs:label "開発の経緯"@ja ;
     rdfs:subClassOf :IF_1 .
 
 :IF_1_2
     a owl:Class ;
-    rdfs:label "開発の経緯"@ja ;
+    rdfs:label "製品の治療学的特性"@ja ;
     rdfs:subClassOf :IF_1 .
 
 :IF_1_3
@@ -39,6 +39,26 @@
     a owl:Class ;
     rdfs:label "適正使用に関して周知すべき特性"@ja ;
     rdfs:subClassOf :IF_1 .
+
+:IF_1_4_1
+    a owl:Class ;
+    rdfs:label "RMP"@ja ;
+    rdfs:subClassOf :IF_1_4 .
+
+:IF_1_4_2
+    a owl:Class ;
+    rdfs:label "追加のリスク最小化活動として作成されている資材"@ja ;
+    rdfs:subClassOf :IF_1_4 .
+
+:IF_1_4_3
+    a owl:Class ;
+    rdfs:label "最適使用推進ガイドライン"@ja ;
+    rdfs:subClassOf :IF_1_4 .
+
+:IF_1_4_4
+    a owl:Class ;
+    rdfs:label "保険適用上の留意事項通知"@ja ;
+    rdfs:subClassOf :IF_1_4 .
 
 :IF_1_5
     a owl:Class ;
@@ -55,7 +75,7 @@
     rdfs:label "流通・使用上の制限事項"@ja ;
     rdfs:subClassOf :IF_1_5 .
 
-:IF_1_5_6
+:IF_1_6
     a owl:Class ;
     rdfs:label "RMP の概要"@ja ;
     rdfs:subClassOf :IF_1 .
@@ -897,13 +917,17 @@
     a owl:Class ;
     rdfs:label "備考"@ja .
 
-:key
-    a owl:DatatypeProperty .
+# Classes
 
-## Section 0
+:Table
+    a owl:Class .
 
-:value
-    a owl:DatatypeProperty .
+:Figure
+    a owl:Class .
+
+# Properties
+
+## Section :IF_0
 
 :drug_proprietary_id
     a owl:ObjectProperty .
