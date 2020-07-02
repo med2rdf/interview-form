@@ -1,12 +1,8 @@
-### rdfs:seeAlso, dct:references追加
+<IF_1>
+  rdf:type ifo:IF_1 .
 
-<IF/1>
-  rdf:type ifo:IF_1 ;
-  ifo:key "I.概要に関する項目" .
-
-<IF/1/1>
+<IF_1_1>
   rdf:type ifo:IF_1_1 ;
-  ifo:key "1.開発の経緯" ;
   ifo:value """
 ■過活動膀胱(Overactive Bladder;OAB)について
 近年の高齢化に伴い、QOL(Quality of life)に影響する泌尿器領域の疾患として、尿失禁などの下部尿路機能障害(Lower Urinary Tract Dysfunction;LUTD)が問題となってきており、その原因の一つとして「過活動膀胱(Overactive Bladder;OAB)」がクローズアップされている。過活動膀胱は蓄尿機能の障害により、尿意切迫感及び切迫性尿失禁などが生じ、QOL を著しく低下させ、患者自身のみならず、その周りの家族や介護者などにまで負担を強いる疾患である。
@@ -17,86 +13,61 @@
 ベタニス(一般名:ミラベグロン)はアステラス製薬株式会社において創製された選択的 β3 アドレナリン受 容体作動薬であり、非臨床試験において、膀胱弛緩作用により蓄尿機能を亢進させる一方、排尿機能に影 響を及ぼしにくいことが示唆された 6,7)。
 以上の結果から、ベタニスは既存薬とは異なる新たな作用機序を有する新規過活動膀胱治療薬になり得る と期待され、国内における臨床試験が 2005 年 10 月より開始された。
 第III相試験は 2009 年 7 月より開始され、尿意切迫感、頻尿、切迫性尿失禁という過活動膀胱症状に対し て、優れた有効性及び安全性が確認された。また、長期投与試験ではベタニスの長期における有効性及び 安全性が確認された。これらの結果をもって 2010 年 6 月に承認申請を行い、2011 年 7 月に「過活動膀胱 における尿意切迫感、頻尿及び切迫性尿失禁」の効能・効果で承認された。 ベタニスは日本で初めて、かつ世界で初めて承認された選択的 β3 アドレナリン受容体作動薬である。
-#""" .
-# M. Nakatsui 2020-07-02
-# 参照を追加
 """ ;
-  dct:references <IF#ref1>, <IF#ref2>, <IF#ref3>, <IF#ref4>, <IF#ref5>, <IF#ref6>, <IF#ref7> .
+  dct:references <ref1>, <ref2>, <ref3>, <ref4>, <ref5>, <ref6>, <ref7> .
 
-<IF/1/2>
+<IF_1_2>
   rdf:type ifo:IF_1_2 ;
-  ifo:key "2.製品の治療学的特性" ;
-  ifo:value """
+  rdf:value """
 1. 日本で開発された世界初の選択的 β3 アドレナリン受容体作動性の過活動膀胱治療薬である。 ・膀胱の β3 アドレナリン受容体に作用し、膀胱容量を増大させる。
 (「VI.2.(1)1)作用機序」の項参照)
 ・排尿期の膀胱収縮力に影響を及ぼしにくい薬剤である(ラット)。 (「VI.2.(2)5)律動性膀胱収縮に対する作用」の項参照)
 2. 過活動膀胱における尿意切迫感、頻尿、切迫性尿失禁に対し、1 日 1 回投与で優れた有効性を示す。 (「V.5.(4)1)有効性検証試験」の項参照)
 3. 重大な副作用として、尿閉及び高血圧(いずれも頻度不明)が報告されている。 (「VIII.8.(1)重大な副作用と初期症状」の項参照)
-#""" .
-# M. Nakatsui 2020-07-02
-# IF内参照を追加
 """ ;
-  rdfs:seeAlso <IF/2/1/1>, <IF/6/2/2/5>, <IF/5/5/4/1>, <IF/8/8/1> .
-
+  rdfs:seeAlso <IF_2_1_1>, <IF_6_2_2_5>, <IF_5_5_4_1>, <IF_8_8_1> .
 
 <IF/1/3>
   rdf:type ifo:IF_1_3 ;
-  ifo:key "3.製品の製剤学的特性" ;
-  ifo:value """
+  rdf:value """
 本剤は徐放性製剤であるため、割ったり、砕いたり、すりつぶしたりして服用すると、本剤の徐放性が失 われ、薬物動態が変わるおそれがある。
 (「VIII.11.適用上の注意」の項参照)
-#""" .
-# M. Nakatsui 2020-07-02
-# IF内参照を追加
 """ ;
-  rdfs:seeAlso <IF/8/11> .
+  rdfs:seeAlso <IF_8_11> .
 
-<IF/1/4>
+<IF_1_4>
   rdf:type ifo:IF_1_4 ;
-  ifo:key "4.適正使用に関して周知すべき特性" ;
-  ifo:value <IF/1/4/table/1> .
+  rdfs:comment "(2019 年 7 月時点)" .
 
-<IF/1/4/table/1>
-  rdf:type ifo:Table ;
-  rdfs:comment "(2019 年 7 月時点)" ;
-  ifo:table [
-    ifo:key "RMP" ;
-    ifo:value "無" ;
-    rdfs:seeAlso ""
-  ], [
-    ifo:key "追加のリスク最小化活動として作成されている資材" ;
-    ifo:value "無" ;
-    rdfs:seeAlso ""
-  ], [
-    ifo:key "最適使用推進ガイドライン" ;
-    ifo:value "無" ;
-    rdfs:seeAlso ""
-  ], [
-    ifo:key "保険適用上の留意事項通知" ;
-    ifo:value "無" ;
-    rdfs:seeAlso ""
-  ] .
+<IF_1_4_1>
+  rdf:type ifo:IF_1_4_1 ;
+  rdf:value "無" .
 
-<IF/1/5>
-  rdf:type ifo:IF_1_5 ;
-  ifo:key "5.承認条件及び流通・使用上の制限事項" .
+<IF_1_4_2>
+  rdf:type ifo:IF_1_4_2 ;
+  rdf:value "無" .
 
-<IF/1/5/1>
+<IF_1_4_3>
+  rdf:type ifo:IF_1_4_3 ;
+  rdf:value "無" .
+
+<IF_1_4_4>
+  rdf:type ifo:IF_1_4_4 ;
+  rdf:value "無" .
+
+<IF_1_5>
+  rdf:type ifo:IF_1_5 .
+
+<IF_1_5_1>
   rdf:type ifo:IF_1_5_1 ;
-  ifo:key "(1)承認条件" ;
-  ifo:value "該当しない" .
+  rdf:value "該当しない" .
 
-<IF/1/5/2>
+<IF_1_5_2>
   rdf:type ifo:IF_1_5_2 ;
-  ifo:key "(2)流通・使用上の制限事項" ;
-  ifo:value "該当しない" .
+  rdf:value "該当しない" .
 
-<IF/1/6>
+<IF_1_6>
   rdf:type ifo:IF_1_6 ;
-  ifo:key "6.RMP の概要" ;
-  ifo:value "該当しない" .
-
-
-
+  rdf:value "該当しない" .
 
 
