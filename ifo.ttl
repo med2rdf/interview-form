@@ -1,9 +1,9 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix : <http://med2rdf.org/ontology/ifo/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 <http://med2rdf.org/ontology/ifo/>
     <http://purl.org/dc/terms/description> "An ontology of the concepts which are necessary to rdfize interview forms."@en ;
@@ -12,115 +12,13 @@
     owl:imports <http://www.w3.org/2004/02/skos/core> ;
     owl:versionInfo 0.01 .
 
+:IF_0
+    a owl:Class ;
+    rdfs:label "表紙"@ja .
+
 :IF_1
     a owl:Class ;
     rdfs:label "General description"@en, "概要に関する項目"@ja .
-
-:IF_10
-    a owl:Class ;
-    rdfs:label "管理的事項に関する項目"@ja .
-
-:IF_10_1
-    a owl:Class ;
-    rdfs:label "規制区分"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_10
-    a owl:Class ;
-    rdfs:label "再審査結果，再評価結果公表年月日及びその内容"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_11
-    a owl:Class ;
-    rdfs:label "再審査期間"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_12
-    a owl:Class ;
-    rdfs:label "投薬期間制限に関する情報"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_13
-    a owl:Class ;
-    rdfs:label "各種コード"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_14
-    a owl:Class ;
-    rdfs:label "保険給付上の注意"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_2
-    a owl:Class ;
-    rdfs:label "有効期間"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_3
-    a owl:Class ;
-    rdfs:label "包装状態での貯法"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_4
-    a owl:Class ;
-    rdfs:label "取扱い上の注意"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_5
-    a owl:Class ;
-    rdfs:label "患者向け資材"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_6
-    a owl:Class ;
-    rdfs:label "同一成分・同効薬"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_7
-    a owl:Class ;
-    rdfs:label "国際誕生年月日"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_8
-    a owl:Class ;
-    rdfs:label "製造販売承認年月日及び承認番号，薬価基準収載年月日，販売開始年月日"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_9
-    a owl:Class ;
-    rdfs:label "効能又は効果追加，用法及び用量変更追加等の年月日及びその内容"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_11
-    a owl:Class ;
-    rdfs:label "Reference"@en, "文献"@ja .
-
-:IF_11_1
-    a owl:Class ;
-    rdfs:label "引用文献"@ja ;
-    rdfs:subClassOf :IF_11 .
-
-:IF_11_2
-    a owl:Class ;
-    rdfs:label "その他の参考文献"@ja ;
-    rdfs:subClassOf :IF_11 .
-
-:IF_12
-    a owl:Class ;
-    rdfs:label "参考資料"@ja .
-
-:IF_12_1
-    a owl:Class ;
-    rdfs:label "主な外国での発売状況"@ja ;
-    rdfs:subClassOf :IF_12 .
-
-:IF_12_2
-    a owl:Class ;
-    rdfs:label "海外における臨床支援情報"@ja ;
-    rdfs:subClassOf :IF_12 .
-
-:IF_13
-    a owl:Class ;
-    rdfs:label "備考"@ja .
 
 :IF_1_1
     a owl:Class ;
@@ -892,6 +790,112 @@
     a owl:Class ;
     rdfs:label "その他の特殊毒性"@ja ;
     rdfs:subClassOf :IF_9_2 .
+
+:IF_10
+    a owl:Class ;
+    rdfs:label "管理的事項に関する項目"@ja .
+
+:IF_10_1
+    a owl:Class ;
+    rdfs:label "規制区分"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_10
+    a owl:Class ;
+    rdfs:label "再審査結果，再評価結果公表年月日及びその内容"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_11
+    a owl:Class ;
+    rdfs:label "再審査期間"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_12
+    a owl:Class ;
+    rdfs:label "投薬期間制限に関する情報"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_13
+    a owl:Class ;
+    rdfs:label "各種コード"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_14
+    a owl:Class ;
+    rdfs:label "保険給付上の注意"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_2
+    a owl:Class ;
+    rdfs:label "有効期間"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_3
+    a owl:Class ;
+    rdfs:label "包装状態での貯法"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_4
+    a owl:Class ;
+    rdfs:label "取扱い上の注意"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_5
+    a owl:Class ;
+    rdfs:label "患者向け資材"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_6
+    a owl:Class ;
+    rdfs:label "同一成分・同効薬"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_7
+    a owl:Class ;
+    rdfs:label "国際誕生年月日"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_8
+    a owl:Class ;
+    rdfs:label "製造販売承認年月日及び承認番号，薬価基準収載年月日，販売開始年月日"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_9
+    a owl:Class ;
+    rdfs:label "効能又は効果追加，用法及び用量変更追加等の年月日及びその内容"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_11
+    a owl:Class ;
+    rdfs:label "Reference"@en, "文献"@ja .
+
+:IF_11_1
+    a owl:Class ;
+    rdfs:label "引用文献"@ja ;
+    rdfs:subClassOf :IF_11 .
+
+:IF_11_2
+    a owl:Class ;
+    rdfs:label "その他の参考文献"@ja ;
+    rdfs:subClassOf :IF_11 .
+
+:IF_12
+    a owl:Class ;
+    rdfs:label "参考資料"@ja .
+
+:IF_12_1
+    a owl:Class ;
+    rdfs:label "主な外国での発売状況"@ja ;
+    rdfs:subClassOf :IF_12 .
+
+:IF_12_2
+    a owl:Class ;
+    rdfs:label "海外における臨床支援情報"@ja ;
+    rdfs:subClassOf :IF_12 .
+
+:IF_13
+    a owl:Class ;
+    rdfs:label "備考"@ja .
 
 :key
     a owl:DatatypeProperty .
