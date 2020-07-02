@@ -1,0 +1,101 @@
+<IF_1>
+  rdf:type
+    ifo:IF_1 .
+
+<IF_1_1>
+  rdf:type
+    ifo:IF_1_1 ;
+  rdf:value
+    """
+      本文
+    """ ;
+  dct:references
+    <ref1>, <refX>, <refY>, <refZ> .
+
+<IF_1_2>
+  rdf:type
+    ifo:IF_1_2 ;
+  rdf:value
+    """
+      本文
+    """ ;
+  rdfs:seeAlso
+    <IF_X_X_X>, <IF_Y_Y_Y_Y> .
+
+<IF_1_3>
+  rdf:type
+    ifo:IF_1_3 ;
+  rdf:value
+    """
+      本文
+    """ ;
+  rdfs:seeAlso
+    <IF_X_YY> .
+
+<IF_1_4>
+  rdf:type
+    ifo:IF_1_4 ;
+  rdfs:comment
+    "作成年月日などもしあれば" .
+
+<IF_1_4_1>
+  rdf:type
+    ifo:IF_1_4_1 ;
+  rdf:value
+    "有無" ;
+  rdfs:comment
+    "タイトル、参照先" ;
+  rdfs:seeAlso
+    <IF_X_Y> .
+
+<IF_1_4_2>
+  rdf:type
+    ifo:IF_1_4_2 ;
+  rdf:value
+    "有無" ;
+  rdfs:comment
+    "タイトル、参照先" ;
+  rdfs:seeAlso
+    <IF_X_Y> .
+
+<IF_1_4_3>
+  rdf:type
+    ifo:IF_1_4_3 ;
+  rdf:value
+    "有無" ;
+  rdfs:comment
+    "タイトル、参照先" ;
+  rdfs:seeAlso
+    <IF_X_Y> .
+
+<IF_1_4_4>
+  rdf:type
+    ifo:IF_1_4_4 ;
+  rdf:value
+    "有無" ;
+  rdfs:comment
+    "タイトル、参照先" ;
+  rdfs:seeAlso
+    <IF_X_Y> .
+
+<IF_1_5>
+  rdf:type
+    ifo:IF_1_5 .
+
+<IF_1_5_1>
+  rdf:type
+    ifo:IF_1_5_1 ;
+  rdf:value
+    "承認条件" .
+
+<IF_1_5_2>
+  rdf:type
+    ifo:IF_1_5_2 ;
+  rdf:value
+    "流通・使用上の制限事項" .
+
+<IF_1_6>
+  rdf:type
+    ifo:IF_1_6 ;
+  rdf:value
+    "RMP の概要" .
