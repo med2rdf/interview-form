@@ -1,15 +1,15 @@
-<IF/12>
+<IF_12>
   rdf:type ifo:IF_12 ;
   ifo:key "ⅩⅡ.  参考資料 " .
 
-<IF/12/1>
+<IF_12_1>
   rdf:type ifo:IF_12_1 ;
-  ifo:key "1.主な外国での発売状況 "
+  ifo:key "1.主な外国での発売状況 " ;
   ifo:value """
   上記以外に、イスラエル、マカオ、アイスランド、リヒテンシュタイン、ノルウェー、サウジアラビア、カナダ、アラブ首長国連邦、香港、中国、レバノン、ペルー、スイス、チリ、クウェート、オーストラリア、アルゼンチン、シンガポール、ブラジル、ニュージーランド、カタール及びインド等65 以上の国・地域で承認されている。
   """ .
 
-<IF/12/1/1>
+<IF_12_1_1>
   rdf:type ifo:IF_12_1_1 ;
   ifo:key "米国" ;
   ifo:販売名 """OPDIVO(nivolumab) Injection, for intravenous us""" ;
@@ -41,7 +41,7 @@
   ソラフェニブによる治療歴を有する肝細胞癌
   """ .
 
-<IF/12/1/2>
+<IF_12_1_2>
   rdf:type ifo:IF_12_1_2 ;
   ifo:key "EU" ;
   ifo:販売名 """OPDIVO 10mg/mL concentrate for solution for infusion.""" ;
