@@ -1,5 +1,5 @@
 <IF_4>
-	rdf:type ifo:IF_2 ;
+	rdf:type ifo:IF_4 ;
 
 <IF_4_1>
 	rdf:type ifo:IF_4_1 ;
