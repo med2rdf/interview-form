@@ -13,10 +13,15 @@
   rdfs:seeAlso <IF_6> .
 
 <IF_9_1_2>
-  rdf:type ifo:IF_9_1_2 .
+  ifo:table <IF_9_1_2:talbe1> .
   # "(2) 安全性薬理試験" .
    ### 中枢神経系、自律神経系、呼吸・循環器系、消化器系、平滑筋系、血液凝固、専用系に及ぼす影響などを記載する。
    ### 表になっている。
+
+<IF_9_1_2:table1>
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://........./9_1_2_t1.xlxs>  ;
+  dct:references <ref70> .
 
 <IF_9_1_3>
   rdf:type ifo:IF_9_1_3 ;
@@ -28,47 +33,58 @@
   # "2. 毒性試験" .
 
 <IF_9_2_1>
-  rdf:type ifo:IF_9_2_1 .
+  ifo:table <IF_9_2_1:talbe1> .
   # "(1) 単回投与毒性試験" .
 
 <IF_9_2_1:table1>
-  rdf:type ifo:table ;
-  rdfs:seeAlso <http://........./9_2_t1.xlxs> .
-   ###表
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://........./9_2_1_t1.xlxs>  ;
+  dct:references <ref71> .
 
 <IF_9_2_2>
-  rdf:type ifo:IF_9_2_2 .
+  ifo:table <IF_9_2_2:talbe1> .
   # "(2) 反復投与毒性試験" .
-   ###表
+
+<IF_9_2_2:table1>
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://........./9_2_2_t1.xlxs>  ;
+  dct:references <ref60>,  <ref62>,  <ref72> .
 
 <IF_9_2_3>
-  rdf:type ifo:IF_9_2_3 .
+  rdf:type ifo:IF_9_2_3 ;
   # "(3) 遺伝毒性試験" ;
   rdf:value """
   ネズミチフス菌及び大腸菌を用いた復帰突然変異試験において、遺伝子突然変異誘発性は認められなかった。ヒト末梢血リンパ球を用いた染色体異常試験において、代謝活性化系の存在下及び非存在下に処理した場合に染色体異常を持つ細胞数の増加が認められたが、いずれも強い細胞毒性を示す濃度(細胞生存率 40％未満)における変化であった。
   ラットを用いた小核試験において、小核誘発性は認められなかった。
-  """ .
+  """ ;
+  dct:references <ref73> .
 
 <IF_9_2_4>
   rdf:type ifo:IF_9_2_4 ;
   # "(4) がん原性試験" ;
   rdf:value """
   マウス(25、50、100mg/kg/日、経口投与、104 週)及びラット(12.5、25、50mg/kg/日、25、50、100mg/kg/ 日、経口投与、104 週)を用いた試験において、がん原性は認められなかった。
-  """ .
+  """ ;
+  dct:references <ref73> .
 
 <IF_9_2_5>
-  rdf:type ifo:IF_9_2_5 ;
+  ifo:table <IF_9_2_5:talbe1> .
   # "(5) 生殖発生毒性試験" .
    ###表あり
+<IF_9_2_5:table1>
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://........./9_2_5_t1.xlxs>  ;
+  dct:references <ref74>, <ref64>,  <ref65>,  <ref66>,  <ref67> .
 
-<IF_9_2_6>
+  <IF_9_2_6>
   rdf:type ifo:IF_9_2_6 ;
   # "(6) 局所刺激性試験" ;
   rdf:value """
   ウサギを用いた皮膚刺激性試験(0.5g、貼布)において、皮膚刺激性は認められなかった。
   ウサギを用いた眼粘膜刺激性試験(100mg、眼結膜嚢内曝露)において、軽微な眼粘膜刺激性が認められたが、直ちに洗浄することにより眼粘膜刺激性は軽減された。
   ウサギを用いた血管局所刺激性試験(0.05mL、静脈内及び 0.2mL、静脈周囲)において、10mg_mL の濃度に調製されたミラべグロンは静脈内投与により回復性のある軽度な刺激性を示し、静脈周囲投与により皮下組織の炎症性反応を伴う刺激性を誘発することが示された。
-  """ .
+  """ ;
+  dct:references <ref75> .
 
 <IF_9_2_7>
   rdf:type ifo:IF_9_2_7 ;
@@ -78,4 +94,5 @@
   モルモットを用いた皮膚感作性試験(Adjuvant and Patch 法及び Buehler 法：感作 1、10％、惹起 2、10％、貼布)において、中等度の皮膚感作性が認められた。
   2) 溶血性試験
   ヒト血液に対して溶血性は認められなかった。
-  """ .
+  """ ;
+  dct:references <ref76>, <ref77>  .
