@@ -14,7 +14,7 @@
 
 <IF_3_1_2:table1>
   rdf:type ifo:Table ;
-  ifo:caption "ミラベグロンの溶解性(室温)" ;
+  rdfs:label "ミラベグロンの溶解性(室温)" ;
   rdfs:seeAlso <http://....../3_1_2_t1.xlsx> .
 
 <IF_3_1_3>
@@ -35,12 +35,12 @@
 
 <IF_3_1_6:table1>
   rdf:type ifo:Table ;
-  ifo:caption "" ;
+  rdfs:comment "(測定温度:37°C)" ;
   rdfs:seeAlso <http://....../3_1_6_t1.xlsx> .
 
 <IF_3_1_7>
   rdf:type ifo:IF_3_1_7 ;
-  rdf:value "旋光度(エタノール(99.5)中 $\[\alpha\]_D^{20}:-19.8^\circ$
+  rdf:value "旋光度(エタノール(99.5)中) $\[\alpha\]_D^{20}:-19.8^\circ$" .
 
 <IF_3_2>
   rdf:type ifo:IF_3_2 ;
@@ -48,7 +48,6 @@
 
 <IF_3_2:table1>
   rdf:type ifo:Table ;
-  ifo:caption "" ;
   rdfs:seeAlso <http://....../3_2_t1.xlsx> .
 
 <IF_3_3>
