@@ -1,39 +1,31 @@
 <IF_3>
   rdf:type ifo:IF_3 ;
-  ifo:key "III. 有効成分に関する項目" .
 
 <IF_3_1>
   rdfs:type ifo_IF_3_1 ;
-  ifo:key "1. 物理化学的性質" .
 
 <IF_3_1_1>
   rdf:type ifo:IF_3_1_1 ;
-  ifo:key "(1) 外観・性状" ;
-  ifo:value "無色〜微黄色の澄明又は乳白光を呈する液。微粒子をわずかに認めることがある。" .
+  rdf:value "無色〜微黄色の澄明又は乳白光を呈する液。微粒子をわずかに認めることがある。" .
 
 <IF_3_1_2>
   rdf:type ifo:IF_3_1_2 ;
-  ifo:key "(2) 溶解性" ;
-  ifo:value "該当しない" .
+  rdf:value "該当しない" .
 
 <IF_3_1_3>
   rdf:type ifo:IF_3_1_3 ;
-  ifo:key "(3) 吸湿性" ;
-  ifo:value "該当しない" .
+  rdf:value "該当しない" .
 
 <IF_3_1_4>
   rdf:type ifo:IF_3_1_4 ;
-  ifo:key "(4) 融点（分解点）、沸点、凝固点" ;
-  ifo:value "該当しない" .
+  rdf:value "該当しない" .
 
 <IF_3_1_5>
   rdf:type ifo:IF_3_1_5 ;
-  ifo:key "(5) 酸塩基解離定数" ;
-  ifo:value "該当しない" .
+  rdf:value "該当しない" .
 
 <IF_3_1_6>
   rdf:type ifo:IF_3_1_6 ;
-  ifo:key "(6) 分配係数" ;
-  ifo:value "該当しない" .
+  rdf:value "該当しない" .
 
 
