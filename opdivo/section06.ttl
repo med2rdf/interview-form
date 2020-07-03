@@ -20,7 +20,7 @@
   rdf:value """ 
 ニボルマブは、ヒト PD-1に対する抗体であり、PD-1とそのリガンドである PD-L1及び
 PD-L2との結合を阻害し、がん抗原特異的な T 細胞の増殖、活性化及び細胞傷害活性の増強 等により、腫瘍増殖を抑制すると考えられる。52,53)
-本剤の作用
+
 MHC:主要組織適合遺伝子複合体 TCR:T細胞受容体
 """ ;
   ifo:figure <IF_6_2_1:figure1>, <IF_6_2_1:figure2>, <IF_6_2_1:figure3> ;
@@ -40,6 +40,7 @@ MHC:主要組織適合遺伝子複合体 TCR:T細胞受容体
 <IF_6_2_1:figure3>
   rdf:type ifo:Figure ;
   rdfs:label "T細胞の免疫応答維持" ;
+  rdfs:comment "本剤の作用" ;
   foaf:depicts  <http://...../figure_6_2_1_3.png> .
 
 
@@ -47,19 +48,6 @@ MHC:主要組織適合遺伝子複合体 TCR:T細胞受容体
   rdf:type ifo:IF_6_2_2 ;
   # "(2)薬効を裏付ける試験成績"
   rdf:value """
-1) ヒト PD-1 に対する結合親和性(in vitro)52)
-2) ヒトPD-1とヒトPD-1リガンド(PD-L1及びPD-L2)との結合に対する阻害作用(invitro)52)
-3) 各種動物の活性化リンパ球に対する交差反応性(in vitro)
-4) サル PD-1 に対する結合親和性(in vitro)52)
-5) T 細胞のアロ抗原反応に対する作用(in vitro)52)
-6) 抗原特異的 T 細胞の免疫応答に対する作用(in vitro)52)
-7) HBsAg、SKMel 及び DNP-Ficoll を接種したサルの免疫応答に対する作用(in vivo)52,54)
-HBsAg:B 型肝炎ウイルス抗原、SKMel:ヒト悪性黒色腫細胞、 DNP-Ficoll:2,4-dinitrophenyl-Ficoll
-
-8) イピリムマブとの併用作用(in vitro)55) 
-T 細胞のアロ抗原反応に対する作用
-スーパー抗原刺激による T 細胞の免疫応答に対する作用　SEB:Staphylococcal enterotoxin B
-
 〈参考:がん抗原特異的 T 細胞の免疫応答に対する作用(in vitro)〉53) ニボルマブは、悪性黒色腫抗原ペプチド(gp100 及び/又は MART-1)のワクチン接種を受け た悪性黒色腫患者の T 細胞を悪性黒色腫抗原(gp100 又は MART-1)で刺激した際のがん抗 原特異的 T 細胞の活性化を増強し、gp100 又は MART-1 を発現するヒト悪性黒色腫由来細胞 株(526mel 及び 624mel)に対する細胞傷害作用を増強した。
 1悪性黒色腫抗原再刺激 T 細胞の増殖に対するニボルマブの増強作用
 
@@ -108,16 +96,19 @@ T 細胞のアロ抗原反応に対する作用
 <IF_6_2_2:table7>
   rdf:type ifo:table ;
   rdfs:label "HBsAg、SKMel 及び DNP-Ficoll を接種したサルの免疫応答に対する作用(in vivo)" ;
+  rdfs:description "HBsAg:B 型肝炎ウイルス抗原、SKMel:ヒト悪性黒色腫細胞、 DNP-Ficoll:2,4-dinitrophenyl-Ficoll
+" ;
   rdfs:seeAlso <http://.../table_6_2_2_7.xlsx > .
 
 <IF_6_2_2:table8>
   rdf:type ifo:table ;
-  rdfs:label "T 細胞のアロ抗原反応に対する作用" ;
+  rdfs:label "イピリムマブとの併用作用(in vitro) T 細胞のアロ抗原反応に対する作用" ;
   rdfs:seeAlso <http://.../table_6_2_2_8.xlsx > .
 
 <IF_6_2_2:table9>
   rdf:type ifo:table ;
-  rdfs:label "スーパー抗原刺激による T 細胞の免疫応答に対する作用" ;
+  rdfs:label "イピリムマブとの併用作用(in vitro) スーパー抗原刺激による T 細胞の免疫応答に対する作用" ;
+  rdfs:description "SEB:Staphylococcal enterotoxin B" ;
   rdfs:seeAlso <http://.../table_6_2_2_9.xlsx > .
 
 <IF_6_2_2:figure1> 

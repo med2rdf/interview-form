@@ -18,7 +18,7 @@
 @prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
 @prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
 
-<>
+<http://med2rdf.org/if/XXXXXX_XXXXXXXXXXXX_X_XXX_XX>
   rdf:type
     ifo:InterviewForm ;
   rdfs:seeAlso
