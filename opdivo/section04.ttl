@@ -10,6 +10,7 @@
 
 <IF_4_1_2>
   rdf:type ifo:IF_4_1_2 ;
+  rdf:value "本品は定量するとき、9.0〜11.0mg/mLのニボルマブ（遺伝子組換え）（タンパク質量）を含む。"
   ifo:table <IF_4_1_2:table1> .
 
 <IF_4_1_2:table1>
@@ -26,6 +27,7 @@
 
 <IF_4_1_4:table>
   rdf:type ifo:Table ;
+  rdfs:comment "＊：日本薬局方の一般試験法「比重瓶による測定法」に従って測定した場合の、20℃での本剤の密度（1.018g/cm3)により算出した。" ;
   rdfs:seeAlso <http://....../4_1_4_t4.xlsx> .
 
 <IF_4_2>
@@ -37,6 +39,7 @@
 
 <IF_4_2_1:table1>
   rdf:type ifo:Table ;
+  rdfs:comment "注1)：本剤は遺伝子組換え技術により、チャイニーズハムスター卵巣細胞を用いて製造される。", "注2)：本品は注射液吸引時の損失を考慮して、過量充填されているので、実充填量は各々22mg/2.2mL、105mg/10.5mL、246mg/24.6mLである。" ;
   rdfs:seeAlso <http://....../4_2_1_t1.xlsx> .
 
 <IF_4_2_2>

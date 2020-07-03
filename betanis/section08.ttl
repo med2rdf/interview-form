@@ -329,7 +329,7 @@
   rdf:type ifo:IF_8_7_1 ;
   # "(1) 併用禁忌とその理由" ;
   ifo:package_insert pi:PI_10_1 ;
-  ifo:items <IF_8_7_1:item1> .
+  ifo:item <IF_8_7_1:item1> .
 
 <IF_8_7_1:item1>
   ifo:package_insert pi:PI_10_1:item1 ;
@@ -341,7 +341,7 @@
   rdf:type ifo:IF_8_7_2 ;
   # "(2) 併用注意とその理由" ;
   ifo:package_insert pi:PI_10_2 ;
-  ifo:items <IF_8_7_2:item1>, <IF_8_7_2:item2>, <IF_8_7_2:item3>, <IF_8_7_2:item4>, <IF_8_7_2:item5>, <IF_8_7_2:item6>, <IF_8_7_2:item7>, <IF_8_7_2:item8> .
+  ifo:item <IF_8_7_2:item1>, <IF_8_7_2:item2>, <IF_8_7_2:item3>, <IF_8_7_2:item4>, <IF_8_7_2:item5>, <IF_8_7_2:item6>, <IF_8_7_2:item7>, <IF_8_7_2:item8> .
 
 <IF_8_7_2:item1>
   ifo:package_insert pi:PI_10_2:item1 ;
