@@ -1,0 +1,10 @@
+<IF_3>
+  rdf:type ifo:IF_3 ;
+  ifo:key "III. 有効成分に関する項目" .
+
+<IF_3_1>
+  rdfs:type ifo_IF_3_1 ;
+  ifo:key "1. 物理化学的性質" .
+
+<IF_3_1_1>
+  
