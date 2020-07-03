@@ -5,9 +5,7 @@
 <IF_6_1>
   rdf:type ifo:IF_6_1 ;
   #ifo:key "1.薬理学的に関連ある化合物又は化合物群" ;
-  ifo:value """
-該当資料なし
-""" .
+  ifo:value ""該当資料なし"" .
 
 <IF_6_2>
   rdf:type ifo:IF_6_2 ;
