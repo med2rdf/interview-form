@@ -12,6 +12,10 @@
     owl:imports <http://www.w3.org/2004/02/skos/core> ;
     owl:versionInfo 0.01 .
 
+:InterviewForm
+    a owl:Class ;
+    rdfs:label "インタビューフォーム"@ja .
+
 :IF_0
     a owl:Class ;
     rdfs:label "表紙"@ja .
