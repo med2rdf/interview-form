@@ -1,65 +1,93 @@
 <IF_12>
-  rdf:type ifo:IF_12 ;
-  ifo:key "ⅩⅡ.  参考資料 " .
+  rdf:type ifo:IF_12 .
+  # "ⅩⅡ.  参考資料 " 
 
 <IF_12_1>
   rdf:type ifo:IF_12_1 ;
-  ifo:key "1.主な外国での発売状況 " ;
-  ifo:value """
-  上記以外に、イスラエル、マカオ、アイスランド、リヒテンシュタイン、ノルウェー、サウジアラビア、カナダ、アラブ首長国連邦、香港、中国、レバノン、ペルー、スイス、チリ、クウェート、オーストラリア、アルゼンチン、シンガポール、ブラジル、ニュージーランド、カタール及びインド等65 以上の国・地域で承認されている。
-  """ .
+  # "1.主な外国での発売状況 " 
+  ifo:table <IF_12_1:table1> .  
 
-<IF_12_1_1>
-  rdf:type ifo:IF_12_1_1 ;
-  ifo:key "米国" ;
-  ifo:販売名 """OPDIVO(nivolumab) Injection, for intravenous us""" ;
-  ifo:剤形・規格・容量  """点滴静注液 40mg/4mL 100mg/10mL 240mg/24mL""" ;
-  ifo:承認年月日 2014-12-22 ;
-  ifo:効能・効果 """
-  切除不能又は転移性悪性黒色腫
-  ・BRAF V600野生型の切除不能又は転移性悪性黒色腫に対する単独療法
-  ・BRAF V600遺伝子変異陽性の切除不能又は転移性悪性黒色腫に対する単独療法
-  ・切除不能又は転移性悪性黒色腫に対するイピリムマブとの併用療法
-  根治切除後のリンパ節転移を伴う又は転移性悪性黒色腫に対する術後補助療法
-  転移性非小細胞肺癌
-  　プラチナ製剤を含む化学療法による治療中又は治療後に進行が認められた転移性非小細胞肺癌
-  　EGFR変異又はALK転座を有する患者は本剤治療前の適切な分子標的治療で病勢進行が認められた場合
-  小細胞肺癌
-  　プラチナ製剤を含む化学療法及び1レジメン以上の前治療後に病勢進行した転移性小細胞肺癌
-  進行腎細胞癌
-  ・血管新生阻害剤による治療歴を有する進行腎細胞癌
-  ・未治療の中及び高リスクの進行腎細胞癌に対するイピリムマブとの併用療法
-  古典的ホジキンリンパ腫(成人患者)
-  　自家造血幹細胞移植(ASCT)及びブレンツキシマブ ベドチンによる治療後、又はASCTを含む3レジメン以上の全身療法による治療後に再発又は進行した古典的ホジキンリンパ腫
-  再発又は転移性頭頸部扁平上皮癌
-  プラチナ製剤を含む化学療法による治療中又は治療後に進行が認められた再発又は転移性頭頸部扁平上皮癌
-  局所進行又は転移性尿路上皮癌
-  　プラチナ製剤を含む化学療法による治療中又は治療後に病勢進行した、又はプラチナ製剤を含む化学療法による術前又は術後補助療法から12ヵ月以内に病勢進行した、局所進行又は転移性尿路上皮癌
-  転移性結腸・直腸癌(成人及び12歳以上の小児患者)
-  　フルオロピリミジン、オキサリプラチン及びイリノテカンによる治療後に病勢進行した高頻度マイクロサテライト不安定性(MSI-H)又はミスマッチ修復機構欠損(dMMR)の転移性結腸・直腸癌に対する単独療法又はイピリムマブとの併用療法
-  肝細胞癌
-  ソラフェニブによる治療歴を有する肝細胞癌
-  """ .
+<IF_12_1:table>
+   rdf:type ifo:Table;
+   rdf:comment "上記以外に、イスラエル、マカオ、アイスランド、リヒテンシュタイン、ノルウェー、サウジアラビア、カナダ、アラブ首長国連邦、香港、中国、レバノン、ペルー、スイス、チリ、クウェート、オーストラリア、アルゼンチン、シンガポール、ブラジル、ニュージーランド、カタール及びインド等65 以上の国・地域で承認されている。" ; 
+   rdfs:seeAlso <http://…../12_1_t1.xlsx> .
 
-<IF_12_1_2>
-  rdf:type ifo:IF_12_1_2 ;
-  ifo:key "EU" ;
-  ifo:販売名 """OPDIVO 10mg/mL concentrate for solution for infusion.""" ;
-  ifo:剤形・規格・容量  """点滴静注液 40mg/4mL 100mg/10mL 240mg/24mL""" ;
-  ifo:承認年月日 2015-06-19 ;
-  ifo:効能・効果 """
-  悪性黒色腫
-  　成人の進行期(切除不能又は転移性)悪性黒色腫に対する単独療法又はイピリムマブとの併用療法
-  根治切除後のリンパ節転移を伴う又は転移性悪性黒色腫に対する術後補助療法
-  非小細胞肺癌
-  　化学療法による治療歴を有する成人の局所進行性又は転移性非小細胞肺癌
-  腎細胞癌
-  ・治療歴を有する成人の進行期腎細胞癌に対する単独療法
-  ・未治療の中及び高リスクの進行腎細胞癌に対するイピリムマブとの併用療法
-  古典的ホジキンリンパ腫
-  　自家造血幹細胞移植(ASCT)及びブレンツキシマブ ベドチンによる治療後の再発又は難治性の古典的ホジキンリンパ腫
-  頭頸部扁平上皮癌
-  　プラチナ製剤による治療中又は治療後に病勢進行した頭頸部扁平上皮癌
-  尿路上皮癌
-  　治療歴を有する局所進行の切除不能又はプラチナ製剤を含む前治療に不応であった転移性尿路上皮癌の成人患者
-  """ .
+<IF_12_2>
+   rdf:type  ifo:IF_12_2 ;
+   # "2. 海外における臨床支援情報"
+   ifo:item <IF_12_2:item1>, <IF_12_2:item2> .
+
+
+<IF_12_2:item1>
+   rdf:value """
+
+   (1) 妊婦に関する海外情報
+
+    本邦の添付文書の「9.4 生殖能を有する者」、「9.5 妊婦」、「9.6 授乳婦」の項の記載は以下のとおりであり、米国添付文書、オーストラリア添付文書の記載とは異なる。
+
+    本邦における使用上の注意
+    9. 特定の背景を有する患者に関する注意
+       9.4 生殖能を有する者 妊娠する可能性のある女性には、本剤投与中及び投与終了後一定期間は適切な避妊法を用いるよ う指導すること。[9.5 参照]
+       9.5 妊婦 妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場 合にのみ投与すること。妊娠サルを用いた出生前及び出生後の発生に関する試験において、 10mg/kg の週 2 回投与(AUC 比較で臨床曝露量の約 6 倍に相当する)により妊娠末期における 胚・胎児死亡率あるいは出生児死亡率の増加が認められたが、催奇形性は認められなかった。ま た、出生児の成長及び発達に影響は認められなかった。なお、本剤は出生児の血清中で認められ ている。[9.4 参照]
+       9.6 授乳婦 治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。本剤のヒト乳汁中への移行は検討されていないが、ヒトIgG は乳汁中に移行するので、本剤も移行する可能性がある。
+
+
+
+   米国の添付文書（2019年9月）
+
+   8.1 Pregnancy
+   Risk Summary
+   Based on data from animal studies and its mechanism of action [see Clinical Pharmacology (12.1)], OPDIVO can cause fetal harm when administered to a pregnant woman. In animal reproduction studies, administration of nivolumab to cynomolgus monkeys from the onset of organogenesis through delivery resulted in increased abortion and premature infant death (see Data). Human IgG4 is known to cross the placental barrier and nivolumab is an immunoglobulin G4 (IgG4); therefore, nivolumab has the potential to be transmitted from the mother to the developing fetus. The effects of OPDIVO are likely to be greater during the second and third trimesters of pregnancy. There are no available data on OPDIVO use in pregnant women to evaluate a drug-associated risk. Advise pregnant women of the potential risk to a fetus.
+The background risk in the U.S. general population of major birth defects is 2% to 4% and of miscarriage is 15% to 20% of clinically recognized pregnancies.
+
+   Data
+   Animal Data
+   A central function of the PD-1/PD-L1 pathway is to preserve pregnancy by maintaining maternal immune tolerance to the fetus. Blockade of PD-L1 signaling has been shown in murine models of pregnancy to disrupt tolerance to the fetus and to increase fetal loss. The effects of nivolumab on prenatal and postnatal development were evaluated in monkeys that received nivolumab twice weekly from the onset of organogenesis through delivery, at exposure levels of between 9 and 42 times higher than those observed at the clinical dose of 3 mg/kg (based on AUC). Nivolumab administration resulted in a non-dose-related increase in spontaneous abortion and increased neonatal death. Based on its mechanism of action, fetal exposure to nivolumab may increase the risk of developing immune-mediated disorders or altering the normal immune response and immune-mediated disorders have been reported in PD-1 knockout mice. In surviving infants (18 of 32 compared to 11 of 16 vehicle-exposed infants) of cynomolgus monkeys treated with nivolumab, there were no apparent malformations and no effects on neurobehavioral, immunological, or clinical pathology parameters throughout the 6-month postnatal period..
+
+  8.2 Lactation
+  Risk Summary
+  There are no data on the presence of nivolumab in human milk, the effects on the breastfed child, or the effects on milk production. Because of the potential for serious adverse reactions in the breastfed child, advise women not to breastfeed during treatment and for 5 months after the last dose of OPDIVO.
+
+  8.3 Females and Males of Reproductive Potential
+  Pregnancy Testing
+  Verify the pregnancy status of females of reproductive potential prior to initiating OPDIVO [see Use in Specific Populations (8.1)].
+
+  Contraception
+  OPDIVO can cause fetal harm when administered to a pregnant woman [see Use in Specific Populations (8.1)]. Advise females of reproductive potential to use effective contraception during treatment with OPDIVO and for at least 5 months following the last dose.
+
+
+　　オーストラリアの添付文書（2019年11月）
+
+   Use in pregnancy (Category D)
+
+    OPDIVO is not recommended during pregnancy or in women of childbearing potential not using effective contraception, unless the clinical benefit outweighs the potential risk. Advise females of reproductive potential to use effective contraception during treatment with OPDIVO for at least 5 months following the last dose of OPDIVO.
+    There are no data on the use of OPDIVO in pregnant women. Human IgG4 is known to cross the placental barrier and OPDIVO is an IgG4; therefore OPDIVO has the potential to be transmitted from the mother to the developing foetus. It is not known whether nivolumab can cause foetal harm when administered to a pregnant woman (See 5.3 Preclinical safety data).
+
+   Use in lactation
+   
+   It is not known whether OPDIVO is secreted in human breast milk. Because many drugs, including antibodies, can be secreted in human milk, a risk to newborns/infants cannot be excluded. Clinical judgement is required to determine whether to discontinue breast-feeding or to discontinue OPDIVO therapy, taking into account the benefit of breast-feeding for the child and the benefit of therapy for the mother.
+
+    """ .
+
+<IF_12_2:item2>
+   rdf:value """
+
+   (2) 小児等に関する海外情報
+
+   本邦の添付文書の「9.7 小児等」の項の記載は以下のとおりであり、米国添付文書の記載とは異なる。
+
+   本邦における使用上の注意
+   9. 特定の背景を有する患者に関する注意 
+      9.7 小児等
+      小児等を対象とした臨床試験は実施していない。
+
+
+   米国の添付文書（2019年9月）
+
+   8.4 Pediatric Use
+
+   The safety and effectiveness of OPDIVO as a single agent and in combination with ipilimumab have been established in pediatric patients age 12 years and older with microsatellite instability-high (MSI-H) or mismatch repair deficient (dMMR) metastatic colorectal cancer (mCRC) that has progressed following treatment with a fluoropyrimidine, oxaliplatin, and irinotecan. Use of OPDIVO for this indication is supported by evidence from adequate and well-controlled studies of OPDIVO in adults with MSI-H or dMMR mCRC with additional population pharmacokinetic data demonstrating that age and body weight had no clinically meaningful effect on the steady-state exposure of nivolumab, that drug exposure is generally similar between adults and pediatric patients age 12 years and older for monoclonal antibodies, and that the course of MSI-H or dMMR mCRC is sufficiently similar in adults and pediatric patients to allow extrapolation of data in adults to pediatric patients [see Dosage and Administration (2.1), Adverse Reactions (6.1), Clinical Pharmacology (12.3), Clinical Studies (14.9)].
+
+   The safety and effectiveness of OPDIVO have not been established (1) in pediatric patients < 12 years old with MSI-H or dMMR mCRC or (2) in pediatric patients less than 18 years old for the other approved indications [see Indications and Usage (1)].
+   """ .
+

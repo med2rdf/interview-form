@@ -6,12 +6,6 @@
 <IF_12_1>
   rdf:type ifo:IF_12_1 ;
   # "1.主な外国での発売状況 "
-  rdf:value """
-  世界 81 の国と地域で承認 (2019 年 5 月現在)
-  """ ;
-  ifo:items <IF_12_1:item1>, <IF_12_1:item2>, <IF_12_1:item3> . 
-
-<IF_12_1:item1>
   rdf:value　"""
 
   本邦における承認された効能又は効果並びに用法及び用量は以下のとおりであり、外国での承認状況とは異なる。
@@ -30,23 +24,20 @@
     7.1 中等度の肝機能障害患者(Child-Pugh スコア 7~9)への投与は 1 日 1 回 25mg から開始する。 
     7.2 重度の腎機能障害患者(eGFR15~29mL/min/1.73m2)への投与は 1 日 1 回 25mg から開始する。
 
-  """ .
+  世界 81 の国と地域で承認 (2019 年 5 月現在)
 
-<IF_12_1:item2> # もしくは rdf:value で内容をベタ貼り
-  ifo:table <IF_12_1:item2:table1> .
+  """ ;
+  ifo:table <IF_12_1:table1>, <IF_12_2:table2> .
 
-<IF_12_1:item2:table1> 
+<IF_12_1:table1> 
    rdf:type ifo:Table;
    rdf:label "米国における承認状況" ; 
-   rdfs:seeAlso <http://…../12_1_item2_t1.xlsx> .
+   rdfs:seeAlso <http://…../12_1_t1.xlsx> .
 
-<IF_12_1:item3> 
-  ifo:table <IF_12_1:item3:table1> .
-
-<IF_12_1:item3:table1> 
+<IF_12_1:table2> 
    rdf:type ifo:Table;
    rdf:label "EUにおける承認状況" ; 
-   rdfs:seeAlso <http://…../12_1_item3_t1.xlsx> .
+   rdfs:seeAlso <http://…../12_1_t2.xlsx> .
 
 <IF_12_2>
  rdf:type ifo:IF_12_2 ;

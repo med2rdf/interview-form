@@ -25,7 +25,10 @@
 :package_insert
     a owl:ObjectProperty .
 
-:items
+:section
+    a owl:ObjectProperty .
+
+:item
     a owl:ObjectProperty .
 
 :table
