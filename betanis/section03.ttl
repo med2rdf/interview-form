@@ -1,19 +1,15 @@
 <IF_3>
   rdf:type ifo:IF_3 ;
-  ifo:key "III. 有効成分に関する項目" .
 
 <IF_3_1>
   rdf:type ifo:IF_3_1 ;
-  ifo:key "1. 物理化学的性質" ;
 
 <IF_3_1_1>
   rdf:type ifo:IF_3_1_1 ;
-  ifo:key "(1) 外観・性状" ;
-  ifo:value "白色〜微帯褐白色の結晶又は粉末である。" .
+  rdf:value "白色〜微帯褐白色の結晶又は粉末である。" .
  
 <IF_3_1_2>
   rdf:type ifo:IF_3_1_2 ;
-  ifo:key "(2) 溶解性" ;
   ifo:table <IF_3_1_2:table1> .
 
 <IF_3_1_2:table1>
@@ -23,22 +19,18 @@
 
 <IF_3_1_3>
   rdf:type ifo:IF_3_1_3 ;
-  ifo:key "(3) 吸湿性" ;
-  ifo:value "吸湿性は認められない。" .
+  rdf:value "吸湿性は認められない。" .
 
 <IF_3_1_4>
   rdf:type ifo:IF_3_1_4 ;
-  ifo:key "(4) 融点（分解点）、沸点、凝固点" ;
-  ifo:value "融解：約144℃" .
+  rdf:value "融解：約144℃" .
 
 <IF_3_1_5>
   rdf:type ifo:IF_3_1_5 ;
-  ifo:key "(5) 酸塩基解離定数" ;
-  ifo:value "pKa=4.5 及び 8.0" .
+  rdf:value "pKa=4.5 及び 8.0" .
 
 <IF_3_1_6>
   rdf:type ifo:IF_3_1_6 ;
-  ifo:key "(6) 分配係数" ;
   ifo:table <IF_3_1_6:table1> .
 
 <IF_3_1_6:table1>
@@ -48,12 +40,10 @@
 
 <IF_3_1_7>
   rdf:type ifo:IF_3_1_7 ;
-  ifo:key "(7) その他の主な示性値" ;
-  ifo:value "旋光度(エタノール(99.5)中 $\[\alpha\]_D^{20}:-19.8^\circ$
+  rdf:value "旋光度(エタノール(99.5)中 $\[\alpha\]_D^{20}:-19.8^\circ$
 
 <IF_3_2>
   rdf:type ifo:IF_3_2 ;
-  ifo:key "2. 有効成分の各種条件化における安定性" ;
   ifo:table <IF_3_2:table1> .
 
 <IF_3_2:table1>
@@ -63,8 +53,7 @@
 
 <IF_3_3>
   rdf:type ifo:IF_3_3 ;
-  ifo:key "3. 有効成分の確認試験法、定量法" 
-  ifo:value """
+  rdf:value """
   確認試験法
   (1)紫外可視吸光度測定法：
   参照スペクトル又はミラベグロン標準物質のスペクトルと同一波長のところに同様の強度の吸収を認める。
