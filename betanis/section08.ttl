@@ -557,21 +557,9 @@
 
 <IF_8_8_2_table_1>
   rdf:type ifo:Table ;
-  ifo:caption "11.2 その他の副作用" ;
-#  ifo:file "table_8_8_2_1.jpg" .
-  rdfs:seeAlso <http://....../8_8_2_t1.xlsx> .
-
+  ifo:caption "11.2 その他の副作用" .
   ## 添付文書のその他の副作用の一覧表（XMLは分けて書いているのでどうするか？　IFは添付文書の表を載せているだけ）
-
-<IF_8_8_2_table_2>
-  rdf:type inf:Table ;
-  ifo:caption """
-  ◆製造販売承認申請時に用いた臨床試験成績に関する資料に基づき作成した副作用、臨床検査異常値発現例一覧表
-  """ ;
-#  ifo:file "table_8_8_2_2.jpg" .
-  rdfs:seeAlso <http://....../8_8_2_t2.xlsx> .
-
-   ## MedDRAとの対応:要検討
+  ## 副作用一覧のMedDRAとの対応:要検討
 
 <IF_8_9>
   rdf:type ifo:IF_8_9 ;
