@@ -1,0 +1,120 @@
+<IF_4>
+  rdf:type ifo:IF_4 .
+
+<IF_4_1>
+  rdf:type ifo:IF_4_1 ;
+
+<IF_4_1_1>
+  rdf:type ifo:IF_4_1_1 ;
+  rdf:value "剤形の区別" .
+
+<IF_4_1_2>
+  rdf:type ifo:IF_4_1_2 ;
+  ifo:table <IF_4_1_2:table1> .
+
+<IF_4_1_2:table1>
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://....../4_1_2_t1.xlsx> .
+
+<IF_4_1_3>
+  rdf:type ifo:IF_4_1_3 ;
+  rdf:value "識別コード" .
+
+<IF_4_1_4>
+  rdf:type ifo:IF_4_1_4 ;
+  rdf:value "製剤の物性" .
+
+<IF_4_1_5>
+  rdf:type ifo:IF_4_1_5 ;
+  rdf:value "その他" .
+
+<IF_4_2>
+  rdf:type ifo:IF_4_2 .
+
+<IF_4_2_1>
+  rdf:type ifo:IF_4_2_1 ;
+  rdf:value
+    """
+    有効成分(活性成分)の含量及び添加剤
+    """ ;
+  ifo:table <IF_4_2_1:table1> .
+
+<IF_4_2_1:table1>
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://....../4_2_1_t1.xlsx> .
+
+<IF_4_2_2>
+  rdf:type ifo:IF_4_2_2 ;
+  rdf:value "電解質等の濃度" .
+
+<IF_4_2_3>
+  rdf:type ifo:IF_4_2_3 ;
+  rdf:value "熱量" .
+
+<IF_4_3>
+  rdf:type ifo:IF_4_3 ;
+  rdf:value "添付溶解液の組成及び容量" .
+
+<IF_4_4>
+  rdf:type ifo:IF_4_4 ;
+  rdf:value "力価" .
+
+<IF_4_5>
+  rdf:type ifo:IF_4_5 ;
+  rdf:value "混入する可能性のある夾雑物" .
+
+<IF_4_6>
+  rdf:type ifo:IF_4_6 ;
+  ifo:table <IF_4_6:table1> .
+
+<IF_4_6:table1>
+  rdf:type ifo:Table ;
+  rdfs:label "キャプション" ;
+  rdfs:comment "補注" ;
+  rdfs:seeAlso <http://....../4_6_t1.xlsx> .
+
+<IF_4_7>
+  rdf:type ifo:IF_4_7 ;
+  rdf:value "調製法及び溶解後の安定性" .
+
+<IF_4_8>
+  rdf:type ifo:IF_4_8 ;
+  rdf:value "他剤との配合変化" .
+
+<IF_4_9>
+  rdf:type ifo:IF_4_9 ;
+  rdf:value "溶出性" .
+
+<IF_4_10>
+  rdf:type ifo:IF_4_10 .
+
+<IF_4_10_1>
+  rdf:type ifo:IF_4_10_1 ;
+  rdf:value "容器・包装に関する情報" .
+
+<IF_4_10_2>
+  rdf:type ifo:IF_4_10_2 ;
+  rdf:value
+    """
+    包装
+    """ .
+
+<IF_4_10_3>
+  rdf:type ifo:IF_4_10_3 ;
+  rdf:value "予備容量" .
+
+<IF_4_10_4>
+  rdf:type ifo:IF_4_10_4 ;
+  ifo_value
+    """
+    容器の材質
+    """ .
+
+<IF_4_11>
+  rdf:type ifo:IF_4_11 ;
+  rdf:value "別途提供される資材類" .
+
+<IF_4_12>
+  rdf:type ifo:IF_4_12 ;
+  rdf:value "その他" .
+
