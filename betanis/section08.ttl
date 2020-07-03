@@ -571,7 +571,7 @@
 #  ifo:file "table_8_8_2_2.jpg" .
   rdfs:seeAlso <http://....../8_8_2_t2.xlsx> .
 
-   ## 副作用発現状況の表は表でまとめてでOK
+   ## MedDRAとの対応:要検討
 
 <IF_8_9>
   rdf:type ifo:IF_8_9 ;
