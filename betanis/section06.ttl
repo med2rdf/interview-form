@@ -1,21 +1,19 @@
-<IF/6>
+<IF_6>
   rdf:type ifo:IF_6 ;
-  ifo:key "薬効薬理に関する項目" .
+  #ifo:key "薬効薬理に関する項目" .
 
-<IF/6/1>
+<IF_6_1>
   rdf:type ifo:IF_6_1 ;
-  ifo:key "1.薬理学的に関連ある化合物又は化合物群" ;
-  ifo:value """
-該当資料なし
-""" .
+  #ifo:key "1.薬理学的に関連ある化合物又は化合物群" ;
+  ifo:value ""該当資料なし"" .
 
-<IF/6/2>
+<IF_6_2>
   rdf:type ifo:IF_6_2 ;
-  ifo:key "2.薬理作用" .
+  #ifo:key "2.薬理作用" .
 
-<IF/6/2/1>
+<IF_6_2_1>
   rdf:type ifo:IF_6_2_1 ;
-  ifo:key "(1)作用部位・作用機序" ;
+  #ifo:key "(1)作用部位・作用機序" ;
 
   ifo:value """
 1)作用機序
@@ -28,28 +26,27 @@
 2)抗コリン薬の作用機序
 抗コリン薬は膀胱の M 受容体に結合し、アセチルコリンが M 受容体に結合するのを阻害する。これに より、アセチルコリンによって引き起こされる膀胱平滑筋の異常な収縮が抑制される。
 """ ;
+  ifo:figure <IF_6_2_1_figure_1>,<IF_6_2_1_figure_2>,<IF_6_2_1_figure_3> ;
+  dct:references <ref6>,<ref29>,<ref30>,<ref31> .
 
-  ifo:figure <IF/6/2/1/figure/1>,<IF/6/2/1/figure/2>,<IF/6/2/1/figure/3> ;
-  dct:references <IF/11/1#6>,<IF/11/1#29>,<IF/11/1#30>,<IF/11/1#31> .
 
-
-<IF/6/2/1/figure/1> 
+<IF_6_2_1_figure_1> 
   ifo:type ifo:Figure ;
   ifo:file "figure_6_2_1_1.png" .
 
-<IF/6/2/1/figure/2>
+<IF_6_2_1_figure_2>
   ifo:type ifo:Figure ;
   ifo:caption "正常な蓄尿期のイメージ　過活動膀胱における蓄尿期のイメージ" ;
   ifo:file "figure_6_2_1_2.png" .
 
-<IF/6/2/1/figure/3>
+<IF_6_2_1_figure_3>
   ifo:type ifo:Figure ;
   ifo:file "figure_6_2_1_3.png" .
 
 
-<IF/6/2/2>
+<IF_6_2_2>
   rdf:type ifo:IF_6_2_2 ;
-  ifo:key "(2)薬効を裏付ける試験成績" ;
+  #ifo:key "(2)薬効を裏付ける試験成績" ;
 
   ifo:value """
 1)β3 アドレナリン受容体に対する刺激作用(in vitro)
@@ -105,67 +102,67 @@
 ミラベグロン(0.1~3mg/kg iv)は残尿量には影響を及ぼすことなく、1mg/kg iv 以上で排尿前収縮回数を減 少させた。
 """ ;
 
-  ifo:table <IF/6/2/2/table/1>, <IF/6/2/2/table/2>, <IF/6/2/2/table/3> ;
-  ifo:figure <IF/6/2/2/figure/1>, <IF/6/2/2/figure/2>, <IF/6/2/2/figure/3>, <IF/6/2/2/figure/4>, <IF/6/2/2/figure/5>, <IF/6/2/2/figure/6>, <IF/6/2/2/figure/7>, <IF/6/2/2/figure/8>;
-  dct:references <IF/11/1#6>, <IF/11/1#7>, <IF/11/1#29>, <IF/11/1#32>, <IF/11/1#33>, <IF/11/1#34>, <IF/11/1#35>, <IF/11/1#36> .
+  ifo:table <IF_6_2_2_table_1>, <IF_6_2_2_table_2>, <IF_6_2_2_table_3> ;
+  ifo:figure <IF_6_2_2_figure_1>, <IF_6_2_2_figure_2>, <IF_6_2_2_figure_3>, <IF_6_2_2_figure_4>, <IF_6_2_2_figure_5>, <IF_6_2_2_figure_6>, <IF_6_2_2_figure_7>, <IF_6_2_2_figure_8>;
+  dct:references <ref6>, <ref7>, <ref29>, <ref32>, <ref33>, <ref34>, <ref35>, <ref36> .
 
-<IF/6/2/2/table/1>
+<IF_6_2_2_table_1>
   rdf:type ifo:table ;
   ifo:caption "ヒト β アドレナリン受容体に対する刺激作用(in vitro )" ;
   ifo:file "table_6_2_2_1.png" .
 
-<IF/6/2/2/table/2>
+<IF_6_2_2_table_2>
   rdf:type ifo:table ;
   ifo:caption "ラット摘出膀胱における弛緩作用(in vitro)" ;
   ifo:file "table_6_2_2_2.png" .
 
-<IF/6/2/2/table/3>
+<IF_6_2_2_table_3>
   rdf:type ifo:table ;
   ifo:caption "ヒト摘出膀胱における弛緩作用(in vitro)" ;
   ifo:file "table_6_2_2_3.png" .
 
-<IF/6/2/2/figure/1> 
+<IF_6_2_2_figure_1> 
   ifo:type ifo:Figure ;
   ifo:caption "ラット摘出膀胱組織内の cAMP 濃度に対する作用(in vitro)(n=6)" ;
   ifo:file "figure_6_2_2_1.png" .
 
-<IF/6/2/2/figure/2> 
+<IF_6_2_2_figure_2> 
   ifo:type ifo:Figure ;
   ifo:caption "ヒト摘出膀胱における弛緩作用(in vitro)" ;
   ifo:file "figure_6_2_2_2.png" .
 
-<IF/6/2/2/figure/3> 
+<IF_6_2_2_figure_3> 
   ifo:type ifo:Figure ;
   ifo:caption "ペントバルビタール麻酔ラットにおける静止時膀胱内圧に対するミラベグロン、トルテロジン及びオキシブチニンの作用" ;
   ifo:file "figure_6_2_2_3.png" .
 
-<IF/6/2/2/figure/4> 
+<IF_6_2_2_figure_4> 
   ifo:type ifo:Figure ;
   ifo:caption "ウレタン麻酔ラットにおける律動性膀胱収縮に対するミラベグロン及びオキシブチニンの作用(静脈内投与)" ;
   ifo:file "figure_6_2_2_4.png" .
 
-<IF/6/2/2/figure/5> 
+<IF_6_2_2_figure_5> 
   ifo:type ifo:Figure ;
   ifo:caption "脳梗塞ラットの平均 1 回排尿量に対するミラベグロンとオキシブチニンの効果" ;
   ifo:file "figure_6_2_2_5.png" .
 
-<IF/6/2/2/figure/6> 
+<IF_6_2_2_figure_6> 
   ifo:type ifo:Figure ;
   ifo:caption "無麻酔カニクイザルにおける平均 1 回排尿量及び排尿回数に対するミラベグロンの作用" ;
   ifo:file "figure_6_2_2_6.png" .
 
-<IF/6/2/2/figure/7> 
+<IF_6_2_2_figure_7> 
   ifo:type ifo:Figure ;
   ifo:caption "尿道部分閉塞ラットにおける排尿前収縮回数及び残尿量に対するミラベグロン、トルテロジン及びオキシブチニンの作用 排尿前収縮回数" ;
   ifo:file "figure_6_2_2_7.png" .
 
-<IF/6/2/2/figure/8> 
+<IF_6_2_2_figure_8> 
   ifo:type ifo:Figure ;
   ifo:caption "尿道部分閉塞ラットにおける排尿前収縮回数及び残尿量に対するミラベグロン、トルテロジン及びオキシブチニンの作用 残尿量" ;
   ifo:file "figure_6_2_2_8.png" .
 
 
-<IF/6/2/3>
+<IF_6_2_3>
   rdf:type ifo:IF_6_2_3 ;
-  ifo:key "(3)作用発現時間・持続時間";
+  #ifo:key "(3)作用発現時間・持続時間";
   ifo:value "該当資料なし".
