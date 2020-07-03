@@ -1,85 +1,59 @@
 <IF_3>
-  rdf:type
-    ifo:IF_3 .
+  rdf:type ifo:IF_3 .
 
 <IF_3_1>
-  rdf:type
-    ifo:IF_3_1 ;
+  rdf:type ifo:IF_3_1 ;
 
 <IF_3_1_1>
-  rdf:type
-    ifo:IF_3_1_1 ;
-  rdf:value
-    "外観・性状" .
+  rdf:type ifo:IF_3_1_1 ;
+  rdf:value "外観・性状" .
  
 <IF_3_1_2>
-  rdf:type
-    ifo:IF_3_1_2 ;
-  ifo:table
-    <IF_3_1_2:table1> .
+  rdf:type ifo:IF_3_1_2 ;
+  ifo:table <IF_3_1_2:table1> .
 
 <IF_3_1_2:table1>
-  rdf:type
-    ifo:Table ;
-  rdfs:label
-    "キャプション" ;
-  rdfs:seeAlso
-    <http://....../3_1_2_t1.xlsx> .
+  rdf:type ifo:Table ;
+  rdfs:label "キャプション" ;
+  rdfs:seeAlso <http://....../3_1_2_t1.xlsx> .
 
 <IF_3_1_3>
-  rdf:type
-    ifo:IF_3_1_3 ;
-  rdf:value
-    "吸湿性" .
+  rdf:type ifo:IF_3_1_3 ;
+  rdf:value "吸湿性" .
 
 <IF_3_1_4>
-  rdf:type
-    ifo:IF_3_1_4 ;
-  rdf:value
-    "融点（分解点）、沸点、凝固点" .
+  rdf:type ifo:IF_3_1_4 ;
+  rdf:value "融点（分解点）、沸点、凝固点" .
 
 <IF_3_1_5>
-  rdf:type
-    ifo:IF_3_1_5 ;
-  rdf:value
-    "酸塩基解離定数" .
+  rdf:type ifo:IF_3_1_5 ;
+  rdf:value "酸塩基解離定数" .
 
 <IF_3_1_6>
-  rdf:type
-    ifo:IF_3_1_6 ;
-  ifo:table
-    <IF_3_1_6:table1> .
+  rdf:type ifo:IF_3_1_6 ;
+  ifo:table <IF_3_1_6:table1> .
 
 <IF_3_1_6:table1>
-  rdf:type
-    ifo:Table ;
-  rdfs:comment
-    "測定温度" ;
-  rdfs:seeAlso
-    <http://....../3_1_6_t1.xlsx> .
+  rdf:type ifo:Table ;
+  rdfs:comment "測定温度" ;
+  rdfs:seeAlso <http://....../3_1_6_t1.xlsx> .
 
 <IF_3_1_7>
-  rdf:type
-    ifo:IF_3_1_7 ;
-  rdf:value
-    "その他の主な示性値" .
+  rdf:type ifo:IF_3_1_7 ;
+  rdf:value "その他の主な示性値" .
 
 <IF_3_2>
-  rdf:type
-    ifo:IF_3_2 ;
-  ifo:table
-    <IF_3_2:table1> .
+  rdf:type ifo:IF_3_2 ;
+  ifo:table <IF_3_2:table1> .
 
 <IF_3_2:table1>
-  rdf:type
-    ifo:Table ;
-  rdfs:seeAlso
-    <http://....../3_2_t1.xlsx> .
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://....../3_2_t1.xlsx> .
 
 <IF_3_3>
-  rdf:type
-    ifo:IF_3_3 ;
+  rdf:type ifo:IF_3_3 ;
   rdf:value
     """
       有効成分の確認試験法、定量法
     """ .
+

@@ -59,7 +59,7 @@ yjcode:YYYYYYYYYYYY
   ifo:規格・含量
     """
     規格・含量
-""" ;
+    """ ;
   ifo:一般名
     "日本語一般名"@ja, "Generic name in English"@en ;
   ifo:製造販売承認年月日
@@ -72,9 +72,10 @@ yjcode:YYYYYYYYYYYY
     "製薬会社名" ;
   ifo:医薬情報担当者の連絡先
     "" ;
-  ifo:問い合わせ窓口 """
+  ifo:問い合わせ窓口
+    """
     問い合わせ窓口
-""" ;
+    """ ;
   ifo:添付文書改訂年月
     "20XX-XX"^^xsd:date .
 
