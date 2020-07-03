@@ -1,4 +1,5 @@
-@base <http://med2rdf.org/if/XXXXXX_XXXXXXXXXXXX_X_XXX_XX#> .
+@base          <http://med2rdf.org/if/XXXXXX_XXXXXXXXXXXX_X_XXX_XX#> .
+@prefix pi:    <http://med2rdf.org/pi/XXXXXX_XXXXXXXXXXXX_Y_YY#> .
 
 @prefix yjc:   <http://med2rdf.org/if/yjcode/> .
 @prefix pio:   <http://med2rdf.org/ontology/pio/> .
@@ -18,8 +19,12 @@
 @prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
 
 <>
+  rdf:type
+    ifo:InterviewForm ;
   rdfs:seeAlso
     <https://www.info.pmda.go.jp/go/interview/1/XXXXXX_XXXXXXXXXXXX_X_XXX_XX.pdf>
+  ifo:package_insert
+    <http://med2rdf.org/pi/XXXXXX_XXXXXXXXXXXX_Y_YY> ;
   ifo:drug_proprietary_id
     yjc:XXXXXXXXXXXX ,
     yjc:YYYYYYYYYYYY .

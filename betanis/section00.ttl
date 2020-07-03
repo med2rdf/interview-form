@@ -1,7 +1,9 @@
-@base <http://med2rdf.org/if/800126_2590014F1021_1_015_1F#> .
-@prefix yjc: <http://med2rdf.org/if/yjcode/> .
-@prefix pio: <http://med2rdf.org/ontology/pio/> .
-@prefix ifo: <http://med2rdf.org/ontology/ifo/> .
+@base          <http://med2rdf.org/if/800126_2590014F1021_1_015_1F#> .
+@prefix pi:    <http://med2rdf.org/pi/800126_2590014F1021_1_12#> .
+
+@prefix yjc:   <http://med2rdf.org/if/yjcode/> .
+@prefix pio:   <http://med2rdf.org/ontology/pio/> .
+@prefix ifo:   <http://med2rdf.org/ontology/ifo/> .
 
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,10 +13,18 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix pav:   <http://purl.org/pav/> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
+@prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
 
 <>
+  rdf:type
+    ifo:InterviewForm ;
   rdfs:seeAlso
     <https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf> .
+  ifo:package_insert
+    <http://med2rdf.org/pi/800126_2590014F1021_1_12> ;
   ifo:drug_proprietary_id
     yjc:2590014F1021 ,
     yjc:2590014F2028 .
@@ -31,7 +41,7 @@ yjc:2590014F2028
   dct:identifier
     "2590014F2028" . 
 
-<IF/0>
+<IF_0>
   rdf:type
     ifo:IF_0 ;
   ifo:key

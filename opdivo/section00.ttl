@@ -1,27 +1,48 @@
-@base <https://www.info.pmda.go.jp/go/interview/1/180188_4291427A1024_1_025_1F.pdf> .
-@prefix pio: <http://med2rdf.org/ontology/pio/> .
-@prefix ifo: <http://med2rdf.org/ontology/ifo/> .
-@prefix yjcode: <http://med2rdf.org/drug/> .
+@base          <http://med2rdf.org/if/180188_4291427A1024_1_025_1F#> .
+@prefix pi:    <http://med2rdf.org/pi/180188_4291427A1024_1_39#> .
+
+@prefix yjc:   <http://med2rdf.org/if/yjcode/> .
+@prefix pio:   <http://med2rdf.org/ontology/pio/> .
+@prefix ifo:   <http://med2rdf.org/ontology/ifo/> .
+
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
+@prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
 
 <>
+  rdf:type
+    ifo:InterviewForm ;
+  rdfs:seeAlso
+    <https://www.info.pmda.go.jp/go/interview/1/180188_4291427A1024_1_025_1F.pdf> ;
+  ifo:package_insert
+    <http://med2rdf.org/pi/180188_4291427A1024_1_39> ;
   ifo:drug_proprietary_id
-    yjcode:4291427A1024 ,
-    yjcode:4291427A2020 ,
-    yjcode:4291427A3027 .
+    yjc:4291427A1024 ,
+    yjc:4291427A2020 ,
+    yjc:4291427A3027 .
 
-yjcode:4291427A1024
+yjc:4291427A1024
   rdfs:label
     "オプジーボ 点滴静注20mg" ;
   dct:identifier
     "4291427A1024" .
 
-yjcode:4291427A2020
+yjc:4291427A2020
   rdfs:label
     "オプジーボ 点滴静注100mg" ;
   dct:identifier
     "4291427A2020" .
 
-yjcode:4291427A3027
+yjc:4291427A3027
   rdfs:label
     "オプジーボ 点滴静注240mg" ;
   dct:identifier
@@ -30,7 +51,7 @@ yjcode:4291427A3027
 # ここから先ベタニス→オプジーボ更新予定
 
 
-<IF/0>
+<IF_0>
   rdf:type
     ifo:IF_0 ;
   ifo:key
@@ -82,9 +103,8 @@ yjcode:4291427A3027
   ifo:販売開始年月日
     2014-09-02 ;
 
-# 240mg は 2018 年だがどのように記述するか？
+# TODO: 240mg は 2018 年だがどのように記述するか？
 
-# ifo:製造販売(輸入)・提携・販売会社名
   ifo:製造販売
     "製造販売: 小野薬品工業株式会社, プロモーション提携: ブリストル・マイヤーズ スクイブ株式会社" ;
 
@@ -101,5 +121,6 @@ yjcode:4291427A3027
   医療関係者向けホームページ:URL https://www.opdivo.jp/
 """ ;
 
-  ifo:添付文書改訂年月 "2020-02"^^xsd:date .
+  ifo:添付文書改訂年月
+    "2020-02"^^xsd:date .
 
