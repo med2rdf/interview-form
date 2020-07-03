@@ -329,12 +329,11 @@
 <IF_8_7_1>
   rdf:type ifo:IF_8_7_1 ;
   # "(1) 併用禁忌とその理由" ;
-  ifo:添付文書 "10.1 併用禁忌（併用しないこと）" .
-  ifo:薬剤名等 pi:PI_10_1 .
+  ifo:package_insert pi:PI_10_1 ;
   ifo:items <IF_8_7_1:item1> .
 
 <IF_8_7_1:item1>
-  dct:references pi:PI_10_1:item1 ;
+  ifo:package_insert pi:PI_10_1:item1 ;
   rdf:value  """
   本剤及びこれらの薬剤がともに催不整脈作用を有し、また本剤の CYP2D6 阻害作用により、CYP2D6 で代謝されるフレカイニド酢酸塩(タンボコール)、プロパフェノン塩酸塩(プロノン)の血中濃度が上昇するおそれがあることから設定した。
   """ .
