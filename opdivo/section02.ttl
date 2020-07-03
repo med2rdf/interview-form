@@ -1,0 +1,57 @@
+<IF_2>
+  rdf:type ifo:IF_2 .
+
+<IF_2_1>
+  rdf:type ifo:IF_2_1 .
+
+<IF_2_1_1>
+  rdf:type ifo:IF_2_1_1 ;
+  rdf:value "オプジーボ\textregistered 点滴静注20mg", "オプジーボ\textregistered 100mg", "オプジーボ\textregistered 240mg" .
+
+<IF_2_1_2>
+  rdf:type ifo:IF_2_1_2 ;
+  rdf:value "OPDIVO Intravenous Infusion 20mg", "OPDIVO Intravenous Infusion 100mg", "OPDIVO Intravenous Infusion 240mg" .
+
+<IF_2_1_3>
+  rdf:type ifo:IF_2_1_3 ;
+  rdf:value "optimal（最適な）＋PD-1＋nivolumab（一般名）から命名" .
+
+<IF_2_2>
+  rdf:type ifo:IF_2_2 .
+
+<IF_2_2_1>
+  rdf:type ifo:IF_2_2_1 ;
+  rdf:value "ニボルマブ（遺伝子組換え）(JAN)" .
+
+<IF_2_2_2>
+  rdf:type ifo:IF_2_2_2 ;
+  rdf:value "Nivolumab (Genetical Recombination) (JAN)", "nivolumab (INN)" .
+
+<IF_2_2_3>
+  rdf:type ifo:IF_2_2_3 ;
+  rdf:value "モノクローナル抗体：-mab", "免疫調節作用を有するヒト型モノクローナル抗体：-lumab" .
+
+<IF_2_3>
+  rdf:type ifo:IF_2_3 ;
+  rdf:value "440個のアミノ酸残基からなる重鎖2本及び214個のアミノ酸残基からなる軽鎖2本が鎖間ジスルフィド結合により結合した糖タンパク質である。" .
+
+<IF_2_4>
+  rdf:type ifo:IF_2_4 ;
+  rdf:value """
+  分子式：C6362H9836N1712O1998S42（タンパク質部分、4本鎖）
+  重鎖　C2154H3326N576O665S16
+  軽鎖　C1027H1596N280O334S5
+  分子量：約145,000
+""" .
+
+<IF_2_5>
+  rdf:type ifo:IF_2_5 ;
+  rdf:value "ニボルマブは、ヒトPD-1に対する遺伝子組換えヒトIgG4モノクローナル抗体であり、重鎖221番目のアミノ酸残基がProに置換されている。ニボルマブは、チャイニーズハムスター卵巣細胞により産生される。ニボルマブは、440個のアミノ酸残基からなる重鎖（γ4鎖）2本及び214個のアミノ酸残基からなる軽鎖（κ鎖）2本で構成される糖タンパク質（分子量：約145,000）である。" .
+
+<IF_2_6>
+  rdf:type ifo:IF_2_6 ;
+  rdf:value """
+  開発記号：ONO-4538 （小野薬品工業株式会社）
+			BMS-936558/MDX-1106 （ブリストル・マイヤーズ スクイブ社/メダレックス社）
+  """ .
+

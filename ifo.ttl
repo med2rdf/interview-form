@@ -12,6 +12,31 @@
     owl:imports <http://www.w3.org/2004/02/skos/core> ;
     owl:versionInfo 0.01 .
 
+:InterviewForm
+    a owl:Class ;
+    rdfs:label "インタビューフォーム"@ja .
+
+:Table
+    a owl:Class .
+
+:Figure
+    a owl:Class .
+
+:package_insert
+    a owl:ObjectProperty .
+
+:items
+    a owl:ObjectProperty .
+
+:table
+    a owl:ObjectProperty .
+
+:figure
+    a owl:ObjectProperty .
+
+:drug_proprietary_id
+    a owl:ObjectProperty .
+
 :IF_0
     a owl:Class ;
     rdfs:label "表紙"@ja .
@@ -917,26 +942,7 @@
     a owl:Class ;
     rdfs:label "備考"@ja .
 
-# Classes
-
-:Table
-    a owl:Class .
-
-:Figure
-    a owl:Class .
-
-# Properties
-
-:table
-    a owl:ObjectProperty .
-
-:figure
-    a owl:ObjectProperty .
-
-## Section :IF_0
-
-:drug_proprietary_id
-    a owl:ObjectProperty .
+# Section :IF_0
 
 :日本標準商品分類番号
     a owl:DatatypeProperty .
@@ -983,7 +989,7 @@
 :添付文書改訂年月
     a owl:DatatypeProperty .
 
-## Section :IF_11
+# Section :IF_11
 
 :internal_reference_id
     a owl:DatatypeProperty .

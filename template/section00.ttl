@@ -1,7 +1,9 @@
-@base <http://med2rdf.org/if/XXXXXX_XXXXXXXXXXXX_X_XXX_XX#> .
-@prefix yjc: <http://med2rdf.org/if/yjcode/> .
-@prefix pio: <http://med2rdf.org/ontology/pio/> .
-@prefix ifo: <http://med2rdf.org/ontology/ifo/> .
+@base          <http://med2rdf.org/if/XXXXXX_XXXXXXXXXXXX_X_XXX_XX#> .
+@prefix pi:    <http://med2rdf.org/pi/XXXXXX_XXXXXXXXXXXX_Y_YY#> .
+
+@prefix yjc:   <http://med2rdf.org/if/yjcode/> .
+@prefix pio:   <http://med2rdf.org/ontology/pio/> .
+@prefix ifo:   <http://med2rdf.org/ontology/ifo/> .
 
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
@@ -11,24 +13,29 @@
 @prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
 @prefix pav:   <http://purl.org/pav/> .
-@prefix olo: <http://purl.org/ontology/olo/core#> .
-@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
 @prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
+@prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
 
 <>
+  rdf:type
+    ifo:InterviewForm ;
   rdfs:seeAlso
     <https://www.info.pmda.go.jp/go/interview/1/XXXXXX_XXXXXXXXXXXX_X_XXX_XX.pdf>
+  ifo:package_insert
+    <http://med2rdf.org/pi/XXXXXX_XXXXXXXXXXXX_Y_YY> ;
   ifo:drug_proprietary_id
     yjc:XXXXXXXXXXXX ,
     yjc:YYYYYYYYYYYY .
 
-yjcode:XXXXXXXXXXXX
+yjc:XXXXXXXXXXXX
   rdfs:label
     "医薬品販売名1" ;
   dct:identifier
     "XXXXXXXXXXXX" .
 
-yjcode:YYYYYYYYYYYY
+yjc:YYYYYYYYYYYY
   rdfs:label
     "医薬品販売名2" ;
   dct:identifier

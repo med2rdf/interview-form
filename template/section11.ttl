@@ -21,7 +21,7 @@
 # PubMed にある文献の場合
 <ref1>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/XXXXXX> ;
+  dct:references pmid:XXXXXX ;
   ifo:internal_reference_id "BE-0XXXX" .  # 文献に内部コードある場合
 
 # 論文の場合
