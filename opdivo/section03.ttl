@@ -28,4 +28,21 @@
   rdf:type ifo:IF_3_1_6 ;
   rdf:value "該当しない" .
 
+<IF_3_1_7>
+  rdf:type ifo:IF_3_1_7 ;
+  rdf:value "pH：5.5〜6.5" .
 
+<IF_3_2>
+  rdf:type ifo:IF_3_2 ;
+  ifo:table <IF_3_2:table1> .
+
+<IF_3_2:table1>
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://....../3_2_t1.xlsx> .
+
+<IF_3_3>
+  rdf:type ifo:IF_3_3 ;
+  rdf:value """
+  確認試験法：液体クロマトグラフィー（ペプチドマップ）
+  定量法：紫外線可視光吸光度測定法（タンパク質定量法）
+ """ .
