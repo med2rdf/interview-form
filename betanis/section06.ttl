@@ -35,16 +35,16 @@
 
 <IF_6_2_1:figure1> 
   rdf:type ifo:Figure ;
-  foaf:depicts  <http://..../figure_6_2_1_1.png> .
+  foaf:depicts  <http://example.org./figure_6_2_1_1.png> .
 
 <IF_6_2_1:figure2>
   rdf:type ifo:Figure ;
   rdfs:label "正常な蓄尿期のイメージ　過活動膀胱における蓄尿期のイメージ" ;
-  foaf:depicts  <http://...../figure_6_2_1_2.png> .
+  foaf:depicts  <http://example.org../figure_6_2_1_2.png> .
 
 <IF_6_2_1:figure3>
   rdf:type ifo:Figure ;
-  foaf:depicts  <http://...../figure_6_2_1_3.png> .
+  foaf:depicts  <http://example.org../figure_6_2_1_3.png> .
 
 
 <IF_6_2_2>
@@ -128,57 +128,57 @@
 <IF_6_2_2:table1>
   rdf:type ifo:table ;
   rdfs:label "ヒト β アドレナリン受容体に対する刺激作用(in vitro )" ;
-  rdfs:seeAlso <http://.../table_6_2_2_1.xlsx >.
+  rdfs:seeAlso <http://example.org/table_6_2_2_1.xlsx> .
 
 <IF_6_2_2:table2>
   rdf:type ifo:table ;
   rdfs:label "ラット摘出膀胱における弛緩作用(in vitro)" ;
-  rdfs:seeAlso <http://.../table_6_2_2_2.xlsx >.
+  rdfs:seeAlso <http://example.org/table_6_2_2_2.xlsx> .
 
 <IF_6_2_2:table3>
   rdf:type ifo:table ;
   rdfs:label "ヒト摘出膀胱における弛緩作用(in vitro)" ;
-  rdfs:seeAlso <http://.../table_6_2_2_3.xlsx > .
+  rdfs:seeAlso <http://example.org/table_6_2_2_3.xlsx> .
 
 <IF_6_2_2:figure1> 
   ifo:type ifo:Figure ;
   rdfs:label "ラット摘出膀胱組織内の cAMP 濃度に対する作用(in vitro)(n=6)" ;
-  foaf:depicts <http://.../figure_6_2_2_1.png > .
+  foaf:depicts <http://example.org/figure_6_2_2_1.png> .
 
 <IF_6_2_2:figure2> 
   ifo:type ifo:Figure ;
   rdfs:label "ヒト摘出膀胱における弛緩作用(in vitro)" ;
-  foaf:depicts <http://.../figure_6_2_2_2.png> .
+  foaf:depicts <http://example.org/figure_6_2_2_2.png> .
 
 <IF_6_2_2:figure3> 
   ifo:type ifo:Figure ;
   rdfs:label "ペントバルビタール麻酔ラットにおける静止時膀胱内圧に対するミラベグロン、トルテロジン及びオキシブチニンの作用" ;
-  foaf:depicts <http://.../figure_6_2_2_3.png> .
+  foaf:depicts <http://example.org/figure_6_2_2_3.png> .
 
 <IF_6_2_2:figure4> 
   ifo:type ifo:Figure ;
   rdfs:label "ウレタン麻酔ラットにおける律動性膀胱収縮に対するミラベグロン及びオキシブチニンの作用(静脈内投与)" ;
-  foaf:depicts <http://.../figure_6_2_2_4.png> .
+  foaf:depicts <http://example.org/figure_6_2_2_4.png> .
 
 <IF_6_2_2:figure5> 
   ifo:type ifo:Figure ;
   rdfs:label "脳梗塞ラットの平均 1 回排尿量に対するミラベグロンとオキシブチニンの効果" ;
-  foaf:depicts <http://.../figure_6_2_2_5.png> .
+  foaf:depicts <http://example.org/figure_6_2_2_5.png> .
 
 <IF_6_2_2:figure6> 
   ifo:type ifo:Figure ;
   rdfs:label "無麻酔カニクイザルにおける平均 1 回排尿量及び排尿回数に対するミラベグロンの作用" ;
-  foaf:depicts <http://.../figure_6_2_2_6.png> .
+  foaf:depicts <http://example.org/figure_6_2_2_6.png> .
 
 <IF_6_2_2:figure7> 
   ifo:type ifo:Figure ;
   rdfs:label "尿道部分閉塞ラットにおける排尿前収縮回数及び残尿量に対するミラベグロン、トルテロジン及びオキシブチニンの作用 排尿前収縮回数" ;
-  foaf:depicts <http://.../figure_6_2_2_7.png> .
+  foaf:depicts <http://example.org/figure_6_2_2_7.png> .
 
 <IF_6_2_2:figure8> 
   ifo:type ifo:Figure ;
   rdfs:label "尿道部分閉塞ラットにおける排尿前収縮回数及び残尿量に対するミラベグロン、トルテロジン及びオキシブチニンの作用 残尿量" ;
-  foaf:depicts <http://.../figure_6_2_2_8.png> .
+  foaf:depicts <http://example.org/figure_6_2_2_8.png> .
 
 
 <IF_6_2_3>

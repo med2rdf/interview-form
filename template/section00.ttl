@@ -22,7 +22,7 @@
   rdf:type
     ifo:InterviewForm ;
   rdfs:seeAlso
-    <https://www.info.pmda.go.jp/go/interview/1/XXXXXX_XXXXXXXXXXXX_X_XXX_XX.pdf>
+    <https://www.info.pmda.go.jp/go/interview/1/XXXXXX_XXXXXXXXXXXX_X_XXX_XX.pdf> ;
   ifo:package_insert
     <http://med2rdf.org/pi/XXXXXX_XXXXXXXXXXXX_Y_YY> ;
   ifo:drug_proprietary_id
@@ -47,7 +47,7 @@ yjc:YYYYYYYYYYYY
   rdf:type
     ifo:IF_0 ;
   dct:modified
-    "20XX-XX"^^xsd:date ;
+    "YYYY-MM"^^xsd:gYearMonth ;
   pav:version
     XX ;  # 第XX版
   ifo:日本標準商品分類番号
@@ -75,11 +75,11 @@ yjc:YYYYYYYYYYYY
   ifo:一般名
     "日本語一般名"@ja, "Generic name in English"@en ;
   ifo:製造販売承認年月日
-    20XX-XX-XX ;
+    "YYYY-MM-DD"^^xsd:date ;
   ifo:薬価基準収載年月日
-    20XX-XX-XX ;
+    "YYYY-MM-DD"^^xsd:date ;
   ifo:販売開始年月日
-    20XX-XX-XX ;
+    "YYYY-MM-DD"^^xsd:date ;
   ifo:製造販売
     "製薬会社名" ;
   ifo:医薬情報担当者の連絡先
@@ -89,5 +89,5 @@ yjc:YYYYYYYYYYYY
     問い合わせ窓口
     """ ;
   ifo:添付文書改訂年月
-    "20XX-XX"^^xsd:date .
+    "YYYY-MM"^^xsd:gYearMonth .
 

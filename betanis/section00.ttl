@@ -22,7 +22,7 @@
   rdf:type
     ifo:InterviewForm ;
   rdfs:seeAlso
-    <https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf> .
+    <https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf> ;
   ifo:package_insert
     <http://med2rdf.org/pi/800126_2590014F1021_1_12> ;
   ifo:drug_proprietary_id
@@ -47,9 +47,9 @@ yjc:2590014F2028
   rdf:type
     ifo:IF_0 ;
   ifo:key
-    "表紙" .
+    "表紙" ;
   dct:modified
-    "2019-12"^^xsd:date ;
+    "2019-12"^^xsd:gYearMonth ;
   pav:version
     15 ;
   ifo:日本標準商品分類番号
@@ -78,11 +78,11 @@ yjc:2590014F2028
   ifo:一般名
     "ミラベグロン(JAN)"@ja, "Mirabegron(JAN)"@en ;
   ifo:製造販売承認年月日
-    2011-07-01 ;
+    "2011-07-01"^^xsd:date ;
   ifo:薬価基準収載年月日
-    2011-09-12 ;
+    "2011-09-12"^^xsd:date ;
   ifo:販売開始年月日
-    2011-09-16 ;
+    "2011-09-16"^^xsd:date ;
   ifo:製造販売
     "アステラス製薬株式会社" ;
   ifo:医薬情報担当者の連絡先
@@ -94,5 +94,5 @@ yjc:2590014F2028
   https://amn.astellas.jp/
 """ ;
   ifo:添付文書改訂年月
-    "2019-07"^^xsd:date .
+    "2019-07"^^xsd:gYearMonth .
 

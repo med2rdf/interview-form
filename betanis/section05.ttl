@@ -2,13 +2,13 @@
 ###  ifo:添付文書 ifo:NotAvailable ; ifo:解説 "設定されていない" →あるかどうか要確認
 ###  dct:references <ref60>,追加中
 <IF_5>
-  rdf:type ifo:IF_5 ;
+  rdf:type ifo:IF_5 .
   #  "Ⅴ．治療に関する項目" .
 
 <IF_5_1>
   rdf:type ifo:IF_5_1 ;
   #  "1. 効能又は効果 " ;
-  rdf:value "過活動膀胱における尿意切迫感、頻尿及び切迫性尿失禁" ; .
+  rdf:value "過活動膀胱における尿意切迫感、頻尿及び切迫性尿失禁" .
 
 <IF_5_2>
   rdf:tpe ifo:IF5_2 ;
@@ -90,12 +90,12 @@
 <IF_5_5_1:Table1>
   rdf:type ifo:Table ;
   rdfs:label "＜評価資料＞" ;
-  rdfs:seeAlso <http:// ...../5_5_1_t1.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_1_t1.xlsx> .
 
 <IF_5_5_1:Table2>
   rdf:type ifo:Table ;
   rdfs:label "＜参考資料＞" ;
-  rdfs:seeAlso <http:// ...../5_5_1_t2.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_1_t2.xlsx> .
 
 <IF_5_5_2>
   rdf:type ifo:IF_5_5_2 ;
@@ -118,12 +118,12 @@
 <IF_5_5_2:table1>
   rdf:type ifo:Table ;
   rdfs:label "定常状態におけるQT間隔のベースラインからの変化量(プラセボとの差)12)" ;
-  rdfs:seeAlso <http:// ...../5_5_2_t1.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_2_t1.xlsx> .
 
 <IF_5_5_2:table2>
   rdf:type ifo:Table ;
   rdfs:label "定常状態におけるQT間隔のベースラインからの変化量(プラセボとの差)(追加試験)14)" ;
-  rdfs:seeAlso <http:// ...../5_5_2_t2.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_2_t2.xlsx> .
 
     ##　注釈の書き方
 
@@ -145,32 +145,32 @@
 <IF_5_5_3:table1>
   rdf:type ifo:Table ;
   rdfs:label "国内第Ⅱ相試験" ;
-  rdfs:seeAlso <http:// ...../5_5_3_t1.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_3_t1.xlsx> .
 
 <IF_5_5_3:table2>
   rdf:type ifo:Table ;
   rdfs:label "①主要評価項目　最終評価時の24時間あたりの平均排尿回数変化量" ;
-  rdfs:seeAlso <http:// ...../5_5_3_t2.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_3_t2.xlsx> .
 
 <IF_5_5_3:table3>
   rdf:type ifo:Table ;
   rdfs:label "②副次評価項目　最終評価時の24時間あたりの平均尿意切迫感回数変化量" ;
-  rdfs:seeAlso <http:// ...../5_5_3_t3.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_3_t3.xlsx> .
 
 <IF_5_5_3:table4>
   rdf:type ifo:Table ;
   rdfs:label "②副次評価項目　最終評価時の24時間あたりの平均尿失禁回数変化量" ;
-  rdfs:seeAlso <http:// ...../5_5_3_t4.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_3_t4.xlsx> .
 
-<IF_5_5_5:table5>
+<IF_5_5_3:table5>
   rdf:type ifo:Table ;
   rdfs:label "②副次評価項目　最終評価時の24時間あたりの平均切迫性尿失禁回数変化量" ;
-  rdfs:seeAlso <http:// ...../5_5_3_t5.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_3_t5.xlsx> .
 
-<IF_5_5_6:table6>
+<IF_5_5_3:table6>
   rdf:type ifo:Table ;
   rdfs:label "安全性　治療期に発現した副作用" ;
-  rdfs:seeAlso <http:// ...../5_5_3_t6.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_3_t6.xlsx> .
 
 
 #<IF_5_5_3_1>
@@ -266,12 +266,12 @@
 <IF_5_5_4_1:table1>
   rdf:type ifo:Table ;
   rdfs:label "国内第Ⅲ相試験" ;
-  rdfs:seeAlso <http:// ...../5_5_4_1_t1.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_4_1_t1.xlsx> .
 
 <IF_5_5_4_1:Table2>
   rdf:type ifo:Table ;
   rdfs:label "患者背景（有効性解析対象例）" ;
-  rdfs:seeAlso <http:// ...../5_5_4_1_t2.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_4_1_t2.xlsx> .
 
 #  <IF_5_5_4_1_1>
 #rdf:type ifo:IF_5_5_4_1_1 ;
@@ -321,18 +321,18 @@
   最終評価時におけるベースラインからの起床時脈拍数の変化量は、ベタニス50mg維持例では1.04bpm、100mg増量例では1.40bpmであった。
   """ ;
   ### valueの結果内、図表省略（後で作業）
-  ifo:table <IF_5_5_4_2:table1>, <IF_5_5_4_1:table2> .
+  ifo:table <IF_5_5_4_2:table1>, <IF_5_5_4_1:table2> ;
   dct:references <ref19>, <ref20>, <ref21> .
 
 <IF_5_5_4_2:table1>
   rdf:type ifo:Table ;
   rdfs:label "国内長期投与験" ;
-  rdfs:seeAlso <http:// ...../5_5_4_2_t1.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_4_2_t1.xlsx> .
 
 <IF_5_5_4_2:table2>
   rdf:type ifo:Table ;
   rdfs:label "患者背景（有効性解析対象例）" ;
-  rdfs:seeAlso <http:// ...../5_5_4_2_t2.xlsx> .
+  rdfs:seeAlso <http://example.org/5_5_4_2_t2.xlsx> .
 
 <IF_5_5_5>
   rdf:type ifo:IF_5_5_5 ;
@@ -340,7 +340,7 @@
   rdf:value "該当資料なし" .
 
 <IF_5_5_6>
-  rdf:type ifo:IF_5_5_6 ;
+  rdf:type ifo:IF_5_5_6 .
   #  "6. 治療的使用" .
 
 <IF_5_5_6_1>
@@ -387,17 +387,17 @@ ifo:table <IF_5_5_6_1:talbe1>, <IF_5_5_6_1:talbe2>, <IF_5_5_6_1:talbe3>  .
 <IF_5_5_6_1:talbe1>
   rdf:type ifo:Table ;
   rdfs:label "最終評価時の24時間あたりの平均排尿回数変化量" ;
-  rdfs:seeAlso <http:// ...../IF_5_5_6_1_t1.xlsx> .
+  rdfs:seeAlso <http://example.org/IF_5_5_6_1_t1.xlsx> .
 
 <IF_5_5_6_1:talbe2>
   rdf:type ifo:Table ;
   rdfs:label "最終評価時の24時間あたりの平均尿意切迫感回数変化量" ;
-  rdfs:seeAlso <http:// ...../IF_5_5_6_1_t2.xlsx> .
+  rdfs:seeAlso <http://example.org/IF_5_5_6_1_t2.xlsx> .
 
 <IF_5_5_6_1:talbe3>
   rdf:type ifo:Table ;
   rdfs:label "安全性" ;
-  rdfs:seeAlso <http:// ...../IF_5_5_6_1_t3.xlsx> .
+  rdfs:seeAlso <http://example.org/IF_5_5_6_1_t3.xlsx> .
 
 <IF_5_5_6_2>
   rdf:type ifo:IF_5_5_6_2 ;

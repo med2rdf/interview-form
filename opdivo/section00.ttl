@@ -50,16 +50,14 @@ yjc:4291427A3027
   dct:identifier
     "4291427A3027" .
 
-# ここから先ベタニス→オプジーボ更新予定
-
 
 <IF_0>
   rdf:type
     ifo:IF_0 ;
   ifo:key
-    "表紙" .
+    "表紙" ;
   dct:modified
-    "2020-02"^^xsd:date ;
+    "2020-02"^^xsd:gYearMonth ;
   ifo:version
     24 ;
   ifo:日本標準商品分類番号
@@ -99,11 +97,11 @@ yjc:4291427A3027
   ifo:一般名
     "ニボルマブ（遺伝子組換え）(JAN)"@ja, "Nivolumab (Genetical Recombination) (JAN)"@en, "nivolumab (INN)"@en ;
   ifo:製造販売承認年月日
-    2014-07-04 ;
+    "2014-07-04"^^xsd:date ;
   ifo:薬価基準収載年月日
-    2014-09-02 ;
+    "2014-09-02"^^xsd:date ;
   ifo:販売開始年月日
-    2014-09-02 ;
+    "2014-09-02"^^xsd:date ;
 
 # TODO: 240mg は 2018 年だがどのように記述するか？
 
@@ -124,5 +122,5 @@ yjc:4291427A3027
 """ ;
 
   ifo:添付文書改訂年月
-    "2020-02"^^xsd:date .
+    "2020-02"^^xsd:gYearMonth .
 

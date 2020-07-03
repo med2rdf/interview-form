@@ -1,8 +1,8 @@
 <IF_3>
-  rdf:type ifo:IF_3 ;
+  rdf:type ifo:IF_3 .
 
 <IF_3_1>
-  rdf:type ifo:IF_3_1 ;
+  rdf:type ifo:IF_3_1 .
 
 <IF_3_1_1>
   rdf:type ifo:IF_3_1_1 ;
