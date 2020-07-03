@@ -927,6 +927,12 @@
 
 # Properties
 
+:table
+    a owl:ObjectProperty .
+
+:figure
+    a owl:ObjectProperty .
+
 ## Section :IF_0
 
 :drug_proprietary_id
