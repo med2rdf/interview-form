@@ -1,0 +1,52 @@
+<IF_2>
+  rdf:type ifo:IF_2 .
+
+<IF_2_1>
+  rdf:type ifo:IF_2_1 .
+
+<IF_2_1_1>
+  rdf:type ifo:IF_2_1_1 ;
+  rdf:value "販売名和名1", "販売名和名2" .
+
+<IF_2_1_2>
+  rdf:type ifo:IF_2_1_2 ;
+  rdf:value "English name1", "English name2" .
+
+<IF_2_1_3>
+  rdf:type ifo:IF_2_1_3 ;
+  rdf:value "名称の由来" .
+
+<IF_2_2>
+  rdf:type ifo:IF_2_2 .
+
+<IF_2_2_1>
+  rdf:type ifo:IF_2_2_1 ;
+  rdf:value "一般名和名1", "一般名和名2" .
+
+<IF_2_2_2>
+  rdf:type ifo:IF_2_2_2 ;
+  rdf:value "English name1", "English name2" .
+
+<IF_2_2_3>
+  rdf:type ifo:IF_2_2_3 ;
+  rdf:value "ステム" .
+
+<IF_2_3>
+  rdf:type ifo:IF_2_3 ;
+  ifo:figure <IF_2_3:figure1> .
+
+<IF_2_3:figure1>
+  rdf:type ifo:Figure ;
+  foaf:depicts <http://...../chem.png> .
+
+<IF_2_4>
+  rdf:type ifo:IF_2_4 ;
+  rdf:value "分子式及び分子量" .
+
+<IF_2_5>
+  rdf:type ifo:IF_2_5 ;
+  rdf:value "化学名(命名法)又は本質" .
+
+<IF_2_6>
+  rdf:type ifo:IF_2_6 ;
+  rdf:value "慣用名、別名、略号、記号番号" .
