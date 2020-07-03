@@ -143,9 +143,9 @@
 <IF_4_10_2>
   rdf:type ifo:IF_4_10_2 ;
   rdf:value """
-  オプジーボ(r)点滴静注20mg	2mL：1バイアル
-  オプジーボ(r)点滴静注100mg  10mL：1バイアル
-  オプジーボ(r)点滴静注240mg  24mL：1バイアル
+  オプジーボ\textregistered 点滴静注20mg	2mL：1バイアル
+  オプジーボ\textregistered 点滴静注100mg  10mL：1バイアル
+  オプジーボ\textregistered 点滴静注240mg  24mL：1バイアル
   """ .
 
 <IF_4_10_3>
