@@ -1,0 +1,68 @@
+<IF_11_1>
+  rdf:type ifo:IF_11_1, olo:OrderedList ;
+  olo:length 3 ;  # リファレンスの数
+  olo:slot [
+    olo:index 1 ;
+    olo:item <ref1>
+  ], [
+    olo:index 2 ;
+    olo:item <ref2>
+  ], [
+    olo:index 3 ;
+    olo:item <ref3>
+  ], [
+    olo:index 4 ;
+    olo:item <ref4>
+  ], [
+    olo:index 5 ;
+    olo:item <ref5>
+  ] .
+
+# PubMed にある文献の場合
+<ref1>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/XXXXXX> ;
+  ifo:internal_reference_id "BE-0XXXX" .  # 文献に内部コードある場合
+
+# 論文の場合
+<ref2>
+  a bibo:Article ;
+  dct:creator "著者名" ;
+  prism:publicationName "論文誌名" ;
+  prism:volume XX ;
+  prism:number YY ;
+  prism:startingPage xxx ;
+  prism:endingPage yyy ;
+  dct:issued "20XX"^^xsd:gYear ;
+  ifo:internal_reference_id "R-0XXXX" .  # 文献に内部コードある場合
+
+# 書籍の一部の場合
+<ref3>
+  a bibo:BookSection ;
+  dct:issued "2005"^^xsd:gYear ;
+  prism:publicationName "書籍名" ;
+  bibo:editor [
+    rdf:type foaf:Group ;
+    rdfs:label "編著者グループ名"
+  ] ;
+  prism:startingPage xx ;
+  prism:endingPage yy ;
+  dct:publisher [
+    rdf:type foaf:Agent ;
+    rdfs:label "出版社名"
+  ] ;
+  ifo:internal_reference_id "VC-0XXXX" .  # 文献に内部コードある場合
+
+# 社内報告書などの場合
+<ref4>
+  a bibo:Document ;
+  dct:dateAccepted "20XX-XX-XX"^^xsd:date ;
+  rdfs:label "社内報告書" ;
+  ifo:ctd_number "CTDX.X.X.X" ;
+  ifo:dir_number "DIR11XXXX" .
+
+<IF_11_2>
+  rdf:type ifo:IF_11_2 ;
+  rdf:value "その他の参考文献" .
+
+

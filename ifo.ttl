@@ -983,3 +983,14 @@
 :添付文書改訂年月
     a owl:DatatypeProperty .
 
+## Section :IF_11
+
+:internal_reference_id
+    a owl:DatatypeProperty .
+
+:ctd_number
+    a owl:DatatypeProperty .
+
+:dir_number
+    a owl:DatatypeProperty .
+
