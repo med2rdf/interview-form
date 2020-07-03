@@ -207,41 +207,6 @@
     rdfs:label "剤形"@ja ;
     rdfs:subClassOf :IF_4 .
 
-:IF_4_10
-    a owl:Class ;
-    rdfs:label "容器・包装"@ja ;
-    rdfs:subClassOf :IF_4 .
-
-:IF_4_10_1
-    a owl:Class ;
-    rdfs:label "注意が必要な容器・包装，外観が特殊な容器・包装に関する情報"@ja ;
-    rdfs:subClassOf :IF_4_10 .
-
-:IF_4_10_2
-    a owl:Class ;
-    rdfs:label "包装"@ja ;
-    rdfs:subClassOf :IF_4_10 .
-
-:IF_4_10_3
-    a owl:Class ;
-    rdfs:label "予備容量"@ja ;
-    rdfs:subClassOf :IF_4_10 .
-
-:IF_4_10_4
-    a owl:Class ;
-    rdfs:label "容器の材質"@ja ;
-    rdfs:subClassOf :IF_4_10 .
-
-:IF_4_11
-    a owl:Class ;
-    rdfs:label "別途提供される資材類"@ja ;
-    rdfs:subClassOf :IF_4 .
-
-:IF_4_12
-    a owl:Class ;
-    rdfs:label "その他"@ja ;
-    rdfs:subClassOf :IF_4 .
-
 :IF_4_1_1
     a owl:Class ;
     rdfs:label "剤形の区別"@ja ;
@@ -320,6 +285,41 @@
 :IF_4_9
     a owl:Class ;
     rdfs:label "溶出性"@ja ;
+    rdfs:subClassOf :IF_4 .
+
+:IF_4_10
+    a owl:Class ;
+    rdfs:label "容器・包装"@ja ;
+    rdfs:subClassOf :IF_4 .
+
+:IF_4_10_1
+    a owl:Class ;
+    rdfs:label "注意が必要な容器・包装，外観が特殊な容器・包装に関する情報"@ja ;
+    rdfs:subClassOf :IF_4_10 .
+
+:IF_4_10_2
+    a owl:Class ;
+    rdfs:label "包装"@ja ;
+    rdfs:subClassOf :IF_4_10 .
+
+:IF_4_10_3
+    a owl:Class ;
+    rdfs:label "予備容量"@ja ;
+    rdfs:subClassOf :IF_4_10 .
+
+:IF_4_10_4
+    a owl:Class ;
+    rdfs:label "容器の材質"@ja ;
+    rdfs:subClassOf :IF_4_10 .
+
+:IF_4_11
+    a owl:Class ;
+    rdfs:label "別途提供される資材類"@ja ;
+    rdfs:subClassOf :IF_4 .
+
+:IF_4_12
+    a owl:Class ;
+    rdfs:label "その他"@ja ;
     rdfs:subClassOf :IF_4 .
 
 :IF_5
@@ -451,16 +451,6 @@
 :IF_7_1
     a owl:Class ;
     rdfs:label "血中濃度の推移"@ja ;
-    rdfs:subClassOf :IF_7 .
-
-:IF_7_10
-    a owl:Class ;
-    rdfs:label "特定の背景を有する患者"@ja ;
-    rdfs:subClassOf :IF_7 .
-
-:IF_7_11
-    a owl:Class ;
-    rdfs:label "その他"@ja ;
     rdfs:subClassOf :IF_7 .
 
 :IF_7_1_1
@@ -613,6 +603,16 @@
     rdfs:label "透析等による除去率"@ja ;
     rdfs:subClassOf :IF_7 .
 
+:IF_7_10
+    a owl:Class ;
+    rdfs:label "特定の背景を有する患者"@ja ;
+    rdfs:subClassOf :IF_7 .
+
+:IF_7_11
+    a owl:Class ;
+    rdfs:label "その他"@ja ;
+    rdfs:subClassOf :IF_7 .
+
 :IF_8
     a owl:Class ;
     rdfs:label "安全性(使用上の注意等)に関する項目"@ja .
@@ -621,31 +621,6 @@
     a owl:Class ;
     rdfs:label "警告内容とその理由"@ja ;
     rdfs:subClassOf :IF_8 .
-
-:IF_8_10
-    a owl:Class ;
-    rdfs:label "過量投与"@ja ;
-    rdfs:subClassOf :IF_8 .
-
-:IF_8_11
-    a owl:Class ;
-    rdfs:label "適用上の注意"@ja ;
-    rdfs:subClassOf :IF_8 .
-
-:IF_8_12
-    a owl:Class ;
-    rdfs:label "その他の注意"@ja ;
-    rdfs:subClassOf :IF_8 .
-
-:IF_8_12_1
-    a owl:Class ;
-    rdfs:label "臨床使用に基づく情報"@ja ;
-    rdfs:subClassOf :IF_8_12 .
-
-:IF_8_12_2
-    a owl:Class ;
-    rdfs:label "非臨床試験に基づく情報"@ja ;
-    rdfs:subClassOf :IF_8_12 .
 
 :IF_8_2
     a owl:Class ;
@@ -747,6 +722,31 @@
     rdfs:label "臨床検査結果に及ぼす影響"@ja ;
     rdfs:subClassOf :IF_8 .
 
+:IF_8_10
+    a owl:Class ;
+    rdfs:label "過量投与"@ja ;
+    rdfs:subClassOf :IF_8 .
+
+:IF_8_11
+    a owl:Class ;
+    rdfs:label "適用上の注意"@ja ;
+    rdfs:subClassOf :IF_8 .
+
+:IF_8_12
+    a owl:Class ;
+    rdfs:label "その他の注意"@ja ;
+    rdfs:subClassOf :IF_8 .
+
+:IF_8_12_1
+    a owl:Class ;
+    rdfs:label "臨床使用に基づく情報"@ja ;
+    rdfs:subClassOf :IF_8_12 .
+
+:IF_8_12_2
+    a owl:Class ;
+    rdfs:label "非臨床試験に基づく情報"@ja ;
+    rdfs:subClassOf :IF_8_12 .
+
 :IF_9
     a owl:Class ;
     rdfs:label "非臨床試験に関する項目"@ja .
@@ -820,31 +820,6 @@
     rdfs:label "規制区分"@ja ;
     rdfs:subClassOf :IF_10 .
 
-:IF_10_10
-    a owl:Class ;
-    rdfs:label "再審査結果，再評価結果公表年月日及びその内容"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_11
-    a owl:Class ;
-    rdfs:label "再審査期間"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_12
-    a owl:Class ;
-    rdfs:label "投薬期間制限に関する情報"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_13
-    a owl:Class ;
-    rdfs:label "各種コード"@ja ;
-    rdfs:subClassOf :IF_10 .
-
-:IF_10_14
-    a owl:Class ;
-    rdfs:label "保険給付上の注意"@ja ;
-    rdfs:subClassOf :IF_10 .
-
 :IF_10_2
     a owl:Class ;
     rdfs:label "有効期間"@ja ;
@@ -883,6 +858,31 @@
 :IF_10_9
     a owl:Class ;
     rdfs:label "効能又は効果追加，用法及び用量変更追加等の年月日及びその内容"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_10
+    a owl:Class ;
+    rdfs:label "再審査結果，再評価結果公表年月日及びその内容"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_11
+    a owl:Class ;
+    rdfs:label "再審査期間"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_12
+    a owl:Class ;
+    rdfs:label "投薬期間制限に関する情報"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_13
+    a owl:Class ;
+    rdfs:label "各種コード"@ja ;
+    rdfs:subClassOf :IF_10 .
+
+:IF_10_14
+    a owl:Class ;
+    rdfs:label "保険給付上の注意"@ja ;
     rdfs:subClassOf :IF_10 .
 
 :IF_11
