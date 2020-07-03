@@ -1,0 +1,190 @@
+<IF_4>
+  rdf:type ifo:IF_4 ;
+
+<IF_4_1>
+  rdf:type ifo:IF_4_1 ;
+
+<IF_4_1_1>
+  rdf:type ifo:IF_4_1_1 ;
+  rdf:value "注射剤（溶液、バイアル）" .
+
+<IF_4_1_2>
+  rdf:type ifo:IF_4_1_2 ;
+  ifo:table <IF_4_1_2:table1> .
+
+<IF_4_1_2:table1>
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://....../4_1_2_t1.xlsx> .
+
+<IF_4_1_3>
+  rdf:type ifo:IF_4_1_3 ;
+  rdf:value "該当しない" .
+
+<IF_4_1_4>
+  rdf:type ifo:IF_4_1_4 ;
+  ifo:table <IF_4_1_4:table1> .
+
+<IF_4_1_4:table>
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://....../4_1_4_t4.xlsx> .
+
+<IF_4_2>
+  rdf:type ifo:IF_4_2 ;
+
+<IF_4_2_1>
+  rdf:type ifo:IF_4_2_1 ;
+  ifo:table <IF_4_2_1:table1> 
+
+<IF_4_2_1:table1>
+  rdf:type ifo:Table ;
+  rdfs:seeAlso <http://....../4_2_1_t1.xlsx> .
+
+<IF_4_2_2>
+  rdf:type ifo:IF_4_2_2 ;
+  rdf:value """
+  該当資料なし
+   <参考>
+    本剤は添加物として、クエン酸ナトリウム水和物、塩化ナトリウム及びpH調整剤を含有する。
+	（上記(1)の表参照）
+  """ ;
+  rdfs:seeAlso <IF_4_2_1:table1> .
+
+<IF_4_2_3>
+  rdf:type ifo:IF_4_2_3 ;
+  rdf:value "該当しない" .
+
+<IF_4_3>
+  rdf:type ifo:IF_4_3 ;
+  rdf:value "該当しない" .
+
+<IF_4_4>
+  rdf:type ifo:IF_4_4 ;
+  rdf:value """
+  本剤の含量は、ニボルマブ（遺伝子組換え）（タンパク質量）で表示している。
+  また、本剤の力価はPD-1に対する結合活性及び力価競合ELISAによって測定している。
+  """ .
+
+<IF_4_5>
+  rdf:type ifo:IF_4_5 ;
+  rdf:value "高分子種、低分子種等" .
+
+<IF_4_6>
+  rdf:type ifo:IF_4_6 ;
+  ifo:table <IF_4_6:table1>, <IF_4_6:table2>, <IF_4_6:table3>, <IF_4_6:table4>, <IF4_6:table5> .
+
+<IF_4_6:table1>
+  rdf:type ifo:Table ;
+  rdfs:label "(1) 長期保存試験 5℃、無色ガラスバイアル/白色紙箱" ;
+  rdfs:seeAlso <http://....../4_6_t1.xlsx> .
+
+<IF_4_6:table2>
+  rdf:type ifo:Table ;
+  rdfs:label "(2) 加速試験 25℃、60%RH、無色ガラスバイアル/白色紙箱" ;
+  rdfs:seeAlso <http://....../4_6_t2.xlsx> .
+
+<IF_4_6:table3>
+  rdf:type ifo:Table ;
+  rdfs:label """
+  (3) 苛酷試験（光） 25℃、D65ランプ、2,000lx、無色ガラスバイアル
+  （総照度120万lx*hr以上及び総近紫外放射エネルギー200$\mathrm{W}*\mathrm{hr}/\mathrm{m}^2$以上）""" ;
+  rdsf:comment "＊：確認試験、純度試験で規格不適となった" ;
+  rdfs:seeAlso <http://....../4_6_t3.xlsx> .
+
+<IF_4_6:table4>
+  rdf:type ifo:Table ;
+  rdfs:label "光安定性 25℃、室内光（D65ランプ、1,000lx）、無色ガラスバイアル" ;
+  rdfs:comment """
+  ＊：純度試験で規格範囲内での変動が認められた
+  ＊＊：純度試験で規格不適となった""" ;
+  rdfs:seeAlso <http://....../4_6_t4.xlsx> .
+
+<IF_4_6:table5>
+  rdf:type ifo:Table ;
+  rdfs:label "(5) 凍結・融解サイクル試験 無色ガラスバイアル/白色紙箱" ;
+  rdfs:comment "測定項目：性状、確認試験、純度試験、力価競合ELISA及び定量法（タンパク質濃度）、等" ;
+  rdfs:seeAlso <http://....../4_6_t5.xlsx> .
+
+<IF_4_7>
+  rdf:type ifo:IF_4_7 ;
+  rdf:value """
+  調整法
+  「VIII. 11. 適用上の注意」の項参照
+
+　溶解後の安定性
+	本剤（10mg/mL）を生理食塩液又は5%ブドウ糖液で0.35及び4.0mg/mLの濃度に調整し、室温（24〜26℃）・室内光下に保存後、外観観察及びpH、力価等の測定を行った。
+	""" ;
+	rdfs:seeAlso <IF_8_11> ;
+	ifo:table <IF_4_7:table1> .
+
+<IF_4_7:table1>
+  rdf:type ifo:Table ;
+  rdfs:comment "＊：使用した輸液バッグ; ポリエチレン製" ;
+  rdfs:seeAlso <http://....../4_7_t1.xlsx> .
+
+<IF_4_8>
+  rdf:type ifo:IF_4_8 ;
+  rdf:value """
+  該当しない
+  <14.適用上の注意>
+  14.1 薬剤調整時の注意
+  14.1.6 他剤との混注はしないこと。""" . 
+
+<IF_4_9>
+  rdf:type ifo:IF_4_9 ;
+  rdf:value "該当しない" .
+
+<IF_4_10>
+  rdf:type ifo:IF_4_10 ;
+
+<IF_4_10_1>
+  rdf:type ifo:IF_4_10_1 ;
+  rdf:value "コアリング防止のため、針刺し時はゴム栓の中心部に針を挿入すること。" .
+
+<IF_4_10_2>
+  rdf:type ifo:IF_4_10_2 ;
+  rdf:value """
+  オプジーボ(r)点滴静注20mg	2mL：1バイアル
+  オプジーボ(r)点滴静注100mg  10mL：1バイアル
+  オプジーボ(r)点滴静注240mg  24mL：1バイアル
+  """ .
+
+<IF_4_10_3>
+  rdf:type ifo:IF_4_10_3 ;
+  rdf:value "該当しない" .
+
+<IF_4_10_4>
+  rdf:type ifo:IF_4_10_4 ;
+  ifo_value """
+  バイアル：無色透明のガラス
+  ゴム栓：ブチルゴム
+ """ .
+
+<IF_4_11>
+  rdf:type ifo:IF_4_11 ;
+  rdf:value "該当しない" .
+
+<IF_4_12>
+  rdf:type ifo:IF_4_12 ;
+  rdf:value """
+  (1) フィルター通過性試験
+  本剤(10mg/mL)を生理食塩液で0.35 及び4.0mg/mL の濃度に調製した液を、下記の輸液セット及びフィルターに通液した(投与速度:50mL/時間)。
+  結果、本剤の品質に変化は認められなかった。
+  フィルター:ポリスルホン、ポリエーテルスルホン、ポジダイン ナイロン66(孔径は全て0.2μm)
+  輸液セット:PVC フリー(ポリブタジエン製)、DEHP フリー(ポリ塩化ビニル製)
+
+  (2) CV(中心静脈)ポート/PICC(末梢挿入型中心静脈カテーテル)通過性試験
+CV ポートを生理食塩液20mL(PICC では 10mL)でフラッシング終了後、本剤(10mg/mL)を生理食塩液で0.8、1.9 及び2.4mg/mL の濃度に調製した液を、CV ポート又はPICC に通液した
+  (投与速度:100 及び200mL/時間)。
+  結果、1.9 及び 2.4mg/mL の濃度では本剤の品質に変化は認められなかった。0.8mg/mL の濃度では外観(性状)で微粒子を認めた。
+  詳細は下記URL にてご参照ください。
+
+  独立行政法人医薬品医療機器総合機構ホームページ
+  https://www.pmda.go.jp/safety/info-services/drugs/calling-attention/properly-use-alert/0004.html
+  (2020 年1 月17 日アクセス)
+
+  オプジーボ製品サイト(https://www.opdivo.jp/)[安全性・適正使用情報]に掲載しています。
+
+  (3)生物学的試験法
+  無菌試験:日本薬局方一般試験法(メンブランフィルター法)により試験を行うとき、これに適合する。
+  """ ;
+  rdfs:seeAlso <https://www.pmda.go.jp/safety/info-services/drugs/calling-attention/properly-use-alert/0004.html>, <https://www.opdivo.jp/>
