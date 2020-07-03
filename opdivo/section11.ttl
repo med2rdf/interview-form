@@ -8,57 +8,110 @@
 @prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-<IF/11/1>
+<IF_11_1>
   rdf:type ifo:IF_11_1 ;
   rdf:type olo:OrderedList ;
   obo:length 72;
   olo:slot [
     olo:index 1 ;
-    olo:item <IF#ref1>
+    olo:item <ref1>
   ], [
     olo:index 2 ;
-    olo:item <IF#ref2>
+    olo:item <ref2>
   ], [
     olo:index 3 ;
-    olo:item <IF#ref3>
+    olo:item <ref3>
   ], [
     olo:index 4 ;
-    olo:item <IF#ref4>
+    olo:item <ref4>
   ], [
     olo:index 5 ;
-    olo:item <IF#ref5>
+    olo:item <ref5>
   ], [
     olo:index 6 ;
-    olo:item <IF#ref6>
+    olo:item <ref6>
   ] .
   
-<IF#ref1>
+<ref1>
   a bibo:Article ;
   dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/27928714> .
 
-<IF#ref2>
+<ref2>
   a bibo:Document ;
   rdfs:label "小野薬品工業社内資料(海外第I相単回投与(CA209001)試験)" ;
   dct:date "2014-07-14"^^xsd:date ;
   ifo:ctd_number "CTD 2.7.6.2"
   ifo:internal_reference_id "CA209001" .
 
-<IF#ref3>
+<ref3>
   a bibo:Article ;
   dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/20516446> .
 
-<IF#ref4>
+<ref4>
   a bibo:Document ;
   rdfs:label "小野薬品工業社内資料(海外第I相反復投与(CA209003)試験" ;
   dct:date "2014-07-14"^^xsd:date ;
   ifo:ctd_number "CTD 2.7.6.3"
   ifo:internal_reference_id "CA209003" .
 
-<IF#ref5>
+<ref5>
   a bibo:Article ;
   ifo:internal_reference_id "CA209003" .
   dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/22658127> .
 
-<IF#ref6>
+<ref6>
   a bibo:Article ;
   dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/26861469> .
+
+
+
+<IF_11_2>
+  rdf:type ifo:IF_11_2 ;
+  rdf:type olo:OrderedList ;
+  obo:length 6;
+  olo:slot [
+    olo:index 1 ;
+    olo:item <ref1>
+  ], [
+    olo:index 2 ;
+    olo:item <ref2>
+  ], [
+    olo:index 3 ;
+    olo:item <ref3>
+  ], [
+    olo:index 4 ;
+    olo:item <ref4>
+  ], [
+    olo:index 5 ;
+    olo:item <ref5>
+  ], [
+    olo:index 6 ;
+    olo:item <ref6>
+  ] .
+
+
+<ref1>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/20636820> .
+
+<ref2>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/18500231> .
+
+<ref3>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/20143437> .
+
+<ref4>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/22461641> .
+
+<ref5>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/24872026> .
+
+<ref6>
+  a bibo:Article ;
+  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/17606980> .
+
+
