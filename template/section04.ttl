@@ -14,7 +14,7 @@
 
 <IF_4_1_2:table1>
   rdf:type ifo:Table ;
-  rdfs:seeAlso <http://....../4_1_2_t1.xlsx> .
+  rdfs:seeAlso <4_1_2_t1.xlsx> .
 
 <IF_4_1_3>
   rdf:type ifo:IF_4_1_3 ;
@@ -41,7 +41,7 @@
 
 <IF_4_2_1:table1>
   rdf:type ifo:Table ;
-  rdfs:seeAlso <http://....../4_2_1_t1.xlsx> .
+  rdfs:seeAlso <4_2_1_t1.xlsx> .
 
 <IF_4_2_2>
   rdf:type ifo:IF_4_2_2 ;
@@ -71,7 +71,7 @@
   rdf:type ifo:Table ;
   rdfs:label "キャプション" ;
   rdfs:comment "補注" ;
-  rdfs:seeAlso <http://....../4_6_t1.xlsx> .
+  rdfs:seeAlso <4_6_t1.xlsx> .
 
 <IF_4_7>
   rdf:type ifo:IF_4_7 ;

@@ -37,7 +37,7 @@
 
 <IF_2_3:figure1>
   rdf:type ifo:Figure ;
-  foaf:depicts <http://...../chem.png> .
+  foaf:depicts <chemical_structure.png> .
 
 <IF_2_4>
   rdf:type ifo:IF_2_4 ;
