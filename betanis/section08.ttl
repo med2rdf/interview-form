@@ -1,12 +1,13 @@
 ###  rdfs:seeAlso追加済
 ###  ifo:添付文書 ifo:NotAvailable ; ifo:解説 "設定されていない" 追加済.
 ###  dct:references <ref60>,追加済
+
 <IF_8>
   rdf:type ifo:IF_8 .
 
+# 1. 警告内容とその理由
 <IF_8_1>
   rdf:type ifo:IF_8_1 ;
-  # "1. 警告内容とその理由" ;
   ifo:package_insert pi:PI_1 ;
   ifo:item <IF_8_1:item1>.
 
@@ -17,9 +18,9 @@
   """ ;
   dct:references <ref60>, <ref61>, <ref62>, <ref63>, <ref64> .
 
+# 2. 禁忌内容とその理由
 <IF_8_2>
   rdf:type ifo:IF_8_2 ;
-  # "2. 禁忌内容とその理由" ;
   ifo:package_insert pi:PI_2 ;
   ifo:item <IF_8_2:item1>, <IF_8_2:item2>, <IF_8_2:item3>, <IF_8_2:item4>, <IF_8_2:item5>,  <IF_8_2:item6>.
 
@@ -110,8 +111,8 @@
 <IF_8_6>
   rdf:type ifo:IF_8_6 .
 
+# (1) 合併症・既往症などのある患者
 <IF_8_6_1>
-#  "(1) 合併症・既往症などのある患者" ；
   ifo:package_insert pi:PI_9_1 ;
   ifo:item <IF_8_6_1:item1>, <IF_8_6_1:item2>, <IF_8_6_1:item3>,  <IF_8_6_1:item4>, <IF_8_6_1:item5>, <IF_8_6_1:item6>.
 
@@ -154,9 +155,9 @@
   9.1.6 海外の臨床試験において緑内障の悪化が1例報告されており、また緑内障患者への投与経験が限られていることから、本剤を緑内障患者に投与する際には、慎重に投与するとともに定期的な眼科的診察を行うこと。
   """.
 
+# (2) 腎機能障害患者
 <IF_8_6_2>
   rdf:type ifo:IF_8_6_2 ;
-  # "(2) 腎機能障害患者"  ;
   ifo:package_insert pi:PI_9_2 ;
   ifo:item <IF_8_6_2:item1>, <IF_8_6_2:item2>.
 
@@ -173,9 +174,9 @@
   """.
    # 8_6_2_1と8_6_2_1の解説文は同じなので両方に同じ文書をいれておく
 
+# (3) 肝機能障害患者
 <IF_8_6_3>
   rdf:type ifo:IF_8_6_3 ;
-  # "(3) 肝機能障害患者";
   ifo:package_insert pi:PI_9_3 ;
   ifo:item <IF_8_6_3:item1>, <IF_8_6_3:item2>, <IF_8_6_3:item3>.
 
@@ -201,9 +202,9 @@
   dct:references <ref56> .
   #8_6_3_2と8_6_3_3の解説文は同じ
 
+# (4) 生殖能を有する者
 <IF_8_6_4>
   rdf:type ifo:IF_8_6_4 ;
-  # "(4) 生殖能を有する者" ;
   ifo:package_insert pi:PI_9_4 ;
   ifo:item <IF_8_6_4:item1>.
 
@@ -214,9 +215,9 @@
   """ ;
   dct:references <ref60>, <ref61>, <ref62>, <ref63>, <ref64> .
 
+# (5) 妊婦
 <IF_8_6_5>
   rdf:type ifo:IF_8_6_5 ;
-  # "(5) 妊婦" ;
   ifo:package_insert pi:PI_9_5 ;
   ifo:item <IF_8_6_5:item1>.
 
@@ -227,13 +228,13 @@
   """ ;
   dct:references <ref65>, <ref66> .
 
+# (6) 授乳婦
 <IF_8_6_6>
   rdf:type ifo:IF_8_6_6 ;
-  # "(6) 授乳婦" ;
   ifo:package_insert pi:PI_9_6 ;
   ifo:item <IF_8_6_6:item1>.
 
-  <IF_8_6_6:item1>
+<IF_8_6_6:item1>
   ifo:package_insert pi:PI_9_6:item1 ;
   rdf:value  """
   動物実験(ラット)において、ミラベグロンの乳汁への移行や哺乳児の組織への分布44)、及び出生児への影響が認められた67)。
@@ -241,21 +242,21 @@
   """ ;
   dct:references <ref44>, <ref67> .
 
+# (7) 小児等
 <IF_8_6_7>
   rdf:type ifo:IF_8_6_7 ;
-  # "(7) 小児等" ;
   ifo:package_insert pi:PI_9_7 ;
   ifo:item <IF_8_6_7:item1>.
 
-  <IF_8_6_7:item1>
+<IF_8_6_7:item1>
   ifo:package_insert pi:PI_9_7:item1 ;
   rdf:value  """
   低出生体重児、新生児、乳児、幼児又は小児を対象とした試験は実施されておらず、小児等に対する安全性は確立されていないことから設定した。
   """.
 
+# (8) 高齢者
 <IF_8_6_8>
   rdf:type ifo:IF_8_6_8 ;
-  # "(8) 高齢者" ;
   ifo:package_insert pi:PI_9_8 ;
   ifo:item <IF_8_6_8:item1>.
 
@@ -269,18 +270,18 @@
   rdfs:seeAlso <IF_5_4> ;
   dct:references <ref17>, <ref56> .
 
+# 7. 相互作用
 <IF_8_7>
   rdf:type ifo:IF_8_7 ;
-  # "7. 相互作用 " ;
   ifo:package_insert pi:PI_10 ;
   rdf:value """
   In vitro 代謝試験において、CYP3A4 がミラベグロンの CYP 代謝に主として関与している分子種であり 49) また、ミラベグロンが CYP2D6 を阻害することが示されている 50)。また、ミラベグロンが P-糖蛋白の基質であり 54)、P-糖蛋白を阻害することが示唆されている 55)。
   """ ;
   dct:references <ref49>, <ref50>, <ref54>, <ref55> .
 
+# (1) 併用禁忌とその理由
 <IF_8_7_1>
   rdf:type ifo:IF_8_7_1 ;
-  # "(1) 併用禁忌とその理由" ;
   ifo:package_insert pi:PI_10_1 ;
   ifo:item <IF_8_7_1:item1> .
 
@@ -290,9 +291,9 @@
   本剤及びこれらの薬剤がともに催不整脈作用を有し、また本剤の CYP2D6 阻害作用により、CYP2D6 で代謝されるフレカイニド酢酸塩(タンボコール)、プロパフェノン塩酸塩(プロノン)の血中濃度が上昇するおそれがあることから設定した。
   """ .
 
+# (2) 併用注意とその理由
 <IF_8_7_2>
   rdf:type ifo:IF_8_7_2 ;
-  # "(2) 併用注意とその理由" ;
   ifo:package_insert pi:PI_10_2 ;
   ifo:item <IF_8_7_2:item1>, <IF_8_7_2:item2>, <IF_8_7_2:item3>, <IF_8_7_2:item4>, <IF_8_7_2:item5>, <IF_8_7_2:item6>, <IF_8_7_2:item7>, <IF_8_7_2:item8> .
 
@@ -368,16 +369,16 @@
   """ ;
   dct:references <ref55> .
 
+# 8. 副作用
 <IF_8_8>
   rdf:type ifo:IF_8_8 ;
-  # "8. 副作用 " ;
   ifo:package_insert pi:PI_11 .
 
+# (1) 重大な副作用と初期症状
 <IF_8_8_1>
   rdf:type ifo:IF_8_8_1 ;
-  # "(1) 重大な副作用と初期症状" ;
   ifo:package_insert pi:PI_11_1 ;
-  ifo:item <IF_8_8_1:item1>,  <IF_8_8_1:item2>.
+  ifo:item <IF_8_8_1:item1>, <IF_8_8_1:item2> .
 
 <IF_8_8_1:item1>
   ifo:package_insert pi:PI_11_1:item1 ;
@@ -392,36 +393,36 @@
   """ ;
   rdfs:seeAlso <IF_8_5> .
 
+# (2) その他の副作用
 <IF_8_8_2>
   rdf:type ifo:IF_8_8_2 ;
-  # "(2) その他の副作用" ;
   ifo:package_insert pi:PI_11_2 ;
   ifo:item <IF_8_8_1:item1>.
   # 添付文書の表　ifo:caption "11.2 その他の副作用" .
   ## 添付文書のその他の副作用の一覧表（XMLは分けて書いているのでどうするか？　IFは添付文書の表を載せているだけ）
   ## 副作用一覧のMedDRAとの対応:要検討
 
+# 9. 臨床検査結果に及ぼす影響
 <IF_8_9>
   rdf:type ifo:IF_8_9 ;
-  # "9. 臨床検査結果に及ぼす影響 " ;
   ifo:添付文書 ifo:NotAvailable ;
   rdf:value "設定されていない" .
 
+# 10. 過量投与
 <IF_8_10>
   rdf:type ifo:IF_8_10 ;
-  # "10. 過量投与" ;
   ifo:package_insert pi:PI_13 ;
   rdf:value "設定されていない" .
 
+# 11. 適用上の注意
 <IF_8_11>
   rdf:type ifo:IF_8_11 ;
-  # "11. 適用上の注意" ;
   ifo:package_insert pi:PI_14 .
 
 <IF_8_11_1>
   rdf:type ifo:IF_8_11_1 ;
   ifo:package_insert pi:PI_14_1 ;
-  ifo:item <IF_8_11_1:item1>,  <IF_8_11_1:item2>.
+  ifo:item <IF_8_11_1:item1>, <IF_8_11_1:item2> .
 
 <IF_8_11_1:item1>
   ifo:package_insert pi:PI_14_1:item1 ;
@@ -432,23 +433,23 @@
   """ .
 
 <IF_8_11_1:item2>
-  ifo:package_insert pi:PI_14_1:item2;
+  ifo:package_insert pi:PI_14_1:item2 ;
   rdf:value """
   14.1.2 本剤を割ったり、砕いたりすると本剤の徐放性が失われ、薬物動態が変わるおそれがあることから、本剤をそのままかまずに服用するよう患者へ指導すること。
   """ .
 
+# 12. その他の注意
 <IF_8_12>
   rdf:type ifo:IF_8_12 .
-  # "12. その他の注意" .
 
+# (1) 臨床使用に基づく情報
 <IF_8_12_1>
   rdf:type ifo:IF_8_12_1 ;
-  # "(1) 臨床使用に基づく情報" ;
   ifo:添付文書 ifo:NotAvailable ;
   rdf:value "設定されていない" .
 
+# (2) 非臨床試験に基づく情報
 <IF_8_12_2>
   rdf:type ifo:IF_8_12_2 ;
-  # "(2) 非臨床試験に基づく情報" ;
   ifo:添付文書 ifo:NotAvailable ;
   rdf:value "設定されていない" .

@@ -1,6 +1,6 @@
+# XIII. 備考
 <IF_13>
   rdf:type ifo:IF_13 ;
-  # "ⅩⅢ．備考" .
   rdf:value """
    その他の関連資料
       該当資料なし

@@ -1,21 +1,20 @@
+# 薬効薬理に関する項目
 <IF_6>
   rdf:type ifo:IF_6 .
-  # "薬効薬理に関する項目"
 
+# 1. 薬理学的に関連ある化合物又は化合物群
 <IF_6_1>
   rdf:type ifo:IF_6_1 ;
-  # "1.薬理学的に関連ある化合物又は化合物群" 
   rdf:value "該当資料なし" .
 
+# 2.薬理作用
 <IF_6_2>
   rdf:type ifo:IF_6_2 .
-  # "2.薬理作用"
 
+# (1)作用部位・作用機序
 <IF_6_2_1>
   rdf:type ifo:IF_6_2_1 ;
-  # "(1)作用部位・作用機序"
   rdf:value """ 
-
   1) 作用機序 6), 29)
   ベタニスは膀胱の β3 受容体に結合して、膀胱の弛緩作用を増強し、膀胱容量を増大させる。これにより、 膀胱は正常な蓄尿期の状態に近づき、過活動膀胱における尿意切迫感、頻尿及び切迫性尿失禁を改善する。
 
@@ -35,23 +34,21 @@
 
 <IF_6_2_1:figure1> 
   rdf:type ifo:Figure ;
-  foaf:depicts  <http://example.org./figure_6_2_1_1.png> .
+  foaf:depicts  <figure_6_2_1_1.png> .
 
 <IF_6_2_1:figure2>
   rdf:type ifo:Figure ;
   rdfs:label "正常な蓄尿期のイメージ　過活動膀胱における蓄尿期のイメージ" ;
-  foaf:depicts  <http://example.org../figure_6_2_1_2.png> .
+  foaf:depicts  <figure_6_2_1_2.png> .
 
 <IF_6_2_1:figure3>
   rdf:type ifo:Figure ;
-  foaf:depicts  <http://example.org../figure_6_2_1_3.png> .
+  foaf:depicts  <figure_6_2_1_3.png> .
 
-
+# (2)薬効を裏付ける試験成績
 <IF_6_2_2>
   rdf:type ifo:IF_6_2_2 ;
-  # "(2)薬効を裏付ける試験成績"
   rdf:value """
-
    1) β3 アドレナリン受容体に対する刺激作用(in vitro)
 
      [方法]
@@ -122,66 +119,65 @@
    [結果] ミラベグロン(0.1~3mg/kg iv)は残尿量には影響を及ぼすことなく、1mg/kg iv 以上で排尿前収縮回数を減 少させた。
   """ ;
   ifo:table <IF_6_2_2:table1>, <IF_6_2_2:table2>, <IF_6_2_2:table3> ;
-  ifo:figure <IF_6_2_2:figure1>, <IF_6_2_2:figure2>, <IF_6_2_2:figure3>, <IF_6_2_2:figure4>, <IF_6_2_2:figure5>, <IF_6_2_2:figure6>, <IF_6_2_2:figure7>, <IF_6_2_2:figure8>;
+  ifo:figure <IF_6_2_2:figure1>, <IF_6_2_2:figure2>, <IF_6_2_2:figure3>, <IF_6_2_2:figure4>, <IF_6_2_2:figure5>, <IF_6_2_2:figure6>, <IF_6_2_2:figure7>, <IF_6_2_2:figure8> ;
   dct:references <ref6>, <ref7>, <ref29>, <ref32>, <ref33>, <ref34>, <ref35>, <ref36> .
 
 <IF_6_2_2:table1>
   rdf:type ifo:table ;
   rdfs:label "ヒト β アドレナリン受容体に対する刺激作用(in vitro )" ;
-  rdfs:seeAlso <http://example.org/table_6_2_2_1.xlsx> .
+  rdfs:seeAlso <table_6_2_2_1.xlsx> .
 
 <IF_6_2_2:table2>
   rdf:type ifo:table ;
   rdfs:label "ラット摘出膀胱における弛緩作用(in vitro)" ;
-  rdfs:seeAlso <http://example.org/table_6_2_2_2.xlsx> .
+  rdfs:seeAlso <table_6_2_2_2.xlsx> .
 
 <IF_6_2_2:table3>
   rdf:type ifo:table ;
   rdfs:label "ヒト摘出膀胱における弛緩作用(in vitro)" ;
-  rdfs:seeAlso <http://example.org/table_6_2_2_3.xlsx> .
+  rdfs:seeAlso <table_6_2_2_3.xlsx> .
 
 <IF_6_2_2:figure1> 
   ifo:type ifo:Figure ;
   rdfs:label "ラット摘出膀胱組織内の cAMP 濃度に対する作用(in vitro)(n=6)" ;
-  foaf:depicts <http://example.org/figure_6_2_2_1.png> .
+  foaf:depicts <figure_6_2_2_1.png> .
 
 <IF_6_2_2:figure2> 
   ifo:type ifo:Figure ;
   rdfs:label "ヒト摘出膀胱における弛緩作用(in vitro)" ;
-  foaf:depicts <http://example.org/figure_6_2_2_2.png> .
+  foaf:depicts <figure_6_2_2_2.png> .
 
 <IF_6_2_2:figure3> 
   ifo:type ifo:Figure ;
   rdfs:label "ペントバルビタール麻酔ラットにおける静止時膀胱内圧に対するミラベグロン、トルテロジン及びオキシブチニンの作用" ;
-  foaf:depicts <http://example.org/figure_6_2_2_3.png> .
+  foaf:depicts <figure_6_2_2_3.png> .
 
 <IF_6_2_2:figure4> 
   ifo:type ifo:Figure ;
   rdfs:label "ウレタン麻酔ラットにおける律動性膀胱収縮に対するミラベグロン及びオキシブチニンの作用(静脈内投与)" ;
-  foaf:depicts <http://example.org/figure_6_2_2_4.png> .
+  foaf:depicts <figure_6_2_2_4.png> .
 
 <IF_6_2_2:figure5> 
   ifo:type ifo:Figure ;
   rdfs:label "脳梗塞ラットの平均 1 回排尿量に対するミラベグロンとオキシブチニンの効果" ;
-  foaf:depicts <http://example.org/figure_6_2_2_5.png> .
+  foaf:depicts <figure_6_2_2_5.png> .
 
 <IF_6_2_2:figure6> 
   ifo:type ifo:Figure ;
   rdfs:label "無麻酔カニクイザルにおける平均 1 回排尿量及び排尿回数に対するミラベグロンの作用" ;
-  foaf:depicts <http://example.org/figure_6_2_2_6.png> .
+  foaf:depicts <figure_6_2_2_6.png> .
 
 <IF_6_2_2:figure7> 
   ifo:type ifo:Figure ;
   rdfs:label "尿道部分閉塞ラットにおける排尿前収縮回数及び残尿量に対するミラベグロン、トルテロジン及びオキシブチニンの作用 排尿前収縮回数" ;
-  foaf:depicts <http://example.org/figure_6_2_2_7.png> .
+  foaf:depicts <figure_6_2_2_7.png> .
 
 <IF_6_2_2:figure8> 
   ifo:type ifo:Figure ;
   rdfs:label "尿道部分閉塞ラットにおける排尿前収縮回数及び残尿量に対するミラベグロン、トルテロジン及びオキシブチニンの作用 残尿量" ;
-  foaf:depicts <http://example.org/figure_6_2_2_8.png> .
+  foaf:depicts <figure_6_2_2_8.png> .
 
-
+# (3)作用発現時間・持続時間
 <IF_6_2_3>
   rdf:type ifo:IF_6_2_3 ;
-  # "(3)作用発現時間・持続時間"
   rdf:value "該当資料なし" .

@@ -1,134 +1,132 @@
+# 1.血中濃度の推移
 <IF_7_1>
   rdf:type ifo:IF_7_1 .
-  #"1.血中濃度の推移" .
 
+# (1) 治療上有効な血中濃度
 <IF_7_1_1>
   rdf:type ifo:IF7_1_1 ;
-  #"(1) 治療上有効な血中濃度" ;
   rdf:value "該当資料なし" .
 
 ##### 安倍要望：単回投与と反復投与はは項目をたてて分けて記載してほしいです。修正してみました。（図表は参照でOK）#####
+
+# (2)臨床試験で確認された血中濃度
 <IF_7_1_2>
   rdf:type ifo:IF7_1_2 .
-  #"(2)臨床試験で確認された血中濃度" .
 
+# 1. 健康成人における薬物動態
 <IF_7_1_2_1>
   rdf:type ifo:IF7_1_2_1 .
-  #"1. 健康成人における薬物動態"  .
 
+# ① 単回投与試験 11,37)
 <IF_7_1_2_1_1>
   rdf:type ifo:IF7_1_2_1_1 ;
   ifo:figure <IF_7_1_2_1_1:figure1> ;
   ifo:table  <IF_7_1_2_2_1:table1> ;
-  
   dct:references <ref11>, <ref37> ;
-  #"①単回投与試験 11,37) "  ;
   ifo:value """
   健康成人男性各6例に本剤50～400mgを空腹時単回経口投与したときのCmax及びAUCinfは用量比を超えて上昇したが、Tmax及びt1/2は各用量間でほぼ一定であった。CL/Fは、用量増加に伴い減少した。注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。
   """ .
 
 <IF_7_1_2_1_1:figure_1>
-  rdf:type ifo:figure ;
-  rdfs:comment "" ;
-  foaf:depicts <http://example.org/figure_7_1_2_1_1_1.png> .
+  rdf:type ifo:Figure ;
+  foaf:depicts <figure_7_1_2_1_1_1.png> .
   
  <IF_7_1_2_1_1:table1>
-  rdf:type ifo:figure ;
+  rdf:type ifo:Figure ;
   rdfs:comment "※：投与後72時間までの測定可能な時点までの実測値に基づいた値 (各群n=6 平均値±標準偏差)" ;
-  rdfs:seeAlso <http://example.org/figure_7_1_2_1_1_1.xlsx> .
+  rdfs:seeAlso <figure_7_1_2_1_1_1.xlsx> .
 
+# ②  反復投与試験 11,37
 <IF_7_1_2_1_2>
   rdf:type ifo:IF7_1_2_1_2 ;
   ifo:figure <IF_7_1_2_1_2:figure1> ;
   ifo:table  <IF_7_1_2_1_2:table1> ;
   dct:references <ref11>, <ref37> ;
-#"②反復投与試験 11,37) "  ;
   ifo:value """
   健康成人男性各8例に本剤100mg及び200mgを朝食後に単回経口投与し、2日間の休薬後、更に朝食後7日間反復経口投与した。
   100及び200mg群ともに、初回投与後第7日目(反復投与開始後第4日目)以降トラフ値はほぼ一定となり、7日以内に定常状態に達した。第10日目(反復投与開始後第7日目)のCmaxは、100mg群で第1日目(初回投与時)と比較して上昇し、第10日目のAUC24hは100及び200mg群ともに第1日目と比較して上昇し、反復投与により1.75～2.12倍上昇することが示唆された。また、第10日目のTmax、t1/2はいずれの用量とも第1日目とほぼ同じであった。注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。
   """ .
 
 <IF_7_1_2_1_2:figure1>
-  rdf:type ifo:figure ;
+  rdf:type ifo:Figure ;
   rdfs:comment "" ;
   foaf:depicts <http://example.orgigure_7_1_2_1_2_1.png> .
   
  <IF_7_1_2_1_2:table1>
-  rdf:type ifo:figure ;
+  rdf:type ifo:Figure ;
   rdfs:comment "(各群n=8 平均値±標準偏差)" ;
   foaf:depicts <http://example.orgable_7_1_2_1_2_2.xlsx> .
 
+# (3)中毒域
 <IF_7_1_3>
    rdf:type ifo:IF7_1_3 ;
-   #"(3)中毒域" ;
    ifo:value "該当資料なし" .
 
 ##### 安倍要望：食事の影響と併用薬の影響は項目をたてて分けて記載してほしいです。修正してみました。（図表は参照でOK）#####
+
+# 4. 食事・併用薬の影響
 <IF_7_1_4>
    rdf:type ifo:IF7_1_4 .
-   #"4. 食事・併用薬の影響" .
 
+# 1）食事の影響 38)
 <IF_7_1_4_1>
-   rdf:type ifo:IF_7_1_4_1 ;
-   ifo:figure <IF_7_1_4_1:figure1>, <IF_7_1_4_1:figure2> ;
-
-#"1）食事の影響 38)" ;
+  rdf:type ifo:IF_7_1_4_1 ;
+  ifo:figure <IF_7_1_4_1:figure1>, <IF_7_1_4_1:figure2> ;
   dct:references <ref38> ;
   ifo:value """
    健康成人男女72例を対象に、本剤50mg及び100mgを単回経口投与したときの薬物動態に及ぼす食事の影響を検討した(完了例：70例)。
    高脂肪食食後に投与したときに比べ空腹時投与で本剤血漿中濃度が高くなり、本剤50mg及び100mgを空腹時に投与したときのCmaxは2.11倍及び1.95倍に増加した。AUClastは1.47倍及び1.40倍に増加した。注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。
-   """ .
+  """ .
+
 <IF_7_1_4_1:figure1>
-  rdf:type ifo:figure ;
-  rdfs:comment "" ;
-  foaf:depicts <http://example.orgigure7_1_4_1_1.png> .
+  rdf:type ifo:Figure ;
+  foaf:depicts <figure7_1_4_1_1.png> .
   
 <IF_7_1_4_1_:figure2>
-  rdf:type ifo:figure ;
-  rdfs:comment "" ;
-  foaf:depicts <http://example.orgigure7_1_4_1_2.png> .
+  rdf:type ifo:Figure ;
+  foaf:depicts <figure7_1_4_1_2.png> .
 
+# 2）併用薬の影響
 <IF_7_1_4_2>
-   rdf:type ifo:IF_7_1_4_2 ;
-   #"2）併用薬の影響" ;
-   ifo:value """
+  rdf:type ifo:IF_7_1_4_2 ;
+  ifo:value """
    トルテロジン
    「Ⅴ.5.(6)1)③ii)ベタニスとトルテロジンとの間の薬物動態に及ぼす薬物相互作用の研究」の項参照。
    その他の薬剤の影響については、「Ⅷ.7.相互作用」の項参照。
-   """ .
+  """ .
 
+# 2. 薬物速度論的パラメータ
 <IF_7_2>
   rdf:type ifo:IF7_2 .
-  #"2. 薬物速度論的パラメータ"
 
+# (1) 解析方法
 <IF_7_2_1>
   rdf:type ifo:IF7_2_1 ;
-  #"(1) 解析方法"
   rdf:value "該当資料なし" .
 
+# (2) 吸収速度定数
 <IF_7_2_2>
   rdf:type ifo:IF7_2_2 ;
-  #"(2) 吸収速度定数"
   rdf:value "該当資料なし" .
 
+# (3) 消失速度定数
 <IF_7_2_3>
   rdf:type ifo:IF7_2_1 ;
-  #"(3) 消失速度定数"
   rdf:value "該当資料なし" .
 
+# (4) クリアランス
 <IF_7_2_4>
   rdf:type ifo:IF7_2_4 ;
-    dct:references <ref11> ;
-  #"(4) クリアランス" ;
+  dct:references <ref11> ;
   rdf:value """
   CL_F(経口クリアランス)11)：
   ミラベグロンを50～400mgの範囲で単回投与した時の、CL_Fの平均値は92.24～183.49L/hで投与量の増加に伴い減少する傾向がみられた。ミラベグロン100mg、200mgを10日間反復投与した時、CL/Fは100mgの場合、1日目 167.16±31.36L/h、10日目 131.76±33.39L/h、200mgの場合、1日目 127.95±27.23L/h、10日目 108.03±19.75L/hであった。
   注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。
   """ .
 
+# 分布容積
 <IF_7_2_5>
   rdf:type ifo:IF7_2_5 ;
-  #"分布容積"
   dct:references <ref39> ;
   rdf:value """
 (外国人データ) 39)
@@ -137,38 +135,37 @@
 （引用あり）
 """ .
 
+# (6) その他
 <IF_7_2_6>
   rdf:type ifo:IF7_2_6 ;
-  #"(6) その他"
   rdf:value "該当資料なし" .
 
+# 3. 母集団（ポピュレーション）解析
 <IF_7_3>
   rdf:type ifo:IF7_3 .
-  #"3. 母集団（ポピュレーション）解析"
 
+# (1) 解析方法
 <IF_7_3_1>
   rdf:type ifo:IF7_3_1 ;
-  #"(1) 解析方法"
   rdf:value "該当資料なし" .
 
+# (2) パラメータ変動要因
 <IF_7_3_2>
   rdf:type ifo:IF7_3_2 ;
-  #"(2) パラメータ変動要因"
   rdf:value "該当資料なし" .
 
-
+# 4. 吸収
 <IF_7_4>
   rdf:type ifo:IF7_4 .
-  #"4. 吸収"
 
+# (1) バイオアベイラビリティ
 <IF_7_4_1>
   rdf:type ifo:IF7_4_1 ;
-  #"(1) バイオアベイラビリティ"
   rdf:value "" .
 
+# (2) 吸収部位
 <IF_7_4_2>
   rdf:type ifo:IF7_4_2 ;
-  #"(2) 吸収部位"
   dct:references <ref40> ;
   rdf:value """
 （ラット）
@@ -176,32 +173,32 @@
 放射能の吸収率は回腸において最も高く(65.9％)、次いで空腸(61.7％)、十二指腸(55.5％)及び結腸(15.1％)の順であり、胃からの吸収率は最も低かった(7.1％)。したがって、ミラベグロンの主な吸収部位は小腸全般であると考えられた。
 """ .
 
+# (3) 腸肝循環
 <IF_7_4_3>
   rdf:type ifo:IF7_4_3 ;
-  #"(3) 腸肝循環"
   dct:references <ref40> ;
   rdf:value """
 （ラット）
   胆管にカニュレーションを挿入した雄ラットに14C-ミラベグロンを10mg/kg単回経口投与したときに得られた胆汁(投与後0～6時間に採取した胆汁)0.5mLを、胆管にカニュレーションを挿入した別のラットの十二指腸内に投与したときの尿及び胆汁中への放射能累積排泄率を測定した。投与後72時間までの尿及び胆汁中にそれぞれ18.4％及び8.1％が回収され、少なくとも投与した放射能の26.5％が再吸収されたことから、ラットにおいては14C-ミラベグロン由来成分が腸肝循環を受けることが示唆された。
   """ .
 
+# 分布
 <IF_7_5>
   rdf:type ifo:IF7_5 .
-  #"分布"
 
+# 血液－脳関門通過性
 <IF_7_5_1>
   rdf:type ifo:IF7_5_1 ;
-  #"血液－脳関門通過性"
   dct:references <ref42> ;
   rdf:value """
   単回経口投与後の組織内放射能濃度(ラット)42)
 雄の白色ラットに14C-ミラベグロンを10mg/kg単回経口投与したとき、放射能濃度は大脳及び小脳において最も低かった。大脳及び小脳内の放射能濃度は速やかに減少した。
 """ .
 
+# 血液－胎盤関門通過性
 <IF_7_5_2>
   rdf:type ifo:IF7_5_2 ;
   ifo:table <IF_7_5_2:table1> ;
-  #"血液－胎盤関門通過性"
   dct:references <ref43> ;
   rdf:value """
   胎盤通過性(ラット)(43)
@@ -211,12 +208,12 @@
 <IF_7_5_2:figure1>
   rdf:type ifo:table ;
   rdfs:comment "(n=3 平均値±標準偏差) a：n=2(ND1例を除く) ND：検出限界未満 放射能濃度はミラベグロン当量として表示した。" ;
-  rdfs:seeAlso <http://example.org/table_7_5_2_1.xlsx> .
+  rdfs:seeAlso <table_7_5_2_1.xlsx> .
 
+# 乳汁への移行性
 <IF_7_5_3>
   rdf:type ifo:IF7_5_3 ;
   ifo:table <IF_7_5_3:table1> ;
-  #"乳汁への移行性"
   dct:references <ref44> ;
   rdf:value """
   乳汁移行性(ラット)44)
@@ -226,16 +223,16 @@
 <IF_7_5_3:table>
   rdf:type ifo:table ;
   rdfs:comment "(n=3 平均値±標準偏差) a：n=2(ND1例を除く) ND：検出限界未満 放射能濃度はミラベグロン当量として表示した。" ;
-  rdf:seeAlso <http://example.org/table_7_5_3_1.xlsx> .
+  rdf:seeAlso <table_7_5_3_1.xlsx> .
 
+# 髄液への移行性
 <IF_7_5_4>
   rdf:type ifo:IF7_5_4 ;
-  #"髄液への移行性"
   rdf:value "該当資料なし" .
 
+# その他の組織への移行性
 <IF_7_5_5>
   rdf:type ifo:IF7_5_5 ;
-  #"その他の組織への移行性"
   dct:references <ref42> ;
   rdf:value """
   単回経口投与後の組織内放射能濃度42)
@@ -247,43 +244,42 @@
 雄のカニクイザルに14C-ミラベグロンを10mg/kg単回経口投与したときの投与後168時間における組織内放射能濃度は肝臓で最も高かった。血液、血漿、脂肪、大脳、小脳、下垂体及び胃内容物では検出限界未満であった。
 """ .
 
+# 血漿蛋白結合率
 <IF_7_5_6>
   rdf:type ifo:IF7_5_6 ;
-  #"血漿蛋白結合率"
   rdf:value """
   In vitro蛋白結合試験において本剤の血漿蛋白結合率を検討した結果、200～5,000ng/mLの濃度範囲でほぼ一定であり、日本人で76.3～76.9％であった。また、ヒト血漿中における主結合蛋白はアルブミンで、次いでα1-酸性糖蛋白であることが推定された。
 """ .
 
+# 代謝
 <IF_7_6>
   rdf:type ifo:IF7_6 .
-  #"代謝"
 
+# 代謝部位及び代謝経路
 <IF_7_6_1>
   rdf:type ifo:IF7_6_1 ;
   ifo:figure <IF_7_6_1:figure1> ;
-  #"代謝部位及び代謝経路"
   dct:references <ref46> ;
   rdf:value """
 ヒトのin vivo試料を用い、ミラベグロンの代謝物検索及び構造推定を実施した結果、M5、M8、M9、M11、M12、M13、M14、M15、M16及びM17の10種の代謝物が尿中に認められた。また、そのうちの8種(M5、M8、M11、M12、M13、M14、M15及びM16)が血漿中に認められた。ヒトにおいて予想されるミラベグロンの推定代謝経路は次のとおりである。
 """ .
 
 <IF_7_6_1:figure1>
-  rdf:type ifo:figure ;
-  rdfs:comment "" ;
-  foaf:depicts <http://example.orgigure7_6_1_1.png> .
+  rdf:type ifo:Figure ;
+  foaf:depicts <figure7_6_1_1.png> .
 
+# 代謝に関与する酵素(ＣＹＰ等)の分子種、寄与率
 <IF_7_6_2>
   rdf:type ifo:IF7_6_2 ;
-  #"代謝に関与する酵素(ＣＹＰ等)の分子種、寄与率"
   dct:references <ref50> ;
   rdf:value """
   ミラベグロンは主としてエステラーゼによって加水分解を受け、一部はCYP及びグルクロン酸抱合酵素によっても代謝される（47,48)。CYP代謝においては、CYP3A4がミラベグロン代謝に主として関与しているCYP酵素であることが示されたが、CYP2D6も一部関与する可能性が示唆された49)。
 また、In vitro試験においてミラベグロンはCYP2D6に対して中等度の阻害作用を示すことが示されたが、その他のCYP分子種に対して阻害作用は弱く、CYP1A2及び3A4_5に対して誘導作用を示さなかった（50)。
 """ .
 
+# 初回通過効果の有無及びその割合
 <IF_7_6_3>
   rdf:type ifo:IF7_6_3 ;
-  #"初回通過効果の有無及びその割合"
   dct:references <ref39> ;
   rdf:value """
 (外国人データ)39)
@@ -291,17 +287,17 @@
 注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。
 """ .
 
+# 代謝物の活性の有無及び活性比、存在比率
 <IF_7_6_4>
   rdf:type ifo:IF7_6_4 ;
-  #"代謝物の活性の有無及び活性比、存在比率"
   rdf:value """
 ミラベグロンを経口投与後、未変化体の他に8種の代謝物が血漿中に認められ、M11(ミラベグロン-O-グルクロニド)及びM12(ミラベグロンケトン酸化体のN-COO-グルクロニド)がヒト血漿中における主代謝物と考えられた。ヒト血漿中に認められた代謝物の濃度はいずれも未変化体に比べ顕著に低かった51)。また、いずれの代謝物もβ3アドレナリン受容体に対するアゴニスト活性はミラベグロンに比べ弱かったことから52)、これら代謝物の薬効への寄与は低いと考えられた。
 """ .
 
+# 7.排泄
 <IF_7_7>
   rdf:type ifo:IF_7_7 ;
   ifo:table <IF_7_7:tabel1>, <IF_7_7:tabel2>, <IF_7_7:table3> ;
-  #"7.排泄"
   dct:references <ref53> ;
   rdf:value """
 (外国人データ)53)
@@ -312,43 +308,43 @@
 """ .
 
 <IF_7_7:table1>
-  rdf:type ifo:figure ;
+  rdf:type ifo:Figure ;
   rdfs:label "健康成人男性における14C-ミラベグロン単回経口投与時の尿中14C放射能の半減期、 並びに尿、糞、及び呼気中の14C放射能平均排泄率(用量に対する割合)" ;
   rdfs:comment "平均値±標準偏差、N.D.,：not detected、 n=4" ;
   rdf:seeAlso <http://example.orgable_7_7_1.png> .
 
 <IF_7_7:table2>
-  rdf:type ifo:figure ;
+  rdf:type ifo:Figure ;
   rdfs:label "14C-ミラベグロン経口投与時の尿中排泄率" ;
   rdfs:comment """(n=4 平均値±標準偏差) a：代謝物の構造は、代謝物の同定及び構造推定試験において、同定あるいは推定された。
   b：ピークNo.6の代謝物(M11)を検索した際、ピークNo.5及び6の間付近にM14が存在することが確認された。""" ;
-  rdf:seeAlso <http://example.org/table_7_7_2.xlsx> .
+  rdf:seeAlso <table_7_7_2.xlsx> .
 
 <IF_7_7:table3>
-  rdf:type ifo:figure ;
+  rdf:type ifo:Figure ;
   rdfs:label "ミラベグロン単回投与時の72時間までの尿中未変化体排泄率" ;
   rdfs:comment "(平均値±標準偏差、n=6)" ;
-  rdf:seeAlso <http://example.org/table_7_7_3.xlsx> .
+  rdf:seeAlso <table_7_7_3.xlsx> .
   
+# トランスポーターに関する情報
 <IF_7_8>
   rdf:type ifo:IF7_8 ;
-  #"トランスポーターに関する情報"
   dct:references <ref54> ;
   rdf:value """
 ミラベグロンは、P-糖蛋白の基質である(in vitro試験)54)。また、本剤のP-糖蛋白阻害作用が認められている55)(「Ⅷ.7.相互作用」の項参照)。
 In vitro試験において，ミラベグロンはトランスポーターのOATP1A2の基質である54)。
 """ .
 
+# 透析等による除去率
 <IF_7_9>
   rdf:type ifo:IF7_9 ;
-  #"透析等による除去率"
   rdf:value "該当資料なし" .
 
+# 特定の背景を有する患者
 <IF_7_10>
   rdf:type ifo:IF7_10 ;
   ifo:figure <IF_7_10:figure1>, <IF_7_10:figure2> ;
   ifo:table <IF_7_10:table1>, <IF_7_10:table2>, <IF_7_10:table3> ;
-  #"特定の背景を有する患者"
   dct:references <ref56>, <ref57>, <ref58>, <ref59> ;
   rdf:value """
 （1）腎機能障害患者
@@ -374,32 +370,32 @@ In vitro試験において，ミラベグロンはトランスポーターのOAT
 """ .
 
 <IF_7_10:figure1>
-  rdf:type ifo:figure ;
+  rdf:type ifo:Figure ;
   rdfs:comment "" ;
-  foaf:depicts <http://example.org/figure7_10_1.png> .
+  foaf:depicts <figure7_10_1.png> .
 
 <IF_7_10:table1>
   rdf:type ifo:table ;
   rdfs:comment "(各群n=8)" ;
-  rdf:seeAlso <http://example.org/table_7_10_1.xlsx> .
+  rdf:seeAlso <table_7_10_1.xlsx> .
   
 <IF_7_10:figure2>
-  rdf:type ifo:figure ;
+  rdf:type ifo:Figure ;
   rdfs:comment "" ;
-  foaf:depicts <http://example.org/figure7_10_3.png> .
+  foaf:depicts <figure7_10_3.png> .
 
 <IF_7_10:table2>
   rdf:type ifo:table ;
   rdfs:label "血漿中薬物動態に及ぼす肝機能障害の影響：薬物動態解析対象集団" ;
   rdfs:comment "ANOVA及び90%信頼区間" ;
-  rdf:seeAlso <http://example.org/table_7_10_2.xlsx> .
+  rdf:seeAlso <table_7_10_2.xlsx> .
 
 <IF_7_10:table3>
   rdf:type ifo:table ;
   rdfs:comment "(平均値±標準偏差)" ;
-  rdf:seeAlso <http://example.org/table_7_10_3.xlsx> .
+  rdf:seeAlso <table_7_10_3.xlsx> .
   
+# その他
 <IF_7_11>
   rdf:type ifo:IF7_11 ;
-  #"その他"
   rdf:value "該当資料なし" .

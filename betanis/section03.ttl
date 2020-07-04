@@ -15,7 +15,7 @@
 <IF_3_1_2:table1>
   rdf:type ifo:Table ;
   rdfs:label "ミラベグロンの溶解性(室温)" ;
-  rdfs:seeAlso <http://....../3_1_2_t1.xlsx> .
+  rdfs:seeAlso <3_1_2_t1.xlsx> .
 
 <IF_3_1_3>
   rdf:type ifo:IF_3_1_3 ;
@@ -36,7 +36,7 @@
 <IF_3_1_6:table1>
   rdf:type ifo:Table ;
   rdfs:comment "(測定温度:37°C)" ;
-  rdfs:seeAlso <http://....../3_1_6_t1.xlsx> .
+  rdfs:seeAlso <3_1_6_t1.xlsx> .
 
 <IF_3_1_7>
   rdf:type ifo:IF_3_1_7 ;
@@ -48,7 +48,7 @@
 
 <IF_3_2:table1>
   rdf:type ifo:Table ;
-  rdfs:seeAlso <http://....../3_2_t1.xlsx> .
+  rdfs:seeAlso <3_2_t1.xlsx> .
 
 <IF_3_3>
   rdf:type ifo:IF_3_3 ;

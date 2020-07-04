@@ -256,11 +256,11 @@
 
 <ref2>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/15971719> .
+  dct:references pmid:15971719 .
 
 <ref3>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/11412210> ;
+  dct:references pmid:11412210 ;
   ifo:internal_reference_id "R-04276" .
 
 <ref4>
@@ -292,12 +292,12 @@
 
 <ref6>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/17293563> ;
+  dct:references pmid:17293563 ;
   ifo:internal_reference_id "BE-00010" .
 
 <ref7>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23224420> ;
+  dct:references pmid:23224420 ;
   ifo:internal_reference_id "BE-00100" .
 
 <ref8>
@@ -363,7 +363,7 @@
 
 <ref13>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23149929> ;
+  dct:references pmid:23149929 ;
   ifo:internal_reference_id "BE-00099" .
 
 <ref14>
@@ -395,7 +395,7 @@
 
 <ref18>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/24471907> ;
+  dct:references pmid:24471907 ;
   ifo:internal_reference_id "BE-00245" .
 
 <ref19>
@@ -407,7 +407,7 @@
 
 <ref20>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/28120446> ;
+  dct:references pmid:28120446 ;
   ifo:internal_reference_id "BE-00494" .
 
 <ref21>
@@ -424,46 +424,46 @@
 
 <ref23>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/27860325> ;
+  dct:references pmid:27860325 ;
   ifo:internal_reference_id "BE-00605" .
 
 <ref24>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/27624693> ;
+  dct:references pmid:27624693 ;
   ifo:internal_reference_id "BE-00469" .
 
 <ref25>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/30079630> ;
+  dct:references pmid:30079630 ;
   ifo:internal_reference_id "BE-00680" .
 
 <ref26>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/25639296> ;
+  dct:references pmid:25639296 ;
   ifo:internal_reference_id "BE-00370" .
 
 <ref27>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/27829538> ;
+  dct:references pmid:27829538 ;
   ifo:internal_reference_id "BE-00501" .
 
 <ref28>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/30548692> ;
+  dct:references pmid:30548692 ;
   ifo:internal_reference_id "BE-00767" .
 
 <ref29>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23239087> ;
+  dct:references pmid:23239087 ;
   ifo:internal_reference_id "BE-00144" .
 
 <ref30>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/16054622> .
+  dct:references pmid:16054622 .
 
 <ref31>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/18490916> ;
+  dct:references pmid:18490916 ;
   ifo:internal_reference_id "R-07572" .
 
 <ref32>
@@ -489,7 +489,7 @@
 
 <ref35>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23832377> ;
+  dct:references pmid:23832377 ;
   ifo:internal_reference_id "BE-00212" .
 
 <ref36>
@@ -501,12 +501,12 @@
 
 <ref37>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/24178236> ;
+  dct:references pmid:24178236 ;
   ifo:internal_reference_id "BE-00287" .
 
 <ref38>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/25791612> ;
+  dct:references pmid:25791612 ;
   ifo:internal_reference_id "BE-00331" .
 
 <ref39>
@@ -567,12 +567,12 @@
 
 <ref47>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/22509825> ;
+  dct:references pmid:22509825 ;
   ifo:internal_reference_id "BE-00069" .
 
 <ref48>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/29164523> ;
+  dct:references pmid:29164523 ;
   ifo:internal_reference_id "BE-00658" .
 
 <ref49>
@@ -584,12 +584,12 @@
 
 <ref50>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/22834478> ;
+  dct:references pmid:22834478 ;
   ifo:internal_reference_id "BE-00094" .
 
 <ref51>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23063375> ;
+  dct:references pmid:23063375 ;
   ifo:internal_reference_id "BE-00091" .
 
 <ref52>
@@ -601,22 +601,22 @@
 
 <ref53>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/22269146> ;
+  dct:references pmid:22269146 ;
   ifo:internal_reference_id "BE-00307" .
 
 <ref54>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23560393> ;
+  dct:references pmid:23560393 ;
   ifo:internal_reference_id "BE-00146" .
 
 <ref55>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/27350625> ;
+  dct:references pmid:27350625 ;
   ifo:internal_reference_id "BE-00098" .
 
 <ref56>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23208320> ;
+  dct:references pmid:23208320 ;
   ifo:internal_reference_id "BE-00098" .
 
 <ref57>
@@ -698,12 +698,12 @@
 
 <ref68>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23625188> ;
+  dct:references pmid:23625188 ;
   ifo:internal_reference_id "BE-00147" .
 
 <ref69>
   a bibo:Article ;
-  dct:references <http://rdf.ncbi.nlm.nih.gov/pubmed/23728524> ;
+  dct:references pmid:23728524 ;
   ifo:internal_reference_id "BE-00242" .
 
 <ref70>
@@ -793,7 +793,7 @@
 # 
 # <IF/11/1/3>
 #   rdf:type bibo:Article ;
-#   dcterms:reference <http://rdf.ncbi.nlm.nih.gov/pubmed/11412210> .
+#   dcterms:reference pmid:11412210 .
 # #
 # #
 #   <IF/11/1/11>
