@@ -16,6 +16,10 @@
     a owl:Class ;
     rdfs:label "インタビューフォーム"@ja .
 
+:YJCode
+    a owl:Class ;
+    rdfs:label "YJCode" .
+
 :Table
     a owl:Class .
 
