@@ -454,6 +454,7 @@
 
 :IF_6_1
     a owl:Class ;
+    rdfs:label "薬理学的に関連ある化合物又は化合物群"@ja ;
     rdfs:subClassOf :IF_6 .
 
 :IF_6_2
