@@ -3,7 +3,7 @@
 
 <IF_1_1>
   rdf:type ifo:IF_1_1 ;
-  ifo:value """
+  rdf:value """
 オプジーボ®点滴静注 20mg/100mg/240mg(一般名:ニボルマブ(遺伝子組換え))は、小野薬 品工業株式会社とメダレックス社(現ブリストル・マイヤーズ スクイブ(BMS)社)が開発したヒ ト PD-1(Programmed cell death-1)に対するヒト型 IgG4 モノクローナル抗体である。（以下省略）""" ;
   dct:references <ref1>, <ref2>, <ref3>, <ref4>, <ref5>, <ref6> .
 
@@ -89,7 +89,8 @@
 本剤の「医薬品リスク管理計画」は下記 URL に公表されている。 医薬品医療機器総合機構ホームページ 「医薬品リスク管理計画(RMP:RiskManagementPlan)/ RMP提出品目一覧」
 http://www.pmda.go.jp/safety/info-services/drugs/items-information/rmp/0001.html
 各項目の内容は RMP の本文で確認すること。 最新の情報は、独立行政法人医薬品医療機器総合機構の医薬品情報検索ページで確認してください。""" ;
-  rdfs:seeAlso <http://www.pmda.go.jp/safety/info-services/drugs/items-information/rmp/0001.html>, <IF_1_6:table1> .
+  rdfs:seeAlso <http://www.pmda.go.jp/safety/info-services/drugs/items-information/rmp/0001.html> ;
+  ifo:table <IF_1_6:table1> .
 
 <IF_1_6:table1>
   rdf:type ifo:Table .
