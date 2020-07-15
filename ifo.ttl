@@ -1,4 +1,6 @@
 @prefix : <http://med2rdf.org/ontology/ifo/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -7,7 +9,7 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 
 <http://med2rdf.org/ontology/ifo/>
-    dct:description "An ontology of the concepts which are necessary to rdfize interview forms."@en ;
+    dct:description "An ontology for the interview form of the medicines."@en ;
     a owl:Ontology ;
     rdfs:label "interview form ontology"@en ;
     owl:imports <http://www.w3.org/2004/02/skos/core> ;
@@ -49,9 +51,109 @@
     a owl:Class ;
     rdfs:label "表紙"@ja .
 
+:IF_0_1
+    a owl:Class ;
+    rdfs:label "市販直後調査のマーク"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_2
+    a owl:Class ;
+    rdfs:label "承認条件等で、使用できる医師・医療機関・薬剤師等の制限、流通管理等の規定がある場合の表示"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_3
+    a owl:Class ;
+    rdfs:label "作成又は改訂年月"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_4
+    a owl:Class ;
+    rdfs:label "日本標準商品分類番号"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_5
+    a owl:Class ;
+    rdfs:label "表題"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_6
+    a owl:Class ;
+    rdfs:label "日本病院薬剤師会策定ＩＦ記載要領2018の準拠"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_7
+    a owl:Class ;
+    rdfs:label "薬効分類名"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_8
+    a owl:Class ;
+    rdfs:label "名称"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_9
+    a owl:Class ;
+    rdfs:label "剤形"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_10
+    a owl:Class ;
+    rdfs:label "製剤の規制区分"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_11
+    a owl:Class ;
+    rdfs:label "規格・含量"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_12
+    a owl:Class ;
+    rdfs:label "一般名：和名・洋名"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_13
+    a owl:Class ;
+    rdfs:label "製造販売承認年月日"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_14
+    a owl:Class ;
+    rdfs:label "薬価基準収載年月日"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_15
+    a owl:Class ;
+    rdfs:label "販売開始年月日"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_16
+    a owl:Class ;
+    rdfs:label "製造販売(輸入)・提携・販売会社名"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_17
+    a owl:Class ;
+    rdfs:label "医薬情報担当者の連絡先"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_18
+    a owl:Class ;
+    rdfs:label "問い合わせ窓口"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_19
+    a owl:Class ;
+    rdfs:label "現版のＩＦ作成の基となった医療用医薬品添付文書の作成又は改訂年月"@ja ;
+    rdfs:subClassOf :IF_0 .
+
+:IF_0_20
+    a owl:Class ;
+    rdfs:label "医薬品情報検索ページの紹介"@ja ;
+    rdfs:subClassOf :IF_0 .
+
 :IF_1
     a owl:Class ;
-    rdfs:label "General description"@en, "概要に関する項目"@ja .
+    rdfs:label "概要に関する項目"@ja .
 
 :IF_1_1
     a owl:Class ;
@@ -233,7 +335,7 @@
 
 :IF_4
     a owl:Class ;
-    rdfs:label "Items related to the formulation"@en, "製剤に関する項目"@ja .
+    rdfs:label "製剤に関する項目"@ja .
 
 :IF_4_1
     a owl:Class ;
@@ -480,7 +582,7 @@
 
 :IF_7
     a owl:Class ;
-    rdfs:label "Items related to the pharmacokinetics"@en, "薬物動態に関する項目"@ja .
+    rdfs:label "薬物動態に関する項目"@ja .
 
 :IF_7_1
     a owl:Class ;
@@ -921,7 +1023,7 @@
 
 :IF_11
     a owl:Class ;
-    rdfs:label "Reference"@en, "文献"@ja .
+    rdfs:label "文献"@ja .
 
 :IF_11_1
     a owl:Class ;
