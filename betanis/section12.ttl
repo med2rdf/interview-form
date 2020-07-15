@@ -26,7 +26,7 @@
 
   世界 81 の国と地域で承認 (2019 年 5 月現在)
   """ ;
-  ifo:table <IF_12_1:table1>, <IF_12_2:table2> .
+  ifo:table <IF_12_1:table1>, <IF_12_1:table2> .
 
 <IF_12_1:table1> 
   rdf:type ifo:Table;
