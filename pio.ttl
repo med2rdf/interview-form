@@ -1,0 +1,318 @@
+@prefix : <http://med2rdf.org/ontology/pio/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+<http://med2rdf.org/ontology/pio/>
+    dct:description "An ontology for the package insert of medicines."@en ;
+    a owl:Ontology ;
+    rdfs:label "package insert ontology"@en, "医薬品添付文書オントロジー"@ja ;
+    owl:imports <http://www.w3.org/2004/02/skos/core> ;
+    owl:versionInfo 0.01 .
+
+:PackageInsert
+    a owl:Class ;
+    rdfs:label "添付文書" .
+
+:PI_0
+    a owl:Class ;
+    rdfs:label "表紙" .
+
+:PI_0_1
+    a owl:Class ;
+    dct:identifier "ア" ;
+    rdfs:label "作成又は改訂年月" ; ;
+    rdfs:subClassOf :PI_0 .
+
+:PI_0_2
+    a owl:Class ;
+    dct:identifier "イ" ;
+    rdfs:label "日本標準商品分類番号" ;
+    rdfs:subClassOf :PI_0 .
+
+:PI_0_3
+    a owl:Class ;
+    dct:identifier "ウ" ;
+    rdfs:label "承認番号、販売開始年月" ;
+    rdfs:subClassOf :PI_0 .
+
+:PI_0_4
+    a owl:Class ;
+    dct:identifier "エ" ;
+    rdfs:label "貯法、有効期間" ;
+    rdfs:subClassOf :PI_0 .
+
+:PI_0_5
+    a owl:Class ;
+    dct:identifier "オ" ;
+    rdfs:label "薬効分類名" ;
+    rdfs:subClassOf :PI_0 .
+
+:PI_0_6
+    a owl:Class ;
+    dct:identifier "カ" ;
+    rdfs:label "規制区分" ;
+    rdfs:subClassOf :PI_0 .
+
+:PI_0_7
+    a owl:Class ;
+    dct:identifier "キ" ;
+    rdfs:label "名称" ;
+    rdfs:subClassOf :PI_0 .
+
+:PI_1
+    a owl:Class ;
+    rdfs:label "警告" .
+
+:PI_2
+    a owl:Class ;
+    rdfs:label "禁忌(次の患者には投与しないこと)" .
+
+:PI_3
+    a owl:Class ;
+    rdfs:label "組成・性状" .
+
+:PI_3_1
+    a owl:Class ;
+    rdfs:label "組成" ;
+    rdfs:subClassOf :PI_3 .
+
+:PI_3_2
+    a owl:Class ;
+    rdfs:label "製剤の性状" ;
+    rdfs:subClassOf :PI_3 .
+
+:PI_4
+    a owl:Class ;
+    rdfs:label "効能又は効果" .
+
+:PI_5
+    a owl:Class ;
+    rdfs:label "効能又は効果に関連する注意" .
+
+:PI_6
+    a owl:Class ;
+    rdfs:label "用法及び用量" .
+
+:PI_7
+    a owl:Class ;
+    rdfs:label "用法及び用量に関連する注意" .
+
+:PI_8
+    a owl:Class ;
+    rdfs:label "重要な基本的注意" .
+
+:PI_9
+    a owl:Class ;
+    rdfs:label "特定の背景を有する患者に関する注意" .
+
+:PI_9_1
+    a owl:Class ;
+    rdfs:label "合併症・既往歴等のある患者" ;
+    rdfs:subClassOf :PI_9 .
+
+:PI_9_2
+    a owl:Class ;
+    rdfs:label "腎機能障害患者" ;
+    rdfs:subClassOf :PI_9 .
+
+:PI_9_3
+    a owl:Class ;
+    rdfs:label "肝機能障害患者" ;
+    rdfs:subClassOf :PI_9 .
+
+:PI_9_4
+    a owl:Class ;
+    rdfs:label "生殖能を有する者" ;
+    rdfs:subClassOf :PI_9 .
+
+:PI_9_4
+    a owl:Class ;
+    rdfs:label "生殖能を有する者" ;
+    rdfs:subClassOf :PI_9 .
+
+:PI_9_5
+    a owl:Class ;
+    rdfs:label "妊婦" ;
+    rdfs:subClassOf :PI_9 .
+
+:PI_9_6
+    a owl:Class ;
+    rdfs:label "授乳婦" ;
+    rdfs:subClassOf :PI_9 .
+
+:PI_9_7
+    a owl:Class ;
+    rdfs:label "小児等" ;
+    rdfs:subClassOf :PI_9 .
+
+:PI_9_8
+    a owl:Class ;
+    rdfs:label "高齢者" ;
+    rdfs:subClassOf :PI_9 .
+
+:PI_10
+    a owl:Class ;
+    rdfs:label "相互作用" .
+
+:PI_10_1
+    a owl:Class ;
+    rdfs:label "併用禁忌(併用しないこと)" ;
+    rdfs:subClassOf :PI_10 .
+
+:PI_10_2
+    a owl:Class ;
+    rdfs:label "併用注意(併用に注意すること)" ;
+    rdfs:subClassOf :PI_10 .
+
+:PI_11
+    a owl:Class ;
+    rdfs:label "副作用" .
+
+:PI_11_1
+    a owl:Class ;
+    rdfs:label "重大な副作用" ;
+    rdfs:subClassOf :PI_11 .
+
+:PI_11_2
+    a owl:Class ;
+    rdfs:label "その他の副作用" ;
+    rdfs:subClassOf :PI_11 .
+
+:PI_12
+    a owl:Class ;
+    rdfs:label "臨床検査結果に及ぼす影響" .
+
+:PI_13
+    a owl:Class ;
+    rdfs:label "過量投与" .
+
+:PI_13_1
+    a owl:Class ;
+    rdfs:label "症状" ;
+    rdfs:subClassOf :PI_13 .
+
+:PI_13_2
+    a owl:Class ;
+    rdfs:label "処置" ;
+    rdfs:subClassOf :PI_13 .
+
+:PI_14
+    a owl:Class ;
+    rdfs:label "適用上の注意" .
+
+:PI_15
+    a owl:Class ;
+    rdfs:label "その他の注意" .
+
+:PI_15_1
+    a owl:Class ;
+    rdfs:label "臨床使用に基づく情報" ;
+    rdfs:subClassOf :PI_15 .
+
+:PI_15_2
+    a owl:Class ;
+    rdfs:label "非臨床試験に基づく情報" ;
+    rdfs:subClassOf :PI_15 .
+
+:PI_16
+    a owl:Class ;
+    rdfs:label "薬物動態" .
+
+:PI_16_1
+    a owl:Class ;
+    rdfs:label "血中濃度" ;
+    rdfs:subClassOf :PI_16 .
+
+:PI_16_2
+    a owl:Class ;
+    rdfs:label "吸収" ;
+    rdfs:subClassOf :PI_16 .
+
+:PI_16_3
+    a owl:Class ;
+    rdfs:label "分布" ;
+    rdfs:subClassOf :PI_16 .
+
+:PI_16_4
+    a owl:Class ;
+    rdfs:label "代謝" ;
+    rdfs:subClassOf :PI_16 .
+
+:PI_16_5
+    a owl:Class ;
+    rdfs:label "排泄" ;
+    rdfs:subClassOf :PI_16 .
+
+:PI_16_6
+    a owl:Class ;
+    rdfs:label "特定の背景を有する患者" ;
+    rdfs:subClassOf :PI_16 .
+
+:PI_16_7
+    a owl:Class ;
+    rdfs:label "薬物相互作用" ;
+    rdfs:subClassOf :PI_16 .
+
+:PI_16_8
+    a owl:Class ;
+    rdfs:label "その他" ;
+    rdfs:subClassOf :PI_16 .
+
+:PI_17
+    a owl:Class ;
+    rdfs:label "臨床成績" .
+
+:PI_17_1
+    a owl:Class ;
+    rdfs:label "有効性及び安全性に関する試験" ;
+    rdfs:subClassOf :PI_17 .
+
+:PI_17_2
+    a owl:Class ;
+    rdfs:label "製造販売後調査等" ;
+    rdfs:subClassOf :PI_17 .
+
+:PI_17_3
+    a owl:Class ;
+    rdfs:label "その他" ;
+    rdfs:subClassOf :PI_17 .
+
+:PI_18
+    a owl:Class ;
+    rdfs:label "薬効薬理" .
+
+:PI_19
+    a owl:Class ;
+    rdfs:label "有効成分に関する理化学的知見" .
+
+:PI_20
+    a owl:Class ;
+    rdfs:label "取扱い上の注意" .
+
+:PI_21
+    a owl:Class ;
+    rdfs:label "承認条件" .
+
+:PI_22
+    a owl:Class ;
+    rdfs:label "包装" .
+
+:PI_23
+    a owl:Class ;
+    rdfs:label "主要文献" .
+
+:PI_24
+    a owl:Class ;
+    rdfs:label "文献請求先及び問い合わせ先" .
+
+:PI_25
+    a owl:Class ;
+    rdfs:label "保険給付上の注意" .
+
+:PI_26
+    a owl:Class ;
+    rdfs:label "製造販売業者等" .
