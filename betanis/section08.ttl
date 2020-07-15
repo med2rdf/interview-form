@@ -417,14 +417,10 @@
 # 11. 適用上の注意
 <IF_8_11>
   rdf:type ifo:IF_8_11 ;
-  ifo:package_insert pi:PI_14 .
+  ifo:package_insert pi:PI_14 ;
+  ifo:item <IF_8_11:item1>, <IF_8_11:item2> .
 
-<IF_8_11_1>
-  rdf:type ifo:IF_8_11_1 ;
-  ifo:package_insert pi:PI_14_1 ;
-  ifo:item <IF_8_11_1:item1>, <IF_8_11_1:item2> .
-
-<IF_8_11_1:item1>
+<IF_8_11:item1>
   ifo:package_insert pi:PI_14_1:item1 ;
   rdf:value """
   14.1.1 一般的留意事項として記載した。
@@ -432,7 +428,7 @@
   PTPシートの誤飲により、硬い鋭角部が食道粘膜へ刺入し、更には穿孔を起こして縦隔洞炎等の重篤な合併症を併発することがあるので、薬剤交付時には、PTPシートから取り出して服用するよう患者へ指導すること。
   """ .
 
-<IF_8_11_1:item2>
+<IF_8_11:item2>
   ifo:package_insert pi:PI_14_1:item2 ;
   rdf:value """
   14.1.2 本剤を割ったり、砕いたりすると本剤の徐放性が失われ、薬物動態が変わるおそれがあることから、本剤をそのままかまずに服用するよう患者へ指導すること。
