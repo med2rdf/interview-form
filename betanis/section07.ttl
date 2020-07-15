@@ -12,49 +12,46 @@
 # (2)臨床試験で確認された血中濃度
 <IF_7_1_2>
   rdf:type ifo:IF7_1_2 ;
-  ifo:item <IF_7_1_2:item1>  .
+  ifo:item <IF_7_1_2:item1>, <IF_7_1_2:item2> .
 
 # 1. 健康成人における薬物動態
-<IF_7_1_2:item1>
-  ifo:item <IF_7_1_2:item1.1>, <IF_7_1_2:item1.2> .
-
 # ① 単回投与試験 11,37)
-<IF_7_1_2:item1.1>
-  ifo:figure <IF_7_1_2:item1.1:figure1> ;
-  ifo:table  <IF_7_1_2:item1.1:table1> ;
+<IF_7_1_2:item1>
+  ifo:figure <IF_7_1_2:item1:figure1> ;
+  ifo:table  <IF_7_1_2:item1:table1> ;
   dct:references <ref11>, <ref37> ;
   rdf:value """
   健康成人男性各6例に本剤50～400mgを空腹時単回経口投与したときのCmax及びAUCinfは用量比を超えて上昇したが、Tmax及びt1/2は各用量間でほぼ一定であった。CL/Fは、用量増加に伴い減少した。注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。
   """ .
 
-<IF_7_1_2:item1.1:figure1>
+<IF_7_1_2:item1:figure1>
   rdf:type ifo:Figure ;
-  foaf:depicts <figure_7_1_2_1_1_1.png> .
+  foaf:depicts <figure_7_1_2_1_1.png> .
   
- <IF_7_1_2:item1.1:table1>
+ <IF_7_1_2:item1:table1>
   rdf:type ifo:Figure ;
   rdfs:comment "※：投与後72時間までの測定可能な時点までの実測値に基づいた値 (各群n=6 平均値±標準偏差)" ;
-  rdfs:seeAlso <figure_7_1_2_1_1_1.xlsx> .
+  rdfs:seeAlso <figure_7_1_2_1_1.xlsx> .
 
 # ②  反復投与試験 11,37
-<IF_7_1_2:item1.2>
-  ifo:figure <IF_7_1_2:item1.2:figure1> ;
-  ifo:table  <IF_7_1_2:item1.2:table1> ;
+<IF_7_1_2:item2>
+  ifo:figure <IF_7_1_2:item2:figure1> ;
+  ifo:table  <IF_7_1_2:item2:table1> ;
   dct:references <ref11>, <ref37> ;
   rdf:value """
   健康成人男性各8例に本剤100mg及び200mgを朝食後に単回経口投与し、2日間の休薬後、更に朝食後7日間反復経口投与した。
   100及び200mg群ともに、初回投与後第7日目(反復投与開始後第4日目)以降トラフ値はほぼ一定となり、7日以内に定常状態に達した。第10日目(反復投与開始後第7日目)のCmaxは、100mg群で第1日目(初回投与時)と比較して上昇し、第10日目のAUC24hは100及び200mg群ともに第1日目と比較して上昇し、反復投与により1.75～2.12倍上昇することが示唆された。また、第10日目のTmax、t1/2はいずれの用量とも第1日目とほぼ同じであった。注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。
   """ .
 
-<IF_7_1_2:item1.2:figure1>
+<IF_7_1_2:item2:figure1>
   rdf:type ifo:Figure ;
   rdfs:comment "" ;
-  foaf:depicts <figure_7_1_2_1_2_1.png> .
+  foaf:depicts <figure_7_1_2_2_1.png> .
   
- <IF_7_1_2:item1.2:table1>
+<IF_7_1_2:item2:table1>
   rdf:type ifo:Figure ;
   rdfs:comment "(各群n=8 平均値±標準偏差)" ;
-  foaf:depicts <table_7_1_2_1_2_2.xlsx> .
+  foaf:depicts <table_7_1_2_2_1.xlsx> .
 
 # (3)中毒域
 <IF_7_1_3>
