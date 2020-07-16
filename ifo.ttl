@@ -47,6 +47,17 @@
 :drug_proprietary_id
     a owl:ObjectProperty .
 
+# Section :IF_11
+
+:internal_reference_id
+    a owl:DatatypeProperty .
+
+:ctd_number
+    a owl:DatatypeProperty .
+
+:dir_number
+    a owl:DatatypeProperty .
+
 :IF_0
     a owl:Class ;
     rdfs:label "表紙"@ja .
@@ -1052,62 +1063,4 @@
 :IF_13
     a owl:Class ;
     rdfs:label "備考"@ja .
-
-# Section :IF_0
-
-:日本標準商品分類番号
-    a owl:DatatypeProperty .
-
-:記載要領
-    a owl:DatatypeProperty .
-
-:薬効分類名
-    a owl:DatatypeProperty .
-
-:一般名称
-    a owl:DatatypeProperty .
-
-:剤形
-    a owl:DatatypeProperty .
-
-:製剤の規制区分
-    a owl:DatatypeProperty .
-
-:規格・含量
-    a owl:DatatypeProperty .
-
-:一般名
-    a owl:DatatypeProperty .
-
-:製造販売承認年月日
-    a owl:DatatypeProperty .
-
-:薬価基準収載年月日
-    a owl:DatatypeProperty .
-
-:販売開始年月日
-    a owl:DatatypeProperty .
-
-:製造販売
-    a owl:DatatypeProperty .
-
-:医薬情報担当者の連絡先
-    a owl:DatatypeProperty .
-
-:問い合わせ窓口
-    a owl:DatatypeProperty .
-
-:添付文書改訂年月
-    a owl:DatatypeProperty .
-
-# Section :IF_11
-
-:internal_reference_id
-    a owl:DatatypeProperty .
-
-:ctd_number
-    a owl:DatatypeProperty .
-
-:dir_number
-    a owl:DatatypeProperty .
 
