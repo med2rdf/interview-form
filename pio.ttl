@@ -193,6 +193,7 @@
     a owl:Class ;
     rdfs:label "併用注意(併用に注意すること)"@ja ;
     rdfs:subClassOf :PI_10 ;
+    :xpath "/PackIns/Interactions/PrecautionsForCombination" ;
     :interview_form ifo:IF_7_7_2 .
 
 :PI_11
