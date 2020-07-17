@@ -15,19 +15,29 @@
     owl:imports <http://www.w3.org/2004/02/skos/core> ;
     owl:versionInfo 0.01 .
 
+# Generic classes
+
 :InterviewForm
     a owl:Class ;
     rdfs:label "インタビューフォーム"@ja .
 
-:YJCode
-    a owl:Class ;
-    rdfs:label "YJCode" .
+:Section
+    a owl:Class .
 
 :Table
     a owl:Class .
 
 :Figure
     a owl:Class .
+
+:Item
+    a owl:Class .
+
+:YJCode
+    a owl:Class ;
+    rdfs:label "YJCode" .
+
+# Generic predicates
 
 :package_insert
     a owl:ObjectProperty .
@@ -47,7 +57,7 @@
 :drug_proprietary_id
     a owl:ObjectProperty .
 
-# Section :IF_11
+# Section specific predicates (IF_11)
 
 :internal_reference_id
     a owl:DatatypeProperty .
@@ -57,6 +67,8 @@
 
 :dir_number
     a owl:DatatypeProperty .
+
+# Section specific classes
 
 :IF_0
     a owl:Class ;
@@ -70,7 +82,8 @@
 :IF_0_2
     a owl:Class ;
     rdfs:label "承認条件等で、使用できる医師・医療機関・薬剤師等の制限、流通管理等の規定がある場合の表示"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_1 .
 
 :IF_0_3
     a owl:Class ;
@@ -80,7 +93,8 @@
 :IF_0_4
     a owl:Class ;
     rdfs:label "日本標準商品分類番号"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_0_2 .
 
 :IF_0_5
     a owl:Class ;
@@ -95,12 +109,14 @@
 :IF_0_7
     a owl:Class ;
     rdfs:label "薬効分類名"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_0_5 .
 
 :IF_0_8
     a owl:Class ;
     rdfs:label "名称"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_0_7 .
 
 :IF_0_9
     a owl:Class ;
@@ -110,17 +126,20 @@
 :IF_0_10
     a owl:Class ;
     rdfs:label "製剤の規制区分"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_0_6 .
 
 :IF_0_11
     a owl:Class ;
     rdfs:label "規格・含量"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_3_1 .
 
 :IF_0_12
     a owl:Class ;
     rdfs:label "一般名：和名・洋名"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_0_7 .
 
 :IF_0_13
     a owl:Class ;
@@ -135,12 +154,14 @@
 :IF_0_15
     a owl:Class ;
     rdfs:label "販売開始年月日"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_0_3 .
 
 :IF_0_16
     a owl:Class ;
     rdfs:label "製造販売(輸入)・提携・販売会社名"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_26 .
 
 :IF_0_17
     a owl:Class ;
@@ -150,12 +171,14 @@
 :IF_0_18
     a owl:Class ;
     rdfs:label "問い合わせ窓口"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_24 .
 
 :IF_0_19
     a owl:Class ;
     rdfs:label "現版のＩＦ作成の基となった医療用医薬品添付文書の作成又は改訂年月"@ja ;
-    rdfs:subClassOf :IF_0 .
+    rdfs:subClassOf :IF_0 ;
+    :package_insert pio:PI_0_1 .
 
 :IF_0_20
     a owl:Class ;
@@ -174,7 +197,8 @@
 :IF_1_2
     a owl:Class ;
     rdfs:label "製品の治療学的特性"@ja ;
-    rdfs:subClassOf :IF_1 .
+    rdfs:subClassOf :IF_1 ;
+    :package_insert pio:PI_11_1 .
 
 :IF_1_3
     a owl:Class ;
@@ -214,17 +238,20 @@
 :IF_1_5_1
     a owl:Class ;
     rdfs:label "承認条件"@ja ;
-    rdfs:subClassOf :IF_1_5 .
+    rdfs:subClassOf :IF_1_5 ;
+    :package_insert pio:PI_21 .
 
 :IF_1_5_2
     a owl:Class ;
     rdfs:label "流通・使用上の制限事項"@ja ;
-    rdfs:subClassOf :IF_1_5 .
+    rdfs:subClassOf :IF_1_5 ;
+    :package_insert pio:PI_21 .
 
 :IF_1_6
     a owl:Class ;
     rdfs:label "RMP の概要"@ja ;
-    rdfs:subClassOf :IF_1 .
+    rdfs:subClassOf :IF_1 ;
+    :package_insert pio:PI_1 .
 
 :IF_2
     a owl:Class ;
@@ -238,12 +265,14 @@
 :IF_2_1_1
     a owl:Class ;
     rdfs:label "和名"@ja ;
-    rdfs:subClassOf :IF_2_1 .
+    rdfs:subClassOf :IF_2_1 ;
+    :package_insert pio:PI_0_7 .
 
 :IF_2_1_2
     a owl:Class ;
     rdfs:label "洋名"@ja ;
-    rdfs:subClassOf :IF_2_1 .
+    rdfs:subClassOf :IF_2_1 ;
+    :package_insert pio:PI_0_7 .
 
 :IF_2_1_3
     a owl:Class ;
@@ -258,12 +287,14 @@
 :IF_2_2_1
     a owl:Class ;
     rdfs:label "和名(命名法)"@ja ;
-    rdfs:subClassOf :IF_2_2 .
+    rdfs:subClassOf :IF_2_2 ;
+    :package_insert pio:PI_0_7, pio:PI_19 .
 
 :IF_2_2_2
     a owl:Class ;
     rdfs:label "洋名(命名法)"@ja ;
-    rdfs:subClassOf :IF_2_2 .
+    rdfs:subClassOf :IF_2_2 ;
+    :package_insert pio:PI_0_7, pio:PI_19 .
 
 :IF_2_2_3
     a owl:Class ;
@@ -273,22 +304,26 @@
 :IF_2_3
     a owl:Class ;
     rdfs:label "構造式又は示性式"@ja ;
-    rdfs:subClassOf :IF_2 .
+    rdfs:subClassOf :IF_2 ;
+    :package_insert pio:PI_19 .
 
 :IF_2_4
     a owl:Class ;
     rdfs:label "分子式及び分子量"@ja ;
-    rdfs:subClassOf :IF_2 .
+    rdfs:subClassOf :IF_2 ;
+    :package_insert pio:PI_19 .
 
 :IF_2_5
     a owl:Class ;
     rdfs:label "化学名(命名法)又は本質"@ja ;
-    rdfs:subClassOf :IF_2 .
+    rdfs:subClassOf :IF_2 ;
+    :package_insert pio:PI_19 .
 
 :IF_2_6
     a owl:Class ;
     rdfs:label "慣用名、別名、略号、記号番号"@ja ;
-    rdfs:subClassOf :IF_2 .
+    rdfs:subClassOf :IF_2 ;
+    :package_insert pio:PI_19 .
 
 :IF_3
     a owl:Class ;
@@ -302,37 +337,44 @@
 :IF_3_1_1
     a owl:Class ;
     rdfs:label "外観・性状"@ja ;
-    rdfs:subClassOf :IF_3_1 .
+    rdfs:subClassOf :IF_3_1 ;
+    :package_insert pio:PI_19 .
 
 :IF_3_1_2
     a owl:Class ;
     rdfs:label "溶解性"@ja ;
-    rdfs:subClassOf :IF_3_1 .
+    rdfs:subClassOf :IF_3_1 ;
+    :package_insert pio:PI_19 .
 
 :IF_3_1_3
     a owl:Class ;
     rdfs:label "吸湿性"@ja ;
-    rdfs:subClassOf :IF_3_1 .
+    rdfs:subClassOf :IF_3_1 ;
+    :package_insert pio:PI_19 .
 
 :IF_3_1_4
     a owl:Class ;
     rdfs:label "融点(分解点)，沸点，凝固点"@ja ;
-    rdfs:subClassOf :IF_3_1 .
+    rdfs:subClassOf :IF_3_1 ;
+    :package_insert pio:PI_19 .
 
 :IF_3_1_5
     a owl:Class ;
     rdfs:label "酸塩基解離定数"@ja ;
-    rdfs:subClassOf :IF_3_1 .
+    rdfs:subClassOf :IF_3_1 ;
+    :package_insert pio:PI_19 .
 
 :IF_3_1_6
     a owl:Class ;
     rdfs:label "分配係数"@ja ;
-    rdfs:subClassOf :IF_3_1 .
+    rdfs:subClassOf :IF_3_1 ;
+    :package_insert pio:PI_19 .
 
 :IF_3_1_7
     a owl:Class ;
     rdfs:label "その他の主な示性値"@ja ;
-    rdfs:subClassOf :IF_3_1 .
+    rdfs:subClassOf :IF_3_1 ;
+    :package_insert pio:PI_19 .
 
 :IF_3_2
     a owl:Class ;
@@ -356,27 +398,32 @@
 :IF_4_1_1
     a owl:Class ;
     rdfs:label "剤形の区別"@ja ;
-    rdfs:subClassOf :IF_4_1 .
+    rdfs:subClassOf :IF_4_1 ;
+    :package_insert pio:PI_3_2 .
 
 :IF_4_1_2
     a owl:Class ;
     rdfs:label "製剤の外観及び性状"@ja ;
-    rdfs:subClassOf :IF_4_1 .
+    rdfs:subClassOf :IF_4_1 ;
+    :package_insert pio:PI_3_2 .
 
 :IF_4_1_3
     a owl:Class ;
     rdfs:label "識別コード"@ja ;
-    rdfs:subClassOf :IF_4_1 .
+    rdfs:subClassOf :IF_4_1 ;
+    :package_insert pio:PI_3_2 .
 
 :IF_4_1_4
     a owl:Class ;
     rdfs:label "製剤の物性"@ja ;
-    rdfs:subClassOf :IF_4_1 .
+    rdfs:subClassOf :IF_4_1 ;
+    :package_insert pio:PI_3_2 .
 
 :IF_4_1_5
     a owl:Class ;
     rdfs:label "その他"@ja ;
-    rdfs:subClassOf :IF_4_1 .
+    rdfs:subClassOf :IF_4_1 ;
+    :package_insert pio:PI_3_2 .
 
 :IF_4_2
     a owl:Class ;
@@ -386,27 +433,32 @@
 :IF_4_2_1
     a owl:Class ;
     rdfs:label "有効成分(活性成分)の含量及び添加剤"@ja ;
-    rdfs:subClassOf :IF_4_2 .
+    rdfs:subClassOf :IF_4_2 ;
+    :package_insert pio:PI_3_1 .
 
 :IF_4_2_2
     a owl:Class ;
     rdfs:label "電解質等の濃度"@ja ;
-    rdfs:subClassOf :IF_4_2 .
+    rdfs:subClassOf :IF_4_2 ;
+    :package_insert pio:PI_3_2 .
 
 :IF_4_2_3
     a owl:Class ;
     rdfs:label "熱量"@ja ;
-    rdfs:subClassOf :IF_4_2 .
+    rdfs:subClassOf :IF_4_2 ;
+    :package_insert pio:PI_3_2 .
 
 :IF_4_3
     a owl:Class ;
     rdfs:label "添付溶解液の組成及び容量"@ja ;
-    rdfs:subClassOf :IF_4 .
+    rdfs:subClassOf :IF_4 ;
+    :package_insert pio:PI_3_2 .
 
 :IF_4_4
     a owl:Class ;
     rdfs:label "力価"@ja ;
-    rdfs:subClassOf :IF_4 .
+    rdfs:subClassOf :IF_4 ;
+    :package_insert pio:PI_3_1 .
 
 :IF_4_5
     a owl:Class ;
@@ -446,7 +498,8 @@
 :IF_4_10_2
     a owl:Class ;
     rdfs:label "包装"@ja ;
-    rdfs:subClassOf :IF_4_10 .
+    rdfs:subClassOf :IF_4_10 ;
+    :package_insert pio:PI_22 .
 
 :IF_4_10_3
     a owl:Class ;
@@ -475,12 +528,14 @@
 :IF_5_1
     a owl:Class ;
     rdfs:label "効能又は効果"@ja ;
-    rdfs:subClassOf :IF_5 .
+    rdfs:subClassOf :IF_5 ;
+    :package_insert pio:PI_4 .
 
 :IF_5_2
     a owl:Class ;
     rdfs:label "効能又は効果に関連する注意"@ja ;
-    rdfs:subClassOf :IF_5 .
+    rdfs:subClassOf :IF_5 ;
+    :package_insert pio:PI_5 .
 
 :IF_5_3
     a owl:Class ;
@@ -490,7 +545,8 @@
 :IF_5_3_1
     a owl:Class ;
     rdfs:label "用法及び用量の解説"@ja ;
-    rdfs:subClassOf :IF_5_3 .
+    rdfs:subClassOf :IF_5_3 ;
+    :package_insert pio:PI_6 .
 
 :IF_5_3_2
     a owl:Class ;
@@ -500,7 +556,8 @@
 :IF_5_4
     a owl:Class ;
     rdfs:label "用法及び用量に関連する注意"@ja ;
-    rdfs:subClassOf :IF_5 .
+    rdfs:subClassOf :IF_5 ;
+    :package_insert pio:PI_7 .
 
 :IF_5_5
     a owl:Class ;
@@ -515,7 +572,8 @@
 :IF_5_5_2
     a owl:Class ;
     rdfs:label "臨床薬理試験"@ja ;
-    rdfs:subClassOf :IF_5_5 .
+    rdfs:subClassOf :IF_5_5 ;
+    :package_insert pio:PI_17_3 .
 
 :IF_5_5_3
     a owl:Class ;
@@ -530,17 +588,20 @@
 :IF_5_5_4_1
     a owl:Class ;
     rdfs:label "有効性検証試験"@ja ;
-    rdfs:subClassOf :IF_5_5_4 .
+    rdfs:subClassOf :IF_5_5_4 ;
+    :package_insert pio:PI_17_1 .
 
 :IF_5_5_4_2
     a owl:Class ;
     rdfs:label "安全性試験"@ja ;
-    rdfs:subClassOf :IF_5_5_4 .
+    rdfs:subClassOf :IF_5_5_4 ;
+    :package_insert pio:PI_17_1 .
 
 :IF_5_5_5
     a owl:Class ;
     rdfs:label "患者・病態別試験"@ja ;
-    rdfs:subClassOf :IF_5_5 .
+    rdfs:subClassOf :IF_5_5 ;
+    :package_insert pio:PI_17_1 .
 
 :IF_5_5_6
     a owl:Class ;
@@ -550,17 +611,20 @@
 :IF_5_5_6_1
     a owl:Class ;
     rdfs:label "使用成績調査"@ja ;
-    rdfs:subClassOf :IF_5_5_6 .
+    rdfs:subClassOf :IF_5_5_6 ;
+    :package_insert pio:PI_17_2 .
 
 :IF_5_5_6_2
     a owl:Class ;
     rdfs:label "承認条件として実施予定の内容又は実施した調査・試験の概要"@ja ;
-    rdfs:subClassOf :IF_5_5_6 .
+    rdfs:subClassOf :IF_5_5_6 ;
+    :package_insert pio:PI_21 .
 
 :IF_5_5_7
     a owl:Class ;
     rdfs:label "その他"@ja ;
-    rdfs:subClassOf :IF_5_5 .
+    rdfs:subClassOf :IF_5_5 ;
+    :package_insert pio:PI_17_1 .
 
 :IF_6
     a owl:Class ;
@@ -579,17 +643,20 @@
 :IF_6_2_1
     a owl:Class ;
     rdfs:label "作用部位・作用機序"@ja ;
-    rdfs:subClassOf :IF_6_2 .
+    rdfs:subClassOf :IF_6_2 ;
+    :package_insert pio:PI_18_1 .
 
 :IF_6_2_2
     a owl:Class ;
     rdfs:label "薬効を裏付ける試験成績"@ja ;
-    rdfs:subClassOf :IF_6_2 .
+    rdfs:subClassOf :IF_6_2 ;
+    :package_insert pio:PI_18 .
 
 :IF_6_2_3
     a owl:Class ;
     rdfs:label "作用発現時間・持続時間"@ja ;
-    rdfs:subClassOf :IF_6_2 .
+    rdfs:subClassOf :IF_6_2 ;
+    :package_insert pio:PI_18_1 .
 
 :IF_7
     a owl:Class ;
@@ -603,12 +670,14 @@
 :IF_7_1_1
     a owl:Class ;
     rdfs:label "治療上有効な血中濃度"@ja ;
-    rdfs:subClassOf :IF_7_1 .
+    rdfs:subClassOf :IF_7_1 ;
+    :package_insert pio:PI_16_1 .
 
 :IF_7_1_2
     a owl:Class ;
     rdfs:label "臨床試験で確認された血中濃度"@ja ;
-    rdfs:subClassOf :IF_7_1 .
+    rdfs:subClassOf :IF_7_1 ;
+    :package_insert pio:PI_16_1 .
 
 :IF_7_1_3
     a owl:Class ;
@@ -618,7 +687,8 @@
 :IF_7_1_4
     a owl:Class ;
     rdfs:label "食事・併用薬の影響"@ja ;
-    rdfs:subClassOf :IF_7_1 .
+    rdfs:subClassOf :IF_7_1 ;
+    :package_insert pio:PI_16_2, pio:PI_16_7 .
 
 :IF_7_2
     a owl:Class ;
@@ -628,32 +698,38 @@
 :IF_7_2_1
     a owl:Class ;
     rdfs:label "解析方法"@ja ;
-    rdfs:subClassOf :IF_7_2 .
+    rdfs:subClassOf :IF_7_2 ;
+    :package_insert pio:PI_16_1 .
 
 :IF_7_2_2
     a owl:Class ;
     rdfs:label "吸収速度定数"@ja ;
-    rdfs:subClassOf :IF_7_2 .
+    rdfs:subClassOf :IF_7_2 ;
+    :package_insert pio:PI_16_1 .
 
 :IF_7_2_3
     a owl:Class ;
     rdfs:label "消失速度定数"@ja ;
-    rdfs:subClassOf :IF_7_2 .
+    rdfs:subClassOf :IF_7_2 ;
+    :package_insert pio:PI_16_1 .
 
 :IF_7_2_4
     a owl:Class ;
     rdfs:label "クリアランス"@ja ;
-    rdfs:subClassOf :IF_7_2 .
+    rdfs:subClassOf :IF_7_2 ;
+    :package_insert pio:PI_16_1 .
 
 :IF_7_2_5
     a owl:Class ;
     rdfs:label "分布容積"@ja ;
-    rdfs:subClassOf :IF_7_2 .
+    rdfs:subClassOf :IF_7_2 ;
+    :package_insert pio:PI_16_1 .
 
 :IF_7_2_6
     a owl:Class ;
     rdfs:label "その他"@ja ;
-    rdfs:subClassOf :IF_7_2 .
+    rdfs:subClassOf :IF_7_2 ;
+    :package_insert pio:PI_16_3 .
 
 :IF_7_3
     a owl:Class ;
@@ -673,7 +749,8 @@
 :IF_7_4
     a owl:Class ;
     rdfs:label "吸収"@ja ;
-    rdfs:subClassOf :IF_7 .
+    rdfs:subClassOf :IF_7 ;
+    :package_insert pio:PI_16_2 .
 
 :IF_7_5
     a owl:Class ;
@@ -683,32 +760,38 @@
 :IF_7_5_1
     a owl:Class ;
     rdfs:label "血液-脳関門通過性"@ja ;
-    rdfs:subClassOf :IF_7_5 .
+    rdfs:subClassOf :IF_7_5 ;
+    :package_insert pio:PI_16_3 .
 
 :IF_7_5_2
     a owl:Class ;
     rdfs:label "血液-胎盤関門通過性"@ja ;
-    rdfs:subClassOf :IF_7_5 .
+    rdfs:subClassOf :IF_7_5 ;
+    :package_insert pio:PI_16_3 .
 
 :IF_7_5_3
     a owl:Class ;
     rdfs:label "乳汁への移行性"@ja ;
-    rdfs:subClassOf :IF_7_5 .
+    rdfs:subClassOf :IF_7_5 ;
+    :package_insert pio:PI_16_3 .
 
 :IF_7_5_4
     a owl:Class ;
     rdfs:label "髄液への移行性"@ja ;
-    rdfs:subClassOf :IF_7_5 .
+    rdfs:subClassOf :IF_7_5 ;
+    :package_insert pio:PI_16_3 .
 
 :IF_7_5_5
     a owl:Class ;
     rdfs:label "その他の組織への移行性"@ja ;
-    rdfs:subClassOf :IF_7_5 .
+    rdfs:subClassOf :IF_7_5 ;
+    :package_insert pio:PI_16_3 .
 
 :IF_7_5_6
     a owl:Class ;
     rdfs:label "血漿蛋白結合率"@ja ;
-    rdfs:subClassOf :IF_7_5 .
+    rdfs:subClassOf :IF_7_5 ;
+    :package_insert pio:PI_16_3 .
 
 :IF_7_6
     a owl:Class ;
@@ -718,47 +801,56 @@
 :IF_7_6_1
     a owl:Class ;
     rdfs:label "代謝部位及び代謝経路"@ja ;
-    rdfs:subClassOf :IF_7_6 .
+    rdfs:subClassOf :IF_7_6 ;
+    :package_insert pio:PI_16_4 .
 
 :IF_7_6_2
     a owl:Class ;
     rdfs:label "代謝に関与する酵素(CYP等)の分子種，寄与率"@ja ;
-    rdfs:subClassOf :IF_7_6 .
+    rdfs:subClassOf :IF_7_6 ;
+    :package_insert pio:PI_10, pio:PI_16_4 .
 
 :IF_7_6_3
     a owl:Class ;
     rdfs:label "初回通過効果の有無及びその割合"@ja ;
-    rdfs:subClassOf :IF_7_6 .
+    rdfs:subClassOf :IF_7_6 ;
+    :package_insert pio:PI_16_4 .
 
 :IF_7_6_4
     a owl:Class ;
     rdfs:label "代謝物の活性の有無及び活性比，存在比率"@ja ;
-    rdfs:subClassOf :IF_7_6 .
+    rdfs:subClassOf :IF_7_6 ;
+    :package_insert pio:PI_16_4 .
 
 :IF_7_7
     a owl:Class ;
     rdfs:label "排泄"@ja ;
-    rdfs:subClassOf :IF_7 .
+    rdfs:subClassOf :IF_7 ;
+    :package_insert pio:PI_16_5 .
 
 :IF_7_8
     a owl:Class ;
     rdfs:label "トランスポーターに関する情報"@ja ;
-    rdfs:subClassOf :IF_7 .
+    rdfs:subClassOf :IF_7 ;
+    :package_insert pio:PI_16_4 .
 
 :IF_7_9
     a owl:Class ;
     rdfs:label "透析等による除去率"@ja ;
-    rdfs:subClassOf :IF_7 .
+    rdfs:subClassOf :IF_7 ;
+    :package_insert pio:PI_16_6 .
 
 :IF_7_10
     a owl:Class ;
     rdfs:label "特定の背景を有する患者"@ja ;
-    rdfs:subClassOf :IF_7 .
+    rdfs:subClassOf :IF_7 ;
+    :package_insert pio:PI_16_6 .
 
 :IF_7_11
     a owl:Class ;
     rdfs:label "その他"@ja ;
-    rdfs:subClassOf :IF_7 .
+    rdfs:subClassOf :IF_7 ;
+    :package_insert pio:PI_16_8 .
 
 :IF_8
     a owl:Class ;
@@ -767,12 +859,14 @@
 :IF_8_1
     a owl:Class ;
     rdfs:label "警告内容とその理由"@ja ;
-    rdfs:subClassOf :IF_8 .
+    rdfs:subClassOf :IF_8 ;
+    :package_insert pio:PI_1 .
 
 :IF_8_2
     a owl:Class ;
     rdfs:label "禁忌内容とその理由"@ja ;
-    rdfs:subClassOf :IF_8 .
+    rdfs:subClassOf :IF_8 ;
+    :package_insert pio:PI_2 .
 
 :IF_8_3
     a owl:Class ;
@@ -787,7 +881,8 @@
 :IF_8_5
     a owl:Class ;
     rdfs:label "重要な基本的注意とその理由"@ja ;
-    rdfs:subClassOf :IF_8 .
+    rdfs:subClassOf :IF_8 ;
+    :package_insert pio:PI_8 .
 
 :IF_8_6
     a owl:Class ;
@@ -797,57 +892,68 @@
 :IF_8_6_1
     a owl:Class ;
     rdfs:label "合併症・既往歴等のある患者"@ja ;
-    rdfs:subClassOf :IF_8_6 .
+    rdfs:subClassOf :IF_8_6 ;
+    :package_insert pio:PI_9_1 .
 
 :IF_8_6_2
     a owl:Class ;
     rdfs:label "腎機能障害患者"@ja ;
-    rdfs:subClassOf :IF_8_6 .
+    rdfs:subClassOf :IF_8_6 ;
+    :package_insert pio:PI_9_2 .
 
 :IF_8_6_3
     a owl:Class ;
     rdfs:label "肝機能障害患者"@ja ;
-    rdfs:subClassOf :IF_8_6 .
+    rdfs:subClassOf :IF_8_6 ;
+    :package_insert pio:PI_9_3 .
 
 :IF_8_6_4
     a owl:Class ;
     rdfs:label "生殖能を有する者"@ja ;
-    rdfs:subClassOf :IF_8_6 .
+    rdfs:subClassOf :IF_8_6 ;
+    :package_insert pio:PI_9_4 .
 
 :IF_8_6_5
     a owl:Class ;
     rdfs:label "妊婦"@ja ;
-    rdfs:subClassOf :IF_8_6 .
+    rdfs:subClassOf :IF_8_6 ;
+    :package_insert pio:PI_9_5 .
 
 :IF_8_6_6
     a owl:Class ;
     rdfs:label "授乳婦"@ja ;
-    rdfs:subClassOf :IF_8_6 .
+    rdfs:subClassOf :IF_8_6 ;
+    :package_insert pio:PI_9_6 .
 
 :IF_8_6_7
     a owl:Class ;
     rdfs:label "小児等"@ja ;
-    rdfs:subClassOf :IF_8_6 .
+    rdfs:subClassOf :IF_8_6 ;
+    :package_insert pio:PI_9_7 .
 
 :IF_8_6_8
     a owl:Class ;
     rdfs:label "高齢者"@ja ;
-    rdfs:subClassOf :IF_8_6 .
+    rdfs:subClassOf :IF_8_6 ;
+    :package_insert pio:PI_9_8 .
 
 :IF_8_7
     a owl:Class ;
     rdfs:label "相互作用"@ja ;
-    rdfs:subClassOf :IF_8 .
+    rdfs:subClassOf :IF_8 ;
+    :package_insert pio:PI_16_7 .
 
 :IF_8_7_1
     a owl:Class ;
     rdfs:label "併用禁忌とその理由"@ja ;
-    rdfs:subClassOf :IF_8_7 .
+    rdfs:subClassOf :IF_8_7 ;
+    :package_insert pio:PI_10_1 .
 
 :IF_8_7_2
     a owl:Class ;
     rdfs:label "併用注意とその理由"@ja ;
-    rdfs:subClassOf :IF_8_7 .
+    rdfs:subClassOf :IF_8_7 ;
+    :package_insert pio:PI_10_2 .
 
 :IF_8_8
     a owl:Class ;
@@ -857,27 +963,32 @@
 :IF_8_8_1
     a owl:Class ;
     rdfs:label "重大な副作用と初期症状"@ja ;
-    rdfs:subClassOf :IF_8_8 .
+    rdfs:subClassOf :IF_8_8 ;
+    :package_insert pio:PI_11_1 .
 
 :IF_8_8_2
     a owl:Class ;
     rdfs:label "その他の副作用"@ja ;
-    rdfs:subClassOf :IF_8_8 .
+    rdfs:subClassOf :IF_8_8 ;
+    :package_insert pio:PI_11_2 .
 
 :IF_8_9
     a owl:Class ;
     rdfs:label "臨床検査結果に及ぼす影響"@ja ;
-    rdfs:subClassOf :IF_8 .
+    rdfs:subClassOf :IF_8 ;
+    :package_insert pio:PI_12 .
 
 :IF_8_10
     a owl:Class ;
     rdfs:label "過量投与"@ja ;
-    rdfs:subClassOf :IF_8 .
+    rdfs:subClassOf :IF_8 ;
+    :package_insert pio:PI_13_1, pio:PI_13_2 .
 
 :IF_8_11
     a owl:Class ;
     rdfs:label "適用上の注意"@ja ;
-    rdfs:subClassOf :IF_8 .
+    rdfs:subClassOf :IF_8 ;
+    :package_insert pio:PI_14 .
 
 :IF_8_12
     a owl:Class ;
@@ -887,12 +998,14 @@
 :IF_8_12_1
     a owl:Class ;
     rdfs:label "臨床使用に基づく情報"@ja ;
-    rdfs:subClassOf :IF_8_12 .
+    rdfs:subClassOf :IF_8_12 ;
+    :package_insert pio:PI_15_1 .
 
 :IF_8_12_2
     a owl:Class ;
     rdfs:label "非臨床試験に基づく情報"@ja ;
-    rdfs:subClassOf :IF_8_12 .
+    rdfs:subClassOf :IF_8_12 ;
+    :package_insert pio:PI_15_2 .
 
 :IF_9
     a owl:Class ;
@@ -965,22 +1078,26 @@
 :IF_10_1
     a owl:Class ;
     rdfs:label "規制区分"@ja ;
-    rdfs:subClassOf :IF_10 .
+    rdfs:subClassOf :IF_10 ;
+    :package_insert pio:PI_0_6 .
 
 :IF_10_2
     a owl:Class ;
     rdfs:label "有効期間"@ja ;
-    rdfs:subClassOf :IF_10 .
+    rdfs:subClassOf :IF_10 ;
+    :package_insert pio:PI_0_4 .
 
 :IF_10_3
     a owl:Class ;
     rdfs:label "包装状態での貯法"@ja ;
-    rdfs:subClassOf :IF_10 .
+    rdfs:subClassOf :IF_10 ;
+    :package_insert pio:PI_0_4 .
 
 :IF_10_4
     a owl:Class ;
     rdfs:label "取扱い上の注意"@ja ;
-    rdfs:subClassOf :IF_10 .
+    rdfs:subClassOf :IF_10 ;
+    :package_insert pio:PI_20 .
 
 :IF_10_5
     a owl:Class ;
@@ -1000,7 +1117,8 @@
 :IF_10_8
     a owl:Class ;
     rdfs:label "製造販売承認年月日及び承認番号，薬価基準収載年月日，販売開始年月日"@ja ;
-    rdfs:subClassOf :IF_10 .
+    rdfs:subClassOf :IF_10 ;
+    :package_insert pio:PI_0_3 .
 
 :IF_10_9
     a owl:Class ;
@@ -1020,7 +1138,8 @@
 :IF_10_12
     a owl:Class ;
     rdfs:label "投薬期間制限に関する情報"@ja ;
-    rdfs:subClassOf :IF_10 .
+    rdfs:subClassOf :IF_10 ;
+    :package_insert pio:PI_25 .
 
 :IF_10_13
     a owl:Class ;
@@ -1030,7 +1149,8 @@
 :IF_10_14
     a owl:Class ;
     rdfs:label "保険給付上の注意"@ja ;
-    rdfs:subClassOf :IF_10 .
+    rdfs:subClassOf :IF_10 ;
+    :package_insert pio:PI_25 .
 
 :IF_11
     a owl:Class ;
@@ -1039,7 +1159,8 @@
 :IF_11_1
     a owl:Class ;
     rdfs:label "引用文献"@ja ;
-    rdfs:subClassOf :IF_11 .
+    rdfs:subClassOf :IF_11 ;
+    :package_insert pio:PI_23 .
 
 :IF_11_2
     a owl:Class ;
@@ -1053,12 +1174,14 @@
 :IF_12_1
     a owl:Class ;
     rdfs:label "主な外国での発売状況"@ja ;
-    rdfs:subClassOf :IF_12 .
+    rdfs:subClassOf :IF_12 ;
+    :package_insert pio:PI_4, pio:PI_6 .
 
 :IF_12_2
     a owl:Class ;
     rdfs:label "海外における臨床支援情報"@ja ;
-    rdfs:subClassOf :IF_12 .
+    rdfs:subClassOf :IF_12 ;
+    :package_insert pio:PI_9_4, pio:PI_9_5, pio:PI_9_6, pio:PI_9_7 .
 
 :IF_13
     a owl:Class ;
