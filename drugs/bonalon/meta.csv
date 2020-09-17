@@ -1,8 +1,8 @@
 subject,predicate,object,,
-https://www.info.pmda.go.jp/go/interview/1/470310_3999018F1030_2_004_1F,ifo:if_id,470310_3999018F1030_2_004_1F,,470310_3999018Q1022_1_007_1F
+https://www.info.pmda.go.jp/go/interview/1/470310_3999018Q1022_1_007_1F,ifo:if_id,470310_3999018Q1022_1_007_1F,,470310_3999018F1030_2_004_1F
 https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3999018F1030_2_24,ifo:pi_id,470310_3999018F1030_2_24,,
 https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3999018F2036_1_19,ifo:pi_id,470310_3999018F2036_1_19,,
-https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3999018Q1022_1_07,ifo:pi_id,470310_3999018Q1022_1_07,,
+https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3999018Q1022_1_07,ifo:pi_id,470310_3999018Q1022_1_07,,TODO: これしか残らないのでコンバータを調整する (@prefix pi: はどうする？）
 800126_2590014F1021_1_015_1F,ifo:yjcode,"3999018F1030,3999018F2036,3999018Q1022",,
 ,,,,
 3999018F1030,ifo:if_0_8,ボナロン錠 5mg,,
