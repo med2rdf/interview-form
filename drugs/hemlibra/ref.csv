@@ -92,10 +92,12 @@ subject,predicate,object,
 29,dct:references,29214439,
 30,rdf:type,bibo:Article,
 30,dct:references,27223146,
-31,rdf:type,？？？？,
-31,,"NHF：MASAC Update on the Approval and Availability of the New Treatment: Emicizumab （Hemlibra）, for Persons with Hemophilia A with Inhibitors to Factor VIII: Interim Guidance on Acute Bleed Management and Use of Laboratory Assays",血友病の国際GL
-32,rdf:type,？？？？,
-32,,日本血栓止血学会：インヒビターのない血友病患者に対する止血治療ガイドライン（2013年改訂版）,血友病の国内GL
+31,rdf:type,bibo:Document,
+31,rdfs:label,"NHF：MASAC Update on the Approval and Availability of the New Treatment: Emicizumab （Hemlibra）, for Persons with Hemophilia A with Inhibitors to Factor VIII: Interim Guidance on Acute Bleed Management and Use of Laboratory Assays",血友病の国際GL
+31,rdfs:seeAlso,https://www.hemophilia.org/sites/default/files/MASAC-Update-on-the-Approval-and-Availability-of-the-New-Treatment.pdf,
+32,rdf:type,bibo:Document,
+32,rdfs:label,日本血栓止血学会：インヒビターのない血友病患者に対する止血治療ガイドライン（2013年改訂版）,血友病の国内GL
+32,rdfs:seeAlso,https://www.jsth.org/wordpress/wp-content/uploads/2015/04/03_inhibitor_H1_B.pdf,
 33,rdf:type,bibo:Document,
 33,rdfs:label,エミシズマブの薬力学特性,Refにあるタイトルをそのまま入れてます。「社内資料」の記載で良い場合は要修正
 34,rdf:type,bibo:Document,
