@@ -1,0 +1,171 @@
+subject,predicate,object
+1,rdf:type,bibo:Article
+1,dct:creator,安部井徹 他
+1,prism:publicationName,臨床評価
+1,prism:volume,5
+1,prism:number,2
+1,prism:startingPage,189
+1,prism:endingPage,203
+1,dct:issued,1977
+2,rdf:type,bibo:Article
+2,dct:creator,三好秋馬 他
+2,prism:publicationName,内科宝函
+2,prism:volume,27
+2,prism:number,6
+2,prism:startingPage,169
+2,prism:endingPage,186
+2,dct:issued,1980
+3,rdf:type,bibo:Article
+3,dct:creator,三好秋馬 他
+3,prism:publicationName,臨床評価
+3,prism:volume,15
+3,prism:number,2
+3,prism:startingPage,307
+3,prism:endingPage,334
+3,dct:issued,1987
+4,rdf:type,bibo:Article
+4,dct:creator,長崎正明 他
+4,prism:publicationName,Therapeutic Research
+4,prism:volume,14
+4,prism:number,7
+4,prism:startingPage,2919
+4,prism:endingPage,2926
+4,dct:issued,1993
+5,rdf:type,bibo:Article
+5,dct:references,1659547
+6,rdf:type,bibo:Article
+6,dct:references,7214854
+7,rdf:type,bibo:Article
+7,dct:references,7173739
+8,rdf:type,bibo:Article
+8,dct:references,6533390
+9,rdf:type,bibo:Article
+9,dct:references,7154463
+10,rdf:type,bibo:Article
+10,dct:creator,原沢 茂 他
+10,prism:publicationName,臨牀と研究
+10,prism:volume,62
+10,prism:number,5
+10,prism:startingPage,1487
+10,prism:endingPage,1491
+10,dct:issued,1985
+11,rdf:type,bibo:Article
+11,dct:creator,福土 審 他
+11,prism:publicationName,薬理と治療
+11,prism:volume,14
+11,prism:number,9
+11,prism:startingPage,5841
+11,prism:endingPage,5854
+11,dct:issued,1986
+12,rdf:type,bibo:Article
+12,dct:creator,佐々木大輔
+12,prism:publicationName,Therapeutic Research
+12,prism:volume,3
+12,prism:number,5
+12,prism:startingPage,788
+12,prism:endingPage,797
+12,dct:issued,1985
+13,rdf:type,bibo:Article
+13,dct:references,6748369
+14,rdf:type,bibo:Article
+14,dct:creator,川村 武
+14,prism:publicationName,Therapeutic Research
+14,prism:volume,3
+14,prism:number,5
+14,prism:startingPage,761
+14,prism:endingPage,766
+14,dct:issued,1985
+15,rdf:type,bibo:Article
+15,dct:creator,石田柳一 他
+15,prism:publicationName,基礎と臨床
+15,prism:volume,6
+15,prism:number,8
+15,prism:startingPage,4139
+15,prism:endingPage,4152
+15,dct:issued,1982
+16,rdf:type,bibo:Article
+16,dct:creator,玉木 元 他
+16,prism:publicationName,基礎と臨床
+16,prism:volume,6
+16,prism:number,8
+16,prism:startingPage,4153
+16,prism:endingPage,4160
+16,dct:issued,1982
+17,rdf:type,bibo:Article
+17,dct:creator,吉川正美 他
+17,prism:publicationName,応用薬理
+17,prism:volume,24
+17,prism:number,2
+17,prism:startingPage,309
+17,prism:endingPage,314
+17,dct:issued,1982
+18,rdf:type,bibo:Article
+18,dct:creator,吉川正美 他
+18,prism:publicationName,応用薬理
+18,prism:volume,24
+18,prism:number,2
+18,prism:startingPage,289
+18,prism:endingPage,300
+18,dct:issued,1982
+19,rdf:type,bibo:Article
+19,dct:creator,吉川正美 他
+19,prism:publicationName,応用薬理
+19,prism:volume,24
+19,prism:number,2
+19,prism:startingPage,301
+19,prism:endingPage,307
+19,dct:issued,1982
+20,rdf:type,bibo:Article
+20,dct:creator,吉川正美 他
+20,prism:publicationName,応用薬理
+20,prism:volume,24
+20,prism:number,2
+20,prism:startingPage,315
+20,prism:endingPage,324
+20,dct:issued,1982
+21,rdf:type,bibo:Document
+21,rdfs:label,田辺三菱製薬（株）：ヒトにおけるTrimebutine maleate（TM-906）一回経口投与後の尿中未変化体および代謝物排泄量の測定（社内資料）
+22,rdf:type,bibo:Document
+22,rdfs:label,田辺三菱製薬（株）：ラット、イヌおよびヒトにおけるTrimebutine maleate（TM-906）一回経口投与後の血漿中未変化体および代謝物濃度推移（社内資料）
+23,rdf:type,bibo:Document
+23,rdfs:label,田辺三菱製薬（株）：麻酔ラット胃自動運動に対するTrimebutine maleate（TM-906）およびその代謝物の作用（社内資料）
+24,rdf:type,bibo:Document
+24,rdfs:label,田辺三菱製薬（株）：麻酔モルモット胃自動運動に対するTrimebutine maleate（TM-906）およびその代謝物の作用（社内資料）
+25,rdf:type,bibo:Article
+25,dct:creator,竹永秀幸 他
+25,prism:publicationName,田辺製薬研究報告
+25,prism:startingPage,1
+25,prism:endingPage,2
+25,dct:issued,1984
+26,rdf:type,bibo:Article
+26,dct:creator,池尾富弘 他
+26,prism:publicationName,基礎と臨床
+26,prism:volume,16
+26,prism:number,8
+26,prism:startingPage,4161
+26,prism:endingPage,4169
+26,dct:issued,1982
+27,rdf:type,bibo:Article
+27,dct:creator,平川哲孝 他
+27,prism:publicationName,基礎と臨床
+27,prism:volume,16
+27,prism:number,3
+27,prism:startingPage,1225
+27,prism:endingPage,1231
+27,dct:issued,1982
+28,rdf:type,bibo:Article
+28,dct:creator,浅野祐三 他
+28,prism:publicationName,基礎と臨床
+28,prism:volume,16
+28,prism:number,2
+28,prism:startingPage,633
+28,prism:endingPage,650
+28,dct:issued,1982
+29,rdf:type,bibo:Article
+29,dct:creator,小野隆昭 他
+29,prism:publicationName,基礎と臨床
+29,prism:volume,16
+29,prism:number,2
+29,prism:startingPage,651
+29,prism:endingPage,657
+29,dct:issued,1982
