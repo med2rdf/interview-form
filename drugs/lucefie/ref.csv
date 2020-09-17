@@ -1,0 +1,376 @@
+subject,predicate,object
+1,rdf:type,bibo:Article
+1,dct:references,24535625
+1,ifo:internal_reference_id,
+2,rdf:type,bibo:Document
+2,rdfs:label,社内資料
+2,dct:dateAccepted,2014-3-24
+2,ifo:internal_reference_id,T26C007
+2,ifo:ctd_number,CTD 2.7.6.1
+3,rdf:type,bibo:Document
+3,rdfs:label,社内資料
+3,dct:dateAccepted,2014-3-24
+3,ifo:internal_reference_id,T26C008
+3,ifo:ctd_number,CTD 2.7.6.2
+4,rdf:type,bibo:Article
+4,dct:references,25855342
+4,ifo:internal_reference_id,
+5,rdf:type,bibo:Document
+5,rdfs:label,社内資料
+5,dct:dateAccepted,2014-3-24
+5,ifo:internal_reference_id,T26C009
+5,ifo:ctd_number,CTD 2.7.6.4
+6,rdf:type,bibo:Document
+6,rdfs:label,社内資料
+6,dct:dateAccepted,2014-3-24
+6,ifo:internal_reference_id,T26C010
+6,ifo:ctd_number,CTD 2.7.6.7
+7,rdf:type,bibo:Document
+7,rdfs:label,社内資料
+7,dct:dateAccepted,2014-3-24
+7,ifo:internal_reference_id,T26C011
+7,ifo:ctd_number,CTD 2.7.6.17
+8,rdf:type,bibo:Article
+8,dct:references,24597840
+8,ifo:internal_reference_id,
+9,rdf:type,bibo:Document
+9,rdfs:label,社内資料
+9,dct:dateAccepted,2014-3-24
+9,ifo:internal_reference_id,T26C012
+9,ifo:ctd_number,CTD 2.7.6.18
+10,rdf:type,bibo:Article
+10,dct:references,24673496
+10,ifo:internal_reference_id,
+11,rdf:type,bibo:Document
+11,rdfs:label,社内資料
+11,dct:dateAccepted,2014-3-24
+11,ifo:internal_reference_id,T26C001
+11,ifo:ctd_number,CTD 2.7.6.19
+12,rdf:type,bibo:Article
+12,dct:references,24708292
+12,ifo:internal_reference_id,
+13,rdf:type,bibo:Document
+13,rdfs:label,社内資料
+13,dct:dateAccepted,2014-3-24
+13,ifo:internal_reference_id,T26C002
+13,ifo:ctd_number,CTD 2.7.6.20
+14,rdf:type,bibo:Article
+14,dct:references,25971406
+14,ifo:internal_reference_id,
+15,rdf:type,bibo:Document
+15,rdfs:label,社内資料
+15,dct:dateAccepted,2014-3-24
+15,ifo:internal_reference_id,T26C003
+15,ifo:ctd_number,CTD 2.7.6.23
+16,rdf:type,bibo:Article
+16,dct:references,26221523
+16,ifo:internal_reference_id,
+17,rdf:type,bibo:Document
+17,rdfs:label,社内資料
+17,dct:dateAccepted,2014-3-24
+17,ifo:internal_reference_id,T26C004
+17,ifo:ctd_number,CTD 2.7.6.21
+18,rdf:type,bibo:Document
+18,rdfs:label,社内資料
+18,dct:dateAccepted,2014-3-24
+18,ifo:internal_reference_id,T26C005
+18,ifo:ctd_number,CTD 2.7.6.24
+19,rdf:type,bibo:Article
+19,dct:references,26718606
+19,ifo:internal_reference_id,
+20,rdf:type,bibo:Document
+20,rdfs:label,社内資料
+20,dct:dateAccepted,2014-3-24
+20,ifo:internal_reference_id,T26C006
+20,ifo:ctd_number,CTD 2.7.6.22
+21,rdf:type,bibo:Article
+21,dct:references,29448833
+21,ifo:internal_reference_id,
+22,rdf:type,bibo:Document
+22,rdfs:label,社内資料
+22,dct:dateAccepted,
+22,ifo:internal_reference_id,T26C015
+22,ifo:ctd_number,
+23,rdf:type,bibo:Article
+23,dct:references,28502112
+23,ifo:internal_reference_id,
+24,rdf:type,bibo:Document
+24,rdfs:label,社内資料
+24,dct:dateAccepted,
+24,ifo:internal_reference_id,T26C016
+24,ifo:ctd_number,
+25,rdf:type,bibo:Article
+25,dct:references,8282810
+25,ifo:internal_reference_id,
+26,rdf:type,bibo:Article
+26,dct:references,21410690
+26,ifo:internal_reference_id,
+27,rdf:type,bibo:Document
+27,rdfs:label,社内資料
+27,dct:dateAccepted,2014-3-24
+27,ifo:internal_reference_id,T26P001
+27,ifo:ctd_number,CTD 2.6.2.2
+28,rdf:type,bibo:Document
+28,rdfs:label,社内資料
+28,dct:dateAccepted,2014-3-24
+28,ifo:internal_reference_id,T26P002
+28,ifo:ctd_number,CTD 2.6.2.2
+29,rdf:type,bibo:Document
+29,rdfs:label,社内資料
+29,dct:dateAccepted,2014-3-24
+29,ifo:internal_reference_id,T26P003
+29,ifo:ctd_number,CTD 2.6.2.2
+30,rdf:type,bibo:Article
+30,dct:references,26003086
+30,ifo:internal_reference_id,
+31,rdf:type,bibo:Document
+31,rdfs:label,社内資料
+31,dct:dateAccepted,2014-3-24
+31,ifo:internal_reference_id,T26P004
+31,ifo:ctd_number,CTD 2.6.2.2
+32,rdf:type,bibo:Document
+32,rdfs:label,社内資料
+32,dct:dateAccepted,2014-3-24
+32,ifo:internal_reference_id,T26P005
+32,ifo:ctd_number,CTD 2.6.2.2
+33,rdf:type,bibo:Document
+33,rdfs:label,社内資料
+33,dct:dateAccepted,2014-3-24
+33,ifo:internal_reference_id,T26P006
+33,ifo:ctd_number,CTD 2.6.2.2
+34,rdf:type,bibo:Document
+34,rdfs:label,社内資料
+34,dct:dateAccepted,2014-3-24
+34,ifo:internal_reference_id,T26P007
+34,ifo:ctd_number,CTD 2.6.2.2
+35,rdf:type,bibo:Document
+35,rdfs:label,社内資料
+35,dct:dateAccepted,2014-3-24
+35,ifo:internal_reference_id,T26P008
+35,ifo:ctd_number,CTD 2.6.2.2
+36,rdf:type,bibo:Document
+36,rdfs:label,社内資料
+36,dct:dateAccepted,2014-3-24
+36,ifo:internal_reference_id,T26P009
+36,ifo:ctd_number,CTD 2.6.2.2
+37,rdf:type,bibo:Document
+37,rdfs:label,社内資料
+37,dct:dateAccepted,2014-3-24
+37,ifo:internal_reference_id,T26A001
+37,ifo:ctd_number,CTD 2.7.6.3
+38,rdf:type,bibo:Document
+38,rdfs:label,社内資料
+38,dct:dateAccepted,2014-3-24
+38,ifo:internal_reference_id,T26P010
+38,ifo:ctd_number,CTD 2.6.2.2
+39,rdf:type,bibo:Document
+39,rdfs:label,社内資料
+39,dct:dateAccepted,2014-3-24
+39,ifo:internal_reference_id,T26P011
+39,ifo:ctd_number,CTD 2.6.2.2
+40,rdf:type,bibo:Document
+40,rdfs:label,社内資料
+40,dct:dateAccepted,2014-3-24
+40,ifo:internal_reference_id,T26P012
+40,ifo:ctd_number,CTD 2.6.2.2
+41,rdf:type,bibo:Document
+41,rdfs:label,社内資料
+41,dct:dateAccepted,2014-3-24
+41,ifo:internal_reference_id,T26P013
+41,ifo:ctd_number,CTD 2.6.2.2
+42,rdf:type,bibo:Document
+42,rdfs:label,社内資料
+42,dct:dateAccepted,2014-3-24
+42,ifo:internal_reference_id,T26P014
+42,ifo:ctd_number,CTD 2.6.2.2
+43,rdf:type,bibo:Document
+43,rdfs:label,社内資料
+43,dct:dateAccepted,2014-3-24
+43,ifo:internal_reference_id,T26A004
+43,ifo:ctd_number,CTD 2.7.6.9
+44,rdf:type,bibo:Document
+44,rdfs:label,社内資料
+44,dct:dateAccepted,2014-3-24
+44,ifo:internal_reference_id,T26A005
+44,ifo:ctd_number,CTD 2.7.6.10
+45,rdf:type,bibo:Document
+45,rdfs:label,社内資料
+45,dct:dateAccepted,2014-3-24
+45,ifo:internal_reference_id,T26A006
+45,ifo:ctd_number,CTD 2.7.6.11
+46,rdf:type,bibo:Document
+46,rdfs:label,社内資料
+46,dct:dateAccepted,2014-3-24
+46,ifo:internal_reference_id,T26A007
+46,ifo:ctd_number,CTD 2.7.6.12
+47,rdf:type,bibo:Document
+47,rdfs:label,社内資料
+47,dct:dateAccepted,2014-3-24
+47,ifo:internal_reference_id,T26A008
+47,ifo:ctd_number,CTD 2.7.6.13
+48,rdf:type,bibo:Document
+48,rdfs:label,社内資料
+48,dct:dateAccepted,2014-3-24
+48,ifo:internal_reference_id,T26A009
+48,ifo:ctd_number,CTD 2.7.6.14
+49,rdf:type,bibo:Document
+49,rdfs:label,社内資料
+49,dct:dateAccepted,2014-3-24
+49,ifo:internal_reference_id,T26A010
+49,ifo:ctd_number,CTD 2.7.6.15
+50,rdf:type,bibo:Document
+50,rdfs:label,社内資料
+50,dct:dateAccepted,2014-3-24
+50,ifo:internal_reference_id,T26A011
+50,ifo:ctd_number,CTD 2.7.6.16
+51,rdf:type,bibo:Document
+51,rdfs:label,社内資料
+51,dct:dateAccepted,2014-3-24
+51,ifo:internal_reference_id,T26A014
+51,ifo:ctd_number,CTD 2.6.4.3
+52,rdf:type,bibo:Document
+52,rdfs:label,社内資料
+52,dct:dateAccepted,2014-3-24
+52,ifo:internal_reference_id,T26A012
+52,ifo:ctd_number,CTD 2.6.4.3
+53,rdf:type,bibo:Document
+53,rdfs:label,社内資料
+53,dct:dateAccepted,2014-3-24
+53,ifo:internal_reference_id,T26A015
+53,ifo:ctd_number,CTD 2.6.4.4
+54,rdf:type,bibo:Document
+54,rdfs:label,社内資料
+54,dct:dateAccepted,2014-3-24
+54,ifo:internal_reference_id,T26A016
+54,ifo:ctd_number,CTD 2.6.4.4
+55,rdf:type,bibo:Document
+55,rdfs:label,社内資料
+55,dct:dateAccepted,2014-3-24
+55,ifo:internal_reference_id,T26A017
+55,ifo:ctd_number,CTD 2.6.4.6
+56,rdf:type,bibo:Article
+56,dct:references,26489961
+56,ifo:internal_reference_id,
+57,rdf:type,bibo:Document
+57,rdfs:label,社内資料
+57,dct:dateAccepted,2014-3-24
+57,ifo:internal_reference_id,T26A013
+57,ifo:ctd_number,CTD 2.6.4.4
+58,rdf:type,bibo:Document
+58,rdfs:label,社内資料
+58,dct:dateAccepted,2014-3-24
+58,ifo:internal_reference_id,T26A018
+58,ifo:ctd_number,CTD 2.6.4.5
+59,rdf:type,bibo:Article
+59,dct:references,27347703
+59,ifo:internal_reference_id,
+60,rdf:type,bibo:Article
+60,dct:references,27324291
+60,ifo:internal_reference_id,
+61,rdf:type,bibo:Document
+61,rdfs:label,社内資料
+61,dct:dateAccepted,2014-3-24
+61,ifo:internal_reference_id,T26A019
+61,ifo:ctd_number,CTD 2.6.4.7
+62,rdf:type,bibo:Document
+62,rdfs:label,社内資料
+62,dct:dateAccepted,2014-3-24
+62,ifo:internal_reference_id,T26A020
+62,ifo:ctd_number,CTD 2.6.4.7
+63,rdf:type,bibo:Article
+63,dct:references,25975816
+63,ifo:internal_reference_id,
+64,rdf:type,bibo:Document
+64,rdfs:label,社内資料
+64,dct:dateAccepted,2014-3-24
+64,ifo:internal_reference_id,T26A021
+64,ifo:ctd_number,CTD 2.7.6.5
+65,rdf:type,bibo:Document
+65,rdfs:label,社内資料
+65,dct:dateAccepted,2014-3-24
+65,ifo:internal_reference_id,T26A022
+65,ifo:ctd_number,CTD 2.7.2.2
+66,rdf:type,bibo:Document
+66,rdfs:label,社内資料
+66,dct:dateAccepted,2014-3-24
+66,ifo:internal_reference_id,T26A022
+66,ifo:ctd_number,CTD 2.7.2.2
+67,rdf:type,bibo:Document
+67,rdfs:label,社内資料
+67,dct:dateAccepted,2014-3-24
+67,ifo:internal_reference_id,T26A023
+67,ifo:ctd_number,CTD 2.7.2.3
+68,rdf:type,bibo:Article
+68,dct:references,29693800
+68,ifo:internal_reference_id,
+69,rdf:type,bibo:Article
+69,dct:references,28783873
+69,ifo:internal_reference_id,
+70,rdf:type,bibo:Document
+70,rdfs:label,社内資料
+70,dct:dateAccepted,2014-3-24
+70,ifo:internal_reference_id,T26A002
+70,ifo:ctd_number,CTD 2.7.6.6
+71,rdf:type,bibo:Document
+71,rdfs:label,社内資料
+71,dct:dateAccepted,2014-3-24
+71,ifo:internal_reference_id,T26T005
+71,ifo:ctd_number,CTD 2.6.6.6
+72,rdf:type,bibo:Document
+72,rdfs:label,社内資料
+72,dct:dateAccepted,2014-3-24
+72,ifo:internal_reference_id,T26T008
+72,ifo:ctd_number,CTD 2.6.6.5
+73,rdf:type,bibo:Document
+73,rdfs:label,社内資料
+73,dct:dateAccepted,2014-3-24
+73,ifo:internal_reference_id,T26T001
+73,ifo:ctd_number,CTD 2.6.2.4
+74,rdf:type,bibo:Document
+74,rdfs:label,社内資料
+74,dct:dateAccepted,2014-3-24
+74,ifo:internal_reference_id,T26P015
+74,ifo:ctd_number,CTD 2.6.2.3
+75,rdf:type,bibo:Document
+75,rdfs:label,社内資料
+75,dct:dateAccepted,2014-3-24
+75,ifo:internal_reference_id,T26P016
+75,ifo:ctd_number,CTD 2.6.2.3
+76,rdf:type,bibo:Document
+76,rdfs:label,社内資料
+76,dct:dateAccepted,2014-3-24
+76,ifo:internal_reference_id,T26P017
+76,ifo:ctd_number,CTD 2.6.2.3
+77,rdf:type,bibo:Document
+77,rdfs:label,社内資料
+77,dct:dateAccepted,2014-3-24
+77,ifo:internal_reference_id,T26P018
+77,ifo:ctd_number,CTD 2.6.2.2
+78,rdf:type,bibo:Article
+78,dct:references,23492941
+78,ifo:internal_reference_id,
+79,rdf:type,bibo:Document
+79,rdfs:label,社内資料
+79,dct:dateAccepted,2014-3-24
+79,ifo:internal_reference_id,T26T002
+79,ifo:ctd_number,CTD 2.6.6.2
+80,rdf:type,bibo:Document
+80,rdfs:label,社内資料
+80,dct:dateAccepted,2014-3-24
+80,ifo:internal_reference_id,T26T003
+80,ifo:ctd_number,CTD 2.6.6.3
+81,rdf:type,bibo:Document
+81,rdfs:label,社内資料
+81,dct:dateAccepted,2014-3-24
+81,ifo:internal_reference_id,T26T007
+81,ifo:ctd_number,CTD 2.6.6.4
+82,rdf:type,bibo:Document
+82,rdfs:label,社内資料
+82,dct:dateAccepted,2014-3-24
+82,ifo:internal_reference_id,T26T004
+82,ifo:ctd_number,CTD 2.6.6.6
+83,rdf:type,bibo:Document
+83,rdfs:label,社内資料
+83,dct:dateAccepted,2014-3-24
+83,ifo:internal_reference_id,T26T006
+83,ifo:ctd_number,CTD 2.6.6.6
