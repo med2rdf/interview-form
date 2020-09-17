@@ -112,6 +112,7 @@ class InterviewFormCSV2RDF
   
   def parse(csv)
     section_id = ''
+    references = []
     csv.each do |row|
       next if empty_row?(row)
 
@@ -128,21 +129,31 @@ class InterviewFormCSV2RDF
         subject = "#{section_id}.#{subject}"
       when /^\d+$/
         subject = "if:ref#{subject}"
+        references << subject
       else
         subject
       end
 
       case predicate
       when /foaf:depicts/
-        # foaf:depitcs -> schema:image ?
+        # foaf:depitcs -> schema:image
         predicate = "schema:image"
       when /rdfs:seeAlso/
         object.strip.split(/,\s*/).each do |xref|
-          triple(subject, predicate, "if:#{xref}")
+          case xref
+          when /^IF/
+            triple(subject, predicate, "if:#{xref}")
+          else
+            triple(subject, predicate, xref)
+          end
         end
       when /dct:references/
         object.strip.split(/,\s*/).each do |ref|
-          triple(subject, predicate, "if:ref#{ref}")
+          if subject[/^if:ref/]
+            triple(subject, predicate, "pmid:#{ref}")
+          else
+            triple(subject, predicate, "if:ref#{ref}")
+          end
         end
       when /ifo:item/
         object.strip.split(/,\s*/).each do |item|
@@ -151,6 +162,10 @@ class InterviewFormCSV2RDF
       else
         triple(subject, predicate, object)
       end
+    end
+
+    references.uniq.each do |ref|
+      triple("if:IF_11_1", "dct:references", ref)
     end
   end
 
