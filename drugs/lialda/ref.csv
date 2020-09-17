@@ -1,0 +1,462 @@
+subject,predicate,object
+1,rdf:type,bibo:Article
+1,dct:creator,藤井俊光 他
+1,prism:publicationName,日本臨牀
+1,prism:volume,70
+1,prism:number,suppl 1
+1,prism:startingPage,5
+1,prism:endingPage,9
+1,dct:issued,2012
+2,rdf:type,bibo:Article
+2,dct:creator,井上拓也 他
+2,prism:publicationName,日本臨牀
+2,prism:volume,70
+2,prism:number,suppl 1
+2,prism:startingPage,185
+2,prism:endingPage,188
+2,dct:issued,2012
+3,rdf:type,bibo:BookSection
+3,prism:publicationName,潰瘍性大腸炎治療指針
+3,prism:volume,平成26年度分担研究報告書別冊
+3,prism:startingPage,1
+3,prism:endingPage,7
+4,rdf:type,bibo:Article
+4,dct:creator,"Frieri, G. et al."
+4,prism:publicationName,Gut.
+4,prism:volume,47
+4,prism:number,3
+4,prism:startingPage,410
+4,prism:endingPage,414
+4,dct:issued,2000
+5,rdf:type,bibo:Article
+5,dct:creator,"Myers, B. et al"
+5,prism:publicationName,Gut.
+5,prism:volume,28
+5,prism:number,2
+5,prism:startingPage,196
+5,prism:endingPage,200
+5,dct:issued,1987
+6,rdf:type,bibo:BookSection
+6,prism:publicationName,潰瘍性大腸炎治療指針
+6,prism:volume,平成25年度分担研究報告書別冊（2010年2月改訂）
+6,prism:startingPage,1
+6,prism:endingPage,3
+7,rdf:type,bibo:Article
+7,dct:creator,"Kane, SV."
+7,prism:publicationName,Aliment. Pharmacol. Ther.
+7,prism:volume,23
+7,prism:number,5
+7,prism:startingPage,577
+7,prism:endingPage,585
+7,dct:issued,2006
+8,rdf:type,bibo:Document
+8,rdfs:label,社内資料（長期保存試験）
+9,rdf:type,bibo:Document
+9,rdfs:label,社内資料（加速試験及び中間的試験）
+10,rdf:type,bibo:Document
+10,rdfs:label,社内資料（苛酷試験）
+11,rdf:type,bibo:Document
+11,rdfs:label,社内資料（溶出試験）
+12,rdf:type,bibo:Document
+12,rdfs:label,社内資料（海外第Ⅰ相試験（SPD476-101試験）－健康成人における薬物シンチグラフィー・パイロット試験－）
+12,dct:dateAccepted,2016-09-28
+12,ifo:ctd_number,CTD 2.7.6.8
+13,rdf:type,bibo:Document
+13,rdfs:label,社内資料：国内第Ⅰ相試験－健康成人における単回及び反復投与試験－
+13,dct:dateAccepted,2016-09-28
+13,ifo:ctd_number,CTD 2.7.6.5
+14,rdf:type,bibo:Document
+14,rdfs:label,社内資料：国内第Ⅲ相試験－メサラジンを対照とした軽症～中等症の活動期の潰瘍性大腸炎における有効性及び安全性の検討－
+14,dct:dateAccepted,2016-09-28
+14,ifo:ctd_number,CTD 2.7.6.18
+15,rdf:type,bibo:Document
+15,rdfs:label,社内資料：国内第Ⅲ相試験－メサラジンを対照とした寛解期の潰瘍性大腸炎における有効性及び安全性の検討－
+15,dct:dateAccepted,2016-09-28
+15,ifo:ctd_number,CTD 2.7.6.17
+16,rdf:type,bibo:Document
+16,rdfs:label,薬社内資料：国内第Ⅲ相試験－軽症～中等症の活動期の潰瘍性大腸炎における有効性及び安全性の検討－
+16,dct:dateAccepted,2016-09-28
+16,ifo:ctd_number,CTD 2.7.6.16
+17,rdf:type,bibo:Article
+17,dct:creator,"Simmonds, N. J. et al."
+17,prism:publicationName,Aliment. Pharmacol. Ther.
+17,prism:volume,13
+17,prism:number,3
+17,prism:startingPage,363
+17,prism:endingPage,372
+17,dct:issued,1999
+18,rdf:type,bibo:Article
+18,dct:creator,"Valentine, J. F."
+18,prism:publicationName,Am. J. Physiol. Gastrointest. Liver Physiol.
+18,prism:volume,281
+18,prism:number,4
+18,prism:startingPage,G1044
+18,prism:endingPage,G1050
+18,dct:issued,2001
+19,rdf:type,bibo:Article
+19,dct:creator,"Kennedy, M. et al."
+19,prism:publicationName,Int. J. Mol. Med.
+19,prism:volume,4
+19,prism:number,4
+19,prism:startingPage,437
+19,prism:endingPage,443
+19,dct:issued,1999
+19,ifo:internal_reference_id,
+20,rdf:type,bibo:Article
+20,dct:creator,"Cavicchi, M. et al."
+20,prism:publicationName,Gastroenterology.
+20,prism:volume,118
+20,prism:number,4
+20,prism:startingPage,A804
+20,prism:endingPage,A804
+20,dct:issued,2000
+21,rdf:type,bibo:Article
+21,dct:creator,"Horváth, K. et al."
+21,prism:publicationName,Eur. J. Pharmacol.
+21,prism:volume,581
+21,prism:number,3
+21,prism:startingPage,315
+21,prism:endingPage,323
+21,dct:issued,2008
+22,dct:creator,"Sandoval, M. et al."
+22,prism:publicationName,Gastroenterology.
+22,prism:volume,113
+22,prism:number,5
+22,prism:startingPage,1480
+22,prism:endingPage,1488
+22,dct:issued,1997
+23,rdf:type,bibo:Article
+23,prism:publicationName,Gut.
+23,prism:volume,44
+23,prism:number,2
+23,prism:startingPage,180
+23,prism:endingPage,185
+23,dct:issued,1999
+24,rdf:type,bibo:Article
+24,dct:creator,"Lutz, J. et al."
+24,prism:publicationName,Adv. Exp. Med. Biol.
+24,prism:volume,361
+24,prism:startingPage,327
+24,prism:endingPage,332
+24,dct:issued,1994
+25,rdf:type,bibo:Article
+25,dct:creator,"Rousseaux, C. et al."
+25,prism:publicationName,J. Exp. Med.
+25,prism:volume,201
+25,prism:number,8
+25,prism:startingPage,1205
+25,prism:endingPage,1215
+25,dct:issued,2005
+26,rdf:type,bibo:Article
+26,dct:creator,"Kaiser, G. C. et al."
+26,prism:publicationName,Gastroenterology.
+26,prism:volume,116
+26,prism:number,3
+26,prism:startingPage,602
+26,prism:endingPage,609
+26,dct:issued,1999
+27,prism:publicationName,J. Biol. Chem.
+27,prism:volume,274
+27,prism:number,51
+27,prism:startingPage,36631
+27,prism:endingPage,36636
+27,dct:issued,1999
+28,rdf:type,bibo:Article
+28,prism:publicationName,Am. J. Gastroenterol.
+28,prism:number,12
+28,prism:startingPage,3452
+28,prism:endingPage,3457
+28,dct:issued,2000
+29,rdf:type,bibo:Article
+29,dct:creator,"Schmidt, C. et al."
+29,prism:volume,13
+29,prism:number,7
+29,prism:startingPage,417
+29,prism:endingPage,425
+29,dct:issued,1996
+30,rdf:type,bibo:Article
+30,dct:creator,"Zijlstra, F. J. et al."
+30,prism:publicationName,Agents Actions.
+30,prism:number,Spec No
+30,prism:startingPage,C122
+30,prism:endingPage,C124
+30,dct:issued,1993
+31,rdf:type,bibo:Article
+31,dct:creator,"Gómez-Muñoz, A. et al."
+31,prism:publicationName,Biochim. Biophys. Acta.
+31,prism:volume,1533
+31,prism:startingPage,110
+31,prism:endingPage,118
+31,dct:issued,2001
+32,rdf:type,bibo:Article
+32,dct:creator,"Goto, M. et al."
+32,prism:publicationName,J. Pharm. Pharmacol.
+32,prism:volume,53
+32,prism:number,12
+32,prism:startingPage,1711
+32,prism:endingPage,1720
+32,dct:issued,2001
+33,rdf:type,bibo:Article
+33,dct:creator,"Rodrigues, L. V. et al."
+33,prism:publicationName,Phytother. Res.
+33,prism:volume,16
+33,prism:number,3
+33,prism:startingPage,267
+33,prism:endingPage,272
+33,dct:issued,2002
+34,rdf:type,bibo:Article
+34,dct:creator,"Tozaki, H. et al."
+34,prism:publicationName,J. Pharm. Pharmacol.
+34,prism:volume,51
+34,prism:number,10
+34,prism:startingPage,1107
+34,prism:endingPage,1112
+34,dct:issued,1999
+35,rdf:type,bibo:Article
+35,dct:creator,"Tamai, H. et al."
+35,prism:publicationName,Inflammation.
+35,prism:volume,16
+35,prism:number,1
+35,prism:startingPage,69
+35,prism:endingPage,81
+35,dct:issued,1992
+36,rdf:type,bibo:Document
+36,dct:creator,社内資料（海外第Ⅰ相試験（SPD476-109試験）－健康成人における単回投与試験－）
+36,prism:publicationName,2016-09-28
+36,prism:volume,CTD 2.7.6.10
+37,rdf:type,bibo:Article
+37,dct:creator,"Pierce, D. et al."
+37,prism:publicationName,Drug Des. Devel. Ther.
+37,prism:volume,8
+37,prism:startingPage,529
+37,prism:endingPage,543
+37,dct:issued,2014
+38,prism:publicationName,Acta Obstet. Gynecol. Scand.
+38,prism:volume,73
+38,prism:number,5
+38,prism:startingPage,399
+38,prism:endingPage,402
+38,dct:issued,1994
+39,rdf:type,bibo:Article
+39,prism:publicationName,医薬品研究.
+39,prism:number,8
+39,prism:startingPage,704
+39,prism:endingPage,718
+39,dct:issued,1994
+40,rdf:type,bibo:Article
+40,dct:creator,"Jenss, H. et al."
+40,prism:volume,85
+40,prism:number,3
+40,prism:endingPage,331
+40,dct:issued,1990
+41,rdf:type,bibo:Article
+41,dct:creator,"Klotz, U. et al."
+41,prism:publicationName,Lancet.
+41,prism:number,8871
+41,prism:startingPage,618
+41,prism:endingPage,619
+41,dct:issued,1993
+42,rdf:type,bibo:Article
+42,dct:creator,"Klotz, U. et al."
+42,prism:publicationName,Arzneimittelforschung.
+42,prism:volume,35
+42,prism:startingPage,636
+42,prism:endingPage,639
+42,dct:issued,1985
+43,rdf:type,bibo:Article
+43,dct:creator,"Rasmussen, S. N. et al."
+43,prism:publicationName,Gastroenterology.
+43,prism:volume,83
+43,prism:number,5
+43,prism:endingPage,1070
+43,dct:issued,1982
+44,rdf:type,bibo:Article
+44,dct:creator,"Haagen Nielsen, O. et al."
+44,prism:publicationName,Br. J. Clin. Pharmacol.
+44,prism:volume,16
+44,prism:number,6
+44,prism:startingPage,738
+44,prism:endingPage,740
+44,dct:issued,1983
+45,rdf:type,bibo:Article
+45,dct:creator,"De Vos, M."
+45,prism:publicationName,Clin. Pharmacokinet.
+45,prism:volume,39
+45,prism:number,2
+45,prism:startingPage,85
+45,prism:endingPage,97
+45,dct:issued,2000
+46,rdf:type,bibo:Article
+46,dct:creator,"Ricart, E. et al."
+46,prism:publicationName,Am. J. Gastroenterol.
+46,prism:volume,97
+46,prism:number,7
+46,prism:startingPage,1763
+46,prism:endingPage,1768
+46,dct:issued,2002
+46,ifo:internal_reference_id,
+47,rdf:type,bibo:Article
+47,dct:creator,"Cantilena, L. R. et al."
+47,prism:publicationName,J. Clin. Pharmacol.
+47,prism:volume,44
+47,prism:number,12
+47,prism:startingPage,1405
+47,prism:endingPage,1411
+47,dct:issued,2004
+48,rdf:type,bibo:Article
+48,dct:creator,"Nielsen, OH. et al."
+48,prism:publicationName,Scand J Gastroenterol.
+48,prism:volume,28
+48,prism:number,6
+48,prism:startingPage,527
+48,prism:endingPage,532
+48,dct:issued,1993
+49,rdf:type,bibo:Article
+49,dct:creator,田中友希夫 他
+49,prism:publicationName,薬理と治療
+49,prism:volume,22
+49,prism:number,8
+49,prism:startingPage,3501
+49,prism:endingPage,3510
+49,dct:issued,1994
+50,rdf:type,bibo:Article
+50,dct:creator,"Nelis, G. F."
+50,prism:publicationName,Lancet.
+50,prism:volume,1
+50,prism:number,8634
+50,prism:startingPage,383
+50,prism:endingPage,383
+50,dct:issued,1989
+51,rdf:type,bibo:Article
+51,dct:creator,"Ito, S. et al."
+51,prism:publicationName,Am. J. Obstet. Gynecol.
+51,prism:volume,168
+51,prism:number,5
+51,prism:startingPage,1393
+51,prism:endingPage,1399
+51,dct:issued,1993
+52,rdf:type,bibo:Article
+52,dct:creator,"Szumlanski, CL. et al."
+52,prism:publicationName,Br. J. ClinPharmacol.
+52,prism:volume,39
+52,prism:number,4
+52,prism:startingPage,456
+52,prism:endingPage,459
+52,dct:issued,1995
+53,rdf:type,bibo:Article
+53,dct:creator,"Lowry, PW. et al."
+53,prism:publicationName,Gut.
+53,prism:volume,49
+53,prism:number,5
+53,prism:startingPage,656
+53,prism:endingPage,664
+53,dct:issued,2001
+54,rdf:type,bibo:Article
+54,dct:creator,田中和彦 他
+54,prism:publicationName,応用薬理.
+54,prism:volume,48
+54,prism:number,4
+54,prism:startingPage,225
+54,prism:endingPage,238
+54,dct:issued,1994
+55,rdf:type,bibo:Article
+55,dct:creator,"Greenfield, SM. et al."
+55,prism:publicationName,Aliment. Pharmacol. Ther.
+55,prism:volume,6
+55,prism:number,6
+55,prism:startingPage,671
+55,prism:endingPage,683
+55,dct:issued,1992
+56,rdf:type,bibo:Article
+56,dct:creator,"Koelzer, PP. et al."
+56,prism:publicationName,Z. Naturforschg.
+56,prism:volume,6b
+56,prism:startingPage,183
+56,prism:endingPage,190
+56,dct:issued,1951
+57,rdf:type,bibo:Article
+57,dct:creator,太田隆雄 他
+57,prism:publicationName,応用薬理.
+57,prism:volume,47
+57,prism:number,6
+57,prism:startingPage,505
+57,prism:endingPage,507
+57,dct:issued,1994
+58,rdf:type,bibo:Article
+58,dct:creator,中浦槇介 他
+58,prism:publicationName,応用薬理.
+58,prism:volume,47
+58,prism:number,6
+58,prism:startingPage,509
+58,prism:endingPage,511
+58,dct:issued,1994
+59,rdf:type,
+59,,Drugs@FDA サイト
+59,,"Drugs@FDA: FDA Approved Drug Products, Pharmacological review(s) for NDA 019651/S005 (Supplement SE1-005 dated 1996；June 4)"
+60,rdf:type,bibo:Article
+60,dct:creator,木村 均 他
+60,prism:publicationName,応用薬理.
+60,prism:volume,48
+60,prism:number,4
+60,prism:startingPage,277
+60,prism:endingPage,288
+60,dct:issued,1994
+61,rdf:type,bibo:Article
+61,dct:creator,永澤佳子 他
+61,prism:publicationName,応用薬理.
+61,prism:volume,48
+61,prism:number,6
+61,prism:startingPage,501
+61,prism:endingPage,509
+61,dct:issued,1994
+62,rdf:type,bibo:Article
+62,dct:creator,"Witt, KL. et al."
+62,prism:publicationName,Mutat. Res.
+62,prism:volume,283
+62,prism:number,1
+62,prism:startingPage,59
+62,prism:endingPage,64
+62,dct:issued,1992
+63,rdf:type,bibo:Article
+63,dct:creator,廣内康彦 他
+63,prism:publicationName,J. Toxicol. Sci.
+63,prism:volume,23
+63,prism:number,suppl III
+63,prism:startingPage,539
+63,prism:endingPage,552
+63,dct:issued,1998
+64,rdf:type,bibo:Article
+64,dct:creator,"O’Moráin, C. et al."
+64,prism:publicationName,Gut.
+64,prism:volume,25
+64,prism:number,10
+64,prism:startingPage,1078
+64,prism:endingPage,1084
+64,dct:issued,1984
+65,rdf:type,bibo:Document
+65,dct:creator,Asacol® (mesalamine) Delayed-Release Tablets
+65,prism:publicationName,Physicians’Desk Reference 62nd ed.
+65,dct:creator,"Montvale, NJ, Thomson Healthcare Inc."
+65,dct:issued,2008
+66,rdf:type,bibo:Article
+66,dct:creator,太田隆雄 他
+66,prism:publicationName,応用薬理.
+66,prism:volume,47
+66,prism:number,6
+66,prism:startingPage,513
+66,prism:endingPage,522
+66,dct:issued,1994
+67,rdf:type,bibo:Document
+67,prism:publicationName,ペンタサ®注腸1g審査報告書
+67,prism:volume,平成26年度分担研究報告書別冊
+67,dct:creator,"国立医薬品食品衛生研究所長,"
+67,dct:issued,平成14年8月13日
+68,rdf:type,bibo:Article
+68,dct:creator,和田 浩 他
+68,prism:publicationName,応用薬理.
+68,prism:volume,47
+68,prism:number,6
+68,prism:startingPage,523
+68,prism:endingPage,528
+68,dct:issued,1994
+68,ifo:internal_reference_id,
