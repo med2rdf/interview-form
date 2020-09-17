@@ -357,15 +357,18 @@ if:IF_5_3_1	rdf:type	ifo:IF_5_3_1	.
 if:IF_5_3_1	rdf:value	"通常、ビルトラルセンとして80mg/kg を週1 回、1 時間かけて静脈内投与する。"	.
 if:IF_5_3_2	rdf:type	ifo:IF_5_3_2	.
 if:IF_5_3_2	rdf:value	"国内第I/II試験及び海外第II相試験において、DMD患者16例ずつ（両試験共に各群8例）に、本剤40及び80 mg/kgを週1回、1時間かけて24週間静脈内投与した。両試験共に本剤投与によりウェスタンブロットによるジストロフィン発現量は増加した。国内第I/II試験では40 mg/kgよりも80 mg/kgを投与した方がジストロフィン発現量の増加が大きい傾向が認められた。海外第II相試験では免疫蛍光染色によるジストロフィン発現量も本剤投与により増加し、40 mg/kgよりも80 mg/kgを投与した方が高い傾向であった。さらに、両試験共に本剤投与によりRT-PCRによるエクソン53スキッピング効率は増加し、40 mg/kgよりも80 mg/kgを投与した方が高かった。いずれの用量においても安全性は概ね良好であった。（「Ⅴ．５．（３）用量反応探索試験」の項を参照）\n これらの結果より、用法及び用量を、「通常、ビルトラルセンとして80mg/kgを週1回、1時間かけて静脈内投与する。」とした。"	.
+if:IF_5_3_2	rdfs:seeAlso	if:IF_5_5_3	.
 if:IF_5_4	rdf:type	ifo:IF_5_4	.
 if:IF_5_4	ifo:item	if:IF_5_4.設定されていない	.
 if:IF_5_5_2	rdf:type	ifo:IF_5_5_2	.
 if:IF_5_5_2	rdf:value	"１）忍容性に関する検討\n 「Ⅴ．５．（３）用量反応探索試験」を参照。\n ２）ＱＴ/ＱＴｃ評価試験\n 本剤は正常な遺伝子発現に影響する可能性が否定できないため、安全性の観点から健常人を対象にしたQT/QTc 評価試験を実施しなかった。本剤の非臨床試験（「Ⅸ．１．（２）安全性薬理試験」を参照）及び臨床試験（「Ⅴ．５．（３）用量反応探索試験」を参照）において、QT/QTc 延長及び催不整脈リスクは示唆されていないため、QT/QTc 評価試験は不要と判断した。なお、国内第I/II 相試験では初回投与時及び最終投与時に集中心電図測定として、投与開始1 時間前から投与4 時間後まで複数の測定時点を設定し、標準12 誘導心電図を測定した。いずれの測定時点でも臨床上問題となる異常は認められなかった。\n ３）免疫原性に関する試験1）\n 国内第I 相、国内第I/II 相、海外第II 相試験において、本剤投与により発現するジストロフィン及び本剤の免疫原性を検討するため、抗ジストロフィン抗体をウェスタンブロットにて、抗ビルトラルセン抗体をELISA により測定した。国内第I 相、国内第I/II 相試験では、抗ジストロフィン抗体及び抗ビルトラルセン抗体は全例で陰性であった。海外第II 相試験では80mg/kg の1 例（6.3%）のみで抗ジストロフィン抗体が認められた。当該被験者の抗ジストロフィン抗体は13 及び24 週時で陽性であったが、ジストロフィン発現のベースラインからの変化は4.79%（ミオシン重鎖による標準化）であり、他の被験者と大きく異なる傾向は認められず、発現した有害事象はいずれもGrade 1 であり、本剤の投与を継続したまま回復した。抗ビルトラルセン抗体は全例で陰性であった。なお、現在実施中である海外第II 相試験の継続投与試験では、抗ジストロフィン抗体及び抗ビルトラルセン抗体は全例で陰性であった。"	.
-if:IF_5_5_2	dct:references	if:refIF_5_5_3	.
-if:IF_5_5_2	dct:references	if:refIF_9_1_2	.
+if:IF_5_5_2	dct:references	if:ref1	.
+if:IF_5_5_2	rdfs:seeAlso	if:IF_5_5_3	.
+if:IF_5_5_2	rdfs:seeAlso	if:IF_9_1_2	.
 if:IF_5_5_3	rdf:type	ifo:IF_5_5_3	.
-if:IF_5_5_3	rdf:value	"1"	.
-if:IF_5_5_3	dct:references	"if:ref国内第I/II 相及び海外第II 相試験において、DMD 患者を対象に、本剤40 及び80 mg/kg を週1 回、24 週間静脈内投与した際の治療効果及び安全性を検討した結果、80 mg/kg 群でより良好なリスク・ベネフィットが示された。\n 国内第I/II 相：デュシェンヌ型筋ジストロフィー患者を対象とした用量設定試験2）（NS065/NCNP01-P1/2）\n 海外第II 相：デュシェンヌ型筋ジストロフィー患者を対象とした用量設定試験3）（NS-065/NCNP-01-201）"	.
+if:IF_5_5_3	rdf:value	"国内第I/II 相及び海外第II 相試験において、DMD 患者を対象に、本剤40 及び80 mg/kg を週1 回、24 週間静脈内投与した際の治療効果及び安全性を検討した結果、80 mg/kg 群でより良好なリスク・ベネフィットが示された。\n 国内第I/II 相：デュシェンヌ型筋ジストロフィー患者を対象とした用量設定試験2）（NS065/NCNP01-P1/2）\n 海外第II 相：デュシェンヌ型筋ジストロフィー患者を対象とした用量設定試験3）（NS-065/NCNP-01-201）"	.
+if:IF_5_5_3	dct:references	if:ref2	.
+if:IF_5_5_3	dct:references	if:ref3	.
 if:IF_5_5_4_1	rdf:type	ifo:IF_5_5_4_1	.
 if:IF_5_5_4_1	rdf:value	"該当資料なし"	.
 if:IF_5_5_4_2	rdf:type	ifo:IF_5_5_4_2	.
@@ -403,20 +406,19 @@ if:IF_7_1_4	ifo:item	if:IF_7_1_4.item1	.
 if:IF_7_1_4.item1	rdf:value	"該当資料なし"	.
 if:IF_7_2_1	rdf:type	ifo:IF_7_2_1	.
 if:IF_7_2_1	rdf:value	"日本人DMD 患者16 例（各用量群8 例）に本剤40 及び80 mg/kg を1 時間かけて、週1 回、24 週間反復静脈内投与したときの初回投与時及び24 週投与時における本薬の血漿中濃度を用い、ノンコンパートメント解析した。"	.
+if:IF_7_2_1	dct:references	if:ref2	.
 if:IF_7_2_2	rdf:type	ifo:IF_7_2_2	.
-if:IF_7_2_2	rdf:value	"2"	.
+if:IF_7_2_2	rdf:value	"該当しない"	.
 if:IF_7_2_3	rdf:type	ifo:IF_7_2_3	.
-if:IF_7_2_3	rdf:value	"該当しない"	.
-if:IF_7_2_3	dct:references	"if:ref該当資料なし\n <参考>2）日本人DMD 患者における本剤の血漿中濃度の消失半減期は2.0～2.5 時間であった。"	.
+if:IF_7_2_3	rdf:value	"該当資料なし\n <参考>2）日本人DMD 患者における本剤の血漿中濃度の消失半減期は2.0～2.5 時間であった。"	.
+if:IF_7_2_3	dct:references	if:ref2	.
 if:IF_7_2_4	rdf:type	ifo:IF_7_2_4	.
-if:IF_7_2_4	rdf:value	"2"	.
-if:IF_7_2_4	dct:references	"if:ref全身クリアランス（CL）は164～185 mL/hr/kg であった。"	.
+if:IF_7_2_4	rdf:value	"全身クリアランス（CL）は164～185 mL/hr/kg であった。"	.
+if:IF_7_2_4	dct:references	if:ref2	.
 if:IF_7_2_5	rdf:type	ifo:IF_7_2_5	.
-if:IF_7_2_5	rdf:value	"2"	.
-if:IF_7_2_5	dct:references	"if:ref定常状態における分布容積（Vdss）は223～238 mL/kg であった。"	.
-if:IF_7_2_5	rdfs:seeAlso	"\"2\""	.
-if:IF_7_2_6	rdf:type	ifo:IF_7_2_6	.
-if:IF_7_2_6	rdf:value	"該当資料なし"	.
+if:IF_7_2_5	rdf:value	"定常状態における分布容積（Vdss）は223～238 mL/kg であった。"	.
+if:IF_7_2_5	dct:references	if:ref2	.
+if:IF_7_2_5	rdfs:seeAlso	"該当資料なし"	.
 if:IF_7_3_1	rdf:type	ifo:IF_7_3_1	.
 if:IF_7_3_1	rdf:value	"該当資料なし"	.
 if:IF_7_3_2	rdf:type	ifo:IF_7_3_2	.
@@ -530,6 +532,8 @@ if:IF_8_12_1	rdf:type	ifo:IF_8_12_1	.
 if:IF_8_12_1	rdf:value	"設定されていない"	.
 if:IF_8_12_2	rdf:type	ifo:IF_8_12_2	.
 if:IF_8_12_2	rdf:value	"非臨床試験の結果12）,13）に基づき記載した。"	.
+if:IF_8_12_2	dct:references	if:ref12	.
+if:IF_8_12_2	dct:references	if:ref13	.
 if:IF_9_1_1	rdf:type	ifo:IF_9_1_1	.
 if:IF_9_1_1	rdf:value	"「Ⅵ．薬効薬理に関する項目」の項参照"	.
 if:IF_9_1_1	rdfs:seeAlso	if:IF_6	.
@@ -679,3 +683,23 @@ if:ref20	rdf:type	bibo:Document	.
 if:ref20	rdfs:label	"社内報告書"	.
 if:ref20	dct:dateAccepted	"2011-03-25"^^xsd:date	.
 if:ref20	ifo:ctd_number	"CTD2.6.6.8.2"	.
+if:IF_11_1	dct:references	if:ref1	.
+if:IF_11_1	dct:references	if:ref2	.
+if:IF_11_1	dct:references	if:ref3	.
+if:IF_11_1	dct:references	if:ref4	.
+if:IF_11_1	dct:references	if:ref5	.
+if:IF_11_1	dct:references	if:ref6	.
+if:IF_11_1	dct:references	if:ref7	.
+if:IF_11_1	dct:references	if:ref8	.
+if:IF_11_1	dct:references	if:ref9	.
+if:IF_11_1	dct:references	if:ref10	.
+if:IF_11_1	dct:references	if:ref11	.
+if:IF_11_1	dct:references	if:ref12	.
+if:IF_11_1	dct:references	if:ref13	.
+if:IF_11_1	dct:references	if:ref14	.
+if:IF_11_1	dct:references	if:ref15	.
+if:IF_11_1	dct:references	if:ref16	.
+if:IF_11_1	dct:references	if:ref17	.
+if:IF_11_1	dct:references	if:ref18	.
+if:IF_11_1	dct:references	if:ref19	.
+if:IF_11_1	dct:references	if:ref20	.

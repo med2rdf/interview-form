@@ -37,7 +37,7 @@ IF_1_2,rdf:value,"（1）活動期の潰瘍性大腸炎において、リアル�
  5）間質性腎炎、ネフローゼ症候群、腎不全（頻度不明）
  6）肝機能障害、肝炎、黄疸（頻度不明）"
 IF_1_2,rdfs:seeAlso,"IF 13～22頁, 23～27頁, 46～47頁"
-,,
+IF_1_2,dct:references,
 IF_1_3,rdf:value,リアルダ錠の製剤学的特性は、メサラジンを親水性基剤及び親油性基剤からなるマトリックス中に分散させた素錠部に、pH応答性の高分子フィルムをコーティングすることで、メサラジンを標的部位である大腸に送達し、大腸全域へ持続的に放出させることである。（8～10頁参照）
 IF_1_3,rdfs:seeAlso,IF8～10頁
 IF_1_4,,
@@ -152,7 +152,6 @@ IF_5_3,,
 IF_5_3_1,rdf:value,"通常、成人にはメサラジンとして1日1回2,400mgを食後経口投与する。活動期は、通常、成人にはメサラジンとして1日1回4,800mgを食後経口投与するが、患者の状態により適宜減量する。"
 IF_5_3_1,rdfs:seeAlso,
 IF_5_3_2,rdf:value,国内の薬物動態、有効性および安全性成績に基づき設定した。
-,,
 IF_5_3_2,rdfs:seeAlso,
 IF_5_4,ifo:item,"item1, item2"
 item1,rdf:value,"7.1 本剤4,800mg/日（1日1回）について、軽症から中等症の活動期の潰瘍性大腸炎患者を対象とした国内の臨床試験2試験（MD090111U33試験及びMD090111U31試験）の投与期間が8週間であるため、投与開始8週間を目安に有効性を評価し、漫然と継続しない旨を設定した。"
@@ -175,7 +174,7 @@ IF_5_5_2,dct:references,13
 IF_5_5_2,rdfs:seeAlso,
 IF_5_5_3,rdf:value,国内では用量探索のための試験は実施していない。
 IF_5_5_3,dct:references,
-,,
+IF_5_5_3,rdfs:seeAlso,
 IF_5_5_4,,
 IF_5_5_4_1,rdf:value,"①活動期の潰瘍性大腸炎患者に対する国内第Ⅲ相臨床試験（承認時評価資料、MD090111U33試験）14)
  表Ⅴ-2 MD090111U33試験の概要
@@ -228,8 +227,10 @@ IF_5_5_4_1,rdf:value,"①活動期の潰瘍性大腸炎患者に対する国内�
  主な副作用は、本剤2,400mg/日群ではβ-NアセチルDグルコサミニダーゼ増加7.1%（6/85例）、潰瘍性大腸炎4.7%（4/85例）であった。本剤4,800mg/日群ではβ-NアセチルDグルコサミニダーゼ増加7.4%（6/81例）、血中ビリルビン増加4.9%（4/81例）であった。時間依存型メサラジン放出調節製剤2,250mg/日群ではβ-NアセチルDグルコサミニダーゼ増加7.1%（6/85例）であった。
  いずれの群においても死亡例は認められず、重篤な副作用は本剤2,400mg/日群で潰瘍性大腸炎が1例、本剤4,800mg/日群で潰瘍性大腸炎が1例、頭痛および心膜炎（同一例）が各1例に認められた。時間依存型メサラジン放出調節製剤2,250mg/日群では認められなかった。"
 IF_5_5_4_1,dct:references,"14, 15, 16"
+IF_5_5_4_1,rdfs:seeAlso,
 IF_5_5_4_2,rdf:value,該当資料なし
 IF_5_5_4_2,dct:references,
+IF_5_5_4_2,rdfs:seeAlso,
 IF_5_5_5,rdf:value,該当資料なし
 IF_5_5_5,dct:references,
 IF_5_5_5,rdfs:seeAlso,
@@ -238,7 +239,9 @@ IF_5_5_6_1,rdf:value,"特定使用成績調査（実施中）
  使用実態下における本剤の長期使用時の安全性及び有効性を把握する。"
 IF_5_5_6_1,dct:references,
 IF_5_5_6_2,rdf:value,該当資料なし
+IF_5_5_6_2,rdfs:seeAlso,
 IF_5_5_7,rdf:value,該当資料なし
+IF_5_5_7,dct:references,
 IF_6,,
 IF_6_1,rdf:value,サラゾスルファピリジン等
 IF_6_2,,
@@ -300,6 +303,7 @@ item3,dct:references,
 item3,rdfs:seeAlso,
 IF_7_2,,
 IF_7_2_1,rdf:value,国内の健康成人男女を対象とし、本剤を単回及び反復経口投与したときの薬物動態パラメータはノンコンパートメント解析により算出した。
+IF_7_2_1,dct:references,
 IF_7_2_2,rdf:value,該当資料なし
 IF_7_2_3,rdf:value,該当資料なし
 IF_7_2_3,dct:references,
@@ -428,8 +432,8 @@ item4,rdfs:seeAlso,IF_11_1_4
 item5,rdf:value,8.5 メサラジンにより過敏症状（発熱、腹痛、下痢、好酸球増多等）が発現することがあり、また、潰瘍性大腸炎が悪化することがあるため、異常が認められた場合には、減量又は投与を中止するなどの適切な処置を行うこと。
 item6,rdf:value,
 item7,rdf:value,
-,,
-,,
+item8,rdf:value,
+item9,rdf:value,
 IF_8_6,,
 IF_8_6_1,ifo:item,item1
 item1,rdf:value,"9.1.1 サラゾスルファピリジンに対し過敏症の既往歴のある患者
@@ -490,7 +494,7 @@ item1,rdf:value,"アザチオプリン
  骨髄抑制があらわれるおそれがある。
  メサラジンがチオプリンメチルトランスフェラーゼ活性を抑制するなど、これらの薬剤の代謝を阻害するとの報告がある。"
 item1,rdfs:seeAlso,
-,,
+item1,dct:references,
 item2,rdf:value,
 item2,dct:references,
 item2,rdfs:seeAlso,
@@ -565,7 +569,7 @@ IF_8_12_1,ifo:item,
 item1,rdf:value,
 item2,rdf:value,
 IF_8_12_2,rdf:value,設定されていない
-,,
+IF_8_12_2,dct:references,
 IF_9,,
 IF_9_1,,
 IF_9_1_1,rdf:value,「Ⅵ．薬効薬理に関する項目」の項参照
@@ -642,7 +646,7 @@ item2,rdf:value,"9.6 授乳婦
  ＜参考：分類の概要＞
  オーストラリアの分類：An Australian categories for prescribing medicines in pregnancy
  C：Drugs which, owing to their pharmacological effects, have caused or may be suspected of causing, harmful effects on the human fetus or neonate without causing malformations. These effects may be reversible. Accompanying texts should be consulted for further details."
-,,"小児等への投与に関する情報
+item3,rdf:value,"小児等への投与に関する情報
  日本の添付文書の「9.7 小児等」の項の記載は以下のとおりであり、米国の添付文書、英国のSPCとは異なる。
  9.7 小児等
  小児等を対象とした有効性及び安全性を指標とした臨床試験は実施していない。"

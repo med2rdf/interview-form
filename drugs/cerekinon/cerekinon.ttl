@@ -599,15 +599,15 @@ if:ref4	prism:startingPage	"2919"^^xsd:gYear	.
 if:ref4	prism:endingPage	"2926"^^xsd:gYear	.
 if:ref4	dct:issued	"1993"^^xsd:gYear	.
 if:ref5	rdf:type	bibo:Article	.
-if:ref5	dct:references	if:ref1659547	.
+if:ref5	dct:references	pmid:1659547	.
 if:ref6	rdf:type	bibo:Article	.
-if:ref6	dct:references	if:ref7214854	.
+if:ref6	dct:references	pmid:7214854	.
 if:ref7	rdf:type	bibo:Article	.
-if:ref7	dct:references	if:ref7173739	.
+if:ref7	dct:references	pmid:7173739	.
 if:ref8	rdf:type	bibo:Article	.
-if:ref8	dct:references	if:ref6533390	.
+if:ref8	dct:references	pmid:6533390	.
 if:ref9	rdf:type	bibo:Article	.
-if:ref9	dct:references	if:ref7154463	.
+if:ref9	dct:references	pmid:7154463	.
 if:ref10	rdf:type	bibo:Article	.
 if:ref10	dct:creator	"原沢 茂 他"	.
 if:ref10	prism:publicationName	"臨牀と研究"	.
@@ -633,7 +633,7 @@ if:ref12	prism:startingPage	"788"	.
 if:ref12	prism:endingPage	"797"	.
 if:ref12	dct:issued	"1985"^^xsd:gYear	.
 if:ref13	rdf:type	bibo:Article	.
-if:ref13	dct:references	if:ref6748369	.
+if:ref13	dct:references	pmid:6748369	.
 if:ref14	rdf:type	bibo:Article	.
 if:ref14	dct:creator	"川村 武"	.
 if:ref14	prism:publicationName	"Therapeutic Research"	.
@@ -736,3 +736,32 @@ if:ref29	prism:number	"2"	.
 if:ref29	prism:startingPage	"651"	.
 if:ref29	prism:endingPage	"657"	.
 if:ref29	dct:issued	"1982"^^xsd:gYear	.
+if:IF_11_1	dct:references	if:ref1	.
+if:IF_11_1	dct:references	if:ref2	.
+if:IF_11_1	dct:references	if:ref3	.
+if:IF_11_1	dct:references	if:ref4	.
+if:IF_11_1	dct:references	if:ref5	.
+if:IF_11_1	dct:references	if:ref6	.
+if:IF_11_1	dct:references	if:ref7	.
+if:IF_11_1	dct:references	if:ref8	.
+if:IF_11_1	dct:references	if:ref9	.
+if:IF_11_1	dct:references	if:ref10	.
+if:IF_11_1	dct:references	if:ref11	.
+if:IF_11_1	dct:references	if:ref12	.
+if:IF_11_1	dct:references	if:ref13	.
+if:IF_11_1	dct:references	if:ref14	.
+if:IF_11_1	dct:references	if:ref15	.
+if:IF_11_1	dct:references	if:ref16	.
+if:IF_11_1	dct:references	if:ref17	.
+if:IF_11_1	dct:references	if:ref18	.
+if:IF_11_1	dct:references	if:ref19	.
+if:IF_11_1	dct:references	if:ref20	.
+if:IF_11_1	dct:references	if:ref21	.
+if:IF_11_1	dct:references	if:ref22	.
+if:IF_11_1	dct:references	if:ref23	.
+if:IF_11_1	dct:references	if:ref24	.
+if:IF_11_1	dct:references	if:ref25	.
+if:IF_11_1	dct:references	if:ref26	.
+if:IF_11_1	dct:references	if:ref27	.
+if:IF_11_1	dct:references	if:ref28	.
+if:IF_11_1	dct:references	if:ref29	.

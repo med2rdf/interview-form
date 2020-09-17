@@ -672,323 +672,391 @@ if:IF_12_2.item1	rdf:value	"（1）妊婦への投与に関する海外情報\n�
 if:IF_13	rdf:type	ifo:IF_13	.
 if:IF_13	rdf:value	"1.調剤・服薬支援に際して臨床判断を行うにあたっての参考情報\n（1）粉砕\n該当資料なし\n（2）崩壊・懸濁性及び経管投与チューブの通過性\n該当資料なし\n2.その他の関連資料\n＜アイリーア®硝子体内注射液40mg/mLの使用方法＞"	.
 if:ref1	rdf:type	bibo:Document	.
-if:ref1	dct:references	if:ref社内報告書	.
+if:ref1	dct:references	pmid:社内報告書	.
 if:ref1	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref1	ifo:internal_reference_id	"EYL0525"	.
 if:ref1	ifo:ctd_number	"CTD 2.7.6.10"	.
 if:ref2	rdf:type	bibo:Document	.
-if:ref2	dct:references	if:ref社内報告書	.
+if:ref2	dct:references	pmid:社内報告書	.
 if:ref2	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref2	ifo:internal_reference_id	"EYL0564"	.
 if:ref2	ifo:ctd_number	"CTD 2.7.6.11"	.
 if:ref3	rdf:type	bibo:Document	.
-if:ref3	dct:references	if:ref社内報告書	.
+if:ref3	dct:references	pmid:社内報告書	.
 if:ref3	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref3	ifo:internal_reference_id	"EYL0563"	.
 if:ref3	ifo:ctd_number	"CTD 2.7.6.12"	.
 if:ref4	rdf:type	bibo:Document	.
-if:ref4	dct:references	if:ref社内報告書	.
+if:ref4	dct:references	pmid:社内報告書	.
 if:ref4	dct:dateAccepted	"2013-11-22"^^xsd:date	.
 if:ref4	ifo:internal_reference_id	"EYL1207"	.
 if:ref4	ifo:ctd_number	"CTD 2.7.6.2"	.
 if:ref5	rdf:type	bibo:Document	.
-if:ref5	dct:references	if:ref社内報告書	.
+if:ref5	dct:references	pmid:社内報告書	.
 if:ref5	dct:dateAccepted	"2013-11-22"^^xsd:date	.
 if:ref5	ifo:internal_reference_id	"EYL1210"	.
 if:ref5	ifo:ctd_number	"CTD 2.7.6.2、CTD 2.7.3.2.5"	.
 if:ref6	rdf:type	bibo:Document	.
-if:ref6	dct:references	if:ref社内報告書	.
+if:ref6	dct:references	pmid:社内報告書	.
 if:ref6	dct:dateAccepted	"2013-11-22"^^xsd:date	.
 if:ref6	ifo:internal_reference_id	"EYL1208"	.
 if:ref6	ifo:ctd_number	"CTD 2.7.6.1"	.
 if:ref7	rdf:type	bibo:Document	.
-if:ref7	dct:references	if:ref社内報告書	.
+if:ref7	dct:references	pmid:社内報告書	.
 if:ref7	dct:dateAccepted	"2015-06-26"^^xsd:date	.
 if:ref7	ifo:internal_reference_id	"EYL2664"	.
 if:ref7	ifo:ctd_number	"CTD 2.7.6.1"	.
 if:ref8	rdf:type	bibo:Document	.
-if:ref8	dct:references	if:ref社内報告書	.
+if:ref8	dct:references	pmid:社内報告書	.
 if:ref8	dct:dateAccepted	"2014-09-19"^^xsd:date	.
 if:ref8	ifo:internal_reference_id	"EYL1935"	.
 if:ref8	ifo:ctd_number	"CTD 2.7.6.1"	.
 if:ref9	rdf:type	bibo:Document	.
-if:ref9	dct:references	if:ref社内報告書	.
+if:ref9	dct:references	pmid:社内報告書	.
 if:ref9	dct:dateAccepted	"2014-11-18"^^xsd:date	.
 if:ref9	ifo:internal_reference_id	"EYL2275"	.
 if:ref9	ifo:ctd_number	"CTD 2.7.6.3"	.
 if:ref10	rdf:type	bibo:Document	.
-if:ref10	dct:references	if:ref社内報告書	.
+if:ref10	dct:references	pmid:社内報告書	.
 if:ref10	dct:dateAccepted	"2014-11-18"^^xsd:date	.
 if:ref10	ifo:internal_reference_id	"EYL2276"	.
 if:ref10	ifo:ctd_number	"CTD 2.7.6.5"	.
 if:ref11	rdf:type	bibo:Document	.
-if:ref11	dct:references	if:ref社内報告書	.
+if:ref11	dct:references	pmid:社内報告書	.
 if:ref11	dct:dateAccepted	"2014-11-18"^^xsd:date	.
 if:ref11	ifo:internal_reference_id	"EYL2279"	.
 if:ref11	ifo:ctd_number	"CTD 2.7.6.5"	.
 if:ref12	rdf:type	bibo:Document	.
-if:ref12	dct:references	if:ref社内報告書	.
+if:ref12	dct:references	pmid:社内報告書	.
 if:ref12	dct:dateAccepted	"2014-11-18"^^xsd:date	.
 if:ref12	ifo:internal_reference_id	"EYL2277"	.
 if:ref12	ifo:ctd_number	"CTD 2.7.6.4"	.
 if:ref13	rdf:type	bibo:Document	.
-if:ref13	dct:references	if:ref社内報告書	.
+if:ref13	dct:references	pmid:社内報告書	.
 if:ref13	dct:dateAccepted	"2020-03-25"^^xsd:date	.
 if:ref13	ifo:internal_reference_id	"EYL7778"	.
 if:ref13	ifo:ctd_number	"CTD 2.7.6.1"	.
 if:ref14	rdf:type	bibo:Document	.
-if:ref14	dct:references	if:ref社内報告書	.
+if:ref14	dct:references	pmid:社内報告書	.
 if:ref14	dct:dateAccepted	"2020-03-25"^^xsd:date	.
 if:ref14	ifo:internal_reference_id	"EYL7777"	.
 if:ref14	ifo:ctd_number	"CTD 2.7.6.2"	.
 if:ref15	rdf:type	bibo:Document	.
-if:ref15	dct:references	if:ref社内報告書	.
+if:ref15	dct:references	pmid:社内報告書	.
 if:ref15	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref15	ifo:internal_reference_id	"EYL0523"	.
 if:ref15	ifo:ctd_number	"CTD 2.7.6.2"	.
 if:ref16	rdf:type	bibo:Document	.
-if:ref16	dct:references	if:ref社内報告書	.
+if:ref16	dct:references	pmid:社内報告書	.
 if:ref16	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref16	ifo:internal_reference_id	"EYL0523"	.
 if:ref16	ifo:ctd_number	"CTD 2.7.6.2"	.
 if:ref17	rdf:type	bibo:Document	.
-if:ref17	dct:references	if:ref社内報告書	.
+if:ref17	dct:references	pmid:社内報告書	.
 if:ref17	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref17	ifo:internal_reference_id	"EYL0523"	.
 if:ref17	ifo:ctd_number	"CTD 2.7.6.2"	.
 if:ref18	rdf:type	bibo:Document	.
-if:ref18	dct:references	if:ref社内報告書	.
+if:ref18	dct:references	pmid:社内報告書	.
 if:ref18	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref18	ifo:internal_reference_id	"EYL0565"	.
 if:ref18	ifo:ctd_number	"CTD 2.7.4.2"	.
 if:ref19	rdf:type	bibo:Document	.
-if:ref19	dct:references	if:ref社内報告書	.
+if:ref19	dct:references	pmid:社内報告書	.
 if:ref19	dct:dateAccepted	"2014-11-18"^^xsd:date	.
 if:ref19	ifo:internal_reference_id	"EYL2278"	.
 if:ref19	ifo:ctd_number	"CTD 2.7.4.2"	.
 if:ref20	rdf:type	bibo:Document	.
-if:ref20	dct:references	if:ref社内報告書	.
+if:ref20	dct:references	pmid:社内報告書	.
 if:ref20	dct:dateAccepted	"2014-11-18"^^xsd:date	.
 if:ref20	ifo:internal_reference_id	"EYL2280"	.
 if:ref20	ifo:ctd_number	"CTD 2.7.6.6"	.
 if:ref21	rdf:type	bibo:Article	.
-if:ref21	dct:references	if:ref18766380	.
+if:ref21	dct:references	pmid:18766380	.
 if:ref21	ifo:internal_reference_id	"EYL0088"	.
 if:ref22	rdf:type	bibo:Article	.
-if:ref22	dct:references	if:ref9893348	.
+if:ref22	dct:references	pmid:9893348	.
 if:ref22	ifo:internal_reference_id	"EYL0089"	.
 if:ref23	rdf:type	bibo:Article	.
-if:ref23	dct:references	if:ref12150967	.
+if:ref23	dct:references	pmid:12150967	.
 if:ref23	ifo:internal_reference_id	"EYL0090"	.
 if:ref24	rdf:type	bibo:Article	.
-if:ref24	dct:references	if:ref19244214	.
+if:ref24	dct:references	pmid:19244214	.
 if:ref24	ifo:internal_reference_id	"EYL0091"	.
 if:ref25	rdf:type	bibo:Article	.
-if:ref25	dct:references	if:ref22302382	.
+if:ref25	dct:references	pmid:22302382	.
 if:ref25	ifo:internal_reference_id	"EYL0249"	.
 if:ref26	rdf:type	bibo:Article	.
-if:ref26	dct:references	if:ref19694600	.
+if:ref26	dct:references	pmid:19694600	.
 if:ref26	ifo:internal_reference_id	"EYL0016"	.
 if:ref27	rdf:type	bibo:Document	.
-if:ref27	dct:references	if:ref社内報告書	.
+if:ref27	dct:references	pmid:社内報告書	.
 if:ref27	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref27	ifo:internal_reference_id	"EYL0526"	.
 if:ref27	ifo:ctd_number	"CTD 2.6.2.2.1.2、2.6.2.2.1.3"	.
 if:ref28	rdf:type	bibo:Document	.
-if:ref28	dct:references	if:ref社内報告書	.
+if:ref28	dct:references	pmid:社内報告書	.
 if:ref28	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref28	ifo:internal_reference_id	"EYL0527"	.
 if:ref28	ifo:ctd_number	"CTD 2.6.2.2.1.4"	.
 if:ref29	rdf:type	bibo:Article	.
-if:ref29	dct:references	if:ref20538989	.
+if:ref29	dct:references	pmid:20538989	.
 if:ref29	ifo:internal_reference_id	"EYL0080"	.
 if:ref30	rdf:type	bibo:Document	.
-if:ref30	dct:references	if:ref社内報告書	.
+if:ref30	dct:references	pmid:社内報告書	.
 if:ref30	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref30	ifo:internal_reference_id	"EYL0528"	.
 if:ref30	ifo:ctd_number	"CTD 2.6.2.2.2.3"	.
 if:ref31	rdf:type	bibo:Document	.
-if:ref31	dct:references	if:ref社内報告書	.
+if:ref31	dct:references	pmid:社内報告書	.
 if:ref31	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref31	ifo:internal_reference_id	"EYL0529"	.
 if:ref31	ifo:ctd_number	"CTD 2.6.2.2.2.4"	.
 if:ref32	rdf:type	bibo:Article	.
-if:ref32	dct:references	if:ref15277490	.
+if:ref32	dct:references	pmid:15277490	.
 if:ref32	ifo:internal_reference_id	"EYL0095"	.
 if:ref33	rdf:type	bibo:Document	.
-if:ref33	dct:references	if:ref社内報告書	.
+if:ref33	dct:references	pmid:社内報告書	.
 if:ref33	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref33	ifo:internal_reference_id	"EYL0530"	.
 if:ref33	ifo:ctd_number	"CTD 2.6.2.2.2.5"	.
 if:ref34	rdf:type	bibo:Article	.
-if:ref34	dct:references	if:ref18356264	.
+if:ref34	dct:references	pmid:18356264	.
 if:ref34	ifo:internal_reference_id	"EYL0015"	.
 if:ref35	rdf:type	bibo:Document	.
-if:ref35	dct:references	if:ref社内報告書	.
+if:ref35	dct:references	pmid:社内報告書	.
 if:ref35	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref35	ifo:internal_reference_id	"EYL0531"	.
 if:ref35	ifo:ctd_number	"CTD 2.7.6.1"	.
 if:ref36	rdf:type	bibo:Document	.
-if:ref36	dct:references	if:ref社内報告書	.
+if:ref36	dct:references	pmid:社内報告書	.
 if:ref36	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref36	ifo:internal_reference_id	"EYL0532"	.
 if:ref36	ifo:ctd_number	"CTD 2.6.4.4.2"	.
 if:ref37	rdf:type	bibo:Document	.
-if:ref37	dct:references	if:ref社内報告書	.
+if:ref37	dct:references	pmid:社内報告書	.
 if:ref37	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref37	ifo:internal_reference_id	"EYL0533"	.
 if:ref37	ifo:ctd_number	"CTD 2.7.2.2.2.1"	.
 if:ref38	rdf:type	bibo:Document	.
-if:ref38	dct:references	if:ref社内報告書	.
+if:ref38	dct:references	pmid:社内報告書	.
 if:ref38	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref38	ifo:internal_reference_id	"EYL0534"	.
 if:ref38	ifo:ctd_number	"CTD 2.7.2.2.2.2"	.
 if:ref39	rdf:type	bibo:Document	.
-if:ref39	dct:references	if:ref社内報告書	.
+if:ref39	dct:references	pmid:社内報告書	.
 if:ref39	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref39	ifo:internal_reference_id	"EYL0535"	.
 if:ref39	ifo:ctd_number	"CTD 2.7.2.2.3.1"	.
 if:ref40	rdf:type	bibo:Document	.
-if:ref40	dct:references	if:ref社内報告書	.
+if:ref40	dct:references	pmid:社内報告書	.
 if:ref40	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref40	ifo:internal_reference_id	"EYL0536"	.
 if:ref40	ifo:ctd_number	"CTD 2.7.2.2.3.1"	.
 if:ref41	rdf:type	bibo:Document	.
-if:ref41	dct:references	if:ref社内報告書	.
+if:ref41	dct:references	pmid:社内報告書	.
 if:ref41	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref41	ifo:internal_reference_id	"EYL0537"	.
 if:ref41	ifo:ctd_number	"CTD 2.6.4.4.1"	.
 if:ref42	rdf:type	bibo:Article	.
-if:ref42	dct:references	if:ref19882518	.
+if:ref42	dct:references	pmid:19882518	.
 if:ref42	ifo:internal_reference_id	"EYL0093"	.
 if:ref43	rdf:type	bibo:Article	.
-if:ref43	dct:references	if:ref7096566	.
+if:ref43	dct:references	pmid:7096566	.
 if:ref43	ifo:internal_reference_id	"EYL0546"	.
 if:ref44	rdf:type	bibo:Document	.
-if:ref44	dct:references	if:ref社内報告書	.
+if:ref44	dct:references	pmid:社内報告書	.
 if:ref44	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref44	ifo:internal_reference_id	"EYL0538"	.
 if:ref44	ifo:ctd_number	"CTD 2.6.2.4.1、2.6.2.4.2.2、2.6.6.3.2.1.1、\n 2.6.6.3.2.1.2"	.
 if:ref45	rdf:type	bibo:Document	.
-if:ref45	dct:references	if:ref社内報告書	.
+if:ref45	dct:references	pmid:社内報告書	.
 if:ref45	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref45	ifo:internal_reference_id	"EYL0539"	.
 if:ref45	ifo:ctd_number	"CTD 2.6.2.4.1、2.6.2.4.2.2、2.6.6.3.2.2.1、2.6.6.3.2.2.2、2.6.6.3.2.2.3、2.6.6.6.1"	.
 if:ref46	rdf:type	bibo:Document	.
-if:ref46	dct:references	if:ref社内報告書	.
+if:ref46	dct:references	pmid:社内報告書	.
 if:ref46	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref46	ifo:internal_reference_id	"EYL0540"	.
 if:ref46	ifo:ctd_number	"CTD 2.6.2.4.2.1"	.
 if:ref47	rdf:type	bibo:Document	.
-if:ref47	dct:references	if:ref社内報告書	.
+if:ref47	dct:references	pmid:社内報告書	.
 if:ref47	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref47	ifo:internal_reference_id	"EYL0541"	.
 if:ref47	ifo:ctd_number	"CTD 2.6.2.4.3"	.
 if:ref48	rdf:type	bibo:Document	.
-if:ref48	dct:references	if:ref社内報告書	.
+if:ref48	dct:references	pmid:社内報告書	.
 if:ref48	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref48	ifo:internal_reference_id	"EYL0542"	.
 if:ref48	ifo:ctd_number	"CTD 2.6.2.4.4"	.
 if:ref49	rdf:type	bibo:Document	.
-if:ref49	dct:references	if:ref社内報告書	.
+if:ref49	dct:references	pmid:社内報告書	.
 if:ref49	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref49	ifo:internal_reference_id	"EYL0543"	.
 if:ref49	ifo:ctd_number	"CTD 2.6.2.4.5"	.
 if:ref50	rdf:type	bibo:Document	.
-if:ref50	dct:references	if:ref社内報告書	.
+if:ref50	dct:references	pmid:社内報告書	.
 if:ref50	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref50	ifo:internal_reference_id	"EYL0544"	.
 if:ref50	ifo:ctd_number	"CTD 2.6.2.4.5"	.
 if:ref51	rdf:type	bibo:Article	.
-if:ref51	dct:references	if:ref18000042	.
+if:ref51	dct:references	pmid:18000042	.
 if:ref51	ifo:internal_reference_id	"EYL0082"	.
 if:ref52	rdf:type	bibo:Document	.
-if:ref52	dct:references	if:ref社内報告書	.
+if:ref52	dct:references	pmid:社内報告書	.
 if:ref52	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref52	ifo:internal_reference_id	"EYL0545"	.
 if:ref52	ifo:ctd_number	"CTD 2.6.6.2.1、2.6.6.2.2"	.
 if:ref53	rdf:type	bibo:Document	.
-if:ref53	dct:references	if:ref社内報告書	.
+if:ref53	dct:references	pmid:社内報告書	.
 if:ref53	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref53	ifo:internal_reference_id	"EYL0547"	.
 if:ref53	ifo:ctd_number	"CTD 2.6.6.3.1"	.
 if:ref54	rdf:type	bibo:Document	.
-if:ref54	dct:references	if:ref社内報告書	.
+if:ref54	dct:references	pmid:社内報告書	.
 if:ref54	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref54	ifo:internal_reference_id	"EYL0548"	.
 if:ref54	ifo:ctd_number	"CTD 2.6.6.3.2"	.
 if:ref55	rdf:type	bibo:Document	.
-if:ref55	dct:references	if:ref社内報告書	.
+if:ref55	dct:references	pmid:社内報告書	.
 if:ref55	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref55	ifo:internal_reference_id	"EYL0549"	.
 if:ref55	ifo:ctd_number	"CTD 2.6.6.2.2.2"	.
 if:ref56	rdf:type	bibo:Document	.
-if:ref56	dct:references	if:ref社内報告書	.
+if:ref56	dct:references	pmid:社内報告書	.
 if:ref56	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref56	ifo:internal_reference_id	"EYL0550"	.
 if:ref56	ifo:ctd_number	"CTD 2.6.6.2.2.3"	.
 if:ref57	rdf:type	bibo:Document	.
-if:ref57	dct:references	if:ref社内報告書	.
+if:ref57	dct:references	pmid:社内報告書	.
 if:ref57	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref57	ifo:internal_reference_id	"EYL0551"	.
 if:ref57	ifo:ctd_number	"CTD 2.6.6.2.2.5"	.
 if:ref58	rdf:type	bibo:Document	.
-if:ref58	dct:references	if:ref社内報告書	.
+if:ref58	dct:references	pmid:社内報告書	.
 if:ref58	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref58	ifo:internal_reference_id	"EYL0552"	.
 if:ref58	ifo:ctd_number	"CTD 2.6.6.2.2.6、2.6.6.7"	.
 if:ref59	rdf:type	bibo:Document	.
-if:ref59	dct:references	if:ref社内報告書	.
+if:ref59	dct:references	pmid:社内報告書	.
 if:ref59	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref59	ifo:internal_reference_id	"EYL0553"	.
 if:ref59	ifo:ctd_number	"CTD 2.6.6.3.2.1"	.
 if:ref60	rdf:type	bibo:Document	.
-if:ref60	dct:references	if:ref社内報告書	.
+if:ref60	dct:references	pmid:社内報告書	.
 if:ref60	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref60	ifo:internal_reference_id	"EYL0554"	.
 if:ref60	ifo:ctd_number	"CTD 2.6.6.3.2.2"	.
 if:ref61	rdf:type	bibo:Document	.
-if:ref61	dct:references	if:ref社内報告書	.
+if:ref61	dct:references	pmid:社内報告書	.
 if:ref61	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref61	ifo:internal_reference_id	"EYL0555"	.
 if:ref61	ifo:ctd_number	"CTD 2.6.6.3.2.2"	.
 if:ref62	rdf:type	bibo:Document	.
-if:ref62	dct:references	if:ref社内報告書	.
+if:ref62	dct:references	pmid:社内報告書	.
 if:ref62	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref62	ifo:internal_reference_id	"EYL0556"	.
 if:ref62	ifo:ctd_number	"CTD 2.6.6.6.2.1"	.
 if:ref62	rdf:type	bibo:Document	.
-if:ref62	dct:references	if:ref社内報告書	.
+if:ref62	dct:references	pmid:社内報告書	.
 if:ref62	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref62	ifo:internal_reference_id	"EYL0557"	.
 if:ref62	ifo:ctd_number	"CTD 2.6.6.6.2.2"	.
 if:ref64	rdf:type	bibo:Document	.
-if:ref64	dct:references	if:ref社内報告書	.
+if:ref64	dct:references	pmid:社内報告書	.
 if:ref64	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref64	ifo:internal_reference_id	"EYL0569"	.
 if:ref64	ifo:ctd_number	"CTD 2.6.6.7"	.
 if:ref65	rdf:type	bibo:Document	.
-if:ref65	dct:references	if:ref社内報告書	.
+if:ref65	dct:references	pmid:社内報告書	.
 if:ref65	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref65	ifo:internal_reference_id	"EYL0558"	.
 if:ref65	ifo:ctd_number	"CTD 2.6.6.6.4.1"	.
 if:ref66	rdf:type	bibo:Document	.
-if:ref66	dct:references	if:ref社内報告書	.
+if:ref66	dct:references	pmid:社内報告書	.
 if:ref66	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref66	ifo:internal_reference_id	"EYL0559"	.
 if:ref66	ifo:ctd_number	"CTD 2.6.6.8.1〜3"	.
 if:ref67	rdf:type	bibo:Document	.
-if:ref67	dct:references	if:ref社内報告書	.
+if:ref67	dct:references	pmid:社内報告書	.
 if:ref67	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref67	ifo:internal_reference_id	"EYL0560"	.
 if:ref67	ifo:ctd_number	"CTD 2.6.6.8.4"	.
 if:ref68	rdf:type	bibo:Document	.
-if:ref68	dct:references	if:ref社内報告書	.
+if:ref68	dct:references	pmid:社内報告書	.
 if:ref68	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref68	ifo:internal_reference_id	"EYL0561"	.
 if:ref68	ifo:ctd_number	"CTD 2.6.6.8.5"	.
 if:ref69	rdf:type	bibo:Document	.
-if:ref69	dct:references	if:ref社内報告書	.
+if:ref69	dct:references	pmid:社内報告書	.
 if:ref69	dct:dateAccepted	"2012-09-28"^^xsd:date	.
 if:ref69	ifo:internal_reference_id	"EYL0562"	.
 if:ref69	ifo:ctd_number	"CTD 2.6.6.8.6"	.
+if:IF_11_1	dct:references	if:ref1	.
+if:IF_11_1	dct:references	if:ref2	.
+if:IF_11_1	dct:references	if:ref3	.
+if:IF_11_1	dct:references	if:ref4	.
+if:IF_11_1	dct:references	if:ref5	.
+if:IF_11_1	dct:references	if:ref6	.
+if:IF_11_1	dct:references	if:ref7	.
+if:IF_11_1	dct:references	if:ref8	.
+if:IF_11_1	dct:references	if:ref9	.
+if:IF_11_1	dct:references	if:ref10	.
+if:IF_11_1	dct:references	if:ref11	.
+if:IF_11_1	dct:references	if:ref12	.
+if:IF_11_1	dct:references	if:ref13	.
+if:IF_11_1	dct:references	if:ref14	.
+if:IF_11_1	dct:references	if:ref15	.
+if:IF_11_1	dct:references	if:ref16	.
+if:IF_11_1	dct:references	if:ref17	.
+if:IF_11_1	dct:references	if:ref18	.
+if:IF_11_1	dct:references	if:ref19	.
+if:IF_11_1	dct:references	if:ref20	.
+if:IF_11_1	dct:references	if:ref21	.
+if:IF_11_1	dct:references	if:ref22	.
+if:IF_11_1	dct:references	if:ref23	.
+if:IF_11_1	dct:references	if:ref24	.
+if:IF_11_1	dct:references	if:ref25	.
+if:IF_11_1	dct:references	if:ref26	.
+if:IF_11_1	dct:references	if:ref27	.
+if:IF_11_1	dct:references	if:ref28	.
+if:IF_11_1	dct:references	if:ref29	.
+if:IF_11_1	dct:references	if:ref30	.
+if:IF_11_1	dct:references	if:ref31	.
+if:IF_11_1	dct:references	if:ref32	.
+if:IF_11_1	dct:references	if:ref33	.
+if:IF_11_1	dct:references	if:ref34	.
+if:IF_11_1	dct:references	if:ref35	.
+if:IF_11_1	dct:references	if:ref36	.
+if:IF_11_1	dct:references	if:ref37	.
+if:IF_11_1	dct:references	if:ref38	.
+if:IF_11_1	dct:references	if:ref39	.
+if:IF_11_1	dct:references	if:ref40	.
+if:IF_11_1	dct:references	if:ref41	.
+if:IF_11_1	dct:references	if:ref42	.
+if:IF_11_1	dct:references	if:ref43	.
+if:IF_11_1	dct:references	if:ref44	.
+if:IF_11_1	dct:references	if:ref45	.
+if:IF_11_1	dct:references	if:ref46	.
+if:IF_11_1	dct:references	if:ref47	.
+if:IF_11_1	dct:references	if:ref48	.
+if:IF_11_1	dct:references	if:ref49	.
+if:IF_11_1	dct:references	if:ref50	.
+if:IF_11_1	dct:references	if:ref51	.
+if:IF_11_1	dct:references	if:ref52	.
+if:IF_11_1	dct:references	if:ref53	.
+if:IF_11_1	dct:references	if:ref54	.
+if:IF_11_1	dct:references	if:ref55	.
+if:IF_11_1	dct:references	if:ref56	.
+if:IF_11_1	dct:references	if:ref57	.
+if:IF_11_1	dct:references	if:ref58	.
+if:IF_11_1	dct:references	if:ref59	.
+if:IF_11_1	dct:references	if:ref60	.
+if:IF_11_1	dct:references	if:ref61	.
+if:IF_11_1	dct:references	if:ref62	.
+if:IF_11_1	dct:references	if:ref64	.
+if:IF_11_1	dct:references	if:ref65	.
+if:IF_11_1	dct:references	if:ref66	.
+if:IF_11_1	dct:references	if:ref67	.
+if:IF_11_1	dct:references	if:ref68	.
+if:IF_11_1	dct:references	if:ref69	.

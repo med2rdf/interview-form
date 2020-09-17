@@ -352,7 +352,7 @@ if:IF_5_2.item3	rdf:value	"5.3, 5.4 臨床試験成績より、腎機能低下�
 if:IF_5_3_1	rdf:type	ifo:IF_5_3_1	.
 if:IF_5_3_1	rdf:value	"本剤の薬物動態及び薬力学に及ぼす食事の影響は小さく、食前又は食後投与のいずれも可能である。\n本剤の通常用量は2.5mgであり、効果不十分な場合には5mgへの増量が可能である。"	.
 if:IF_5_3_2	rdf:type	ifo:IF_5_3_2	.
-if:IF_5_3_2	rdf:value	"①用法\n2型糖尿病患者を対象とした臨床薬理試験（TS071-02-2）において、本剤2.5mgを1日1回朝食前に投与しプラセボ群と比較したところ、有意な血糖値AUCの低下を示し、効果は夕食後まで持続した。有意な尿糖排泄は、プラセボ群と比較し投与終了日の翌日まで持続した。\n2型糖尿病患者を対象とした本剤2.5mgの12～52週間投与による各臨床試験において、本剤1日1回投与による有効性が認められた。\n夕投与では就寝中に本剤の効果が最大となることについて安全性の観点等から留意する必要があると考えられることから、臨床試験において有効性及び安全性を検討した朝投与（朝食前又は朝食後）とした。\n以上より、本剤の用法は1日1回朝食前又は朝食後投与が適切と考えた。"	.
+if:IF_5_3_2	rdf:value	"①用法\n2型糖尿病患者を対象とした臨床薬理試験（TS071-02-2）において、本剤2.5mgを1日1回朝食前に投与しプラセボ群と比較したところ、有意な血糖値AUCの低下を示し、効果は夕食後まで持続した。有意な尿糖排泄は、プラセボ群と比較し投与終了日の翌日まで持続した。\n2型糖尿病患者を対象とした本剤2.5mgの12～52週間投与による各臨床試験において、本剤1日1回投与による有効性が認められた。\n夕投与では就寝中に本剤の効果が最大となることについて安全性の観点等から留意する必要があると考えられることから、臨床試験において有効性及び安全性を検討した朝投与（朝食前又は朝食後）とした。\n以上より、本剤の用法は1日1回朝食前又は朝食後投与が適切と考えた。\n②用量\n用量反応性を検証した臨床試験（TS071-02-3）において、投与終了時におけるHbA1c変化量、空腹時血糖値の変化量及び食後2時間血糖値の変化量はプラセボ群と比較して有意に低下し、その低下量は2.5mg群と5mg群及び10mg群で同程度であった。\nプラセボに対する優越性を検証した臨床試験（TS071-03-5）において、本剤2.5mgの投与終了時におけるHbA1c変化量、空腹時血糖値の変化量及び食後2時間血糖値の変化量は、プラセボ群と比較して有意に低下した。\n本剤0.5～10mgの12週間又は24週間投与（プラセボ対照試験の併合解析）では、副作用発現割合はプラセボ群と比較して高かったが、用量の増加に伴って副作用発現割合が上昇する傾向はみられなかったことから、本剤10mgまでの忍容性は良好と考えられた。\n単剤長期投与試験（TS071-03-3）及び他の経口血糖降下薬との併用試験（TS071-03-1、TS071-03-2）では、本剤2.5mg1日1回投与において効果が不十分であった患者に対し、5mgへ増量したところ、HbA1cが低下したことなどから、2.5mgでの効果不十分例における5mgへの増量は臨床的に意義があると考えられた。本剤2.5mg（5mgへの増量を含む）の52週間長期投与（長期投与試験の併合解析）では、2.5mgから5mgへの増量例において、非増量例と比較して有害事象の割合が上昇することはなかった。\n以上より、本剤の通常用量は2.5mgであり、効果不十分な場合には5mgへの増量を可能とすることが適切と考えた。"	.
 if:IF_5_4	rdf:type	ifo:IF_5_4	.
 if:IF_5_4	ifo:item	if:IF_5_4.設定されていない	.
 if:IF_5_5_2	rdf:type	ifo:IF_5_5_2	.
@@ -446,6 +446,8 @@ if:IF_8_4.item4	rdf:value	"8.4 本剤の尿糖排泄作用により、尿路感�
 if:IF_8_4.item5	rdf:value	"8.5 本剤の投与により尿糖排泄が増加した結果、浸透圧利尿により多尿・頻尿が発現し、体液量が減少する可能性が考えられるので、適度な水分補給を行うよう患者に指導し、観察を十分に行うこと。体液量の減少により脱水、血圧低下等の異常が認められた場合は、休薬や補液等の適切な処置を行うこと。また、高齢者や利尿剤併用患者等の特に体液量減少を起こしやすい患者においては、脱水や糖尿病性ケトアシドーシス、高浸透圧高血糖症候群、脳梗塞を含む血栓・塞栓症等の発現に注意すること。（Ⅷ-6.（1）合併症・既往歴等のある患者、Ⅷ-6. (8)高齢者、Ⅷ-7.相互作用（2）併用注意とその理由、Ⅷ-8.副作用（2）重大な副作用と初期症状　の項参照）"	.
 if:IF_8_4.item6	rdf:value	"8.6 本剤の尿中グルコース排泄促進作用により、体内でエネルギー源として利用できるグルコースが一時的に少なくなることで脂肪分解が亢進し、血糖コントロールが良好な場合でもケトン体が増加し、ケトアシドーシスに至る場合があるため、投与する際は注意すること。また患者に対して、ケトアシドーシスの症状について説明するとともに、症状が認められた場合には、直ちに医療機関を受診するよう指導すること。（Ⅷ-8.副作用（2）重大な副作用と初期症状　の項参照）"	.
 if:IF_8_4.item7	rdf:value	"8.7 第Ⅲ相二重盲検比較試験での本剤投与群とプラセボ投与群との比較において、24週投与の評価終了時における体重の変化量のプラセボ投与群との差は－1.77kgであり、有意な低下を示した13）。本剤投与による体重減少は尿糖排泄に伴う浸透圧利尿による体液量減少と脂質代謝亢進による脂肪量減少が主な要因と考えられるが、過度の体重減少に注意すること。"	.
+if:IF_8_4.item8	rdf:value	"8.8 本剤はグルコースを尿中に排泄することで効果を発揮することから、排尿困難、無尿、乏尿又は尿閉を有する患者においては、効果が減弱又は期待できない可能性があるため、その治療を優先するとともに他剤での治療を考慮すること。"	.
+if:IF_8_4.item9	rdf:value	"8.9 本剤の投与により、低血糖症状が起こることがあるため、高所作業、自動車の運転等に従事している患者に投与する際には注意すること。（Ⅷ-8.副作用（1）重大な副作用と初期症状　の項参照）"	.
 if:IF_8_4.item1	rdf:value	"9.1.1 低血糖を起こすおそれのある患者又は状態に本剤を投与すると、低血糖のリスクを増加させるおそれがある。(Ⅷ-5.重要な基本的注意とその理由、Ⅷ-8.副作用(1)重大な副作用と初期症状　の項参照）\n1）脳下垂体機能不全又は副腎機能不全の患者では、グルココルチコイド分泌不全により低血糖を起こすおそれがある。\n2）栄養不良状態、飢餓状態、不規則な食事摂取、食事摂取量の不足又は衰弱状態では、低血糖を起こすおそれがある。\n3）激しい筋肉運動による筋肉での過度な血糖の消費により低血糖を起こすおそれがある。\n4）過度のアルコール摂取者では、アルコールによる糖新生抑制作用により低血糖を起こすおそれがある。"	.
 if:IF_8_4.item2	rdf:value	"9.1.2 本剤の尿糖排泄作用により、尿路・性器が易感染状態となり、尿路感染及び性器感染の症状を悪化させるおそれがある。（Ⅷ-5.重要な基本的注意とその理由、Ⅷ-8.副作用(1)重大な副作用と初期症状　の項参照）"	.
 if:IF_8_4.item3	rdf:value	"9.1.3 血糖コントロールが極めて不良の患者、高齢者及び利尿剤併用患者等の「脱水を起こしやすい患者」においては、本剤の利尿作用により「脱水」を起こすおそれがあり慎重に投与する必要がある。（Ⅷ-5.重要な基本的注意とその理由、Ⅷ-7.相互作用(2)併用注意とその理由、Ⅷ-8.副作用(1)重大な副作用と初期症状　の項参照）"	.
@@ -531,7 +533,7 @@ if:IF_12_1.item1	rdf:value	"該当資料なし"	.
 if:IF_13	rdf:type	ifo:IF_13	.
 if:IF_13	rdf:value	"その他の関連資料\n該当資料なし"	.
 if:ref1	rdf:type	bibo:Article	.
-if:ref1	dct:references	if:ref24535625	.
+if:ref1	dct:references	pmid:24535625	.
 if:ref2	rdf:type	bibo:Document	.
 if:ref2	rdfs:label	"社内資料"	.
 if:ref2	dct:dateAccepted	"2014-3-24"	.
@@ -543,7 +545,7 @@ if:ref3	dct:dateAccepted	"2014-3-24"	.
 if:ref3	ifo:internal_reference_id	"T26C008"	.
 if:ref3	ifo:ctd_number	"CTD 2.7.6.2"	.
 if:ref4	rdf:type	bibo:Article	.
-if:ref4	dct:references	if:ref25855342	.
+if:ref4	dct:references	pmid:25855342	.
 if:ref5	rdf:type	bibo:Document	.
 if:ref5	rdfs:label	"社内資料"	.
 if:ref5	dct:dateAccepted	"2014-3-24"	.
@@ -560,35 +562,35 @@ if:ref7	dct:dateAccepted	"2014-3-24"	.
 if:ref7	ifo:internal_reference_id	"T26C011"	.
 if:ref7	ifo:ctd_number	"CTD 2.7.6.17"	.
 if:ref8	rdf:type	bibo:Article	.
-if:ref8	dct:references	if:ref24597840	.
+if:ref8	dct:references	pmid:24597840	.
 if:ref9	rdf:type	bibo:Document	.
 if:ref9	rdfs:label	"社内資料"	.
 if:ref9	dct:dateAccepted	"2014-3-24"	.
 if:ref9	ifo:internal_reference_id	"T26C012"	.
 if:ref9	ifo:ctd_number	"CTD 2.7.6.18"	.
 if:ref10	rdf:type	bibo:Article	.
-if:ref10	dct:references	if:ref24673496	.
+if:ref10	dct:references	pmid:24673496	.
 if:ref11	rdf:type	bibo:Document	.
 if:ref11	rdfs:label	"社内資料"	.
 if:ref11	dct:dateAccepted	"2014-3-24"	.
 if:ref11	ifo:internal_reference_id	"T26C001"	.
 if:ref11	ifo:ctd_number	"CTD 2.7.6.19"	.
 if:ref12	rdf:type	bibo:Article	.
-if:ref12	dct:references	if:ref24708292	.
+if:ref12	dct:references	pmid:24708292	.
 if:ref13	rdf:type	bibo:Document	.
 if:ref13	rdfs:label	"社内資料"	.
 if:ref13	dct:dateAccepted	"2014-3-24"	.
 if:ref13	ifo:internal_reference_id	"T26C002"	.
 if:ref13	ifo:ctd_number	"CTD 2.7.6.20"	.
 if:ref14	rdf:type	bibo:Article	.
-if:ref14	dct:references	if:ref25971406	.
+if:ref14	dct:references	pmid:25971406	.
 if:ref15	rdf:type	bibo:Document	.
 if:ref15	rdfs:label	"社内資料"	.
 if:ref15	dct:dateAccepted	"2014-3-24"	.
 if:ref15	ifo:internal_reference_id	"T26C003"	.
 if:ref15	ifo:ctd_number	"CTD 2.7.6.23"	.
 if:ref16	rdf:type	bibo:Article	.
-if:ref16	dct:references	if:ref26221523	.
+if:ref16	dct:references	pmid:26221523	.
 if:ref17	rdf:type	bibo:Document	.
 if:ref17	rdfs:label	"社内資料"	.
 if:ref17	dct:dateAccepted	"2014-3-24"	.
@@ -600,26 +602,26 @@ if:ref18	dct:dateAccepted	"2014-3-24"	.
 if:ref18	ifo:internal_reference_id	"T26C005"	.
 if:ref18	ifo:ctd_number	"CTD 2.7.6.24"	.
 if:ref19	rdf:type	bibo:Article	.
-if:ref19	dct:references	if:ref26718606	.
+if:ref19	dct:references	pmid:26718606	.
 if:ref20	rdf:type	bibo:Document	.
 if:ref20	rdfs:label	"社内資料"	.
 if:ref20	dct:dateAccepted	"2014-3-24"	.
 if:ref20	ifo:internal_reference_id	"T26C006"	.
 if:ref20	ifo:ctd_number	"CTD 2.7.6.22"	.
 if:ref21	rdf:type	bibo:Article	.
-if:ref21	dct:references	if:ref29448833	.
+if:ref21	dct:references	pmid:29448833	.
 if:ref22	rdf:type	bibo:Document	.
 if:ref22	rdfs:label	"社内資料"	.
 if:ref22	ifo:internal_reference_id	"T26C015"	.
 if:ref23	rdf:type	bibo:Article	.
-if:ref23	dct:references	if:ref28502112	.
+if:ref23	dct:references	pmid:28502112	.
 if:ref24	rdf:type	bibo:Document	.
 if:ref24	rdfs:label	"社内資料"	.
 if:ref24	ifo:internal_reference_id	"T26C016"	.
 if:ref25	rdf:type	bibo:Article	.
-if:ref25	dct:references	if:ref8282810	.
+if:ref25	dct:references	pmid:8282810	.
 if:ref26	rdf:type	bibo:Article	.
-if:ref26	dct:references	if:ref21410690	.
+if:ref26	dct:references	pmid:21410690	.
 if:ref27	rdf:type	bibo:Document	.
 if:ref27	rdfs:label	"社内資料"	.
 if:ref27	dct:dateAccepted	"2014-3-24"	.
@@ -636,7 +638,7 @@ if:ref29	dct:dateAccepted	"2014-3-24"	.
 if:ref29	ifo:internal_reference_id	"T26P003"	.
 if:ref29	ifo:ctd_number	"CTD 2.6.2.2"	.
 if:ref30	rdf:type	bibo:Article	.
-if:ref30	dct:references	if:ref26003086	.
+if:ref30	dct:references	pmid:26003086	.
 if:ref31	rdf:type	bibo:Document	.
 if:ref31	rdfs:label	"社内資料"	.
 if:ref31	dct:dateAccepted	"2014-3-24"	.
@@ -763,7 +765,7 @@ if:ref55	dct:dateAccepted	"2014-3-24"	.
 if:ref55	ifo:internal_reference_id	"T26A017"	.
 if:ref55	ifo:ctd_number	"CTD 2.6.4.6"	.
 if:ref56	rdf:type	bibo:Article	.
-if:ref56	dct:references	if:ref26489961	.
+if:ref56	dct:references	pmid:26489961	.
 if:ref57	rdf:type	bibo:Document	.
 if:ref57	rdfs:label	"社内資料"	.
 if:ref57	dct:dateAccepted	"2014-3-24"	.
@@ -775,9 +777,9 @@ if:ref58	dct:dateAccepted	"2014-3-24"	.
 if:ref58	ifo:internal_reference_id	"T26A018"	.
 if:ref58	ifo:ctd_number	"CTD 2.6.4.5"	.
 if:ref59	rdf:type	bibo:Article	.
-if:ref59	dct:references	if:ref27347703	.
+if:ref59	dct:references	pmid:27347703	.
 if:ref60	rdf:type	bibo:Article	.
-if:ref60	dct:references	if:ref27324291	.
+if:ref60	dct:references	pmid:27324291	.
 if:ref61	rdf:type	bibo:Document	.
 if:ref61	rdfs:label	"社内資料"	.
 if:ref61	dct:dateAccepted	"2014-3-24"	.
@@ -789,7 +791,7 @@ if:ref62	dct:dateAccepted	"2014-3-24"	.
 if:ref62	ifo:internal_reference_id	"T26A020"	.
 if:ref62	ifo:ctd_number	"CTD 2.6.4.7"	.
 if:ref63	rdf:type	bibo:Article	.
-if:ref63	dct:references	if:ref25975816	.
+if:ref63	dct:references	pmid:25975816	.
 if:ref64	rdf:type	bibo:Document	.
 if:ref64	rdfs:label	"社内資料"	.
 if:ref64	dct:dateAccepted	"2014-3-24"	.
@@ -811,9 +813,9 @@ if:ref67	dct:dateAccepted	"2014-3-24"	.
 if:ref67	ifo:internal_reference_id	"T26A023"	.
 if:ref67	ifo:ctd_number	"CTD 2.7.2.3"	.
 if:ref68	rdf:type	bibo:Article	.
-if:ref68	dct:references	if:ref29693800	.
+if:ref68	dct:references	pmid:29693800	.
 if:ref69	rdf:type	bibo:Article	.
-if:ref69	dct:references	if:ref28783873	.
+if:ref69	dct:references	pmid:28783873	.
 if:ref70	rdf:type	bibo:Document	.
 if:ref70	rdfs:label	"社内資料"	.
 if:ref70	dct:dateAccepted	"2014-3-24"	.
@@ -855,7 +857,7 @@ if:ref77	dct:dateAccepted	"2014-3-24"	.
 if:ref77	ifo:internal_reference_id	"T26P018"	.
 if:ref77	ifo:ctd_number	"CTD 2.6.2.2"	.
 if:ref78	rdf:type	bibo:Article	.
-if:ref78	dct:references	if:ref23492941	.
+if:ref78	dct:references	pmid:23492941	.
 if:ref79	rdf:type	bibo:Document	.
 if:ref79	rdfs:label	"社内資料"	.
 if:ref79	dct:dateAccepted	"2014-3-24"	.
@@ -881,3 +883,86 @@ if:ref83	rdfs:label	"社内資料"	.
 if:ref83	dct:dateAccepted	"2014-3-24"	.
 if:ref83	ifo:internal_reference_id	"T26T006"	.
 if:ref83	ifo:ctd_number	"CTD 2.6.6.6"	.
+if:IF_11_1	dct:references	if:ref1	.
+if:IF_11_1	dct:references	if:ref2	.
+if:IF_11_1	dct:references	if:ref3	.
+if:IF_11_1	dct:references	if:ref4	.
+if:IF_11_1	dct:references	if:ref5	.
+if:IF_11_1	dct:references	if:ref6	.
+if:IF_11_1	dct:references	if:ref7	.
+if:IF_11_1	dct:references	if:ref8	.
+if:IF_11_1	dct:references	if:ref9	.
+if:IF_11_1	dct:references	if:ref10	.
+if:IF_11_1	dct:references	if:ref11	.
+if:IF_11_1	dct:references	if:ref12	.
+if:IF_11_1	dct:references	if:ref13	.
+if:IF_11_1	dct:references	if:ref14	.
+if:IF_11_1	dct:references	if:ref15	.
+if:IF_11_1	dct:references	if:ref16	.
+if:IF_11_1	dct:references	if:ref17	.
+if:IF_11_1	dct:references	if:ref18	.
+if:IF_11_1	dct:references	if:ref19	.
+if:IF_11_1	dct:references	if:ref20	.
+if:IF_11_1	dct:references	if:ref21	.
+if:IF_11_1	dct:references	if:ref22	.
+if:IF_11_1	dct:references	if:ref23	.
+if:IF_11_1	dct:references	if:ref24	.
+if:IF_11_1	dct:references	if:ref25	.
+if:IF_11_1	dct:references	if:ref26	.
+if:IF_11_1	dct:references	if:ref27	.
+if:IF_11_1	dct:references	if:ref28	.
+if:IF_11_1	dct:references	if:ref29	.
+if:IF_11_1	dct:references	if:ref30	.
+if:IF_11_1	dct:references	if:ref31	.
+if:IF_11_1	dct:references	if:ref32	.
+if:IF_11_1	dct:references	if:ref33	.
+if:IF_11_1	dct:references	if:ref34	.
+if:IF_11_1	dct:references	if:ref35	.
+if:IF_11_1	dct:references	if:ref36	.
+if:IF_11_1	dct:references	if:ref37	.
+if:IF_11_1	dct:references	if:ref38	.
+if:IF_11_1	dct:references	if:ref39	.
+if:IF_11_1	dct:references	if:ref40	.
+if:IF_11_1	dct:references	if:ref41	.
+if:IF_11_1	dct:references	if:ref42	.
+if:IF_11_1	dct:references	if:ref43	.
+if:IF_11_1	dct:references	if:ref44	.
+if:IF_11_1	dct:references	if:ref45	.
+if:IF_11_1	dct:references	if:ref46	.
+if:IF_11_1	dct:references	if:ref47	.
+if:IF_11_1	dct:references	if:ref48	.
+if:IF_11_1	dct:references	if:ref49	.
+if:IF_11_1	dct:references	if:ref50	.
+if:IF_11_1	dct:references	if:ref51	.
+if:IF_11_1	dct:references	if:ref52	.
+if:IF_11_1	dct:references	if:ref53	.
+if:IF_11_1	dct:references	if:ref54	.
+if:IF_11_1	dct:references	if:ref55	.
+if:IF_11_1	dct:references	if:ref56	.
+if:IF_11_1	dct:references	if:ref57	.
+if:IF_11_1	dct:references	if:ref58	.
+if:IF_11_1	dct:references	if:ref59	.
+if:IF_11_1	dct:references	if:ref60	.
+if:IF_11_1	dct:references	if:ref61	.
+if:IF_11_1	dct:references	if:ref62	.
+if:IF_11_1	dct:references	if:ref63	.
+if:IF_11_1	dct:references	if:ref64	.
+if:IF_11_1	dct:references	if:ref65	.
+if:IF_11_1	dct:references	if:ref66	.
+if:IF_11_1	dct:references	if:ref67	.
+if:IF_11_1	dct:references	if:ref68	.
+if:IF_11_1	dct:references	if:ref69	.
+if:IF_11_1	dct:references	if:ref70	.
+if:IF_11_1	dct:references	if:ref71	.
+if:IF_11_1	dct:references	if:ref72	.
+if:IF_11_1	dct:references	if:ref73	.
+if:IF_11_1	dct:references	if:ref74	.
+if:IF_11_1	dct:references	if:ref75	.
+if:IF_11_1	dct:references	if:ref76	.
+if:IF_11_1	dct:references	if:ref77	.
+if:IF_11_1	dct:references	if:ref78	.
+if:IF_11_1	dct:references	if:ref79	.
+if:IF_11_1	dct:references	if:ref80	.
+if:IF_11_1	dct:references	if:ref81	.
+if:IF_11_1	dct:references	if:ref82	.
+if:IF_11_1	dct:references	if:ref83	.
