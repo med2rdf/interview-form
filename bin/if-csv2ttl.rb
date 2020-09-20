@@ -1,14 +1,37 @@
 #!/usr/bin/env ruby
 #
 # Usage:
-#  $ ruby if-csv2ttl.rb drug/meta.csv drug/if.csv drug/ref.csv > drug.ttl
+#  $ ruby if-csv2ttl.rb drugs/drug/meta.csv drugs/drug/if.csv drugs/drug/ref.csv [ontology/ifo.ttl] > drug.ttl
 #
 
 require 'csv'
 
+class IFO
+
+  attr_reader :sections, :if2pi
+  
+  def initialize(ifo_file)
+    @if2pi = {}
+    @sections = []
+    if_id = pi_id = ''
+    File.open(ifo_file).each do |line|
+      case line
+      when /^:IF_/
+        if_id = line.strip.sub(/^:/, '')
+        @sections << "if:#{if_id}"
+      when /^\s+:package_insert/
+        pi_id = line.strip.split(/\s+/)[-2].sub('pio:', '')
+        @if2pi[if_id] = pi_id
+      end
+    end
+  end
+
+end
+
 class InterviewFormCSV2RDF
 
-  def initialize(meta_file, if_file, ref_file)
+  def initialize(meta_file, if_file, ref_file, ifo_file = "ontology/ifo.ttl")
+    @ifo = IFO.new(ifo_file)
     meta_csv = CSV.parse(File.read(meta_file), headers: true)
     if_csv   = CSV.parse(File.read(if_file), headers: true)
     ref_csv  = CSV.parse(File.read(ref_file), headers: true)
@@ -87,7 +110,7 @@ class InterviewFormCSV2RDF
 
     triple(if_uri, "rdf:type", "ifo:InterviewForm")
 
-    sections.each do |section|
+    @ifo.sections.each do |section|
       triple(if_uri, "ifo:section", section)
     end
 
@@ -106,12 +129,8 @@ class InterviewFormCSV2RDF
     end
   end
 
-  def sections
-    [ "if:IF_0", "if:IF_1", "if:IF_1_1", "if:IF_1_2", "if:IF_1_3", "if:IF_1_4", "if:IF_1_4_1", "if:IF_1_4_2", "if:IF_1_4_3", "if:IF_1_4_4", "if:IF_1_5", "if:IF_1_5_1", "if:IF_1_5_2", "if:IF_1_6", "if:IF_2", "if:IF_2_1", "if:IF_2_1_1", "if:IF_2_1_2", "if:IF_2_1_3", "if:IF_2_2", "if:IF_2_2_1", "if:IF_2_2_2", "if:IF_2_2_3", "if:IF_2_3", "if:IF_2_4", "if:IF_2_5", "if:IF_2_6", "if:IF_3", "if:IF_3_1", "if:IF_3_1_1", "if:IF_3_1_2", "if:IF_3_1_3", "if:IF_3_1_4", "if:IF_3_1_5", "if:IF_3_1_6", "if:IF_3_1_7", "if:IF_3_2", "if:IF_3_3", "if:IF_4", "if:IF_4_1", "if:IF_4_1_1", "if:IF_4_1_2", "if:IF_4_1_3", "if:IF_4_1_4", "if:IF_4_1_5", "if:IF_4_2", "if:IF_4_2_1", "if:IF_4_2_2", "if:IF_4_2_3", "if:IF_4_3", "if:IF_4_4", "if:IF_4_5", "if:IF_4_6", "if:IF_4_7", "if:IF_4_8", "if:IF_4_9", "if:IF_4_10", "if:IF_4_10_1", "if:IF_4_10_2", "if:IF_4_10_3", "if:IF_4_10_4", "if:IF_4_11", "if:IF_4_12", "if:IF_5", "if:IF_5_1", "if:IF_5_2", "if:IF_5_3", "if:IF_5_3_1", "if:IF_5_3_2", "if:IF_5_4", "if:IF_5_5", "if:IF_5_5_1", "if:IF_5_5_2", "if:IF_5_5_3", "if:IF_5_5_4", "if:IF_5_5_4_1", "if:IF_5_5_4_2", "if:IF_5_5_5", "if:IF_5_5_6", "if:IF_5_5_6_1", "if:IF_5_5_6_2", "if:IF_5_5_7", "if:IF_6", "if:IF_6_1", "if:IF_6_2", "if:IF_6_2_1", "if:IF_6_2_2", "if:IF_6_2_3", "if:IF_7", "if:IF_7_1", "if:IF_7_1_1", "if:IF_7_1_2", "if:IF_7_1_3", "if:IF_7_1_4", "if:IF_7_2", "if:IF_7_2_1", "if:IF_7_2_2", "if:IF_7_2_3", "if:IF_7_2_4", "if:IF_7_2_5", "if:IF_7_2_6", "if:IF_7_3", "if:IF_7_3_1", "if:IF_7_3_2", "if:IF_7_4", "if:IF_7_5", "if:IF_7_5_1", "if:IF_7_5_2", "if:IF_7_5_3", "if:IF_7_5_4", "if:IF_7_5_5", "if:IF_7_5_6", "if:IF_7_6", "if:IF_7_6_1", "if:IF_7_6_2", "if:IF_7_6_3", "if:IF_7_6_4", "if:IF_7_7", "if:IF_7_8", "if:IF_7_9", "if:IF_7_10", "if:IF_7_11", "if:IF_8", "if:IF_8_1", "if:IF_8_2", "if:IF_8_3", "if:IF_8_4", "if:IF_8_5", "if:IF_8_6", "if:IF_8_6_1", "if:IF_8_6_2", "if:IF_8_6_3", "if:IF_8_6_4", "if:IF_8_6_5", "if:IF_8_6_6", "if:IF_8_6_7", "if:IF_8_6_8", "if:IF_8_7", "if:IF_8_7_1", "if:IF_8_7_2", "if:IF_8_8", "if:IF_8_8_1", "if:IF_8_8_2", "if:IF_8_9", "if:IF_8_10", "if:IF_8_11", "if:IF_8_12", "if:IF_8_12_1", "if:IF_8_12_2", "if:IF_9", "if:IF_9_1", "if:IF_9_1_1", "if:IF_9_1_2", "if:IF_9_1_3", "if:IF_9_2", "if:IF_9_2_1", "if:IF_9_2_2", "if:IF_9_2_3", "if:IF_9_2_4", "if:IF_9_2_5", "if:IF_9_2_6", "if:IF_9_2_7", "if:IF_10", "if:IF_10_1", "if:IF_10_2", "if:IF_10_3", "if:IF_10_4", "if:IF_10_5", "if:IF_10_6", "if:IF_10_7", "if:IF_10_8", "if:IF_10_9", "if:IF_10_10", "if:IF_10_11", "if:IF_10_12", "if:IF_10_13", "if:IF_10_14", "if:IF_11", "if:IF_11_1", "if:IF_11_2", "if:IF_12", "if:IF_12_1", "if:IF_12_2", "if:IF_13" ]
-  end
-  
   def parse(csv)
-    section_id = ''
+    section_id = item_id = ''
     references = []
     csv.each do |row|
       next if empty_row?(row)
@@ -122,11 +141,20 @@ class InterviewFormCSV2RDF
       when /^IF/
         if section_id != "if:#{subject}"
           triple("if:#{subject}", "rdf:type", "ifo:#{subject}")
+          if pi_id = @ifo.if2pi[subject]
+            triple("if:#{subject}", "ifo:package_insert", "pi:#{pi_id}")
+          end
         end
-        subject = "if:#{subject}"
-        section_id = subject
+        subject = section_id = "if:#{subject}"
       when /^item/
-        subject = "#{section_id}.#{subject}"
+        item = subject
+        if "#{section_id}.#{item}" != item_id
+          if_id = section_id.sub(/^if:/, '')
+          if pi_id = @ifo.if2pi[if_id]
+            triple("#{section_id}.#{item}", "ifo:package_insert", "pi:#{pi_id}.#{item}")
+          end
+        end
+        subject = item_id = "#{section_id}.#{item}"
       when /^\d+$/
         subject = "if:ref#{subject}"
         references << subject
