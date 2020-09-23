@@ -54,9 +54,12 @@ class InterviewFormCSV2RDF
       "\"#{str}\"^^xsd:gYearMonth"
     when /\A\d{4}\z/
       "\"#{str}\"^^xsd:gYear"
-    else
+    when /\A\p{ascii}+\Z/
       # "\"#{str}\""
       str.inspect
+    else
+      # "\"#{str}\"@ja"
+      str.inspect + "@ja"
     end
   end
 
@@ -130,7 +133,7 @@ class InterviewFormCSV2RDF
   end
 
   def parse(csv)
-    section_id = item_id = ''
+    section_uri = item_uri = ''
     references = []
     csv.each do |row|
       next if empty_row?(row)
@@ -139,22 +142,26 @@ class InterviewFormCSV2RDF
 
       case subject
       when /^IF/
-        if section_id != "if:#{subject}"
-          triple("if:#{subject}", "rdf:type", "ifo:#{subject}")
+        section = subject
+        if section_uri != "if:#{section}"
+          section_uri = "if:#{section}"
+          triple(section_uri, "rdf:type", "ifo:#{subject}")
           if pi_id = @ifo.if2pi[subject]
-            triple("if:#{subject}", "ifo:package_insert", "pi:#{pi_id}")
+            triple(section_uri, "ifo:package_insert", "pi:#{pi_id}")
           end
         end
-        subject = section_id = "if:#{subject}"
+        subject = section_uri = "if:#{subject}"
       when /^item/
         item = subject
-        if "#{section_id}.#{item}" != item_id
-          if_id = section_id.sub(/^if:/, '')
+        if item_uri != "#{section_uri}.#{item}"
+          item_uri = "#{section_uri}.#{item}"
+          if_id = section_uri.sub(/^if:/, '')
           if pi_id = @ifo.if2pi[if_id]
-            triple("#{section_id}.#{item}", "ifo:package_insert", "pi:#{pi_id}.#{item}")
+            triple(item_uri, "ifo:package_insert", "pi:#{pi_id}.#{item}")
+            triple(item_uri, "dct:identifier", "#{if_id.sub('IF_', '').gsub('_', '.')}.#{item}")
           end
         end
-        subject = item_id = "#{section_id}.#{item}"
+        subject = item_uri = "#{section_uri}.#{item}"
       when /^\d+$/
         subject = "if:ref#{subject}"
         references << subject
@@ -185,7 +192,7 @@ class InterviewFormCSV2RDF
         end
       when /ifo:item/
         object.strip.split(/,\s*/).each do |item|
-          triple(subject, predicate, "#{section_id}.#{item}")
+          triple(subject, predicate, "#{section_uri}.#{item}")
         end
       else
         triple(subject, predicate, object)
