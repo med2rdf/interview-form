@@ -26,7 +26,7 @@
     pio:therapeutic_classification "選択的β<Sub>3</Sub>アドレナリン受容体作動性過活動膀胱治療剤" ;
     pio:trademark_name "Betanis Tablets 25mg" ;
     pio:version "第1版" ;
-    pio:yjcode "2590014F1021" ;
+    pio:yj_code "2590014F1021" ;
     dct:identifier "800126_2590014F1021_1_12" .
 
 pi:PI_10_1
