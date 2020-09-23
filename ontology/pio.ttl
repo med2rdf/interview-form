@@ -23,6 +23,29 @@
 :interview_form
     a owl:ObjectProperty .
 
+# :approval_brand_name
+# :approval_no
+# :company_identifier
+# :contra_indication
+# :date_of_preparation_or_revision
+# :generic_name
+# :name_in_hiragana
+# :precautions_for_combination
+# :regulatory_classification_code_and_note
+# :regulatory_classification_code
+# :sccj_no
+# :shelf_life
+# :starting_date_of_marketing
+# :storage_method
+# :therapeutic_classification
+# :trademark_name
+# :version
+# :yjcode
+# :drug
+# :clin_symptoms_and_measures
+# :drug_name
+# :mechanism_and_risk_factors
+
 :PI_0
     a owl:Class ;
     dct:identifier "0" ;
