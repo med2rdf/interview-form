@@ -1,0 +1,95 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12>
+    pio:approval_brand_name "ベタニス錠25mg" ;
+    pio:approval_no "22300AMX00592" ;
+    pio:company_identifier "800126" ;
+    pio:contra_indication <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_1> ;
+    pio:date_of_preparation_or_revision "2019-07" ;
+    pio:generic_name "Mirabegron", "ミラベグロン錠" ;
+    pio:name_in_hiragana "べたにすじょうにじゅうごみりぐらむ" ;
+    pio:precautions_for_combination <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2> ;
+    pio:regulatory_classification_code_and_note [
+        pio:regulatory_classification_code 2
+    ], [
+        pio:regulatory_classification_code 12
+    ] ;
+    pio:sccj_no "87259" ;
+    pio:shelf_life "3年" ;
+    pio:starting_date_of_marketing "2011-09" ;
+    pio:storage_method "室温保存" ;
+    pio:therapeutic_classification "選択的β<Sub>3</Sub>アドレナリン受容体作動性過活動膀胱治療剤" ;
+    pio:trademark_name "Betanis Tablets 25mg" ;
+    pio:version "第1版" ;
+    pio:yj_code "2590014F1021" ;
+    dct:identifier "800126_2590014F1021_1_12" .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_1>
+    pio:drug <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_1:item1> .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_1:item1>
+    pio:clin_symptoms_and_measures "QT延長、心室性不整脈（Torsades de Pointesを含む）等を起こすおそれがある。" ;
+    pio:drug_name "フレカイニド酢酸塩", "プロパフェノン塩酸塩" ;
+    pio:mechanism_and_risk_factors "ともに催不整脈作用があり、また本剤のCYP2D6阻害作用により、これらの薬剤の血中濃度が上昇する可能性がある。" ;
+    a pio:Drug .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2>
+    pio:precautions_for_combi <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item1>, <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item2>, <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item3>, <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item4>, <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item5>, <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item6>, <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item7>, <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item8> ;
+    a pio:PrecautionsForCombination .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item1>
+    pio:clin_symptoms_and_measures "頻脈、心室細動発現の危険性が増大する。" ;
+    pio:drug_name "カテコールアミン" ;
+    pio:mechanism_and_risk_factors "カテコールアミンの併用によりアドレナリン作動性神経刺激の増大が起こる。" ;
+    pio:sub_items "アドレナリン", "イソプレナリン", "等" ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item2>
+    pio:clin_symptoms_and_measures "心拍数増加等があらわれるおそれがある。" ;
+    pio:drug_name "アタザナビル", "イトラコナゾール", "インジナビル", "クラリスロマイシン", "サキナビル", "ネルフィナビル", "リトナビル" ;
+    pio:mechanism_and_risk_factors "これらの薬剤はCYP3A4を強く阻害し、また一部の薬剤はP-糖蛋白の阻害作用も有することから、併用により本剤の血中濃度が上昇する可能性がある。" ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item3>
+    pio:clin_symptoms_and_measures "本剤の作用が減弱する可能性がある。" ;
+    pio:drug_name "カルバマゼピン", "フェニトイン", "リファンピシン" ;
+    pio:mechanism_and_risk_factors "これらの薬剤はCYP3A4及びP-糖蛋白を誘導し、併用により本剤の血中濃度が低下する可能性がある。" ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item4>
+    pio:clin_symptoms_and_measures "これらの薬剤の作用を増強するおそれがある。" ;
+    pio:drug_name "CYP2D6の基質" ;
+    pio:mechanism_and_risk_factors "本剤のCYP2D6阻害作用により、これらの薬剤又はその活性代謝物の血中濃度が上昇する可能性がある。" ;
+    pio:sub_items "デキストロメトルファン", "ドネペジル", "フェノチアジン系抗精神病剤", "等" ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item5>
+    pio:clin_symptoms_and_measures "これらの薬剤の作用を増強するおそれがある。" ;
+    pio:drug_name "三環系抗うつ剤" ;
+    pio:mechanism_and_risk_factors "本剤のCYP2D6阻害作用により、これらの薬剤又はその活性代謝物の血中濃度が上昇する可能性がある。" ;
+    pio:sub_items "アミトリプチリン塩酸塩", "イミプラミン塩酸塩", "ノルトリプチリン塩酸塩", "等" ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item6>
+    pio:clin_symptoms_and_measures "メトプロロールの作用を増強するおそれがある。" ;
+    pio:drug_name "メトプロロール" ;
+    pio:mechanism_and_risk_factors "本剤のCYP2D6阻害作用により、これらの薬剤又はその活性代謝物の血中濃度が上昇する可能性がある。" ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item7>
+    pio:clin_symptoms_and_measures "QT延長、心室性不整脈（Torsades de Pointesを含む）等を起こすおそれがある。" ;
+    pio:drug_name "ピモジド" ;
+    pio:mechanism_and_risk_factors "本剤のCYP2D6阻害作用により、ピモジドの血中濃度が上昇する可能性があり、かつ本剤及びピモジドがともに催不整脈作用を有する。" ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2:item8>
+    pio:clin_symptoms_and_measures "併用する場合には、ジゴキシンの血中濃度をモニタリングすることが望ましい。" ;
+    pio:drug_name "ジゴキシン" ;
+    pio:mechanism_and_risk_factors "本剤のP-糖蛋白阻害作用により、ジゴキシンの血中濃度が上昇する可能性がある。" ;
+    a pio:PrecautionsForCombi .
+

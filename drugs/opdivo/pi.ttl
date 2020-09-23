@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+
+<http://med2rdf.org/pi/180188_4291427A1024_1_39>
+    pio:approval_brand_name "オプジーボ点滴静注20mg" ;
+    pio:approval_no "22600AMX00768" ;
+    pio:company_identifier "180188" ;
+    pio:contra_indication <http://med2rdf.org/pi/180188_4291427A1024_1_39#PI_10_1> ;
+    pio:date_of_preparation_or_revision "2020-02" ;
+    pio:generic_name "ニボルマブ（遺伝子組換え）" ;
+    pio:precautions_for_combination <http://med2rdf.org/pi/180188_4291427A1024_1_39#PI_10_2> ;
+    pio:regulatory_classification_code_and_note [
+        pio:regulatory_classification_code 2
+    ], [
+        pio:regulatory_classification_code 12
+    ], [
+        pio:regulatory_classification_code 13
+    ] ;
+    pio:sccj_no "874291" ;
+    pio:shelf_life "36箇月" ;
+    pio:starting_date_of_marketing "2014-09" ;
+    pio:storage_method "2～8℃で保存" ;
+    pio:therapeutic_classification "－抗悪性腫瘍剤－" ;
+    pio:trademark_name "OPDIVO I.V. Infusion" ;
+    pio:version "第1版" ;
+    pio:yj_code "4291427A1024" ;
+    dct:identifier "180188_4291427A1024_1_39" .
+
+<http://med2rdf.org/pi/180188_4291427A1024_1_39#PI_10_2>
+    pio:precautions_for_combi <http://med2rdf.org/pi/180188_4291427A1024_1_39#PI_10_2:item1> ;
+    a pio:PrecautionsForCombination .
+
+<http://med2rdf.org/pi/180188_4291427A1024_1_39#PI_10_2:item1>
+    pio:clin_symptoms_and_measures "接種したワクチンに対する過度な免疫応答に基づく症状が発現した場合には適切な処置を行うこと。" ;
+    pio:drug_name "生ワクチン" ;
+    pio:mechanism_and_risk_factors "本剤のT細胞活性化作用による過度の免疫反応が起こるおそれがある。" ;
+    a pio:PrecautionsForCombi .
+
