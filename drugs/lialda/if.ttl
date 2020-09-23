@@ -1,0 +1,1441 @@
+@prefix	if:	<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F#>	.
+@prefix	pi:	<http://med2rdf.org/pi/790005_2399009F4024_1_07#>	.
+
+@prefix yjc:   <http://med2rdf.org/if/yjcode/> .
+@prefix pio:   <http://med2rdf.org/ontology/pio/> .
+@prefix ifo:   <http://med2rdf.org/ontology/ifo/> .
+
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
+@prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	rdf:type	ifo:InterviewForm	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_7	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_8	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_9	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_10	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_11	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_12	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_13	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_14	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_15	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_16	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_17	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_18	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_19	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_0_20	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_4_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_4_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_4_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_4_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_5_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_5_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_1_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_1_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_1_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_1_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_2_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_2_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_2_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_2_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3_1_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3_1_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3_1_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3_1_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3_1_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3_1_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3_1_7	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_3_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_1_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_1_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_1_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_1_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_1_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_2_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_2_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_2_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_7	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_8	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_9	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_10	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_10_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_10_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_10_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_10_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_11	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_4_12	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_3_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_3_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_4_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_4_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_6_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_6_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_5_5_7	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_6_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_6_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_6_2_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_6_2_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_6_2_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_1_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_1_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_1_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_1_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_2_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_2_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_2_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_2_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_2_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_2_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_3_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_3_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_5_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_5_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_5_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_5_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_5_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_5_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_6_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_6_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_6_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_6_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_7	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_8	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_9	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_10	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_7_11	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_6_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_6_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_6_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_6_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_6_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_6_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_6_7	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_6_8	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_7	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_7_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_7_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_8	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_8_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_8_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_9	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_10	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_11	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_12	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_12_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_8_12_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_1_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_1_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_1_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_2_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_2_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_2_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_2_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_2_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_2_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_9_2_7	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_3	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_4	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_5	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_6	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_7	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_8	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_9	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_10	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_11	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_12	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_13	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_10_14	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_11	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_11_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_11_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_12	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_12_1	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_12_2	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:section	if:IF_13	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:package_insert	<http://med2rdf.org/pi/790005_2399009F4024_1_07>	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	dct:identifier	"790005_2399009F4024_1_M07_1F"	.
+<http://med2rdf.org/pi/790005_2399009F4024_1_07>	dct:identifier	"790005_2399009F4024_1_07"	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	rdfs:seeAlso	<https://www.info.pmda.go.jp/go/interview/1/790005_2399009F4024_1_M07_1F>	.
+<http://med2rdf.org/pi/790005_2399009F4024_1_07>	rdfs:seeAlso	<https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/790005_2399009F4024_1_07>	.
+<http://med2rdf.org/if/790005_2399009F4024_1_M07_1F>	ifo:yjcode	yjc:2399009F4024	.
+yjc:2399009F4024	ifo:if_0_8	"リアルダ錠1200ｍｇ"@ja	.
+yjc:2399009F4024	ifo:if_0_9	"フィルムコーティング錠（放出制御製剤－素錠部：マトリックス型徐放性/被膜部：pH応答性）"@ja	.
+yjc:2399009F4024	ifo:if_0_11	"1錠中日局 メサラジン1200mg含有"@ja	.
+yjc:2399009F4024	ifo:if_0_13	"2016-09-28"^^xsd:date	.
+yjc:2399009F4024	ifo:if_0_14	"2016-11-18"^^xsd:date	.
+yjc:2399009F4024	ifo:if_0_15	"2016-11-28"^^xsd:date	.
+yjc:2399009F4024	ifo:if_10_8	"22800AMX00689000"	.
+yjc:2399009F4024	ifo:yakka_code	"2399009F4024"	.
+yjc:2399009F4024	ifo:yj_code	"2399009F4024"	.
+yjc:2399009F4024	ifo:hot_code	"125170801"	.
+yjc:2399009F4024	ifo:resept_code	"622517001"	.
+if:IF_0_3	rdf:type	ifo:IF_0_3	.
+if:IF_0_3	dct:modified	"2020-07"^^xsd:gYearMonth	.
+if:IF_0_3	pav:version	"7"	.
+if:IF_0_4	rdf:type	ifo:IF_0_4	.
+if:IF_0_4	ifo:package_insert	pi:PI_0_2	.
+if:IF_0_4	rdf:value	"872399"	.
+if:IF_0_6	rdf:type	ifo:IF_0_6	.
+if:IF_0_6	rdf:value	"2018"^^xsd:gYear	.
+if:IF_0_7	rdf:type	ifo:IF_0_7	.
+if:IF_0_7	ifo:package_insert	pi:PI_0_5	.
+if:IF_0_7	rdf:value	"潰瘍性大腸炎治療剤"@ja	.
+if:IF_0_8	rdf:type	ifo:IF_0_8	.
+if:IF_0_8	ifo:package_insert	pi:PI_0_7	.
+if:IF_0_8	rdf:value	"リアルダ錠1200㎎"@ja	.
+if:IF_0_10	rdf:type	ifo:IF_0_10	.
+if:IF_0_10	ifo:package_insert	pi:PI_0_6	.
+if:IF_0_10	rdf:value	"処方箋医薬品（注意－医師等の処方箋により使用すること）"@ja	.
+if:IF_0_12	rdf:type	ifo:IF_0_12	.
+if:IF_0_12	ifo:package_insert	pi:PI_0_7	.
+if:IF_0_12	rdf:value	"メサラジン（JAN）"@ja	.
+if:IF_0_12	rdf:value	"Mesalazine（JAN）, mesalazine（INN）"@ja	.
+if:IF_0_16	rdf:type	ifo:IF_0_16	.
+if:IF_0_16	ifo:package_insert	pi:PI_26	.
+if:IF_0_16	rdf:value	"製造販売元：持田製薬株式会社, 提携：Nogra Pharma"@ja	.
+if:IF_0_18	rdf:type	ifo:IF_0_18	.
+if:IF_0_18	ifo:package_insert	pi:PI_24	.
+if:IF_0_18	rdf:value	"持田製薬株式会社 くすり相談窓口"@ja	.
+if:IF_0_19	rdf:type	ifo:IF_0_19	.
+if:IF_0_19	ifo:package_insert	pi:PI_0_1	.
+if:IF_0_19	rdf:value	"2019-11"^^xsd:gYearMonth	.
+if:IF_1_1	rdf:type	ifo:IF_1_1	.
+if:IF_1_1	rdf:value	"潰瘍性大腸炎は、「主として粘膜を侵し、しばしば、びらんや潰瘍を形成する大腸の原因不明のびまん性非特異性炎症」と定義される慢性難治性炎症性腸疾患で、厚生労働省の特定疾患に指定されている1)。代表的な臨床症状は、持続性または反復性の血便もしくは粘血便で、しばしば、下痢、腹痛、発熱を伴うが、罹患部位、罹患範囲及び炎症の程度によって、多彩な臨床症状を呈する2)。\n 潰瘍性大腸炎は発症原因が明確にはわかっていないため、現在でも根治的な治療法は確立されておらず、寛解と再燃を繰り返すため長期にわたる内科治療が必要となっている。内科治療の基本は病態に応じた治療を選択し症状をコントロールすることであり、治療の目標は速やかに寛解導入を図り、寛解を長期に維持することである。内科治療のうち、5-アミノサリチル酸（化学名、一般名はメサラジン）製剤（以後は5-ASA製剤と表記）は、直腸炎型の患者や軽症から中等症の左側大腸炎型・全大腸炎型の患者の寛解導入療法及び寛解維持療法の基本的治療薬とされており、潰瘍性大腸炎の活動期及び寛解期を通じて長期に渡り使用されている3)。\n 5-ASA製剤は、有効成分であるメサラジンが病変部位である大腸粘膜で作用して炎症を抑制すると考えられており、その治療効果は大腸粘膜中濃度と相関すると報告されている4)。メサラジンはそのまま経口投与すると速やかに上部消化管で吸収されるため5)、上部消化管でのメサラジンの吸収を抑制し大腸に効率的にメサラジンを送達するよう工夫した経口剤が開発されている。国内ではサラゾスルファピリジン錠、時間依存型メサラジン放出調節製剤及びpH依存型メサラジン放出調節製剤が承認されている。これまでの潰瘍性大腸炎治療指針では、寛解導入時には、国内外の報告より高用量の効果が高いことから、病変範囲及び病型等によらず、時間依存型メサラジン放出調節製剤では4,000mg/日が望ましく、pH依存型メサラジン放出調節製剤では3,600mg/日が望ましいとされている3, 6)。そのため、現在の活動期の潰瘍性大腸炎に対する経口5-ASA製剤による治療の主体は高用量であると考えられる。\n 経口5-ASA製剤による潰瘍性大腸炎の治療においては、潰瘍性大腸炎が慢性疾患であり若年の患者が多いこともあり、服薬アドヒアランスの不良が課題とされている。経口5-ASA製剤の服薬アドヒアランスを良好に維持するには、複雑な処方は服薬アドヒアランスに影響するとされ、服薬回数及び服薬錠数が少ない方が有効とされている7)。国内の経口5-ASA製剤は、時間依存型メサラジン放出調節製剤が寛解維持治療に1日1回投与が認められているのみで、活動期から寛解期を通して1日1回での投与が可能な経口5-ASA製剤はない。また、国内の経口5-ASA製剤の1日あたりの服薬錠数は3～16錠であることから、錠数を少なくすることも有用である。\n リアルダ錠は、Cosmo Pharmaceutical社（アイルランド）が開発したメサラジンの経口DDS（Drug Delivery System）製剤である。本剤はメサラジンを親水性基剤及び親油性基剤からなるマトリックス中に分散させた素錠部にpH 応答性の高分子フィルムによるコーティングを施している。そのため、胃内および小腸付近でのメサラジンの放出が抑制され、本剤が大腸付近へ移行すると、高分子フィルムが溶解して素錠部が腸液にさらされ、親水性基剤及び親油性基剤が腸液の素錠部内部への浸透を抑制し、メサラジンが徐々に消化管中に放出される。すなわち、本剤はメサラジンを標的部位である大腸に送達するとともに、大腸全域に持続的に放出することが可能な放出制御製剤である。\n リアルダ錠は、オランダで2006年12月に世界で初めて承認された。その後、Lialda®/Mezavant®等の商品名で海外の各国でも承認され、2016年2月時点で、世界37ヵ国で軽症から中等症の潰瘍性大腸炎の寛解導入及び寛解維持の承認を取得している。\n 本邦では、持田製薬株式会社がリアルダ錠の開発・販売権をShire社（アイルランド）の子会社であるShire Pharmaceuticals Group社（英国）から取得、国内での開発に着手し、2016年9月に「潰瘍性大腸炎（重症を除く）」に対する新規DDSの経口メサラジン製剤として承認を取得した。"@ja	.
+if:IF_1_1	dct:references	if:ref1	.
+if:IF_1_1	dct:references	if:ref2	.
+if:IF_1_1	dct:references	if:ref3	.
+if:IF_1_1	dct:references	if:ref4	.
+if:IF_1_1	dct:references	if:ref5	.
+if:IF_1_1	dct:references	if:ref6	.
+if:IF_1_2	rdf:type	ifo:IF_1_2	.
+if:IF_1_2	ifo:package_insert	pi:PI_11_1	.
+if:IF_1_2	rdf:value	"（1）活動期の潰瘍性大腸炎において、リアルダ錠4,800mg/日（1日1回）投与のpH依存型メサラジン放出調節製剤3,600mg/日（1日3回）投与に対する非劣性が検証され、優越性も確認された。また、いずれの病変範囲及び病型に対しても良好な寛解導入効果が得られた。（13～22頁参照）\n （2）寛解期の潰瘍性大腸炎において、リアルダ錠2,400mg/日（1日1回）投与の時間依存型メサラジン放出調節製剤2,250mg/日（1日3回）投与に対する非劣性が検証された。（23～27頁参照）\n （3）リアルダ錠は潰瘍性大腸炎の活動期から寛解期を通して「1日1回」の投与が可能であり、良好な服薬アドヒアランスが期待できる。\n （4）重大な副作用として、下記が報告されている。（46～47頁参照）\n 1）再生不良性貧血、汎血球減少症、無顆粒球症、白血球減少症、好中球減少症、 血小板減少症（頻度不明）\n 2）心膜炎（0.1～1％未満）、心筋炎、胸膜炎（頻度不明）\n 3）間質性肺疾患（間質性肺炎、器質化肺炎、胞隔炎、好酸球性肺炎等）（0.1～1％未満）\n 4）膵炎（頻度不明）\n 5）間質性腎炎、ネフローゼ症候群、腎不全（頻度不明）\n 6）肝機能障害、肝炎、黄疸（頻度不明）"@ja	.
+if:IF_1_2	rdfs:seeAlso	"if:IF 13～22頁"@ja	.
+if:IF_1_2	rdfs:seeAlso	"23～27頁"@ja	.
+if:IF_1_2	rdfs:seeAlso	"46～47頁"@ja	.
+if:IF_1_3	rdf:type	ifo:IF_1_3	.
+if:IF_1_3	rdf:value	"リアルダ錠の製剤学的特性は、メサラジンを親水性基剤及び親油性基剤からなるマトリックス中に分散させた素錠部に、pH応答性の高分子フィルムをコーティングすることで、メサラジンを標的部位である大腸に送達し、大腸全域へ持続的に放出させることである。（8～10頁参照）"@ja	.
+if:IF_1_3	rdfs:seeAlso	if:IF8～10頁	.
+if:IF_1_4_1	rdf:type	ifo:IF_1_4_1	.
+if:IF_1_4_1	rdf:value	"有"@ja	.
+if:IF_1_4_1	rdfs:comment	"(「I.6.RMP」の項参照)"@ja	.
+if:IF_1_4_1	rdfs:seeAlso	if:IF_1_6_1	.
+if:IF_1_4_2	rdf:type	ifo:IF_1_4_2	.
+if:IF_1_4_2	rdf:value	"無"@ja	.
+if:IF_1_4_3	rdf:type	ifo:IF_1_4_3	.
+if:IF_1_4_3	rdf:value	"無"@ja	.
+if:IF_1_4_4	rdf:type	ifo:IF_1_4_4	.
+if:IF_1_4_4	rdf:value	"無"@ja	.
+if:IF_1_5_1	rdf:type	ifo:IF_1_5_1	.
+if:IF_1_5_1	ifo:package_insert	pi:PI_21	.
+if:IF_1_5_1	rdf:value	"医薬品リスク管理計画を策定の上、適切に実施すること。\n なお、本剤の「医薬品リスク管理計画」は下記URLに公表される。\n 医薬品医療機器情報提供ホームページ\n 「RMP提出品目一覧」\n http://www.pmda.go.jp/safety/info-services/drugs/items-information/rmp/0001.html"@ja	.
+if:IF_1_5_2	rdf:type	ifo:IF_1_5_2	.
+if:IF_1_5_2	ifo:package_insert	pi:PI_21	.
+if:IF_1_5_2	rdf:value	"該当しない"@ja	.
+if:IF_1_6	rdf:type	ifo:IF_1_6	.
+if:IF_1_6	ifo:package_insert	pi:PI_1	.
+if:IF_1_6	rdf:value	"医薬品リスク管理計画書（RMP）の概要 安全性検討事項 有効性に関する検討事項"@ja	.
+if:IF_2_1_1	rdf:type	ifo:IF_2_1_1	.
+if:IF_2_1_1	ifo:package_insert	pi:PI_0_7	.
+if:IF_2_1_1	rdf:value	"リアルダ®錠1200mg"@ja	.
+if:IF_2_1_2	rdf:type	ifo:IF_2_1_2	.
+if:IF_2_1_2	ifo:package_insert	pi:PI_0_7	.
+if:IF_2_1_2	rdf:value	"LIALDA® Tablets 1200mg"@ja	.
+if:IF_2_1_3	rdf:type	ifo:IF_2_1_3	.
+if:IF_2_1_3	rdf:value	"米国では販売名：Lialda、イタリアでは販売名：Mesavacol、欧州・その他各国では販売名：Mezavant / Mezavant XL / Mezavant LPの名称で販売されている。本邦では米国販売名に準じ、リアルダ®錠1200mgとした。"@ja	.
+if:IF_2_2_1	rdf:type	ifo:IF_2_2_1	.
+if:IF_2_2_1	ifo:package_insert	pi:PI_19	.
+if:IF_2_2_1	rdf:value	"メサラジン（JAN）"@ja	.
+if:IF_2_2_2	rdf:type	ifo:IF_2_2_2	.
+if:IF_2_2_2	ifo:package_insert	pi:PI_19	.
+if:IF_2_2_2	rdf:value	"Mesalazine（JAN）, mesalazine（INN）"@ja	.
+if:IF_2_2_3	rdf:type	ifo:IF_2_2_3	.
+if:IF_2_2_3	rdf:value	"サリチル酸誘導体：sal"@ja	.
+if:IF_2_4	rdf:type	ifo:IF_2_4	.
+if:IF_2_4	ifo:package_insert	pi:PI_19	.
+if:IF_2_4	rdf:value	"分子式：C7H7NO3 分子量：153.14"@ja	.
+if:IF_2_5	rdf:type	ifo:IF_2_5	.
+if:IF_2_5	ifo:package_insert	pi:PI_19	.
+if:IF_2_5	rdf:value	"5−Amino-2-hydroxybenzoic acid（IUPAC）"@ja	.
+if:IF_2_6	rdf:type	ifo:IF_2_6	.
+if:IF_2_6	ifo:package_insert	pi:PI_19	.
+if:IF_2_6	rdf:value	"慣用名：5-aminosalicylic acid, 別名：メサラミン/ Mesalamine（USAN）, 略号：5-ASA, 記号番号：MD-0901"@ja	.
+if:IF_3_1_1	rdf:type	ifo:IF_3_1_1	.
+if:IF_3_1_1	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_1	rdf:value	"白色、淡灰色又は帯赤白色の結晶又は結晶性の粉末である。"@ja	.
+if:IF_3_1_2	rdf:type	ifo:IF_3_1_2	.
+if:IF_3_1_2	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_2	rdf:value	"水に極めて溶けにくく、エタノール（99.5）にほとんど溶けない、希塩酸に溶ける。"@ja	.
+if:IF_3_1_3	rdf:type	ifo:IF_3_1_3	.
+if:IF_3_1_3	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_3	rdf:value	"吸湿性は認められない。"@ja	.
+if:IF_3_1_4	rdf:type	ifo:IF_3_1_4	.
+if:IF_3_1_4	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_4	rdf:value	"融点：280℃（分解）"@ja	.
+if:IF_3_1_5	rdf:type	ifo:IF_3_1_5	.
+if:IF_3_1_5	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_5	rdf:value	"解離定数（pKa）は5.8であった。"@ja	.
+if:IF_3_1_6	rdf:type	ifo:IF_3_1_6	.
+if:IF_3_1_6	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_6	rdf:value	"該当資料なし"@ja	.
+if:IF_3_1_7	rdf:type	ifo:IF_3_1_7	.
+if:IF_3_1_7	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_7	rdf:value	"該当資料なし"@ja	.
+if:IF_3_2	rdf:type	ifo:IF_3_2	.
+if:IF_3_2	rdf:value	"試験項目：性状、溶状、乾燥減量、類縁物質、定量"@ja	.
+if:IF_3_3	rdf:type	ifo:IF_3_3	.
+if:IF_3_3	rdf:value	"確認試験法：日局「メサラジン」の確認試験による\n 定 量 法：日局「メサラジン」の定量法による"@ja	.
+if:IF_4_1_1	rdf:type	ifo:IF_4_1_1	.
+if:IF_4_1_1	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_1	rdf:value	"フィルムコーティング錠"@ja	.
+if:IF_4_1_3	rdf:type	ifo:IF_4_1_3	.
+if:IF_4_1_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_3	rdf:value	"S476"	.
+if:IF_4_1_5	rdf:type	ifo:IF_4_1_5	.
+if:IF_4_1_5	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_5	rdf:value	"pH応答性被膜による耐酸性を有し、pH7付近で被膜が溶解した後、有効成分（メサラジン）を徐々に溶出する。（「Ⅳ. 9. 溶出性」の項参照）"@ja	.
+if:IF_4_1_5	rdfs:seeAlso	"if:IF 4. 9."	.
+if:IF_4_2_1	rdf:type	ifo:IF_4_2_1	.
+if:IF_4_2_1	ifo:package_insert	pi:PI_3_1	.
+if:IF_4_2_1	rdf:value	"「医薬品添加物の記載に関する申し合わせについて」(平成13年10月1日 日薬連発第712号)並びに「『医薬品添加物の記載に関する自主申し合わせ』の実施について」(平成14年3月13日 日薬連発第170号)に基づき全添加剤について記載した。添加剤は以下のとおり。"@ja	.
+if:IF_4_2_2	rdf:type	ifo:IF_4_2_2	.
+if:IF_4_2_2	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_2_2	rdf:value	"該当しない"@ja	.
+if:IF_4_2_3	rdf:type	ifo:IF_4_2_3	.
+if:IF_4_2_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_2_3	rdf:value	"該当しない"@ja	.
+if:IF_4_3	rdf:type	ifo:IF_4_3	.
+if:IF_4_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_3	rdf:value	"該当しない"@ja	.
+if:IF_4_4	rdf:type	ifo:IF_4_4	.
+if:IF_4_4	ifo:package_insert	pi:PI_3_1	.
+if:IF_4_4	rdf:value	"該当しない"@ja	.
+if:IF_4_5	rdf:type	ifo:IF_4_5	.
+if:IF_4_5	rdf:value	"スルファニル酸、3,5-ジアミノサリチル酸、4-アミノフェノール、2-アミノフェノール、3-アミノサリチル酸、5-アミノ-2-ヒドロキシ-3-(4-スルホフェニル)安息香酸、4-アミノサリチル酸、2,5-ジヒドロキシ安息香酸、サリチル酸"@ja	.
+if:IF_4_6	rdf:type	ifo:IF_4_6	.
+if:IF_4_6	rdf:value	"試験項目：性状、純度試験（類縁物質）、溶出性、定量"@ja	.
+if:IF_4_7	rdf:type	ifo:IF_4_7	.
+if:IF_4_7	rdf:value	"該当しない"@ja	.
+if:IF_4_8	rdf:type	ifo:IF_4_8	.
+if:IF_4_8	rdf:value	"該当資料なし"@ja	.
+if:IF_4_9	rdf:type	ifo:IF_4_9	.
+if:IF_4_9	rdf:value	"日本薬局方パドル法を用いて、段階的に試験液のpHを変化させた溶出試験において、pH1付近及びpH6付近の試験液で試験を行うとき、有効成分（メサラジン）はほとんど溶出せず、pH7付近の試験液で試験を行うとき、有効成分（メサラジン）は徐々に溶出し、6時間後の溶出率は80%以上である11)。"@ja	.
+if:IF_4_9	dct:references	if:ref11	.
+if:IF_4_10_1	rdf:type	ifo:IF_4_10_1	.
+if:IF_4_10_1	rdf:value	"該当しない"@ja	.
+if:IF_4_10_2	rdf:type	ifo:IF_4_10_2	.
+if:IF_4_10_2	ifo:package_insert	pi:PI_22	.
+if:IF_4_10_2	rdf:value	"PTP：56錠（8錠×7）"@ja	.
+if:IF_4_10_3	rdf:type	ifo:IF_4_10_3	.
+if:IF_4_10_3	rdf:value	"該当しない"@ja	.
+if:IF_4_10_4	rdf:type	ifo:IF_4_10_4	.
+if:IF_4_10_4	rdf:value	"PTP包装：ポリプロピレン、環状ポリオレフィン、アルミニウム箔\n ピロー包装：アルミラミネートフィルム"@ja	.
+if:IF_4_11	rdf:type	ifo:IF_4_11	.
+if:IF_4_11	rdf:value	"該当資料なし"@ja	.
+if:IF_4_12	rdf:type	ifo:IF_4_12	.
+if:IF_4_12	rdf:value	"海外第Ⅰ相試験－健康成人における薬物シンチグラフィー・パイロット試験－12)\n 【対象・方法】\n 海外の健康成人8例に対して、放射性物質の酸化サマリウムを混合したリアルダ（153Sm-リアルダ）1200mgを1錠またはpH依存型メサラジン放出調節製剤（153Sm-メサラジン）1200mg（400mg錠を3錠）を非盲検下2期クロスオーバーで空腹時に単回経口投与し、生体内における各製剤の崩壊時間や崩壊部位などをガンマシンチグラフィーを用いて比較検討した。\n 【結果】\n 153Sm-リアルダと153Sm-メサラジンの消化管通過プロファイルは類似していた(表Ⅳ-1)。\n 表Ⅳ-1 153Sm-リアルダおよび153Sm-メサラジンの消化管通過プロファイル\n a）小腸から結腸までの連続した画像において放射性標識製剤が移動していたため、153Sm-リアルダの3例および153Sm-メサラジンの4例の回腸盲腸移行部出現時間は計測できなかった。\n また、153Sm-リアルダは投与後4.75時間に小腸中央部から上行結腸の間で崩壊を始め、投与後17.37時間に上行結腸から下行結腸の間で完全に崩壊した。一方、153Sm-メサラジンは、投与後6.16時間に主に遠位小腸から上行結腸の間で崩壊を始め、7.27時間に主に上行結腸で完全に崩壊した（表Ⅳ-2、表Ⅳ-3）。\n 以上のことから、本剤は有効成分であるメサラジンを病変部位の大腸に送達するとともに、大腸全域に持続的に放出するものと考えられた。\n 表Ⅳ-2 153Sm-リアルダおよび153Sm-メサラジンの錠剤崩壊の要約\n 表Ⅳ-3 153Sm-リアルダおよび153Sm-メサラジンの錠剤崩壊の部位\n b）153Sm-リアルダまたは153Sm-メサラジンの崩壊開始または崩壊完了した消化管部位ごとの被験者数"@ja	.
+if:IF_4_12	dct:references	if:ref12	.
+if:IF_5_1	rdf:type	ifo:IF_5_1	.
+if:IF_5_1	ifo:package_insert	pi:PI_4	.
+if:IF_5_1	rdf:value	"潰瘍性大腸炎（重症を除く）"@ja	.
+if:IF_5_2	rdf:type	ifo:IF_5_2	.
+if:IF_5_2	ifo:package_insert	pi:PI_5	.
+if:IF_5_2	rdf:value	"設定されていない"@ja	.
+if:IF_5_3_1	rdf:type	ifo:IF_5_3_1	.
+if:IF_5_3_1	ifo:package_insert	pi:PI_6	.
+if:IF_5_3_1	rdf:value	"通常、成人にはメサラジンとして1日1回2,400mgを食後経口投与する。活動期は、通常、成人にはメサラジンとして1日1回4,800mgを食後経口投与するが、患者の状態により適宜減量する。"@ja	.
+if:IF_5_3_2	rdf:type	ifo:IF_5_3_2	.
+if:IF_5_3_2	rdf:value	"国内の薬物動態、有効性および安全性成績に基づき設定した。"@ja	.
+if:IF_5_4	rdf:type	ifo:IF_5_4	.
+if:IF_5_4	ifo:package_insert	pi:PI_7	.
+if:IF_5_4	ifo:item	if:IF_5_4.item1	.
+if:IF_5_4	ifo:item	if:IF_5_4.item2	.
+if:IF_5_4.item1	ifo:package_insert	pi:PI_7.item1	.
+if:IF_5_4.item1	dct:identifier	"5.4.item1"	.
+if:IF_5_4.item1	rdf:value	"7.1 本剤4,800mg/日（1日1回）について、軽症から中等症の活動期の潰瘍性大腸炎患者を対象とした国内の臨床試験2試験（MD090111U33試験及びMD090111U31試験）の投与期間が8週間であるため、投与開始8週間を目安に有効性を評価し、漫然と継続しない旨を設定した。"@ja	.
+if:IF_5_4.item2	ifo:package_insert	pi:PI_7.item2	.
+if:IF_5_4.item2	dct:identifier	"5.4.item2"	.
+if:IF_5_4.item2	rdf:value	" 7.2 本剤をメサラジンの注腸剤又は坐剤と併用した場合の薬物動態については確認されていない。\n そのため、肝又は腎機能の低下している患者や高齢者等、メサラジンの代謝・排泄の遅延が予想される患者群におけるメサラジンの総投与量への注意喚起として設定した。"@ja	.
+if:IF_5_5_2	rdf:type	ifo:IF_5_5_2	.
+if:IF_5_5_2	ifo:package_insert	pi:PI_17_3	.
+if:IF_5_5_2	rdf:value	"忍容性試験\n 国内第Ⅰ相臨床試験（承認時評価資料、MD090111N11試験）13)\n 健康成人を対象に本剤2,400mg/日、本剤4,800mg/日又はプラセボ錠を1日1回空腹時単回経口投与し（各群10例）、ウォッシュアウト期間の後、同じ用量を1日1回朝食後7日間反復経口投与した結果、本剤の忍容性が確認された。\n 有害事象は30例中17例（56.7％）、副作用は30例中12例（40.0％）に認められた。本剤投与群のバイタルサイン及び心電図に関して、有害事象は認められなかった。本剤の投与中止に至った有害事象は、本剤4,800mg/日群の1例に1件発現した肝機能検査異常であり、治験責任医師により本剤との因果関係は「明らかに関連あり」と判断された。当該有害事象の程度は軽度であり、特に治療することなく消失した。その他、発現したすべての有害事象はいずれも軽度であり、無処置で消失又は回復した。また、死亡を含む重篤な有害事象は認められなかった。"@ja	.
+if:IF_5_5_2	dct:references	if:ref13	.
+if:IF_5_5_3	rdf:type	ifo:IF_5_5_3	.
+if:IF_5_5_3	rdf:value	"国内では用量探索のための試験は実施していない。"@ja	.
+if:IF_5_5_4_1	rdf:type	ifo:IF_5_5_4_1	.
+if:IF_5_5_4_1	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_4_1	rdf:value	"①活動期の潰瘍性大腸炎患者に対する国内第Ⅲ相臨床試験（承認時評価資料、MD090111U33試験）14)\n 表Ⅴ-2 MD090111U33試験の概要\n 【結果】\n ＜有効性＞\n ［主要評価項目］\n A）非劣性の検証\n PPSのうちUC-DAIスコアが算出された症例において、UC-DAIスコアの変化量（平均値±標準偏差）は、本剤4,800mg/日群で−2.6±2.47、pH依存型メサラジン放出調節製剤3,600mg/日群で−1.8±2.64であった。本剤4,800mg/日群のpH依存型メサラジン放出調節製剤3,600mg/日群に対するUC-DAIスコア変化量の平均値の差（投与期開始時のUC-DAIスコアで調整）は−0.7 [95％信頼区間：−1.3～−0.1]であり、本剤4,800mg/日（1日1回）投与のpH依存型メサラジン放出調節製剤3,600mg/日（1日3回）投与に対する非劣性＊が検証された（共分散分析）。\n ＊：投与群間の平均値の差の95％信頼区間の上限が非劣性限界値1.1を下回った\n 図Ⅴ-1 UC-DAIスコア変化量（PPS）\n B）優越性の確認\n 本剤4,800mg/日（1日1回）投与のpH依存型メサラジン放出調節製剤3,600mg/日（1日3回）投与に対する非劣性が検証されたため、優越性の確認を行った。\n FASのうちUC-DAIスコアが算出された症例において、UC-DAIスコアの変化量（平均値±標準偏差）は、本剤4,800mg/日群で−2.5±2.51、pH依存型メサラジン放出調節製剤3,600mg/日群で−1.7±2.73であった。本剤4,800mg/日群のpH依存型メサラジン放出調節製剤3,600mg/日群に対するUC-DAIスコア変化量の平均値の差（投与期開始時のUC-DAIスコアで調整）は−0.8[95％信頼区間：−1.4～−0.2]であり、本剤4,800mg/日（1日1回）投与のpH依存型メサラジン放出調節製剤3,600mg/日（1日3回）投与に対する優越性が確認された（共分散分析）。\n 図Ⅴ-2 UC-DAIスコア変化量（FAS）\n ［副次評価項目］\n 副次評価項目である寛解、臨床的寛解、内視鏡的寛解、改善及びUC-DAIを構成する各スコアの変化量の成績は、主要評価項目を支持するものであった。寛解については本剤4,800mg/日群とpH依存型メサラジン放出調節製剤3,600mg/日群との差が12.8％[95%信頼区間：1.4～24.3]であった。排便回数スコアと血便スコアについてはいずれの投与群も投与2 週時から改善が認められ、血便スコアについては本剤4,800mg/日群とpH依存型メサラジン放出調節製剤3,600mg/日群との差が投与期2週時には−0.2[95%信頼区間：−0.4～0.0]、4週時には−0.3[95%信頼区間：−0.5～−0.1]、8週時には−0.3[95%信頼区間：−0.5～−0.1]であった。\n 表Ⅴ-5 寛解、臨床的寛解、内視鏡的寛解、改善（PPS）\n ［部分集団における有効性：サブグループ解析］\n 当初の計画に従い、人口統計学的変数の部分集団ごとに、PPSにおける投与期終了時のUC-DAI スコアの変化量の共分散分析を行った。\n ・病型別の有効性\n 潰瘍性大腸炎の病型別のUC-DAIスコア変化量において、初回発作型及び再燃寛解型のいずれの病型においても、全体の成績と異なる傾向は認められなかった。\n 表Ⅴ-7 病型別のUC-DAIスコア変化量（PPS、投与期終了時）\n ・病変範囲別の有効性\n 潰瘍性大腸炎の病変範囲別のUC-DAIスコア変化量において、直腸炎型及び直腸炎型以外のいずれの病変範囲においても、全体の成績と異なる傾向は認められなかった。\n 表Ⅴ-8 病変範囲別のUC-DAIスコア変化量 その1（PPS、投与期終了時）\n ・投与期開始時のUC-DAIスコア別の有効性\n 投与期開始時のUC-DAIスコア別のUC-DAIスコア変化量において、投与期開始時のUC-DAI スコア別のいずれの集団も、全体の成績と異なる傾向は認められなかった。\n 表Ⅴ-10 投与期開始時のUC-DAIスコア別のUC-DAIスコア変化量（PPS、投与期終了時）\n ＜安全性＞\n 投与期の副作用の発現率は、本剤4,800mg/日群で26.4％（37/140例）、pH依存型メサラジン放出調節製剤3,600mg/日群で22.9％（32/140例）であった。副作用の発現率において、投与群間に統計学的な有意差は認められなかった（Fisherの正確検定）。\n 主な副作用の発現率は、本剤4,800mg/日群ではβ－NアセチルDグルコサミニダーゼ増加5.0％（7/140例）、血中ビリルビン増加5.0％（7/140例）、アミラーゼ増加2.1％（3/140例）であった。pH依存型メサラジン放出調節製剤3,600mg/日群では潰瘍性大腸炎5.7％（8/140例）、β－NアセチルDグルコサミニダーゼ増加4.3％（6/140例）であった。\n いずれの群においても、死亡例は認められず、重篤な副作用は、本剤4,800mg/日群では、間質性肺疾患、器質化肺炎の各1例（0.7％）、pH依存型メサラジン放出調節製剤3,600mg/日群では、潰瘍性大腸炎2例（1.4％）、心筋炎1例（0.7％）に認められた。\n\n②寛解期の潰瘍性大腸炎患者に対する国内第Ⅲ相臨床試験（承認時評価資料、MD090111U32試験）15)\n 表Ⅴ-11 MD090111U32試験の概要\n 【結果】\n ＜有効性＞\n ［主要評価項目］\n 血便の非発現率（投与期間：48週間）は、本剤2,400mg/日群で84.8％（84/99例）、時間依存型メサラジン放出調節製剤2,250mg/日群で78.0％（78/100例）であった。本剤2,400mg/日（1日1回）投与群の時間依存型メサラジン放出調節製剤2,250mg/日（1日3回）投与に対する血便の非発現率の差は6.8％[95％信頼区間：−3.9～17.6％]であり、本剤2,400mg/日（1日1回）投与の時間依存型メサラジン放出調節製剤2,250mg/日（1日3回）投与に対する非劣性＊が検証された。\n ＊：投与群間の差の95％信頼区間の下限が非劣性限界値−10％を上回った\n\n③活動期の潰瘍性大腸炎患者に対する国内第Ⅲ相臨床試験（承認時評価資料、MD090111U31試験）16)\n 表Ⅴ-16 MD090111U31試験の概要\n 【結果】\n ＜有効性＞\n 投与終了時のUC-DAIスコアの変化量（平均値±標準偏差）は、本剤2,400mg/日群で−1.9、本剤4,800mg/日群で−3.3、時間依存型メサラジン放出調節製剤2,250mg/日群で−2.4であった。本剤2,400mg/日群と時間依存型メサラジン放出調節製剤2,250mg/日群のUC-DAIスコアの変化量の平均値の差は0.3[95％信頼区間：−0.5～1.1]であり、主要評価項目において、時間依存型メサラジン放出調節製剤2,250mg/日群に対する本剤2,400mg/日群の非劣性＊が検証されなかった。事後的に実施した多重性を考慮しない解析では、FASにおける投与期終了時のUC-DAIスコアの変化量（平均値±標準偏差）は、本剤2,400mg/日群で−1.9±2.53、本剤4,800mg/日群で−3.3±2.46、時間依存型メサラジン放出調節製剤2,250mg/日群で−2.4±2.77で、本剤4,800mg/日群の時間依存型メサラジン放出調節製剤2,250mg/日群に対するUC-DAIスコアの変化量の平均値の差（投与期開始時のUC-DAIスコアで調整）は−1.2[95%信頼区間：−2.0～−0.5]であった（p=0.002）。本試験の結果を踏まえ、追加試験としてpH依存型メサラジン放出調節製剤3,600mg/日投与に対する本剤4,800mg/日の非劣性を検証するMD090111U33試験を実施することとした。\n ＊：投与群間の平均値の差の95％信頼区間の上限が非劣性限界値1.0を下回らなかった．\n ＜安全性＞\n 投与期の副作用の発現率は、本剤2,400mg/日群で24.7％（21/85例）、本剤4,800mg/日群で27.2％（22/81例）、時間依存型メサラジン放出調節製剤2,250mg/日群で18.8％（16/85例）であった。副作用の発現率において、投与群間に統計学的な有意差は認められなかった。\n 主な副作用は、本剤2,400mg/日群ではβ-NアセチルDグルコサミニダーゼ増加7.1%（6/85例）、潰瘍性大腸炎4.7%（4/85例）であった。本剤4,800mg/日群ではβ-NアセチルDグルコサミニダーゼ増加7.4%（6/81例）、血中ビリルビン増加4.9%（4/81例）であった。時間依存型メサラジン放出調節製剤2,250mg/日群ではβ-NアセチルDグルコサミニダーゼ増加7.1%（6/85例）であった。\n いずれの群においても死亡例は認められず、重篤な副作用は本剤2,400mg/日群で潰瘍性大腸炎が1例、本剤4,800mg/日群で潰瘍性大腸炎が1例、頭痛および心膜炎（同一例）が各1例に認められた。時間依存型メサラジン放出調節製剤2,250mg/日群では認められなかった。"@ja	.
+if:IF_5_5_4_1	dct:references	if:ref14	.
+if:IF_5_5_4_1	dct:references	if:ref15	.
+if:IF_5_5_4_1	dct:references	if:ref16	.
+if:IF_5_5_4_2	rdf:type	ifo:IF_5_5_4_2	.
+if:IF_5_5_4_2	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_4_2	rdf:value	"該当資料なし"@ja	.
+if:IF_5_5_5	rdf:type	ifo:IF_5_5_5	.
+if:IF_5_5_5	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_5	rdf:value	"該当資料なし"@ja	.
+if:IF_5_5_6_1	rdf:type	ifo:IF_5_5_6_1	.
+if:IF_5_5_6_1	ifo:package_insert	pi:PI_17_2	.
+if:IF_5_5_6_1	rdf:value	"特定使用成績調査（実施中）\n 使用実態下における本剤の長期使用時の安全性及び有効性を把握する。"@ja	.
+if:IF_5_5_6_2	rdf:type	ifo:IF_5_5_6_2	.
+if:IF_5_5_6_2	ifo:package_insert	pi:PI_21	.
+if:IF_5_5_6_2	rdf:value	"該当資料なし"@ja	.
+if:IF_5_5_7	rdf:type	ifo:IF_5_5_7	.
+if:IF_5_5_7	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_7	rdf:value	"該当資料なし"@ja	.
+if:IF_6_1	rdf:type	ifo:IF_6_1	.
+if:IF_6_1	rdf:value	"サラゾスルファピリジン等"@ja	.
+if:IF_6_2_1	rdf:type	ifo:IF_6_2_1	.
+if:IF_6_2_1	ifo:package_insert	pi:PI_18_1	.
+if:IF_6_2_1	rdf:value	"作用部位：大腸\n 作用機序：in vitro及びin vivo試験の結果、メサラジンは、①活性酸素種産生の抑制17~21)、②活性酸素種による組織／細胞傷害の抑制22~24)、③ペルオキシソーム増殖因子活性化受容体γ（PPAR-γ）活性化25)、④核内因子κB（NF-κB）活性化の抑制26~28)、⑤アラキドン酸代謝物産生の抑制29, 30)及び⑥ホスホリパーゼD活性化31)を示すことが確認された。"@ja	.
+if:IF_6_2_1	dct:references	if:ref17	.
+if:IF_6_2_1	dct:references	if:ref18	.
+if:IF_6_2_1	dct:references	if:ref19	.
+if:IF_6_2_1	dct:references	if:ref20	.
+if:IF_6_2_1	dct:references	if:ref21	.
+if:IF_6_2_1	dct:references	if:ref22	.
+if:IF_6_2_1	dct:references	if:ref23	.
+if:IF_6_2_1	dct:references	if:ref24	.
+if:IF_6_2_1	dct:references	if:ref25	.
+if:IF_6_2_1	dct:references	if:ref26	.
+if:IF_6_2_1	dct:references	if:ref27	.
+if:IF_6_2_1	dct:references	if:ref28	.
+if:IF_6_2_1	dct:references	if:ref29	.
+if:IF_6_2_1	dct:references	if:ref30	.
+if:IF_6_2_1	dct:references	if:ref31	.
+if:IF_6_2_2	rdf:type	ifo:IF_6_2_2	.
+if:IF_6_2_2	ifo:package_insert	pi:PI_18	.
+if:IF_6_2_2	rdf:value	"メサラジンは、モルモットカラゲニン誘発潰瘍性大腸炎モデルの盲腸及び結腸の潰瘍数、並びにラット酢酸誘発潰瘍性大腸炎モデルの大腸の潰瘍発生率を低下させた32, 33)。また、ラット2,4,6−トリニトロベンゼンスルホン酸（TNBS）誘発潰瘍性大腸炎モデルの結腸ミエロペルオキシダーゼ（MPO）活性及び損傷スコア34)、並びにラット2,2’-アゾビス（2-アミジノプロパン）ジヒドロクロリド（AAPH）誘発潰瘍性大腸炎モデルの結腸MPO活性35)を低下させた。"@ja	.
+if:IF_6_2_2	dct:references	if:ref32	.
+if:IF_6_2_2	dct:references	if:ref33	.
+if:IF_6_2_2	dct:references	if:ref34	.
+if:IF_6_2_2	dct:references	if:ref35	.
+if:IF_6_2_3	rdf:type	ifo:IF_6_2_3	.
+if:IF_6_2_3	ifo:package_insert	pi:PI_18_1	.
+if:IF_6_2_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_1_1	rdf:type	ifo:IF_7_1_1	.
+if:IF_7_1_1	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_1_1	rdf:value	"該当資料なし"@ja	.
+if:IF_7_1_2	rdf:type	ifo:IF_7_1_2	.
+if:IF_7_1_2	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_1_2	ifo:item	if:IF_7_1_2.item1	.
+if:IF_7_1_2	ifo:item	if:IF_7_1_2.item2	.
+if:IF_7_1_2	ifo:item	if:IF_7_1_2.item3	.
+if:IF_7_1_2.item1	ifo:package_insert	pi:PI_16_1.item1	.
+if:IF_7_1_2.item1	dct:identifier	"7.1.2.item1"	.
+if:IF_7_1_2.item1	rdf:value	"1）単回投与試験13)\n 国内の健康成人男女を対象に、本剤2,400mg及び4,800mgを空腹時単回経口投与（各10例）したときの血漿中未変化体濃度の推移及び薬物動態パラメータは以下のとおりであった。\n 図Ⅶ-1 空腹時単回経口投与における血漿中未変化体濃度の推移"@ja	.
+if:IF_7_1_2.item1	dct:references	if:ref13	.
+if:IF_7_1_2.item2	ifo:package_insert	pi:PI_16_1.item2	.
+if:IF_7_1_2.item2	dct:identifier	"7.1.2.item2"	.
+if:IF_7_1_2.item2	rdf:value	"2）反復投与試験13)\n 国内の健康成人男女を対象に、本剤2,400mg及び4,800mgを1日1回朝食後7日間反復経口投与（各9例）したときの血漿中未変化体濃度の推移及び薬物動態パラメータは以下のとおりであった。\n いずれの用量ともに反復経口投与後48時間で定常状態に達し、反復経口投与の最終回投与時の血漿中未変化体濃度の推移は、見かけ上tlag＊が消失したが単回経口投与時と類似していた。\n ＊tlag：投与後最初に血漿中に薬物が定量されるまでの時間（定量値が得られた時点のひとつ前の時点）\n 図Ⅶ-2 反復経口投与における血漿中未変化体濃度の推移"@ja	.
+if:IF_7_1_2.item2	dct:references	if:ref13	.
+if:IF_7_1_2.item3	ifo:package_insert	pi:PI_16_1.item3	.
+if:IF_7_1_2.item3	dct:identifier	"7.1.2.item3"	.
+if:IF_7_1_2.item3	rdf:value	"3）大腸粘膜中薬物濃度13)\n 国内の健康成人男性を対象に、本剤2,400mg（5例）及び4,800mg（4例）を1日1回朝食後7日間反復経口投与したとき、最終回投与24時間後のS状結腸及び直腸での未変化体濃度及びアセチル体（代謝物）濃度は以下のとおりであった。未変化体濃度は、S状結腸では9例中5例、直腸では9例中4例の被験者で定量下限未満であったが、アセチル体濃度はすべての被験者のS状結腸及び直腸で定量値が得られた。なお、大腸粘膜中未変化体濃度及びアセチル体濃度は被験者間の変動が大きく、用量に応じた増加は認められなかった。すべての被験者で大腸粘膜中にアセチル体が検出されたことから、大腸で放出されたメサラジンが大腸粘膜内の代謝酵素により代謝されていることが示唆された。\n 表Ⅶ-3 反復経口投与の最終回投与後における大腸粘膜中未変化体及びアセチル体濃度\n ＜参考：外国人データ36)＞\n 海外の健康成人男女を対象に、本剤4,800mgを空腹時単回経口投与（男性36例、女性35例）したときの薬物動態パラメータは以下のとおりであった。\n 表Ⅶ-4 海外の非高齢者及び高齢者を対象に本剤の単回経口投与における薬物動態パラメータ"@ja	.
+if:IF_7_1_2.item3	dct:references	if:ref13	.
+if:IF_7_1_2.item3	dct:references	if:ref36	.
+if:IF_7_1_3	rdf:type	ifo:IF_7_1_3	.
+if:IF_7_1_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_1_4	rdf:type	ifo:IF_7_1_4	.
+if:IF_7_1_4	ifo:package_insert	pi:PI_16_7	.
+if:IF_7_1_4	ifo:item	if:IF_7_1_4.item1	.
+if:IF_7_1_4	ifo:item	if:IF_7_1_4.item2	.
+if:IF_7_1_4.item1	ifo:package_insert	pi:PI_16_7.item1	.
+if:IF_7_1_4.item1	dct:identifier	"7.1.4.item1"	.
+if:IF_7_1_4.item1	rdf:value	"1）食事の影響13)\n 国内の健康成人男女30例を対象に、空腹時単回経口投与後及び食後単回経口投与後の薬物動態により、本剤2,400mg及び4,800mg投与時の薬物動態に及ぼす食事の影響を検討した。食事により未変化体の吸収遅延及びCmaxの増大傾向が認められたものの、血漿中未変化体及びアセチル体濃度の平均値の推移、尿中排泄率及び吸収率に、食事による著しい影響は認められなかった。\n 表Ⅶ-5 空腹時単回経口投与及び食後単回経口投与における未変化体及びアセチル体の薬物動態パラメータ"@ja	.
+if:IF_7_1_4.item1	dct:references	if:ref13	.
+if:IF_7_1_4.item2	ifo:package_insert	pi:PI_16_7.item2	.
+if:IF_7_1_4.item2	dct:identifier	"7.1.4.item2"	.
+if:IF_7_1_4.item2	rdf:value	"2）併用薬の影響37)\n 一般的な4種の抗菌剤（アモキシシリン、シプロフロキサシン、メトロニダゾール、スルファメトキサゾール）の薬物動態に対する本剤の影響を検討した結果、薬物相互作用は認められなかった。\n 併用注意については「Ⅷ. 7.（2）併用注意とその理由」の項参照"@ja	.
+if:IF_7_1_4.item2	dct:references	if:ref37	.
+if:IF_7_1_4.item2	rdfs:seeAlso	if:IF_7	.
+if:IF_7_2_1	rdf:type	ifo:IF_7_2_1	.
+if:IF_7_2_1	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_1	rdf:value	"国内の健康成人男女を対象とし、本剤を単回及び反復経口投与したときの薬物動態パラメータはノンコンパートメント解析により算出した。"@ja	.
+if:IF_7_2_2	rdf:type	ifo:IF_7_2_2	.
+if:IF_7_2_2	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_2	rdf:value	"該当資料なし"@ja	.
+if:IF_7_2_3	rdf:type	ifo:IF_7_2_3	.
+if:IF_7_2_3	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_2_4	rdf:type	ifo:IF_7_2_4	.
+if:IF_7_2_4	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_4	rdf:value	"健康成人に本剤を絶食単回経口投与（メサラジンとして2,400mg、4,800mg）したときの経口クリアランス（CLtot/F）は、2388L/hr、520L/hrであった。\n 「Ⅶ. 1.（2）臨床試験で確認された血中濃度」の項参照"@ja	.
+if:IF_7_2_4	rdfs:seeAlso	if:IF_7_1	.
+if:IF_7_2_5	rdf:type	ifo:IF_7_2_5	.
+if:IF_7_2_5	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_5	rdf:value	"健康成人に本剤を絶食単回経口投与（メサラジンとして2,400mg、4,800mg）したときのみかけの分布容積（Vz/F）は、1,735L、1,072Lであった。\n 「Ⅶ. 1.（2）臨床試験で確認された血中濃度」の項参照"@ja	.
+if:IF_7_2_5	dct:references	if:ref13	.
+if:IF_7_2_5	rdfs:seeAlso	if:IF_7_1	.
+if:IF_7_2_6	rdf:type	ifo:IF_7_2_6	.
+if:IF_7_2_6	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_2_6	rdf:value	"該当資料なし"@ja	.
+if:IF_7_3_1	rdf:type	ifo:IF_7_3_1	.
+if:IF_7_3_1	rdf:value	"該当資料なし"@ja	.
+if:IF_7_3_2	rdf:type	ifo:IF_7_3_2	.
+if:IF_7_3_2	rdf:value	"該当資料なし"@ja	.
+if:IF_7_4	rdf:type	ifo:IF_7_4	.
+if:IF_7_4	ifo:package_insert	pi:PI_16_2	.
+if:IF_7_4	ifo:item	if:IF_7_4.item1	.
+if:IF_7_4	ifo:item	if:IF_7_4.item2	.
+if:IF_7_4.item1	ifo:package_insert	pi:PI_16_2.item1	.
+if:IF_7_4.item1	dct:identifier	"7.4.item1"	.
+if:IF_7_4.item1	rdf:value	"単回投与\n 国内の健康成人男女を対象に、本剤2,400mg及び4,800mgを空腹時単回経口投与（各10例）したとき、いずれの投与群でも2時間（中央値）のtlagが認められ、そのままメサラジンを服用した時5)と比べて吸収の遅延が認められた。また、未変化体及びアセチル体の尿中排泄率の合計から算出したメサラジンの吸収率の平均値は、2,400mg/日で22.7％、4,800mg/日で17.1％であった13)。"@ja	.
+if:IF_7_4.item1	dct:references	if:ref13	.
+if:IF_7_4.item2	ifo:package_insert	pi:PI_16_2.item2	.
+if:IF_7_4.item2	dct:identifier	"7.4.item2"	.
+if:IF_7_4.item2	rdf:value	"反復投与\n 国内の健康成人男女を対象に、本剤2,400mg及び4,800mgを1日1回朝食後7日間反復経口投与したとき、未変化体とアセチル体の尿中排泄量の合計から計算したメサラジンの吸収率は2,400mg/日で22.6％、4,800mg/日で15.1％であり、空腹時単回経口投与と同程度であった13)。"@ja	.
+if:IF_7_4.item2	dct:references	if:ref13	.
+if:IF_7_5_1	rdf:type	ifo:IF_7_5_1	.
+if:IF_7_5_1	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_1	rdf:value	"「Ⅶ. 5.（5）その他の組織への移行性」の項参照"@ja	.
+if:IF_7_5_1	dct:references	if:refIF_7_5	.
+if:IF_7_5_2	rdf:type	ifo:IF_7_5_2	.
+if:IF_7_5_2	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_2	rdf:value	"海外において、妊娠女性に種々のメサラジン製剤を投与したときの胎児の血漿中にはメサラジン及びアセチル体が検出された38)。\n ＜参考：ラット＞\n 周産期（妊娠18日目）の妊娠ラットに14C-メサラジンを50mg/kg単回経口投与したときの組織中放射能濃度は、いずれの組織においても投与後30分に最高値に達し、このときの羊水及び胎児には放射能の移行が認められたが、その濃度は共に母獣の血漿中濃度の1％以下、胎児の各組織はいずれも母獣の血漿中濃度の2％以下と低値であった。また、器官形成期（妊娠13日目）及び妊娠18日目のラットに14C-メサラジンを50mg/kg単回経口投与したとき、胎児への放射能の分布はいずれもわずかであった39)。"@ja	.
+if:IF_7_5_3	rdf:type	ifo:IF_7_5_3	.
+if:IF_7_5_3	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_3	rdf:value	"海外において、授乳中の母親にメサラジン製剤を投与したときの乳汁中にメサラジン及びアセチル体が検出された40, 41)。\n ＜参考：ラット＞\n 哺育中のラットに14C-メサラジンを50mg/kg単回経口投与したときの乳汁中放射能濃度は、投与後2時間に最高値（17.98μg eq./mL）を示し、その値は同時点の血漿中濃度（5.16μg eq./mL）の約3.5倍であったが、その後は血漿中より速やかに低下した39)。"@ja	.
+if:IF_7_5_3	dct:references	if:ref39	.
+if:IF_7_5_3	dct:references	if:ref40	.
+if:IF_7_5_3	dct:references	if:ref41	.
+if:IF_7_5_4	rdf:type	ifo:IF_7_5_4	.
+if:IF_7_5_4	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_4	rdf:value	"該当資料なし"@ja	.
+if:IF_7_5_5	rdf:type	ifo:IF_7_5_5	.
+if:IF_7_5_5	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_5	rdf:value	"該当資料なし\n ＜参考：ラット＞\n 雄性ラットに14C-メサラジン50mg/kgを単回経口投与したときの投与後30分の組織中放射能濃度は、十二指腸で21.14μg eq./g、空腸で27.97μg eq./gであり血漿（21.78μg eq./mL）と同程度の濃度を示し、胃では98.60μg eq./g、腎臓では89.18μg eq./g及び膀胱では57.45μg eq./gと血漿より高い濃度を示したが、他の組織中放射能濃度はいずれも血漿より低かった。特に中枢神経（大脳、小脳、脊髄）の組織中放射能濃度は低濃度（0.35～0.48μg eq./g）であった。各組織の放射能濃度は速やかに低下した39)。\n 雄性ラットに14C-メサラジン50mg/kgを1日1回14日間反復経口投与したときの投与後24時間における組織中放射能濃度は、ほとんどの組織で投与回数の増加に伴い緩やかに上昇し、特定の組織に蓄積することはなかった。投与後30分の血液中放射能の血球移行率も2.1％と低かった39)。"@ja	.
+if:IF_7_5_5	dct:references	if:ref39	.
+if:IF_7_5_6	rdf:type	ifo:IF_7_5_6	.
+if:IF_7_5_6	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_6	rdf:value	"メサラジンのヒト血漿蛋白結合率は42.9%、アセチル体のヒト血漿蛋白結合率は78.2%あるいは83%であった（in vitro、外国人データ）。"@ja	.
+if:IF_7_5_6	dct:references	if:ref42	.
+if:IF_7_5_6	dct:references	if:ref43	.
+if:IF_7_6_1	rdf:type	ifo:IF_7_6_1	.
+if:IF_7_6_1	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_1	rdf:value	"メサラジンは、主に消化管粘膜のN－アセチルトランスフェラーゼ（NAT）によりアセチル体（N－アセチルメサラジン）に速やかに代謝される。"@ja	.
+if:IF_7_6_1	dct:references	if:ref44	.
+if:IF_7_6_1	dct:references	if:ref45	.
+if:IF_7_6_2	rdf:type	ifo:IF_7_6_2	.
+if:IF_7_6_2	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_2	rdf:value	"メサラジンのアセチル化には、ヒトではNAT1（N－アセチルトランスフェラーゼ1）が関与している。\n なお、ヒトにおいて、メサラジンは大部分がNAT1によりアセチル化されることから、CYPを介した他の薬物との相互作用が生じる可能性は低いと考えられた。"@ja	.
+if:IF_7_6_2	dct:references	if:ref46	.
+if:IF_7_6_2	dct:references	if:ref47	.
+if:IF_7_6_3	rdf:type	ifo:IF_7_6_3	.
+if:IF_7_6_3	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_6_4	rdf:type	ifo:IF_7_6_4	.
+if:IF_7_6_4	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_4	rdf:value	"メサラジンの主代謝物であるアセチル体（N－アセチルメサラジン）は、活性酸素種産生抑制作用を示すものの、メサラジンと比較してその抑制作用は顕著に弱かった。"@ja	.
+if:IF_7_6_4	dct:references	if:ref17	.
+if:IF_7_6_4	dct:references	if:ref48	.
+if:IF_7_7	rdf:type	ifo:IF_7_7	.
+if:IF_7_7	ifo:package_insert	pi:PI_16_5	.
+if:IF_7_7	rdf:value	"排泄部位及び経路\n 該当資料なし（本剤の排泄部位及び経路の試験を実施していない）\n ＜参考：ラット＞\n 雄性ラットに14C-メサラジン50mg/kgを単回経口投与したとき、尿および糞中への放射能の排泄は速やかで、投与後24時間までに投与放射能の95.4%が排泄された（尿59.6%、糞35.8%）。このときの投与後120時間の体内残存放射能は投与量の0.1%であった。また、1日1回14日間反復経口投与したときの最終回投与後120時間の体内残存放射能も累積投与量の0.1%とわずかであったことから、メサラジンの体内への残留性は低いと考えられた39)。\n 雄性ラットにメサラジン50mg/kgを単回経口投与したとき、未変化体及びアセチル体ともに尿中及び糞中に排泄された49)。\n 胆管にカニューレを施した雄性ラットに14C-メサラジンを単回経口投与したときの投与後48時間までの投与放射能量に対する胆汁中排泄率は2.8%とわずかであった39)。\n 排泄率\n 該当資料なし（本剤の排泄率を求めるマスバランス試験を実施していない）\n ＜参考＞\n 吸収率を確認する上で、尿中排泄率を算出したデータがある。\n 単回投与\n 健康成人に本剤を絶食単回経口投与（メサラジンとして2,400mg、4,800mg）したとき、投与後72時間までの未変化体の尿中排泄率はそれぞれ投与量の0.753％、1.14％、アセチル体の尿中排泄率はそれぞれ22.0％、15.9％であった。未変化体とアセチル体の尿中排泄量の合計から計算したメサラジンの吸収率の平均値は、それぞれ22.7％、17.1％であった13)。\n 反復投与\n 健康成人に本剤を1日1回7日間反復経口投与（メサラジンとして2,400mg、4,800mg）したとき、未変化体とアセチル体の尿中排泄量の合計から計算したメサラジンの吸収率は22.6％、15.1％で、絶食単回経口投与と同程度であった13)。また、絶食時と食後で合計排泄量は同程度であった13)。\n 「Ⅶ. 1.（2）臨床試験で確認された血中濃度、（4）食事・併用薬の影響」の項参照）"@ja	.
+if:IF_7_7	dct:references	if:ref49	.
+if:IF_7_7	dct:references	if:ref39	.
+if:IF_7_7	dct:references	if:ref13	.
+if:IF_7_7	rdfs:seeAlso	if:IF_7_1	.
+if:IF_7_8	rdf:type	ifo:IF_7_8	.
+if:IF_7_8	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_8	rdf:value	"該当資料なし"@ja	.
+if:IF_7_9	rdf:type	ifo:IF_7_9	.
+if:IF_7_9	ifo:package_insert	pi:PI_16_6	.
+if:IF_7_9	rdf:value	"該当資料なし"@ja	.
+if:IF_7_10	rdf:type	ifo:IF_7_10	.
+if:IF_7_10	ifo:package_insert	pi:PI_16_6	.
+if:IF_7_10	rdf:value	"「Ⅷ. 6. 特定の背景を有する患者に関する注意」の項参照"@ja	.
+if:IF_7_10	rdfs:seeAlso	if:IF_7_6	.
+if:IF_7_11	rdf:type	ifo:IF_7_11	.
+if:IF_7_11	ifo:package_insert	pi:PI_16_8	.
+if:IF_7_11	rdf:value	"該当資料なし"@ja	.
+if:IF_8_1	rdf:type	ifo:IF_8_1	.
+if:IF_8_1	ifo:package_insert	pi:PI_1	.
+if:IF_8_1	ifo:item	if:IF_8_1.item1	.
+if:IF_8_1.item1	ifo:package_insert	pi:PI_1.item1	.
+if:IF_8_1.item1	dct:identifier	"8.1.item1"	.
+if:IF_8_1.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_2	rdf:type	ifo:IF_8_2	.
+if:IF_8_2	ifo:package_insert	pi:PI_2	.
+if:IF_8_2	ifo:item	if:IF_8_2.item1	.
+if:IF_8_2	ifo:item	if:IF_8_2.item2	.
+if:IF_8_2	ifo:item	if:IF_8_2.item3	.
+if:IF_8_2	ifo:item	if:IF_8_2.item4	.
+if:IF_8_2	ifo:item	if:IF_8_2.item5	.
+if:IF_8_2	ifo:item	if:IF_8_2.item6	.
+if:IF_8_2.item1	ifo:package_insert	pi:PI_2.item1	.
+if:IF_8_2.item1	dct:identifier	"8.2.item1"	.
+if:IF_8_2.item1	rdf:value	"2.1 本剤の成分に対し過敏症の既往歴のある患者"@ja	.
+if:IF_8_2.item2	ifo:package_insert	pi:PI_2.item2	.
+if:IF_8_2.item2	dct:identifier	"8.2.item2"	.
+if:IF_8_2.item2	rdf:value	"2.2 サリチル酸塩類に対し過敏症の既往歴のある患者［交叉アレルギーを発現するおそれがある。］"@ja	.
+if:IF_8_2.item3	ifo:package_insert	pi:PI_2.item3	.
+if:IF_8_2.item3	dct:identifier	"8.2.item3"	.
+if:IF_8_2.item3	rdf:value	"2.3 重篤な腎障害のある患者［9.2.1 参照］"@ja	.
+if:IF_8_2.item3	dct:references	if:refIF_9_2_1	.
+if:IF_8_2.item4	ifo:package_insert	pi:PI_2.item4	.
+if:IF_8_2.item4	dct:identifier	"8.2.item4"	.
+if:IF_8_2.item4	rdf:value	"2.4 重篤な肝障害のある患者［9.3.1 参照］"@ja	.
+if:IF_8_2.item4	dct:references	if:refIF_9_3_1	.
+if:IF_8_3	rdf:type	ifo:IF_8_3	.
+if:IF_8_3	rdf:value	"設定されていない"@ja	.
+if:IF_8_4	rdf:type	ifo:IF_8_4	.
+if:IF_8_4	rdf:value	"「Ⅴ．治療に関する項目」を参照すること。"@ja	.
+if:IF_8_4	rdfs:seeAlso	if:IF_5	.
+if:IF_8_5	rdf:type	ifo:IF_8_5	.
+if:IF_8_5	ifo:package_insert	pi:PI_8	.
+if:IF_8_5	ifo:item	if:IF_8_5.item1	.
+if:IF_8_5	ifo:item	if:IF_8_5.item2	.
+if:IF_8_5	ifo:item	if:IF_8_5.item3	.
+if:IF_8_5	ifo:item	if:IF_8_5.item4	.
+if:IF_8_5	ifo:item	if:IF_8_5.item5	.
+if:IF_8_5.item1	ifo:package_insert	pi:PI_8.item1	.
+if:IF_8_5.item1	dct:identifier	"8.5.item1"	.
+if:IF_8_5.item1	rdf:value	"8.1 間質性腎炎、ネフローゼ症候群、腎不全が報告されているため、投与中は腎機能を検査するなど、患者の状態を十分に観察すること。［11.1.5 参照］"@ja	.
+if:IF_8_5.item1	rdfs:seeAlso	if:IF_11_1_5	.
+if:IF_8_5.item2	ifo:package_insert	pi:PI_8.item2	.
+if:IF_8_5.item2	dct:identifier	"8.5.item2"	.
+if:IF_8_5.item2	rdf:value	"8.2 肝機能障害、肝炎、黄疸が報告されているため、投与中はAST、ALT等の肝機能をモニターするなど、患者の状態を十分に観察すること。［11.1.6 参照］"@ja	.
+if:IF_8_5.item3	ifo:package_insert	pi:PI_8.item3	.
+if:IF_8_5.item3	dct:identifier	"8.5.item3"	.
+if:IF_8_5.item3	rdf:value	"8.3 再生不良性貧血、汎血球減少症、無顆粒球症、白血球減少症、好中球減少症、血小板減少症があらわれることがあるので、投与期間中は血液検査を行うなど、患者の状態を十分に観察すること。［11.1.1 参照］"@ja	.
+if:IF_8_5.item3	rdfs:seeAlso	if:IF_11_1_1	.
+if:IF_8_5.item4	ifo:package_insert	pi:PI_8.item4	.
+if:IF_8_5.item4	dct:identifier	"8.5.item4"	.
+if:IF_8_5.item4	rdf:value	"8.4 膵炎があらわれることがあるので、投与期間中は血清アミラーゼの検査を行うなど、患者の状態を十分に観察すること。［11.1.4 参照］"@ja	.
+if:IF_8_5.item4	rdfs:seeAlso	if:IF_11_1_4	.
+if:IF_8_5.item5	ifo:package_insert	pi:PI_8.item5	.
+if:IF_8_5.item5	dct:identifier	"8.5.item5"	.
+if:IF_8_5.item5	rdf:value	"8.5 メサラジンにより過敏症状（発熱、腹痛、下痢、好酸球増多等）が発現することがあり、また、潰瘍性大腸炎が悪化することがあるため、異常が認められた場合には、減量又は投与を中止するなどの適切な処置を行うこと。"@ja	.
+if:IF_8_6_1	rdf:type	ifo:IF_8_6_1	.
+if:IF_8_6_1	ifo:package_insert	pi:PI_9_1	.
+if:IF_8_6_1	ifo:item	if:IF_8_6_1.item1	.
+if:IF_8_6_1.item1	ifo:package_insert	pi:PI_9_1.item1	.
+if:IF_8_6_1.item1	dct:identifier	"8.6.1.item1"	.
+if:IF_8_6_1.item1	rdf:value	"9.1.1 サラゾスルファピリジンに対し過敏症の既往歴のある患者\n 腹部の痙攣、腹痛、発熱、重症な頭痛又は発疹のような急性の過敏症の症状があらわれた場合には、投与を中止すること。"@ja	.
+if:IF_8_6_2	rdf:type	ifo:IF_8_6_2	.
+if:IF_8_6_2	ifo:package_insert	pi:PI_9_2	.
+if:IF_8_6_2	ifo:item	if:IF_8_6_2.item1	.
+if:IF_8_6_2	ifo:item	if:IF_8_6_2.item2	.
+if:IF_8_6_2.item1	ifo:package_insert	pi:PI_9_2.item1	.
+if:IF_8_6_2.item1	dct:identifier	"8.6.2.item1"	.
+if:IF_8_6_2.item1	rdf:value	"9.2.1 重篤な腎障害のある患者\n 投与しないこと。腎障害がさらに悪化するおそれがある。［2.3 参照］"@ja	.
+if:IF_8_6_2.item1	rdfs:seeAlso	if:IF_2_3	.
+if:IF_8_6_2.item2	ifo:package_insert	pi:PI_9_2.item2	.
+if:IF_8_6_2.item2	dct:identifier	"8.6.2.item2"	.
+if:IF_8_6_2.item2	rdf:value	"9.2.2 腎機能の低下している患者（重篤な腎障害のある患者を除く）\n 排泄が遅延し、副作用があらわれるおそれがある。中等度から重度の腎障害患者は臨床試験では除外されている。［7.2 参照］"@ja	.
+if:IF_8_6_2.item2	rdfs:seeAlso	if:IF_7_2	.
+if:IF_8_6_3	rdf:type	ifo:IF_8_6_3	.
+if:IF_8_6_3	ifo:package_insert	pi:PI_9_3	.
+if:IF_8_6_3	ifo:item	if:IF_8_6_3.item1	.
+if:IF_8_6_3	ifo:item	if:IF_8_6_3.item2	.
+if:IF_8_6_3.item1	ifo:package_insert	pi:PI_9_3.item1	.
+if:IF_8_6_3.item1	dct:identifier	"8.6.3.item1"	.
+if:IF_8_6_3.item1	rdf:value	"9.3.1 重篤な肝障害のある患者\n 投与しないこと。肝障害がさらに悪化するおそれがある。［2.4 参照］"@ja	.
+if:IF_8_6_3.item1	rdfs:seeAlso	if:IF_2_4	.
+if:IF_8_6_3.item2	ifo:package_insert	pi:PI_9_3.item2	.
+if:IF_8_6_3.item2	dct:identifier	"8.6.3.item2"	.
+if:IF_8_6_3.item2	rdf:value	"9.3.2 肝機能の低下している患者（重篤な肝障害のある患者を除く）\n 代謝が遅延し、副作用があらわれるおそれがある。中等度から重度の肝障害患者は臨床試験では除外されている。［7.2 参照］"@ja	.
+if:IF_8_6_3.item2	rdfs:seeAlso	if:IF_7_2	.
+if:IF_8_6_4	rdf:type	ifo:IF_8_6_4	.
+if:IF_8_6_4	ifo:package_insert	pi:PI_9_4	.
+if:IF_8_6_4	ifo:item	if:IF_8_6_4.item1	.
+if:IF_8_6_4.item1	ifo:package_insert	pi:PI_9_4.item1	.
+if:IF_8_6_4.item1	dct:identifier	"8.6.4.item1"	.
+if:IF_8_6_4.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_6_5	rdf:type	ifo:IF_8_6_5	.
+if:IF_8_6_5	ifo:package_insert	pi:PI_9_5	.
+if:IF_8_6_5	ifo:item	if:IF_8_6_5.item1	.
+if:IF_8_6_5.item1	ifo:package_insert	pi:PI_9_5.item1	.
+if:IF_8_6_5.item1	dct:identifier	"8.6.5.item1"	.
+if:IF_8_6_5.item1	rdf:value	"妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。なお、動物試験において、メサラジンによる催奇形性は認められていない。"@ja	.
+if:IF_8_6_6	rdf:type	ifo:IF_8_6_6	.
+if:IF_8_6_6	ifo:package_insert	pi:PI_9_6	.
+if:IF_8_6_6	ifo:item	if:IF_8_6_6.item1	.
+if:IF_8_6_6.item1	ifo:package_insert	pi:PI_9_6.item1	.
+if:IF_8_6_6.item1	dct:identifier	"8.6.6.item1"	.
+if:IF_8_6_6.item1	rdf:value	"9.6 授乳婦\n 治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。メサラジンでヒト乳汁中へ移行することが報告されている38, 40, 41)。また、乳児に下痢が起きることが報告されている50, 51)。"@ja	.
+if:IF_8_6_6.item1	dct:references	if:ref38	.
+if:IF_8_6_6.item1	dct:references	if:ref40	.
+if:IF_8_6_6.item1	dct:references	if:ref41	.
+if:IF_8_6_6.item1	dct:references	if:ref50	.
+if:IF_8_6_6.item1	dct:references	if:ref51	.
+if:IF_8_6_7	rdf:type	ifo:IF_8_6_7	.
+if:IF_8_6_7	ifo:package_insert	pi:PI_9_7	.
+if:IF_8_6_7	ifo:item	"if:IF_8_6_7.9.7 小児等\n 小児等を対象とした有効性及び安全性を指標とした臨床試験は実施していない。"@ja	.
+if:IF_8_6_8	rdf:type	ifo:IF_8_6_8	.
+if:IF_8_6_8	ifo:package_insert	pi:PI_9_8	.
+if:IF_8_6_8	ifo:item	if:IF_8_6_8.item1	.
+if:IF_8_6_8.item1	ifo:package_insert	pi:PI_9_8.item1	.
+if:IF_8_6_8.item1	dct:identifier	"8.6.8.item1"	.
+if:IF_8_6_8.item1	rdf:value	"9.8 高齢者\n 十分観察しながら慎重に投与すること。一般に生理機能（腎機能、肝機能等）が低下している。［7.2 参照］"@ja	.
+if:IF_8_6_8.item1	rdfs:seeAlso	if:IF_7_2	.
+if:IF_8_7_1	rdf:type	ifo:IF_8_7_1	.
+if:IF_8_7_1	ifo:package_insert	pi:PI_10_1	.
+if:IF_8_7_1	ifo:item	if:IF_8_7_1.item1	.
+if:IF_8_7_1.item1	ifo:package_insert	pi:PI_10_1.item1	.
+if:IF_8_7_1.item1	dct:identifier	"8.7.1.item1"	.
+if:IF_8_7_1.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_7_2	rdf:type	ifo:IF_8_7_2	.
+if:IF_8_7_2	ifo:package_insert	pi:PI_10_2	.
+if:IF_8_7_2	ifo:item	if:IF_8_7_2.item1	.
+if:IF_8_7_2.item1	ifo:package_insert	pi:PI_10_2.item1	.
+if:IF_8_7_2.item1	dct:identifier	"8.7.2.item1"	.
+if:IF_8_7_2.item1	rdf:value	"アザチオプリン\n メルカプトプリン水和物\n 骨髄抑制があらわれるおそれがある。\n メサラジンがチオプリンメチルトランスフェラーゼ活性を抑制するなど、これらの薬剤の代謝を阻害するとの報告がある。"@ja	.
+if:IF_8_8_1	rdf:type	ifo:IF_8_8_1	.
+if:IF_8_8_1	ifo:package_insert	pi:PI_11_1	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item1	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item2	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item3	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item4	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item5	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item6	.
+if:IF_8_8_1.item1	ifo:package_insert	pi:PI_11_1.item1	.
+if:IF_8_8_1.item1	dct:identifier	"8.8.1.item1"	.
+if:IF_8_8_1.item1	rdf:value	"11.1.1 再生不良性貧血、汎血球減少症、無顆粒球症、白血球減少症、好中球減少症、血小板減少症（いずれも頻度不明）\n ［8.3 参照］"@ja	.
+if:IF_8_8_1.item1	rdfs:seeAlso	if:IF_8_3	.
+if:IF_8_8_1.item2	ifo:package_insert	pi:PI_11_1.item2	.
+if:IF_8_8_1.item2	dct:identifier	"8.8.1.item2"	.
+if:IF_8_8_1.item2	rdf:value	"11.1.2 心膜炎（0.1～1%未満）、心筋炎（頻度不明）、胸膜炎（頻度不明）\n 胸部痛、心電図異常、胸水等が認められた場合には、投与を中止するなど適切な処置を行うこと。"@ja	.
+if:IF_8_8_1.item3	ifo:package_insert	pi:PI_11_1.item3	.
+if:IF_8_8_1.item3	dct:identifier	"8.8.1.item3"	.
+if:IF_8_8_1.item3	rdf:value	"11.1.3 間質性肺疾患（間質性肺炎、器質化肺炎、胞隔炎、好酸球性肺炎等）（0.1～1%未満）\n 呼吸困難、胸痛、咳嗽があらわれた場合には、投与を中止するなど適切な処置を行うこと。"@ja	.
+if:IF_8_8_1.item4	ifo:package_insert	pi:PI_11_1.item4	.
+if:IF_8_8_1.item4	dct:identifier	"8.8.1.item4"	.
+if:IF_8_8_1.item4	rdf:value	"膵炎（頻度不明）\n ［8.4 参照］"@ja	.
+if:IF_8_8_1.item4	rdfs:seeAlso	if:IF_8_4	.
+if:IF_8_8_1.item5	ifo:package_insert	pi:PI_11_1.item5	.
+if:IF_8_8_1.item5	dct:identifier	"8.8.1.item5"	.
+if:IF_8_8_1.item5	rdf:value	"11.1.5 間質性腎炎、ネフローゼ症候群、腎不全（いずれも頻度不明）\n ［8.1 参照］"@ja	.
+if:IF_8_8_1.item5	rdfs:seeAlso	if:IF_8_1	.
+if:IF_8_8_1.item6	ifo:package_insert	pi:PI_11_1.item6	.
+if:IF_8_8_1.item6	dct:identifier	"8.8.1.item6"	.
+if:IF_8_8_1.item6	rdf:value	"11.1.6 肝機能障害、肝炎、黄疸（いずれも頻度不明）\n AST、ALT、γ-GTPの上昇等を伴う肝機能障害、肝炎、黄疸があらわれることがある。［8.2 参照］"@ja	.
+if:IF_8_8_1.item6	rdfs:seeAlso	if:IF_8_2	.
+if:IF_8_8_2	rdf:type	ifo:IF_8_8_2	.
+if:IF_8_8_2	ifo:package_insert	pi:PI_11_2	.
+if:IF_8_8_2	ifo:item	if:IF_8_8_2.item1	.
+if:IF_8_8_2	ifo:item	if:IF_8_8_2.item2	.
+if:IF_8_8_2.item1	ifo:package_insert	pi:PI_11_2.item1	.
+if:IF_8_8_2.item1	dct:identifier	"8.8.2.item1"	.
+if:IF_8_8_2.item1	rdf:value	"項目別副作用発現頻度及び臨床検査値異常一覧\n 表Ⅷ-1 潰瘍性大腸炎患者を対象とした国内臨床試験（3試験）併合による副作用発現頻度（投与期の安全性解析対象集団）"@ja	.
+if:IF_8_8_2.item2	ifo:package_insert	pi:PI_11_2.item2	.
+if:IF_8_8_2.item2	dct:identifier	"8.8.2.item2"	.
+if:IF_8_8_2.item2	rdf:value	"基礎疾患、合併症、重症度及び手術の有無等背景別の副作用発現頻度\n 潰瘍性大腸炎患者を対象とした国内臨床試験において、投与期開始時のUC-DAIスコア別の有害事象及び副作用の発現率に明らかな違いは認められなかった"@ja	.
+if:IF_8_9	rdf:type	ifo:IF_8_9	.
+if:IF_8_9	ifo:package_insert	pi:PI_12	.
+if:IF_8_9	rdf:value	"設定されていない"@ja	.
+if:IF_8_10	rdf:type	ifo:IF_8_10	.
+if:IF_8_10	ifo:package_insert	pi:PI_13_2	.
+if:IF_8_10	rdf:value	"設定されていない"@ja	.
+if:IF_8_11	rdf:type	ifo:IF_8_11	.
+if:IF_8_11	ifo:package_insert	pi:PI_14	.
+if:IF_8_11	ifo:item	if:IF_8_11.item1	.
+if:IF_8_11	ifo:item	if:IF_8_11.item2	.
+if:IF_8_11.item1	ifo:package_insert	pi:PI_14.item1	.
+if:IF_8_11.item1	dct:identifier	"8.11.item1"	.
+if:IF_8_11.item1	rdf:value	"14.1.2、14.3 本剤の製剤的有用性を保つための注意喚起として設定した。 本剤は、有効成分であるメサラジン(5-ASA)を大腸全域に持続的に放出することを目的とした放出 制御製剤であり、メサラジンを大腸特異的に送達させるために、素錠部分を徐放化し、また、胃及び 小腸部分で溶けずに小腸下部付近の pH 約 7 にて溶解するフィルムコーティングが施されている。 したがって、本剤をかんだり、粉砕してコーティングや素錠部分が破損した状態で服用すると、本剤 の製剤的有効性が損なわれることになる。"@ja	.
+if:IF_8_11.item2	ifo:package_insert	pi:PI_14.item2	.
+if:IF_8_11.item2	dct:identifier	"8.11.item2"	.
+if:IF_8_11.item2	rdf:value	"14.2.1 PTP 包装の薬剤に共通の注意事項である。平成 8 年 3 月 27 日付日薬連発第 240 号「PTP の誤 飲対策について」に基づき記載した。"@ja	.
+if:IF_8_11.item3	ifo:package_insert	pi:PI_14.item3	.
+if:IF_8_11.item3	dct:identifier	"8.11.item3"	.
+if:IF_8_11.item3	rdf:value	"14.1.2、14.3 本剤の製剤的有用性を保つための注意喚起として設定した。 本剤は、有効成分であるメサラジン(5-ASA)を大腸全域に持続的に放出することを目的とした放出 制御製剤であり、メサラジンを大腸特異的に送達させるために、素錠部分を徐放化し、また、胃及び 小腸部分で溶けずに小腸下部付近の pH 約 7 にて溶解するフィルムコーティングが施されている。 したがって、本剤をかんだり、粉砕してコーティングや素錠部分が破損した状態で服用すると、本剤 の製剤的有効性が損なわれることになる。"@ja	.
+if:IF_8_11.item4	ifo:package_insert	pi:PI_14.item4	.
+if:IF_8_11.item4	dct:identifier	"8.11.item4"	.
+if:IF_8_11.item4	rdf:value	"14.4 本剤が便中に排泄されることがあるため設定した。 潰瘍性大腸炎患者を対象とした国内の臨床試験において、2 例でそれぞれ 1 回ずつ本剤が便中に認 められた。しかし、これらの患者において、本剤が便中へ排泄されたことに起因する原疾患の悪化等 は認められなかった。"@ja	.
+if:IF_8_12_1	rdf:type	ifo:IF_8_12_1	.
+if:IF_8_12_1	ifo:package_insert	pi:PI_15_1	.
+if:IF_8_12_1	rdf:value	"設定されていない"@ja	.
+if:IF_8_12_2	rdf:type	ifo:IF_8_12_2	.
+if:IF_8_12_2	ifo:package_insert	pi:PI_15_2	.
+if:IF_8_12_2	rdf:value	"設定されていない"@ja	.
+if:IF_9_1_1	rdf:type	ifo:IF_9_1_1	.
+if:IF_9_1_1	rdf:value	"「Ⅵ．薬効薬理に関する項目」の項参照"@ja	.
+if:IF_9_1_1	rdfs:seeAlso	if:IF_6	.
+if:IF_9_1_2	rdf:type	ifo:IF_9_1_2	.
+if:IF_9_1_2	dct:references	if:ref54	.
+if:IF_9_1_3	rdf:type	ifo:IF_9_1_3	.
+if:IF_9_1_3	rdf:value	"副次的薬理試験（参考情報）17, 48, 55)\n 薬力学的薬物相互作用試験52, 53)"@ja	.
+if:IF_9_1_3	dct:references	if:ref17	.
+if:IF_9_1_3	dct:references	if:ref48	.
+if:IF_9_1_3	dct:references	if:ref55	.
+if:IF_9_1_3	dct:references	if:ref52	.
+if:IF_9_1_3	dct:references	if:ref53	.
+if:IF_9_2_1	rdf:type	ifo:IF_9_2_1	.
+if:IF_9_2_1	dct:references	if:ref56	.
+if:IF_9_2_1	dct:references	if:ref57	.
+if:IF_9_2_1	dct:references	if:ref58	.
+if:IF_9_2_2	rdf:type	ifo:IF_9_2_2	.
+if:IF_9_2_2	dct:references	if:ref59	.
+if:IF_9_2_2	dct:references	if:ref60	.
+if:IF_9_2_3	rdf:type	ifo:IF_9_2_3	.
+if:IF_9_2_3	rdf:value	"メサラジンの細菌を用いる復帰突然変異試験、チャイニーズハムスター卵巣（CHO）細胞を用いる姉妹染色分体交換試験、CHO細胞を用いる染色体異常試験及びマウスの骨髄細胞を用いる小核試験では、メサラジンに遺伝毒性は認められなかった。"@ja	.
+if:IF_9_2_3	dct:references	if:ref61	.
+if:IF_9_2_3	dct:references	if:ref62	.
+if:IF_9_2_4	rdf:type	ifo:IF_9_2_4	.
+if:IF_9_2_4	rdf:value	"メサラジンのマウスがん原性試験（投与量：0、200、1000、2000mg/kg/day）及びラットがん原性試験（投与量：0、60、120、360、480mg/kg/day）では、メサラジンに催腫瘍性は認められなかった。また、メサラジンのラットを用いた肝二段階発がん試験（投与量：0、150、300mg/kg/day）では、メサラジンはジエチルニトロサミン（DEN）をイニシエーターとした場合に、肝臓及び腎臓に対して影響を示さなかった。"@ja	.
+if:IF_9_2_4	dct:references	if:ref59	.
+if:IF_9_2_4	dct:references	if:ref63	.
+if:IF_9_2_5	rdf:type	ifo:IF_9_2_5	.
+if:IF_9_2_5	rdf:value	"メサラジンの雄ラット生殖能への影響に関する試験（投与量：0、296mg/kg/day）並びにラット受胎能及び生殖能への影響に関する試験（投与量：0～480mg/kg/day）では、雌雄親世代動物の受胎能及び生殖能に影響は認められなかった。また、メサラジンのラット及びウサギ胚・胎児発生に関する試験（投与量：0～480mg/kg/day）では、催奇形性及び胎児毒性は認められなかった。さらに、メサラジンのラット出生前及び出生後の発生並びに母体の機能に関する試験（投与量：0、100、200、400mg/kg/day）では、400mg/kg投与により、親世代動物（F0）の死亡、妊娠期間中の体重増加量及び摂餌量の減少傾向がみられたが、親世代動物（F0）の生殖能、次世代動物（F1）及び次々世代動物（F2）の発生に影響は認められなかった。"@ja	.
+if:IF_9_2_5	dct:references	if:ref64	.
+if:IF_9_2_5	dct:references	if:ref65	.
+if:IF_9_2_5	dct:references	if:ref66	.
+if:IF_9_2_6	rdf:type	ifo:IF_9_2_6	.
+if:IF_9_2_6	rdf:value	"メサラジンのウサギ4週間直腸内投与粘膜刺激性試験（投与量：0、50、100mg/kg/day）では、表面上皮の変性等の直腸粘膜刺激性を示したものの、変化の程度は極く軽度であり、また、明らかな用量反応関係も認められなかった。なお、これらの変化は4週間の休薬により回復することが確認された。"@ja	.
+if:IF_9_2_6	dct:references	if:ref67	.
+if:IF_9_2_7	rdf:type	ifo:IF_9_2_7	.
+if:IF_9_2_7	rdf:value	"抗原性試験\n メサラジンのモルモットにおける能動的全身性アナフィラキシー（ASA）反応試験、モルモットにおける受動的皮膚アナフィラキシー（PCA）反応試験及び感作マウス血清を用いたラットにおける異種PCA反応試験が実施されたが、いずれの試験においてもメサラジンに抗原性は認められなかった。"@ja	.
+if:IF_9_2_7	dct:references	if:ref68	.
+if:IF_10_1	rdf:type	ifo:IF_10_1	.
+if:IF_10_1	ifo:package_insert	pi:PI_0_6	.
+if:IF_10_1	rdf:value	"製剤：リアルダ錠1200mg 処方箋医薬品注)\n 注）注意－医師等の処方箋により使用すること\n 有効成分：日局 メサラジン 該当しない"@ja	.
+if:IF_10_2	rdf:type	ifo:IF_10_2	.
+if:IF_10_2	ifo:package_insert	pi:PI_0_4	.
+if:IF_10_2	rdf:value	"有効期間：3年"@ja	.
+if:IF_10_3	rdf:type	ifo:IF_10_3	.
+if:IF_10_3	ifo:package_insert	pi:PI_0_4	.
+if:IF_10_3	rdf:value	"冷所保存"@ja	.
+if:IF_10_4	rdf:type	ifo:IF_10_4	.
+if:IF_10_4	ifo:package_insert	pi:PI_20	.
+if:IF_10_4	rdf:value	"設定されていない"@ja	.
+if:IF_10_5	rdf:type	ifo:IF_10_5	.
+if:IF_10_5	rdf:value	"・患者向医薬品ガイド：なし\n ・くすりのしおり：あり\n ・患者用資材：あり"@ja	.
+if:IF_10_6	rdf:type	ifo:IF_10_6	.
+if:IF_10_6	rdf:value	"同一成分薬：ペンタサ錠、ペンタサ顆粒、ペンタサ注腸、ペンタサ坐剤、アサコール錠\n 同 効 薬：サラゾピリン錠、サラゾピリン坐剤"@ja	.
+if:IF_10_7	rdf:type	ifo:IF_10_7	.
+if:IF_10_7	rdf:value	"2006年12月13日"@ja	.
+if:IF_10_7	dct:date	"2006-12-13"^^xsd:date	.
+if:IF_10_9	rdf:type	ifo:IF_10_9	.
+if:IF_10_9	rdf:value	"該当しない"@ja	.
+if:IF_10_10	rdf:type	ifo:IF_10_10	.
+if:IF_10_10	rdf:value	"該当しない"@ja	.
+if:IF_10_11	rdf:type	ifo:IF_10_11	.
+if:IF_10_11	ifo:item	if:IF_10_11.item1	.
+if:IF_10_11.item1	rdf:value	"6年\n 2016年9月28日～2022年9月27日"@ja	.
+if:IF_10_12	rdf:type	ifo:IF_10_12	.
+if:IF_10_12	ifo:package_insert	pi:PI_25	.
+if:IF_10_12	rdf:value	"本剤は厚生労働大臣の定める「投薬期間に上限が設けられている医薬品」に該当しない。"@ja	.
+if:IF_10_14	rdf:type	ifo:IF_10_14	.
+if:IF_10_14	ifo:package_insert	pi:PI_25	.
+if:IF_10_14	rdf:value	"該当しない"@ja	.
+if:IF_11_2	rdf:type	ifo:IF_11_2	.
+if:IF_11_2	rdf:value	"該当資料なし"@ja	.
+if:IF_12_1	rdf:type	ifo:IF_12_1	.
+if:IF_12_1	ifo:package_insert	pi:PI_6	.
+if:IF_12_1	rdf:value	"本邦における効能・効果、用法・用量は以下のとおりである。\n 【効能・効果】\n 潰瘍性大腸炎（重症を除く）\n 【用法・用量】\n 通常、成人にはメサラジンとして1日1回2,400mgを食後経口投与する。活動期は、通常、成人にはメサラジンとして1日1回4,800mgを食後経口投与するが、患者の状態により適宜減量する。\n 主な外国における用法・用量（2016年2月現在）"@ja	.
+if:IF_12_2	rdf:type	ifo:IF_12_2	.
+if:IF_12_2	ifo:package_insert	pi:PI_9_7	.
+if:IF_12_2	ifo:item	if:IF_12_2.item1	.
+if:IF_12_2	ifo:item	if:IF_12_2.item2	.
+if:IF_12_2	ifo:item	if:IF_12_2.item3	.
+if:IF_12_2.item1	ifo:package_insert	pi:PI_9_7.item1	.
+if:IF_12_2.item1	dct:identifier	"12.2.item1"	.
+if:IF_12_2.item1	rdf:value	"9.5 妊婦\n 妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。なお、動物試験において、メサラジンによる催奇形性は認められていない。"@ja	.
+if:IF_12_2.item2	ifo:package_insert	pi:PI_9_7.item2	.
+if:IF_12_2.item2	dct:identifier	"12.2.item2"	.
+if:IF_12_2.item2	rdf:value	"9.6 授乳婦\n 治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。メサラジンでヒト乳汁中へ移行することが報告されている38, 40, 41)。また、乳児に下痢が起きることが報告されている50, 51)。\n ＜参考：分類の概要＞\n オーストラリアの分類：An Australian categories for prescribing medicines in pregnancy\n C：Drugs which, owing to their pharmacological effects, have caused or may be suspected of causing, harmful effects on the human fetus or neonate without causing malformations. These effects may be reversible. Accompanying texts should be consulted for further details."@ja	.
+if:IF_12_2.item3	ifo:package_insert	pi:PI_9_7.item3	.
+if:IF_12_2.item3	dct:identifier	"12.2.item3"	.
+if:IF_12_2.item3	rdf:value	"小児等への投与に関する情報\n 日本の添付文書の「9.7 小児等」の項の記載は以下のとおりであり、米国の添付文書、英国のSPCとは異なる。\n 9.7 小児等\n 小児等を対象とした有効性及び安全性を指標とした臨床試験は実施していない。"@ja	.
+if:IF_12_2	dct:references	if:ref38	.
+if:IF_12_2	dct:references	if:ref40	.
+if:IF_12_2	dct:references	if:ref41	.
+if:IF_12_2	dct:references	if:ref50	.
+if:IF_12_2	dct:references	if:ref51	.
+if:IF_13	rdf:type	ifo:IF_13	.
+if:IF_13	rdf:value	"該当資料なし"@ja	.
+if:ref1	rdf:type	bibo:Article	.
+if:ref1	dct:creator	"藤井俊光 他"@ja	.
+if:ref1	prism:publicationName	"日本臨牀"@ja	.
+if:ref1	prism:volume	"70"	.
+if:ref1	prism:number	"suppl 1"	.
+if:ref1	prism:startingPage	"5"	.
+if:ref1	prism:endingPage	"9"	.
+if:ref1	dct:issued	"2012"^^xsd:gYear	.
+if:ref2	rdf:type	bibo:Article	.
+if:ref2	dct:creator	"井上拓也 他"@ja	.
+if:ref2	prism:publicationName	"日本臨牀"@ja	.
+if:ref2	prism:volume	"70"	.
+if:ref2	prism:number	"suppl 1"	.
+if:ref2	prism:startingPage	"185"	.
+if:ref2	prism:endingPage	"188"	.
+if:ref2	dct:issued	"2012"^^xsd:gYear	.
+if:ref3	rdf:type	bibo:BookSection	.
+if:ref3	prism:publicationName	"潰瘍性大腸炎治療指針"@ja	.
+if:ref3	prism:volume	"平成26年度分担研究報告書別冊"@ja	.
+if:ref3	prism:startingPage	"1"	.
+if:ref3	prism:endingPage	"7"	.
+if:ref4	rdf:type	bibo:Article	.
+if:ref4	dct:creator	"Frieri, G. et al."	.
+if:ref4	prism:publicationName	"Gut."	.
+if:ref4	prism:volume	"47"	.
+if:ref4	prism:number	"3"	.
+if:ref4	prism:startingPage	"410"	.
+if:ref4	prism:endingPage	"414"	.
+if:ref4	dct:issued	"2000"^^xsd:gYear	.
+if:ref5	rdf:type	bibo:Article	.
+if:ref5	dct:creator	"Myers, B. et al"	.
+if:ref5	prism:publicationName	"Gut."	.
+if:ref5	prism:volume	"28"	.
+if:ref5	prism:number	"2"	.
+if:ref5	prism:startingPage	"196"	.
+if:ref5	prism:endingPage	"200"	.
+if:ref5	dct:issued	"1987"^^xsd:gYear	.
+if:ref6	rdf:type	bibo:BookSection	.
+if:ref6	prism:publicationName	"潰瘍性大腸炎治療指針"@ja	.
+if:ref6	prism:volume	"平成25年度分担研究報告書別冊（2010年2月改訂）"@ja	.
+if:ref6	prism:startingPage	"1"	.
+if:ref6	prism:endingPage	"3"	.
+if:ref7	rdf:type	bibo:Article	.
+if:ref7	dct:creator	"Kane, SV."	.
+if:ref7	prism:publicationName	"Aliment. Pharmacol. Ther."	.
+if:ref7	prism:volume	"23"	.
+if:ref7	prism:number	"5"	.
+if:ref7	prism:startingPage	"577"	.
+if:ref7	prism:endingPage	"585"	.
+if:ref7	dct:issued	"2006"^^xsd:gYear	.
+if:ref8	rdf:type	bibo:Document	.
+if:ref8	rdfs:label	"社内資料（長期保存試験）"@ja	.
+if:ref9	rdf:type	bibo:Document	.
+if:ref9	rdfs:label	"社内資料（加速試験及び中間的試験）"@ja	.
+if:ref10	rdf:type	bibo:Document	.
+if:ref10	rdfs:label	"社内資料（苛酷試験）"@ja	.
+if:ref11	rdf:type	bibo:Document	.
+if:ref11	rdfs:label	"社内資料（溶出試験）"@ja	.
+if:ref12	rdf:type	bibo:Document	.
+if:ref12	rdfs:label	"社内資料（海外第Ⅰ相試験（SPD476-101試験）－健康成人における薬物シンチグラフィー・パイロット試験－）"@ja	.
+if:ref12	dct:dateAccepted	"2016-09-28"^^xsd:date	.
+if:ref12	ifo:ctd_number	"CTD 2.7.6.8"	.
+if:ref13	rdf:type	bibo:Document	.
+if:ref13	rdfs:label	"社内資料：国内第Ⅰ相試験－健康成人における単回及び反復投与試験－"@ja	.
+if:ref13	dct:dateAccepted	"2016-09-28"^^xsd:date	.
+if:ref13	ifo:ctd_number	"CTD 2.7.6.5"	.
+if:ref14	rdf:type	bibo:Document	.
+if:ref14	rdfs:label	"社内資料：国内第Ⅲ相試験－メサラジンを対照とした軽症～中等症の活動期の潰瘍性大腸炎における有効性及び安全性の検討－"@ja	.
+if:ref14	dct:dateAccepted	"2016-09-28"^^xsd:date	.
+if:ref14	ifo:ctd_number	"CTD 2.7.6.18"	.
+if:ref15	rdf:type	bibo:Document	.
+if:ref15	rdfs:label	"社内資料：国内第Ⅲ相試験－メサラジンを対照とした寛解期の潰瘍性大腸炎における有効性及び安全性の検討－"@ja	.
+if:ref15	dct:dateAccepted	"2016-09-28"^^xsd:date	.
+if:ref15	ifo:ctd_number	"CTD 2.7.6.17"	.
+if:ref16	rdf:type	bibo:Document	.
+if:ref16	rdfs:label	"薬社内資料：国内第Ⅲ相試験－軽症～中等症の活動期の潰瘍性大腸炎における有効性及び安全性の検討－"@ja	.
+if:ref16	dct:dateAccepted	"2016-09-28"^^xsd:date	.
+if:ref16	ifo:ctd_number	"CTD 2.7.6.16"	.
+if:ref17	rdf:type	bibo:Article	.
+if:ref17	dct:creator	"Simmonds, N. J. et al."	.
+if:ref17	prism:publicationName	"Aliment. Pharmacol. Ther."	.
+if:ref17	prism:volume	"13"	.
+if:ref17	prism:number	"3"	.
+if:ref17	prism:startingPage	"363"	.
+if:ref17	prism:endingPage	"372"	.
+if:ref17	dct:issued	"1999"^^xsd:gYear	.
+if:ref18	rdf:type	bibo:Article	.
+if:ref18	dct:creator	"Valentine, J. F."	.
+if:ref18	prism:publicationName	"Am. J. Physiol. Gastrointest. Liver Physiol."	.
+if:ref18	prism:volume	"281"	.
+if:ref18	prism:number	"4"	.
+if:ref18	prism:startingPage	"G1044"	.
+if:ref18	prism:endingPage	"G1050"	.
+if:ref18	dct:issued	"2001"^^xsd:gYear	.
+if:ref19	rdf:type	bibo:Article	.
+if:ref19	dct:creator	"Kennedy, M. et al."	.
+if:ref19	prism:publicationName	"Int. J. Mol. Med."	.
+if:ref19	prism:volume	"4"	.
+if:ref19	prism:number	"4"	.
+if:ref19	prism:startingPage	"437"	.
+if:ref19	prism:endingPage	"443"	.
+if:ref19	dct:issued	"1999"^^xsd:gYear	.
+if:ref20	rdf:type	bibo:Article	.
+if:ref20	dct:creator	"Cavicchi, M. et al."	.
+if:ref20	prism:publicationName	"Gastroenterology."	.
+if:ref20	prism:volume	"118"	.
+if:ref20	prism:number	"4"	.
+if:ref20	prism:startingPage	"A804"	.
+if:ref20	prism:endingPage	"A804"	.
+if:ref20	dct:issued	"2000"^^xsd:gYear	.
+if:ref21	rdf:type	bibo:Article	.
+if:ref21	dct:creator	"Horváth, K. et al."@ja	.
+if:ref21	prism:publicationName	"Eur. J. Pharmacol."	.
+if:ref21	prism:volume	"581"	.
+if:ref21	prism:number	"3"	.
+if:ref21	prism:startingPage	"315"	.
+if:ref21	prism:endingPage	"323"	.
+if:ref21	dct:issued	"2008"^^xsd:gYear	.
+if:ref22	dct:creator	"Sandoval, M. et al."	.
+if:ref22	prism:publicationName	"Gastroenterology."	.
+if:ref22	prism:volume	"113"	.
+if:ref22	prism:number	"5"	.
+if:ref22	prism:startingPage	"1480"^^xsd:gYear	.
+if:ref22	prism:endingPage	"1488"^^xsd:gYear	.
+if:ref22	dct:issued	"1997"^^xsd:gYear	.
+if:ref23	rdf:type	bibo:Article	.
+if:ref23	prism:publicationName	"Gut."	.
+if:ref23	prism:volume	"44"	.
+if:ref23	prism:number	"2"	.
+if:ref23	prism:startingPage	"180"	.
+if:ref23	prism:endingPage	"185"	.
+if:ref23	dct:issued	"1999"^^xsd:gYear	.
+if:ref24	rdf:type	bibo:Article	.
+if:ref24	dct:creator	"Lutz, J. et al."	.
+if:ref24	prism:publicationName	"Adv. Exp. Med. Biol."	.
+if:ref24	prism:volume	"361"	.
+if:ref24	prism:startingPage	"327"	.
+if:ref24	prism:endingPage	"332"	.
+if:ref24	dct:issued	"1994"^^xsd:gYear	.
+if:ref25	rdf:type	bibo:Article	.
+if:ref25	dct:creator	"Rousseaux, C. et al."	.
+if:ref25	prism:publicationName	"J. Exp. Med."	.
+if:ref25	prism:volume	"201"	.
+if:ref25	prism:number	"8"	.
+if:ref25	prism:startingPage	"1205"^^xsd:gYear	.
+if:ref25	prism:endingPage	"1215"^^xsd:gYear	.
+if:ref25	dct:issued	"2005"^^xsd:gYear	.
+if:ref26	rdf:type	bibo:Article	.
+if:ref26	dct:creator	"Kaiser, G. C. et al."	.
+if:ref26	prism:publicationName	"Gastroenterology."	.
+if:ref26	prism:volume	"116"	.
+if:ref26	prism:number	"3"	.
+if:ref26	prism:startingPage	"602"	.
+if:ref26	prism:endingPage	"609"	.
+if:ref26	dct:issued	"1999"^^xsd:gYear	.
+if:ref27	prism:publicationName	"J. Biol. Chem."	.
+if:ref27	prism:volume	"274"	.
+if:ref27	prism:number	"51"	.
+if:ref27	prism:startingPage	"36631"	.
+if:ref27	prism:endingPage	"36636"	.
+if:ref27	dct:issued	"1999"^^xsd:gYear	.
+if:ref28	rdf:type	bibo:Article	.
+if:ref28	prism:publicationName	"Am. J. Gastroenterol."	.
+if:ref28	prism:number	"12"	.
+if:ref28	prism:startingPage	"3452"^^xsd:gYear	.
+if:ref28	prism:endingPage	"3457"^^xsd:gYear	.
+if:ref28	dct:issued	"2000"^^xsd:gYear	.
+if:ref29	rdf:type	bibo:Article	.
+if:ref29	dct:creator	"Schmidt, C. et al."	.
+if:ref29	prism:volume	"13"	.
+if:ref29	prism:number	"7"	.
+if:ref29	prism:startingPage	"417"	.
+if:ref29	prism:endingPage	"425"	.
+if:ref29	dct:issued	"1996"^^xsd:gYear	.
+if:ref30	rdf:type	bibo:Article	.
+if:ref30	dct:creator	"Zijlstra, F. J. et al."	.
+if:ref30	prism:publicationName	"Agents Actions."	.
+if:ref30	prism:number	"Spec No"	.
+if:ref30	prism:startingPage	"C122"	.
+if:ref30	prism:endingPage	"C124"	.
+if:ref30	dct:issued	"1993"^^xsd:gYear	.
+if:ref31	rdf:type	bibo:Article	.
+if:ref31	dct:creator	"Gómez-Muñoz, A. et al."@ja	.
+if:ref31	prism:publicationName	"Biochim. Biophys. Acta."	.
+if:ref31	prism:volume	"1533"^^xsd:gYear	.
+if:ref31	prism:startingPage	"110"	.
+if:ref31	prism:endingPage	"118"	.
+if:ref31	dct:issued	"2001"^^xsd:gYear	.
+if:ref32	rdf:type	bibo:Article	.
+if:ref32	dct:creator	"Goto, M. et al."	.
+if:ref32	prism:publicationName	"J. Pharm. Pharmacol."	.
+if:ref32	prism:volume	"53"	.
+if:ref32	prism:number	"12"	.
+if:ref32	prism:startingPage	"1711"^^xsd:gYear	.
+if:ref32	prism:endingPage	"1720"^^xsd:gYear	.
+if:ref32	dct:issued	"2001"^^xsd:gYear	.
+if:ref33	rdf:type	bibo:Article	.
+if:ref33	dct:creator	"Rodrigues, L. V. et al."	.
+if:ref33	prism:publicationName	"Phytother. Res."	.
+if:ref33	prism:volume	"16"	.
+if:ref33	prism:number	"3"	.
+if:ref33	prism:startingPage	"267"	.
+if:ref33	prism:endingPage	"272"	.
+if:ref33	dct:issued	"2002"^^xsd:gYear	.
+if:ref34	rdf:type	bibo:Article	.
+if:ref34	dct:creator	"Tozaki, H. et al."	.
+if:ref34	prism:publicationName	"J. Pharm. Pharmacol."	.
+if:ref34	prism:volume	"51"	.
+if:ref34	prism:number	"10"	.
+if:ref34	prism:startingPage	"1107"^^xsd:gYear	.
+if:ref34	prism:endingPage	"1112"^^xsd:gYear	.
+if:ref34	dct:issued	"1999"^^xsd:gYear	.
+if:ref35	rdf:type	bibo:Article	.
+if:ref35	dct:creator	"Tamai, H. et al."	.
+if:ref35	prism:publicationName	"Inflammation."	.
+if:ref35	prism:volume	"16"	.
+if:ref35	prism:number	"1"	.
+if:ref35	prism:startingPage	"69"	.
+if:ref35	prism:endingPage	"81"	.
+if:ref35	dct:issued	"1992"^^xsd:gYear	.
+if:ref36	rdf:type	bibo:Document	.
+if:ref36	dct:creator	"社内資料（海外第Ⅰ相試験（SPD476-109試験）－健康成人における単回投与試験－）"@ja	.
+if:ref36	prism:publicationName	"2016-09-28"^^xsd:date	.
+if:ref36	prism:volume	"CTD 2.7.6.10"	.
+if:ref37	rdf:type	bibo:Article	.
+if:ref37	dct:creator	"Pierce, D. et al."	.
+if:ref37	prism:publicationName	"Drug Des. Devel. Ther."	.
+if:ref37	prism:volume	"8"	.
+if:ref37	prism:startingPage	"529"	.
+if:ref37	prism:endingPage	"543"	.
+if:ref37	dct:issued	"2014"^^xsd:gYear	.
+if:ref38	prism:publicationName	"Acta Obstet. Gynecol. Scand."	.
+if:ref38	prism:volume	"73"	.
+if:ref38	prism:number	"5"	.
+if:ref38	prism:startingPage	"399"	.
+if:ref38	prism:endingPage	"402"	.
+if:ref38	dct:issued	"1994"^^xsd:gYear	.
+if:ref39	rdf:type	bibo:Article	.
+if:ref39	prism:publicationName	"医薬品研究."@ja	.
+if:ref39	prism:number	"8"	.
+if:ref39	prism:startingPage	"704"	.
+if:ref39	prism:endingPage	"718"	.
+if:ref39	dct:issued	"1994"^^xsd:gYear	.
+if:ref40	rdf:type	bibo:Article	.
+if:ref40	dct:creator	"Jenss, H. et al."	.
+if:ref40	prism:volume	"85"	.
+if:ref40	prism:number	"3"	.
+if:ref40	prism:endingPage	"331"	.
+if:ref40	dct:issued	"1990"^^xsd:gYear	.
+if:ref41	rdf:type	bibo:Article	.
+if:ref41	dct:creator	"Klotz, U. et al."	.
+if:ref41	prism:publicationName	"Lancet."	.
+if:ref41	prism:number	"8871"^^xsd:gYear	.
+if:ref41	prism:startingPage	"618"	.
+if:ref41	prism:endingPage	"619"	.
+if:ref41	dct:issued	"1993"^^xsd:gYear	.
+if:ref42	rdf:type	bibo:Article	.
+if:ref42	dct:creator	"Klotz, U. et al."	.
+if:ref42	prism:publicationName	"Arzneimittelforschung."	.
+if:ref42	prism:volume	"35"	.
+if:ref42	prism:startingPage	"636"	.
+if:ref42	prism:endingPage	"639"	.
+if:ref42	dct:issued	"1985"^^xsd:gYear	.
+if:ref43	rdf:type	bibo:Article	.
+if:ref43	dct:creator	"Rasmussen, S. N. et al."	.
+if:ref43	prism:publicationName	"Gastroenterology."	.
+if:ref43	prism:volume	"83"	.
+if:ref43	prism:number	"5"	.
+if:ref43	prism:endingPage	"1070"^^xsd:gYear	.
+if:ref43	dct:issued	"1982"^^xsd:gYear	.
+if:ref44	rdf:type	bibo:Article	.
+if:ref44	dct:creator	"Haagen Nielsen, O. et al."	.
+if:ref44	prism:publicationName	"Br. J. Clin. Pharmacol."	.
+if:ref44	prism:volume	"16"	.
+if:ref44	prism:number	"6"	.
+if:ref44	prism:startingPage	"738"	.
+if:ref44	prism:endingPage	"740"	.
+if:ref44	dct:issued	"1983"^^xsd:gYear	.
+if:ref45	rdf:type	bibo:Article	.
+if:ref45	dct:creator	"De Vos, M."	.
+if:ref45	prism:publicationName	"Clin. Pharmacokinet."	.
+if:ref45	prism:volume	"39"	.
+if:ref45	prism:number	"2"	.
+if:ref45	prism:startingPage	"85"	.
+if:ref45	prism:endingPage	"97"	.
+if:ref45	dct:issued	"2000"^^xsd:gYear	.
+if:ref46	rdf:type	bibo:Article	.
+if:ref46	dct:creator	"Ricart, E. et al."	.
+if:ref46	prism:publicationName	"Am. J. Gastroenterol."	.
+if:ref46	prism:volume	"97"	.
+if:ref46	prism:number	"7"	.
+if:ref46	prism:startingPage	"1763"^^xsd:gYear	.
+if:ref46	prism:endingPage	"1768"^^xsd:gYear	.
+if:ref46	dct:issued	"2002"^^xsd:gYear	.
+if:ref47	rdf:type	bibo:Article	.
+if:ref47	dct:creator	"Cantilena, L. R. et al."	.
+if:ref47	prism:publicationName	"J. Clin. Pharmacol."	.
+if:ref47	prism:volume	"44"	.
+if:ref47	prism:number	"12"	.
+if:ref47	prism:startingPage	"1405"^^xsd:gYear	.
+if:ref47	prism:endingPage	"1411"^^xsd:gYear	.
+if:ref47	dct:issued	"2004"^^xsd:gYear	.
+if:ref48	rdf:type	bibo:Article	.
+if:ref48	dct:creator	"Nielsen, OH. et al."	.
+if:ref48	prism:publicationName	"Scand J Gastroenterol."	.
+if:ref48	prism:volume	"28"	.
+if:ref48	prism:number	"6"	.
+if:ref48	prism:startingPage	"527"	.
+if:ref48	prism:endingPage	"532"	.
+if:ref48	dct:issued	"1993"^^xsd:gYear	.
+if:ref49	rdf:type	bibo:Article	.
+if:ref49	dct:creator	"田中友希夫 他"@ja	.
+if:ref49	prism:publicationName	"薬理と治療"@ja	.
+if:ref49	prism:volume	"22"	.
+if:ref49	prism:number	"8"	.
+if:ref49	prism:startingPage	"3501"^^xsd:gYear	.
+if:ref49	prism:endingPage	"3510"^^xsd:gYear	.
+if:ref49	dct:issued	"1994"^^xsd:gYear	.
+if:ref50	rdf:type	bibo:Article	.
+if:ref50	dct:creator	"Nelis, G. F."	.
+if:ref50	prism:publicationName	"Lancet."	.
+if:ref50	prism:volume	"1"	.
+if:ref50	prism:number	"8634"^^xsd:gYear	.
+if:ref50	prism:startingPage	"383"	.
+if:ref50	prism:endingPage	"383"	.
+if:ref50	dct:issued	"1989"^^xsd:gYear	.
+if:ref51	rdf:type	bibo:Article	.
+if:ref51	dct:creator	"Ito, S. et al."	.
+if:ref51	prism:publicationName	"Am. J. Obstet. Gynecol."	.
+if:ref51	prism:volume	"168"	.
+if:ref51	prism:number	"5"	.
+if:ref51	prism:startingPage	"1393"^^xsd:gYear	.
+if:ref51	prism:endingPage	"1399"^^xsd:gYear	.
+if:ref51	dct:issued	"1993"^^xsd:gYear	.
+if:ref52	rdf:type	bibo:Article	.
+if:ref52	dct:creator	"Szumlanski, CL. et al."	.
+if:ref52	prism:publicationName	"Br. J. ClinPharmacol."	.
+if:ref52	prism:volume	"39"	.
+if:ref52	prism:number	"4"	.
+if:ref52	prism:startingPage	"456"	.
+if:ref52	prism:endingPage	"459"	.
+if:ref52	dct:issued	"1995"^^xsd:gYear	.
+if:ref53	rdf:type	bibo:Article	.
+if:ref53	dct:creator	"Lowry, PW. et al."	.
+if:ref53	prism:publicationName	"Gut."	.
+if:ref53	prism:volume	"49"	.
+if:ref53	prism:number	"5"	.
+if:ref53	prism:startingPage	"656"	.
+if:ref53	prism:endingPage	"664"	.
+if:ref53	dct:issued	"2001"^^xsd:gYear	.
+if:ref54	rdf:type	bibo:Article	.
+if:ref54	dct:creator	"田中和彦 他"@ja	.
+if:ref54	prism:publicationName	"応用薬理."@ja	.
+if:ref54	prism:volume	"48"	.
+if:ref54	prism:number	"4"	.
+if:ref54	prism:startingPage	"225"	.
+if:ref54	prism:endingPage	"238"	.
+if:ref54	dct:issued	"1994"^^xsd:gYear	.
+if:ref55	rdf:type	bibo:Article	.
+if:ref55	dct:creator	"Greenfield, SM. et al."	.
+if:ref55	prism:publicationName	"Aliment. Pharmacol. Ther."	.
+if:ref55	prism:volume	"6"	.
+if:ref55	prism:number	"6"	.
+if:ref55	prism:startingPage	"671"	.
+if:ref55	prism:endingPage	"683"	.
+if:ref55	dct:issued	"1992"^^xsd:gYear	.
+if:ref56	rdf:type	bibo:Article	.
+if:ref56	dct:creator	"Koelzer, PP. et al."	.
+if:ref56	prism:publicationName	"Z. Naturforschg."	.
+if:ref56	prism:volume	"6b"	.
+if:ref56	prism:startingPage	"183"	.
+if:ref56	prism:endingPage	"190"	.
+if:ref56	dct:issued	"1951"^^xsd:gYear	.
+if:ref57	rdf:type	bibo:Article	.
+if:ref57	dct:creator	"太田隆雄 他"@ja	.
+if:ref57	prism:publicationName	"応用薬理."@ja	.
+if:ref57	prism:volume	"47"	.
+if:ref57	prism:number	"6"	.
+if:ref57	prism:startingPage	"505"	.
+if:ref57	prism:endingPage	"507"	.
+if:ref57	dct:issued	"1994"^^xsd:gYear	.
+if:ref58	rdf:type	bibo:Article	.
+if:ref58	dct:creator	"中浦槇介 他"@ja	.
+if:ref58	prism:publicationName	"応用薬理."@ja	.
+if:ref58	prism:volume	"47"	.
+if:ref58	prism:number	"6"	.
+if:ref58	prism:startingPage	"509"	.
+if:ref58	prism:endingPage	"511"	.
+if:ref58	dct:issued	"1994"^^xsd:gYear	.
+if:ref60	rdf:type	bibo:Article	.
+if:ref60	dct:creator	"木村 均 他"@ja	.
+if:ref60	prism:publicationName	"応用薬理."@ja	.
+if:ref60	prism:volume	"48"	.
+if:ref60	prism:number	"4"	.
+if:ref60	prism:startingPage	"277"	.
+if:ref60	prism:endingPage	"288"	.
+if:ref60	dct:issued	"1994"^^xsd:gYear	.
+if:ref61	rdf:type	bibo:Article	.
+if:ref61	dct:creator	"永澤佳子 他"@ja	.
+if:ref61	prism:publicationName	"応用薬理."@ja	.
+if:ref61	prism:volume	"48"	.
+if:ref61	prism:number	"6"	.
+if:ref61	prism:startingPage	"501"	.
+if:ref61	prism:endingPage	"509"	.
+if:ref61	dct:issued	"1994"^^xsd:gYear	.
+if:ref62	rdf:type	bibo:Article	.
+if:ref62	dct:creator	"Witt, KL. et al."	.
+if:ref62	prism:publicationName	"Mutat. Res."	.
+if:ref62	prism:volume	"283"	.
+if:ref62	prism:number	"1"	.
+if:ref62	prism:startingPage	"59"	.
+if:ref62	prism:endingPage	"64"	.
+if:ref62	dct:issued	"1992"^^xsd:gYear	.
+if:ref63	rdf:type	bibo:Article	.
+if:ref63	dct:creator	"廣内康彦 他"@ja	.
+if:ref63	prism:publicationName	"J. Toxicol. Sci."	.
+if:ref63	prism:volume	"23"	.
+if:ref63	prism:number	"suppl III"	.
+if:ref63	prism:startingPage	"539"	.
+if:ref63	prism:endingPage	"552"	.
+if:ref63	dct:issued	"1998"^^xsd:gYear	.
+if:ref64	rdf:type	bibo:Article	.
+if:ref64	dct:creator	"O’Moráin, C. et al."@ja	.
+if:ref64	prism:publicationName	"Gut."	.
+if:ref64	prism:volume	"25"	.
+if:ref64	prism:number	"10"	.
+if:ref64	prism:startingPage	"1078"^^xsd:gYear	.
+if:ref64	prism:endingPage	"1084"^^xsd:gYear	.
+if:ref64	dct:issued	"1984"^^xsd:gYear	.
+if:ref65	rdf:type	bibo:Document	.
+if:ref65	dct:creator	"Asacol® (mesalamine) Delayed-Release Tablets"@ja	.
+if:ref65	prism:publicationName	"Physicians’Desk Reference 62nd ed."@ja	.
+if:ref65	dct:creator	"Montvale, NJ, Thomson Healthcare Inc."	.
+if:ref65	dct:issued	"2008"^^xsd:gYear	.
+if:ref66	rdf:type	bibo:Article	.
+if:ref66	dct:creator	"太田隆雄 他"@ja	.
+if:ref66	prism:publicationName	"応用薬理."@ja	.
+if:ref66	prism:volume	"47"	.
+if:ref66	prism:number	"6"	.
+if:ref66	prism:startingPage	"513"	.
+if:ref66	prism:endingPage	"522"	.
+if:ref66	dct:issued	"1994"^^xsd:gYear	.
+if:ref67	rdf:type	bibo:Document	.
+if:ref67	prism:publicationName	"ペンタサ®注腸1g審査報告書"@ja	.
+if:ref67	prism:volume	"平成26年度分担研究報告書別冊"@ja	.
+if:ref67	dct:creator	"国立医薬品食品衛生研究所長,"@ja	.
+if:ref67	dct:issued	"平成14年8月13日"@ja	.
+if:ref68	rdf:type	bibo:Article	.
+if:ref68	dct:creator	"和田 浩 他"@ja	.
+if:ref68	prism:publicationName	"応用薬理."@ja	.
+if:ref68	prism:volume	"47"	.
+if:ref68	prism:number	"6"	.
+if:ref68	prism:startingPage	"523"	.
+if:ref68	prism:endingPage	"528"	.
+if:ref68	dct:issued	"1994"^^xsd:gYear	.
+if:IF_11_1	dct:references	if:ref1	.
+if:IF_11_1	dct:references	if:ref2	.
+if:IF_11_1	dct:references	if:ref3	.
+if:IF_11_1	dct:references	if:ref4	.
+if:IF_11_1	dct:references	if:ref5	.
+if:IF_11_1	dct:references	if:ref6	.
+if:IF_11_1	dct:references	if:ref7	.
+if:IF_11_1	dct:references	if:ref8	.
+if:IF_11_1	dct:references	if:ref9	.
+if:IF_11_1	dct:references	if:ref10	.
+if:IF_11_1	dct:references	if:ref11	.
+if:IF_11_1	dct:references	if:ref12	.
+if:IF_11_1	dct:references	if:ref13	.
+if:IF_11_1	dct:references	if:ref14	.
+if:IF_11_1	dct:references	if:ref15	.
+if:IF_11_1	dct:references	if:ref16	.
+if:IF_11_1	dct:references	if:ref17	.
+if:IF_11_1	dct:references	if:ref18	.
+if:IF_11_1	dct:references	if:ref19	.
+if:IF_11_1	dct:references	if:ref20	.
+if:IF_11_1	dct:references	if:ref21	.
+if:IF_11_1	dct:references	if:ref22	.
+if:IF_11_1	dct:references	if:ref23	.
+if:IF_11_1	dct:references	if:ref24	.
+if:IF_11_1	dct:references	if:ref25	.
+if:IF_11_1	dct:references	if:ref26	.
+if:IF_11_1	dct:references	if:ref27	.
+if:IF_11_1	dct:references	if:ref28	.
+if:IF_11_1	dct:references	if:ref29	.
+if:IF_11_1	dct:references	if:ref30	.
+if:IF_11_1	dct:references	if:ref31	.
+if:IF_11_1	dct:references	if:ref32	.
+if:IF_11_1	dct:references	if:ref33	.
+if:IF_11_1	dct:references	if:ref34	.
+if:IF_11_1	dct:references	if:ref35	.
+if:IF_11_1	dct:references	if:ref36	.
+if:IF_11_1	dct:references	if:ref37	.
+if:IF_11_1	dct:references	if:ref38	.
+if:IF_11_1	dct:references	if:ref39	.
+if:IF_11_1	dct:references	if:ref40	.
+if:IF_11_1	dct:references	if:ref41	.
+if:IF_11_1	dct:references	if:ref42	.
+if:IF_11_1	dct:references	if:ref43	.
+if:IF_11_1	dct:references	if:ref44	.
+if:IF_11_1	dct:references	if:ref45	.
+if:IF_11_1	dct:references	if:ref46	.
+if:IF_11_1	dct:references	if:ref47	.
+if:IF_11_1	dct:references	if:ref48	.
+if:IF_11_1	dct:references	if:ref49	.
+if:IF_11_1	dct:references	if:ref50	.
+if:IF_11_1	dct:references	if:ref51	.
+if:IF_11_1	dct:references	if:ref52	.
+if:IF_11_1	dct:references	if:ref53	.
+if:IF_11_1	dct:references	if:ref54	.
+if:IF_11_1	dct:references	if:ref55	.
+if:IF_11_1	dct:references	if:ref56	.
+if:IF_11_1	dct:references	if:ref57	.
+if:IF_11_1	dct:references	if:ref58	.
+if:IF_11_1	dct:references	if:ref60	.
+if:IF_11_1	dct:references	if:ref61	.
+if:IF_11_1	dct:references	if:ref62	.
+if:IF_11_1	dct:references	if:ref63	.
+if:IF_11_1	dct:references	if:ref64	.
+if:IF_11_1	dct:references	if:ref65	.
+if:IF_11_1	dct:references	if:ref66	.
+if:IF_11_1	dct:references	if:ref67	.
+if:IF_11_1	dct:references	if:ref68	.
