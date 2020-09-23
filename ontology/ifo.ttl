@@ -22,50 +22,113 @@
     rdfs:label "インタビューフォーム"@ja .
 
 :Section
-    a owl:Class .
+    a owl:Class ;
+    rdfs:label "セクション"@ja .
 
 :Table
-    a owl:Class .
+    a owl:Class ;
+    rdfs:label "表"@ja .
 
 :Figure
-    a owl:Class .
+    a owl:Class ;
+    rdfs:label "図"@ja .
 
 :Item
-    a owl:Class .
+    a owl:Class ;
+    rdfs:label "アイテム"@ja .
 
 :YJCode
     a owl:Class ;
-    rdfs:label "YJCode" .
+    rdfs:label "YJコード"@ja .
 
 # Generic predicates
 
 :package_insert
+    rdfs:label "添付文書"@ja ;
+    a owl:ObjectProperty .
+
+:yjcode
+    rdfs:label "YJコード"@ja ;
     a owl:ObjectProperty .
 
 :section
+    rdfs:label "セクション"@ja ;
     a owl:ObjectProperty .
 
 :item
+    rdfs:label "アイテム"@ja ;
     a owl:ObjectProperty .
 
 :table
+    rdfs:label "表"@ja ;
     a owl:ObjectProperty .
 
 :figure
+    rdfs:label "図"@ja ;
     a owl:ObjectProperty .
 
-:drug_proprietary_id
-    a owl:ObjectProperty .
+# Section specific predicates (IF_0)
+
+:if_0_8
+    rdfs:label "名称"@ja ;
+    a owl:DatatypeProperty .
+
+:if_0_9
+    rdfs:label "剤形"@ja ;
+    a owl:DatatypeProperty .
+
+:if_0_11
+    rdfs:label "規格・含量"@ja ;
+    a owl:DatatypeProperty .
+
+:if_0_13
+    rdfs:label "製造販売承認年月日"@ja ;
+    a owl:DatatypeProperty .
+
+:if_0_14
+    rdfs:label "薬価基準収載年月日"@ja ;
+    a owl:DatatypeProperty .
+
+:if_0_15
+    rdfs:label "販売開始年月日"@ja ;
+    a owl:DatatypeProperty .
+
+# Section specific predicates (IF_10_8)
+
+:if_10_8
+    rdfs:label "承認番号"@ja ;
+    a owl:DatatypeProperty .
+
+# Section specific predicates (IF_10_13)
+
+:yakka_code
+    rdfs:label "厚生労働省薬価基準収載医薬品コード"@ja ;
+    a owl:DatatypeProperty .
+
+:yj_code
+    rdfs:label "個別医薬品コ ード(YJ コード)"@ja ;
+    a owl:DatatypeProperty .
+
+:hot_code
+    rdfs:label "HOT番号"@ja ;
+    a owl:DatatypeProperty .
+
+:resept_code
+    rdfs:label "レセプト電算処理システム用コード"@ja ;
+    a owl:DatatypeProperty .
 
 # Section specific predicates (IF_11)
 
 :internal_reference_id
+    rdfs:label "内部文献番号"@ja ;
     a owl:DatatypeProperty .
 
 :ctd_number
+    rdfs:label "CTD番号"@ja ;
     a owl:DatatypeProperty .
 
 :dir_number
+    rdfs:label "DIR番号"@ja ;
     a owl:DatatypeProperty .
 
 # Section specific classes
