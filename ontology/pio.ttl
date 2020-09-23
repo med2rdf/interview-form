@@ -25,6 +25,7 @@
 
 :PI_0
     a owl:Class ;
+    dct:identifier "0" ;
     rdfs:label "表紙"@ja .
 
 :PI_0_1
@@ -94,6 +95,7 @@
 
 :PI_1
     a owl:Class ;
+    dct:identifier "1" ;
     rdfs:label "警告"@ja ;
     :xpath "/PackIns/Warnings" ;
     :xml_tag "Warnings" ;
@@ -101,6 +103,7 @@
 
 :PI_2
     a owl:Class ;
+    dct:identifier "2" ;
     rdfs:label "禁忌(次の患者には投与しないこと)"@ja ;
     :xpath "/PackIns/ContraIndications" ;
     :xml_tag "ContraIndications" ;
@@ -108,12 +111,14 @@
 
 :PI_3
     a owl:Class ;
+    dct:identifier "3" ;
     rdfs:label "組成・性状"@ja ;
     :xpath "/PackIns/CompositionAndProperty" ;
     :xml_tag "CompositionAndProperty" .
 
 :PI_3_1
     a owl:Class ;
+    dct:identifier "3.1" ;
     rdfs:label "組成"@ja ;
     rdfs:subClassOf :PI_3 ;
     :xpath "/PackIns/CompositionAndProperty/Composition" ;
@@ -122,6 +127,7 @@
 
 :PI_3_2
     a owl:Class ;
+    dct:identifier "3.2" ;
     rdfs:label "製剤の性状"@ja ;
     rdfs:subClassOf :PI_3 ;
     :xpath "/PackIns/CompositionAndProperty/Property" ;
@@ -130,6 +136,7 @@
 
 :PI_4
     a owl:Class ;
+    dct:identifier "4" ;
     rdfs:label "効能又は効果"@ja ;
     :xpath "/PackIns/IndicationsOrEfficacy" ;
     :xml_tag "IndicationsOrEfficacy" ;
@@ -137,6 +144,7 @@
 
 :PI_5
     a owl:Class ;
+    dct:identifier "5" ;
     rdfs:label "効能又は効果に関連する注意"@ja ;
     :xpath "/PackIns/EfficacyRelatedPrecautions" ;
     :xml_tag "EfficacyRelatedPrecautions" ;
@@ -144,6 +152,7 @@
 
 :PI_6
     a owl:Class ;
+    dct:identifier "6" ;
     rdfs:label "用法及び用量"@ja ;
     :xpath "/PackIns/InfoDoseAdmin" ;
     :xml_tag "InfoDoseAdmin" ;
@@ -151,6 +160,7 @@
 
 :PI_7
     a owl:Class ;
+    dct:identifier "7" ;
     rdfs:label "用法及び用量に関連する注意"@ja ;
     :xpath "/PackIns/InfoPrecautionsDosage" ;
     :xml_tag "InfoPrecautionsDosage" ;
@@ -158,6 +168,7 @@
 
 :PI_8
     a owl:Class ;
+    dct:identifier "8" ;
     rdfs:label "重要な基本的注意"@ja ;
     :xpath "/PackIns/ImportantPrecautions" ;
     :xml_tag "ImportantPrecautions" ;
@@ -165,12 +176,14 @@
 
 :PI_9
     a owl:Class ;
+    dct:identifier "9" ;
     rdfs:label "特定の背景を有する患者に関する注意"@ja ;
     :xpath "/PackIns/UseInSpecificPopulations" ;
     :xml_tag "UseInSpecificPopulations" .
 
 :PI_9_1
     a owl:Class ;
+    dct:identifier "9.1" ;
     rdfs:label "合併症・既往歴等のある患者"@ja ;
     rdfs:subClassOf :PI_9 ;
     :xpath "/PackIns/UseInSpecificPopulations/UseInPatientsWithComplicationsOrHistoryOfDiseasesEtc" ;
@@ -179,6 +192,7 @@
 
 :PI_9_2
     a owl:Class ;
+    dct:identifier "9.2" ;
     rdfs:label "腎機能障害患者"@ja ;
     rdfs:subClassOf :PI_9 ;
     :xpath "/PackIns/UseInSpecificPopulations/PatientsWithRenalImpairment" ;
@@ -187,6 +201,7 @@
 
 :PI_9_3
     a owl:Class ;
+    dct:identifier "9.3" ;
     rdfs:label "肝機能障害患者"@ja ;
     rdfs:subClassOf :PI_9 ;
     :xpath "/PackIns/UseInSpecificPopulations/PatientsWithHepaticImpairment" ;
@@ -195,6 +210,7 @@
 
 :PI_9_4
     a owl:Class ;
+    dct:identifier "9.4" ;
     rdfs:label "生殖能を有する者"@ja ;
     rdfs:subClassOf :PI_9 ;
     :xpath "/PackIns/UseInSpecificPopulations/MalesAndFemalesOfReproductivePotential" ;
@@ -203,6 +219,7 @@
 
 :PI_9_5
     a owl:Class ;
+    dct:identifier "9.5" ;
     rdfs:label "妊婦"@ja ;
     rdfs:subClassOf :PI_9 ;
     :xpath "/PackIns/UseInSpecificPopulations/UseInPregnant" ;
@@ -211,6 +228,7 @@
 
 :PI_9_6
     a owl:Class ;
+    dct:identifier "9.6" ;
     rdfs:label "授乳婦"@ja ;
     rdfs:subClassOf :PI_9 ;
     :xpath "/PackIns/UseInSpecificPopulations/UseInNursing" ;
@@ -219,6 +237,7 @@
 
 :PI_9_7
     a owl:Class ;
+    dct:identifier "9.7" ;
     rdfs:label "小児等"@ja ;
     rdfs:subClassOf :PI_9 ;
     :xpath "/PackIns/UseInSpecificPopulations/PediatricUse" ;
@@ -227,6 +246,7 @@
 
 :PI_9_8
     a owl:Class ;
+    dct:identifier "9.8" ;
     rdfs:label "高齢者"@ja ;
     rdfs:subClassOf :PI_9 ;
     :xpath "/PackIns/UseInSpecificPopulations/UseInTheElderly" ;
@@ -235,6 +255,7 @@
 
 :PI_10
     a owl:Class ;
+    dct:identifier "10" ;
     rdfs:label "相互作用"@ja ;
     :xpath "/PackIns/Interactions/ContraIndicatedCombinations" ;
     :xml_tag "" ;
@@ -242,6 +263,7 @@
 
 :PI_10_1
     a owl:Class ;
+    dct:identifier "10.1" ;
     rdfs:label "併用禁忌(併用しないこと)"@ja ;
     rdfs:subClassOf :PI_10 ;
     :xpath "/PackIns/Interactions/ContraIndicatedCombinations" ;
@@ -250,6 +272,7 @@
 
 :PI_10_2
     a owl:Class ;
+    dct:identifier "10.2" ;
     rdfs:label "併用注意(併用に注意すること)"@ja ;
     rdfs:subClassOf :PI_10 ;
     :xpath "/PackIns/Interactions/PrecautionsForCombinations" ;
@@ -258,12 +281,14 @@
 
 :PI_11
     a owl:Class ;
+    dct:identifier "11" ;
     rdfs:label "副作用"@ja ;
     :xpath "/PackIns/AdverseEvents" ;
     :xml_tag "AdverseEvents" .
 
 :PI_11_1
     a owl:Class ;
+    dct:identifier "11.1" ;
     rdfs:label "重大な副作用"@ja ;
     rdfs:subClassOf :PI_11 ;
     :xpath "/PackIns/AdverseEvents/SeriousAdverseEvents" ;
@@ -272,6 +297,7 @@
 
 :PI_11_2
     a owl:Class ;
+    dct:identifier "11.2" ;
     rdfs:label "その他の副作用"@ja ;
     rdfs:subClassOf :PI_11 ;
     :xpath "/PackIns/AdverseEvents/OtherAdverseEvents" ;
@@ -280,6 +306,7 @@
 
 :PI_12
     a owl:Class ;
+    dct:identifier "12" ;
     rdfs:label "臨床検査結果に及ぼす影響"@ja ;
     :xpath "/PackIns/InfluenceOnLaboratoryValues" ;
     :xml_tag "InfluenceOnLaboratoryValues" ;
@@ -287,24 +314,28 @@
 
 :PI_13
     a owl:Class ;
+    dct:identifier "13" ;
     :xpath "/PackIns/OverDosage" ;
     :xml_tag "OverDosage" ;
     rdfs:label "過量投与"@ja .
 
 :PI_13_1
     a owl:Class ;
+    dct:identifier "13.1" ;
     rdfs:label "症状"@ja ;
     rdfs:subClassOf :PI_13 ;
     :interview_form ifo:IF_8_10 .
 
 :PI_13_2
     a owl:Class ;
+    dct:identifier "13.2" ;
     rdfs:label "処置"@ja ;
     rdfs:subClassOf :PI_13 ;
     :interview_form ifo:IF_8_10 .
 
 :PI_14
     a owl:Class ;
+    dct:identifier "14" ;
     rdfs:label "適用上の注意"@ja ;
     :xpath "/PackIns/PrecautionsForApplication" ;
     :xml_tag "PrecautionsForApplication" ;
@@ -312,12 +343,14 @@
 
 :PI_15
     a owl:Class ;
+    dct:identifier "15" ;
     rdfs:label "その他の注意"@ja ;
     :xpath "/PackIns/OtherPrecautions" ;
     :xml_tag "OtherPrecautions" .
 
 :PI_15_1
     a owl:Class ;
+    dct:identifier "15.1" ;
     rdfs:label "臨床使用に基づく情報"@ja ;
     rdfs:subClassOf :PI_15 ;
     :xpath "/PackIns/InformationBasedOnClinicalUse" ;
@@ -326,6 +359,7 @@
 
 :PI_15_2
     a owl:Class ;
+    dct:identifier "15.2" ;
     rdfs:label "非臨床試験に基づく情報"@ja ;
     rdfs:subClassOf :PI_15 ;
     :xpath "/PackIns/InformationBasedOnNonclinicalStudies" ;
@@ -334,12 +368,14 @@
 
 :PI_16
     a owl:Class ;
+    dct:identifier "16" ;
     rdfs:label "薬物動態"@ja ;
     :xpath "/PackIns/Pharmacokinetics" ;
     :xml_tag "Pharmacokinetics" .
 
 :PI_16_1
     a owl:Class ;
+    dct:identifier "16.1" ;
     rdfs:label "血中濃度"@ja ;
     rdfs:subClassOf :PI_16 ;
     :xpath "/PackIns/Pharmacokinetics/BloodLevel" ;
@@ -348,6 +384,7 @@
 
 :PI_16_2
     a owl:Class ;
+    dct:identifier "16.2" ;
     rdfs:label "吸収"@ja ;
     rdfs:subClassOf :PI_16 ;
     :xpath "/PackIns/Pharmacokinetics/Absorption" ;
@@ -356,6 +393,7 @@
 
 :PI_16_3
     a owl:Class ;
+    dct:identifier "16.3" ;
     rdfs:label "分布"@ja ;
     rdfs:subClassOf :PI_16 ;
     :xpath "/PackIns/Pharmacokinetics/Distribution" ;
@@ -364,6 +402,7 @@
 
 :PI_16_4
     a owl:Class ;
+    dct:identifier "16.4" ;
     rdfs:label "代謝"@ja ;
     rdfs:subClassOf :PI_16 ;
     :xpath "/PackIns/Pharmacokinetics/Metabolism" ;
@@ -372,6 +411,7 @@
 
 :PI_16_5
     a owl:Class ;
+    dct:identifier "16.5" ;
     rdfs:label "排泄"@ja ;
     rdfs:subClassOf :PI_16 ;
     :xpath "/PackIns/Pharmacokinetics/Excretion" ;
@@ -380,6 +420,7 @@
 
 :PI_16_6
     a owl:Class ;
+    dct:identifier "16.6" ;
     rdfs:label "特定の背景を有する患者"@ja ;
     rdfs:subClassOf :PI_16 ;
     :xpath "/PackIns/Pharmacokinetics/SpecificPopulation" ;
@@ -388,6 +429,7 @@
 
 :PI_16_7
     a owl:Class ;
+    dct:identifier "16.7" ;
     rdfs:label "薬物相互作用"@ja ;
     rdfs:subClassOf :PI_16 ;
     :xpath "/PackIns/Pharmacokinetics/DrugAndDrugInteractions" ;
@@ -396,6 +438,7 @@
 
 :PI_16_8
     a owl:Class ;
+    dct:identifier "16.8" ;
     rdfs:label "その他"@ja ;
     rdfs:subClassOf :PI_16 ;
     :xpath "/PackIns/Pharmacokinetics/PharmacokineticsEtc" ;
@@ -404,12 +447,14 @@
 
 :PI_17
     a owl:Class ;
+    dct:identifier "17" ;
     rdfs:label "臨床成績"@ja ;
     :xpath "/PackIns/ResultsOfClinicalTrials" ;
     :xml_tag "ResultsOfClinicalTrials" .
 
 :PI_17_1
     a owl:Class ;
+    dct:identifier "17.1" ;
     rdfs:label "有効性及び安全性に関する試験"@ja ;
     rdfs:subClassOf :PI_17 ;
     :xpath "/PackIns/ResultsOfClinicalTrials/EfficacyAndSafety" ;
@@ -418,6 +463,7 @@
 
 :PI_17_2
     a owl:Class ;
+    dct:identifier "17.2" ;
     rdfs:label "製造販売後調査等"@ja ;
     rdfs:subClassOf :PI_17 ;
     :xpath "/PackIns/ResultsOfClinicalTrials/PostMarketingSurveylancesEtc" ;
@@ -426,6 +472,7 @@
 
 :PI_17_3
     a owl:Class ;
+    dct:identifier "17.3" ;
     rdfs:label "その他"@ja ;
     rdfs:subClassOf :PI_17 ;
     :xpath "/PackIns/ResultsOfClinicalTrials/ResultsOfClinicalTrialsEtc" ;
@@ -434,6 +481,7 @@
 
 :PI_18
     a owl:Class ;
+    dct:identifier "18" ;
     rdfs:label "薬効薬理"@ja ;
     :xpath "/PackIns/EfficacyPharmacology" ;
     :xml_tag "EfficacyPharmacology" ;
@@ -441,6 +489,7 @@
 
 :PI_19
     a owl:Class ;
+    dct:identifier "19" ;
     rdfs:label "有効成分に関する理化学的知見"@ja ;
     :xpath "/PackIns/PhyschemOfActIngredients" ;
     :xml_tag "PhyschemOfActIngredients" ;
@@ -448,6 +497,7 @@
 
 :PI_20
     a owl:Class ;
+    dct:identifier "20" ;
     rdfs:label "取扱い上の注意"@ja ;
     :xpath "/PackIns/PrecautionsForHandling" ;
     :xml_tag "PrecautionsForHandling" ;
@@ -455,6 +505,7 @@
 
 :PI_21
     a owl:Class ;
+    dct:identifier "21" ;
     rdfs:label "承認条件"@ja ;
     :xpath "/PackIns/ConditionsOfApproval" ;
     :xml_tag "ConditionsOfApproval" ;
@@ -462,6 +513,7 @@
 
 :PI_22
     a owl:Class ;
+    dct:identifier "22" ;
     rdfs:label "包装"@ja ;
     :xpath "/PackIns/Package" ;
     :xml_tag "Package" ;
@@ -469,6 +521,7 @@
 
 :PI_23
     a owl:Class ;
+    dct:identifier "23" ;
     rdfs:label "主要文献"@ja ;
     :xpath "/PackIns/MainLiterature" ;
     :xml_tag "MainLiterature" ;
@@ -476,6 +529,7 @@
 
 :PI_24
     a owl:Class ;
+    dct:identifier "24" ;
     rdfs:label "文献請求先及び問い合わせ先"@ja ;
     :xpath "/PackIns/AddresseeOfLiteratureRequest" ;
     :xml_tag "AddresseeOfLiteratureRequest" ;
@@ -483,6 +537,7 @@
 
 :PI_25
     a owl:Class ;
+    dct:identifier "25" ;
     rdfs:label "保険給付上の注意"@ja ;
     :xpath "/PackIns/AttentionOfInsurance" ;
     :xml_tag "AttentionOfInsurance" ;
@@ -490,6 +545,7 @@
 
 :PI_26
     a owl:Class ;
+    dct:identifier "26" ;
     rdfs:label "製造販売業者等"@ja ;
     :xpath "/PackIns/NameAddressManufact" ;
     :xml_tag "NameAddressManufact" ;
