@@ -47,7 +47,7 @@
     rdfs:label "添付文書"@ja ;
     a owl:ObjectProperty .
 
-:yjcode    # drug_proprietary_id
+:yjcode
     rdfs:label "YJコード"@ja ;
     a owl:ObjectProperty .
 
@@ -113,7 +113,7 @@
     rdfs:label "HOT番号"@ja ;
     a owl:DatatypeProperty .
 
-:medical_prescription_code
+:resept_code
     rdfs:label "レセプト電算処理システム用コード"@ja ;
     a owl:DatatypeProperty .
 
