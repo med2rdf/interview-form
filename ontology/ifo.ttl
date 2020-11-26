@@ -106,7 +106,7 @@
     a owl:DatatypeProperty .
 
 :yj_code
-    rdfs:label "個別医薬品コ ード(YJ コード)"@ja ;
+    rdfs:label "個別医薬品コード(YJコード)"@ja ;
     a owl:DatatypeProperty .
 
 :hot_code
