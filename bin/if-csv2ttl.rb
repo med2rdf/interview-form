@@ -146,6 +146,7 @@ class InterviewFormCSV2RDF
         if section_uri != "if:#{section}"
           section_uri = "if:#{section}"
           triple(section_uri, "rdf:type", "ifo:#{subject}")
+          triple(section_uri, "rdf:type", "ifo:Section")
           if pi_id = @ifo.if2pi[subject]
             triple(section_uri, "ifo:package_insert", "pi:#{pi_id}")
           end
@@ -157,6 +158,7 @@ class InterviewFormCSV2RDF
           item_uri = "#{section_uri}.#{item}"
           if_id = section_uri.sub(/^if:/, '')
           if pi_id = @ifo.if2pi[if_id]
+            triple(item_uri, "rdf:type", "ifo:Item")
             triple(item_uri, "ifo:package_insert", "pi:#{pi_id}.#{item}")
             triple(item_uri, "dct:identifier", "#{if_id.sub('IF_', '').gsub('_', '.')}.#{item}")
           end
