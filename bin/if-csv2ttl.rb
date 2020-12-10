@@ -81,6 +81,7 @@ class InterviewFormCSV2RDF
   def parse_meta(csv)
     triples = []
     yjcodes = []
+    yjcseen = {}
     if_id = pi_id = if_uri = pi_uri = if_url = pi_url = ''
 
     csv.each do |row|
@@ -98,6 +99,8 @@ class InterviewFormCSV2RDF
       else
         if subject[/^\d+/]
           subject = "yjc:#{subject}"
+          triples << [subject, "rdf:type", "ifo:YJCode"] unless yjcseen[subject]
+          yjcseen[subject] = true
         end
         triples << [subject, predicate, object]
       end
