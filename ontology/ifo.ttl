@@ -37,9 +37,9 @@
     a owl:Class ;
     rdfs:label "アイテム"@ja .
 
-:YJCode
+:Drug
     a owl:Class ;
-    rdfs:label "YJコード"@ja .
+    rdfs:label "医薬品"@ja .
 
 # Generic predicates
 
@@ -47,8 +47,8 @@
     rdfs:label "添付文書"@ja ;
     a owl:ObjectProperty .
 
-:yjcode
-    rdfs:label "YJコード"@ja ;
+:drug
+    rdfs:label "医薬品"@ja ;
     a owl:ObjectProperty .
 
 :section

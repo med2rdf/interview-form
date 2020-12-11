@@ -99,7 +99,7 @@ class InterviewFormCSV2RDF
       else
         if subject[/^\d+/]
           subject = "yjc:#{subject}"
-          triples << [subject, "rdf:type", "ifo:YJCode"] unless yjcseen[subject]
+          triples << [subject, "rdf:type", "ifo:Drug"] unless yjcseen[subject]
           yjcseen[subject] = true
         end
         triples << [subject, predicate, object]
@@ -127,7 +127,7 @@ class InterviewFormCSV2RDF
     triple(pi_uri, "rdfs:seeAlso", pi_url)
 
     yjcodes.each do |yjcode|
-      triple(if_uri, "ifo:yjcode", "yjc:#{yjcode}")
+      triple(if_uri, "ifo:drug", "yjc:#{yjcode}")
     end
 
     triples.each do |subject, predicate, object|
