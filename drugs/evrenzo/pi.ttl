@@ -1,0 +1,97 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://med2rdf.org/pi/800126_3999047F1028_1_02>
+    pio:company_identifier "800126" ;
+    pio:date_of_preparation_or_revision "2019-11"^^xsd:date ;
+    pio:version "第3版"@ja ;
+    pio:sccj_no "873999" ;
+    pio:therapeutic_classification "HIF-PH阻害薬"@ja, "腎性貧血治療薬"@ja ;
+    pio:approval_etc [
+        pio:approval_brand_name "エベレンゾ錠20mg"@ja ;
+        pio:approval_no "30100AMX00239" ;
+        pio:yj_code "3999047F1028" ;
+        pio:storage_method "室温保存" ;
+        pio:shelf_life "4年" ;
+        pio:starting_date_of_marketing "2019-11"^^xsd:date ;
+        pio:trademark_name "Evrenzo Tablets 20mg"@en ;
+        pio:name_in_hiragana "えべれんぞじょうにじゅうみりぐらむ"@ja ;
+        pio:regulatory_classification_code_and_note [
+            pio:regulatory_classification_code 2
+        ], [
+            pio:regulatory_classification_code 12
+        ] ;
+    ], [
+        pio:approval_brand_name "エベレンゾ錠50mg"@ja ;
+        pio:approval_no "30100AMX00240" ;
+        pio:yj_code "3999047F2024" ;
+        pio:storage_method "室温保存" ;
+        pio:shelf_life "4年" ;
+        pio:starting_date_of_marketing "2019-11" ;
+        pio:trademark_name "Evrenzo Tablets 50mg"@en ;
+        pio:name_in_hiragana "えべれんぞじょうごじゅうみりぐらむ"@ja ;
+        pio:regulatory_classification_code_and_note [
+            pio:regulatory_classification_code 2
+        ], [
+            pio:regulatory_classification_code 12
+        ] ;
+    ], [
+        pio:approval_brand_name "エベレンゾ錠100mg"@ja ;
+        pio:approval_no "30100AMX00241" ;
+        pio:yj_code "3999047F3020" ;
+        pio:storage_method "室温保存" ;
+        pio:shelf_life "4年" ;
+        pio:starting_date_of_marketing "2019-11" ;
+        pio:trademark_name "Evrenzo Tablets 100mg"@en ;
+        pio:name_in_hiragana "えべれんぞじょうひゃくみりぐらむ"@ja ; 
+        pio:regulatory_classification_code_and_note [
+            pio:regulatory_classification_code 2
+        ], [
+            pio:regulatory_classification_code 12
+        ] ;
+    ] ;
+    pio:generic_name "Roxadustat"@en, "ロキサデュスタット錠"@ja ;
+    pio:precautions_for_combination <http://med2rdf.org/pi/800126_3999047F1028_1_02#PI_10_2> ;
+    dct:identifier "800126_2590014F1021_1_12" .
+
+<http://med2rdf.org/pi/800126_3999047F1028_1_02#PI_10_2>
+    pio:precautions_for_combi <http://med2rdf.org/pi/800126_3999047F1028_1_02.item1>, <http://med2rdf.org/pi/800126_3999047F1028_1_02.item2>, <http://med2rdf.org/pi/800126_3999047F1028_1_02#PI_10_2.item3>, <http://med2rdf.org/pi/800126_3999047F1028_1_02.item4>, <http://med2rdf.org/pi/800126_3999047F1028_1_02#PI_10_2.item5> ;
+    a pio:PrecautionsForCombination .
+
+<http://med2rdf.org/pi/800126_3999047F1028_1_02#PI_10_2.item1>
+    pio:clin_symptoms_and_measures "本剤と併用した場合、本剤の作用が減弱するおそれがあるため、併用する場合は、前後1時間以上間隔をあけて本剤を服用すること。"@ja ;
+    pio:drug_name "リン結合性ポリマー"@ja ;
+    pio:mechanism_and_risk_factors "本剤をセベラマー炭酸塩と同時投与したところ、本剤のAUCinfが低下した"@ja ;
+    pio:sub_items "セベラマー塩酸塩"@ja, "ビキサロマー"@ja  ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_3999047F1028_1_02#PI_10_2.item2>
+    pio:clin_symptoms_and_measures "本剤と併用した場合、本剤の作用が減弱するおそれがあるため、併用する場合は、前後1時間以上間隔をあけて本剤を服用すること。"@ja ;
+    pio:drug_name "多価陽イオンを含有する経口薬剤（カルシウム、鉄、マグネシウム、アルミニウム等を含む製剤）"@ja ;
+    pio:mechanism_and_risk_factors "本剤を酢酸カルシウムと同時投与したところ、本剤のAUCinfが低下した。" ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_3999047F1028_1_02#PI_10_2.item3>
+    pio:clin_symptoms_and_measures "HMG-CoA還元酵素阻害剤による筋障害を増強するおそれがあるため、併用する場合は、患者の状態を慎重に観察すること。"@ja ;
+    pio:drug_name "HMG-CoA還元酵素阻害剤"@ja ;
+    pio:sub_items "シンバスタチン"@ja, "ロスバスタチン"@ja, "アトルバスタチン"@ja, "等"@ja ;
+    pio:mechanism_and_risk_factors "本剤をシンバスタチン、ロスバスタチン、アトルバスタチンと併用したところ、これらの薬剤のAUCinfが上昇した。また、本剤投与2時間前、本剤投与の4又は10時間後にシンバスタチンを投与した際も曝露量が上昇した。\n本剤のOATP1B1/BCRP阻害作用により、これらの薬剤の血漿中濃度を上昇させる。"@ja ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_3999047F1028_1_02#PI_10_2.item4>
+    pio:clin_symptoms_and_measures "本剤の作用が増強するおそれがあるため、併用する場合は、本剤の減量を考慮するとともに、患者の状態を慎重に観察すること。"@ja ;
+    pio:drug_name "プロベネシド"@ja ;
+    pio:mechanism_and_risk_factors "本剤をプロベネシドと併用したところ、本剤のAUCinfが上昇した。\nプロベネシドのUGT/OAT阻害作用により、本剤の血漿中濃度を上昇させる。"@ja ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/800126_3999047F1028_1_02#PI_10_2.item5>
+    pio:clin_symptoms_and_measures "本剤の作用が増強するおそれがあるため、併用する場合は、本剤の減量を考慮するとともに、患者の状態を慎重に観察すること。"@ja ;
+    pio:drug_name "ゲムフィブロジル（国内未承認）"@ja ;
+    pio:mechanism_and_risk_factors "本剤をゲムフィブロジルと併用したところ、本剤のAUCinfが上昇した。ゲムフィブロジルのCYP2C8/OATP1B1阻害作用により、本剤の血漿中濃度を上昇させる可能性がある。"@ja ;
+    a pio:PrecautionsForCombi .
+

@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://med2rdf.org/pi/530263_1900400A1025_1_01>
+    pio:company_identifier "530263" ;
+    pio:date_of_preparation_or_revision "2020-04"^^xsd:date ;
+    pio:version "第2版"@ja ;
+    pio:sccj_no "87190" ;
+    pio:therapeutic_classification "デュシェンヌ型筋ジストロフィー治療剤"@ja ;
+    pio:approval_etc [
+        pio:approval_brand_name "ビルテプソ点滴静注250mg"@ja ;
+        pio:approval_no "30200AMX00428000" ;
+        pio:yj_code "1900400A1025" ;
+        pio:storage_method "2～8℃で保存"@ja ;
+        pio:shelf_life "24箇月"@ja ;
+        pio:starting_date_of_marketing "2020-04"^^xsd:date ;
+        pio:trademark_name "Viltepso Injection"@dn ;
+        pio:name_in_hiragana "びるてぷそてんてきじょうちゅうにひゃくごじゅうみりぐらむ"@ja ;
+        pio:regulatory_classification_code_and_note [
+            pio:regulatory_classification_code 12
+        ] ;
+    ] ;
+    pio:generic_name "Mirabegron"@en, "ビルトラルセン静注"@ja ;
+    dct:identifier "530263_1900400A1025_1_01" .
+

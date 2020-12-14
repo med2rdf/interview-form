@@ -1,0 +1,63 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://med2rdf.org/pi/400059_3969020F1020_1_11>
+    pio:company_identifier "400059" ;
+    pio:date_of_preparation_or_revision "2019-05"^^xsd:date ;
+    pio:version "第1版"@ja ;
+    pio:sccj_no "873969" ;
+    pio:therapeutic_classification "選択的SGLT2阻害剤\n－2型糖尿病治療剤－"@ja ;
+    pio:approval_etc [
+        pio:approval_brand_name "ルセフィ錠2.5mg"@ja ;
+        pio:approval_no "22600AMX00540000" ;
+        pio:yj_code "3969020F1020" ;
+        pio:storage_method "室温保存"@ja ;
+        pio:shelf_life "3年"@ja ;
+        pio:starting_date_of_marketing "2014-05"^^xsd:date ;
+        pio:trademark_name "Lusefi tablets 2.5mg"@dn ;
+        pio:name_in_hiragana "るせふぃじょう"@ja ;
+        pio:regulatory_classification_code_and_note [
+            pio:regulatory_classification_code 12
+        ] ;
+    ] ;
+    pio:generic_name "Mirabegron"@en, "ルセオグリフロジン水和物製剤"@ja ;
+    pio:precautions_for_combination <http://med2rdf.org/pi/400059_3969020F1020_1_11#PI_10_2> ;
+    dct:identifier "400059_3969020F1020_1_11" .
+
+<http://med2rdf.org/pi/400059_3969020F1020_1_11#PI_10_2>
+    pio:precautions_for_combi <http://med2rdf.org/pi/400059_3969020F1020_1_11#PI_10_2.item1>, <http://med2rdf.org/pi/400059_3969020F1020_1_11#PI_10_2.item2>, <http://med2rdf.org/pi/400059_3969020F1020_1_11#PI_10_2.item3>, <http://med2rdf.org/pi/400059_3969020F1020_1_11#PI_10_2.item4> ;
+    a pio:PrecautionsForCombination .
+
+<http://med2rdf.org/pi/400059_3969020F1020_1_11#PI_10_2.item1>
+    pio:clin_symptoms_and_measures "低血糖を起こすおそれがあるので、血糖値その他患者の状態を十分観察しながら投与すること。スルホニルウレア剤、インスリン製剤又はGLP-1受容体作動薬の減量を検討すること。"@ja ;
+    pio:drug_name "糖尿病用薬"@ja ;
+    pio:mechanism_and_risk_factors "血糖降下作用が増強される。"@ja ;
+    pio:sub_items "スルホニルウレア剤"@ja, "ビグアナイド薬"@ja, "チアゾリジン薬"@ja, "DPP-4阻害薬"@ja, "α-グルコシダーゼ阻害薬"@ja, "速効型インスリン分泌促進薬"@ja, "GLP-1受容体作動薬"@ja, "インスリン製剤"@ja, "等"@ja ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/400059_3969020F1020_1_11#PI_10_2.item2>
+    pio:clin_symptoms_and_measures "血糖値その他患者の状態を十分観察しながら投与すること。"@ja ;
+    pio:drug_name "血糖降下作用を増強する薬剤"@ja ;
+    pio:mechanism_and_risk_factors "血糖降下作用が増強される。"@ja ;
+    pio:sub_items "β-遮断薬"@ja, "サリチル酸系薬剤"@ja, "MAO阻害薬"@ja, "フィブラート系薬剤"@ja, "等"@ja ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/400059_3969020F1020_1_11#PI_10_2.item3>
+    pio:clin_symptoms_and_measures "血糖値その他患者の状態を十分観察しながら投与すること。"@ja ;
+    pio:drug_name "血糖降下作用を減弱する薬剤"@ja ;
+    pio:mechanism_and_risk_factors "血糖降下作用が減弱される。"@ja ;
+    pio:sub_items "アドレナリン"@ja, "副腎皮質ホルモン"@ja, "甲状腺ホルモン"@ja, "等"@ja ;
+    a pio:PrecautionsForCombi .
+
+<http://med2rdf.org/pi/400059_3969020F1020_1_11#PI_10_2.item4>
+    pio:clin_symptoms_and_measures "必要に応じ利尿薬の用量を調整するなど注意すること。"@ja ;
+    pio:drug_name "利尿薬"@ja ;
+    pio:mechanism_and_risk_factors "利尿作用が増強される。"@ja ;
+    pio:sub_items "ループ利尿薬"@ja, "サイアザイド系利尿薬"@ja, "等"@ja ;
+    a pio:PrecautionsForCombi .
+
