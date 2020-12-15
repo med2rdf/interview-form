@@ -228,9 +228,10 @@
 <http://med2rdf.org/pi/470310_3999018Q1022_1_07>	dct:identifier	"470310_3999018Q1022_1_07"	.
 <http://med2rdf.org/if/470310_3999018Q1022_1_007_1F>	rdfs:seeAlso	<https://www.info.pmda.go.jp/go/interview/1/470310_3999018Q1022_1_007_1F>	.
 <http://med2rdf.org/pi/470310_3999018Q1022_1_07>	rdfs:seeAlso	<https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/470310_3999018Q1022_1_07>	.
-<http://med2rdf.org/if/470310_3999018Q1022_1_007_1F>	ifo:yjcode	yjc:3999018F1030	.
-<http://med2rdf.org/if/470310_3999018Q1022_1_007_1F>	ifo:yjcode	yjc:3999018F2036	.
-<http://med2rdf.org/if/470310_3999018Q1022_1_007_1F>	ifo:yjcode	yjc:3999018Q1022	.
+<http://med2rdf.org/if/470310_3999018Q1022_1_007_1F>	ifo:drug	yjc:3999018F1030	.
+<http://med2rdf.org/if/470310_3999018Q1022_1_007_1F>	ifo:drug	yjc:3999018F2036	.
+<http://med2rdf.org/if/470310_3999018Q1022_1_007_1F>	ifo:drug	yjc:3999018Q1022	.
+yjc:3999018F1030	rdf:type	ifo:Drug	.
 yjc:3999018F1030	ifo:if_0_8	"ボナロン錠 5mg"@ja	.
 yjc:3999018F1030	ifo:if_0_9	"錠剤"@ja	.
 yjc:3999018F1030	ifo:if_0_11	"1錠中 アレンドロン酸ナトリウム水和物6.53mg（アレンドロン酸として5mg）"@ja	.
@@ -242,6 +243,7 @@ yjc:3999018F1030	ifo:yakka_code	"3999018F1030"	.
 yjc:3999018F1030	ifo:yj_code	"3999018F1030"	.
 yjc:3999018F1030	ifo:hot_code	"1142877010101, 1142877010302, 1142877010102, 1142877010301"	.
 yjc:3999018F1030	ifo:resept_code	"610451021"	.
+yjc:3999018F2036	rdf:type	ifo:Drug	.
 yjc:3999018F2036	ifo:if_0_8	"ボナロン錠 35mg"@ja	.
 yjc:3999018F2036	ifo:if_0_9	"錠剤"@ja	.
 yjc:3999018F2036	ifo:if_0_11	"1錠中 アレンドロン酸ナトリウム水和物45.68mg（アレンドロン酸として35mg）"@ja	.
@@ -253,6 +255,7 @@ yjc:3999018F2036	ifo:yakka_code	"3999018F2036"	.
 yjc:3999018F2036	ifo:yj_code	"3999018F2036"	.
 yjc:3999018F2036	ifo:hot_code	"1176537010101, 1176537010102"	.
 yjc:3999018F2036	ifo:resept_code	"620004359"	.
+yjc:3999018Q1022	rdf:type	ifo:Drug	.
 yjc:3999018Q1022	ifo:if_0_8	"ボナロン経口ゼリー 35mg"@ja	.
 yjc:3999018Q1022	ifo:if_0_9	"経口ゼリー剤"@ja	.
 yjc:3999018Q1022	ifo:if_0_11	"1包（2g）中アレンドロン酸ナトリウム水和物45.68mg（アレンドロン酸として35mg）"@ja	.
@@ -265,187 +268,248 @@ yjc:3999018Q1022	ifo:yj_code	"3999018Q1022"	.
 yjc:3999018Q1022	ifo:hot_code	"1222357010101"	.
 yjc:3999018Q1022	ifo:resept_code	"622223501"	.
 if:IF_0_3	rdf:type	ifo:IF_0_3	.
+if:IF_0_3	rdf:type	ifo:Section	.
 if:IF_0_3	dct:modified	"2020-7"	.
 if:IF_0_3	pav:version	"12"	.
 if:IF_0_4	rdf:type	ifo:IF_0_4	.
+if:IF_0_4	rdf:type	ifo:Section	.
 if:IF_0_4	ifo:package_insert	pi:PI_0_2	.
 if:IF_0_4	rdf:value	"873999"	.
 if:IF_0_6	rdf:type	ifo:IF_0_6	.
+if:IF_0_6	rdf:type	ifo:Section	.
 if:IF_0_6	rdf:value	"2018"^^xsd:gYear	.
 if:IF_0_7	rdf:type	ifo:IF_0_7	.
+if:IF_0_7	rdf:type	ifo:Section	.
 if:IF_0_7	ifo:package_insert	pi:PI_0_5	.
 if:IF_0_7	rdf:value	"骨粗鬆症治療剤"@ja	.
 if:IF_0_8	rdf:type	ifo:IF_0_8	.
+if:IF_0_8	rdf:type	ifo:Section	.
 if:IF_0_8	ifo:package_insert	pi:PI_0_7	.
 if:IF_0_8	rdf:value	"ボナロン錠5mg、ボナロン錠35mg、ボナロン経口ゼリー35mg"@ja	.
 if:IF_0_10	rdf:type	ifo:IF_0_10	.
+if:IF_0_10	rdf:type	ifo:Section	.
 if:IF_0_10	ifo:package_insert	pi:PI_0_6	.
 if:IF_0_10	rdf:value	"劇薬、処方箋医薬品(注意-医師等の処方箋により使用すること)"@ja	.
 if:IF_0_12	rdf:type	ifo:IF_0_12	.
+if:IF_0_12	rdf:type	ifo:Section	.
 if:IF_0_12	ifo:package_insert	pi:PI_0_7	.
 if:IF_0_12	rdf:value	"アレンドロン酸ナトリウム水和物(JAN)"@ja	.
 if:IF_0_12	rdf:value	"Alendronate Sodium Hydrate(JAN)"	.
 if:IF_0_16	rdf:type	ifo:IF_0_16	.
+if:IF_0_16	rdf:type	ifo:Section	.
 if:IF_0_16	ifo:package_insert	pi:PI_26	.
 if:IF_0_16	rdf:value	"帝人ファーマ株式会社"@ja	.
 if:IF_0_18	rdf:type	ifo:IF_0_18	.
+if:IF_0_18	rdf:type	ifo:Section	.
 if:IF_0_18	ifo:package_insert	pi:PI_24	.
 if:IF_0_18	rdf:value	"帝人ファーマ株式会社 メディカル情報グループ\nTEL：0120-189-315 FAX：03-5512-6707\n医療関係者向けホームページ\nhttps://medical.teijin-pharma.co.jp/"@ja	.
 if:IF_0_19	rdf:type	ifo:IF_0_19	.
+if:IF_0_19	rdf:type	ifo:Section	.
 if:IF_0_19	ifo:package_insert	pi:PI_0_1	.
 if:IF_0_19	rdf:value	"2019-05"^^xsd:gYearMonth	.
 if:IF_1_1	rdf:type	ifo:IF_1_1	.
+if:IF_1_1	rdf:type	ifo:Section	.
 if:IF_1_1	rdf:value	"（1）高齢社会における骨粗鬆症の現状\n骨粗鬆症は、加齢等に伴い骨吸収と骨形成のバランスが崩れ、相対的に骨吸収が優位になったために骨量の減少が起こり、更に骨の微細構造の変化により骨の強度が低下することで、骨折が起こりやすくなる疾患である。進行すると脊椎が圧迫骨折を起こしたり、転倒等の外力で容易に大腿骨近位部などを骨折する場合もあり、骨折部位によっては寝たきりの原因となり患者のQOL低下につながる。また、脊椎の圧迫骨折が何度も起こった場合には、胸腹腔内容積が縮小してその内部にある臓器が圧迫され、呼吸器障害、消化器障害など内科系障害の遠因にもなり得る。急速に進行している高齢社会において患者数の増加が懸念されている。\n\n（2）骨吸収抑制作用を有するビスホスホネート化合物－アレンドロネートの開発経緯－\nビスホスホネート系化合物は骨組織において破骨細胞に作用し、骨吸収を抑制する薬物である1）。この骨吸収抑制作用により骨量を増加させ骨の強度を高めることで、骨粗鬆症患者の骨折リスクを減少させることが期待され、数多くの誘導体が合成されている。アレンドロン酸ナトリウム水和物（以下、アレンドロネート）は強力な骨吸収抑制作用を有するビスホスホネート系化合物のひとつであり2）、1978年に合成法が報告された後、Gentili社（イタリア）が骨吸収抑制剤として用途特許を取得した。\n（3）本邦における骨粗鬆症治療剤「ボナロン®」の開発経緯\n1） 1日1回経口製剤「ボナロン®錠5mg」\n帝人（現帝人ファーマ）は、1986年にGentili社と日本における独占的なアレンドロネートの研究開発に関する覚書を締結し、基礎研究に着手した。\n1988年、Gentili社はメルク社（米国）に対してイタリアと日本を除く世界での開発権利をライセンスした。その後、日本においてメルク社の関連会社である万有製薬（現MSD）が開発を希望したため、1990年に、帝人、万有製薬、メルク社の間で3社共同開発契約が締結された。帝人と万有製薬は、注射剤、経口錠の第I相臨床試験を分担し、1990年9月より帝人が悪性腫瘍による高カルシウム血症を対象に注射剤の第I相臨床試験を開始、1990年10月より万有製薬が骨粗鬆症を対象に経口錠の第I相臨床試験を開始した。第Ⅱ相臨床試験以降は帝人と万有製薬が担当施設を分担する形で共同開発を実施し、1997年4月に悪性腫瘍による高カルシウム血症を適応症とする注射剤の製造承認を取得した。骨粗鬆症に対する経口錠については、2001年6月に5mg製剤の製造承認を取得し、「ボナロン®錠5mg」として同年8月発売に至った。なお、1997年にメルク社がGentili社を買収したため、帝人とメルク社との間で新たなライセンス契約が締結された。\nアレンドロネート経口錠は1993年のイタリアにおける製造承認取得を皮切りに、世界各国で使用されている。米国においては、欧米にて実施された数々の大規模臨床試験の科学的データを根拠に、1995年9月にビスホスホネート系化合物として初めて骨粗鬆症治療剤として承認された。\n\n2） 週1回経口製剤「ボナロン®錠35mg」\n1日1回服用するボナロン®錠5mgは、毎朝起床時にコップ1杯の水で飲み、その後30分間は横にならないという服用方法であったことから、患者によっては服薬を継続できず、治療を中断するケースが認められた。そこで、薬剤の効果を減じることなく服薬回数を減らすことができれば、患者の服薬利便性とアドヒアランスが向上し、より良い治療効果につながること、さらには、患者のみならず、服薬を遵守するためにサポートをしている家族、医療スタッフの負担が軽減される社会的メリットにもつながるものと期待された。\n海外においてメルク社はアレンドロネート10mgの1日1回経口錠とその7倍量である70mgの週1回経口錠の第Ⅲ相二重盲検比較試験を実施し、服用後12ヵ月時点における腰椎の骨密度の変化率が同等であり、安全性についても同程度であることを明らかにした。週1回経口錠は、2000年のメキシコにおける承認をはじめとして、現在、世界95ヵ国以上の国と地域で承認、販売されている。\n本邦においても既承認用量である1日1回5mgの7倍量となる35mgを含有する錠剤を週1回製剤として開発し、2006年7月に製造販売承認を取得し、同年9月「ボナロン®錠35mg」の発売に至った。\n\n3） 4週1回点滴静脈内投与製剤「ボナロン®点滴静注バッグ900μg」\n服薬回数が週1回となったボナロン®錠35mgは、発売以降、服薬の簡便さから骨粗鬆症治療において広く浸透し、骨粗鬆症患者の服薬アドヒアランスは向上した。しかしながら、「ボナロン®錠35mg」も経口服用であるため、食道狭窄、アカラシア等の食道通過を遅延させる障害を有する骨粗鬆症患者や服薬後30分以上、上体を起こしていることや立位を保つことのできない骨粗鬆症患者では禁忌であることに加えて、その服薬方法を遵守できない骨粗鬆症患者や消化管障害を経験した骨粗鬆症患者では、骨折リスクが高くても治療は困難であった。\nそこで帝人ファーマは、ビスホスホネートの経口服用が困難、または経口服用が禁忌に該当する骨粗鬆症患者への投与を可能とすることが骨粗鬆症治療の新たな選択肢となると考え、また、医療者の服薬管理による確実な骨粗鬆症治療の実現も期待し、アレンドロネート点滴静注バッグ剤の開発を進めた。注射剤としては、経口剤で広く浸透している週1回の投与よりも投与間隔の長い用法の方が利便性があると考え、世界で初めて4週に1回のアレンドロネート点滴静脈内投与製剤として開発した。アレンドロネート4週1回点滴静注剤は、35mg錠週1回経口剤との非劣性が検証された第Ⅲ相試験において、その有効性及び安全性が確認され3）、「ボナロン®点滴静注バッグ900μg」として2012年1月に製造販売承認を取得した。\nボナロン®点滴静注バッグ900μgについて特定使用成績調査を実施し、2018年3月医薬品医療機器等法第14条第2項第3号（承認拒否事由）のいずれも該当しないとの再審査結果を得た。\n\n4） 週1回経口ゼリー剤「ボナロン®経口ゼリー35mg」\nアレンドロネートを含む多くのビスホスホネート経口剤は、食事の影響による吸収低下と消化管刺激性に起因した食道への逆流を避けるため、朝起床時に服用し、服用後30分は横にならず水以外の飲食や他の薬剤の経口摂取を避けるという服用方法が定められている。そのため、複数の経口剤を服用している患者は、ビスホスホネート経口剤を他の薬剤と識別した上で正しく服用する必要がある。一方、加齢による嚥下機能の低下に伴い、高齢患者は錠剤を服用しにくくなることが問題となっている4）。そこで帝人ファーマは、本邦で初めてアレンドロネートを有効成分とする経口ゼリー剤の開発に着手した。経口ゼリー剤は、錠剤等の他の経口剤と識別しやすさ、また、のどごしのよさを追求し、識別に不安がある患者や錠剤服用時にのどへの引っかかりを感じる患者における、服薬アドヒアランスの向上を目指して開発を行った。「ボナロン®経口ゼリー35mg」は「ボナロン®錠35mg」との生物学的同等性が認められ、剤型追加に係る医薬品として2012年8月に製造販売承認を取得した。\n\n（注） 本紙においてはアレンドロン酸ナトリウム水和物の慣用名として「アレンドロネート」と表記するが、これに用量を付記する場合はアレンドロン酸としての含量を示す。「アレンドロネート900μg」は「アレンドロン酸として900μgを含有するアレンドロン酸ナトリウム水和物」を意味し、「アレンドロネート点滴静注バッグ900μg」は「アレンドロン酸として900μgを含有するアレンドロン酸ナトリウム水和物の点滴静注バッグ」を意味する。"@ja	.
 if:IF_1_1	dct:references	if:ref1	.
 if:IF_1_1	dct:references	if:ref2	.
 if:IF_1_1	dct:references	if:ref3	.
 if:IF_1_1	dct:references	if:ref4	.
 if:IF_1_2	rdf:type	ifo:IF_1_2	.
+if:IF_1_2	rdf:type	ifo:Section	.
 if:IF_1_2	ifo:package_insert	pi:PI_11_1	.
 if:IF_1_2	rdf:value	"（1） ボナロン®錠5mg、ボナロン®錠35mg、ボナロン®経口ゼリー35mgは、骨吸収抑制と骨石灰化抑制の2つの作用が分離された、ビスホスホネート製剤である5,6,7）。\nボナロン®錠5mgの骨吸収抑制作用は骨石灰化抑制作用発現量の約6000分の1であり、連日服用が可能な製剤である。2～3年間連日服用した人から133検体の骨生検を実施し骨組織学的解析を行った結果、骨質の劣化を認めなかった。\nまた、イヌの骨折治癒モデルにおいて、常用量の20倍量投与しても骨折治癒の遅延は認められなかった。\n（2） 本剤は起床時（朝食の30分以上前）に服用する製剤である。\n本剤の服用においては、毎朝起床時にコップ1杯の水（約180mL）とともに服用し、服用後少なくとも30分は横にならず、飲食（水を除く）並びに他の薬剤の経口摂取も避ける。\n（3） ボナロン®錠35mg錠は、週1回服用する骨粗鬆症治療剤である8）。（「Ⅴ.－5.－（3） 用量反応探索的試験」の項参照）\n週1回1錠の服用で、毎日服用するボナロン®錠5mgと同等の有用性を示した。（「Ⅴ.－5.－（4）－1）－② 比較試験」の項参照）\n（4） 骨吸収抑制作用により、骨粗鬆症患者の腰椎骨密度を有意に増加させる9,10）。\n本剤は骨組織において破骨細胞の骨吸収作用を特異的に抑制する。ボナロン®錠5mgの2年間連日服用により、腰椎骨密度が8.7%増加した。（「Ⅴ.－5.－（4）－1）－②比較試験」の項参照）\n（5） 骨粗鬆症による骨折の発生頻度を減少させる9,11,12,13,14,15,16）。\n（参考： 海外における錠剤1日1回（5mg/日及び10mg/日）投与、国内における錠剤1日1回（5mg/日）による成績）（「Ⅴ.－5.－（4）－1）－② 比較試験」の項参照）\n（6） ボナロン®経口ゼリー35mgは、週1回服用する経口ゼリーの骨粗鬆症治療剤である。\n本剤は、ボナロン®錠35mg（1回/週）との生物学的同等性が確認された17）。（「Ⅶ.－1.－（2） 臨床試験で確認された血中濃度」の項参照）\n（7）重大な副作用として、食道障害（食道穿孔、食道狭窄、食道潰瘍、食道炎、食道びらん）、口腔内潰瘍、胃・十二指腸潰瘍、出血性胃炎、肝機能障害、黄疸、低カルシウム血症、中毒性表皮壊死融解症（Toxic Epidermal Necrolysis：TEN）、皮膚粘膜眼症候群（Stevens-Johnson症候群）、顎骨壊死・顎骨骨髄炎、外耳道骨壊死、大腿骨転子下及び近位大腿骨骨幹部の非定型骨折が認められている。（「Ⅷ.－8. 副作用」の項参照）"@ja	.
 if:IF_1_3	rdf:type	ifo:IF_1_3	.
+if:IF_1_3	rdf:type	ifo:Section	.
 if:IF_1_3	rdf:value	"該当資料なし"@ja	.
 if:IF_1_4_1	rdf:type	ifo:IF_1_4_1	.
+if:IF_1_4_1	rdf:type	ifo:Section	.
 if:IF_1_4_1	rdf:value	"無"@ja	.
 if:IF_1_4_2	rdf:type	ifo:IF_1_4_2	.
+if:IF_1_4_2	rdf:type	ifo:Section	.
 if:IF_1_4_2	rdf:value	"無"@ja	.
 if:IF_1_4_3	rdf:type	ifo:IF_1_4_3	.
+if:IF_1_4_3	rdf:type	ifo:Section	.
 if:IF_1_4_3	rdf:value	"無"@ja	.
 if:IF_1_4_4	rdf:type	ifo:IF_1_4_4	.
+if:IF_1_4_4	rdf:type	ifo:Section	.
 if:IF_1_4_4	rdf:value	"無"@ja	.
 if:IF_1_5_1	rdf:type	ifo:IF_1_5_1	.
+if:IF_1_5_1	rdf:type	ifo:Section	.
 if:IF_1_5_1	ifo:package_insert	pi:PI_21	.
 if:IF_1_5_1	rdf:value	"特になし"@ja	.
 if:IF_1_5_2	rdf:type	ifo:IF_1_5_2	.
+if:IF_1_5_2	rdf:type	ifo:Section	.
 if:IF_1_5_2	ifo:package_insert	pi:PI_21	.
 if:IF_1_5_2	rdf:value	"該当しない"@ja	.
 if:IF_1_6	rdf:type	ifo:IF_1_6	.
+if:IF_1_6	rdf:type	ifo:Section	.
 if:IF_1_6	ifo:package_insert	pi:PI_1	.
 if:IF_1_6	rdf:value	"該当しない"@ja	.
 if:IF_2_1_1	rdf:type	ifo:IF_2_1_1	.
+if:IF_2_1_1	rdf:type	ifo:Section	.
 if:IF_2_1_1	ifo:package_insert	pi:PI_0_7	.
 if:IF_2_1_1	rdf:value	"ボナロン®錠5mg,ボナロン®錠35mg,ボナロン®経口ゼリー35mg"@ja	.
 if:IF_2_1_2	rdf:type	ifo:IF_2_1_2	.
+if:IF_2_1_2	rdf:type	ifo:Section	.
 if:IF_2_1_2	ifo:package_insert	pi:PI_0_7	.
 if:IF_2_1_2	rdf:value	"Bonalon® Tablet 5mg,Bonalon® Tablet 35mg,Bonalon® Oral Jelly 35mg"@ja	.
 if:IF_2_1_3	rdf:type	ifo:IF_2_1_3	.
+if:IF_2_1_3	rdf:type	ifo:Section	.
 if:IF_2_1_3	rdf:value	"骨粗鬆症治療薬の標的組織である骨（Bone）と、テトロン、ベニロン等、帝人製品に以前より用いられている接尾語（～ロン）を組み合わせた。\nボナロン®/Bonalon® is the registered trademark of Merck Sharp & Dohme Corp., a subsidiary of Merck& Co., Inc., Whitehouse Station, NJ, USA."@ja	.
 if:IF_2_2_1	rdf:type	ifo:IF_2_2_1	.
+if:IF_2_2_1	rdf:type	ifo:Section	.
 if:IF_2_2_1	ifo:package_insert	pi:PI_19	.
 if:IF_2_2_1	rdf:value	"アレンドロン酸ナトリウム水和物（JAN）"@ja	.
 if:IF_2_2_2	rdf:type	ifo:IF_2_2_2	.
+if:IF_2_2_2	rdf:type	ifo:Section	.
 if:IF_2_2_2	ifo:package_insert	pi:PI_19	.
 if:IF_2_2_2	rdf:value	"Alendronate Sodium Hydrate（JAN）,Alendronic acid（INN）"@ja	.
 if:IF_2_2_3	rdf:type	ifo:IF_2_2_3	.
+if:IF_2_2_3	rdf:type	ifo:Section	.
 if:IF_2_2_3	rdf:value	"カルシウム（骨）代謝改善薬Calcium metabolism regulator, pharmaceutical aid：－dronic acid"@ja	.
 if:IF_2_4	rdf:type	ifo:IF_2_4	.
+if:IF_2_4	rdf:type	ifo:Section	.
 if:IF_2_4	ifo:package_insert	pi:PI_19	.
 if:IF_2_4	rdf:value	"分子式 ： C4H12NNaO7P2･3H2O 分子量 ： 325.12"@ja	.
 if:IF_2_5	rdf:type	ifo:IF_2_5	.
+if:IF_2_5	rdf:type	ifo:Section	.
 if:IF_2_5	ifo:package_insert	pi:PI_19	.
 if:IF_2_5	rdf:value	"Monosodium trihydrogen 4-amino-1-hydroxybutane-1, 1-diyldiphosphonate trihydrate（IUPAC）"@ja	.
 if:IF_2_6	rdf:type	ifo:IF_2_6	.
+if:IF_2_6	rdf:type	ifo:Section	.
 if:IF_2_6	ifo:package_insert	pi:PI_19	.
 if:IF_2_6	rdf:value	"慣用名 ： アレンドロネート,略号 ： AHBuBP、ABDP,治験番号 ：ボナロン®錠 5mg GTH-42（帝人） MK-217（万有製薬）,ボナロン®錠 35mg GTH-42W（帝人） MK-217（万有製薬）,ボナロン®経口ゼリー35mg GTH-42J（帝人ファーマ）"@ja	.
 if:IF_3_1_1	rdf:type	ifo:IF_3_1_1	.
+if:IF_3_1_1	rdf:type	ifo:Section	.
 if:IF_3_1_1	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_1	rdf:value	"白色の結晶性の粉末である。水にやや溶けにくく、エタノール（99.5）にほとんど溶けない。0.1mol/Lクエン酸三ナトリウム試液に溶ける。"@ja	.
 if:IF_3_1_3	rdf:type	ifo:IF_3_1_3	.
+if:IF_3_1_3	rdf:type	ifo:Section	.
 if:IF_3_1_3	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_3	rdf:value	"本品を室温、相対湿度32～100%の条件下に41日間保存し、試料の重量変化を測定したところ、いずれの条件でも重量変化は認められなかった。"@ja	.
 if:IF_3_1_4	rdf:type	ifo:IF_3_1_4	.
+if:IF_3_1_4	rdf:type	ifo:Section	.
 if:IF_3_1_4	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_4	rdf:value	"融点 ： 約252℃（分解、ただし乾燥後）"@ja	.
 if:IF_3_1_5	rdf:type	ifo:IF_3_1_5	.
+if:IF_3_1_5	rdf:type	ifo:Section	.
 if:IF_3_1_5	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_5	rdf:value	"pKa1＜2 pKa2＜2 pKa3＝6.2 pKa4＝9.9 pKa5＝10.2"@ja	.
 if:IF_3_1_6	rdf:type	ifo:IF_3_1_6	.
+if:IF_3_1_6	rdf:type	ifo:Section	.
 if:IF_3_1_6	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_6	rdf:value	"本品のほとんどが水層に分配した。"@ja	.
 if:IF_3_1_7	rdf:type	ifo:IF_3_1_7	.
+if:IF_3_1_7	rdf:type	ifo:Section	.
 if:IF_3_1_7	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_7	rdf:value	"本品1.0gを新たに煮沸して冷却した水100mLに溶かした液のpHは4.0～5.0である。"@ja	.
 if:IF_3_3	rdf:type	ifo:IF_3_3	.
+if:IF_3_3	rdf:type	ifo:Section	.
 if:IF_3_3	rdf:value	"確認試験法 日本薬局方 ｢アレンドロン酸ナトリウム水和物｣による。 定量法 日本薬局方 ｢アレンドロン酸ナトリウム水和物｣による。"@ja	.
 if:IF_4_1_1	rdf:type	ifo:IF_4_1_1	.
+if:IF_4_1_1	rdf:type	ifo:Section	.
 if:IF_4_1_1	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_1	rdf:value	"ボナロン®錠5mg：錠（素錠）,ボナロン®錠35mg：錠（素錠）,ボナロン®経口ゼリー35mg：経口ゼリー剤"@ja	.
 if:IF_4_1_3	rdf:type	ifo:IF_4_1_3	.
+if:IF_4_1_3	rdf:type	ifo:Section	.
 if:IF_4_1_3	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_3	rdf:value	"ボナロン®錠5mg 表面／裏面 TJN BNT／5,ボナロン®錠35mg 表面／裏面 TJN／35,ボナロン®経口ゼリー35mg 該当しない"@ja	.
 if:IF_4_1_4	rdf:type	ifo:IF_4_1_4	.
+if:IF_4_1_4	rdf:type	ifo:Section	.
 if:IF_4_1_4	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_4	rdf:value	"〈ボナロン®錠5mg〉〈ボナロン®錠35mg〉 該当資料なし,〈ボナロン®経口ゼリー35mg〉 pH ： 5.0～6.0"@ja	.
 if:IF_4_1_5	rdf:type	ifo:IF_4_1_5	.
+if:IF_4_1_5	rdf:type	ifo:Section	.
 if:IF_4_1_5	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_5	rdf:value	"該当しない"@ja	.
 if:IF_4_2_2	rdf:type	ifo:IF_4_2_2	.
+if:IF_4_2_2	rdf:type	ifo:Section	.
 if:IF_4_2_2	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_2_2	rdf:value	"該当資料なし"@ja	.
 if:IF_4_2_3	rdf:type	ifo:IF_4_2_3	.
+if:IF_4_2_3	rdf:type	ifo:Section	.
 if:IF_4_2_3	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_2_3	rdf:value	"該当資料なし"@ja	.
 if:IF_4_3	rdf:type	ifo:IF_4_3	.
+if:IF_4_3	rdf:type	ifo:Section	.
 if:IF_4_3	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_3	rdf:value	"該当しない"@ja	.
 if:IF_4_4	rdf:type	ifo:IF_4_4	.
+if:IF_4_4	rdf:type	ifo:Section	.
 if:IF_4_4	ifo:package_insert	pi:PI_3_1	.
 if:IF_4_4	rdf:value	"該当しない"@ja	.
 if:IF_4_5	rdf:type	ifo:IF_4_5	.
+if:IF_4_5	rdf:type	ifo:Section	.
 if:IF_4_5	rdf:value	"製剤に混在する可能性のある夾雑物は、有効成分の製造工程由来類縁物質及び製剤由来類縁物質である。"@ja	.
 if:IF_4_7	rdf:type	ifo:IF_4_7	.
+if:IF_4_7	rdf:type	ifo:Section	.
 if:IF_4_7	rdf:value	"該当しない"@ja	.
 if:IF_4_8	rdf:type	ifo:IF_4_8	.
+if:IF_4_8	rdf:type	ifo:Section	.
 if:IF_4_8	rdf:value	"該当しない"@ja	.
 if:IF_4_9	rdf:type	ifo:IF_4_9	.
+if:IF_4_9	rdf:type	ifo:Section	.
 if:IF_4_9	rdf:value	"方法：日局溶出試験法第2法（パドル法）　条件 回転数 50rpm　試験液 水900mL　結果：15分間の溶出率は85%以上に適合する"@ja	.
 if:IF_4_10_1	rdf:type	ifo:IF_4_10_1	.
+if:IF_4_10_1	rdf:type	ifo:Section	.
 if:IF_4_10_1	rdf:value	"「Ⅷ.－11. 適用上の注意」の項参照"@ja	.
 if:IF_4_10_2	rdf:type	ifo:IF_4_10_2	.
+if:IF_4_10_2	rdf:type	ifo:Section	.
 if:IF_4_10_2	ifo:package_insert	pi:PI_22	.
 if:IF_4_10_2	rdf:value	"〈ボナロン®錠5mg〉\nPTP：100錠（10錠×10）、140錠（14錠×10）、500錠（10錠×50）、700錠（14錠×50）\n〈ボナロン®錠35mg〉\nPTP：20錠（2錠シート×10枚）、50錠（2錠シート×25枚）\n〈ボナロン®経口ゼリー35mg〉\n2g×20包（4包入りアルミ包装×5）"@ja	.
 if:IF_4_10_3	rdf:type	ifo:IF_4_10_3	.
+if:IF_4_10_3	rdf:type	ifo:Section	.
 if:IF_4_10_3	rdf:value	"該当しない"@ja	.
 if:IF_4_10_4	rdf:type	ifo:IF_4_10_4	.
+if:IF_4_10_4	rdf:type	ifo:Section	.
 if:IF_4_10_4	rdf:value	"〈ボナロン®錠5mg〉〈ボナロン®錠35mg〉\nPTP：環状ポリオレフィンコポリマーとポリプロピレンの3層フィルム、アルミニウム箔\n〈ボナロン®経口ゼリー35mg〉\n一次包装（多層フィルム製容器）：ポリエチレン・シリカ蒸着ポリエチレンテレフタレート・ポリエチレンテレフタレート\n二次包装（アルミ袋）：アルミニウム・ポリエチレンラミネートフィルム"@ja	.
 if:IF_4_11	rdf:type	ifo:IF_4_11	.
+if:IF_4_11	rdf:type	ifo:Section	.
 if:IF_4_11	rdf:value	"該当資材なし"@ja	.
 if:IF_4_12	rdf:type	ifo:IF_4_12	.
+if:IF_4_12	rdf:type	ifo:Section	.
 if:IF_4_12	rdf:value	"錠剤およびゼリー剤を粉砕して投与した場合のヒトでの薬物動態及び臨床試験を実施していないため、有効性、安全性に関するデータがないことから、本剤の粉砕投与を推奨しない。"@ja	.
 if:IF_5_1	rdf:type	ifo:IF_5_1	.
+if:IF_5_1	rdf:type	ifo:Section	.
 if:IF_5_1	ifo:package_insert	pi:PI_4	.
 if:IF_5_1	rdf:value	"骨粗鬆症"@ja	.
 if:IF_5_2	rdf:type	ifo:IF_5_2	.
+if:IF_5_2	rdf:type	ifo:Section	.
 if:IF_5_2	ifo:package_insert	pi:PI_5	.
-if:IF_5_2	ifo:item	if:IF_5_2.item1	.
-if:IF_5_2.item1	ifo:package_insert	pi:PI_5.item1	.
-if:IF_5_2.item1	dct:identifier	"5.2.item1"	.
-if:IF_5_2.item1	rdf:value	"本剤の適用にあたっては、日本骨代謝学会の診断基準等を参考に、骨粗鬆症との診断が確定している患者を対象とすること。"@ja	.
+if:IF_5_2	rdf:value	"本剤の適用にあたっては、日本骨代謝学会の診断基準等を参考に、骨粗鬆症との診断が確定している患者を対象とすること。"@ja	.
 if:IF_5_3_1	rdf:type	ifo:IF_5_3_1	.
+if:IF_5_3_1	rdf:type	ifo:Section	.
 if:IF_5_3_1	ifo:package_insert	pi:PI_6	.
 if:IF_5_3_1	rdf:value	"〈ボナロン®錠5mg〉\n通常、成人にはアレンドロン酸として5mgを1日1回、毎朝起床時に水約180mLとともに経口投与する。\nなお、服用後少なくとも30分は横にならず、飲食（水を除く）並びに他の薬剤の経口摂取も避けること。\n〈ボナロン®錠35mg〉〈ボナロン®経口ゼリー35mg〉\n通常、成人にはアレンドロン酸として35mgを1週間に1回、朝起床時に水約180mLとともに経口投与する。\nなお、服用後少なくとも30分は横にならず、飲食（水を除く）並びに他の薬剤の経口摂取も避けること。"@ja	.
 if:IF_5_3_2	rdf:type	ifo:IF_5_3_2	.
+if:IF_5_3_2	rdf:type	ifo:Section	.
 if:IF_5_3_2	rdf:value	"〈ボナロン®錠5mg〉\nボナロン®錠5mg後期第Ⅱ相試験の用量設定試験により「5mgを1日1回」と設定した。また、水以外の飲み物や、食物及び他の薬剤と一緒に服用すると吸収を抑制するおそれがある事や、食道及び局所への副作用の可能性を低下させるために速やかに胃内へと到達させることが重要である事から、「朝起床時に水約180mLとともに経口投与する。」、「服用後少なくとも30分は横にならず、飲食（水を除く）並びに他の薬剤の経口摂取も避けること。」と設定した。\n〈ボナロン®錠35mg〉\nボナロン®錠35mgは閉経後骨粗鬆症患者を対象に実施された海外臨床試験の結果、骨表面の活性部位に存在する本剤の半減期は数週間であり、累積投与量が同じであれば、週1回投与と1日1回投与で骨量と骨強度に対する作用は同程度になると考えられたことから12）、ボナロン®錠「35mgを1週間に1回」と設定した。\n〈ボナロン®経口ゼリー35mg〉\nボナロン®経口ゼリー35mgはボナロン®錠35mgと生物学的同等性が確認されたため、ボナロン®錠35mgと同様の用法及び用量を設定した。"@ja	.
 if:IF_5_4	rdf:type	ifo:IF_5_4	.
+if:IF_5_4	rdf:type	ifo:Section	.
 if:IF_5_4	ifo:package_insert	pi:PI_7	.
 if:IF_5_4	ifo:item	if:IF_5_4.item1	.
 if:IF_5_4	ifo:item	if:IF_5_4.item2	.
+if:IF_5_4.item1	rdf:type	ifo:Item	.
 if:IF_5_4.item1	ifo:package_insert	pi:PI_7.item1	.
 if:IF_5_4.item1	dct:identifier	"5.4.item1"	.
 if:IF_5_4.item1	rdf:value	"7.1 本剤は水のみで服用すること。水以外の飲み物（Ca、Mg等の含量の特に高いミネラルウォーターを含む）、食物及び他の薬剤と一緒に服用すると、吸収を抑制するおそれがある。"@ja	.
+if:IF_5_4.item2	rdf:type	ifo:Item	.
 if:IF_5_4.item2	ifo:package_insert	pi:PI_7.item2	.
 if:IF_5_4.item2	dct:identifier	"5.4.item2"	.
 if:IF_5_4.item2	rdf:value	"7.2 食道及び局所への副作用の可能性を低下させるため、速やかに胃内へと到達させることが重要である。服用に際しては、以下の事項に注意すること。［2.2、8.1参照］\n・起床してすぐにコップ1杯の水（約180mL）とともに服用すること。\n・口腔咽頭部に潰瘍を生じる可能性があるため、本剤を噛んだり又は口中で溶かしたりしないこと。・本剤を服用後、少なくとも30分経ってからその日の最初の食事を摂り、食事を終えるまで横にならないこと。\n・就寝時又は起床前に服用しないこと。"@ja	.
 if:IF_5_5_2	rdf:type	ifo:IF_5_5_2	.
+if:IF_5_5_2	rdf:type	ifo:Section	.
 if:IF_5_5_2	ifo:package_insert	pi:PI_17_3	.
 if:IF_5_5_2	dct:references	if:ref18	.
 if:IF_5_5_2	dct:references	if:ref19	.
 if:IF_5_5_2	dct:references	if:ref20	.
 if:IF_5_5_3	rdf:type	ifo:IF_5_5_3	.
+if:IF_5_5_3	rdf:type	ifo:Section	.
 if:IF_5_5_3	dct:references	if:ref20	.
 if:IF_5_5_3	dct:references	if:ref21	.
 if:IF_5_5_3	dct:references	if:ref22	.
 if:IF_5_5_4_1	rdf:type	ifo:IF_5_5_4_1	.
+if:IF_5_5_4_1	rdf:type	ifo:Section	.
 if:IF_5_5_4_1	ifo:package_insert	pi:PI_17_1	.
 if:IF_5_5_4_1	dct:references	if:ref8	.
 if:IF_5_5_4_1	dct:references	if:ref9	.
@@ -457,14 +521,18 @@ if:IF_5_5_4_1	dct:references	if:ref16	.
 if:IF_5_5_4_1	dct:references	if:ref23	.
 if:IF_5_5_4_1	dct:references	if:ref24	.
 if:IF_5_5_6_2	rdf:type	ifo:IF_5_5_6_2	.
+if:IF_5_5_6_2	rdf:type	ifo:Section	.
 if:IF_5_5_6_2	ifo:package_insert	pi:PI_21	.
 if:IF_5_5_6_2	rdf:value	"該当しない"@ja	.
 if:IF_5_5_7	rdf:type	ifo:IF_5_5_7	.
+if:IF_5_5_7	rdf:type	ifo:Section	.
 if:IF_5_5_7	ifo:package_insert	pi:PI_17_1	.
 if:IF_5_5_7	rdf:value	"該当資料なし"@ja	.
 if:IF_6_1	rdf:type	ifo:IF_6_1	.
+if:IF_6_1	rdf:type	ifo:Section	.
 if:IF_6_1	rdf:value	"ビスホスホネート（エチドロン酸二ナトリウム、リセドロン酸ナトリウム水和物、ミノドロン酸水和物、イバンドロン酸ナトリウム水和物、ゾレドロン酸水和物）\n注意：関連のある化合物の効能・効果等は，最新の添付文書を参照すること．"@ja	.
 if:IF_6_2_1	rdf:type	ifo:IF_6_2_1	.
+if:IF_6_2_1	rdf:type	ifo:Section	.
 if:IF_6_2_1	ifo:package_insert	pi:PI_18_1	.
 if:IF_6_2_1	rdf:value	"1） 作用部位\n骨は、コラーゲンが主体のマトリックスにハイドロキシアパタイトが沈着したものであり、軟組織を機械的に支持する機能に加えて、カルシウムや他の陽イオンを細胞外液に放出する機能を合わせ持っている。これらの機能を維持するために、骨吸収能を有する破骨細胞と骨形成能を持つ骨芽細胞により、骨の微小単位が常に新しいものと置換されている。この過程は骨リモデリング（骨代謝回転）と呼ばれ、骨吸収期及び骨形成期から成る。\n骨吸収の主体である破骨細胞は、骨吸収面に接着した後、組織学的に明帯と呼ばれる領域を作り、その内部に周囲から閉鎖された環境を形成する。破骨細胞は、骨側の細胞膜を波状縁という特異な構造に変化させ、波状縁を介して各種蛋白分解酵素とともに水素イオンを放出する。このため酸性となった閉鎖環境において骨のハイドロキシアパタイトの溶解及び骨有機基質の分解が起こり、骨は吸収される。\nアレンドロネートは、破骨細胞下の骨吸収面に特異的な分布を示し、中性条件下（pH7.0）ではハイドロキシアパタイトに強く結合しているが、破骨細胞により作られる酸性の閉鎖環境下で遊離し、破骨細胞に選択的に作用するものと考えられている。\n① 骨における分布（ラット）26）\n幼若ラット（8日齢）に3H‐アレンドロネートを骨吸収抑制作用発現量である0.12μmol/kgを皮下投与し、12～15時間後における骨表面での分布を調べたところ、骨芽細胞面に比べ、破骨細胞面に約8倍多く分布していた。\n② pHの違いによるハイドロキシアパタイトとの結合能（in vitro）\n14C-アレンドロネートをウシ骨粉に結合させる系により、pHによるハイドロキシアパタイトとの結合量の変化を検討した結果、アレンドロネートはpH7.0でハイドロキシアパタイトに強く結合するが、酸性条件にするとpH依存的に遊離し、pH3.0では結合した量の95%が遊離した。破骨細胞が骨表面に付着すると、骨表面との間に形成される閉鎖環境内を酸性条件とし、骨のハイドロキシアパタイトを溶解する。よって、この試験成績から破骨細胞による骨吸収に伴いアレンドロネートが骨組織から遊離することが示唆された。\n\n2） 作用機序\nアレンドロネートは骨吸収面に特異的に分布し、破骨細胞より形成される酸性の閉鎖環境下で遊離することにより破骨細胞に選択的に作用し、水素イオン放出の抑制や波状縁を消失させ、破骨細胞の骨吸収活性を抑制する。これらの破骨細胞抑制機構の一つとして、破骨細胞に取り込まれたアレンドロネートが、骨吸収活性に必須の酵素活性を抑制することが考えられる。更に、アレンドロネートは骨形成には直接影響せず、アレンドロネートが分布した骨面の上に新たに骨が形成されるものと考えられた。\nまた、破骨細胞に取り込まれたアレンドロネートの最も有力な分子作用点は、他の窒素原子含有ビスホスホネートと同様に、メバロン酸/コレステロール生合成経路上のファルネシル2リン酸（FPP）シンターゼと考えられた。本酵素の阻害は、ゲラニルゲラニル2リン酸（GGPP）の生成抑制を介し、細胞骨格の再構成や細胞内小移動を制御するRho、Rac、Cdc42、Rab等のGTP結合蛋白のプレニル化を抑制し、アポトーシスに依存せず破骨細胞の骨吸収機能を抑制するものと考えられた（下図）27）。\n\n図 ビスホスホネートの破骨細胞における想定される作用部位\n\n① 破骨細胞のNa＋非依存性H＋放出能に対する作用（in vitro）28）\nアレンドロネート（0.022～220pmol/mm2）を前処理した骨スライスに、ラット長管骨より調製した培養破骨細胞、又はマウス骨髄細胞由来の破骨細胞を付着させ、破骨細胞のH＋放出能を調べたところ、本剤は濃度依存的に破骨細胞のH＋放出能を抑制し、そのIC50は約0.022pmol/mm2であった。\n② 破骨細胞の形態に対する作用（ラット）29）\nSD系ラットにアレンドロネート0.31mg/kgを皮下投与後、ヒトPTH-rPを持続注入し、脛骨骨端部での破骨細胞の形態を透過型電子顕微鏡で検討した結果、活性化破骨細胞の特徴である波状縁が消失（機能抑制）した像が認められた。\n③ 骨形成と骨吸収に対する作用（ラット）\nSD系雄ラットの右脛骨骨髄を機械的に取り除き、その後アレンドロネート（0.8、1.5、6.1及び30.6μg/kg）を6日間連続皮下投与した。ラットを経時的に屠殺し、右脛骨骨髄腔内に生成した海綿骨量を、組織形態計測により計測した。その結果、骨髄除去後7日目において、アレンドロネートはいずれの用量においても骨髄除去により新生した海綿骨量に影響を与えなかった。その後、この新生海綿骨はいずれの投与群でも徐々に吸収されたが、1.5μg/kg以上のアレンドロネートは海綿骨の吸収を抑制した。よって、この試験成績からアレンドロネートは骨吸収を抑制する用量においても、骨形成に直接影響を与えないことが示唆された。\n④ 骨吸収と骨石灰化に対する作用（ラット）\nSD系ラットにアレンドロネート0.004～24.1mg/kgを10日間皮下投与後、脛骨骨端部の組織学的解析を行った。骨吸収抑制の指標である脛骨骨端部の海綿骨量は0.004mg/kg以上で増加したが、骨石灰化の指標である骨端板幅及び類骨の厚さには4.0mg/kgでも影響は認められず、24.1mg/kgで骨端板幅が増加した。本結果から、アレンドロネートの骨吸収と骨石灰化を抑制する投与量には約6,000倍の違いが認められた。\n⑤ 破骨細胞のメバロン酸経路に対する作用（in vitro）30）\nウサギ培養破骨細胞において、アレンドロネート（15または60μmol/L）あるいはHMG-CoA還元酵素阻害剤ロバスタチン（10μmol/L）は骨吸収を抑制した。ロバスタチンの作用はメバロン酸と細胞内でゲラニルゲラニル2リン酸（メバロン酸経路の中間体）に変換されるゲラニルゲラニオール（10μmol/L）により拮抗され、アレンドロネートの作用はゲラニルゲラニオールにより拮抗された。これらの結果から、アレンドロネートは、破骨細胞においてその機能に必須のメバロン酸経路を阻害することが示唆された。\n⑥ ファルネシル2リン酸シンターゼに対する作用（in vitro）31）\na） アレンドロネート（10μg/mL）の存在下で、放射性メバロン酸をラット肝臓サイトゾルとインキュベートしたときのメバロン酸経路の中間体をHPLCを用いて分析した。その結果、メバロン酸の減少、イソペンテニル2リン酸（IPP）/ジメチルアリル2リン酸（DAMPP）の増加とファルネシル2リン酸（FPP）の減少が認められたことから、IPPからFPPへの生合成酵素であるIPPイソメラーゼあるいはFPPシンターゼが、アレンドロネートによる阻害の標的酵素であると考えられた。\nb） アレンドロネートはヒト遺伝子組換え型のFPPシンターゼを濃度依存的に阻害し、そのIC50は340nmol/Lであった。アレンドロネートは肝臓サイトゾルから部分精製したIPPイソメラーゼ及びGGPPシンターゼを阻害しなかった。\nc） 破骨細胞において、アレンドロネートは［3H］メバロノラクトンの蛋白への結合を18kDaの蛋白を除き抑制した。加えて、ステロールを含む不鹸化性脂質への結合も抑制した。これらのことから、アレンドロネートは破骨細胞において蛋白のプレニル化とステロール合成を抑制することが示された。\n⑦ 破骨細胞のアポトーシスに関する作用（in vitro）27）\n精製したマウス破骨細胞をアレンドロネート（30μmol/L）で処置することにより、アポトーシスの制御に関連したシグナル伝達キナーゼのMst1（Mammalian sterile 20-like kinase 1）の活性化が観察された。アポトーシスの過程において、Mst1はキャスパーゼ（Caspase）により切断されて活性化されるが、この切断もGGOH及びキャスパーゼ阻害剤のZ-VAD-FMK（Z-Val-Ala-Asp-fluoromethylketon）により抑制された。したがって、アレンドロネートは、直接的に破骨細胞のアポトーシスを誘発し、キャスパーゼによるMst1キナーゼの切断が、アポトーシスの過程の一部であることが示唆された。\n⑧ 破骨細胞のアポトーシスと骨吸収抑制との関係（in vitro）32）\nウサギ破骨細胞をアレンドロネート（0.06～6nmol/slice）と72時間インキュベートし、Ⅰ型コラーゲンC末端テロペプチド断片（CTX）の放出量測定による骨吸収活性と、破骨細胞数に対する用量反応性を検討した。その結果、破骨細胞数を減少させる濃度の10分の1以下の濃度で骨吸収の抑制が認められた。また、この骨吸収抑制作用はキャスパーゼ阻害剤で拮抗されなかった。したがって、アレンドロネートによる骨吸収抑制作用には、アポトーシス誘発作用の関与は低いことが示唆された。\n⑨ 破骨細胞のメバロン酸経路に対する作用（ラット）33）\nSD系雄ラットにアレンドロネート0.5mg/kg/日を皮下投与後、脛骨を抗HMG-CoA還元酵素抗体とヘマトキシリンにより染色し、脛骨の破骨細胞におけるHMG-CoA還元酵素のin vivoでの発現を検討した。その結果、アレンドロネートはHMG-CoA還元酵素の発現を76%抑制した。また、HMG-CoA還元酵素の阻害剤であるシンバスタチンは、アレンドロネートによるHMG-CoA還元酵素発現の抑制作用に拮抗した。これらの結果は、in vivoにおいてもアレンドロネートが破骨細胞のメバロン酸経路に対して作用していることを示しており、実際に生体内においてもメバロン酸経路の酵素阻害がアレンドロネートの分子作用点である可能性が示唆された。"@ja	.
 if:IF_6_2_1	dct:references	if:ref27	.
@@ -475,6 +543,7 @@ if:IF_6_2_1	dct:references	if:ref31	.
 if:IF_6_2_1	dct:references	if:ref32	.
 if:IF_6_2_1	dct:references	if:ref33	.
 if:IF_6_2_2	rdf:type	ifo:IF_6_2_2	.
+if:IF_6_2_2	rdf:type	ifo:Section	.
 if:IF_6_2_2	ifo:package_insert	pi:PI_18	.
 if:IF_6_2_2	rdf:value	"1) 骨量減少に対する作用\n①卵巣摘出ラットにおける作用\na） 予防効果（2ヵ月間経口投与試験）\nSD系雌ラットの両側卵巣を摘出し、その翌日よりアレンドロネート（0.04、0.2、1.0及び5.0mg/kg）を1日1回、2ヵ月間経口投与した。その結果、アレンドロネートは卵巣摘出により引き起こされた大腿骨遠位部の骨密度減少を骨石灰化に障害を与えることなく、1.0mg/kg以上の投与量で有意に抑制した（Dunnett’s two-tailed test p＜0.05）34）。\nb） 予防効果（1年間経口投与試験）\nSD系雌ラットの両側卵巣を摘出し、その翌日よりアレンドロネート（0.1及び0.5mg/kg）を1日1回、12ヵ月間経口投与した。その結果、アレンドロネートは、卵巣摘出により引き起こされた腰椎の骨量と骨強度の減少を0.5mg/kgの投与量で抑制した。また、大腿骨においても骨強度に影響を与えることなく、骨密度の減少を抑制した。\nc） 治療効果（1年間皮下投与試験）\nSD系雌ラットの両側卵巣を摘出し、その6ヵ月後よりアレンドロネート（1.4及び14μg/kg）を1週間に2回、1年間皮下投与した。その結果、アレンドロネート投与により用量依存的に腰椎の骨量が増加した。\n② 卵巣摘出ヒヒに対する作用35,36）\n成熟ヒヒの両側卵巣を摘出し、アレンドロネート（0.04及び0.19mg/kg）を2週に1回、2年間静脈内投与した。その結果、0.04mg/kg以上で骨代謝回転亢進が卵巣非摘出群レベルまで抑制されることが、骨代謝の生化学的マーカー及び骨形態計測パラメータにより示された。また、骨石灰化を障害せずに海綿骨量を増加させ、皮質骨の粗鬆化を抑制した。海綿骨の強度はアレンドロネート投与により増加し、骨量と骨強度には正の相関が認められた。\n③ 不動化ラットに対する作用37）\nSD系雄ラットの一方の坐骨神経を切断することにより、片側の後肢を不動化した。不動化手術前にアレンドロネート（0.04、0.4及び4mg/kg）を2日間皮下投与した。その結果、アレンドロネート前処置は、骨代謝回転を抑制し、また、骨石灰化に影響を与えることなく、不動化による骨量減少を0.04mg/kg以上の投与量で抑制した。\n④ 甲状腺ホルモン誘発ラットモデルに対する作用38）\nSD系雄ラットにサイロキシン（T4）250μg/kgを1週間に6回皮下投与すると同時に、アレンドロネート1.34mg/kgを週に2回、3週間経口投与した。その結果、アレンドロネートは骨吸収を抑制することにより、骨石灰化に影響を与えることなく、甲状腺ホルモンによる骨代謝回転増加を介した骨量減少を抑制した。\n2） 正常動物の骨に対する影響39）\n成熟ビーグル犬にアレンドロネート（0.25、0.5及び1.0mg/kg/day）を1日1回3年間経口投与した。その結果、臨床使用量（5mg/ヒト/day：約0.1mg/kg/day）の約10倍量のアレンドロネートを3年間投与しても、骨強度に対する影響、皮質骨の異常所見、微小骨折、骨軟化症は認められなかった。\n3） 骨折修復に対する影響7）\nイヌ骨折モデルにおいて、骨折前9週間及び骨折後16週間、臨床使用量（5mg/ヒト/day：約0.1mg/kg/day）の約20倍量のアレンドロネートを経口投与したが、骨折部位の治癒程度、骨強度、皮質骨の骨石灰化速度に影響は認められなかった。\n4） 投与頻度と骨量減少抑制作用\n① 卵巣摘出ラットにおける作用40）\nSD系雌ラットの両側卵巣を摘出し、アレンドロネートを、1ヵ月あたり0.224、1.12、5.6及び28mg/kgの用量で、月8回（週2回）、4回（週1回）又は2回（2週に1回）に分割して3ヵ月間皮下投与した。その結果、骨量への最大効果が認められない用量において、週2回分割投与の脛骨海綿骨量に対する増加効果は、2週に1回の投与に比して優れていたが、より高用量域においては同程度であり、また大腿骨の骨塩量の増加についても同様であった。\n② 二次性副甲状腺機能亢進症ラットにおける作用\nカルシウム欠乏食による二次性副甲状腺機能亢進症ラットに、アレンドロネートの28日分の総投与量0.112、1.12及び11.2mg/kgを1日1回、2日に1回、週2回、週1回に分割し、あるいは単回24時間持続注入で、皮下投与した。28日間の投与終了後、大腿骨の骨塩量を測定した。わずかな骨量減少の抑制しか示さない最低投与量を除いて、アレンドロネートの総投与量が同じ1日1回投与と週1回投与の比較では、同程度の骨量減少抑制作用がみられた。"@ja	.
 if:IF_6_2_2	dct:references	if:ref7	.
@@ -486,104 +555,140 @@ if:IF_6_2_2	dct:references	if:ref38	.
 if:IF_6_2_2	dct:references	if:ref39	.
 if:IF_6_2_2	dct:references	if:ref40	.
 if:IF_6_2_3	rdf:type	ifo:IF_6_2_3	.
+if:IF_6_2_3	rdf:type	ifo:Section	.
 if:IF_6_2_3	ifo:package_insert	pi:PI_18_1	.
 if:IF_6_2_3	rdf:value	"該当資料なし"@ja	.
 if:IF_7_1_1	rdf:type	ifo:IF_7_1_1	.
+if:IF_7_1_1	rdf:type	ifo:Section	.
 if:IF_7_1_1	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_1_1	rdf:value	"該当資料なし\n〈参考〉\n本剤は骨に特異的に分布し骨において作用する。（「Ⅶ.－5. 分布」の項参照）"@ja	.
 if:IF_7_1_2	rdf:type	ifo:IF_7_1_2	.
+if:IF_7_1_2	rdf:type	ifo:Section	.
 if:IF_7_1_2	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_1_2	ifo:item	if:IF_7_1_2.item1	.
 if:IF_7_1_2	ifo:item	if:IF_7_1_2.item2	.
+if:IF_7_1_2.item1	rdf:type	ifo:Item	.
 if:IF_7_1_2.item1	ifo:package_insert	pi:PI_16_1.item1	.
 if:IF_7_1_2.item1	dct:identifier	"7.1.2.item1"	.
 if:IF_7_1_2.item1	rdf:value	"〈ボナロン®錠5mg〉〈ボナロン®錠35mg〉\n1）単回経口投与時の血清中濃度18）\n健康成人男性にアレンドロネート5、10、20及び40mgを含有する錠剤を、朝食の2時間前に単回経口投与したとき（各群n＝5～6）の血清中のアレンドロン酸濃度は、5及び10mg投与群では全例で定量限界（11.5ng/mL）未満であった。20mg投与群では6例中2例（13.1、18.3ng/mL）で、40mg投与群では、6例中4例（13.8～79.3ng/mL）で投与2時間後にわずかに検出された。\n2）連続経口投与時の血清中濃度18）\n①健康成人男性（n＝6）に、アレンドロネート20mgを含有する錠剤を、朝食の2時間前に1日1回7日間連続経口投与した。血清中アレンドロン酸濃度は6例中の1例で投与4日目（27.0ng/mL）と7日目（19.0ng/mL）に、別の1例で7日目（11.7ng/mL）に、それぞれ投与2時間後にわずかに検出された他、すべて定量限界（11.5ng/mL）未満であった。\n②健康成人男性（n＝6）に、アレンドロネート20mgを含有する錠剤を、朝食の3時間後に1日1回14日間連続経口投与した。血清中アレンドロン酸濃度は6例中の1例で投与初日の投与1時間後に（40.9ng/mL）検出された他、すべて定量限界（11.5ng/mL）未満であった。\n（注）本剤の承認された用法・用量はアレンドロン酸として1日1回5mg又は週1回35mgである。"@ja	.
 if:IF_7_1_2.item1	dct:references	if:ref18	.
+if:IF_7_1_2.item2	rdf:type	ifo:Item	.
 if:IF_7_1_2.item2	ifo:package_insert	pi:PI_16_1.item2	.
 if:IF_7_1_2.item2	dct:identifier	"7.1.2.item2"	.
 if:IF_7_1_2.item2	rdf:value	"〈ボナロン®経口ゼリー35mg〉\n健康成人男性（n=32）に本剤及び35mg錠剤を、非盲検無作為化2剤2期クロスオーバー法によりそれぞれ絶食単回経口投与した。血清中アレンドロン酸濃度を測定し、薬物動態パラメータ（AUCt、Cmax）について統計解析を行った結果、対数値の平均値の差がlog（0.90）～log（1.11）の範囲内であり、かつ溶出試験で溶出挙動が類似していると判定されたことから両剤の生物学的同等性が確認された17）。\n図 血清中アレンドロン酸濃度（平均値±標準偏差、n=32）"@ja	.
 if:IF_7_1_2.item2	dct:references	if:ref17	.
 if:IF_7_1_3	rdf:type	ifo:IF_7_1_3	.
+if:IF_7_1_3	rdf:type	ifo:Section	.
 if:IF_7_1_3	rdf:value	"該当資料なし"@ja	.
-if:IF_7_1_3.item1	rdf:value	"「Ⅴ．－3． 用法及び用量」の項及び「Ⅷ.－7. 相互作用」の項を参照すること。"@ja	.
+if:IF_7_1_4	rdf:type	ifo:IF_7_1_4	.
+if:IF_7_1_4	rdf:type	ifo:Section	.
+if:IF_7_1_4	ifo:package_insert	pi:PI_16_7	.
+if:IF_7_1_4	ifo:item	if:IF_7_1_4.item1	.
+if:IF_7_1_4.item1	rdf:type	ifo:Item	.
+if:IF_7_1_4.item1	ifo:package_insert	pi:PI_16_7.item1	.
+if:IF_7_1_4.item1	dct:identifier	"7.1.4.item1"	.
+if:IF_7_1_4.item1	rdf:value	"「Ⅴ．－3． 用法及び用量」の項及び「Ⅷ.－7. 相互作用」の項を参照すること。"@ja	.
 if:IF_7_2_1	rdf:type	ifo:IF_7_2_1	.
+if:IF_7_2_1	rdf:type	ifo:Section	.
 if:IF_7_2_1	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_1	rdf:value	"該当資料なし"@ja	.
 if:IF_7_2_2	rdf:type	ifo:IF_7_2_2	.
+if:IF_7_2_2	rdf:type	ifo:Section	.
 if:IF_7_2_2	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_2	rdf:value	"該当しない"@ja	.
 if:IF_7_2_3	rdf:type	ifo:IF_7_2_3	.
+if:IF_7_2_3	rdf:type	ifo:Section	.
 if:IF_7_2_3	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_3	rdf:value	"該当資料なし"@ja	.
 if:IF_7_2_4	rdf:type	ifo:IF_7_2_4	.
+if:IF_7_2_4	rdf:type	ifo:Section	.
 if:IF_7_2_4	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_4	rdf:value	"該当資料なし"@ja	.
 if:IF_7_2_5	rdf:type	ifo:IF_7_2_5	.
+if:IF_7_2_5	rdf:type	ifo:Section	.
 if:IF_7_2_5	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_5	rdf:value	"該当資料なし"@ja	.
 if:IF_7_2_6	rdf:type	ifo:IF_7_2_6	.
+if:IF_7_2_6	rdf:type	ifo:Section	.
 if:IF_7_2_6	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_2_6	rdf:value	"該当資料なし"@ja	.
 if:IF_7_3_1	rdf:type	ifo:IF_7_3_1	.
+if:IF_7_3_1	rdf:type	ifo:Section	.
 if:IF_7_3_1	rdf:value	"該当資料なし"@ja	.
 if:IF_7_3_2	rdf:type	ifo:IF_7_3_2	.
+if:IF_7_3_2	rdf:type	ifo:Section	.
 if:IF_7_3_2	rdf:value	"該当資料なし"@ja	.
 if:IF_7_4	rdf:type	ifo:IF_7_4	.
+if:IF_7_4	rdf:type	ifo:Section	.
 if:IF_7_4	ifo:package_insert	pi:PI_16_2	.
 if:IF_7_4	ifo:item	if:IF_7_4.item1	.
 if:IF_7_4	ifo:item	if:IF_7_4.item2	.
 if:IF_7_4	ifo:item	if:IF_7_4.item3	.
+if:IF_7_4.item1	rdf:type	ifo:Item	.
 if:IF_7_4.item1	ifo:package_insert	pi:PI_16_2.item1	.
 if:IF_7_4.item1	dct:identifier	"7.4.item1"	.
 if:IF_7_4.item1	rdf:value	"(1) バイオアベイラビリティ\nアレンドロネートは経口吸収率が低く、ボナロン®錠5mg投与時の血中濃度はほとんどが定量限界未満であったことから、ボナロン®錠5mg及びボナロン®錠35mgの申請では尿中濃度を測定することにより薬物動態を検討した。なお、経口投与後吸収された薬物の尿中排泄率が静脈内投与後の尿中排泄率と同じであると仮定して、本剤のバイオアベイラビリティを求めた。\n〈ボナロン®錠5mg〉\n閉経後の60歳未満（非高齢者）及び65歳以上（高齢者）の女性（各群n＝8）に2期クロスオーバー法でアレンドロネートを経口（5mg）及び静脈内（0.1mg）投与し、投与後48時間までの尿中排泄量を測定したとき、下記の結果が得られている25）。\n〈ボナロン®錠35mg〉\n1） 閉経後女性に対する第Ⅰ相薬物動態試験41）\n閉経後女性24例（有効性評価対象23例）に、35mg錠剤（35mg/週）単回経口投与及び200μg単回持続静脈内投与を2パネル2期によるクロスオーバー法にて行い、単回経口投与後30分に食事を摂った際の累積尿中排泄量及び排泄率を評価し、経口投与時の生物学的利用率を算出した。\n35mg錠群及び200μg点滴静注群における投与開始時から開始後48時間までの累積尿中排泄量の幾何平均値は、103.6μg及び98.6μgであり、類似した値を示した。いずれの群においても投与開始後8時間までに48時間までの排泄量の80%以上が排泄されることが確認された。投与開始後48時間までの累積尿中排泄率の幾何平均値は、35mg錠群で0.30%、200μg点滴静注群で49.3%であった。\n投与開始時から開始後48時間までのアレンドロン酸の尿中排泄率について、両剤形の比（35mg錠/200μg点滴静注）を用いて求めた被験者ごとの生物学的利用率の幾何平均値は0.60%であった。\n2） 閉経後女性におけるアレンドロネート5mg錠との比較20）\n閉経後女性（n=23）に2期クロスオーバー法で、アレンドロネート5mg錠及び35mg錠を朝食の2時間前に単回経口投与したとき、投与後48時間までの尿中排泄率の幾何平均値比（35mg錠/5mg錠）は1.02で、生物学的利用率には差がないと判断された。\n〈ボナロン®経口ゼリー35mg〉\n該当資料なし"@ja	.
 if:IF_7_4.item1	dct:references	if:ref20	.
 if:IF_7_4.item1	dct:references	if:ref25	.
 if:IF_7_4.item1	dct:references	if:ref41	.
+if:IF_7_4.item2	rdf:type	ifo:Item	.
 if:IF_7_4.item2	ifo:package_insert	pi:PI_16_2.item2	.
 if:IF_7_4.item2	dct:identifier	"7.4.item2"	.
 if:IF_7_4.item2	rdf:value	"(2) 単回投与時42）\n〈参考〉\nSD系雌雄ラットに14C-アレンドロネート3.8mg/kgを絶食下で経口投与したとき、投与後30分の血漿中放射能濃度は雄で25ng eq./mL、雌で32ng eq./mLであった。その後の消失は比較的速やかであり、投与後4時間の血漿中放射能濃度は、雌雄ともに4例中の2例がすでに検出限界未満であった。このため、血漿中濃度からは信頼性のある速度論的パラメータを算出することができなかった。血漿中放射能濃度の推移に、顕著な性差は認められなかった。"@ja	.
 if:IF_7_4.item2	dct:references	if:ref42	.
+if:IF_7_4.item3	rdf:type	ifo:Item	.
 if:IF_7_4.item3	ifo:package_insert	pi:PI_16_2.item3	.
 if:IF_7_4.item3	dct:identifier	"7.4.item3"	.
 if:IF_7_4.item3	rdf:value	"(3) 連続経口投与時42）\n〈参考〉\nSD系雌ラットに14C-アレンドロネート3.8mg/kgを1日1回7日間連続経口投与後の血漿中放射能濃度は、単回投与時とほぼ同様の推移を示した。なお、投与期間中は夜間に絶食し、毎朝投与2時間後より給餌を行った。"@ja	.
 if:IF_7_4.item3	dct:references	if:ref42	.
 if:IF_7_5_1	rdf:type	ifo:IF_7_5_1	.
+if:IF_7_5_1	rdf:type	ifo:Section	.
 if:IF_7_5_1	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_1	rdf:value	"〈参考〉\nラットに14C-アレンドロネート0.038mg/kgを単回静脈内投与あるいは1日1回7日間反復静脈内投与したとき、ほとんどの測定点で脳中に放射能は検出されなかったことから、脳へはほとんど移行しないと考えられた43,44）。"@ja	.
 if:IF_7_5_1	dct:references	if:ref43	.
 if:IF_7_5_1	dct:references	if:ref44	.
 if:IF_7_5_2	rdf:type	ifo:IF_7_5_2	.
+if:IF_7_5_2	rdf:type	ifo:Section	.
 if:IF_7_5_2	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_2	rdf:value	"〈参考〉\n妊娠19日齢のラットに14C-アレンドロネート0.038mg/kgを単回静脈内投与したとき、胎盤内放射能濃度は血漿中放射能が検出限界未満となった。投与後24時間においても13.31±1.48ng eq./g（平均値±標準偏差）を示したが、胎児中ではほとんどの測定点で検出限界未満であり、胎児への移行性は少なかった43）。"@ja	.
 if:IF_7_5_2	dct:references	if:ref43	.
 if:IF_7_5_3	rdf:type	ifo:IF_7_5_3	.
+if:IF_7_5_3	rdf:type	ifo:Section	.
 if:IF_7_5_3	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_3	rdf:value	"〈参考〉\n出産14日のラットに14C‐アレンドロネート0.05mg/kgを静脈内投与したのち、15、30分、1，2，4，8，24時間および48時間に軽いエーテル麻酔下で眼窩静脈から血液を採取するとともに乳汁を採取した。血漿中放射能濃度が検出限界値以下になった。2時間以降も乳汁中の放射能は検出され、投与4時間に最高値（28.4ng eq./ml）を示した43）。"@ja	.
 if:IF_7_5_3	dct:references	if:ref43	.
 if:IF_7_5_4	rdf:type	ifo:IF_7_5_4	.
+if:IF_7_5_4	rdf:type	ifo:Section	.
 if:IF_7_5_4	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_4	rdf:value	"該当資料なし"@ja	.
 if:IF_7_5_5	rdf:type	ifo:IF_7_5_5	.
+if:IF_7_5_5	rdf:type	ifo:Section	.
 if:IF_7_5_5	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_5	rdf:value	"〈参考〉\n1） 単回経口投与42）\nSD系雌雄ラットに14C‐アレンドロネート3.8mg/kgを絶食下で単回経口投与したとき、投与後30分において血漿よりも3～6倍高い放射能が骨、腎臓及び気管に移行し、骨及び気管については投与後4時間まで放射能濃度が上昇した。また、消化管でも高い放射能が検出されたが、その消失は速やかなことから、未吸収の薬物の影響と考えられた。その他の臓器・組織の放射能濃度は血漿と同程度で、投与後24時間には検出限界付近にまで減衰した。ラットの組織内分布に顕著な性差は認められなかった。骨及び気管の放射能濃度は投与後24時間でも高値を示した。\n2） 連続経口投与42）\nSD系雌ラットに14C‐アレンドロネート3.8mg/kgを1日1回7日間連続経口投与したとき、気管及び骨の放射能濃度は単回投与に比べ7倍以上に増加した。腎臓及び肝臓では単回投与に比べ放射能濃度が若干増加したが、その他に蓄積性を示す組織は認められなかった。"@ja	.
 if:IF_7_5_5	dct:references	if:ref42	.
 if:IF_7_5_6	rdf:type	ifo:IF_7_5_6	.
+if:IF_7_5_6	rdf:type	ifo:Section	.
 if:IF_7_5_6	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_6	rdf:value	"ヒト血漿に14C-アレンドロネートを添加したときの血漿蛋白結合率は85.6%であった（in vitro）。"@ja	.
 if:IF_7_6_1	rdf:type	ifo:IF_7_6_1	.
+if:IF_7_6_1	rdf:type	ifo:Section	.
 if:IF_7_6_1	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_1	rdf:value	"〈参考〉\n雄性ラット及び雄性イヌに14C‐アレンドロネートを単回静脈内投与したとき、本剤は体内で代謝を受けず、未変化体のまま尿中に排泄された。また、骨中に蓄積される放射能は未変化体によるものであることが確認されている45）。"@ja	.
 if:IF_7_6_1	dct:references	if:ref45	.
 if:IF_7_6_2	rdf:type	ifo:IF_7_6_2	.
+if:IF_7_6_2	rdf:type	ifo:Section	.
 if:IF_7_6_2	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_2	rdf:value	"該当資料なし"@ja	.
 if:IF_7_6_3	rdf:type	ifo:IF_7_6_3	.
+if:IF_7_6_3	rdf:type	ifo:Section	.
 if:IF_7_6_3	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_3	rdf:value	"該当資料なし"@ja	.
 if:IF_7_6_4	rdf:type	ifo:IF_7_6_4	.
+if:IF_7_6_4	rdf:type	ifo:Section	.
 if:IF_7_6_4	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_4	rdf:value	"該当資料なし"@ja	.
 if:IF_7_7	rdf:type	ifo:IF_7_7	.
+if:IF_7_7	rdf:type	ifo:Section	.
 if:IF_7_7	ifo:package_insert	pi:PI_16_5	.
 if:IF_7_7	rdf:value	"（1） 排泄部位及び経路\n主として腎より排泄される。\n（2） 排泄率\n〈ボナロン®錠5mg〉〈ボナロン®錠35mg〉\n1） 健康成人男性における検討18）\n健康成人男性に5、10、20及び40mgアレンドロネート錠を各1錠、朝食の2時間前に単回経口投与（各群n＝5～6）したときの投与後48時間後までの尿中排泄率（平均±標準偏差）は投与量のそれぞれ0.78±0.29%、0.78±0.60%、0.99±0.49%および1.90±1.65%（参考：幾何平均0.65～1.41%）であり、投与量による有意な差は認められなかった。そのほとんどは投与後6時間までに排泄された。\nまた、20mgアレンドロネート錠1錠を朝食の2時間前に1日1回7日間連続経口投与（n＝6）したときの尿中排泄率は以下の通りである。\n2） 閉経後の女性における検討\n① 閉経後の女性（n＝5）に10mgアレンドロネート錠1錠を最初に朝食の2時間前に単回経口投与し、1週間の休薬の後、引き続いて1日1回7日間の連続経口投与を朝食の30分前に行った。その結果、単回投与時の尿中排泄率（平均±標準偏差）は0.96±0.43%であった。また、連続投与時の尿中排泄率は以下の通りである19）。\n② 閉経後女性（n=23）に2期クロスオーバー法で、アレンドロネート5mg錠及び35mg錠を朝食の2時間前に単回経口投与したとき、投与後48時間までの尿中排泄率の幾何平均値比（35mg錠/5mg錠）は1.02で、生物学的利用率には差がないと判断された20）。\n3） 高齢者における検討25）\n閉経の確認された60歳未満の女性（非高齢者群、n＝8）及び65歳以上の女性（高齢者群、n＝8）それぞれに、2剤2期クロスオーバー法でアレンドロネートを経口（5mg）及び静脈内（0.1mg）投与した。投与後48時間までの尿中排泄率の幾何平均値は以下の通りであり、解析の結果、高齢者と非高齢者の間に有意な差は認められなかった（二元配置分散分析（有意水準0.05））。\n〈参考〉\n飲食の影響46）\n① 海外で行われた試験において、閉経後女性にアレンドロン酸として10mgを含有する錠剤を、単回経口投与（朝食の2、1、0.5時間前、直後及び2時間後の5期クロスオーバー法）したとき（n＝49）の投与後36時間までの尿中排泄量（幾何平均値）は、朝食2、1及び0.5時間前の投与ではそれぞれ12.68μg、8.88μg及び6.78μgであり、朝食2時間前に投与した場合が最も多かった。一方、朝食直後及び2時間後の投与では多くが定量限界（1ng/mL）未満であった。\n② 海外で行われた試験において、閉経後女性にアレンドロン酸として10mgを含有する錠剤を、水、コーヒー又はオレンジジュースと同時に単回経口投与（3期クロスオーバー法）したとき（n=40）の投与後24時間までの尿中排泄量（幾何平均値）は、水（19.20μg）を同時に摂取した場合と比べ、コーヒー（7.43μg）、オレンジジュース（6.77μg）では約60%減少した。\n（解説）\nアレンドロネートを含むビスホスホネート系薬剤はCa2+、Mg2+、Al3+等の多価陽イオンと不溶性の塩を形成し吸収が抑制される。\n同様に、コーヒーやオレンジジュースもCa2+あるいはMg2+が含まれているため、吸収抑制のメカニズムの一つとして、アレンドロネートと不溶性の塩を形成することが考えられる。\n（注）本剤の承認された用法・用量はアレンドロン酸として1日1回5mgまたは週1回35mgである。"@ja	.
 if:IF_7_7	dct:references	if:ref17	.
@@ -593,47 +698,61 @@ if:IF_7_7	dct:references	if:ref20	.
 if:IF_7_7	dct:references	if:ref25	.
 if:IF_7_7	dct:references	if:ref46	.
 if:IF_7_8	rdf:type	ifo:IF_7_8	.
+if:IF_7_8	rdf:type	ifo:Section	.
 if:IF_7_8	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_8	rdf:value	"該当資料なし"@ja	.
 if:IF_7_9	rdf:type	ifo:IF_7_9	.
+if:IF_7_9	rdf:type	ifo:Section	.
 if:IF_7_9	ifo:package_insert	pi:PI_16_6	.
 if:IF_7_9	rdf:value	"該当資料なし"@ja	.
 if:IF_7_10	rdf:type	ifo:IF_7_10	.
+if:IF_7_10	rdf:type	ifo:Section	.
 if:IF_7_10	ifo:package_insert	pi:PI_16_6	.
 if:IF_7_10	rdf:value	"〈参考〉\n腎機能障害患者\nボナロン®点滴静注バッグ900μgでは、閉経後女性の腎機能正常者（n＝7）及び軽度（n＝8）・中等度（n＝7）・高度（n＝4）の腎機能低下患者にアレンドロン酸として900μgを含有する注射剤を単回投与したときの累積尿中排泄率は以下の通りであった47）。"@ja	.
 if:IF_7_10	dct:references	if:ref47	.
 if:IF_7_11	rdf:type	ifo:IF_7_11	.
+if:IF_7_11	rdf:type	ifo:Section	.
 if:IF_7_11	ifo:package_insert	pi:PI_16_8	.
 if:IF_7_11	rdf:value	"該当資料なし"@ja	.
 if:IF_8_1	rdf:type	ifo:IF_8_1	.
+if:IF_8_1	rdf:type	ifo:Section	.
 if:IF_8_1	ifo:package_insert	pi:PI_1	.
 if:IF_8_1	ifo:item	if:IF_8_1.item1	.
+if:IF_8_1.item1	rdf:type	ifo:Item	.
 if:IF_8_1.item1	ifo:package_insert	pi:PI_1.item1	.
 if:IF_8_1.item1	dct:identifier	"8.1.item1"	.
 if:IF_8_1.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_2	rdf:type	ifo:IF_8_2	.
+if:IF_8_2	rdf:type	ifo:Section	.
 if:IF_8_2	ifo:package_insert	pi:PI_2	.
 if:IF_8_2	ifo:item	if:IF_8_2.item1	.
 if:IF_8_2	ifo:item	if:IF_8_2.item2	.
 if:IF_8_2	ifo:item	if:IF_8_2.item3	.
 if:IF_8_2	ifo:item	if:IF_8_2.item4	.
+if:IF_8_2.item1	rdf:type	ifo:Item	.
 if:IF_8_2.item1	ifo:package_insert	pi:PI_2.item1	.
 if:IF_8_2.item1	dct:identifier	"8.2.item1"	.
 if:IF_8_2.item1	rdf:value	"2.1 本剤は食道に滞留することにより食道粘膜に対し刺激作用を示すおそれがあるため、速やかに胃内へ到達させなければならないので、食道狭窄又はアカラシア（食道弛緩不能症）等の食道通過を遅延させる障害のある患者には投与しないこと。"@ja	.
+if:IF_8_2.item2	rdf:type	ifo:Item	.
 if:IF_8_2.item2	ifo:package_insert	pi:PI_2.item2	.
 if:IF_8_2.item2	dct:identifier	"8.2.item2"	.
 if:IF_8_2.item2	rdf:value	"2.2 30分以上上体を起こしていることや立っていることのできない患者に本剤を投与した場合、本剤が食道で滞留したり、本剤と胃酸との混合物が食道へ逆流したりする危険性が高くなり、副作用の発現が増大する可能性があるので、これらの患者には投与しないこと。"@ja	.
+if:IF_8_2.item3	rdf:type	ifo:Item	.
 if:IF_8_2.item3	ifo:package_insert	pi:PI_2.item3	.
 if:IF_8_2.item3	dct:identifier	"8.2.item3"	.
 if:IF_8_2.item3	rdf:value	"2.3 本剤の成分あるいは他のビスホスホネート系薬剤に対し過敏症の既往歴のある患者に本剤を投与した場合、過敏反応を起こす可能性があるので、これらの患者には投与しないこと。"@ja	.
+if:IF_8_2.item4	rdf:type	ifo:Item	.
 if:IF_8_2.item4	ifo:package_insert	pi:PI_2.item4	.
 if:IF_8_2.item4	dct:identifier	"8.2.item4"	.
 if:IF_8_2.item4	rdf:value	"2.4 本剤の骨吸収抑制作用により、血清カルシウムの低下が起こることがあるので、低カルシウム血症の患者には投与しないこと。"@ja	.
 if:IF_8_3	rdf:type	ifo:IF_8_3	.
+if:IF_8_3	rdf:type	ifo:Section	.
 if:IF_8_3	rdf:value	"「Ⅴ．治療に関する項目」を参照すること。"@ja	.
 if:IF_8_4	rdf:type	ifo:IF_8_4	.
+if:IF_8_4	rdf:type	ifo:Section	.
 if:IF_8_4	rdf:value	"「Ⅴ．治療に関する項目」を参照すること。"@ja	.
 if:IF_8_5	rdf:type	ifo:IF_8_5	.
+if:IF_8_5	rdf:type	ifo:Section	.
 if:IF_8_5	ifo:package_insert	pi:PI_8	.
 if:IF_8_5	ifo:item	if:IF_8_5.item1	.
 if:IF_8_5	ifo:item	if:IF_8_5.item2	.
@@ -642,87 +761,110 @@ if:IF_8_5	ifo:item	if:IF_8_5.item4	.
 if:IF_8_5	ifo:item	if:IF_8_5.item5	.
 if:IF_8_5	ifo:item	if:IF_8_5.item6	.
 if:IF_8_5	ifo:item	if:IF_8_5.item7	.
+if:IF_8_5.item1	rdf:type	ifo:Item	.
 if:IF_8_5.item1	ifo:package_insert	pi:PI_8.item1	.
 if:IF_8_5.item1	dct:identifier	"8.5.item1"	.
 if:IF_8_5.item1	rdf:value	"8.1 本剤は咽喉頭、食道等の粘膜に対し局所刺激症状を引き起こすおそれがある。特に適切に服用しない患者では、食道、口腔内に重度の副作用が発現する可能性があるので、服用法について患者を十分指導し、理解させること。［7.2、11.1.1 参照］"@ja	.
+if:IF_8_5.item2	rdf:type	ifo:Item	.
 if:IF_8_5.item2	ifo:package_insert	pi:PI_8.item2	.
 if:IF_8_5.item2	dct:identifier	"8.5.item2"	.
 if:IF_8_5.item2	rdf:value	"8.2 本剤の投与により、上部消化管に関する副作用が報告されているので、観察を十分に行い、副作用の徴候又は症状（嚥下困難、嚥下痛又は胸骨下痛の発現又は胸やけの発現・悪化等）に注意し、患者に対して、これらの症状があらわれた場合は、本剤の服用を中止して診察を受けるよう指導すること。［11.1.1、11.1.2 参照］"@ja	.
+if:IF_8_5.item3	rdf:type	ifo:Item	.
 if:IF_8_5.item3	ifo:package_insert	pi:PI_8.item3	.
 if:IF_8_5.item3	dct:identifier	"8.5.item3"	.
 if:IF_8_5.item3	rdf:value	"8.3 患者には、食事等から十分なカルシウムを摂取させること。［11.1.4 参照］"@ja	.
+if:IF_8_5.item4	rdf:type	ifo:Item	.
 if:IF_8_5.item4	ifo:package_insert	pi:PI_8.item4	.
 if:IF_8_5.item4	dct:identifier	"8.5.item4"	.
 if:IF_8_5.item4	rdf:value	"8.4 低カルシウム血症がある場合には、本剤投与前に低カルシウム血症を治療すること。また、ビタミンD欠乏症又はビタミンD代謝異常のようなミネラル代謝障害がある場合には、あらかじめ治療を行うこと。［2.4、11.1.4 参照］"@ja	.
+if:IF_8_5.item5	rdf:type	ifo:Item	.
 if:IF_8_5.item5	ifo:package_insert	pi:PI_8.item5	.
 if:IF_8_5.item5	dct:identifier	"8.5.item5"	.
 if:IF_8_5.item5	rdf:value	"8.5 ビスホスホネート系薬剤による治療を受けている患者において、顎骨壊死・顎骨骨髄炎があらわれることがある。報告された症例の多くが抜歯等の顎骨に対する侵襲的な歯科処置や局所感染に関連して発現している。リスク因子としては、悪性腫瘍、化学療法、血管新生阻害薬、コルチコステロイド治療、放射線療法、口腔の不衛生、歯科処置の既往等が知られている。\n本剤の投与開始前は口腔内の管理状態を確認し、必要に応じて、患者に対し適切な歯科検査を受け、侵襲的な歯科処置をできる限り済ませておくよう指導すること。本剤投与中に侵襲的な歯科処置が必要になった場合には本剤の休薬等を考慮すること。\nまた、口腔内を清潔に保つこと、定期的な歯科検査を受けること、歯科受診時に本剤の使用を歯科医師に告知して侵襲的な歯科処置はできる限り避けることなどを患者に十分説明し、異常が認められた場合には、直ちに歯科・口腔外科を受診するように指導すること。［11.1.6参照］"@ja	.
+if:IF_8_5.item6	rdf:type	ifo:Item	.
 if:IF_8_5.item6	ifo:package_insert	pi:PI_8.item6	.
 if:IF_8_5.item6	dct:identifier	"8.5.item6"	.
 if:IF_8_5.item6	rdf:value	"8.6 ビスホスホネート系薬剤を使用している患者において、外耳道骨壊死が発現したとの報告がある。これらの報告では、耳の感染や外傷に関連して発現した症例も認められることから、外耳炎、耳漏、耳痛等の症状が続く場合には、耳鼻咽喉科を受診するよう指導すること。［11.1.7 参照］"@ja	.
+if:IF_8_5.item7	rdf:type	ifo:Item	.
 if:IF_8_5.item7	ifo:package_insert	pi:PI_8.item7	.
 if:IF_8_5.item7	dct:identifier	"8.5.item7"	.
 if:IF_8_5.item7	rdf:value	"8.7 ビスホスホネート系薬剤を長期使用している患者において、非外傷性の大腿骨転子下及び近位大腿骨骨幹部の非定型骨折が発現したとの報告がある。これらの報告では、完全骨折が起こる数週間から数ヵ月前に大腿部や鼠径部等において前駆痛が認められている報告もあることから、このような症状が認められた場合には、X線検査等を行い、適切な処置を行うこと。また、両側性の骨折が生じる可能性があることから、片側で非定型骨折が起きた場合には、反対側の大腿骨の症状等を確認し、X線検査を行うなど、慎重に観察すること。X線検査時には骨皮質の肥厚等、特徴的な画像所見がみられており、そのような場合には適切な処置を行うこと。［11.1.8 参照］"@ja	.
 if:IF_8_6_1	rdf:type	ifo:IF_8_6_1	.
+if:IF_8_6_1	rdf:type	ifo:Section	.
 if:IF_8_6_1	ifo:package_insert	pi:PI_9_1	.
 if:IF_8_6_1	ifo:item	if:IF_8_6_1.item1	.
+if:IF_8_6_1.item1	rdf:type	ifo:Item	.
 if:IF_8_6_1.item1	ifo:package_insert	pi:PI_9_1.item1	.
 if:IF_8_6_1.item1	dct:identifier	"8.6.1.item1"	.
 if:IF_8_6_1.item1	rdf:value	"本剤は上部消化管粘膜に対し刺激作用を示すおそれがあり、嚥下困難、食道炎、胃炎、十二指腸炎、又は潰瘍等の上部消化管障害の基礎疾患を悪化させる可能性があるので、これらの基礎疾患がある患者には慎重に投与すること。"@ja	.
 if:IF_8_6_2	rdf:type	ifo:IF_8_6_2	.
+if:IF_8_6_2	rdf:type	ifo:Section	.
 if:IF_8_6_2	ifo:package_insert	pi:PI_9_2	.
 if:IF_8_6_2	ifo:item	if:IF_8_6_2.item1	.
+if:IF_8_6_2.item1	rdf:type	ifo:Item	.
 if:IF_8_6_2.item1	ifo:package_insert	pi:PI_9_2.item1	.
 if:IF_8_6_2.item1	dct:identifier	"8.6.2.item1"	.
 if:IF_8_6_2.item1	rdf:value	"本剤は腎排泄型の薬剤である。重篤な腎機能障害のある患者に投与した場合、排泄が阻害されて血中濃度が持続し、低カルシウム血症等の副作用が発現する可能性があるので、慎重に投与すること。"@ja	.
 if:IF_8_6_3	rdf:type	ifo:IF_8_6_3	.
+if:IF_8_6_3	rdf:type	ifo:Section	.
 if:IF_8_6_3	ifo:package_insert	pi:PI_9_3	.
 if:IF_8_6_3	ifo:item	if:IF_8_6_3.item1	.
+if:IF_8_6_3.item1	rdf:type	ifo:Item	.
 if:IF_8_6_3.item1	ifo:package_insert	pi:PI_9_3.item1	.
 if:IF_8_6_3.item1	dct:identifier	"8.6.3.item1"	.
 if:IF_8_6_3.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_6_4	rdf:type	ifo:IF_8_6_4	.
+if:IF_8_6_4	rdf:type	ifo:Section	.
 if:IF_8_6_4	ifo:package_insert	pi:PI_9_4	.
 if:IF_8_6_4	ifo:item	if:IF_8_6_4.item1	.
+if:IF_8_6_4.item1	rdf:type	ifo:Item	.
 if:IF_8_6_4.item1	ifo:package_insert	pi:PI_9_4.item1	.
 if:IF_8_6_4.item1	dct:identifier	"8.6.4.item1"	.
 if:IF_8_6_4.item1	rdf:value	"ビスホスホネート系薬剤は骨基質に取り込まれた後に全身循環へ徐々に放出され、投与を中止した後も継続的に曝露される可能性があるので、妊娠前の投与であってもその後妊娠した場合に胎児への影響を否定できないため、ビスホスホネート系薬剤共通のリスクとして記載した。\n〈参考〉\nラットにおける胎児の器官形成期経口投与試験において、催奇形性は認められなかったが、高用量（10mg/kg/日及び25mg/kg/日）において化骨遅延が認められた。(「Ⅸ.2.(5)生殖発生毒性試験」の項参照）"@ja	.
 if:IF_8_6_5	rdf:type	ifo:IF_8_6_5	.
+if:IF_8_6_5	rdf:type	ifo:Section	.
 if:IF_8_6_5	ifo:package_insert	pi:PI_9_5	.
 if:IF_8_6_5	ifo:item	if:IF_8_6_5.item1	.
+if:IF_8_6_5.item1	rdf:type	ifo:Item	.
 if:IF_8_6_5.item1	ifo:package_insert	pi:PI_9_5.item1	.
 if:IF_8_6_5.item1	dct:identifier	"8.6.5.item1"	.
 if:IF_8_6_5.item1	rdf:value	"妊娠中の投与に関する安全性は確立していないので注意を設定した。\n〈参考〉\n妊娠19日齢のラットに14C-アレンドロネート0.038mg/kgを単回静脈内投与したとき、胎盤中放射能濃度は血漿中放射能が検出限界未満となった投与後24時間においても13.31±1.48ngeq./gを示したが、胎児中ではほとんどの測定点で検出限界未満であり、胎児への移行性は少なかった43）。"@ja	.
 if:IF_8_6_5.item1	dct:references	if:ref43	.
 if:IF_8_6_6	rdf:type	ifo:IF_8_6_6	.
+if:IF_8_6_6	rdf:type	ifo:Section	.
 if:IF_8_6_6	ifo:package_insert	pi:PI_9_6	.
 if:IF_8_6_6	ifo:item	if:IF_8_6_6.item1	.
+if:IF_8_6_6.item1	rdf:type	ifo:Item	.
 if:IF_8_6_6.item1	ifo:package_insert	pi:PI_9_6.item1	.
 if:IF_8_6_6.item1	dct:identifier	"8.6.6.item1"	.
 if:IF_8_6_6.item1	rdf:value	"授乳婦への使用経験がなく、また動物実験（ラット）において本剤の乳汁中への移行が確認されているので注意を設定した。\n〈参考〉\n産後14日のラットに14C-アレンドロネート0.038mg/kgを単回静脈内投与したとき、乳汁中放射能濃度の平均値は投与後2時間で最高の13.80ngeq./mLとなり、その後血漿中放射能濃度より高値を示しながら消失し、投与後48時間では検出限界未満となった。"@ja	.
-if:IF_8_6_7	rdf:type	ifo:IF_8_6_7	.
-if:IF_8_6_7	ifo:package_insert	pi:PI_9_7	.
-if:IF_8_6_7	ifo:item	if:IF_8_6_7.item1	.
 if:IF_8_6_8	rdf:type	ifo:IF_8_6_8	.
+if:IF_8_6_8	rdf:type	ifo:Section	.
 if:IF_8_6_8	ifo:package_insert	pi:PI_9_8	.
 if:IF_8_6_8	ifo:item	if:IF_8_6_8.item1	.
+if:IF_8_6_8.item1	rdf:type	ifo:Item	.
 if:IF_8_6_8.item1	ifo:package_insert	pi:PI_9_8.item1	.
 if:IF_8_6_8.item1	dct:identifier	"8.6.8.item1"	.
 if:IF_8_6_8.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_7_1	rdf:type	ifo:IF_8_7_1	.
+if:IF_8_7_1	rdf:type	ifo:Section	.
 if:IF_8_7_1	ifo:package_insert	pi:PI_10_1	.
 if:IF_8_7_1	ifo:item	if:IF_8_7_1.item1	.
+if:IF_8_7_1.item1	rdf:type	ifo:Item	.
 if:IF_8_7_1.item1	ifo:package_insert	pi:PI_10_1.item1	.
 if:IF_8_7_1.item1	dct:identifier	"8.7.1.item1"	.
 if:IF_8_7_1.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_7_2	rdf:type	ifo:IF_8_7_2	.
+if:IF_8_7_2	rdf:type	ifo:Section	.
 if:IF_8_7_2	ifo:package_insert	pi:PI_10_2	.
 if:IF_8_7_2	ifo:item	if:IF_8_7_2.item1	.
+if:IF_8_7_2.item1	rdf:type	ifo:Item	.
 if:IF_8_7_2.item1	ifo:package_insert	pi:PI_10_2.item1	.
 if:IF_8_7_2.item1	dct:identifier	"8.7.2.item1"	.
 if:IF_8_7_2.item1	rdf:value	"本剤は極性が高く負に帯電した分子であるため、マグネシウムイオンやカルシウムイオンなどの多価陽イオンとキレートを形成することがある。\nそのようなキレートは胃腸粘膜から吸収されにくく、本剤のバイオアベイラビリティの低下（臨床試験において食事、飲料等によりバイオアベイラビリティが低下するという報告がある46））につながり、そのため十分な治療効果が得られなくなるので注意すること。"@ja	.
 if:IF_8_7_2.item1	dct:references	if:ref46	.
 if:IF_8_8_1	rdf:type	ifo:IF_8_8_1	.
+if:IF_8_8_1	rdf:type	ifo:Section	.
 if:IF_8_8_1	ifo:package_insert	pi:PI_11_1	.
 if:IF_8_8_1	ifo:item	if:IF_8_8_1.item1	.
 if:IF_8_8_1	ifo:item	if:IF_8_8_1.item2	.
@@ -732,88 +874,122 @@ if:IF_8_8_1	ifo:item	if:IF_8_8_1.item5	.
 if:IF_8_8_1	ifo:item	if:IF_8_8_1.item6	.
 if:IF_8_8_1	ifo:item	if:IF_8_8_1.item7	.
 if:IF_8_8_1	ifo:item	if:IF_8_8_1.item8	.
+if:IF_8_8_1.item1	rdf:type	ifo:Item	.
 if:IF_8_8_1.item1	ifo:package_insert	pi:PI_11_1.item1	.
 if:IF_8_8_1.item1	dct:identifier	"8.8.1.item1"	.
 if:IF_8_8_1.item1	rdf:value	"11.1.1 本剤（5mg/日）の承認時の国内臨床試験で、食道炎が3件/718例（発現率：0.42%）報告されたが、その程度はいずれも軽度であり服薬中止等には至らなかった。しかしながら、海外及び本剤（5mg/日）の国内の特定使用成績調査で食道・口腔内に関する重篤な副作用が報告されていることから記載した。\n一般に、食道・口腔内障害は初期症状として胸やけ、飲み込みにくい、飲み込む時の痛み、胸の痛みなどを認めることがある。食道・口腔内障害が疑われる場合には、投与を中止して適切な処置を行うこと。"@ja	.
+if:IF_8_8_1.item2	rdf:type	ifo:Item	.
 if:IF_8_8_1.item2	ifo:package_insert	pi:PI_11_1.item2	.
 if:IF_8_8_1.item2	dct:identifier	"8.8.1.item2"	.
 if:IF_8_8_1.item2	rdf:value	"11.1.2 本剤（5mg/日）の承認時の国内臨床試験で、胃潰瘍が6件/718例（発現率：0.8%）報告されたが、そのうち3件が重度と診断され、本剤の投与が中止された。合わせて海外で発現している「十二指腸潰瘍」に関しても注意を促すために記載した。また、国内市販後において出血を伴う胃・十二指腸潰瘍が報告されたことから「出血性胃炎」を追記した。\n一般に、胃・十二指腸障害は初期症状としてみぞおちの痛み、腹痛、圧痛、吐き気、嘔吐、食欲不振、下痢、便秘などを認めることがある。胃・十二指腸障害が疑われる場合には、投与を中止して適切な処置を行うこと。"@ja	.
+if:IF_8_8_1.item3	rdf:type	ifo:Item	.
 if:IF_8_8_1.item3	ifo:package_insert	pi:PI_11_1.item3	.
 if:IF_8_8_1.item3	dct:identifier	"8.8.1.item3"	.
 if:IF_8_8_1.item3	rdf:value	"11.1.3 本剤（5mg/日）の承認時の国内臨床試験で肝機能障害の報告はない。しかしながら、海外及び本剤（5mg/日）の国内の市販後で重篤な肝機能障害の報告があり、症状として黄疸を発現した症例があったことから記載した。\n一般に、肝機能障害は初期症状として全身倦怠感、食欲不振、吐き気、嘔吐などを認めることがある。また、黄疸は初期症状として皮膚や結膜などの黄染（黄色くなる）を認めることがある。肝機能障害、黄疸が疑われる場合には、投与を中止して適切な処置を行うこと。"@ja	.
+if:IF_8_8_1.item4	rdf:type	ifo:Item	.
 if:IF_8_8_1.item4	ifo:package_insert	pi:PI_11_1.item4	.
 if:IF_8_8_1.item4	dct:identifier	"8.8.1.item4"	.
 if:IF_8_8_1.item4	rdf:value	"11.1.4 本剤（5mg/日）の承認時の国内臨床試験で低カルシウム血症の報告はない。しかしながら、海外及び本剤（5mg/日）の国内の市販後で臨床症状を伴う低カルシウム血症の報告があることから記載した。\n一般に、低カルシウム血症は初期症状として血清カルシウムの低下（補正値が8.0mg/dL 以下）、筋肉の脱力感、筋力の減退、しびれ、手足の震えなどを認めることがある。低カルシウム血症が疑われる場合には、投与を中止して適切な処置を行うこと。"@ja	.
+if:IF_8_8_1.item5	rdf:type	ifo:Item	.
 if:IF_8_8_1.item5	ifo:package_insert	pi:PI_11_1.item5	.
 if:IF_8_8_1.item5	dct:identifier	"8.8.1.item5"	.
 if:IF_8_8_1.item5	rdf:value	"11.1.5 本剤（5mg/日）及びアレンドロネート週1回投与製剤35mg錠の承認時の国内臨床試験で中毒性表皮壊死融解症（TEN）、皮膚粘膜眼症候群（Stevens-Johnson症候群）等の報告はない。しかしながら、海外及び本剤（5mg/日）の国内の市販後で中毒性表皮壊死融解症（TEN）、皮膚粘膜眼症候群（Stevens-Johnson症候群）等の報告があることから記載した。\n一般に、中毒性表皮壊死融解症（TEN）は初期症状として広範囲に紅斑、水疱を生じ、水疱は破れやすく（ニコルスキー現象）、びらん（赤肌）となり、痛みを伴う。発熱、食欲不振、全身倦怠感、関節痛、時に意識障害などを認めることがある。また、皮膚粘膜眼症候群（Stevens-Johnson症候群）は初期症状として発熱、食欲不振、全身倦怠感、中央に浮腫を伴った紅斑（赤い発疹）、眼球結膜の充血、口腔粘膜などの痛みを伴った粘膜疹などを認めることがある。また、中毒性表皮壊死融解症（TEN） 、皮膚粘膜眼症候群（Stevens-Johnson症候群）が疑われる場合には、投与を中止して適切な処置を行うこと。"@ja	.
+if:IF_8_8_1.item6	rdf:type	ifo:Item	.
 if:IF_8_8_1.item6	ifo:package_insert	pi:PI_11_1.item6	.
 if:IF_8_8_1.item6	dct:identifier	"8.8.1.item6"	.
 if:IF_8_8_1.item6	rdf:value	"11.1.6 本剤（5mg/日）の承認時の国内臨床試験で顎骨壊死・顎骨骨髄炎の報告はない。しかしながら、海外及び本剤（5mg/日）の国内の市販後で顎骨壊死・顎骨骨髄炎の報告があることから記載した。\n一般に、顎骨壊死･顎骨骨髄炎は顎の痛み、歯の緩み、歯茎の腫れなどを認めることがある。顎骨壊死･顎骨骨髄炎が疑われる場合には、投与を中止して適切な処置を行うこと。"@ja	.
+if:IF_8_8_1.item7	rdf:type	ifo:Item	.
 if:IF_8_8_1.item7	ifo:package_insert	pi:PI_11_1.item7	.
 if:IF_8_8_1.item7	dct:identifier	"8.8.1.item7"	.
 if:IF_8_8_1.item7	rdf:value	"11.1.7 海外文献等でビスホスホネート系薬剤を使用している患者において外耳道骨壊死の副作用報告が集積されたことから、注意喚起のため記載した。"@ja	.
+if:IF_8_8_1.item8	rdf:type	ifo:Item	.
 if:IF_8_8_1.item8	ifo:package_insert	pi:PI_11_1.item8	.
 if:IF_8_8_1.item8	dct:identifier	"8.8.1.item8"	.
 if:IF_8_8_1.item8	rdf:value	"11.1.8 国内および海外において副作用報告が集積されたことから、注意喚起のため記載した。大腿骨転子下及び近位大腿骨の非定型骨折を生じることがあるので、十分に観察を行い、異常が認められた場合には投与を中止するなど、適切な処置を行うこと。"@ja	.
 if:IF_8_8_2	rdf:type	ifo:IF_8_8_2	.
+if:IF_8_8_2	rdf:type	ifo:Section	.
 if:IF_8_8_2	ifo:package_insert	pi:PI_11_2	.
 if:IF_8_8_2	ifo:item	if:IF_8_8_2.item1	.
 if:IF_8_9	rdf:type	ifo:IF_8_9	.
+if:IF_8_9	rdf:type	ifo:Section	.
 if:IF_8_9	ifo:package_insert	pi:PI_12	.
 if:IF_8_9	rdf:value	"設定されていない"@ja	.
 if:IF_8_10	rdf:type	ifo:IF_8_10	.
+if:IF_8_10	rdf:type	ifo:Section	.
 if:IF_8_10	ifo:package_insert	pi:PI_13_2	.
-if:IF_8_10	rdf:value	"13.1 ミルクあるいは制酸剤等に含まれているカルシウムやマグネシウムイオンとアレンドロン酸とのキレート形成を促し、胃腸粘膜からの吸収を低下させる。\n〈参考〉\n市販後での世界的な定期的安全性最新報告（PSUR）において、アレンドロネート70mg（海外で承認されているが、本邦では過量投与に該当する）を約45日間の連日投与によっても副作用は認められなかったとの報告例がある。\n（出典：ボナロン®錠35mg審査報告書）"@ja	.
+if:IF_8_10	ifo:item	if:IF_8_10.item1	.
+if:IF_8_10.item1	rdf:type	ifo:Item	.
+if:IF_8_10.item1	ifo:package_insert	pi:PI_13_2.item1	.
+if:IF_8_10.item1	dct:identifier	"8.10.item1"	.
+if:IF_8_10.item1	rdf:value	"13.1 ミルクあるいは制酸剤等に含まれているカルシウムやマグネシウムイオンとアレンドロン酸とのキレート形成を促し、胃腸粘膜からの吸収を低下させる。\n〈参考〉\n市販後での世界的な定期的安全性最新報告（PSUR）において、アレンドロネート70mg（海外で承認されているが、本邦では過量投与に該当する）を約45日間の連日投与によっても副作用は認められなかったとの報告例がある。\n（出典：ボナロン®錠35mg審査報告書）"@ja	.
 if:IF_8_11	rdf:type	ifo:IF_8_11	.
+if:IF_8_11	rdf:type	ifo:Section	.
 if:IF_8_11	ifo:package_insert	pi:PI_14	.
 if:IF_8_11	ifo:item	if:IF_8_11.item1	.
+if:IF_8_11.item1	rdf:type	ifo:Item	.
 if:IF_8_11.item1	ifo:package_insert	pi:PI_14.item1	.
 if:IF_8_11.item1	dct:identifier	"8.11.item1"	.
 if:IF_8_11.item1	rdf:value	"14.1 薬剤交付時の注意\nPTP包装の薬剤はPTPシートから取り出して服用するよう指導すること。\nPTPシートの誤飲により、硬い鋭角部が食道粘膜に刺入し、更には穿孔を起こして縦隔洞\n炎等の重篤な合併症を併発することがある。"@ja	.
 if:IF_8_12_1	rdf:type	ifo:IF_8_12_1	.
+if:IF_8_12_1	rdf:type	ifo:Section	.
 if:IF_8_12_1	ifo:package_insert	pi:PI_15_1	.
 if:IF_8_12_1	rdf:value	"設定されていない"@ja	.
 if:IF_8_12_2	rdf:type	ifo:IF_8_12_2	.
+if:IF_8_12_2	rdf:type	ifo:Section	.
 if:IF_8_12_2	ifo:package_insert	pi:PI_15_2	.
 if:IF_8_12_2	rdf:value	"設定されていない"@ja	.
 if:IF_9_1_1	rdf:type	ifo:IF_9_1_1	.
+if:IF_9_1_1	rdf:type	ifo:Section	.
 if:IF_9_1_1	rdf:value	"「Ⅵ． 薬効薬理に関する項目」の項参照"@ja	.
 if:IF_9_1_2	rdf:type	ifo:IF_9_1_2	.
+if:IF_9_1_2	rdf:type	ifo:Section	.
 if:IF_9_1_2	rdf:value	"安全性薬理試験として中枢神経系、呼吸・循環器系、消化器系、水及び電解質代謝、血液系及び免疫系に及ぼす影響を検討し49,50,51）、それぞれ下表のような結果を得た。"@ja	.
 if:IF_9_1_2	dct:references	if:ref49	.
 if:IF_9_1_2	dct:references	if:ref50	.
 if:IF_9_1_2	dct:references	if:ref51	.
 if:IF_9_1_3	rdf:type	ifo:IF_9_1_3	.
+if:IF_9_1_3	rdf:type	ifo:Section	.
 if:IF_9_1_3	rdf:value	"該当資料なし"@ja	.
 if:IF_9_2_6	rdf:type	ifo:IF_9_2_6	.
+if:IF_9_2_6	rdf:type	ifo:Section	.
 if:IF_9_2_6	dct:references	if:ref54	.
 if:IF_9_2_7	rdf:type	ifo:IF_9_2_7	.
+if:IF_9_2_7	rdf:type	ifo:Section	.
 if:IF_9_2_7	dct:references	if:ref7	.
 if:IF_10_1	rdf:type	ifo:IF_10_1	.
+if:IF_10_1	rdf:type	ifo:Section	.
 if:IF_10_1	ifo:package_insert	pi:PI_0_6	.
 if:IF_10_1	rdf:value	"製剤（ボナロン®錠5mg、ボナロン®錠35mg、ボナロン®経口ゼリー35mg）：劇薬、処方箋医薬品注）\n注）注意―医師等の処方箋により使用すること\n有効成分（日本薬局方アレンドロン酸ナトリウム水和物）：毒薬"@ja	.
 if:IF_10_2	rdf:type	ifo:IF_10_2	.
+if:IF_10_2	rdf:type	ifo:Section	.
 if:IF_10_2	ifo:package_insert	pi:PI_0_4	.
 if:IF_10_2	rdf:value	"〈ボナロン®錠5mg〉〈ボナロン®錠35mg〉\n有効期間：3年\n〈ボナロン®経口ゼリー35mg〉\n有効期間：2年"@ja	.
 if:IF_10_3	rdf:type	ifo:IF_10_3	.
+if:IF_10_3	rdf:type	ifo:Section	.
 if:IF_10_3	ifo:package_insert	pi:PI_0_4	.
 if:IF_10_3	rdf:value	"室温保存"@ja	.
 if:IF_10_4	rdf:type	ifo:IF_10_4	.
+if:IF_10_4	rdf:type	ifo:Section	.
 if:IF_10_4	ifo:package_insert	pi:PI_20	.
 if:IF_10_4	rdf:value	"〈ボナロン®錠5mg〉〈ボナロン®錠35mg〉\n該当しない\n〈ボナロン®経口ゼリー35mg〉\n20. 取扱い上の注意\n20.1 誤用を避けるため、他の容器に移しかえて保存しないこと。\n20.2 小児の手の届かないところに保存すること。\n20.3 高温を避けて保存すること。\n20.4 低温では有効成分の結晶が析出しやすくなるので、低温・凍結（冷蔵庫、冷凍庫等）を避けて保存すること。［14.2.3 参照］\n20.5 上に重いものをのせないこと。\n20.6 携帯するときは、折り曲げないように注意すること"@ja	.
 if:IF_10_5	rdf:type	ifo:IF_10_5	.
+if:IF_10_5	rdf:type	ifo:Section	.
 if:IF_10_5	rdf:value	"〈ボナロン®錠5mg〉〈ボナロン®錠35mg〉〈ボナロン®経口ゼリー35mg〉\n患者向医薬品ガイド：有り\nくすりのしおり：有り"@ja	.
 if:IF_10_6	rdf:type	ifo:IF_10_6	.
+if:IF_10_6	rdf:type	ifo:Section	.
 if:IF_10_6	rdf:value	"同一成分薬： ボナロン®点滴静注バッグ900μg、フォサマック®錠5mg、フォサマック®錠35mgなど\n®：登録商標\n同効薬： エチドロン酸二ナトリウム、リセドロン酸ナトリウム水和物、ミノドロン酸水和物、イバンドロン酸ナトリウム水和物、アルファカルシドール、カルシトリオール、エルデカルシトール、エルカトニン、メナテトレノン、エストリオール、エストラジオール、イプリフラボン、ラロキシフェン塩酸塩、バゼドキシフェン酢酸塩、テリパラチド（遺伝子組換え）、テリパラチド酢酸塩、デノスマブなど"@ja	.
 if:IF_10_7	rdf:type	ifo:IF_10_7	.
+if:IF_10_7	rdf:type	ifo:Section	.
 if:IF_10_7	rdf:value	"1993 年7 月16 日"@ja	.
 if:IF_10_7	dct:date	"1993-07-16"^^xsd:date	.
 if:IF_10_9	rdf:type	ifo:IF_10_9	.
+if:IF_10_9	rdf:type	ifo:Section	.
 if:IF_10_9	rdf:value	"該当しない"@ja	.
 if:IF_10_10	rdf:type	ifo:IF_10_10	.
+if:IF_10_10	rdf:type	ifo:Section	.
 if:IF_10_10	rdf:value	"〈ボナロン®錠5mg〉\n再審査結果公表年月日：2009年12月21日\n内容：薬事法（昭和35年法律第145号）第14条第2項各号（承認拒否事由）のいずれにも該当しない。\n〈ボナロン®錠35mg〉\n再審査結果公表年月日：2012年3月26日\n内容：薬事法第14条第2項第3号（承認拒否事由）のいずれにも該当しない。\n効能・効果、用法・用量の変更なし\n〈ボナロン®経口ゼリー35mg〉\n該当しない"@ja	.
 if:IF_10_11	rdf:type	ifo:IF_10_11	.
+if:IF_10_11	rdf:type	ifo:Section	.
 if:IF_10_11	ifo:item	if:IF_10_11.item1	.
 if:IF_10_11	ifo:item	if:IF_10_11.item2	.
 if:IF_10_11	ifo:item	if:IF_10_11.item3	.
@@ -821,31 +997,40 @@ if:IF_10_11.item1	rdf:value	"ボナロン®錠5mg：6年間（2001年6月20日�
 if:IF_10_11.item2	rdf:value	"ボナロン®錠35mg：4年間（2006年7月26日～2010年7月25日）"@ja	.
 if:IF_10_11.item3	rdf:value	"ボナロン®経口ゼリー35mg：該当しない"@ja	.
 if:IF_10_12	rdf:type	ifo:IF_10_12	.
+if:IF_10_12	rdf:type	ifo:Section	.
 if:IF_10_12	ifo:package_insert	pi:PI_25	.
 if:IF_10_12	rdf:value	"本剤は、投薬（あるいは投与）期間に関する制限は定められていない。"@ja	.
 if:IF_10_14	rdf:type	ifo:IF_10_14	.
+if:IF_10_14	rdf:type	ifo:Section	.
 if:IF_10_14	ifo:package_insert	pi:PI_25	.
 if:IF_10_14	rdf:value	"該当しない"@ja	.
 if:IF_11_2	rdf:type	ifo:IF_11_2	.
+if:IF_11_2	rdf:type	ifo:Section	.
 if:IF_11_2	rdf:value	"該当資料なし"@ja	.
 if:IF_12_1	rdf:type	ifo:IF_12_1	.
+if:IF_12_1	rdf:type	ifo:Section	.
 if:IF_12_1	ifo:package_insert	pi:PI_6	.
 if:IF_12_1	rdf:value	"ボナロン®の主要国における許認可取得状況（2019年11月現在）を下表に示す。\nなお、日本における適応は骨粗鬆症のみであり、投与回数・用量は次の通りである。\nボナロン®点滴静注バッグ900μg：4週に1回900μg\nボナロン®錠5mg：1日1回5mg\nボナロン®錠35mg：週1回35mg\nボナロン®経口ゼリー35mg：週1回35mg\nただし、点滴静注用及び経口ゼリー剤の製剤は外国では発売されていない。\nボナロン®/Bonalon® is the registered trademark of Merck Sharp& Dohme Corp., a subsidiary of Merck & Co., Inc., Whitehouse Station, NJ, USA."@ja	.
 if:IF_12_2	rdf:type	ifo:IF_12_2	.
+if:IF_12_2	rdf:type	ifo:Section	.
 if:IF_12_2	ifo:package_insert	pi:PI_9_7	.
 if:IF_12_2	ifo:item	if:IF_12_2.item1	.
 if:IF_12_2	ifo:item	if:IF_12_2.item2	.
 if:IF_12_2	ifo:item	if:IF_12_2.item3	.
+if:IF_12_2.item1	rdf:type	ifo:Item	.
 if:IF_12_2.item1	ifo:package_insert	pi:PI_9_7.item1	.
 if:IF_12_2.item1	dct:identifier	"12.2.item1"	.
 if:IF_12_2.item1	rdf:value	"内服薬における、妊婦、小児に関する情報は以下の通りである。\nなお、日本における適応は骨粗鬆症のみであり、投与回数・用量は次の通りである。\nボナロン®点滴静注バッグ900μg：4週に1回900μg\nボナロン®錠5mg：1日1回5mg\nボナロン®錠35mg：週1回35mg\nボナロン®経口ゼリー35mg：週1回35mg\nただし、点滴静注用及び経口ゼリー剤の製剤は外国では発売されていない。"@ja	.
+if:IF_12_2.item2	rdf:type	ifo:Item	.
 if:IF_12_2.item2	ifo:package_insert	pi:PI_9_7.item2	.
 if:IF_12_2.item2	dct:identifier	"12.2.item2"	.
 if:IF_12_2.item2	rdf:value	"本邦における使用上の注意「妊婦、産婦、授乳婦等への投与」は以下の通りであり、米国の添付文書とは異なる。\n9. 特定の背景を有する患者に関する注意\n9.4 生殖能を有する者\n妊娠する可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。\nビスホスホネート系薬剤は骨基質に取り込まれた後に全身循環へ徐々に放出される。全身循環への放出量はビスホスホネート系薬剤の投与量・期間に相関する。\nビスホスホネート系薬剤の中止から妊娠までの期間と危険性との関連は明らかではない。\n9.5 妊婦\n妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。\n9.6 授乳婦\n治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。\n動物実験（ラット）でアレンドロン酸が乳汁中に移行することが報告されている。"@ja	.
+if:IF_12_2.item3	rdf:type	ifo:Item	.
 if:IF_12_2.item3	ifo:package_insert	pi:PI_9_7.item3	.
 if:IF_12_2.item3	dct:identifier	"12.2.item3"	.
 if:IF_12_2.item3	rdf:value	"（2） 小児等への投与に関する海外情報\n本邦における使用上の注意「小児等への投与」は以下の通りであり、米国の添付文書とは異なる。\n9. 特定の背景を有する患者に関する注意\n9.7 小児等\n小児等の骨粗鬆症を対象とした臨床試験は実施していない。"@ja	.
 if:IF_13	rdf:type	ifo:IF_13	.
+if:IF_13	rdf:type	ifo:Section	.
 if:IF_13	rdf:value	"該当資料なし"@ja	.
 if:ref1	rdf:type	bibo:Article	.
 if:ref1	dct:references	pmid:8506892	.

@@ -104,8 +104,8 @@ IF_4_1_1,rdf:value,注射剤（バイアル）
 IF_4_1_2,rdf:value,
 IF_4_1_3,rdf:value,該当しない
 IF_4_1_4,rdf:value,
+IF_4_1_4,rdfs:seeAlso,
 IF_4_1_5,rdf:value,注射剤の容器中の特殊な気体の有無：無し
-IF_4_1_5,rdfs:seeAlso,
 IF_4_2,,
 IF_4_2_1,rdf:value,
 IF_4_2_2,rdf:value,該当しない
@@ -133,9 +133,9 @@ IF_4_12,rdf:value,
 IF_4_12,dct:references,
 IF_5,,
 IF_5_1,rdf:value,先天性血液凝固第VIII因子欠乏患者における出血傾向の抑制
-IF_5_2,rdf:value,
-IF_5_2,ifo:item,item1
-item1,rdf:value,本剤は、血液凝固第VIII因子に対するインヒビターの有無によらず有効性が確認されている。［17.1.1－17.1.4参照］
+IF_5_2,rdf:value,本剤は、血液凝固第VIII因子に対するインヒビターの有無によらず有効性が確認されている。［17.1.1－17.1.4参照］
+IF_5_2,ifo:item,
+item1,rdf:value,
 item1,dct:references,
 item2,rdf:value,
 ,,
@@ -156,8 +156,9 @@ IF_5_3_1,rdf:value,"通常、エミシズマブ（遺伝子組換え）として
 IF_5_3_1,rdfs:seeAlso,
 IF_5_3_2,rdf:value,「Ⅴ－５（３）用量反応探索試験」参照
 IF_5_3_2,rdfs:seeAlso,
-IF_5_4,ifo:item,item1
-item1,rdf:value,本剤は、出血傾向の抑制を目的とした定期的な投与のみに使用し、出血時の止血を目的とした投与は行わないこと。
+IF_5_4,rdf:value,本剤は、出血傾向の抑制を目的とした定期的な投与のみに使用し、出血時の止血を目的とした投与は行わないこと。
+IF_5_4,ifo:item,
+item1,rdf:value,
 item1,rdfs:seeAlso,
 item2,rdf:value,
 item2,,
@@ -381,7 +382,7 @@ item9,dct:references,
 item10,rdf:value,
 item10,dct:references,
 IF_7_1_3,rdf:value,該当資料なし
-IF_7_1_4,ifo:item,
+IF_7_1_4,ifo:item,item1
 item1,rdf:value,「Ⅷ－７．相互作用」の項を参照のこと。
 item1,dct:references,
 item2,rdf:value,
@@ -413,8 +414,8 @@ IF_7_3_2,rdf:value,"ACE001JP試験Part C、ACE002JP試験、BH29884試験、BH29
 同一累積投与量下においてCtrough,ssは投与間隔が長くなるにつれて低下し、Cmax,ssは投与間隔が長くなるにつれて増加し、Cav,ssはいずれの投与間隔においても等しいと推定された。
 ※承認された用法及び用量は、1回3mg/kg（体重）を1週間の間隔で4回皮下投与し、以降は1回1.5mg/kg（体重）を1週間の間隔、1回3mg/kg（体重）を2週間の間隔又は1回6mg/kg（体重）を4週間の間隔で皮下投与する、である。"
 IF_7_3_2,dct:references,
-??,rdf:value,
-??,dct:references,
+IF_7_3_3,rdf:value,
+IF_7_3_3,dct:references,
 IF_7_4,ifo:item,"item1, item2"
 item1,rdf:value,"血友病A患者を対象とした母集団薬物動態解析では、吸収半減期（t1/2, abs）の平均値は1.61日、吸収が完了するまでの時間（t1/2, absの5倍と仮定）は約8.05日と推定された。"
 item1,dct:references,
@@ -629,9 +630,10 @@ IF_8_8_2,ifo:item,
 item1,rdf:value,
 item2,rdf:value,
 IF_8_9,rdf:value,設定されていない
-IF_8_10,rdf:value,設定されていない
-item1,rdf:value,
+IF_8_10,ifo:item,item1
+item1,rdf:value,設定されていない
 item2,rdf:value,
+,,
 IF_8_11,ifo:item,"item1, item2, item3, item4"
 item1,rdf:value,"14.1 薬剤調製時の注意
 14.1.1 異なる濃度の本剤を混注しないこと。
@@ -727,9 +729,10 @@ IF_10_9,rdf:value,"2018年12月21日：効能又は効果追加
 ・1回3mg/kg（体重）を2週間の間隔
 ・1回6mg/kg（体重）を4週間の間隔"
 IF_10_10,rdf:value,該当しない
+IF_10_11,rdf:value,
 IF_10_11,ifo:item,"item1, item2"
-item1,rdf:value,
-item2,rdf:value,
+item1,rdf:value,〇血液凝固第 VIII 因子に対するインヒビターを保有する先天性血液凝固第 VIII 因子欠乏患者に おける出血傾向の抑制:2018 年 3 月 23 日~2028 年 3 月 22 日(10 年間)(希少疾病用医薬品)
+item2,rdf:value,〇血液凝固第 VIII 因子に対するインヒビターを保有しない血液凝固第 VIII 因子欠乏患者におけ る出血傾向の抑制:2018 年 12 月 21 日~2028 年 3 月 22 日(残余期間)
 item3,rdf:value,
 item4,rdf:value,
 item5,rdf:value,

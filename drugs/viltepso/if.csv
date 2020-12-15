@@ -102,8 +102,8 @@ IF_4_1_2,rdf:value,無色澄明の液
 IF_4_1_3,rdf:value,該当しない
 IF_4_1_4,rdf:value,"pH：7.0~7.5
  浸透圧比：約1.0"
+IF_4_1_4,rdfs:seeAlso,
 IF_4_1_5,rdf:value,該当しない
-IF_4_1_5,rdfs:seeAlso,
 IF_4_2,,
 IF_4_2_1,rdf:value,
 IF_4_2_2,rdf:value,該当資料なし
@@ -151,7 +151,8 @@ IF_5_3_1,rdfs:seeAlso,
 IF_5_3_2,rdf:value,"国内第I/II試験及び海外第II相試験において、DMD患者16例ずつ（両試験共に各群8例）に、本剤40及び80 mg/kgを週1回、1時間かけて24週間静脈内投与した。両試験共に本剤投与によりウェスタンブロットによるジストロフィン発現量は増加した。国内第I/II試験では40 mg/kgよりも80 mg/kgを投与した方がジストロフィン発現量の増加が大きい傾向が認められた。海外第II相試験では免疫蛍光染色によるジストロフィン発現量も本剤投与により増加し、40 mg/kgよりも80 mg/kgを投与した方が高い傾向であった。さらに、両試験共に本剤投与によりRT-PCRによるエクソン53スキッピング効率は増加し、40 mg/kgよりも80 mg/kgを投与した方が高かった。いずれの用量においても安全性は概ね良好であった。（「Ⅴ．５．（３）用量反応探索試験」の項を参照）
  これらの結果より、用法及び用量を、「通常、ビルトラルセンとして80mg/kgを週1回、1時間かけて静脈内投与する。」とした。"
 IF_5_3_2,rdfs:seeAlso,IF_5_5_3
-IF_5_4,ifo:item,設定されていない
+IF_5_4,rdf:value,設定されていない
+IF_5_4,ifo:item,
 item1,rdf:value,
 item1,rdfs:seeAlso,
 item2,rdf:value,
@@ -279,8 +280,8 @@ IF_7_3,,
 IF_7_3_1,rdf:value,該当資料なし
 IF_7_3_2,rdf:value,該当資料なし
 IF_7_3_2,dct:references,
-??,rdf:value,
-??,dct:references,
+IF_7_3_3,rdf:value,
+IF_7_3_3,dct:references,
 IF_7_4,ifo:item,item1
 item1,rdf:value,該当しない
 item1,dct:references,
@@ -474,9 +475,10 @@ IF_8_8_2,ifo:item,item1
 item1,rdf:value,国内臨床試験（NS065/NCNP01-P1/2 試験）16 例及び海外臨床試験（NS-065/NCNP-01-201 試験及びその継続試験であるNS-065/NCNP-01-202 試験）16 例で副作用として認められたものを記載した。
 item2,rdf:value,
 IF_8_9,rdf:value,尿蛋白測定に用いるピロガロールレッドと尿中に排泄されたビルトラルセンが交差反応するため設定した。
-IF_8_10,rdf:value,設定されていない
-item1,rdf:value,
+IF_8_10,ifo:item,item1
+item1,rdf:value,設定されていない
 item2,rdf:value,
+,,
 IF_8_11,ifo:item,"item1, item2"
 item1,rdf:value,"14.1.1 本剤は、国内外の臨床試験において、生理食塩液で100 mL に希釈した溶液を静脈内に投与していることから設定した。また、生理食塩液で混和したときの本剤の安定性は確認しているが、その他の薬剤又は輸液については確認していないことから設定した。
  14.1.2 本剤の容器は1 回使い切り仕様のバイアルであり、抗菌性保存剤を含有していないため、一般的な注射用製剤に準じ設定した。
@@ -542,8 +544,9 @@ IF_10_7,dct:date,2020_03_25
 IF_10_8,,
 IF_10_9,rdf:value,該当しない
 IF_10_10,rdf:value,該当しない
-IF_10_11,ifo:item,item1
-item1,rdf:value,10 年 2020 年3 月25 日から2030 年3 月24 日
+IF_10_11,rdf:value,10 年 2020 年3 月25 日から2030 年3 月24 日
+IF_10_11,ifo:item,
+item1,rdf:value,
 item2,rdf:value,
 item3,rdf:value,
 item4,rdf:value,

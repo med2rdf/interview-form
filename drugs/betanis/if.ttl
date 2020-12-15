@@ -228,8 +228,9 @@
 <http://med2rdf.org/pi/800126_2590014F1021_1_12>	dct:identifier	"800126_2590014F1021_1_12"	.
 <http://med2rdf.org/if/800126_2590014F1021_1_015_1F>	rdfs:seeAlso	<https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F>	.
 <http://med2rdf.org/pi/800126_2590014F1021_1_12>	rdfs:seeAlso	<https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590014F1021_1_12>	.
-<http://med2rdf.org/if/800126_2590014F1021_1_015_1F>	ifo:yjcode	yjc:2590014F1021	.
-<http://med2rdf.org/if/800126_2590014F1021_1_015_1F>	ifo:yjcode	yjc:2590014F2028	.
+<http://med2rdf.org/if/800126_2590014F1021_1_015_1F>	ifo:drug	yjc:2590014F1021	.
+<http://med2rdf.org/if/800126_2590014F1021_1_015_1F>	ifo:drug	yjc:2590014F2028	.
+yjc:2590014F1021	rdf:type	ifo:Drug	.
 yjc:2590014F1021	ifo:if_0_8	"ベタニス錠 25mg"@ja	.
 yjc:2590014F1021	ifo:if_0_9	"フィルムコーティング錠"@ja	.
 yjc:2590014F1021	ifo:if_0_11	"1 錠中にミラベグロン 25mg を含有する。"@ja	.
@@ -241,6 +242,7 @@ yjc:2590014F1021	ifo:yakka_code	"2590014F1021"	.
 yjc:2590014F1021	ifo:yj_code	"2590014F1021"	.
 yjc:2590014F1021	ifo:hot_code	"120932701"	.
 yjc:2590014F1021	ifo:resept_code	"622093201"	.
+yjc:2590014F2028	rdf:type	ifo:Drug	.
 yjc:2590014F2028	ifo:if_0_8	"ベタニス錠 50mg"@ja	.
 yjc:2590014F2028	ifo:if_0_9	"フィルムコーティング錠"@ja	.
 yjc:2590014F2028	ifo:if_0_11	"1 錠中にミラベグロン 50mg を含有する。"@ja	.
@@ -253,36 +255,47 @@ yjc:2590014F2028	ifo:yj_code	"2590014F2028"	.
 yjc:2590014F2028	ifo:hot_code	"120933401"	.
 yjc:2590014F2028	ifo:resept_code	"622093301"	.
 if:IF_0_3	rdf:type	ifo:IF_0_3	.
+if:IF_0_3	rdf:type	ifo:Section	.
 if:IF_0_3	dct:modified	"2019-12"^^xsd:gYearMonth	.
 if:IF_0_3	pav:version	"15"	.
 if:IF_0_4	rdf:type	ifo:IF_0_4	.
+if:IF_0_4	rdf:type	ifo:Section	.
 if:IF_0_4	ifo:package_insert	pi:PI_0_2	.
 if:IF_0_4	rdf:value	"87259"	.
 if:IF_0_6	rdf:type	ifo:IF_0_6	.
+if:IF_0_6	rdf:type	ifo:Section	.
 if:IF_0_6	rdf:value	"2018"^^xsd:gYear	.
 if:IF_0_7	rdf:type	ifo:IF_0_7	.
+if:IF_0_7	rdf:type	ifo:Section	.
 if:IF_0_7	ifo:package_insert	pi:PI_0_5	.
 if:IF_0_7	rdf:value	"選択的β_3アドレナリン受容体作動性過活動膀胱治療剤"@ja	.
 if:IF_0_8	rdf:type	ifo:IF_0_8	.
+if:IF_0_8	rdf:type	ifo:Section	.
 if:IF_0_8	ifo:package_insert	pi:PI_0_7	.
 if:IF_0_8	rdf:value	"ミラベグロン錠"@ja	.
 if:IF_0_10	rdf:type	ifo:IF_0_10	.
+if:IF_0_10	rdf:type	ifo:Section	.
 if:IF_0_10	ifo:package_insert	pi:PI_0_6	.
 if:IF_0_10	rdf:value	"劇薬、処方箋医薬品(注意-医師等の処方箋により使用すること)"@ja	.
 if:IF_0_12	rdf:type	ifo:IF_0_12	.
+if:IF_0_12	rdf:type	ifo:Section	.
 if:IF_0_12	ifo:package_insert	pi:PI_0_7	.
 if:IF_0_12	rdf:value	"ミラベグロン(JAN)"@ja	.
 if:IF_0_12	rdf:value	"Mirabegron(JAN)"	.
 if:IF_0_16	rdf:type	ifo:IF_0_16	.
+if:IF_0_16	rdf:type	ifo:Section	.
 if:IF_0_16	ifo:package_insert	pi:PI_26	.
 if:IF_0_16	rdf:value	"アステラス製薬株式会社"@ja	.
 if:IF_0_18	rdf:type	ifo:IF_0_18	.
+if:IF_0_18	rdf:type	ifo:Section	.
 if:IF_0_18	ifo:package_insert	pi:PI_24	.
 if:IF_0_18	rdf:value	"アステラス製薬株式会社\nメディカルインフォメーションセンター TEL 0120-189-371\n医療従事者向け情報サイト(Astellas Medical Net)\nhttps://amn.astellas.jp/"@ja	.
 if:IF_0_19	rdf:type	ifo:IF_0_19	.
+if:IF_0_19	rdf:type	ifo:Section	.
 if:IF_0_19	ifo:package_insert	pi:PI_0_1	.
 if:IF_0_19	rdf:value	"2019-07"^^xsd:gYearMonth	.
 if:IF_1_1	rdf:type	ifo:IF_1_1	.
+if:IF_1_1	rdf:type	ifo:Section	.
 if:IF_1_1	rdf:value	"■過活動膀胱(Overactive Bladder;OAB)について\n近年の高齢化に伴い、QOL(Quality of life)に影響する泌尿器領域の疾患として、尿失禁などの下部尿路機能障害(Lower Urinary Tract Dysfunction;LUTD)が問題となってきており、その原因の一つとして「過活動膀胱(Overactive Bladder;OAB)」がクローズアップされている。過活動膀胱は蓄尿機能の障害により、尿意切迫感及び切迫性尿失禁などが生じ、QOL を著しく低下させ、患者自身のみならず、その周りの家族や介護者などにまで負担を強いる疾患である。\n この過活動膀胱の患者数については、世界各国で疫学調査が実施されている。日本では 40 歳以上の人口 の12.4%(810万人)が過活動膀胱患者であると推定されており 1)、米国では18歳以上の人口の16.6%(3,300 万人) 2) 、欧州では 40 歳以上の人口の 16.6%(2,218 万人) 3) が過活動膀胱患者であると報告されている。\n■日本で創製された新しい過活動膀胱治療薬\n過活動膀胱は潜在的な排尿筋過活動状態に起因していると考えられることから、その治療には主に膀胱収縮抑制作用を有するムスカリン受容体拮抗薬が広く用いられている。しかしながら、ムスカリン受容体が膀胱以外に唾液腺、腸管などにも存在し、機能的役割も伴っているため、口内乾燥、便秘及び目の調節障害などの副作用を伴うことがあること 4) 、ムスカリン受容体拮抗薬の膀胱収縮抑制作用による排尿困難、 残尿量の増加及び尿閉などの副作用も懸念されることから、抗コリン薬以外の新規薬剤の開発が望まれてきた 5)。\nベタニス(一般名:ミラベグロン)はアステラス製薬株式会社において創製された選択的 β3 アドレナリン受 容体作動薬であり、非臨床試験において、膀胱弛緩作用により蓄尿機能を亢進させる一方、排尿機能に影 響を及ぼしにくいことが示唆された 6,7)。 以上の結果から、ベタニスは既存薬とは異なる新たな作用機序を有する新規過活動膀胱治療薬になり得る と期待され、国内における臨床試験が 2005 年 10 月より開始された。\n第III相試験は 2009 年 7 月より開始され、尿意切迫感、頻尿、切迫性尿失禁という過活動膀胱症状に対し て、優れた有効性及び安全性が確認された。また、長期投与試験ではベタニスの長期における有効性及び 安全性が確認された。これらの結果をもって 2010 年 6 月に承認申請を行い、2011 年 7 月に「過活動膀胱 における尿意切迫感、頻尿及び切迫性尿失禁」の効能・効果で承認された。 ベタニスは日本で初めて、かつ世界で初めて承認された選択的 β3 アドレナリン受容体作動薬である。"@ja	.
 if:IF_1_1	dct:references	if:ref1	.
 if:IF_1_1	dct:references	if:ref2	.
@@ -292,6 +305,7 @@ if:IF_1_1	dct:references	if:ref5	.
 if:IF_1_1	dct:references	if:ref6	.
 if:IF_1_1	dct:references	if:ref7	.
 if:IF_1_2	rdf:type	ifo:IF_1_2	.
+if:IF_1_2	rdf:type	ifo:Section	.
 if:IF_1_2	ifo:package_insert	pi:PI_11_1	.
 if:IF_1_2	rdf:value	"1. 日本で開発された世界初の選択的 β3 アドレナリン受容体作動性の過活動膀胱治療薬である。 \n・膀胱の β3 アドレナリン受容体に作用し、膀胱容量を増大させる。(「VI.2.(1)1)作用機序」の項参照)\n・排尿期の膀胱収縮力に影響を及ぼしにくい薬剤である(ラット)。 (「VI.2.(2)5)律動性膀胱収縮に対する作用」の項参照)\n2. 過活動膀胱における尿意切迫感、頻尿、切迫性尿失禁に対し、1 日 1 回投与で優れた有効性を示す。 (「V.5.(4)1)有効性検証試験」の項参照)\n3. 重大な副作用として、尿閉及び高血圧(いずれも頻度不明)が報告されている。 (「VIII.8.(1)重大な副作用と初期症状」の項参照)"@ja	.
 if:IF_1_2	rdfs:seeAlso	if:IF_2_1_1	.
@@ -299,154 +313,207 @@ if:IF_1_2	rdfs:seeAlso	if:IF_6_2_2_5	.
 if:IF_1_2	rdfs:seeAlso	if:IF_5_5_4_1	.
 if:IF_1_2	rdfs:seeAlso	if:IF_8_8_1	.
 if:IF_1_3	rdf:type	ifo:IF_1_3	.
+if:IF_1_3	rdf:type	ifo:Section	.
 if:IF_1_3	rdf:value	"本剤は徐放性製剤であるため、割ったり、砕いたり、すりつぶしたりして服用すると、本剤の徐放性が失 われ、薬物動態が変わるおそれがある。\n(「VIII.11.適用上の注意」の項参照)"@ja	.
 if:IF_1_3	rdfs:seeAlso	if:IF_8_11	.
 if:IF_1_4_1	rdf:type	ifo:IF_1_4_1	.
+if:IF_1_4_1	rdf:type	ifo:Section	.
 if:IF_1_4_1	rdf:value	"無"@ja	.
 if:IF_1_4_2	rdf:type	ifo:IF_1_4_2	.
+if:IF_1_4_2	rdf:type	ifo:Section	.
 if:IF_1_4_2	rdf:value	"無"@ja	.
 if:IF_1_4_3	rdf:type	ifo:IF_1_4_3	.
+if:IF_1_4_3	rdf:type	ifo:Section	.
 if:IF_1_4_3	rdf:value	"無"@ja	.
 if:IF_1_4_4	rdf:type	ifo:IF_1_4_4	.
+if:IF_1_4_4	rdf:type	ifo:Section	.
 if:IF_1_4_4	rdf:value	"無"@ja	.
 if:IF_1_5_1	rdf:type	ifo:IF_1_5_1	.
+if:IF_1_5_1	rdf:type	ifo:Section	.
 if:IF_1_5_1	ifo:package_insert	pi:PI_21	.
 if:IF_1_5_1	rdf:value	"該当しない"@ja	.
 if:IF_1_5_2	rdf:type	ifo:IF_1_5_2	.
+if:IF_1_5_2	rdf:type	ifo:Section	.
 if:IF_1_5_2	ifo:package_insert	pi:PI_21	.
 if:IF_1_5_2	rdf:value	"該当しない"@ja	.
 if:IF_1_6	rdf:type	ifo:IF_1_6	.
+if:IF_1_6	rdf:type	ifo:Section	.
 if:IF_1_6	ifo:package_insert	pi:PI_1	.
 if:IF_1_6	rdf:value	"該当しない"@ja	.
 if:IF_2_1_1	rdf:type	ifo:IF_2_1_1	.
+if:IF_2_1_1	rdf:type	ifo:Section	.
 if:IF_2_1_1	ifo:package_insert	pi:PI_0_7	.
 if:IF_2_1_1	rdf:value	"ベタニス錠 25mg, べタニス錠 50mg"@ja	.
 if:IF_2_1_2	rdf:type	ifo:IF_2_1_2	.
+if:IF_2_1_2	rdf:type	ifo:Section	.
 if:IF_2_1_2	ifo:package_insert	pi:PI_0_7	.
 if:IF_2_1_2	rdf:value	"Betanis Tablets 25mg, Betanis Tablets 50mg"	.
 if:IF_2_1_3	rdf:type	ifo:IF_2_1_3	.
+if:IF_2_1_3	rdf:type	ifo:Section	.
 if:IF_2_1_3	rdf:value	"Beta 3 agonist より命名した。"@ja	.
 if:IF_2_2_1	rdf:type	ifo:IF_2_2_1	.
+if:IF_2_2_1	rdf:type	ifo:Section	.
 if:IF_2_2_1	ifo:package_insert	pi:PI_19	.
 if:IF_2_2_1	rdf:value	"ミラベグロン(JAN)"@ja	.
 if:IF_2_2_2	rdf:type	ifo:IF_2_2_2	.
+if:IF_2_2_2	rdf:type	ifo:Section	.
 if:IF_2_2_2	ifo:package_insert	pi:PI_19	.
 if:IF_2_2_2	rdf:value	"Mirabegron(JAN), mirabegron(INN)"	.
 if:IF_2_2_3	rdf:type	ifo:IF_2_2_3	.
+if:IF_2_2_3	rdf:type	ifo:Section	.
 if:IF_2_2_3	rdf:value	"β3 アドレナリン受容体作動薬:-begron"@ja	.
 if:IF_2_4	rdf:type	ifo:IF_2_4	.
+if:IF_2_4	rdf:type	ifo:Section	.
 if:IF_2_4	ifo:package_insert	pi:PI_19	.
 if:IF_2_4	rdf:value	"分子式:C21H24N4O2S\n分子量:396.51"@ja	.
 if:IF_2_5	rdf:type	ifo:IF_2_5	.
+if:IF_2_5	rdf:type	ifo:Section	.
 if:IF_2_5	ifo:package_insert	pi:PI_19	.
 if:IF_2_5	rdf:value	"2-(2-Amino-1,3-thiazol-4-yl)-N-[4-(2-{[(2R)-2-hydroxy-2-phenylethyl]amino}ethyl)phenyl]acetamide"	.
 if:IF_2_6	rdf:type	ifo:IF_2_6	.
+if:IF_2_6	rdf:type	ifo:Section	.
 if:IF_2_6	ifo:package_insert	pi:PI_19	.
 if:IF_2_6	rdf:value	"YM178(治験番号)"@ja	.
 if:IF_3_1_1	rdf:type	ifo:IF_3_1_1	.
+if:IF_3_1_1	rdf:type	ifo:Section	.
 if:IF_3_1_1	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_1	rdf:value	"白色〜微帯褐白色の結晶又は粉末である。"@ja	.
 if:IF_3_1_3	rdf:type	ifo:IF_3_1_3	.
+if:IF_3_1_3	rdf:type	ifo:Section	.
 if:IF_3_1_3	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_3	rdf:value	"吸湿性は認められない。"@ja	.
 if:IF_3_1_4	rdf:type	ifo:IF_3_1_4	.
+if:IF_3_1_4	rdf:type	ifo:Section	.
 if:IF_3_1_4	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_4	rdf:value	"融解：約144℃"@ja	.
 if:IF_3_1_5	rdf:type	ifo:IF_3_1_5	.
+if:IF_3_1_5	rdf:type	ifo:Section	.
 if:IF_3_1_5	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_5	rdf:value	"pKa=4.5 及び 8.0"@ja	.
 if:IF_3_1_6	rdf:type	ifo:IF_3_1_6	.
+if:IF_3_1_6	rdf:type	ifo:Section	.
 if:IF_3_1_6	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_6	rdf:value	"ミラベグロンは酸性域で水に分配されやすく、弱酸性~塩基性域でオクタノール相に分配されやすい。"@ja	.
 if:IF_3_1_6	rdfs:comment	"(測定温度:37°C)"@ja	.
 if:IF_3_1_7	rdf:type	ifo:IF_3_1_7	.
+if:IF_3_1_7	rdf:type	ifo:Section	.
 if:IF_3_1_7	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_7	rdf:value	"旋光度(エタノール(99.5)中) $\\[\\alpha\\]_D^{20}:-19.8^\\circ$"@ja	.
 if:IF_3_3	rdf:type	ifo:IF_3_3	.
+if:IF_3_3	rdf:type	ifo:Section	.
 if:IF_3_3	rdf:value	"確認試験法\n(1)紫外可視吸光度測定法:\n参照スペクトル又はミラベグロン標準物質のスペクトルと同一波長のところに同様の強度の吸収を認 める。\n(2)赤外吸収スペクトル測定法: 参照スペクトル又はミラベグロン標準物質のスペクトルと同一波数のところに同様の強度の吸収を認 める。\n定量法 液体クロマトグラフィー"@ja	.
 if:IF_4_1_1	rdf:type	ifo:IF_4_1_1	.
+if:IF_4_1_1	rdf:type	ifo:Section	.
 if:IF_4_1_1	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_1	rdf:value	"フィルムコーティング錠"@ja	.
 if:IF_4_1_3	rdf:type	ifo:IF_4_1_3	.
+if:IF_4_1_3	rdf:type	ifo:Section	.
 if:IF_4_1_3	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_3	rdf:value	"該当しない"@ja	.
 if:IF_4_1_4	rdf:type	ifo:IF_4_1_4	.
+if:IF_4_1_4	rdf:type	ifo:Section	.
 if:IF_4_1_4	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_4	rdf:value	"該当しない"@ja	.
 if:IF_4_1_5	rdf:type	ifo:IF_4_1_5	.
+if:IF_4_1_5	rdf:type	ifo:Section	.
 if:IF_4_1_5	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_5	rdf:value	"該当しない"@ja	.
 if:IF_4_2_1	rdf:type	ifo:IF_4_2_1	.
+if:IF_4_2_1	rdf:type	ifo:Section	.
 if:IF_4_2_1	ifo:package_insert	pi:PI_3_1	.
 if:IF_4_2_1	rdf:value	"「医薬品添加物の記載に関する申し合わせについて」(平成 13 年 10 月 1 日 日薬連発第 712 号)並びに「『医 薬品添加物の記載に関する自主申し合わせ』の実施について」(平成 14 年 3 月 13 日 日薬連発第 170 号) に基づき全添加剤について記載した。添加剤は以下のとおり。"@ja	.
 if:IF_4_2_2	rdf:type	ifo:IF_4_2_2	.
+if:IF_4_2_2	rdf:type	ifo:Section	.
 if:IF_4_2_2	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_2_2	rdf:value	"該当しない"@ja	.
 if:IF_4_2_3	rdf:type	ifo:IF_4_2_3	.
+if:IF_4_2_3	rdf:type	ifo:Section	.
 if:IF_4_2_3	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_2_3	rdf:value	"該当しない"@ja	.
 if:IF_4_3	rdf:type	ifo:IF_4_3	.
+if:IF_4_3	rdf:type	ifo:Section	.
 if:IF_4_3	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_3	rdf:value	"該当しない"@ja	.
 if:IF_4_4	rdf:type	ifo:IF_4_4	.
+if:IF_4_4	rdf:type	ifo:Section	.
 if:IF_4_4	ifo:package_insert	pi:PI_3_1	.
 if:IF_4_4	rdf:value	"該当しない"@ja	.
 if:IF_4_5	rdf:type	ifo:IF_4_5	.
+if:IF_4_5	rdf:type	ifo:Section	.
 if:IF_4_5	rdf:value	"原薬由来の類縁物質は製剤中では増加しない。その他、0.1%を超える製剤特有の分解物は認められていない。"@ja	.
 if:IF_4_7	rdf:type	ifo:IF_4_7	.
+if:IF_4_7	rdf:type	ifo:Section	.
 if:IF_4_7	rdf:value	"該当しない"@ja	.
 if:IF_4_8	rdf:type	ifo:IF_4_8	.
+if:IF_4_8	rdf:type	ifo:Section	.
 if:IF_4_8	rdf:value	"該当しない"@ja	.
 if:IF_4_9	rdf:type	ifo:IF_4_9	.
+if:IF_4_9	rdf:type	ifo:Section	.
 if:IF_4_9	rdf:value	"方法：日本薬局方一般試験方第２方（パドル法）に従い試験を行う。"@ja	.
 if:IF_4_10_1	rdf:type	ifo:IF_4_10_1	.
+if:IF_4_10_1	rdf:type	ifo:Section	.
 if:IF_4_10_1	rdf:value	"該当資料なし"@ja	.
 if:IF_4_10_2	rdf:type	ifo:IF_4_10_2	.
+if:IF_4_10_2	rdf:type	ifo:Section	.
 if:IF_4_10_2	ifo:package_insert	pi:PI_22	.
 if:IF_4_10_2	rdf:value	"＜ベタニス錠25mg＞100錠(10錠×10、乾燥剤入り)\n＜ベタニス錠50mg＞100錠(10錠×10、乾燥剤入り)、500錠(10錠×50、乾燥剤入り)、500錠(バラ、乾燥剤入り)"@ja	.
 if:IF_4_10_3	rdf:type	ifo:IF_4_10_3	.
+if:IF_4_10_3	rdf:type	ifo:Section	.
 if:IF_4_10_3	rdf:value	"該当しない"@ja	.
 if:IF_4_10_4	rdf:type	ifo:IF_4_10_4	.
+if:IF_4_10_4	rdf:type	ifo:Section	.
 if:IF_4_10_4	rdf:value	"〔PTP包装〕\nPTP ：表－ポリ塩化ビニル、裏－アルミニウム\nピロー ：アルミニウム・ポリエチレンラミネートフィルム\n〔ボトル包装〕\nボトル ：ポリエチレン\nキャップ ：ブリキ\nパッキン ：ポリエチレン\n詰め物 ：ポリエチレン"@ja	.
 if:IF_4_11	rdf:type	ifo:IF_4_11	.
+if:IF_4_11	rdf:type	ifo:Section	.
 if:IF_4_11	rdf:value	"該当しない"@ja	.
 if:IF_4_12	rdf:type	ifo:IF_4_12	.
+if:IF_4_12	rdf:type	ifo:Section	.
 if:IF_4_12	rdf:value	"該当資料なし"@ja	.
 if:IF_5_1	rdf:type	ifo:IF_5_1	.
+if:IF_5_1	rdf:type	ifo:Section	.
 if:IF_5_1	ifo:package_insert	pi:PI_4	.
 if:IF_5_1	rdf:value	"過活動膀胱における尿意切迫感、頻尿及び切迫性尿失禁"@ja	.
 if:IF_5_2	rdf:type	ifo:IF_5_2	.
+if:IF_5_2	rdf:type	ifo:Section	.
 if:IF_5_2	ifo:package_insert	pi:PI_5	.
 if:IF_5_2	ifo:item	if:IF_5_2.item1	.
 if:IF_5_2	ifo:item	if:IF_5_2.item2	.
+if:IF_5_2.item1	rdf:type	ifo:Item	.
 if:IF_5_2.item1	ifo:package_insert	pi:PI_5.item1	.
 if:IF_5_2.item1	dct:identifier	"5.2.item1"	.
 if:IF_5_2.item1	rdf:value	"5.1 過活動膀胱とは「尿意切迫感を必須とした症状症候群であり、通常は頻尿と夜間頻尿を伴うものである。切迫性尿失禁は必須ではない。」と定義されており、症状に基づいて診断が行われる 8)。その際、過活動膀胱と同様な症状を有する疾患(尿路感染症、尿路結石、膀胱癌や前立腺癌などの下部尿路における悪性疾患等)を除外することが重要となる 9,10)。\n本剤を投与する際には、まず、過活動膀胱と類似した症状を有する疾患の可能性を考慮しながら問診や 尿検査等を行うこと。また、問診や尿検査等で除外すべき疾患が疑われた場合には必要に応じて専門的 検査の実施も考慮すること。"@ja	.
 if:IF_5_2.item1	dct:references	if:ref8	.
 if:IF_5_2.item1	dct:references	if:ref9	.
 if:IF_5_2.item1	dct:references	if:ref10	.
+if:IF_5_2.item2	rdf:type	ifo:Item	.
 if:IF_5_2.item2	ifo:package_insert	pi:PI_5.item2	.
 if:IF_5_2.item2	dct:identifier	"5.2.item2"	.
 if:IF_5_2.item2	rdf:value	"5.2 過活動膀胱患者の中には下部尿路閉塞疾患(前立腺肥大症等)を合併する患者も含まれている。本剤を下部尿路閉塞疾患患者に投与した経験は限られていることから、そのような患者では、α1 遮断薬などによる治療を優先すること。"@ja	.
 if:IF_5_3_1	rdf:type	ifo:IF_5_3_1	.
+if:IF_5_3_1	rdf:type	ifo:Section	.
 if:IF_5_3_1	ifo:package_insert	pi:PI_6	.
 if:IF_5_3_1	rdf:value	"空腹時投与したときの Cmax は高脂肪食食後投与時の 2.11 倍及び 1.95 倍に、AUClast は 1.47 倍及び 1.40倍に増加したことから、食後に経口投与する。(「Ⅶ.1.(4)食事・併用薬の影響」の項参照)"@ja	.
 if:IF_5_3_1	rdfs:seeAlso	if:IF_7_1_4	.
 if:IF_5_3_2	rdf:type	ifo:IF_5_3_2	.
+if:IF_5_3_2	rdf:type	ifo:Section	.
 if:IF_5_3_2	rdf:value	"過活動膀胱患者を対象に本剤 25mg、50mg、100mg 又はプラセボを 1 日 1 回食後に 12 週間経口投与した結果、主要評価項目である 24 時間あたりの平均排尿回数、副次評価項目である 24 時間あたりの平均尿失禁回数、平均切迫性尿失禁回数において、本剤のいずれの投与群においてもプラセボに比べ有意な減少が認められた。副作用発現率(臨床検査値異常を含む)は、プラセボ群、本剤 25mg 群、50mg 群、100mg 群でそれぞれ 212 例中 40 例(18.9％)、210 例中 49 例(23.3％)、208 例中 51 例(24.5％)、208 例中 54 例(26.0％)であった。本剤 50mg 群において発現率が 2%以上であった副作用は、便秘 5 例(2.4％)、血中CK増加 7 例(2.4％)、γ-GTP 増加 11 例(5.3％)、血中 Al-P 増加 6 例(2.9％)であった。以上の結果から 50mg を 1 日用量とした。(「Ⅴ.5.(3)用量反応探索試験」の項参照)\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして 50mg を 1 日 1 回食後に経口投与する。」である。"@ja	.
 if:IF_5_3_2	rdfs:seeAlso	if:IF_5_5_3	.
 if:IF_5_4	rdf:type	ifo:IF_5_4	.
+if:IF_5_4	rdf:type	ifo:Section	.
 if:IF_5_4	ifo:package_insert	pi:PI_7	.
 if:IF_5_4	ifo:item	if:IF_5_4.item1	.
 if:IF_5_4	ifo:item	if:IF_5_4.item2	.
+if:IF_5_4.item1	rdf:type	ifo:Item	.
 if:IF_5_4.item1	ifo:package_insert	pi:PI_7.item1	.
 if:IF_5_4.item1	dct:identifier	"5.4.item1"	.
 if:IF_5_4.item1	rdf:value	"7.1 肝機能障害患者に対する海外の臨床試験において、中等度の肝機能障害患者(Child-Pugh スコア 7~9)では、健康成人に比べて Cmax 及び AUCinf がそれぞれ 2.75 倍及び 1.65 倍に上昇した。中等度の肝機能障害患者(Child-Pugh スコア 7~9)への投与は慎重に行い、1 日 1 回 25mg から開始すること。"@ja	.
 if:IF_5_4.item1	rdfs:seeAlso	if:IF_5_5_3	.
+if:IF_5_4.item2	rdf:type	ifo:Item	.
 if:IF_5_4.item2	ifo:package_insert	pi:PI_7.item2	.
 if:IF_5_4.item2	dct:identifier	"5.4.item2"	.
 if:IF_5_4.item2	rdf:value	"7.2 腎機能障害患者に対する海外の臨床試験において、重度の腎機能障害患者(eGFR15~29mL/min/1.73m2) では、健康成人に比べて Cmax 及び AUCinf がそれぞれ 1.92 倍及び 2.18 倍に上昇した。重度の腎機能障害患者(eGFR15~29mL/min/1.73m2)への投与は慎重に行い、1 日 1 回 25mg から開始すること。"@ja	.
 if:IF_5_5_2	rdf:type	ifo:IF_5_5_2	.
+if:IF_5_5_2	rdf:type	ifo:Section	.
 if:IF_5_5_2	ifo:package_insert	pi:PI_17_3	.
 if:IF_5_5_2	rdf:value	"1)忍容性試験\n健康成人男性に本剤(50、100、200、300、400mg、各 6 例)、プラセボ各 2 例を単回経口投与し、安全性を確認した。\nその結果、本剤により発現した副作用は、心拍数増加(400mg 群 6 例中 3 例)、血中アミラーゼ増加(100mg 群6例中1例、300mg群6例中2例)、動悸(400mg群6例中1例)、ALT(GPT)増加(400mg群6例中1例)、 体位性めまい(300mg 群 6 例中 1 例)であった。\nまた、健康成人男性に本剤(100、200mg、各 8 例)、プラセボ各 4 例を反復経口投与し、安全性を確認し た。その結果、本剤により発現した副作用は、頭痛(200mg 群 8 例中 1 例)、発熱(100mg 群 8 例中 1 例) であった 11)。\n2)QT/QTc 評価試験\n(外国人データ) 12-14)\n外国健康成人男女(48 例)を対象に、QT/QTc 評価試験を実施した結果、女性被験者の QTc は本剤 100mg 及び 200mg 投与時に延長する傾向が認められた。外国健康成人男女(352 例)を対象に、QT/QTc 評価試験 (追加試験)を実施した結果、200mg 投与において女性被験者で延長する傾向が認められた。"@ja	.
 if:IF_5_5_2	dct:references	if:ref11	.
@@ -454,23 +521,28 @@ if:IF_5_5_2	dct:references	if:ref12	.
 if:IF_5_5_2	dct:references	if:ref13	.
 if:IF_5_5_2	dct:references	if:ref14	.
 if:IF_5_5_3	rdf:type	ifo:IF_5_5_3	.
+if:IF_5_5_3	rdf:type	ifo:Section	.
 if:IF_5_5_3	rdf:value	"1)過活動膀胱における諸症状に対する効果\n過活動膀胱患者を対象に本剤 25mg、50mg、100mg 又はプラセボを 1 日 1 回朝食後に 12 週間経口投与し た結果、主要評価項目である 24 時間あたりの平均排尿回数、副次評価項目である 24 時間あたりの平均 尿失禁回数、平均切迫性尿失禁回数において、本剤のいずれの投与群においてもプラセボに比べ有意な 減少が認められた。\n2)安全性 16)\n副作用発現率(臨床検査値異常を含む)は、プラセボ群、ベタニス 25mg 群、50mg 群、100mg 群でそれぞ れ 212 例中 40 例(18.9%)、210 例中 49 例(23.3%)、208 例中 51 例(24.5%)、208 例中 54 例(26.0%)であっ た。いずれかの群において発現率が 2%以上であった副作用は、以下のとおりであった。"@ja	.
 if:IF_5_5_3	dct:references	if:ref16	.
 if:IF_5_5_4_1	rdf:type	ifo:IF_5_5_4_1	.
+if:IF_5_5_4_1	rdf:type	ifo:Section	.
 if:IF_5_5_4_1	ifo:package_insert	pi:PI_17_1	.
 if:IF_5_5_4_1	rdf:value	"比較試験\n  〔国内第Ⅲ相試験〕17,18)\n≪結果≫\n1 過活動膀胱における諸症状に対する効果 (最終評価時における変化量、変化量の経時的推移)\ni)主要評価項目\n〔平均排尿回数〕\n最終評価時におけるベースライン(ベタニス 50mg 群:11.15、プラセボ群:11.29 からの 24 時間あたり の平均排尿回数の変化量は、ベタニス 50mg 群では-1.67 回であり、プラセボ群の-0.86 回に比べて有意な減少を示した。\n変化量の推移を経時的にみると、ベタニス 50mg 群は、投与開始 4 週時より平均排尿回数の変化量を 減少させ、その後最終評価時まで効果は持続した。\nii)副次評価項目\na)平均尿意切迫感回数\n最終評価時におけるベースライン(ベタニス 50mg 群:4.27、プラセボ群:4.42)からの 24 時間あたり の平均尿意切迫感回数の変化量は、ベタニス 50mg 群では-1.85 回であり、プラセボ群の-1.37 回に比 べて有意な減少を示した。\n変化量の推移を経時的にみると、ベタニス 50mg 群は、投与開始 4 週時より平均尿意切迫感回数の変 化量を減少させ、その後最終評価時まで効果は持続した。\nb)平均尿失禁回数\n最終評価時におけるベースライン(ベタニス 50mg 群:1.99、プラセボ群:1.91)からの 24 時間あたり の平均尿失禁回数の変化量は、ベタニス 50mg 群では-1.12 回であり、プラセボ群の-0.66 回に比べて 有意な減少を示した。\n変化量の推移を経時的にみると、ベタニス 50mg 群は、投与開始 4 週時より平均尿失禁回数の変化量 を減少させ、その後最終評価時まで効果は持続した。\nc)平均切迫性尿失禁回数\n最終評価時におけるベースライン(ベタニス 50mg 群:1.78、プラセボ群:1.67)からの 24 時間あたり の平均切迫性尿失禁回数の変化量は、ベタニス 50mg 群では-1.01 回であり、プラセボ群の-0.60 回に 比べて有意な減少を示した。\n変化量の推移を経時的にみると、ベタニス 50mg 群は、投与開始 4 週時より平均切迫性尿失禁回数の 変化量を減少させ、その後最終評価時まで効果は持続した。\nd)平均 1 回排尿量\n最終評価時におけるベースラインからの24時間あたりの平均1回排尿量の変化量は、ベタニス50mg 群では 24.300mL であり、プラセボ群の 9.715mL に比べて有意な増加を示した(変化量の結果が得られ ている2標本t検定)。\n変化量の推移を経時的にみると、ベタニス 50mg 群は、投与開始 4 週時より平均 1 回排尿量の変化量 を増加させ、その後最終評価時まで効果は持続した。\ne)平均夜間排尿回数\n最終評価時におけるベースラインからの平均夜間排尿回数の変化量は、ベタニス 50mg 群では-0.44 回であり、プラセボ群の-0.36 回に比べて有意な差は認められなかった。\nf)QOL ドメインスコアの変化量(最終評価時)\nQOL ドメインスコア変化量の比較を行った結果、下記 7 項目で 2 群間に有意な差が認められた。 \n・ドメイン 2(生活への影響)\n・ドメイン 3(仕事・家事の制限)\n・ドメイン 4(身体的活動の制限)\n・ドメイン 5(社会的活動の制限) \n・ドメイン 7(心の問題)\n・ドメイン 8(睡眠・活力(エネルギー)) \n・ドメイン 9(重症度)\n2 安全性\ni)副作用\n副作用発現率(臨床検査値異常を含む)は、ベタニス 50mg 群で 379 例中 93 例(24.5%)、プラセボ群で 379 例中 91 例(24.0%)であった。また、ベタニス 50mg 群において発現率が 2%以上であった副作用は、便 秘、口内乾燥、ALT 増加、血中 CK 増加、γ-GTP 増加、血中 Al-P 増加であった。\nii)残尿量の変化\n最終評価時点における残尿量の変化は、すべての群で同等であった(プラセボ群:0.86mL、ベタニス 50mg 群:0.80mL)。\niii)バイタルサインの変化\n起床時脈拍数\n最終評価時におけるベースラインからの起床時脈拍数の変化量は、ベタニス 50mg 群では 2.74bpm、プ ラセボ群では 0.77bpm であった。"@ja	.
 if:IF_5_5_4_1	dct:references	if:ref17	.
 if:IF_5_5_4_1	dct:references	if:ref18	.
 if:IF_5_5_4_2	rdf:type	ifo:IF_5_5_4_2	.
+if:IF_5_5_4_2	rdf:type	ifo:Section	.
 if:IF_5_5_4_2	ifo:package_insert	pi:PI_17_1	.
 if:IF_5_5_4_2	rdf:value	"安全性試験\n〔国内長期投与試験〕19,20)\n≪結果≫\n① 過活動膀胱における諸症状に対する効果(変化量の経時的推移)\nベタニス 50mg の投与により、24 時間あたりの平均排尿回数の変化量、24 時間あたりの平均尿意切迫 感回数の変化量、24 時間あたりの平均尿失禁回数の変化量、24 時間あたりの平均切迫性尿失禁回数の 変化量、平均夜間排尿回数の変化量において、52 週時まで概ね一定であった。\nまた、50mg では効果不十分とされ 8 週時に 100mg に増量された症例においても、増量後は変化量が増 大し、各変化量において 50mg 維持例とほぼ同様に推移した。\n② 安全性 21)\ni)副作用\n副作用発現率(臨床検査値異常を含む)は、ベタニス 50mg 維持例で 152 例中 51 例(33.6%)、100mg 増量 例で 50 例中 15 例(30.0%)であった。また、ベタニス 50mg 維持例及び 100mg 増量例いずれかにおいて 発現率が 2%以上の副作用は、便秘、血圧上昇、白血球数減少等であった。\nii)残尿量の変化 22)\n最終評価時の残尿量の変化量は、全症例で 0.32mL であり、ベタニス 50mg 維持例、100mg 増量例でも それぞれ 0.48mL、-0.20mL と同程度であった。ベタニスの長期投与における残尿量への影響はわずか であった。\niii)バイタルサインの変化 19,20)\n起床時脈拍数\n最終評価時におけるベースラインからの起床時脈拍数の変化量は、ベタニス 50mg 維持例では 1.04bpm、 100mg 増量例では 1.40bpm であった。"@ja	.
 if:IF_5_5_4_2	dct:references	if:ref19	.
 if:IF_5_5_4_2	dct:references	if:ref20	.
 if:IF_5_5_4_2	dct:references	if:ref21	.
 if:IF_5_5_5	rdf:type	ifo:IF_5_5_5	.
+if:IF_5_5_5	rdf:type	ifo:Section	.
 if:IF_5_5_5	ifo:package_insert	pi:PI_17_1	.
 if:IF_5_5_5	rdf:value	"該当資料なし"@ja	.
 if:IF_5_5_6_1	rdf:type	ifo:IF_5_5_6_1	.
+if:IF_5_5_6_1	rdf:type	ifo:Section	.
 if:IF_5_5_6_1	ifo:package_insert	pi:PI_17_2	.
 if:IF_5_5_6_1	rdf:value	"① 一般使用成績調査 23)\n日常診療におけるベタニスの安全性と有効性を把握する目的で、2012 年 4 月~2014 年 7 月にデータを 収集した過活動膀胱患者を対象とした使用成績調査を中央登録方式にて実施した。有効性解析は治療前 後の変化量について Wilcoxon の符号付順位検定を使用して解析した。安全性解析対象 9,795 例の過活 動膀胱患者(男性 46.8%、65 歳以上 80.8%)のうち、595 例 682 件の副作用が認められた。最も頻度が高 かった副作用は便秘 95 例(0.97%)、残尿増加 70 例(0.71%)、口渇 46 例(0.47%)、排尿困難 43 例(0.44%)、 尿閉 30 例(0.31%)であった。重篤な副作用は 21 例(0.21%)であった。 有効性については、有効性解析対象 9,792 例のうち 9,394 例が主治医によって有効性を評価され、7,582 例(80.7%)が有効と判定され、1,812 例(19.3%)が無効と判定された。過活動膀胱症状スコア(OABSS)解 析対象 4,153 例における OABSS による評価では、治療前の合計スコア(平均値±標準偏差)が 9.0±2.53、 治療終了時は 5.3±3.25 であり、合計スコアの変化量は-3.7±3.11 であった(p<0.001)。\n② 特定使用成績調査(心血管系障害) i)心血管系疾患の合併あるいは既往を有する過活動膀胱患者に対する調査 24)\n心血管疾患患者で心血管エンドポイントと副作用に関して 25 又は 50mg/日のベタニスの効果を評価す る事を目的に実施した。調査は 2012 年 12 月から 2014 年 7 月に実施した。軽度から中等度の心血管系 疾患を合併又は既往のある過活動膀胱患者 236 例でベタニス投与前/後に心電図検査を行った。観察期 間中に評価された値のベースラインからの差を明らかにするために Wilcoxon の符号付順位検定が使 用された。相関分析のために、スピアマンの順位相関係数を用いた。男性 61.9%、75 歳以上 60.2%、 心血管疾患合併率 93.6%[うち不整脈(67.8%)及び狭心症(19.1%)]であった。心血管系の副作用の発 生率は 13 例(5.51%)であった。重篤と判定された症例はなかった。ベタニス投与 4 週間後、平均心拍 数は 1.24±7.314b.p.m(平均値±標準偏差)増加した。心電図上の PR、QRS、又は Fridericia の補正 QT(QTcF)では有意な変化は観察されなかった。全患者集団又は年齢/性別に分けられたサブグループに おいて、投与前の QTcF と 4 週後の QTcF の変化との間に有意な相関は観察されなかった(r= -0.246)。 心拍数はベースラインからの変化と相関は観察されなかった(r= -0.309)。\n有効性解析対象 234 例中治療効果が判定された 227 例において、治療が「有効」と判断された患者は 189 例(83.3%)、「無効」と判断された患者は 38 例(16.7%)であった。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして 50mg を 1 日 1 回食後に経 口投与する。」である。\nii)長期特定使用成績調査 25)\nベタニスの 3 年間の長期間観察研究における安全性・有効性・服薬継続率を評価することを目的とした。 2012 年 10 月~2016 年 9 月まで実施、ベタニスの投与歴がない患者を対象とした。服薬継続率は Kaplan-Meier 法により評価、また、ベタニスを継続又は中止した患者の理由を調査した。 安全性解析対象 1,138 例中 97 例(8.52%)が 109 件の副作用を経験した。報告された最も一般的な副作用 は、便秘 19 例(1.67%)、残尿量増加 14 例(1.23%)、排尿困難 10 例(0.88%)であった。副作用の発生率は 治療開始後 1 ヵ月未満で 27 例(2.37%)、3 ヵ月〜6 ヵ月未満で 16 例(1.99%)、1 ヵ月~3 ヶ月未満で 18 例 (1.79%)であった。1 年ごとに分類したところ、副作用の発生率は経時的に減少した(1 年未満:1.34% -2.37%、1 年~2 年:0.45%-1.60%、2 年~3 年:0.29%-1.10%)。残尿量の有意な増加は観察されなかった。 重篤な副作用は、直腸癌、前立腺炎、骨粗鬆症、乳癌(女性)、尿閉、胆嚢癌、及び抗好中球細胞質抗 体陽性の血管炎の 7 例であった。尿閉のみがベタニスに関連する可能性があると考えられた。他のも のについては関連性不明として報告された。\nベタニスの有効性解析対象 1,082 例中 842 例(77.8%)で有効な治療薬であると判定された。OABSS は有 意に減少し(p<0.001)、OABSS における臨床的に重要な最小の変化(MCIC)を達成したのは 321 例 (65.1%)であった。1 年以内に MCIC を達成したほとんどの患者は、試験期間を通して MCIC を維持し 続けた。ベタニス投与開始からの 1 年後、2 年後及び 3 年後の服薬継続率は、それぞれ 65.8%、52.9% 及び 46.7%であった。ベタニスを中止した最も多かった理由は、単独投与で 141 例(17.3%)に効果が認 められなかったか、症状の悪化であった。また少数例であるが併用療法されている患者で、研究を中 断した患者の中で最も多かった理由が、有害事象の発症 6 例(14.3%)であった。\n③ 製造販売後臨床試験 i)ソリフェナシンで治療中の過活動膀胱患者に対するベタニスの併用試験 26)\nソリフェナシンで治療中の過活動膀胱患者に対するベタニスの追加併用療法の安全性・有効性を検討 した。\nソリフェナシン 2.5mg/日又は 5mg/日にて治療中で効果が不十分な過活動膀胱患者に対しベタニス 25mg/日を追加併用投与し、ベタニス投与後 8 週時に効果不十分な患者には 50mg/日まで増量投与し、 ベタニス追加併用投与開始から 16 週時に評価した。\n安全性評価解析では有害事象の全発生率は 155 例(69.5%)であり、副作用の発生率は 52 例(23.3%)で、 有害事象のほとんどが軽度又は中等度であった。最も多かった副作用は便秘だった。投与中止に至っ たすべての副作用の重症度は軽度又は中等度で、便秘型過敏性腸症候群の悪化、胸部不快感及び排尿 困難が各 1 例であった。尿閉もなく、残尿量はいずれの群でも顕著な変化は認められなかった。QTcF 間隔、脈拍数及び血圧の変化は、いずれの群にもみられたが、臨床的に明らかな変化はなかった。QT cF 間隔の絶対値>450msの症例が5例(2.4%)認められたが、QTcF間隔の絶対値>480msの症例はなかっ た。QTcF 間隔の増加では>30ms~≦60ms が 3 例(1.4%)に見られたが、60ms を超える症例はなかった。 すべての群でベタニス投与前から終了時において OABSS 合計、過活動膀胱質問票短縮版(OAB-q SF) の困窮度、健康関連 QOL において有意な改善が見られた(全ての群、p<0.001)。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして 50mg を 1 日 1 回食後に経 口投与する。」である。\nii)ベタニスとトルテロジンとの間の薬物動態に及ぼす薬物相互作用の研究 27)\n健康な閉経後女性において、CYP2D6 の基質であるベタニス 50mg とトルテロジン徐放性製剤(ER)4mg との薬物動態学的相互作用を検討した。トルテロジン ER4mg/日を 1 日目から 7 日目まで経口投与し、 ベタニス 50mg/日を第 8 日目から 14 日目まで併用投与した。\nベタニス 50mg の投与により、トルテロジンの Cmax が 2.06 倍に、AUC24h が 1.86 倍に増加し、5-ヒド ロキシメチルトルテロジン(5-HMT)の Cmax が 1.36 倍に、AUC24h が 1.25 倍に増加した。\nFridericia の補正 QT の変化(ΔQTcF)は、7日目より 14 日目で、わずかに大きかった。QTcF>480ms 又 は ΔQTcF>60ms の症例はいなかった。有害事象は、被験者の 5/24 例(20.8%)に発生した。トルテロジ ン単回投与期間中に被験者の 2/24 例(8.3%)が有害事象を経験し、併用投与期間中に被験者の 4/24 例 (16.7%)が有害事象を経験した。すべて軽度であり、また心血管系の有害事象は認められなかった。臨 床的に有意な心電図異常や死亡、重篤な有害事象又は投与中止につながる有害事象は報告されなかった。\niii)ベタニスで治療中の過活動膀胱患者に対する抗コリン薬の併用長期投与試験 28)\nベタニスで治療中の過活動膀胱患者における抗コリン薬の併用投与の長期安全性と有効性を評価した。 本試験は非盲検下で、ベタニス 50mg/日を 6 週間中以上服用中で効果不十分の過活動膀胱患者に抗コ リン薬であるソリフェナシン 5mg、プロピベリン 20mg、イミダフェナシン 0.2mg、トルテロジン 4mg に無作為に 1:1:1:1 に割付け、抗コリン薬追加投与後 8 週時点で、効果不十分と判断した場合は同 薬を倍量まで増量することとした。(各抗コリン薬は 1 日 1 回投与、但し、イミダフェナシンは 0.1mg 1 日 2 回服用とし増量は 0.2mg 1 日 2 回服用とした。トルテロジンは増量不可)\nFAS 対象症例はソリフェナシン併用 166 例、プロピベリン併用 161 例、イミダフェナシン併用 161 例、 トルテロジン併用159例で、最終評価時の24時間あたりの平均排尿回数の変化量(-2.18、-1.89、-1.75、 -1.91)、24 時間あたりの平均尿意切迫感回数の変化量(-2.03、-2.24、-2.04、-2.07)と、抗コリン薬併用 によりいずれの群でもベースラインから有意な改善が認められ、最終評価時まで維持された(t 検定、 いずれも対ベースライン、p<0.001)。\n副作用発現率はソリフェナシン併用 76/166 例(45.8%)、プロピベリン併用 81/161 例(50.3%)、イミダフェ ナシン併用 72/161 例(44.7%)、トルテロジン併用 74/159 例(46.5%)で、各群とも同様であった。副作用 発現率がいずれかの群で 2%以上であった副作用は、口内乾燥 162/647 例(25.0%)、便秘 100/647 例 (15.5%)、排尿困難 22/647 例(3.4%)、残尿量増加 16/647 例(2.5%)であった(各併用群の発症例数は下段 の安全性参照)。"@ja	.
 if:IF_5_5_6_1	dct:references	if:ref23	.
@@ -480,14 +552,18 @@ if:IF_5_5_6_1	dct:references	if:ref26	.
 if:IF_5_5_6_1	dct:references	if:ref27	.
 if:IF_5_5_6_1	dct:references	if:ref28	.
 if:IF_5_5_6_2	rdf:type	ifo:IF_5_5_6_2	.
+if:IF_5_5_6_2	rdf:type	ifo:Section	.
 if:IF_5_5_6_2	ifo:package_insert	pi:PI_21	.
 if:IF_5_5_6_2	rdf:value	"該当資料なし"@ja	.
 if:IF_5_5_7	rdf:type	ifo:IF_5_5_7	.
+if:IF_5_5_7	rdf:type	ifo:Section	.
 if:IF_5_5_7	ifo:package_insert	pi:PI_17_1	.
 if:IF_5_5_7	rdf:value	"該当資料なし"@ja	.
 if:IF_6_1	rdf:type	ifo:IF_6_1	.
+if:IF_6_1	rdf:type	ifo:Section	.
 if:IF_6_1	rdf:value	"該当資料なし"@ja	.
 if:IF_6_2_1	rdf:type	ifo:IF_6_2_1	.
+if:IF_6_2_1	rdf:type	ifo:Section	.
 if:IF_6_2_1	ifo:package_insert	pi:PI_18_1	.
 if:IF_6_2_1	rdf:value	"1)作用機序 6,29)\nベタニスは膀胱の β3 受容体に結合して、膀胱の弛緩作用を増強し、膀胱容量を増大させる。これにより、 膀胱は正常な蓄尿期の状態に近づき、過活動膀胱における尿意切迫感、頻尿及び切迫性尿失禁を改善する。\nベタニスが膀胱の β3 受容体に結合すると、β3 受容体の活性化を介して平滑筋の細胞内でアデニル酸シク ラーゼが活性化し、cAMP の産生が促進される 30)。これにより、細胞質内のカルシウム(Ca2+)濃度が低下 し、膀胱平滑筋の弛緩(伸展)をもたらす 30)。\n<参考>正常な蓄尿期と過活動膀胱の蓄尿期の違い 蓄尿期には、交感神経終末よりノルアドレナリンが放出され、膀胱の β3 受容体を介して膀胱が弛緩する とともに、α1 受容体を介して尿道が収縮する。排尿期にはノルアドレナリンの放出が抑制され、尿道が 弛緩するとともに副交感神経終末からアセチルコリンが放出され、ムスカリン(M)受容体を介して膀胱 が収縮する 31)。\n一方、過活動膀胱では蓄尿期においてもアセチルコリンが放出され、膀胱の M 受容体に結合し、膀胱の 異常な収縮が起こる。そのため、過活動膀胱では、十分な量の尿をためられるだけの弛緩が起こらない。\n2)抗コリン薬の作用機序\n抗コリン薬は膀胱の M 受容体に結合し、アセチルコリンが M 受容体に結合するのを阻害する。これに より、アセチルコリンによって引き起こされる膀胱平滑筋の異常な収縮が抑制される。"@ja	.
 if:IF_6_2_1	dct:references	if:ref6	.
@@ -495,6 +571,7 @@ if:IF_6_2_1	dct:references	if:ref29	.
 if:IF_6_2_1	dct:references	if:ref30	.
 if:IF_6_2_1	dct:references	if:ref31	.
 if:IF_6_2_2	rdf:type	ifo:IF_6_2_2	.
+if:IF_6_2_2	rdf:type	ifo:Section	.
 if:IF_6_2_2	ifo:package_insert	pi:PI_18	.
 if:IF_6_2_2	rdf:value	"1)β3 アドレナリン受容体に対する刺激作用(in vitro)29,32)\n[方法] ヒト β アドレナリン受容体の各サブタイプを発現させたチャイニーズハムスター卵巣(CHO)細胞を用い、 細胞内 cAMP 濃度を指標としてミラベグロン及び非選択的 β アドレナリン受容体作動薬であるイソプロ テレノールの各 β アドレナリン受容体サブタイプに対する刺激作用を検討した。\n[結果] ヒトβ3アドレナリン受容体を発現させた細胞において、ミラベグロンは濃度依存的な細胞内cAMP濃度 上昇作用を示した。一方、ヒト β1 及び β2 アドレナリン受容体を発現させた細胞においては、細胞内 cAMP 濃度上昇作用を ほとんど示さなかった。\n2)膀胱組織内の cAMP 濃度に対する作用(in vitro)33)\n[方法] ラット摘出膀胱平滑筋において、細胞内 cAMP 濃度に対するミラベグロンの作用を検討した。 溶媒又はミラベグロンは、摘出膀胱を含む 2.5mmol/L 3-isobuthyl-1-methylxanthine 含有 Krebs 溶液中に添 加し、10 分間処理後に摘出膀胱組織内の cAMP 濃度を測定した。\n[結果] ラット摘出膀胱において、ミラベグロンは膀胱組織内 cAMP 濃度を溶媒に比べて有意に上昇させた。\n3)膀胱弛緩作用(in vitro)6) \n① ラット膀胱平滑筋\n[方法] カルバコールによる持続性収縮を惹起させたラット摘出膀胱平滑筋において、収縮に対するミラベグロ ン及びイソプロテレノールの作用を検討した。1μmol/L カルバコールにより誘発したラット摘出膀胱の 持続性収縮が安定した後、被験薬を 10 分間隔で累積添加した。被験薬添加終了後、100μmol/L パパベリ ンを添加し、その作用を 100%として EC50 値及び最大弛緩率を算出した。 パパベリン:非特異的平滑筋弛緩薬。組織が弛緩しうる最大の反応(100%)を得るために添加した試薬。\n[結果] カルバコールにより持続性収縮を惹起させたラット摘出膀胱において、ミラベグロンは濃度依存的な弛 緩作用を示した。その効力及び最大反応は、非選択的 β アドレナリン受容体完全活性薬であるイソプロ テレノールと同程度に強力であった。\n持続性収縮:カルバコールにより、ムスカリン受容体が持続的に刺激され、平滑筋の収縮が続いている状態。\n② ヒト膀胱平滑筋\n[方法] カルバコールによる持続性収縮を惹起させたヒト摘出膀胱平滑筋において、収縮に対するミラベグロン 及びイソプロテレノールの作用を検討した。0.1μmol/L カルバコールにより誘発したヒト摘出膀胱の持 続性収縮が安定した後、被験薬を 10 分間隔で累積添加した。被験薬添加終了後、100μmol/L パパベリン を添加し、その作用を 100%として EC50 値及び最大弛緩率を算出した。\n[結果] カルバコールにより持続性収縮を惹起させたヒト摘出膀胱において、ミラベグロンは濃度依存的な弛緩 作用を示した。その効力及び最大反応は、非選択的 β アドレナリン受容体完全活性薬であるイソプロテ レノールに匹敵した。\n4)膀胱内圧上昇に対する作用 7)\nラット静止時膀胱内圧\n[方法] ペントバルビタール麻酔ラットの膀胱内に生理食塩水を注入し、膀胱内圧が約 6cmH2O で安定した後、ミラベグロン、トルテロジン及びオキシブチニンの静止時膀胱内圧に対する作用を検討した。\n[結果] ミラベグロン(0.003~3mg/kg iv)は 0.03mg/kg iv 以上で静止時膀胱内圧を低下させた。 一方、オキシブチニン(0.001~1mg/kg iv)及びトルテロジン(0.0003~0.3mg/kg iv)は明らかな静止時膀胱内 圧低下作用を示さなかった。\n5)律動性膀胱収縮に対する作用 34)\nラット\n[方法] ウレタン麻酔ラットの膀胱内に生理食塩水を注入することで惹起した律動性膀胱収縮の最大収縮時膀胱内圧に対するミラベグロン及びオキシブチニンの静脈内投与時の作用を検討した。\n[結果] オキシブチニン(0.027~2.7mg/kg iv)は0.27mg/kg iv以上で最大収縮時膀胱内圧を低下させた。一方、ミ ラベグロン(0.03~3mg/kg iv)は 3mg/kg iv でも最大収縮時膀胱内圧に影響を及ぼさなかった。\n6)平均 1 回排尿量及び排尿回数に対する作用\n① 脳梗塞ラット 29)\n[方法] 神経学的欠損を示す脳梗塞ラット及び偽手術を施行したラットを用い、ミラベグロン 0、3、1 又は 3mg/kg、オキシブチニン 10mg/kg)又は対照(0.5%メチルセルロース)物質を 3mL/kg をそれぞれ経口 投与し、平均 1 回排尿量を検討した。\n[結果] 脳梗塞ラットは、偽手術ラット(1.74±0.22mL)と比較して、排尿あたりの排尿量の有意な減少 (0.71±0.06mL)を示した。脳梗塞ラットでは、オキシブチニン(10mg/kg)が排尿あたりの排尿量を有意に 増加させた。ミラベグロン 0.3〜3mg/kg は平均 1 回排尿量を増加させ、また、用量依存的に平均 1 回排 尿量は増加した。\n② 無麻酔カニクイザル 35)\n[方法] 無麻酔カニクイザルを用い、蒸留水(50mL/kg)を強制経口負荷した後 8 時間以内の平均 1 回排尿量及び排尿回数に対するミラベグロンの作用を無麻酔・無拘束下において検討した。\n[結果] ミラベグロン(0.3~3mg/kg po)は 3mg/kg po で平均 1 回排尿量を増加させ、1mg/kg po 以上で排尿回数を減少させた。\n7)排尿機能に対する作用 36)\n[方法] 尿道部分閉塞ラットを用いて、無麻酔下でシストメトリー試験を実施し、ミラベグロン、トルテロジン 及びオキシブチニンの排尿前収縮回数及び残尿量に対する作用を検討した。\n[結果] ミラベグロン(0.1~3mg/kg iv)は残尿量には影響を及ぼすことなく、1mg/kg iv 以上で排尿前収縮回数を減 少させた。"@ja	.
 if:IF_6_2_2	dct:references	if:ref6	.
@@ -506,108 +583,137 @@ if:IF_6_2_2	dct:references	if:ref34	.
 if:IF_6_2_2	dct:references	if:ref35	.
 if:IF_6_2_2	dct:references	if:ref36	.
 if:IF_6_2_3	rdf:type	ifo:IF_6_2_3	.
+if:IF_6_2_3	rdf:type	ifo:Section	.
 if:IF_6_2_3	ifo:package_insert	pi:PI_18_1	.
 if:IF_6_2_3	rdf:value	"該当資料なし"@ja	.
 if:IF_7_1_1	rdf:type	ifo:IF_7_1_1	.
+if:IF_7_1_1	rdf:type	ifo:Section	.
 if:IF_7_1_1	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_1_1	rdf:value	"該当資料なし"@ja	.
 if:IF_7_1_2	rdf:type	ifo:IF_7_1_2	.
+if:IF_7_1_2	rdf:type	ifo:Section	.
 if:IF_7_1_2	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_1_2	ifo:item	if:IF_7_1_2.item1	.
 if:IF_7_1_2	ifo:item	if:IF_7_1_2.item2	.
+if:IF_7_1_2.item1	rdf:type	ifo:Item	.
 if:IF_7_1_2.item1	ifo:package_insert	pi:PI_16_1.item1	.
 if:IF_7_1_2.item1	dct:identifier	"7.1.2.item1"	.
 if:IF_7_1_2.item1	rdf:value	"① 単回投与試験 11,37)\n健康成人男性各 6 例に本剤 50~400mg を空腹時単回経口投与したときの Cmax 及び AUCinf は用量比を 超えて上昇したが、Tmax 及び t1/2 は各用量間でほぼ一定であった。CL/F は、用量増加に伴い減少した。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして 50mg を 1 日 1 回食後に経口 投与する。」である。"@ja	.
 if:IF_7_1_2.item1	dct:references	if:ref11	.
 if:IF_7_1_2.item1	dct:references	if:ref37	.
+if:IF_7_1_2.item2	rdf:type	ifo:Item	.
 if:IF_7_1_2.item2	ifo:package_insert	pi:PI_16_1.item2	.
 if:IF_7_1_2.item2	dct:identifier	"7.1.2.item2"	.
 if:IF_7_1_2.item2	rdf:value	"② 反復投与試験 11,37)\n健康成人男性各 8 例に本剤 100mg 及び 200mg を朝食後に単回経口投与し、2 日間の休薬後、更に朝食 後 7 日間反復経口投与した。100 及び 200mg 群ともに、初回投与後第 7 日目(反復投与開始後第 4 日目)以降トラフ値はほぼ一定とな り、7 日以内に定常状態に達した。第 10 日目(反復投与開始後第 7 日目)の Cmax は、100mg 群で第 1 日 目(初回投与時)と比較して上昇し、第 10 日目の AUC24h は 100 及び 200mg 群ともに第 1 日目と比較して 上昇し、反復投与により 1.75~2.12 倍上昇することが示唆された。また、第 10 日目の Tmax、t1/2 はい ずれの用量とも第 1 日目とほぼ同じであった。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして 50mg を 1 日 1 回食後に経口投与する。」である。"@ja	.
 if:IF_7_1_2.item2	dct:references	if:ref11	.
 if:IF_7_1_2.item2	dct:references	if:ref37	.
 if:IF_7_1_3	rdf:type	ifo:IF_7_1_3	.
+if:IF_7_1_3	rdf:type	ifo:Section	.
 if:IF_7_1_3	rdf:value	"該当資料なし"@ja	.
 if:IF_7_1_4	rdf:type	ifo:IF_7_1_4	.
+if:IF_7_1_4	rdf:type	ifo:Section	.
 if:IF_7_1_4	ifo:package_insert	pi:PI_16_7	.
 if:IF_7_1_4	ifo:item	if:IF_7_1_4.item1	.
 if:IF_7_1_4	ifo:item	if:IF_7_1_4.item2	.
+if:IF_7_1_4.item1	rdf:type	ifo:Item	.
 if:IF_7_1_4.item1	ifo:package_insert	pi:PI_16_7.item1	.
 if:IF_7_1_4.item1	dct:identifier	"7.1.4.item1"	.
 if:IF_7_1_4.item1	rdf:value	"食事の影響 38)\n健康成人男女 72 例を対象に、本剤 50mg 及び 100mg を単回経口投与したときの薬物動態に及ぼす食事 の影響を検討した(完了例:70 例)。 高脂肪食食後に投与したときに比べ空腹時投与で本剤血漿中濃度が高くなり、本剤 50mg 及び 100mg を 空腹時に投与したときの Cmax は 2.11 倍及び 1.95 倍に増加した。AUClast は 1.47 倍及び 1.40 倍に増加 した。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。"@ja	.
 if:IF_7_1_4.item1	dct:references	if:ref38	.
+if:IF_7_1_4.item2	rdf:type	ifo:Item	.
 if:IF_7_1_4.item2	ifo:package_insert	pi:PI_16_7.item2	.
 if:IF_7_1_4.item2	dct:identifier	"7.1.4.item2"	.
 if:IF_7_1_4.item2	rdf:value	"併用薬の影響\nトルテロジン 「V.5.(6)1)3ii)ベタニスとトルテロジンとの間の薬物動態に及ぼす薬物相互作用の研究」の項参照。 \nその他の薬剤の影響については、「VIII.7.相互作用」の項参照。"@ja	.
 if:IF_7_1_4.item2	dct:references	if:refIF_5_5_6_1	.
 if:IF_7_1_4.item2	dct:references	if:refIF_7	.
 if:IF_7_2_1	rdf:type	ifo:IF_7_2_1	.
+if:IF_7_2_1	rdf:type	ifo:Section	.
 if:IF_7_2_1	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_1	rdf:value	"該当資料なし"@ja	.
 if:IF_7_2_2	rdf:type	ifo:IF_7_2_2	.
+if:IF_7_2_2	rdf:type	ifo:Section	.
 if:IF_7_2_2	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_2	rdf:value	"該当資料なし"@ja	.
 if:IF_7_2_3	rdf:type	ifo:IF_7_2_3	.
+if:IF_7_2_3	rdf:type	ifo:Section	.
 if:IF_7_2_3	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_3	rdf:value	"該当資料なし"@ja	.
 if:IF_7_2_4	rdf:type	ifo:IF_7_2_4	.
+if:IF_7_2_4	rdf:type	ifo:Section	.
 if:IF_7_2_4	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_4	rdf:value	"CL_F(経口クリアランス)11)：\nミラベグロンを50～400mgの範囲で単回投与した時の、CL_Fの平均値は92.24～183.49L/hで投与量の増加に伴い減少する傾向がみられた。ミラベグロン100mg、200mgを10日間反復投与した時、CL/Fは100mgの>場合、1日目 167.16±31.36L/h、10日目 131.76±33.39L/h、200mgの場合、1日目 127.95±27.23L/h、10日目 108.03±19.75L/hであった。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。"@ja	.
 if:IF_7_2_4	dct:references	if:ref11	.
 if:IF_7_2_5	rdf:type	ifo:IF_7_2_5	.
+if:IF_7_2_5	rdf:type	ifo:Section	.
 if:IF_7_2_5	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_5	rdf:value	"(外国人データ) 39)\n健康成人にミラベグロン15mgを単回静脈内投与したときの分布容積は1,643Lであった。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。"@ja	.
 if:IF_7_2_5	dct:references	if:ref39	.
 if:IF_7_2_6	rdf:type	ifo:IF_7_2_6	.
+if:IF_7_2_6	rdf:type	ifo:Section	.
 if:IF_7_2_6	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_2_6	rdf:value	"該当資料なし"@ja	.
 if:IF_7_3_1	rdf:type	ifo:IF_7_3_1	.
+if:IF_7_3_1	rdf:type	ifo:Section	.
 if:IF_7_3_1	rdf:value	"該当資料なし"@ja	.
 if:IF_7_3_2	rdf:type	ifo:IF_7_3_2	.
+if:IF_7_3_2	rdf:type	ifo:Section	.
 if:IF_7_3_2	rdf:value	"該当資料なし"@ja	.
 if:IF_7_4	rdf:type	ifo:IF_7_4	.
+if:IF_7_4	rdf:type	ifo:Section	.
 if:IF_7_4	ifo:package_insert	pi:PI_16_2	.
 if:IF_7_4	ifo:item	if:IF_7_4.item1	.
 if:IF_7_4	ifo:item	if:IF_7_4.item2	.
 if:IF_7_4	ifo:item	if:IF_7_4.item3	.
+if:IF_7_4.item1	rdf:type	ifo:Item	.
 if:IF_7_4.item1	ifo:package_insert	pi:PI_16_2.item1	.
 if:IF_7_4.item1	dct:identifier	"7.4.item1"	.
 if:IF_7_4.item1	rdf:value	"(1) バイオアベイラビリティ\n(外国人データ) 39)\n健康成人男女に本剤 25、50、100mg を単回経口投与したときの絶対バイオアベイラビリティは、それぞ れ 28.9、35.4 及び 45.0%であった。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして 50mg を 1 日 1 回食後に経口 投与する。」である。"@ja	.
+if:IF_7_4.item2	rdf:type	ifo:Item	.
 if:IF_7_4.item2	ifo:package_insert	pi:PI_16_2.item2	.
 if:IF_7_4.item2	dct:identifier	"7.4.item2"	.
 if:IF_7_4.item2	rdf:value	"(2)吸収部位(ラット) 40)\n一晩絶食させた雄ラットの 5 つの消化管部位(胃、十二指腸、空腸、回腸及び結腸)のループ内に 14C-ミ ラベグロンを投与し、各消化管部位における 14C-ミラベグロンの吸収率を算出した。 放射能の吸収率は回腸において最も高く(65.9%)、次いで空腸(61.7%)、十二指腸(55.5%)及び結腸(15.1%) の順であり、胃からの吸収率は最も低かった(7.1%)。したがって、ミラベグロンの主な吸収部位は小腸 全般であると考えられた。"@ja	.
 if:IF_7_4.item2	dct:references	if:ref40	.
+if:IF_7_4.item3	rdf:type	ifo:Item	.
 if:IF_7_4.item3	ifo:package_insert	pi:PI_16_2.item3	.
 if:IF_7_4.item3	dct:identifier	"7.4.item3"	.
 if:IF_7_4.item3	rdf:value	"(3) 腸肝循環（ラット）41)\n胆管にカニュレーションを挿入した雄ラットに14C-ミラベグロンを10mg/kg単回経口投与したときに得られた胆汁(投与後0～6時間に採取した胆汁)0.5mLを、胆管にカニュレーションを挿入した別のラットの>十二指腸内に投与したときの尿及び胆汁中への放射能累積排泄率を測定した。投与後72時間までの尿及び胆汁中にそれぞれ18.4％及び8.1％が回収され、少なくとも投与した放射能の26.5％が再吸収されたことから、ラットにおいては14C-ミラベグロン由来成分が腸肝循環を受けることが示唆された。"@ja	.
 if:IF_7_4.item3	dct:references	if:ref41	.
 if:IF_7_5_1	rdf:type	ifo:IF_7_5_1	.
+if:IF_7_5_1	rdf:type	ifo:Section	.
 if:IF_7_5_1	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_1	rdf:value	"単回経口投与後の組織内放射能濃度(ラット)42)\n雄の白色ラットに14C-ミラベグロンを10mg/kg単回経口投与したとき、放射能濃度は大脳及び小脳において最も低かった。大脳及び小脳内の放射能濃度は速やかに減少した。"@ja	.
 if:IF_7_5_1	dct:references	if:ref42	.
 if:IF_7_5_2	rdf:type	ifo:IF_7_5_2	.
+if:IF_7_5_2	rdf:type	ifo:Section	.
 if:IF_7_5_2	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_2	rdf:value	"胎盤通過性(ラット)(43)\n妊娠14日目(器官形成期)のラットに14C-ミラベグロンを10mg/kg単回経口投与したとき、投与後4時間において胎盤及び胎児において母体血漿中放射能のそれぞれ1.5倍及び0.2倍の放射能が認められ、ミラベグ>ロン由来成分が胎盤関門を通過して胎児に移行することが確認された。母体の大部分の組織において放射能濃度は血漿よりも高く、脳、羊水及び胎児のみ血漿より低値であった。"@ja	.
 if:IF_7_5_2	dct:references	if:ref43	.
 if:IF_7_5_3	rdf:type	ifo:IF_7_5_3	.
+if:IF_7_5_3	rdf:type	ifo:Section	.
 if:IF_7_5_3	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_3	rdf:value	"乳汁移行性(ラット)44)\n授乳中(分娩後14日目)のラットに14C-ミラベグロンを10mg/kg単回経口投与したときの乳汁中放射能濃度は、投与後1時間では血漿中放射能濃度の0.44倍であったが、投与後4時間では血漿中放射能濃度の1.7倍>を示した。また、投与後4時間及び24時間の哺乳児の肝臓、腎臓及び肺において放射能が検出されたことから、ミラベグロン由来成分が乳汁を介して哺乳児の組織に分布したものと考えられた。"@ja	.
 if:IF_7_5_3	dct:references	if:ref43	.
 if:IF_7_5_4	rdf:type	ifo:IF_7_5_4	.
+if:IF_7_5_4	rdf:type	ifo:Section	.
 if:IF_7_5_4	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_4	rdf:value	"該当資料なし"@ja	.
 if:IF_7_5_5	rdf:type	ifo:IF_7_5_5	.
+if:IF_7_5_5	rdf:type	ifo:Section	.
 if:IF_7_5_5	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_5	rdf:value	"単回経口投与後の組織内放射能濃度 42)\n(1)白色ラット(雄)\n雄の白色ラットに14C-ミラベグロンを10mg/kg単回経口投与したときの組織内放射能濃度は、消化管を除いてほとんどの組織において投与後4時間に最高値を示したが、肺では投与後1時間に最高値を示した。投与後4時間では消化管を除いて肝臓で最も高く、血漿に比べて17.48倍高い濃度を示し、大脳及び小脳において最も低かった。投与後168時間では、ほとんどの組織において放射能濃度は最高値の10％未満であったが、精巣は最高値の41％であった。\n(2)有色ラット(雄)\n雄の有色ラットに14C-ミラベグロンを10mg/kg単回経口投与したときの組織内放射能濃度は、眼球を除いて白色ラットと類似していた。消化管を除くほとんどの組織内放射能濃度は投与後4時間に最高値を示し>たが、眼球では24時間後に最高値を示し、その値は白色ラットの最高値の18倍であった。投与後4時間の放射能濃度は消化管以外では肝臓及び下垂体で最も高く、それぞれ血漿に比べて11.56倍及び9.03倍高い>濃度を示し、大脳及び小脳で最も低かった。投与後360時間の放射能濃度はほとんどの組織で最高値の10％未満であったが、精巣及び眼球ではそれぞれ最高値の23％及び68％であった。この結果より、有色ラットの眼球においては薬物由来成分が眼内メラニンに結合している可能性が示唆された。\n(3)カニクイザル(雄)\n雄のカニクイザルに14C-ミラベグロンを10mg/kg単回経口投与したときの投与後168時間における組織内放射能濃度は肝臓で最も高かった。血液、血漿、脂肪、大脳、小脳、下垂体及び胃内容物では検出限界未>満であった。"@ja	.
 if:IF_7_5_5	dct:references	if:ref42	.
 if:IF_7_5_6	rdf:type	ifo:IF_7_5_6	.
+if:IF_7_5_6	rdf:type	ifo:Section	.
 if:IF_7_5_6	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_6	rdf:value	"In vitro蛋白結合試験において本剤の血漿蛋白結合率を検討した結果、200～5,000ng/mLの濃度範囲でほぼ一定であり、日本人で76.3～76.9％であった。また、ヒト血漿中における主結合蛋白はアルブミンで、次いでα1-酸性糖蛋白であることが推定された。"@ja	.
 if:IF_7_5_6	dct:references	if:ref45	.
 if:IF_7_6_1	rdf:type	ifo:IF_7_6_1	.
+if:IF_7_6_1	rdf:type	ifo:Section	.
 if:IF_7_6_1	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_1	rdf:value	"ヒトのin vivo試料を用い、ミラベグロンの代謝物検索及び構造推定を実施した結果、M5、M8、M9、M11、M12、M13、M14、M15、M16及びM17の10種の代謝物が尿中に認められた。また、そのうちの8種(M5、M8、M11、M12、M13、M14、M15及びM16)が血漿中に認められた。ヒトにおいて予想されるミラベグロンの推定代謝経路は次のとおりである。"@ja	.
 if:IF_7_6_1	dct:references	if:ref46	.
 if:IF_7_6_2	rdf:type	ifo:IF_7_6_2	.
+if:IF_7_6_2	rdf:type	ifo:Section	.
 if:IF_7_6_2	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_2	rdf:value	"ミラベグロンは主としてエステラーゼによって加水分解を受け、一部はCYP及びグルクロン酸抱合酵素によっても代謝される（47,48)。CYP代謝においては、CYP3A4がミラベグロン代謝に主として関与してい>るCYP酵素であることが示されたが、CYP2D6も一部関与する可能性が示唆された49)。また、In vitro試験においてミラベグロンはCYP2D6に対して中等度の阻害作用を示すことが示されたが、その他のCYP分子種に対して阻害作用は弱く、CYP1A2及び3A4_5に対して誘導作用を示さなかった（50)。"@ja	.
 if:IF_7_6_2	dct:references	if:ref47	.
@@ -615,30 +721,36 @@ if:IF_7_6_2	dct:references	if:ref48	.
 if:IF_7_6_2	dct:references	if:ref49	.
 if:IF_7_6_2	dct:references	if:ref50	.
 if:IF_7_6_3	rdf:type	ifo:IF_7_6_3	.
+if:IF_7_6_3	rdf:type	ifo:Section	.
 if:IF_7_6_3	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_3	rdf:value	"(外国人データ)39)健康成人男女に本剤25、50、100mgを経口投与したときの絶対バイオアベイラビリティは、それぞれ28.9、35.4及び45.0％であった。注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。"@ja	.
 if:IF_7_6_3	dct:references	if:ref39	.
 if:IF_7_6_4	rdf:type	ifo:IF_7_6_4	.
+if:IF_7_6_4	rdf:type	ifo:Section	.
 if:IF_7_6_4	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_4	rdf:value	"ミラベグロンを経口投与後、未変化体の他に8種の代謝物が血漿中に認められ、M11(ミラベグロン-O-グルクロニド)及びM12(ミラベグロンケトン酸化体のN-COO-グルクロニド)がヒト血漿中における主代謝物と>考えられた。ヒト血漿中に認められた代謝物の濃度はいずれも未変化体に比べ顕著に低かった51)。また、いずれの代謝物もβ3アドレナリン受容体に対するアゴニスト活性はミラベグロンに比べ弱かったことから52)、これら代謝物の薬効への寄与は低いと考えられた。"@ja	.
 if:IF_7_6_4	dct:references	if:ref51	.
 if:IF_7_6_4	dct:references	if:ref52	.
 if:IF_7_7	rdf:type	ifo:IF_7_7	.
+if:IF_7_7	rdf:type	ifo:Section	.
 if:IF_7_7	ifo:package_insert	pi:PI_16_5	.
 if:IF_7_7	rdf:value	"(外国人データ)53)健康成人男性4例に、14C-ミラベグロン溶液160mgを単回経口投与した。総放射能の排泄率は、尿中において投与量の55.0％、糞中において34.2％であり、呼気には排泄されなかった。尿中に排泄された未変化>のミラベグロンの平均総量は排泄された放射能の45％及び投与量の25％を占めたが、尿中に排泄された放射能の残りは1種類以上のミラベグロンの代謝産物が確認された。投与後48時間までのミラベグロンの尿中排泄率は18.4％であった。また、M5、M8、M9、M11(及びM14)、M12とM13の混成(及びM14)、M15、M16及びM17の代謝物由来ピークが認められ、投与後48時間までの尿中排>泄率は、それぞれ投与量の2.9％、1.3％、0.6％、3.2％、1.4％、0.6％、1.7％及び2.0％であった。糞中にはミラベグロンが最も多く存在し、代謝物の存在は確認されなかった。健康成人男性6例に本剤を絶食下で単回投与したときの尿中排泄率は用量増加に伴い上昇する傾向が認められた11,37)。注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。"@ja	.
 if:IF_7_7	dct:references	if:ref53	.
 if:IF_7_7	dct:references	if:ref11	.
 if:IF_7_7	dct:references	if:ref37	.
 if:IF_7_8	rdf:type	ifo:IF_7_8	.
+if:IF_7_8	rdf:type	ifo:Section	.
 if:IF_7_8	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_8	rdf:value	"ミラベグロンは、P-糖蛋白の基質である(in vitro試験)54)。また、本剤のP-糖蛋白阻害作用が認められている55)(「Ⅷ.7.相互作用」の項参照)。In vitro試験において，ミラベグロンはトランスポーターのOATP1A2の基質である54)。"@ja	.
 if:IF_7_8	dct:references	if:ref54	.
 if:IF_7_8	dct:references	if:ref55	.
 if:IF_7_8	rdfs:seeAlso	if:IF_8_7	.
 if:IF_7_9	rdf:type	ifo:IF_7_9	.
+if:IF_7_9	rdf:type	ifo:Section	.
 if:IF_7_9	ifo:package_insert	pi:PI_16_6	.
 if:IF_7_9	rdf:value	"該当資料なし"@ja	.
 if:IF_7_10	rdf:type	ifo:IF_7_10	.
+if:IF_7_10	rdf:type	ifo:Section	.
 if:IF_7_10	ifo:package_insert	pi:PI_16_6	.
 if:IF_7_10	rdf:value	"（1）腎機能障害患者\n(外国人データ)56,57)\n軽度(eGFR60～89mL/min/1.73m2、8例)、中等度(eGFR30～59mL/min/1.73m2、8例)、重度(eGFR15～29mL/min/1.73m2、中止例1例を含む9例)の腎機能障害患者及び正常腎機能(eGFR90mL/min/1.73m2以上)被験者8例に、本剤100mgを単回経口投与した。正常腎機能被験者群と比べ、Cmax及びAUCinfの幾何平均値は、軽度の腎機能障害患者群では、本剤100mg投与時のCmax及びAUCinfがそれぞれ1.06倍及び1.31倍高かった。中等度の腎機能障害(eGFR30～59mL/min/1.73m2)を持つ患者では、健康成人と比べてCmax及びAUCinfが1.23倍及び1.66倍高かった。重度の腎機能障害(eGFR15～29mL/min/1.73m2)を持つ患者では、健康成人と比べてCmax及びAUCinfが1.92倍及び2.18倍>高かった。正常腎機能被験者群と比較して腎機能障害の中等度群及び重度群で本剤の腎クリアランス(CLR)は腎機能とよく相関した。t1/2は正常腎機能被験者群と比較して、軽度、中等度及び重度群でそれぞれ平均12、4>及び9時間長かったが、血漿濃度－時間プロファイルは異なる腎機能群で終末相の傾きがほぼ平行であることを示した。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。\n（2）肝機能障害患者\n(外国人データ)56,58)\n軽度及び中等度(Child-Pughスコア5～6で軽度、7～9で中等度)の肝機能障害患者各8例及び、軽度、中等度それぞれの肝機能障害患者を対照となる正常肝機能被験者群各8例ずつに、本剤100mgを単回経口投与した。軽度の肝機能障害患者において、本剤のCmax及びAUCinfの最小二乗平均値は正常肝機能被験者と比べてそれぞれ1.09倍、1.19倍高く、中等度の肝機能障害患者においてはそれぞれ2.75倍、1.65倍高かった。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。\n（3）性差\n(外国人データ) 51,59)\n非高齢及び高齢外国健康成人男女に本剤25mg、50mg及び100mgを反復投与したときのCmax及びAUCtauは、男女間で差が認められ、男性被験者に比べ女性被験者で1.44倍及び1.38倍の高い値を示した。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。\n（4）高齢者\n日本人過活動膀胱患者を対象として実施された国内第Ⅲ相試験において、本剤50mgを1日1回投与したときの血漿中濃度は、65歳未満より65歳以上の患者集団で1.32倍に増加した17)。\n(外国人データ)\n健康高齢(55歳～77歳)、非高齢(18～45歳)男女75例を対象に、本剤25、50、100mgを、第1日は1日2回、第2日～第7日は1日1回反復経口投与し、薬物動態を評価した。試験は2期6群非盲検クロスオーバー試験と>して実施した。その結果、高齢者と非高齢者間のCmax及びAUCtauの差は認められなかった(「(3)性差」の項参照)51)。\n注)本剤に対して承認されている用法及び用量は「通常、成人にはミラベグロンとして50mgを1日1回食後に経口投与する。」である。"@ja	.
 if:IF_7_10	dct:references	if:ref56	.
@@ -646,11 +758,14 @@ if:IF_7_10	dct:references	if:ref57	.
 if:IF_7_10	dct:references	if:ref58	.
 if:IF_7_10	dct:references	if:ref59	.
 if:IF_7_11	rdf:type	ifo:IF_7_11	.
+if:IF_7_11	rdf:type	ifo:Section	.
 if:IF_7_11	ifo:package_insert	pi:PI_16_8	.
 if:IF_7_11	rdf:value	"該当資料なし"@ja	.
 if:IF_8_1	rdf:type	ifo:IF_8_1	.
+if:IF_8_1	rdf:type	ifo:Section	.
 if:IF_8_1	ifo:package_insert	pi:PI_1	.
 if:IF_8_1	ifo:item	if:IF_8_1.item1	.
+if:IF_8_1.item1	rdf:type	ifo:Item	.
 if:IF_8_1.item1	ifo:package_insert	pi:PI_1.item1	.
 if:IF_8_1.item1	dct:identifier	"8.1.item1"	.
 if:IF_8_1.item1	rdf:value	"動物実験(ラット)において、生殖器系への影響が認められた60～64)。本剤の性ホルモンに対する作用について検討したデータはなく、ラット生殖器系への影響の発現機序は不明であることから、ヒトでの安全性に最大限の注意をはらうため、【警告】の項に生殖可能な年齢の患者への投与はできる限り避けるよう注意喚起するため設定した。"@ja	.
@@ -660,6 +775,7 @@ if:IF_8_1.item1	dct:references	if:ref62	.
 if:IF_8_1.item1	dct:references	if:ref63	.
 if:IF_8_1.item1	dct:references	if:ref64	.
 if:IF_8_2	rdf:type	ifo:IF_8_2	.
+if:IF_8_2	rdf:type	ifo:Section	.
 if:IF_8_2	ifo:package_insert	pi:PI_2	.
 if:IF_8_2	ifo:item	if:IF_8_2.item1	.
 if:IF_8_2	ifo:item	if:IF_8_2.item2	.
@@ -667,53 +783,66 @@ if:IF_8_2	ifo:item	if:IF_8_2.item3	.
 if:IF_8_2	ifo:item	if:IF_8_2.item4	.
 if:IF_8_2	ifo:item	if:IF_8_2.item5	.
 if:IF_8_2	ifo:item	if:IF_8_2.item6	.
+if:IF_8_2.item1	rdf:type	ifo:Item	.
 if:IF_8_2.item1	ifo:package_insert	pi:PI_2.item1	.
 if:IF_8_2.item1	dct:identifier	"8.2.item1"	.
 if:IF_8_2.item1	rdf:value	"2.1 一般的留意事項として記載した。\n一般に、ある薬剤の成分により過敏症を生じた患者に同一成分を含有する薬剤が再投与された場合、アレルギー症状を呈する可能性が高く、ショック等の重篤な副作用を生じるおそれがあることから設定した。"@ja	.
+if:IF_8_2.item2	rdf:type	ifo:Item	.
 if:IF_8_2.item2	ifo:package_insert	pi:PI_2.item2	.
 if:IF_8_2.item2	dct:identifier	"8.2.item2"	.
 if:IF_8_2.item2	rdf:value	"2.2 国内の臨床試験において、脈拍数の増加が認められている15,17,19)ことから、重篤な心疾患を有する患者では本剤の投与により症状悪化の可能性が否定できないため設定した。"@ja	.
 if:IF_8_2.item2	dct:references	if:ref15	.
 if:IF_8_2.item2	dct:references	if:ref17	.
 if:IF_8_2.item2	dct:references	if:ref19	.
+if:IF_8_2.item3	rdf:type	ifo:Item	.
 if:IF_8_2.item3	ifo:package_insert	pi:PI_2.item3	.
 if:IF_8_2.item3	dct:identifier	"8.2.item3"	.
 if:IF_8_2.item3	rdf:value	"2.3 動物実験(ラット、ウサギ)において、胎児の着床後死亡率の増加、体重低値、肩甲骨等の屈曲及び波状肋骨の増加、骨化遅延、大動脈の拡張及び巨心の増加、肺副葉欠損が認められている65,66)ことから設定した。"@ja	.
 if:IF_8_2.item3	dct:references	if:ref65	.
 if:IF_8_2.item3	dct:references	if:ref66	.
+if:IF_8_2.item4	rdf:type	ifo:Item	.
 if:IF_8_2.item4	ifo:package_insert	pi:PI_2.item4	.
 if:IF_8_2.item4	dct:identifier	"8.2.item4"	.
 if:IF_8_2.item4	rdf:value	"2.4 動物実験(ラット)において、ミラベグロンの乳汁移行や哺乳児の組織への分布が認められている44)。また、授乳中のラットに投与した場合、出生児で生存率の低値及び体重増加抑制が認められている67)ため、乳児に対するリスクを否定できないことから設定した。"@ja	.
 if:IF_8_2.item4	dct:references	if:ref44	.
 if:IF_8_2.item4	dct:references	if:ref67	.
+if:IF_8_2.item5	rdf:type	ifo:Item	.
 if:IF_8_2.item5	ifo:package_insert	pi:PI_2.item5	.
 if:IF_8_2.item5	dct:identifier	"8.2.item5"	.
 if:IF_8_2.item5	rdf:value	"2.5 重度の肝機能障害患者(Child-Pughスコア10以上)に投与した経験はない。海外の臨床試験において中等度の肝機能障害患者(Child-Pughスコア7～9)に投与した場合、健康成人に比べてCmax及びAUCinfがそれぞれ2.75倍及び1.65倍に上昇した56)ことから、重度の肝機能障害患者(Child-Pughスコア10以上)に投与した場合は、血中濃度がさらに上昇する可能性が考えられるため、安全性を考慮して設定した。"@ja	.
 if:IF_8_2.item5	dct:references	if:ref56	.
+if:IF_8_2.item6	rdf:type	ifo:Item	.
 if:IF_8_2.item6	ifo:package_insert	pi:PI_2.item6	.
 if:IF_8_2.item6	dct:identifier	"8.2.item6"	.
 if:IF_8_2.item6	rdf:value	"2.6 本剤及びこれらの薬剤にはともに催不整脈作用があり、また本剤のCYP2D6阻害作用により、CYP2D6で代謝されるフレカイニド酢酸塩及びプロパフェノン塩酸塩の血中濃度が上昇する可能性があり、QT延長、心室性不整脈(Torsades de Pointesを含む)等を起こす可能性があることから設定した。"@ja	.
 if:IF_8_3	rdf:type	ifo:IF_8_3	.
+if:IF_8_3	rdf:type	ifo:Section	.
 if:IF_8_3	rdf:value	"「Ⅴ.治療に関する項目」を参照すること"@ja	.
 if:IF_8_3	rdfs:seeAlso	if:IF_5	.
 if:IF_8_4	rdf:type	ifo:IF_8_4	.
+if:IF_8_4	rdf:type	ifo:Section	.
 if:IF_8_4	rdf:value	"「Ⅴ.治療に関する項目」を参照すること"@ja	.
 if:IF_8_4	rdfs:seeAlso	if:IF_5	.
 if:IF_8_5	rdf:type	ifo:IF_8_5	.
+if:IF_8_5	rdf:type	ifo:Section	.
 if:IF_8_5	ifo:package_insert	pi:PI_8	.
 if:IF_8_5	ifo:item	if:IF_8_5.item1	.
 if:IF_8_5	ifo:item	if:IF_8_5.item2	.
 if:IF_8_5	ifo:item	if:IF_8_5.item3	.
+if:IF_8_5.item1	rdf:type	ifo:Item	.
 if:IF_8_5.item1	ifo:package_insert	pi:PI_8.item1	.
 if:IF_8_5.item1	dct:identifier	"8.5.item1"	.
 if:IF_8_5.item1	rdf:value	"8.1 製造販売後臨床試験(ソリフェナシンで治療中の過活動膀胱患者に対するミラベグロンの併用試験、ミラベグロンとトルテロジン併用投与時の薬物相互作用の検討、ミラベグロンで治療中の過活動膀胱患者に対する抗コリン薬の併用長期投与試験)が終了し、抗コリン剤との併用時における安全性及び有効性が確認されたため、「併用は避けることが望ましい」旨の記載を削除した。ただし、併用する際には尿閉などの副作用の発現に十分注意が必要であるため、その旨を追記した。"@ja	.
+if:IF_8_5.item2	rdf:type	ifo:Item	.
 if:IF_8_5.item2	ifo:package_insert	pi:PI_8.item2	.
 if:IF_8_5.item2	dct:identifier	"8.5.item2"	.
 if:IF_8_5.item2	rdf:value	"8.2 5α還元酵素阻害薬と本剤を併用した試験は実施されていないため、両薬剤併用時の安全性、有効性及び薬物相互作用は明確ではない。5α還元酵素阻害薬は、その主作用(ジヒドロテストステロン濃度低下作用)とともに生殖器官への影響として動物実験の結果より男子胎児の外生殖器の発達を阻害する可能性が示唆されており、副作用として勃起不全、乳房障害などが報告されている。また、本剤の動物実験(ラット)において精嚢及び前立腺の萎縮が認められていることから、本剤がヒトの生殖器系に影響を及ぼす可能性は否定できない。したがって、両剤を併用した際には、生殖器系への作用が増大する可能性が考えられることから、本剤と5α還元酵素阻害薬との併用は避けることが望ましいとした。"@ja	.
+if:IF_8_5.item3	rdf:type	ifo:Item	.
 if:IF_8_5.item3	ifo:package_insert	pi:PI_8.item3	.
 if:IF_8_5.item3	dct:identifier	"8.5.item3"	.
 if:IF_8_5.item3	rdf:value	"8.3 欧州において、本剤投与後に高血圧クリーゼが発現した症例及び高血圧と脳心血管系イベントが併発した症例が報告されたことから欧州規制当局よりDHPC※配布の指示を受け、注意喚起を行った。国内においても国内外市販後における高血圧症例の集積状況を検討した結果、「重大な副作用」の項に「高血圧」を追記するとともに「重要な基本的注意」の項にも血圧測定に関する注意喚起を追記することとした。\n※DHPC：Direct Healthcare Professional Communication\n安全性に関わる重要な変更が生じた場合、製造販売承認を有する企業あるいは規制当局が医療関係者に対して当該情報を迅速に伝達するための文書"@ja	.
 if:IF_8_6_1	rdf:type	ifo:IF_8_6_1	.
+if:IF_8_6_1	rdf:type	ifo:Section	.
 if:IF_8_6_1	ifo:package_insert	pi:PI_9_1	.
 if:IF_8_6_1	ifo:item	if:IF_8_6_1.item1	.
 if:IF_8_6_1	ifo:item	if:IF_8_6_1.item2	.
@@ -721,12 +850,15 @@ if:IF_8_6_1	ifo:item	if:IF_8_6_1.item3	.
 if:IF_8_6_1	ifo:item	if:IF_8_6_1.item4	.
 if:IF_8_6_1	ifo:item	if:IF_8_6_1.item5	.
 if:IF_8_6_1	ifo:item	if:IF_8_6_1.item6	.
+if:IF_8_6_1.item1	rdf:type	ifo:Item	.
 if:IF_8_6_1.item1	ifo:package_insert	pi:PI_9_1.item1	.
 if:IF_8_6_1.item1	dct:identifier	"8.6.1.item1"	.
 if:IF_8_6_1.item1	rdf:value	"9.1.1 本剤はQT延長を起こすおそれがあることから、本剤を心血管系障害を有する患者に投与する場合には、投与開始前に心電図検査等を行い患者の心血管系の状態に注意すること。"@ja	.
+if:IF_8_6_1.item2	rdf:type	ifo:Item	.
 if:IF_8_6_1.item2	ifo:package_insert	pi:PI_9_1.item2	.
 if:IF_8_6_1.item2	dct:identifier	"8.6.1.item2"	.
 if:IF_8_6_1.item2	rdf:value	"9.1.2 本剤はQT延長を起こすおそれがあることから、本剤を心血管系障害を有する患者に投与する場合には、投与開始前に心電図検査等を行い患者の心血管系の状態に注意すること。"@ja	.
+if:IF_8_6_1.item3	rdf:type	ifo:Item	.
 if:IF_8_6_1.item3	ifo:package_insert	pi:PI_9_1.item3	.
 if:IF_8_6_1.item3	dct:identifier	"8.6.1.item3"	.
 if:IF_8_6_1.item3	rdf:value	"9.1.3 海外のQT/QTc評価試験において、本剤100mg及び200mgを投与された女性被験者でQTcが延長する傾向が認められた12-14)。そのため、クラスⅠA(キニジン、プロカインアミド等)又はクラスⅢ(アミオダロ\nン、ソタロール等)の抗不整脈薬を投与中の患者を含むQT延長症候群患者においては、QT延長に基づく副作用発現の可能性が否定できないことから、心電図の変化に注意し慎重に投与すること(「Ⅴ.5.(2)臨床薬\n理試験」の項参照)。"@ja	.
@@ -734,45 +866,57 @@ if:IF_8_6_1.item3	dct:references	if:ref12	.
 if:IF_8_6_1.item3	dct:references	if:ref13	.
 if:IF_8_6_1.item3	dct:references	if:ref14	.
 if:IF_8_6_1.item3	rdfs:seeAlso	if:IF_5_5_2	.
+if:IF_8_6_1.item4	rdf:type	ifo:Item	.
 if:IF_8_6_1.item4	ifo:package_insert	pi:PI_9_1.item4	.
 if:IF_8_6_1.item4	dct:identifier	"8.6.1.item4"	.
 if:IF_8_6_1.item4	rdf:value	"9.1.4 重度の徐脈等の不整脈、急性心筋虚血等の不整脈を起こしやすい患者においては、心室頻拍(Torsades de Pointesを含む)やQT延長の発現の可能性が否定できないことから、慎重に投与すること。"@ja	.
+if:IF_8_6_1.item5	rdf:type	ifo:Item	.
 if:IF_8_6_1.item5	ifo:package_insert	pi:PI_9_1.item5	.
 if:IF_8_6_1.item5	dct:identifier	"8.6.1.item5"	.
 if:IF_8_6_1.item5	rdf:value	"9.1.5 低カリウム血症のある患者においては、心室頻拍(Torsades de Pointesを含む)やQT延長の発現の可能性が否定できないことから、慎重に投与すること。"@ja	.
+if:IF_8_6_1.item6	rdf:type	ifo:Item	.
 if:IF_8_6_1.item6	ifo:package_insert	pi:PI_9_1.item6	.
 if:IF_8_6_1.item6	dct:identifier	"8.6.1.item6"	.
 if:IF_8_6_1.item6	rdf:value	"9.1.6 海外の臨床試験において緑内障の悪化が1例報告されており、また緑内障患者への投与経験が限られていることから、本剤を緑内障患者に投与する際には、慎重に投与するとともに定期的な眼科的診察を行うこと。"@ja	.
 if:IF_8_6_2	rdf:type	ifo:IF_8_6_2	.
+if:IF_8_6_2	rdf:type	ifo:Section	.
 if:IF_8_6_2	ifo:package_insert	pi:PI_9_2	.
 if:IF_8_6_2	ifo:item	if:IF_8_6_2.item1	.
 if:IF_8_6_2	ifo:item	if:IF_8_6_2.item2	.
+if:IF_8_6_2.item1	rdf:type	ifo:Item	.
 if:IF_8_6_2.item1	ifo:package_insert	pi:PI_9_2.item1	.
 if:IF_8_6_2.item1	dct:identifier	"8.6.2.item1"	.
 if:IF_8_6_2.item1	rdf:value	"9.2.1 海外の臨床試験において、腎機能障害患者での血漿中濃度が上昇するとのデータが得られていることから56)、腎機能障害患者には慎重に投与すること。"@ja	.
+if:IF_8_6_2.item2	rdf:type	ifo:Item	.
 if:IF_8_6_2.item2	ifo:package_insert	pi:PI_9_2.item2	.
 if:IF_8_6_2.item2	dct:identifier	"8.6.2.item2"	.
 if:IF_8_6_2.item2	rdf:value	"9.2.2 海外の臨床試験において、腎機能障害患者での血漿中濃度が上昇するとのデータが得られていることから56)、腎機能障害患者には慎重に投与すること。"@ja	.
 if:IF_8_6_3	rdf:type	ifo:IF_8_6_3	.
+if:IF_8_6_3	rdf:type	ifo:Section	.
 if:IF_8_6_3	ifo:package_insert	pi:PI_9_3	.
 if:IF_8_6_3	ifo:item	if:IF_8_6_3.item1	.
 if:IF_8_6_3	ifo:item	if:IF_8_6_3.item2	.
 if:IF_8_6_3	ifo:item	if:IF_8_6_3.item3	.
+if:IF_8_6_3.item1	rdf:type	ifo:Item	.
 if:IF_8_6_3.item1	ifo:package_insert	pi:PI_9_3.item1	.
 if:IF_8_6_3.item1	dct:identifier	"8.6.3.item1"	.
 if:IF_8_6_3.item1	rdf:value	"9.3.1 重度の肝機能障害患者は禁忌としている。(「2.禁忌内容とその理由」の項参照)"@ja	.
 if:IF_8_6_3.item1	rdfs:seeAlso	if:IF_8_2	.
+if:IF_8_6_3.item2	rdf:type	ifo:Item	.
 if:IF_8_6_3.item2	ifo:package_insert	pi:PI_9_3.item2	.
 if:IF_8_6_3.item2	dct:identifier	"8.6.3.item2"	.
 if:IF_8_6_3.item2	rdf:value	"9.3.2 海外の臨床試験において、肝機能障害患者での血漿中濃度が上昇するとのデータが得られていることから56)、肝機能障害患者(重度を除く)には慎重に投与すること。"@ja	.
 if:IF_8_6_3.item2	dct:references	if:ref56	.
+if:IF_8_6_3.item3	rdf:type	ifo:Item	.
 if:IF_8_6_3.item3	ifo:package_insert	pi:PI_9_3.item3	.
 if:IF_8_6_3.item3	dct:identifier	"8.6.3.item3"	.
 if:IF_8_6_3.item3	rdf:value	"9.3.3 海外の臨床試験において、肝機能障害患者での血漿中濃度が上昇するとのデータが得られていることから56)、肝機能障害患者(重度を除く)には慎重に投与すること。"@ja	.
 if:IF_8_6_3.item3	dct:references	if:ref56	.
 if:IF_8_6_4	rdf:type	ifo:IF_8_6_4	.
+if:IF_8_6_4	rdf:type	ifo:Section	.
 if:IF_8_6_4	ifo:package_insert	pi:PI_9_4	.
 if:IF_8_6_4	ifo:item	if:IF_8_6_4.item1	.
+if:IF_8_6_4.item1	rdf:type	ifo:Item	.
 if:IF_8_6_4.item1	ifo:package_insert	pi:PI_9_4.item1	.
 if:IF_8_6_4.item1	dct:identifier	"8.6.4.item1"	.
 if:IF_8_6_4.item1	rdf:value	"9.4 動物実験(ラット)において、生殖器系への影響が認められた60～64)。ラット生殖器系への影響の発現機序は不明であることから、ヒトでの安全性に最大限の注意をはらうため、生殖可能な年齢の患者への投与はできる限り避けるよう注意喚起するため設定した。"@ja	.
@@ -782,30 +926,38 @@ if:IF_8_6_4.item1	dct:references	if:ref62	.
 if:IF_8_6_4.item1	dct:references	if:ref63	.
 if:IF_8_6_4.item1	dct:references	if:ref64	.
 if:IF_8_6_5	rdf:type	ifo:IF_8_6_5	.
+if:IF_8_6_5	rdf:type	ifo:Section	.
 if:IF_8_6_5	ifo:package_insert	pi:PI_9_5	.
 if:IF_8_6_5	ifo:item	if:IF_8_6_5.item1	.
+if:IF_8_6_5.item1	rdf:type	ifo:Item	.
 if:IF_8_6_5.item1	ifo:package_insert	pi:PI_9_5.item1	.
 if:IF_8_6_5.item1	dct:identifier	"8.6.5.item1"	.
 if:IF_8_6_5.item1	rdf:value	"動物実験(ラット、ウサギ)において、胎児への影響が認められた65,66)。本剤が過活動膀胱症状を抑え、QOLの改善を目的とする薬剤であることを考慮すると、本剤を妊婦に投与した場合、母親にもたらすベネフィットに比較して、胎児に対するリスクは許容できないことから設定した。"@ja	.
 if:IF_8_6_5.item1	dct:references	if:ref65	.
 if:IF_8_6_5.item1	dct:references	if:ref66	.
 if:IF_8_6_6	rdf:type	ifo:IF_8_6_6	.
+if:IF_8_6_6	rdf:type	ifo:Section	.
 if:IF_8_6_6	ifo:package_insert	pi:PI_9_6	.
 if:IF_8_6_6	ifo:item	if:IF_8_6_6.item1	.
+if:IF_8_6_6.item1	rdf:type	ifo:Item	.
 if:IF_8_6_6.item1	ifo:package_insert	pi:PI_9_6.item1	.
 if:IF_8_6_6.item1	dct:identifier	"8.6.6.item1"	.
 if:IF_8_6_6.item1	rdf:value	"動物実験(ラット)において、ミラベグロンの乳汁への移行や哺乳児の組織への分布44)、及び出生児への影響が認められた67)。本剤が過活動膀胱の症状緩和を目的とした薬剤で、QOL改善のために長期間投与される可能性を考慮すると、母乳を介した乳児への曝露が避けられない状況では、母親にもたらすベネフィットに比較して、乳児に対するリスクは許容できないことから「授乳婦」を禁忌とした。"@ja	.
 if:IF_8_6_6.item1	dct:references	if:ref44	.
 if:IF_8_6_6.item1	dct:references	if:ref67	.
 if:IF_8_6_7	rdf:type	ifo:IF_8_6_7	.
+if:IF_8_6_7	rdf:type	ifo:Section	.
 if:IF_8_6_7	ifo:package_insert	pi:PI_9_7	.
 if:IF_8_6_7	ifo:item	if:IF_8_6_7.item1	.
+if:IF_8_6_7.item1	rdf:type	ifo:Item	.
 if:IF_8_6_7.item1	ifo:package_insert	pi:PI_9_7.item1	.
 if:IF_8_6_7.item1	dct:identifier	"8.6.7.item1"	.
 if:IF_8_6_7.item1	rdf:value	"低出生体重児、新生児、乳児、幼児又は小児を対象とした試験は実施されておらず、小児等に対する安全性は確立されていないことから設定した。"@ja	.
 if:IF_8_6_8	rdf:type	ifo:IF_8_6_8	.
+if:IF_8_6_8	rdf:type	ifo:Section	.
 if:IF_8_6_8	ifo:package_insert	pi:PI_9_8	.
 if:IF_8_6_8	ifo:item	if:IF_8_6_8.item1	.
+if:IF_8_6_8.item1	rdf:type	ifo:Item	.
 if:IF_8_6_8.item1	ifo:package_insert	pi:PI_9_8.item1	.
 if:IF_8_6_8.item1	dct:identifier	"8.6.8.item1"	.
 if:IF_8_6_8.item1	rdf:value	"国内の臨床試験において、本剤50mgを1日1回投与したときの投与後18～30時間の血漿中ミラベグロン濃度を年齢別(65歳未満と65歳以上)に比較したところ、65歳以上の患者集団の血漿中濃度は65歳未満の患者集団の1.32倍だった17)。また、高齢者では一般に肝機能、腎機能などの各種生理機能が低下していることが多く、本剤を肝機能障害患者及び腎機能障害患者に投与した場合に血中濃度の上昇が認められている56)。したがって、本剤を高齢者に投与する際には、副作用の発現に注意し、患者の状態を十分に観察しながら慎重に投与すること。(「Ⅴ.4.用法及び用量に関連する注意」の項参照)"@ja	.
@@ -813,6 +965,7 @@ if:IF_8_6_8.item1	dct:references	if:ref17	.
 if:IF_8_6_8.item1	dct:references	if:ref56	.
 if:IF_8_6_8.item1	rdfs:seeAlso	if:IF_5_4	.
 if:IF_8_7	rdf:type	ifo:IF_8_7	.
+if:IF_8_7	rdf:type	ifo:Section	.
 if:IF_8_7	ifo:package_insert	pi:PI_16_7	.
 if:IF_8_7	rdf:value	"In vitro 代謝試験において、CYP3A4 がミラベグロンの CYP 代謝に主として関与している分子種であり 49) また、ミラベグロンが CYP2D6 を阻害することが示されている 50)。また、ミラベグロンが P-糖蛋白の基質であり 54)、P-糖蛋白を阻害することが示唆されている 55)。"@ja	.
 if:IF_8_7	dct:references	if:ref49	.
@@ -820,12 +973,15 @@ if:IF_8_7	dct:references	if:ref50	.
 if:IF_8_7	dct:references	if:ref54	.
 if:IF_8_7	dct:references	if:ref55	.
 if:IF_8_7_1	rdf:type	ifo:IF_8_7_1	.
+if:IF_8_7_1	rdf:type	ifo:Section	.
 if:IF_8_7_1	ifo:package_insert	pi:PI_10_1	.
 if:IF_8_7_1	ifo:item	if:IF_8_7_1.item1	.
+if:IF_8_7_1.item1	rdf:type	ifo:Item	.
 if:IF_8_7_1.item1	ifo:package_insert	pi:PI_10_1.item1	.
 if:IF_8_7_1.item1	dct:identifier	"8.7.1.item1"	.
 if:IF_8_7_1.item1	rdf:value	"本剤及びこれらの薬剤がともに催不整脈作用を有し、また本剤の CYP2D6 阻害作用により、CYP2D6 で代謝されるフレカイニド酢酸塩(タンボコール)、プロパフェノン塩酸塩(プロノン)の血中濃度が上昇するおそれがあることから設定した。"@ja	.
 if:IF_8_7_2	rdf:type	ifo:IF_8_7_2	.
+if:IF_8_7_2	rdf:type	ifo:Section	.
 if:IF_8_7_2	ifo:package_insert	pi:PI_10_2	.
 if:IF_8_7_2	ifo:item	if:IF_8_7_2.item1	.
 if:IF_8_7_2	ifo:item	if:IF_8_7_2.item2	.
@@ -834,149 +990,198 @@ if:IF_8_7_2	ifo:item	if:IF_8_7_2.item4	.
 if:IF_8_7_2	ifo:item	if:IF_8_7_2.item5	.
 if:IF_8_7_2	ifo:item	if:IF_8_7_2.item6	.
 if:IF_8_7_2	ifo:item	if:IF_8_7_2.item7	.
+if:IF_8_7_2.item1	rdf:type	ifo:Item	.
 if:IF_8_7_2.item1	ifo:package_insert	pi:PI_10_2.item1	.
 if:IF_8_7_2.item1	dct:identifier	"8.7.2.item1"	.
 if:IF_8_7_2.item1	rdf:value	"【カテコールアミン(アドレナリン、イソプレナリン 等)】\n本剤の国内臨床試験において、心拍数増加が認められている。(「2.禁忌内容とその理由」の項参照)\nカテコールアミンと本剤を併用する際は、アドレナリン作動性神経刺激の増大の可能性が否定できないので、頻脈、心室細動等の発現に注意しながら投与すること。"@ja	.
 if:IF_8_7_2.item1	rdfs:seeAlso	if:IF_8_2	.
+if:IF_8_7_2.item2	rdf:type	ifo:Item	.
 if:IF_8_7_2.item2	ifo:package_insert	pi:PI_10_2.item2	.
 if:IF_8_7_2.item2	dct:identifier	"8.7.2.item2"	.
 if:IF_8_7_2.item2	rdf:value	"【イトラコナゾール、リトナビル、アタザナビル、インジナビル、ネルフィナビル、サキナビル、クラリスロマイシン】\n薬物相互作用試験において、強いCYP3A4阻害作用及びP-糖蛋白阻害作用を有するケトコナゾール400mgと本剤100mgを併用することにより、本剤のAUCinfが1.81倍に上昇した68)(外国人データ)。強いCYP3A4阻害作用を有するこれらの薬剤と本剤を併用する際は、本剤の血中濃度が上昇する可能性があるので、心拍数増加等の症状の発現に注意しながら投与すること。また、これらの一部の薬剤には本剤の薬物動態に係わるP-糖蛋白の阻害作用を有する薬剤(イトラコナゾール、リトナビル、クラリスロマイシン)があり、この作用によっても本剤の血中濃度が上昇する可能性がある。"@ja	.
 if:IF_8_7_2.item2	dct:references	if:ref68	.
+if:IF_8_7_2.item3	rdf:type	ifo:Item	.
 if:IF_8_7_2.item3	ifo:package_insert	pi:PI_10_2.item3	.
 if:IF_8_7_2.item3	dct:identifier	"8.7.2.item3"	.
 if:IF_8_7_2.item3	rdf:value	"【リファンピシン、フェニトイン、カルバマゼピン】\n薬物相互作用試験において、強い CYP3A4 誘導作用及び P-糖蛋白誘導作用を有するリファンピシン 600mgと本剤 100mg を併用することにより、本剤の AUCinf が 0.56 倍に低下した 68)(外国人データ)。CYP3A4 及び P-糖蛋白誘導作用を有するこれらの薬剤と本剤を併用する際は、本剤の血中濃度が低下する可能性があるので、本剤の作用の減弱に注意しながら投与すること。"@ja	.
 if:IF_8_7_2.item3	dct:references	if:ref68	.
+if:IF_8_7_2.item4	rdf:type	ifo:Item	.
 if:IF_8_7_2.item4	ifo:package_insert	pi:PI_10_2.item4	.
 if:IF_8_7_2.item4	dct:identifier	"8.7.2.item4"	.
 if:IF_8_7_2.item4	rdf:value	"【CYP2D6 の基質(デキストロメトルファン、フェノチアジン系抗精神病剤(ペルフェナジン)、ドネペジル 等】\n薬物相互作用試験において、CYP2D6 の基質であるメトプロロールあるいはデシプラミン(国内未承認)と本剤を併用することにより、メトプロロール及びデシプラミンの血漿中濃度が上昇した 69)(外国人データ)。CYP2D6 の基質となる薬剤と本剤を併用する際は、CYP2D6 の基質となる薬剤又はその活性代謝物の血中濃度が上昇する可能性があるので、これらの薬剤の効果や副作用の発現に注意しながら投与すること。"@ja	.
 if:IF_8_7_2.item4	dct:references	if:ref69	.
+if:IF_8_7_2.item5	rdf:type	ifo:Item	.
 if:IF_8_7_2.item5	ifo:package_insert	pi:PI_10_2.item5	.
 if:IF_8_7_2.item5	dct:identifier	"8.7.2.item5"	.
 if:IF_8_7_2.item5	rdf:value	"【三環系抗うつ剤(アミトリプチリン塩酸塩、ノルトリプチリン塩酸塩、イミプラミン塩酸塩等)】\n薬物相互作用試験において、CYP2D6 で代謝される三環系抗うつ剤のデシプラミン(国内未承認)50mg と本剤 100mg を併用することにより、デシプラミンの AUCinf が 3.41 倍に上昇した 69)(外国人データ)。CYP2D6 で代謝されるデシプラミンの類薬である三環系抗うつ剤と本剤を併用する際は、三環系抗うつ剤又はその活性代謝物の血中濃度が上昇する可能性があるので、これらの薬剤の効果や副作用の発現に注意しながら投与すること。"@ja	.
 if:IF_8_7_2.item5	dct:references	if:ref69	.
+if:IF_8_7_2.item6	rdf:type	ifo:Item	.
 if:IF_8_7_2.item6	ifo:package_insert	pi:PI_10_2.item6	.
 if:IF_8_7_2.item6	dct:identifier	"8.7.2.item6"	.
 if:IF_8_7_2.item6	rdf:value	"【メトプロロール】\n薬物相互作用試験において、CYP2D6 で代謝されるメトプロロール 100mg とミラベグロン 160mg(IR カプセル)を併用することにより、メトプロロールの AUCinf が 3.29 倍に上昇した 69)(外国人データ)。メトプロロールと本剤を併用する際は、メトプロロールの効果や副作用の発現に注意しながら投与すること。"@ja	.
 if:IF_8_7_2.item6	dct:references	if:ref69	.
+if:IF_8_7_2.item7	rdf:type	ifo:Item	.
 if:IF_8_7_2.item7	ifo:package_insert	pi:PI_10_2.item7	.
 if:IF_8_7_2.item7	dct:identifier	"8.7.2.item7"	.
 if:IF_8_7_2.item7	rdf:value	"【ピモジド】\n本剤の CYP2D6 阻害作用により、ピモジドの血中濃度が上昇する可能性がある。また、本剤及びピモジドがともに催不整脈作用を有することから、ピモジドと本剤を併用する際は、QT 延長、心室性不整脈(Torsades de Pointes を含む)等の発現に注意しながら投与すること。"@ja	.
+if:IF_8_7_2.item8	rdf:type	ifo:Item	.
 if:IF_8_7_2.item8	ifo:package_insert	pi:PI_10_2.item8	.
 if:IF_8_7_2.item8	dct:identifier	"8.7.2.item8"	.
 if:IF_8_7_2.item8	rdf:value	"【ジゴキシン】\n薬物相互作用試験において、P-糖蛋白の基質であるジゴキシン 0.25mg と本剤 100mg を併用することにより、ジゴキシンの AUClast が 1.27 倍に上昇した 55)(外国人データ)。ジゴキシンと本剤を併用する際は、ジゴキシンの効果や副作用の発現に注意しながら投与すること。また、ジゴキシンの血中濃度の推移に注意すること。"@ja	.
 if:IF_8_7_2.item8	dct:references	if:ref55	.
 if:IF_8_8_1	rdf:type	ifo:IF_8_8_1	.
+if:IF_8_8_1	rdf:type	ifo:Section	.
 if:IF_8_8_1	ifo:package_insert	pi:PI_11_1	.
 if:IF_8_8_1	ifo:item	if:IF_8_8_1.item1	.
 if:IF_8_8_1	ifo:item	if:IF_8_8_1.item2	.
+if:IF_8_8_1.item1	rdf:type	ifo:Item	.
 if:IF_8_8_1.item1	ifo:package_insert	pi:PI_11_1.item1	.
 if:IF_8_8_1.item1	dct:identifier	"8.8.1.item1"	.
 if:IF_8_8_1.item1	rdf:value	"11.1.1 市販後において「尿閉」の発現症例が集積されたことから、「重大な副作用」の項に「尿閉」を記載して注意喚起した。"@ja	.
+if:IF_8_8_1.item2	rdf:type	ifo:Item	.
 if:IF_8_8_1.item2	ifo:package_insert	pi:PI_11_1.item2	.
 if:IF_8_8_1.item2	dct:identifier	"8.8.1.item2"	.
 if:IF_8_8_1.item2	rdf:value	"11.1.2 欧州において、本剤投与後に高血圧クリーゼが発現した症例及び高血圧と脳心血管系イベントが併発した症例が報告されたことを受け、国内においても国内外市販後における高血圧症例の集積状況を検討し、「重大な副作用」の項に「高血圧」を追記して注意喚起した。(「5.重要な基本的注意とその理由」の項参照)"@ja	.
 if:IF_8_8_2	rdf:type	ifo:IF_8_8_2	.
+if:IF_8_8_2	rdf:type	ifo:Section	.
 if:IF_8_8_2	ifo:package_insert	pi:PI_11_2	.
 if:IF_8_8_2	ifo:item	if:IF_8_8_2.item1	.
 if:IF_8_9	rdf:type	ifo:IF_8_9	.
+if:IF_8_9	rdf:type	ifo:Section	.
 if:IF_8_9	ifo:package_insert	pi:PI_12	.
 if:IF_8_9	rdf:value	"設定されていない"@ja	.
 if:IF_8_10	rdf:type	ifo:IF_8_10	.
+if:IF_8_10	rdf:type	ifo:Section	.
 if:IF_8_10	ifo:package_insert	pi:PI_13_2	.
-if:IF_8_10	rdf:value	"設定されていない"@ja	.
+if:IF_8_10	ifo:item	if:IF_8_10.item1	.
+if:IF_8_10.item1	rdf:type	ifo:Item	.
+if:IF_8_10.item1	ifo:package_insert	pi:PI_13_2.item1	.
+if:IF_8_10.item1	dct:identifier	"8.10.item1"	.
+if:IF_8_10.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_11	rdf:type	ifo:IF_8_11	.
+if:IF_8_11	rdf:type	ifo:Section	.
 if:IF_8_11	ifo:package_insert	pi:PI_14	.
 if:IF_8_11	ifo:item	if:IF_8_11.item1	.
 if:IF_8_11	ifo:item	if:IF_8_11.item2	.
+if:IF_8_11.item1	rdf:type	ifo:Item	.
 if:IF_8_11.item1	ifo:package_insert	pi:PI_14.item1	.
 if:IF_8_11.item1	dct:identifier	"8.11.item1"	.
 if:IF_8_11.item1	rdf:value	"本剤にはPTP(Press Through Package)包装の仕様があるので、日薬連第240号(平成8年3月27日付)及び第304号(平成8年4月18日付)「PTP誤飲対策について」に従い設定した。PTPシートの誤飲により、硬い鋭角部が食道粘膜へ刺入し、更には穿孔を起こして縦隔洞炎等の重篤な合併症を併発することがあるので、薬剤交付時には、PTPシートから取り出して服用するよう患者へ指導>すること。"@ja	.
+if:IF_8_11.item2	rdf:type	ifo:Item	.
 if:IF_8_11.item2	ifo:package_insert	pi:PI_14.item2	.
 if:IF_8_11.item2	dct:identifier	"8.11.item2"	.
 if:IF_8_11.item2	rdf:value	"14.1.2 本剤を割ったり、砕いたりすると本剤の徐放性が失われ、薬物動態が変わるおそれがあることから、本剤をそのままかまずに服用するよう患者へ指導すること。"@ja	.
 if:IF_8_12_1	rdf:type	ifo:IF_8_12_1	.
+if:IF_8_12_1	rdf:type	ifo:Section	.
 if:IF_8_12_1	ifo:package_insert	pi:PI_15_1	.
 if:IF_8_12_1	rdf:value	"設定されていない"@ja	.
 if:IF_8_12_2	rdf:type	ifo:IF_8_12_2	.
+if:IF_8_12_2	rdf:type	ifo:Section	.
 if:IF_8_12_2	ifo:package_insert	pi:PI_15_2	.
 if:IF_8_12_2	rdf:value	"設定されていない"@ja	.
 if:IF_9_1_1	rdf:type	ifo:IF_9_1_1	.
+if:IF_9_1_1	rdf:type	ifo:Section	.
 if:IF_9_1_1	rdf:value	"Ⅵ．薬効薬理に関する項目」の項参照"@ja	.
 if:IF_9_1_1	rdfs:seeAlso	if:IF_6	.
 if:IF_9_1_2	rdf:type	ifo:IF_9_1_2	.
+if:IF_9_1_2	rdf:type	ifo:Section	.
 if:IF_9_1_2	dct:references	if:ref70	.
 if:IF_9_1_3	rdf:type	ifo:IF_9_1_3	.
+if:IF_9_1_3	rdf:type	ifo:Section	.
 if:IF_9_1_3	rdf:value	"該当資料なし"@ja	.
 if:IF_9_2_1	rdf:type	ifo:IF_9_2_1	.
+if:IF_9_2_1	rdf:type	ifo:Section	.
 if:IF_9_2_1	dct:references	if:ref71	.
 if:IF_9_2_2	rdf:type	ifo:IF_9_2_2	.
+if:IF_9_2_2	rdf:type	ifo:Section	.
 if:IF_9_2_2	dct:references	if:ref60	.
 if:IF_9_2_2	dct:references	if:ref62	.
 if:IF_9_2_2	dct:references	if:ref72	.
 if:IF_9_2_3	rdf:type	ifo:IF_9_2_3	.
+if:IF_9_2_3	rdf:type	ifo:Section	.
 if:IF_9_2_3	rdf:value	"ネズミチフス菌及び大腸菌を用いた復帰突然変異試験において、遺伝子突然変異誘発性は認められなかった。ヒト末梢血リンパ球を用いた染色体異常試験において、代謝活性化系の存在下及び非存在下に処理した場合に染色体異常を持つ細胞数の増加が認められたが、いずれも強い細胞毒性を示す濃度(細胞生存率 40％未満)における変化であった。ラットを用いた小核試験において、小核誘発性は認められなかった。"@ja	.
 if:IF_9_2_3	dct:references	if:ref73	.
 if:IF_9_2_4	rdf:type	ifo:IF_9_2_4	.
+if:IF_9_2_4	rdf:type	ifo:Section	.
 if:IF_9_2_4	rdf:value	"マウス(25、50、100mg/kg/日、経口投与、104 週)及びラット(12.5、25、50mg/kg/日、25、50、100mg/kg/ 日、経口投与、104 週)を用いた試験において、がん原性は認められなかった。"@ja	.
 if:IF_9_2_4	dct:references	if:ref73	.
 if:IF_9_2_5	rdf:type	ifo:IF_9_2_5	.
+if:IF_9_2_5	rdf:type	ifo:Section	.
 if:IF_9_2_5	dct:references	if:ref74	.
 if:IF_9_2_5	dct:references	if:ref64	.
 if:IF_9_2_5	dct:references	if:ref65	.
 if:IF_9_2_5	dct:references	if:ref66	.
 if:IF_9_2_5	dct:references	if:ref67	.
 if:IF_9_2_6	rdf:type	ifo:IF_9_2_6	.
+if:IF_9_2_6	rdf:type	ifo:Section	.
 if:IF_9_2_6	rdf:value	"ウサギを用いた皮膚刺激性試験(0.5g、貼布)において、皮膚刺激性は認められなかった。ウサギを用いた眼粘膜刺激性試験(100mg、眼結膜嚢内曝露)において、軽微な眼粘膜刺激性が認められたが、直ちに洗浄することにより眼粘膜刺激性は軽減された。ウサギを用いた血管局所刺激性試験(0.05mL、静脈内及び 0.2mL、静脈周囲)において、10mg_mL の濃度に調製されたミラべグロンは静脈内投与により回復性のある軽度な刺激性を示し、静脈周囲投与により皮下組織の炎症性反応を伴う刺激性を誘発することが示された。"@ja	.
 if:IF_9_2_6	dct:references	if:ref75	.
 if:IF_9_2_7	rdf:type	ifo:IF_9_2_7	.
+if:IF_9_2_7	rdf:type	ifo:Section	.
 if:IF_9_2_7	rdf:value	"1) 皮膚感作性試験\nモルモットを用いた皮膚感作性試験(Adjuvant and Patch 法及び Buehler 法：感作 1、10％、惹起 2、10％、貼布)において、中等度の皮膚感作性が認められた。\n2) 溶血性試験\nヒト血液に対して溶血性は認められなかった。"@ja	.
 if:IF_9_2_7	dct:references	if:ref76	.
 if:IF_9_2_7	dct:references	if:ref77	.
 if:IF_10_1	rdf:type	ifo:IF_10_1	.
+if:IF_10_1	rdf:type	ifo:Section	.
 if:IF_10_1	ifo:package_insert	pi:PI_0_6	.
 if:IF_10_1	rdf:value	"製剤： ベタニス錠 25mg、ベタニス錠 50mg\n    劇薬\n    処方箋医薬品 注意－医師等の処方箋により使用すること\n有効成分： ミラベグロン\n    毒薬"@ja	.
 if:IF_10_2	rdf:type	ifo:IF_10_2	.
+if:IF_10_2	rdf:type	ifo:Section	.
 if:IF_10_2	ifo:package_insert	pi:PI_0_4	.
 if:IF_10_2	rdf:value	"有効期間：3年"@ja	.
 if:IF_10_3	rdf:type	ifo:IF_10_3	.
+if:IF_10_3	rdf:type	ifo:Section	.
 if:IF_10_3	ifo:package_insert	pi:PI_0_4	.
 if:IF_10_3	rdf:value	"貯法：室温保存"@ja	.
 if:IF_10_5	rdf:type	ifo:IF_10_5	.
+if:IF_10_5	rdf:type	ifo:Section	.
 if:IF_10_5	rdf:value	"患者向医薬品ガイド:あり\nくすりのしおり:あり"@ja	.
 if:IF_10_6	rdf:type	ifo:IF_10_6	.
+if:IF_10_6	rdf:type	ifo:Section	.
 if:IF_10_6	rdf:value	"同一成分薬:なし\n同 効 薬:ビベグロン錠 50mg、バップフォー錠 10・20、バップフォー細粒 2%、デトルシトールカプセル 2mg・4mg、ベシケア錠 2.5mg・5mg、ベシケア OD 錠 2.5mg・5mg、ステーブラ錠 0.1mg、 ステーブラ OD 錠 0.1mg、ウリトス錠 0.1mg、ウリトス OD 錠 0.1mg"@ja	.
 if:IF_10_7	rdf:type	ifo:IF_10_7	.
+if:IF_10_7	rdf:type	ifo:Section	.
 if:IF_10_7	rdf:value	"2011年7月1日（日本）"@ja	.
 if:IF_10_7	dct:date	"2011-07-01"^^xsd:date	.
 if:IF_10_9	rdf:type	ifo:IF_10_9	.
+if:IF_10_9	rdf:type	ifo:Section	.
 if:IF_10_9	rdf:value	"該当しない"@ja	.
 if:IF_10_10	rdf:type	ifo:IF_10_10	.
+if:IF_10_10	rdf:type	ifo:Section	.
 if:IF_10_10	rdf:value	"該当しない"@ja	.
 if:IF_10_11	rdf:type	ifo:IF_10_11	.
-if:IF_10_11	ifo:item	if:IF_10_11.item1	.
-if:IF_10_11.item1	rdf:value	"8年間：2011年7月1日〜2019年6月30日"@ja	.
+if:IF_10_11	rdf:type	ifo:Section	.
+if:IF_10_11	rdf:value	"8年間：2011年7月1日〜2019年6月30日"@ja	.
 if:IF_10_12	rdf:type	ifo:IF_10_12	.
+if:IF_10_12	rdf:type	ifo:Section	.
 if:IF_10_12	ifo:package_insert	pi:PI_25	.
 if:IF_10_12	rdf:value	"「療担規則及び薬担規則並びに療担基準に基づき厚生労働大臣が定める掲示事項等」(厚生労働省告示第107 号：平成 18 年 3 月 6 日付)とその一部改正(厚生労働省告示第 97 号：平成 20 年 3 月 19 日付)により「投薬期間に上限が設けられている医薬品」には該当しない。"@ja	.
 if:IF_10_14	rdf:type	ifo:IF_10_14	.
+if:IF_10_14	rdf:type	ifo:Section	.
 if:IF_10_14	ifo:package_insert	pi:PI_25	.
 if:IF_10_14	rdf:value	"該当しない"@ja	.
 if:IF_11_2	rdf:type	ifo:IF_11_2	.
+if:IF_11_2	rdf:type	ifo:Section	.
 if:IF_11_2	rdf:value	"該当資料なし"@ja	.
 if:IF_12_1	rdf:type	ifo:IF_12_1	.
+if:IF_12_1	rdf:type	ifo:Section	.
 if:IF_12_1	ifo:package_insert	pi:PI_6	.
 if:IF_12_1	rdf:value	"本邦における承認された効能又は効果並びに用法及び用量は以下のとおりであり、外国での承認状況とは 異なる。\n4.効能又は効果\n過活動膀胱における尿意切迫感、頻尿及び切迫性尿失禁\n5.効能又は効果に関連する注意\n5.1 本剤を適用する際、十分な問診により臨床症状を確認するとともに、類似の症状を呈する疾患(尿路感染症、尿路結石、膀胱癌や前立腺癌などの下部尿路における新生物等)があることに留意し、尿検査等により除外診断を実施すること。なお、必要に応じて専門的な検査も考慮すること。\n5.2 下部尿路閉塞疾患(前立腺肥大症等)を合併している患者では、それに対する治療(α1 遮断薬等)を優先させること。\n6.用法及び用量\n通常、成人にはミラベグロンとして 50mg を 1 日 1 回食後に経口投与する。\n7.用法及び用量に関連する注意\n7.1 中等度の肝機能障害患者(Child-Pugh スコア 7~9)への投与は 1 日 1 回 25mg から開始する。\n7.2 重度の腎機能障害患者(eGFR15~29mL/min/1.73m2)への投与は 1 日 1 回 25mg から開始する。\n世界 81 の国と地域で承認(2019 年 5 月現在)"@ja	.
 if:IF_12_2	rdf:type	ifo:IF_12_2	.
+if:IF_12_2	rdf:type	ifo:Section	.
 if:IF_12_2	ifo:package_insert	pi:PI_9_7	.
 if:IF_12_2	ifo:item	if:IF_12_2.item1	.
 if:IF_12_2	ifo:item	if:IF_12_2.item2	.
+if:IF_12_2.item1	rdf:type	ifo:Item	.
 if:IF_12_2.item1	ifo:package_insert	pi:PI_9_7.item1	.
 if:IF_12_2.item1	dct:identifier	"12.2.item1"	.
 if:IF_12_2.item1	rdf:value	"(1)妊婦への投与に関する海外情報(FDA、オーストラリア分類)\n日本の添付文書の「9.5 妊婦」、「9.6 授乳婦」の項の記載は以下のとおりであり、FDA(米国添付文書)、 オーストラリア分類とは異なる。\n本邦における使用上の注意\n9.5 妊婦\n妊婦又は妊娠している可能性のある女性には投与しないこと。動物実験(ラット、ウサギ)で、胎児にお いて着床後死亡率の増加、体重低値、肩甲骨等の屈曲及び波状肋骨の増加、骨化遅延(胸骨分節、中手 骨、中節骨等の骨化数低値)、大動脈の拡張及び巨心の増加、肺副葉欠損が認められている。\n9.6 授乳婦\n授乳を避けさせること。動物実験(ラット)で乳汁移行が認められている。また、授乳期に本薬を母動物 に投与した場合、出生児で生存率の低値及び体重増加抑制が認められている。\n米国における添付文書の記載は以下のとおりである。\n8.1 Pregnancy\nRisk Summary\nThere are no studies with the use of MYRBETRIQ in pregnant women to inform drug-associated risk for birth defects or miscarriage. Mirabegron administration to pregnant animals during organogenesis resulted in reversible skeletal variations (in rats) at 22-fold (via AUC) the maximum recommended human dose (MRHD) of 50 mg/day and decreased fetal body weights (in rabbits) at 14-fold the MRHD. At maternally toxic exposures in rats (96-fold), decreased fetal weight and increased fetal mortality were observed and, in rabbits (36-fold), cardiac findings (fetal cardiomegaly and fetal dilated aortae) were observed.\nThe estimated background risks of major birth defects and miscarriage for the indicated populations are unknown. In the U.S. general population, the estimated background risks of major birth defects and miscarriage in clinically recognized pregnancies are 2-4% and 15-20%, respectively.\nData\nAnimal Data\nNo embryo-fetal lethality or morphological fetal developmental abnormalities were produced in pregnant rats following daily oral administration of mirabegron during the period of organogenesis (Days 7 to 17 of gestation) at 0, 10, 30, 100, or 300 mg/kg, doses which were associated with systemic exposures (AUC) 0, 1, 6, 22 and 96-fold the MRHD. Skeletal variations (wavy ribs, delayed ossification) were observed in fetuses at doses 22-fold the systemic exposure at the MRHD and were reversible during development. Exposures 96-fold the MRHD were maternally toxic (mortality, decreased body weight gain) and associated with fetal growth reduction.\nPregnant rabbits were treated with daily oral doses of mirabegron at 0, 3, 10, or 30 mg/kg/day during the period of organogenesis (Days 6 to 20 of gestation), which resulted in plasma exposures that were 0, 1, 14, or 36-fold the MRHD based on AUC. At 10 mg/kg/day (14-fold the MRHD) and higher, fetal body weights were reduced. At 30 mg/kg/day, maternal toxicity (increased heart rate, mortality, reduced body weight gain, reduced food consumption) occurred, and fetal deaths, fetal cardiomegaly and fetal dilated aortae were observed at systemic exposure levels (AUC) 36-fold the MRHD.\nIn a pre-and postnatal developmental study, rats were treated with daily oral doses of mirabegron at 0, 10, 30, or 100 mg/kg/day (0, 1, 6, or 22-fold the MRHD) from day 7 of gestation until day 20 after birth. Decreased maternal body weight was observed along with decreased pup survival in the first few days after birth (92.7% survival) compared to the control group (98.8% survival), at 100 mg/kg/day (22-fold the MRHD). Pup body weight gain was reduced until postnatal day 7 but not further affected throughout the remainder of the lactation period. In utero and lactational exposure did not affect developmental milestones, behavior or fertility of offspring. No effects were observed at 30 mg/kg/day.\n8.2 Lactation\nRisk Summary\nThere is no information on the presence of mirabegron in human milk, the effects on the breastfed child, or the effects on milk production. Mirabegron-related material was present in rat milk and in the stomach of nursing pups following administrations of a single 10 mg/kg oral dose of 14C-labeled mirabegron to lactating rats.\nThe developmental and health benefits of breastfeeding should be considered along with the mother’s clinical need for MYRBETRIQ and any potential adverse effects on the breastfed child from MYRBETRIQ or from the underlying maternal condition.\n<参考:分類の概要>\nオーストラリア分類:An Australian categorisation of risk of drug use in pregnancy\nB3:Drugs which have been taken by only a limited number of pregnant women and women of childbearing age, without an increase in the frequency of malformation or other direct or indirect harmful effects on the human fetus having been observed.\nStudies in animals have shown evidence of an increased occurrence of fetal damage, the significance of which is considered uncertain in humans.\nAustralian public assessment for mirabegron 〈https://www.tga.gov.au/file/1307/download〉(2019/05/17 アクセス)"@ja	.
+if:IF_12_2.item2	rdf:type	ifo:Item	.
 if:IF_12_2.item2	ifo:package_insert	pi:PI_9_7.item2	.
 if:IF_12_2.item2	dct:identifier	"12.2.item2"	.
 if:IF_12_2.item2	rdf:value	"(2)小児等に関する記載\n日本の添付文書の記載は以下のとおりであり、米国の添付文書及び英国の SPC とは異なる。\n9.特定の背景を有する患者に関する注意 9.7 小児等\n小児等を対象とした有効性及び安全性を指標とした国内の臨床試験は実施していない。\nSPC:Betmiga 25mg & 50mg prolonged-release tablets 〈https://www.medicines.org.uk/emc/medicine/27429〉(2019/05/15 アクセス)"@ja	.
 if:IF_13	rdf:type	ifo:IF_13	.
+if:IF_13	rdf:type	ifo:Section	.
 if:IF_13	rdf:value	"その他の関連資料\n該当資料なし"@ja	.
 if:ref1	rdf:type	bibo:Article	.
 if:ref1	dct:creator	"本間 之夫 他"@ja	.

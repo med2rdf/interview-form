@@ -104,8 +104,8 @@ IF_4_1_1,rdf:value,フィルムコーティング錠
 IF_4_1_2,rdf:value,
 IF_4_1_3,rdf:value,TA127（錠剤表面及び PTP に表示）
 IF_4_1_4,rdf:value,硬度：約 12kg（schleunger 硬度計）
+IF_4_1_4,rdfs:seeAlso,
 IF_4_1_5,rdf:value,該当しない
-IF_4_1_5,rdfs:seeAlso,
 IF_4_2,,
 IF_4_2_1,rdf:value,
 IF_4_2_2,rdf:value,該当しない
@@ -133,9 +133,9 @@ IF_4_12,dct:references,
 IF_5,,
 IF_5_1,rdf:value,"○ 慢性胃炎における消化器症状（腹部疼痛、悪心、噯気、腹部膨満感）
 ○ 過敏性腸症候群"
-IF_5_2,rdf:value,
-IF_5_2,ifo:item,item1
-item1,rdf:value,設定されていない
+IF_5_2,rdf:value,設定されていない
+IF_5_2,ifo:item,
+item1,rdf:value,
 item1,dct:references,
 item2,rdf:value,
 ,,
@@ -162,8 +162,9 @@ IF_5_3_2,rdf:value,"〈慢性胃炎における消化器症状〉
 副作用の発生類度は高用量で若干高い発生率であったが、症状の種類においては各用量とも類似したもので、症状の程度をも考慮し、特に重視するべきものはなかった。
 これらの事実より、「用法及び用量」を上記のとおり設定した。"
 IF_5_3_2,rdfs:seeAlso,
-IF_5_4,ifo:item,item1
-item1,rdf:value,設定されていない
+IF_5_4,rdf:value,設定されていない
+IF_5_4,ifo:item,
+item1,rdf:value,
 item1,rdfs:seeAlso,
 item2,rdf:value,
 item2,,
@@ -306,8 +307,8 @@ IF_7_3,,
 IF_7_3_1,rdf:value,該当資料なし
 IF_7_3_2,rdf:value,該当資料なし
 IF_7_3_2,dct:references,
-??,rdf:value,
-??,dct:references,
+IF_7_3_3,rdf:value,
+IF_7_3_3,dct:references,
 IF_7_4,ifo:item,item1
 item1,rdf:value,"Slc:Wistar 系雄ラットの小腸（空腸）結紮部に14C-トリメブチン（100mg/0.4mL）を投与し、所定の時間を経過した後、消化管内に残存する放射能を定量した。トリメブチンの消化管からの吸収は速やかであり、1 時間までに94％の放射能が吸収され、その際の消失半減期は第一相が10 分、第二相が425 分であった18）。
 ラット結紮腸管からの放射能吸収率は6 時間で44.6％、24 時間までに79.4％に達した。また、その際の胆汁中排泄は6 時間までに13.7％、24 時間までに39.9％となり、腸肝循環のあることが確認された18）。"
@@ -508,9 +509,10 @@ IF_8_8_2,ifo:item,item1
 item1,rdf:value,
 item2,rdf:value,
 IF_8_9,rdf:value,設定されていない
-IF_8_10,rdf:value,設定されていない
-item1,rdf:value,
+IF_8_10,ifo:item,item1
+item1,rdf:value,設定されていない
 item2,rdf:value,
+,,
 IF_8_11,ifo:item,item1
 item1,rdf:value,平成8 年3 月27 日付 日薬連発第240 号に基づきPTP 誤飲対策の一環として、「薬剤交付時」の注意を記載している。
 item2,rdf:value,
@@ -592,8 +594,9 @@ IF_10_9,rdf:value,"一部変更承認年月日：1988 年5 月31 日
 内容：過敏性腸症候群の効能追加"
 IF_10_10,rdf:value,"再審査結果公表年月日：1991 年3 月6 日
 内容：薬事法第14 条第2 項各号のいずれにも該当しない"
-IF_10_11,ifo:item,item1
-item1,rdf:value,1984 年2 月15 日～1990 年2 月14 日（終了）
+IF_10_11,rdf:value,1984 年2 月15 日～1990 年2 月14 日（終了）
+IF_10_11,ifo:item,
+item1,rdf:value,
 item2,rdf:value,
 item3,rdf:value,
 item4,rdf:value,

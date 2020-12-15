@@ -228,7 +228,8 @@
 <http://med2rdf.org/pi/530263_1900400A1025_1_01>	dct:identifier	"530263_1900400A1025_1_01"	.
 <http://med2rdf.org/if/530263_1900400A1025_1_001_1F>	rdfs:seeAlso	<https://www.info.pmda.go.jp/go/interview/1/530263_1900400A1025_1_001_1F>	.
 <http://med2rdf.org/pi/530263_1900400A1025_1_01>	rdfs:seeAlso	<https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/530263_1900400A1025_1_01>	.
-<http://med2rdf.org/if/530263_1900400A1025_1_001_1F>	ifo:yjcode	yjc:1900400A1025	.
+<http://med2rdf.org/if/530263_1900400A1025_1_001_1F>	ifo:drug	yjc:1900400A1025	.
+yjc:1900400A1025	rdf:type	ifo:Drug	.
 yjc:1900400A1025	ifo:if_0_8	"ビルテプソ点滴静注250mg"@ja	.
 yjc:1900400A1025	ifo:if_0_9	"水性注射液"@ja	.
 yjc:1900400A1025	ifo:if_0_11	"1 バイアル中ビルトラルセン250 mg 含有"@ja	.
@@ -241,544 +242,722 @@ yjc:1900400A1025	ifo:yj_code	"1900400A1025"	.
 yjc:1900400A1025	ifo:hot_code	"1280630010101"	.
 yjc:1900400A1025	ifo:resept_code	"622806301"	.
 if:IF_0_3	rdf:type	ifo:IF_0_3	.
+if:IF_0_3	rdf:type	ifo:Section	.
 if:IF_0_3	dct:modified	"2020-5"	.
 if:IF_0_3	pav:version	"3"	.
 if:IF_0_4	rdf:type	ifo:IF_0_4	.
+if:IF_0_4	rdf:type	ifo:Section	.
 if:IF_0_4	ifo:package_insert	pi:PI_0_2	.
 if:IF_0_4	rdf:value	"87190"	.
 if:IF_0_6	rdf:type	ifo:IF_0_6	.
+if:IF_0_6	rdf:type	ifo:Section	.
 if:IF_0_6	rdf:value	"2018"^^xsd:gYear	.
 if:IF_0_7	rdf:type	ifo:IF_0_7	.
+if:IF_0_7	rdf:type	ifo:Section	.
 if:IF_0_7	ifo:package_insert	pi:PI_0_5	.
 if:IF_0_7	rdf:value	"デュセンヌ型筋ジストロフィー治療剤"@ja	.
 if:IF_0_8	rdf:type	ifo:IF_0_8	.
+if:IF_0_8	rdf:type	ifo:Section	.
 if:IF_0_8	ifo:package_insert	pi:PI_0_7	.
 if:IF_0_8	rdf:value	"ビルテプソ点滴静注250mg"@ja	.
 if:IF_0_10	rdf:type	ifo:IF_0_10	.
+if:IF_0_10	rdf:type	ifo:Section	.
 if:IF_0_10	ifo:package_insert	pi:PI_0_6	.
 if:IF_0_10	rdf:value	"処方箋医薬品（注意－医師等の処方箋により使用すること）"@ja	.
 if:IF_0_12	rdf:type	ifo:IF_0_12	.
+if:IF_0_12	rdf:type	ifo:Section	.
 if:IF_0_12	ifo:package_insert	pi:PI_0_7	.
 if:IF_0_12	rdf:value	"ビルトラルセン（JAN）"@ja	.
 if:IF_0_12	rdf:value	"Viltolarsen（JAN）"@ja	.
 if:IF_0_16	rdf:type	ifo:IF_0_16	.
+if:IF_0_16	rdf:type	ifo:Section	.
 if:IF_0_16	ifo:package_insert	pi:PI_26	.
 if:IF_0_16	rdf:value	"日本新薬株式会社"@ja	.
 if:IF_0_18	rdf:type	ifo:IF_0_18	.
+if:IF_0_18	rdf:type	ifo:Section	.
 if:IF_0_18	ifo:package_insert	pi:PI_24	.
 if:IF_0_18	rdf:value	"日本新薬株式会社 製品情報担当\n TEL 0120-321-372 FAX 075-321-9061\n 医療関係者向けホームページ\n https://www.nippon-shinyaku.co.jp/medicine/product/product_index.html"@ja	.
 if:IF_0_19	rdf:type	ifo:IF_0_19	.
+if:IF_0_19	rdf:type	ifo:Section	.
 if:IF_0_19	ifo:package_insert	pi:PI_0_1	.
 if:IF_0_19	rdf:value	"2020-4"	.
 if:IF_1_1	rdf:type	ifo:IF_1_1	.
+if:IF_1_1	rdf:type	ifo:Section	.
 if:IF_1_1	rdf:value	"本剤（販売名：ビルテプソ®）はビルトラルセンを有効成分とする注射剤であり、デュシェンヌ型筋ジストロフィー（DMD）治療を目的として日本新薬株式会社と国立精神・神経医療研究センター（NCNP）で共同創製し、日本新薬株式会社で開発したモルホリノ構造を有する新規アンチセンス核酸である。\n DMD は、X 染色体上に存在するジストロフィン遺伝子が遺伝的変異により欠失又は重複することにより、機能的なジストロフィンタンパクが欠損することで発症するX 連鎖性劣性遺伝疾患である。ビルトラルセンは、ジストロフィン遺伝子のmRNA 前駆体のエクソン53 部分に結合することでエクソン53 をスキップさせ、正常より短鎖ではあるが、機能するジストロフ\n ィンタンパクを発現させる。\n 本剤の臨床開発は、2013 年6 月に国内第I 相試験を医師主導治験として開始し、国内第I/II相試験、米国及びカナダでの海外第II 相試験を実施した。これらの臨床試験の結果から、DMDに対する本剤の有効性及び安全性が確認されたとして、2019 年9 月に製造販売承認申請を行い、2020 年3 月に「エクソン53 スキッピングにより治療可能なジストロフィン遺伝子の欠失が確認されていデュシェンヌ型筋ジストロフィー」を効能・効果として承認された。\n なお、本剤は、国内で2015 年10 月に先駆け審査指定制度の対象品目となり、2019 年8 月に希少疾病用医薬品の指定を受けている。また、2019 年10 月に医薬品の条件付き早期承認制度の適用の対象とされている。\n 海外では、米国において2019 年12 月に本剤の承認申請が行われ、審査中である。2020 年3月時点において、本邦以外に本剤が承認されている国又は地域はない。"@ja	.
 if:IF_1_2	rdf:type	ifo:IF_1_2	.
+if:IF_1_2	rdf:type	ifo:Section	.
 if:IF_1_2	ifo:package_insert	pi:PI_11_1	.
 if:IF_1_2	rdf:value	"・国内初のエクソン53 スキッピング作用を有するDMD 治療薬である。DMD 患者由来線維芽細胞を用いたin vitro 試験及びカニクイザルを用いたin vivo 試験において、エクソン53\n スキッピング活性が認められている。（「Ⅵ．２．（２）薬効を裏付ける試験成績」の項参照）\n ・日本人及び外国人のDMD患者に本剤80 mg/kgを週1回、24週間投与した際、ジストロフィン発現が確認されている。（「Ⅴ．５．（３）用量反応探索試験」の項参照）\n ・外国人DMD患者に本剤80 mg/kgを週1回、24週間投与した際の運動機能評価を自然歴データと比較した結果、複数の運動機能評価項目で有意な改善が認められている。（「Ⅴ．５．\n （３）用量反応探索試験」の項参照）\n ・重大な副作用は設定されていない。（「Ⅷ．８．（１）重大な副作用と初期症状」の項参照）"@ja	.
 if:IF_1_2	rdfs:seeAlso	if:IF_6_2_2	.
 if:IF_1_2	rdfs:seeAlso	if:IF_5_5_3	.
 if:IF_1_2	rdfs:seeAlso	if:IF_8_8_1	.
 if:IF_1_3	rdf:type	ifo:IF_1_3	.
+if:IF_1_3	rdf:type	ifo:Section	.
 if:IF_1_3	rdf:value	"・本剤を希釈するときは生理食塩液を使用する。また、本剤は、独立したラインにより投与すること。（「Ⅳ．７．調製法及び溶解後の安定性」、及び「Ⅷ．１１．適用上の注意」の項参照）"@ja	.
 if:IF_1_3	rdfs:seeAlso	if:IF_8_11	.
 if:IF_1_4_1	rdf:type	ifo:IF_1_4_1	.
+if:IF_1_4_1	rdf:type	ifo:Section	.
 if:IF_1_4_1	rdf:value	"有"@ja	.
 if:IF_1_4_1	rdfs:comment	"（「1.6.ＲＭＰの概要」の項参照）"@ja	.
 if:IF_1_4_1	rdfs:seeAlso	if:IF_1_6	.
 if:IF_1_4_2	rdf:type	ifo:IF_1_4_2	.
+if:IF_1_4_2	rdf:type	ifo:Section	.
 if:IF_1_4_2	rdf:value	"有"@ja	.
 if:IF_1_4_2	rdfs:comment	"・医療従事者向け資材：適正使用ガイド\n （「ⅩⅢ．２．その他の関連資料」の項参照）\n ・患者向け資材：ビルテプソによる治療を受けられる患者\n 様・ご家族様へ\n （「ⅩⅢ．２．その他の関連資料」の項参照）"@ja	.
 if:IF_1_4_2	rdfs:seeAlso	if:IF_13_2	.
 if:IF_1_4_3	rdf:type	ifo:IF_1_4_3	.
+if:IF_1_4_3	rdf:type	ifo:Section	.
 if:IF_1_4_3	rdf:value	"無"@ja	.
 if:IF_1_4_4	rdf:type	ifo:IF_1_4_4	.
+if:IF_1_4_4	rdf:type	ifo:Section	.
 if:IF_1_4_4	rdf:value	"無"@ja	.
 if:IF_1_5_1	rdf:type	ifo:IF_1_5_1	.
+if:IF_1_5_1	rdf:type	ifo:Section	.
 if:IF_1_5_1	ifo:package_insert	pi:PI_21	.
 if:IF_1_5_1	rdf:value	"１）医薬品リスク管理計画を策定の上、適切に実施すること。（「Ⅰ．６．ＲＭＰの概要」の項参照）\n ２）国内での治験症例が極めて限られていることから、再審査期間中は、全症例を対象とした使用成績調査を実施することにより、本剤の使用患者の背景情報を把握するとともに、本剤の安全性及び有効性に関するデータを早期に収集し、本剤の適正使用に必要な措置を講じること。\n ３）本剤の有効性及び安全性の確認を目的とした臨床試験及び国内レジストリを用いた調査を実施し、終了後速やかに試験成績及び解析結果を提出すること。"@ja	.
 if:IF_1_5_1	rdfs:seeAlso	if:IF_1_6	.
 if:IF_1_5_2	rdf:type	ifo:IF_1_5_2	.
+if:IF_1_5_2	rdf:type	ifo:Section	.
 if:IF_1_5_2	ifo:package_insert	pi:PI_21	.
 if:IF_1_5_2	rdf:value	"１）本剤の初回投与の可否、投与継続及び有効性の判断は、DMD を専門に診療しており、ジストロフィン遺伝子の遺伝子診断が可能な施設で行われること。\n ２）本剤の投与が可能と判断された患者が１）とは別の施設で投与を受ける際には、患者に遺伝子診断が実施されていることを確認した後で納入を行う。"@ja	.
 if:IF_1_6	rdf:type	ifo:IF_1_6	.
+if:IF_1_6	rdf:type	ifo:Section	.
 if:IF_1_6	ifo:package_insert	pi:PI_1	.
 if:IF_1_6	rdf:value	"最新の情報は、独立行政法人 医薬品医療機器総合機構の医薬品情報検索ページで確認してください。"@ja	.
 if:IF_2_1_1	rdf:type	ifo:IF_2_1_1	.
+if:IF_2_1_1	rdf:type	ifo:Section	.
 if:IF_2_1_1	ifo:package_insert	pi:PI_0_7	.
 if:IF_2_1_1	rdf:value	"ビルテプソ点滴静注250mg"@ja	.
 if:IF_2_1_2	rdf:type	ifo:IF_2_1_2	.
+if:IF_2_1_2	rdf:type	ifo:Section	.
 if:IF_2_1_2	ifo:package_insert	pi:PI_0_7	.
 if:IF_2_1_2	rdf:value	"Viltepso Injection"	.
 if:IF_2_1_3	rdf:type	ifo:IF_2_1_3	.
+if:IF_2_1_3	rdf:type	ifo:Section	.
 if:IF_2_1_3	rdf:value	"特になし"@ja	.
 if:IF_2_2_1	rdf:type	ifo:IF_2_2_1	.
+if:IF_2_2_1	rdf:type	ifo:Section	.
 if:IF_2_2_1	ifo:package_insert	pi:PI_19	.
 if:IF_2_2_1	rdf:value	"ビルトラルセン（JAN）"@ja	.
 if:IF_2_2_2	rdf:type	ifo:IF_2_2_2	.
+if:IF_2_2_2	rdf:type	ifo:Section	.
 if:IF_2_2_2	ifo:package_insert	pi:PI_19	.
 if:IF_2_2_2	rdf:value	"Viltolarsen（JAN）\n viltolarsen（INN）"@ja	.
 if:IF_2_2_3	rdf:type	ifo:IF_2_2_3	.
+if:IF_2_2_3	rdf:type	ifo:Section	.
 if:IF_2_2_3	rdf:value	"アンチセンスオリゴ核酸：-rsen"@ja	.
 if:IF_2_4	rdf:type	ifo:IF_2_4	.
+if:IF_2_4	rdf:type	ifo:Section	.
 if:IF_2_4	ifo:package_insert	pi:PI_19	.
 if:IF_2_4	rdf:value	"分子式：C244H381N113O88P20\n 分子量：6924.82"@ja	.
 if:IF_2_5	rdf:type	ifo:IF_2_5	.
+if:IF_2_5	rdf:type	ifo:Section	.
 if:IF_2_5	ifo:package_insert	pi:PI_19	.
 if:IF_2_5	rdf:value	"all-P-ambo-[2',3'-Azanediyl-P,2',3'-trideoxy-P-(dimethylamino)-2',3'-seco](2'-N→5')(CCTCCGGTTCTGAAGGTGTT C)（JAN）"@ja	.
 if:IF_2_6	rdf:type	ifo:IF_2_6	.
+if:IF_2_6	rdf:type	ifo:Section	.
 if:IF_2_6	ifo:package_insert	pi:PI_19	.
 if:IF_2_6	rdf:value	"NS-065/NCNP-01、NDK-65"@ja	.
 if:IF_3_1_1	rdf:type	ifo:IF_3_1_1	.
+if:IF_3_1_1	rdf:type	ifo:Section	.
 if:IF_3_1_1	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_1	rdf:value	"白色の粉末である。"@ja	.
 if:IF_3_1_3	rdf:type	ifo:IF_3_1_3	.
+if:IF_3_1_3	rdf:type	ifo:Section	.
 if:IF_3_1_3	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_3	rdf:value	"25℃、相対湿度75 及び93%、7 日間保存の条件下では約5%及び10%の水分増加が認められた。"@ja	.
 if:IF_3_1_4	rdf:type	ifo:IF_3_1_4	.
+if:IF_3_1_4	rdf:type	ifo:Section	.
 if:IF_3_1_4	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_4	rdf:value	"融点：約253°C（分解）"@ja	.
 if:IF_3_1_5	rdf:type	ifo:IF_3_1_5	.
+if:IF_3_1_5	rdf:type	ifo:Section	.
 if:IF_3_1_5	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_5	rdf:value	"pKa=3.0 及び10.1"@ja	.
 if:IF_3_1_6	rdf:type	ifo:IF_3_1_6	.
+if:IF_3_1_6	rdf:type	ifo:Section	.
 if:IF_3_1_6	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_6	rdf:value	"< -2.0（1-オクタノール/水系）"@ja	.
 if:IF_3_1_7	rdf:type	ifo:IF_3_1_7	.
+if:IF_3_1_7	rdf:type	ifo:Section	.
 if:IF_3_1_7	ifo:package_insert	pi:PI_19	.
 if:IF_3_1_7	rdf:value	"旋光度[a]2D0：+107°（溶媒：水、濃度：1.0 (w/v) %）"@ja	.
 if:IF_3_3	rdf:type	ifo:IF_3_3	.
+if:IF_3_3	rdf:type	ifo:Section	.
 if:IF_3_3	rdf:value	"確認試験法：紫外可視吸光度測定法\n 赤外吸収スペクトル測定法（臭化カリウム錠剤法）\n 質量分析法\n 定量法：液体クロマトグラフィー"@ja	.
 if:IF_4_1_1	rdf:type	ifo:IF_4_1_1	.
+if:IF_4_1_1	rdf:type	ifo:Section	.
 if:IF_4_1_1	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_1	rdf:value	"水性注射液"@ja	.
 if:IF_4_1_2	rdf:type	ifo:IF_4_1_2	.
+if:IF_4_1_2	rdf:type	ifo:Section	.
 if:IF_4_1_2	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_2	rdf:value	"無色澄明の液"@ja	.
 if:IF_4_1_3	rdf:type	ifo:IF_4_1_3	.
+if:IF_4_1_3	rdf:type	ifo:Section	.
 if:IF_4_1_3	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_3	rdf:value	"該当しない"@ja	.
 if:IF_4_1_4	rdf:type	ifo:IF_4_1_4	.
+if:IF_4_1_4	rdf:type	ifo:Section	.
 if:IF_4_1_4	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_4	rdf:value	"pH：7.0~7.5\n 浸透圧比：約1.0"@ja	.
 if:IF_4_1_5	rdf:type	ifo:IF_4_1_5	.
+if:IF_4_1_5	rdf:type	ifo:Section	.
 if:IF_4_1_5	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_1_5	rdf:value	"該当しない"@ja	.
 if:IF_4_2_2	rdf:type	ifo:IF_4_2_2	.
+if:IF_4_2_2	rdf:type	ifo:Section	.
 if:IF_4_2_2	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_2_2	rdf:value	"該当資料なし"@ja	.
 if:IF_4_2_3	rdf:type	ifo:IF_4_2_3	.
+if:IF_4_2_3	rdf:type	ifo:Section	.
 if:IF_4_2_3	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_2_3	rdf:value	"該当しない"@ja	.
 if:IF_4_3	rdf:type	ifo:IF_4_3	.
+if:IF_4_3	rdf:type	ifo:Section	.
 if:IF_4_3	ifo:package_insert	pi:PI_3_2	.
 if:IF_4_3	rdf:value	"該当しない"@ja	.
 if:IF_4_4	rdf:type	ifo:IF_4_4	.
+if:IF_4_4	rdf:type	ifo:Section	.
 if:IF_4_4	ifo:package_insert	pi:PI_3_1	.
 if:IF_4_4	rdf:value	"該当しない"@ja	.
 if:IF_4_5	rdf:type	ifo:IF_4_5	.
+if:IF_4_5	rdf:type	ifo:Section	.
 if:IF_4_5	rdf:value	"製剤製造工程中に認められた不純物はすべて原薬に由来するものであり、製剤化に伴う新たな分解生成物は認められていない。"@ja	.
 if:IF_4_7	rdf:type	ifo:IF_4_7	.
+if:IF_4_7	rdf:type	ifo:Section	.
 if:IF_4_7	rdf:value	"調製方法は、「Ⅷ．１１．適用上の注意」の項参照。\n 生理食塩液に混和後の輸液セット中での安定性は、本剤（50 mg/mL）及び本剤を生理食塩液で10 倍希釈した液（5 mg/mL）について、室温で24 時間まで安定であることを確認している。ただし、微生物学的観点から、注射用生理食塩液の混合及び輸液バックへの導入から投与終了までは2～8℃で24 時間、室温で6 時間を超えないこととする。\n 安定性の評価時に使用した輸液セットのバック、チューブの組み合わせは以下の4 通りである。"@ja	.
 if:IF_4_7	rdfs:seeAlso	if:IF_8_11	.
 if:IF_4_8	rdf:type	ifo:IF_4_8	.
+if:IF_4_8	rdf:type	ifo:Section	.
 if:IF_4_8	rdf:value	"該当資料なし"@ja	.
 if:IF_4_9	rdf:type	ifo:IF_4_9	.
+if:IF_4_9	rdf:type	ifo:Section	.
 if:IF_4_9	rdf:value	"該当しない"@ja	.
 if:IF_4_10_1	rdf:type	ifo:IF_4_10_1	.
+if:IF_4_10_1	rdf:type	ifo:Section	.
 if:IF_4_10_1	rdf:value	"該当しない"@ja	.
 if:IF_4_10_2	rdf:type	ifo:IF_4_10_2	.
+if:IF_4_10_2	rdf:type	ifo:Section	.
 if:IF_4_10_2	ifo:package_insert	pi:PI_22	.
 if:IF_4_10_2	rdf:value	"5 mL×1 バイアル"@ja	.
 if:IF_4_10_3	rdf:type	ifo:IF_4_10_3	.
+if:IF_4_10_3	rdf:type	ifo:Section	.
 if:IF_4_10_3	rdf:value	"該当しない"@ja	.
 if:IF_4_10_4	rdf:type	ifo:IF_4_10_4	.
+if:IF_4_10_4	rdf:type	ifo:Section	.
 if:IF_4_10_4	rdf:value	"バイアル：無色ホウケイ酸ガラス\n ゴム栓：ブチルゴム"@ja	.
 if:IF_4_11	rdf:type	ifo:IF_4_11	.
+if:IF_4_11	rdf:type	ifo:Section	.
 if:IF_4_11	rdf:value	"特になし"@ja	.
 if:IF_4_12	rdf:type	ifo:IF_4_12	.
+if:IF_4_12	rdf:type	ifo:Section	.
 if:IF_4_12	rdf:value	"該当しない"@ja	.
 if:IF_5_1	rdf:type	ifo:IF_5_1	.
+if:IF_5_1	rdf:type	ifo:Section	.
 if:IF_5_1	ifo:package_insert	pi:PI_4	.
 if:IF_5_1	rdf:value	"エクソン53 スキッピングにより治療可能なジストロフィン遺伝子の欠失が確認されているデュシェンヌ型筋ジストロフィー"@ja	.
 if:IF_5_2	rdf:type	ifo:IF_5_2	.
+if:IF_5_2	rdf:type	ifo:Section	.
 if:IF_5_2	ifo:package_insert	pi:PI_5	.
 if:IF_5_2	ifo:item	if:IF_5_2.item1	.
 if:IF_5_2	ifo:item	if:IF_5_2.item2	.
 if:IF_5_2	ifo:item	if:IF_5_2.item3	.
 if:IF_5_2	ifo:item	if:IF_5_2.item4	.
+if:IF_5_2.item1	rdf:type	ifo:Item	.
 if:IF_5_2.item1	ifo:package_insert	pi:PI_5.item1	.
 if:IF_5_2.item1	dct:identifier	"5.2.item1"	.
 if:IF_5_2.item1	rdf:value	"5.1 本剤はジストロフィン遺伝子のエクソン53 を標的として配列特異的に設計されたアンチセンス人工核酸であり、その薬理作用からエクソン43-52、45-52、47-52、48-52、49-52、50-52 又は52 等を欠失したジストロフィン遺伝子を有するデュシェンヌ型筋ジストロフィー（DMD）の治療に適用できると考えられる。これまでの国内外臨床試験では、エクソン45-52、47-52、48-52、49-52、50-52 又は52 を欠失したジストロフィン遺伝子を有するDMD 患者は組み入れられたが、エクソン43-52 を欠失したジストロフィン遺伝子を有するDMD 患者は組み入れられなかったことから、適応患者に関する本項目を設定した。"@ja	.
+if:IF_5_2.item2	rdf:type	ifo:Item	.
 if:IF_5_2.item2	ifo:package_insert	pi:PI_5.item2	.
 if:IF_5_2.item2	dct:identifier	"5.2.item2"	.
 if:IF_5_2.item2	rdf:value	"5.2 成人患者及び疾患が進行して心肺機能等が低下している患者は臨床試験の対象から除外されており、これらの患者における有効性及び安全性は確立していないため設定した。"@ja	.
+if:IF_5_2.item3	rdf:type	ifo:Item	.
 if:IF_5_2.item3	ifo:package_insert	pi:PI_5.item3	.
 if:IF_5_2.item3	dct:identifier	"5.2.item3"	.
 if:IF_5_2.item3	rdf:value	"5.3 片方のX 染色体に本剤で治療可能なジストロフィン遺伝子欠失を有する女性保因者に、本剤を投与した場合、もう一方の正常なX 染色体より転写されたジストロフィン遺伝子mRNA 前駆体に本剤が作用してエクソン53 スキッピングを引き起こすことにより、正常なジストロフィンタンパクの産生に影響を及ぼす懸念があるため設定した。"@ja	.
+if:IF_5_2.item4	rdf:type	ifo:Item	.
 if:IF_5_2.item4	ifo:package_insert	pi:PI_5.item4	.
 if:IF_5_2.item4	dct:identifier	"5.2.item4"	.
 if:IF_5_2.item4	rdf:value	"5.4 本剤の臨床試験は男性のDMD 患者を対象としており、女性を対象とした臨床試験は実施しておらず、女性に対する有効性及び安全性は確立されていないことから設定した。"@ja	.
 if:IF_5_3_1	rdf:type	ifo:IF_5_3_1	.
+if:IF_5_3_1	rdf:type	ifo:Section	.
 if:IF_5_3_1	ifo:package_insert	pi:PI_6	.
 if:IF_5_3_1	rdf:value	"通常、ビルトラルセンとして80mg/kg を週1 回、1 時間かけて静脈内投与する。"@ja	.
 if:IF_5_3_2	rdf:type	ifo:IF_5_3_2	.
+if:IF_5_3_2	rdf:type	ifo:Section	.
 if:IF_5_3_2	rdf:value	"国内第I/II試験及び海外第II相試験において、DMD患者16例ずつ（両試験共に各群8例）に、本剤40及び80 mg/kgを週1回、1時間かけて24週間静脈内投与した。両試験共に本剤投与によりウェスタンブロットによるジストロフィン発現量は増加した。国内第I/II試験では40 mg/kgよりも80 mg/kgを投与した方がジストロフィン発現量の増加が大きい傾向が認められた。海外第II相試験では免疫蛍光染色によるジストロフィン発現量も本剤投与により増加し、40 mg/kgよりも80 mg/kgを投与した方が高い傾向であった。さらに、両試験共に本剤投与によりRT-PCRによるエクソン53スキッピング効率は増加し、40 mg/kgよりも80 mg/kgを投与した方が高かった。いずれの用量においても安全性は概ね良好であった。（「Ⅴ．５．（３）用量反応探索試験」の項を参照）\n これらの結果より、用法及び用量を、「通常、ビルトラルセンとして80mg/kgを週1回、1時間かけて静脈内投与する。」とした。"@ja	.
 if:IF_5_3_2	rdfs:seeAlso	if:IF_5_5_3	.
 if:IF_5_4	rdf:type	ifo:IF_5_4	.
+if:IF_5_4	rdf:type	ifo:Section	.
 if:IF_5_4	ifo:package_insert	pi:PI_7	.
-if:IF_5_4	ifo:item	if:IF_5_4.設定されていない	.
+if:IF_5_4	rdf:value	"設定されていない"@ja	.
 if:IF_5_5_2	rdf:type	ifo:IF_5_5_2	.
+if:IF_5_5_2	rdf:type	ifo:Section	.
 if:IF_5_5_2	ifo:package_insert	pi:PI_17_3	.
 if:IF_5_5_2	rdf:value	"１）忍容性に関する検討\n 「Ⅴ．５．（３）用量反応探索試験」を参照。\n ２）ＱＴ/ＱＴｃ評価試験\n 本剤は正常な遺伝子発現に影響する可能性が否定できないため、安全性の観点から健常人を対象にしたQT/QTc 評価試験を実施しなかった。本剤の非臨床試験（「Ⅸ．１．（２）安全性薬理試験」を参照）及び臨床試験（「Ⅴ．５．（３）用量反応探索試験」を参照）において、QT/QTc 延長及び催不整脈リスクは示唆されていないため、QT/QTc 評価試験は不要と判断した。なお、国内第I/II 相試験では初回投与時及び最終投与時に集中心電図測定として、投与開始1 時間前から投与4 時間後まで複数の測定時点を設定し、標準12 誘導心電図を測定した。いずれの測定時点でも臨床上問題となる異常は認められなかった。\n ３）免疫原性に関する試験1）\n 国内第I 相、国内第I/II 相、海外第II 相試験において、本剤投与により発現するジストロフィン及び本剤の免疫原性を検討するため、抗ジストロフィン抗体をウェスタンブロットにて、抗ビルトラルセン抗体をELISA により測定した。国内第I 相、国内第I/II 相試験では、抗ジストロフィン抗体及び抗ビルトラルセン抗体は全例で陰性であった。海外第II 相試験では80mg/kg の1 例（6.3%）のみで抗ジストロフィン抗体が認められた。当該被験者の抗ジストロフィン抗体は13 及び24 週時で陽性であったが、ジストロフィン発現のベースラインからの変化は4.79%（ミオシン重鎖による標準化）であり、他の被験者と大きく異なる傾向は認められず、発現した有害事象はいずれもGrade 1 であり、本剤の投与を継続したまま回復した。抗ビルトラルセン抗体は全例で陰性であった。なお、現在実施中である海外第II 相試験の継続投与試験では、抗ジストロフィン抗体及び抗ビルトラルセン抗体は全例で陰性であった。"@ja	.
 if:IF_5_5_2	dct:references	if:ref1	.
 if:IF_5_5_2	rdfs:seeAlso	if:IF_5_5_3	.
 if:IF_5_5_2	rdfs:seeAlso	if:IF_9_1_2	.
 if:IF_5_5_3	rdf:type	ifo:IF_5_5_3	.
+if:IF_5_5_3	rdf:type	ifo:Section	.
 if:IF_5_5_3	rdf:value	"国内第I/II 相及び海外第II 相試験において、DMD 患者を対象に、本剤40 及び80 mg/kg を週1 回、24 週間静脈内投与した際の治療効果及び安全性を検討した結果、80 mg/kg 群でより良好なリスク・ベネフィットが示された。\n 国内第I/II 相：デュシェンヌ型筋ジストロフィー患者を対象とした用量設定試験2）（NS065/NCNP01-P1/2）\n 海外第II 相：デュシェンヌ型筋ジストロフィー患者を対象とした用量設定試験3）（NS-065/NCNP-01-201）"@ja	.
 if:IF_5_5_3	dct:references	if:ref2	.
 if:IF_5_5_3	dct:references	if:ref3	.
 if:IF_5_5_4_1	rdf:type	ifo:IF_5_5_4_1	.
+if:IF_5_5_4_1	rdf:type	ifo:Section	.
 if:IF_5_5_4_1	ifo:package_insert	pi:PI_17_1	.
 if:IF_5_5_4_1	rdf:value	"該当資料なし"@ja	.
 if:IF_5_5_4_2	rdf:type	ifo:IF_5_5_4_2	.
+if:IF_5_5_4_2	rdf:type	ifo:Section	.
 if:IF_5_5_4_2	ifo:package_insert	pi:PI_17_1	.
 if:IF_5_5_4_2	rdf:value	"該当資料なし"@ja	.
 if:IF_5_5_5	rdf:type	ifo:IF_5_5_5	.
+if:IF_5_5_5	rdf:type	ifo:Section	.
 if:IF_5_5_5	ifo:package_insert	pi:PI_17_1	.
 if:IF_5_5_5	rdf:value	"該当資料なし"@ja	.
 if:IF_5_5_6_1	rdf:type	ifo:IF_5_5_6_1	.
+if:IF_5_5_6_1	rdf:type	ifo:Section	.
 if:IF_5_5_6_1	ifo:package_insert	pi:PI_17_2	.
 if:IF_5_5_6_1	rdf:value	"「Ⅴ．５．（６）２）承認条件として実施予定の内容又は実施した調査・試験の概要」の項\n 参照。"@ja	.
 if:IF_5_5_6_1	dct:references	if:refIF_5_5_6_2	.
 if:IF_5_5_6_2	rdf:type	ifo:IF_5_5_6_2	.
+if:IF_5_5_6_2	rdf:type	ifo:Section	.
 if:IF_5_5_6_2	ifo:package_insert	pi:PI_21	.
 if:IF_5_5_6_2	rdf:value	"承認条件：\n 医薬品リスク管理計画を策定の上、適切に実施すること。国内での治験症例が極めて限られていることから、再審査期間中は、全症例を対象とした使用成績調査を実施することに\n より、本剤の使用患者の背景情報を把握するとともに、本剤の安全性及び有効性に関するデータを早期に収集し、本剤の適正使用に必要な措置を講じること。本剤の有効性及び安\n 全性の確認を目的とした臨床試験及び国内レジストリを用いた調査を実施し、終了後速やかに試験成績及び解析結果を提出すること。\n 実施予定の試験：\n ①特定使用成績調査（長期使用、全例調査）\n 使用実態下における本剤の長期投与時の安全性を検討する。\n ②レジストリを用いた調査\n 計画中\n ③製造販売後臨床試験（国際共同第III 相試験）\n 4 歳以上8 歳未満のDMD 患者を対象に、本剤80 mg/kg を週1 回、48 週間投与した際の有効性、安全性及び忍容性を検討する。"@ja	.
 if:IF_5_5_7	rdf:type	ifo:IF_5_5_7	.
+if:IF_5_5_7	rdf:type	ifo:Section	.
 if:IF_5_5_7	ifo:package_insert	pi:PI_17_1	.
 if:IF_5_5_7	rdf:value	"該当なし"@ja	.
 if:IF_6_1	rdf:type	ifo:IF_6_1	.
+if:IF_6_1	rdf:type	ifo:Section	.
 if:IF_6_1	rdf:value	"特になし"@ja	.
 if:IF_6_2_1	rdf:type	ifo:IF_6_2_1	.
+if:IF_6_2_1	rdf:type	ifo:Section	.
 if:IF_6_2_1	ifo:package_insert	pi:PI_18_1	.
 if:IF_6_2_1	rdf:value	"本薬は、デュシェンヌ型筋ジストロフィー（DMD）の原因遺伝子であるジストロフィンのエクソン53 を標的とするアンチセンス核酸である。本薬はジストロフィンmRNA 前駆体のエクソン53 に結合し、スプライシングの過程でエクソン53 をスキッピングすることによってアミノ酸読み取り枠を回復させ、正常よりもやや短いが両端の構造を保持した機能的なジストロフィンタンパクを発現させる。"@ja	.
 if:IF_6_2_2	rdf:type	ifo:IF_6_2_2	.
+if:IF_6_2_2	rdf:type	ifo:Section	.
 if:IF_6_2_2	ifo:package_insert	pi:PI_18	.
 if:IF_6_2_2	rdf:value	"In vitro 試験としてDMD 患者由来線維芽細胞を用いた検討を、in vivo 試験として反復静脈内投与（39 週間＋回復8 週間、週1 回）したカニクイザルを用いた検討を行い、本薬のエクソン53 キッピング活性を評価した。In vitro 試験では、エクソン45-52 及びエクソン48-52 欠失DMD 患者由来線維芽細胞から分化させた筋管細胞を用い、本薬のエクソン53 スキッピング活性（RT-PCR 法）並びにジストロフィンタンパク質発現（イムノブロット法）について検討した。In vivo 試験では、本薬の標的配列が同じであるカニクイザルに、本薬を39 週間反復静脈内投与（＋回復8 週間）した時の骨格筋及び心筋組織標本を用いて、エクソン53 スキッピング活性について検討した。\n １）エクソン45-52 欠失DMD 患者由来線維芽細胞を用いた検討4）\n ① エクソン53 スキッピング活性に対する影響\n エクソン45-52 欠失DMD 患者由来線維芽細胞から分化させた筋管細胞に本薬（0、0.1、0.3、1、3 及び10 μmol/L、終濃度）を遺伝子導入試薬とともに2 日間適用した。適用終了直後にエクソン53 スキッピング活性が認められ、そのEC50 値は0.63 μmol/L（95%信頼区間（CI）：0.53～0.74 μmol/L）と推定された。また、同筋管細胞に遺伝子導入試薬を使わずに本薬（0、0.03、0.1、0.3、1、3 及び10 μmol/L、終濃度）単独で2 日間適用し、本薬を含まない培養液に交換してさらに5 日間培養を継続した。適用開始7 日後（適用終了5 日後）にエクソン53 スキッピング活性が認められ、そのEC50 値は0.90 μmol/L（95%CI：0.61～1.32 μmol/L）と推定された。\n ② ジストロフィンタンパク質に対する影響\n エクソン45-52 欠失DMD 患者由来線維芽細胞から分化させた筋管細胞に、遺伝子導入試薬を使わずに本薬（0、0.03、0.1、0.3、1、3 及び10 μmol/L、終濃度）単独で2 日間適用した後、本薬を含まない培養液に交換してさらに培養を継続した。適用開始7 日後（適用終了5 日後）に回収した細胞を用いて、イムノブロットによりジストロフィンタンパク質の発現を検出した。本薬1 μmol/L 以上の濃度で、正常ジストロフィンタンパク質（427 kDa）より分子量の小さいバンドが検出され、エクソン45-53 に相当する部分が欠損した短いジストロフィンタンパク質（372 kDa）に由来すると考えられた。\n ２）エクソン48-52 欠失DMD 患者由来線維芽細胞を用いた検討5）\n ① エクソン53 スキッピング活性に対する影響\n エクソン48-52 欠失DMD 患者由来線維芽細胞から分化させた筋管細胞に、遺伝子導入試薬を使わずに本薬（0、0.03、0.1、0.3、1、3 及び10 μmol/L、終濃度）単独で2 日間適用した後、本薬を含まない培養液に交換してさらに5 日間培養を継続した。適用開始7 日後（適用終了5 日後）にエクソン53 スキッピング活性が認められ、そのEC50 値は2.30 μmol/L\n （95%CI：1.84～2.88 μmol/L）と推定された。\n ② ジストロフィンタンパク質に対する影響\n エクソン48-52 欠失DMD 患者由来線維芽細胞から分化させた筋管細胞に、遺伝子導入試薬を使わずに本薬（0、0.03、0.1、0.3、1、3 及び10 μmol/L、終濃度）単独で2 日間適用した後、本薬含まない培養液に交換してさらに培養を継続した。適用開始7 日後（適用終了5 日後）に回収した細胞を用いて、イムノブロットによりジストロフィンタンパク質の発現を検出した。本薬0.1 μmol/L 以上の濃度で、正常ジストロフィンタンパク質（427 kDa）より分子量の小さいバンドが検出され、エクソン48-53 に相当する部分が欠損した短いジストロフィンタンパク質（390 kDa）に由来すると考えられた。\n ３）カニクイザルにおける検討6）\n カニクイザルに本薬（0、10、60、360 mg/kg）を週1 回、39 週間反復静脈内投与し、投与期間終了翌日に採取した骨格筋及び心筋から抽出したtotal RNA を用いてRT-PCR を行い、エクソン53 スキッピング効率を算出した。また、0、60 及び360 mg/kg の用量群においては、8 週間の回復期間を設けた後の骨格筋及び心筋からも同様にtotal RNA を抽出し、RTPCRを行い、エクソン53 スキッピング効率を算出した。投与期間終了時、本薬の0、10、60 及び360 mg/kg の用量における骨格筋でのエクソン53スキッピング効率は、それぞれ0.1 ± 0.2%、0.5 ± 0.3%、2.3 ± 1.5%及び6.2 ± 1.8%であり、60 mg/kg 及び360 mg/kg の用量で有意であった。心筋でのエクソン53 スキッピング効率はそれぞれ0.1 ± 0.1%、0.2 ± 0.0%、0.5 ± 0.2%及び3.9 ± 3.2%であり、360 mg/kg の用量で有意であった。\n また、本薬0、60 及び360 mg/kg の用量において、8 週間の回復期間を設けた後の骨格筋及び心筋におけるエクソン53 スキッピング効率は、骨格筋でそれぞれ0.0 ± 0.0%、1.4% ±0.7%及び4.8 ± 2.7%、心筋でそれぞれ0.0 ± 0.0%、0.0 ± 0.1%及び0.6 ± 0.3%であり、骨格筋及び心筋ともに360 mg/kg の用量において有意なエクソン53 スキッピング活性が認められた。"@ja	.
 if:IF_6_2_2	dct:references	if:ref4	.
 if:IF_6_2_2	dct:references	if:ref5	.
 if:IF_6_2_2	dct:references	if:ref6	.
 if:IF_6_2_3	rdf:type	ifo:IF_6_2_3	.
+if:IF_6_2_3	rdf:type	ifo:Section	.
 if:IF_6_2_3	ifo:package_insert	pi:PI_18_1	.
 if:IF_6_2_3	rdf:value	"該当資料なし"@ja	.
 if:IF_7_1_1	rdf:type	ifo:IF_7_1_1	.
+if:IF_7_1_1	rdf:type	ifo:Section	.
 if:IF_7_1_1	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_1_1	rdf:value	"該当資料なし"@ja	.
 if:IF_7_1_2	rdf:type	ifo:IF_7_1_2	.
+if:IF_7_1_2	rdf:type	ifo:Section	.
 if:IF_7_1_2	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_1_2	ifo:item	if:IF_7_1_2.item1	.
+if:IF_7_1_2.item1	rdf:type	ifo:Item	.
 if:IF_7_1_2.item1	ifo:package_insert	pi:PI_16_1.item1	.
 if:IF_7_1_2.item1	dct:identifier	"7.1.2.item1"	.
 if:IF_7_1_2.item1	rdf:value	"日本人デュシェンヌ型筋ジストロフィー（DMD）患者16例（各用量群8例）に本剤40及び80 mg/kgを1時間かけて、週1回、24週間反復静脈内投与したとき、初回投与時及び24週投与時の本薬の血漿中濃度は、投与0.5～1時間（最高血漿中濃度到達時間（tmax）の中央値は0.75～1時間）の間にピークに達した後、消失した。消失半減期は2.0～2.5時間であり、用量間及び反復投与による大きな差は認められなかった。"@ja	.
 if:IF_7_1_2.item1	dct:references	if:ref2	.
 if:IF_7_1_3	rdf:type	ifo:IF_7_1_3	.
+if:IF_7_1_3	rdf:type	ifo:Section	.
 if:IF_7_1_3	rdf:value	"該当資料なし"@ja	.
 if:IF_7_1_4	rdf:type	ifo:IF_7_1_4	.
+if:IF_7_1_4	rdf:type	ifo:Section	.
 if:IF_7_1_4	ifo:package_insert	pi:PI_16_7	.
 if:IF_7_1_4	ifo:item	if:IF_7_1_4.item1	.
+if:IF_7_1_4.item1	rdf:type	ifo:Item	.
 if:IF_7_1_4.item1	ifo:package_insert	pi:PI_16_7.item1	.
 if:IF_7_1_4.item1	dct:identifier	"7.1.4.item1"	.
 if:IF_7_1_4.item1	rdf:value	"該当資料なし"@ja	.
 if:IF_7_2_1	rdf:type	ifo:IF_7_2_1	.
+if:IF_7_2_1	rdf:type	ifo:Section	.
 if:IF_7_2_1	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_1	rdf:value	"日本人DMD 患者16 例（各用量群8 例）に本剤40 及び80 mg/kg を1 時間かけて、週1 回、24 週間反復静脈内投与したときの初回投与時及び24 週投与時における本薬の血漿中濃度を用い、ノンコンパートメント解析した。"@ja	.
 if:IF_7_2_1	dct:references	if:ref2	.
 if:IF_7_2_2	rdf:type	ifo:IF_7_2_2	.
+if:IF_7_2_2	rdf:type	ifo:Section	.
 if:IF_7_2_2	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_2	rdf:value	"該当しない"@ja	.
 if:IF_7_2_3	rdf:type	ifo:IF_7_2_3	.
+if:IF_7_2_3	rdf:type	ifo:Section	.
 if:IF_7_2_3	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_3	rdf:value	"該当資料なし\n <参考>2）日本人DMD 患者における本剤の血漿中濃度の消失半減期は2.0～2.5 時間であった。"@ja	.
 if:IF_7_2_3	dct:references	if:ref2	.
 if:IF_7_2_4	rdf:type	ifo:IF_7_2_4	.
+if:IF_7_2_4	rdf:type	ifo:Section	.
 if:IF_7_2_4	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_4	rdf:value	"全身クリアランス（CL）は164～185 mL/hr/kg であった。"@ja	.
 if:IF_7_2_4	dct:references	if:ref2	.
 if:IF_7_2_5	rdf:type	ifo:IF_7_2_5	.
+if:IF_7_2_5	rdf:type	ifo:Section	.
 if:IF_7_2_5	ifo:package_insert	pi:PI_16_1	.
 if:IF_7_2_5	rdf:value	"定常状態における分布容積（Vdss）は223～238 mL/kg であった。"@ja	.
 if:IF_7_2_5	dct:references	if:ref2	.
 if:IF_7_2_5	rdfs:seeAlso	"該当資料なし"@ja	.
 if:IF_7_3_1	rdf:type	ifo:IF_7_3_1	.
+if:IF_7_3_1	rdf:type	ifo:Section	.
 if:IF_7_3_1	rdf:value	"該当資料なし"@ja	.
 if:IF_7_3_2	rdf:type	ifo:IF_7_3_2	.
+if:IF_7_3_2	rdf:type	ifo:Section	.
 if:IF_7_3_2	rdf:value	"該当資料なし"@ja	.
 if:IF_7_4	rdf:type	ifo:IF_7_4	.
+if:IF_7_4	rdf:type	ifo:Section	.
 if:IF_7_4	ifo:package_insert	pi:PI_16_2	.
 if:IF_7_4	ifo:item	if:IF_7_4.item1	.
+if:IF_7_4.item1	rdf:type	ifo:Item	.
 if:IF_7_4.item1	ifo:package_insert	pi:PI_16_2.item1	.
 if:IF_7_4.item1	dct:identifier	"7.4.item1"	.
 if:IF_7_4.item1	rdf:value	"該当しない"@ja	.
 if:IF_7_5_1	rdf:type	ifo:IF_7_5_1	.
+if:IF_7_5_1	rdf:type	ifo:Section	.
 if:IF_7_5_1	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_1	rdf:value	"ヒトでの該当資料なし\n ＜参考＞7）\n カニクイザルに14C-ビルトラルセンを20 mg/kg の用量で単回静脈内投与及び8 週間反復静脈内投与したところ、大脳、小脳及び脊髄への移行性は低かったことから、本薬の血液－脳関門通過性は低いことが示唆された。"@ja	.
 if:IF_7_5_1	dct:references	if:ref7	.
 if:IF_7_5_2	rdf:type	ifo:IF_7_5_2	.
+if:IF_7_5_2	rdf:type	ifo:Section	.
 if:IF_7_5_2	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_2	rdf:value	"該当資料なし"@ja	.
 if:IF_7_5_3	rdf:type	ifo:IF_7_5_3	.
+if:IF_7_5_3	rdf:type	ifo:Section	.
 if:IF_7_5_3	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_3	rdf:value	"該当資料なし"@ja	.
 if:IF_7_5_4	rdf:type	ifo:IF_7_5_4	.
+if:IF_7_5_4	rdf:type	ifo:Section	.
 if:IF_7_5_4	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_4	rdf:value	"該当資料なし"@ja	.
 if:IF_7_5_5	rdf:type	ifo:IF_7_5_5	.
+if:IF_7_5_5	rdf:type	ifo:Section	.
 if:IF_7_5_5	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_5	rdf:value	"ヒト血球移行率は、2.1～3.5%であった。\n ＜参考＞7）\n カニクイザルに14C-ビルトラルセンを20 mg/kg の用量で単回静脈内投与したところ、放射能は大脳、小脳、脊髄及び眼球を除く多くの組織に速やかに分布した。最も高濃度で分布した組織は腎皮質で、副腎、甲状腺、肝臓及び脾臓などが続いた。腎皮質における消失半減期は366.9 時間であった。また、投与後504 時間（最終測定時点）のブドウ膜／網膜及び皮膚（濃色部）において放射能の残存が認められていないことから本薬はメラニンへの結合親和性はないと考えられた。カニクイザルに14C-ビルトラルセンを20 mg/kg の用量で週1 回8 週間反復静脈内投与したところ、放射能は単回投与時と同様に大脳、小脳、脊髄及び眼球への組織移行性は低く、最も高濃度で分布した組織は腎臓であった。"@ja	.
 if:IF_7_5_5	dct:references	if:ref8	.
 if:IF_7_5_5	dct:references	if:ref7	.
 if:IF_7_5_6	rdf:type	ifo:IF_7_5_6	.
+if:IF_7_5_6	rdf:type	ifo:Section	.
 if:IF_7_5_6	ifo:package_insert	pi:PI_16_3	.
 if:IF_7_5_6	rdf:value	"本剤のヒト血漿蛋白結合率は評価していない。ヒト血清蛋白との結合率は39.4～40.3%（in vitro、超遠心法）であった。"@ja	.
 if:IF_7_5_6	dct:references	if:ref8	.
 if:IF_7_6_1	rdf:type	ifo:IF_7_6_1	.
+if:IF_7_6_1	rdf:type	ifo:Section	.
 if:IF_7_6_1	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_1	rdf:value	"ヒト血清、肝ミクロソーム及び肝S9 並びにデオキシリボヌクレアーゼI（DNase I）及びホスホジエステラーゼ1（PDE 1）を用いて14C-ビルトラルセンの代謝安定性を評価したところ、安定であった。また、日本人DMD 患者に本剤を静脈内投与した際にそのほとんどが未変化体として尿中に排泄された（「Ⅶ．７．排泄」参照）ことから、本薬の代謝経路に関する検討は実施していない。"@ja	.
 if:IF_7_6_1	dct:references	if:ref9	.
 if:IF_7_6_2	rdf:type	ifo:IF_7_6_2	.
+if:IF_7_6_2	rdf:type	ifo:Section	.
 if:IF_7_6_2	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_2	rdf:value	"１）代謝酵素阻害作用\n ヒト肝ミクロソームを用いて本薬のin vitro におけるヒトシトクロムP450（CYP）1A2、CYP2B6、CYP2C8、CYP2C9、CYP2C19、CYP2D6、CYP3A4、ウリジル二リン酸グルクロン酸転移酵素（UGT）1A1 及びUGT2B7 阻害作用について評価した。CYP3A4 及びUGT1A1に対するKi 値は、それぞれ1.09 mmol/L 及び0.642 mmol/L であり、弱い阻害作用を有すると考えられた。その他の分子種に対しては阻害作用を示さなかった。\n ２）代謝酵素誘導作用\n ヒト肝細胞を用いて本薬のin vitro におけるヒトCYP1A2、CYP2B6 及びCYP3A4 誘導作用について評価した。CYP3A4 に対しては高濃度（3 mmol/L）でのみ誘導作用が認められたが、その程度は低いものであった。CYP1A2 及びCYP2B6 に対しては誘導作用を示さなかった。以上より、CYP 各分子種の誘導作用はないと判断した。"@ja	.
 if:IF_7_6_2	dct:references	if:ref10	.
 if:IF_7_6_3	rdf:type	ifo:IF_7_6_3	.
+if:IF_7_6_3	rdf:type	ifo:Section	.
 if:IF_7_6_3	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_3	rdf:value	"該当資料なし"@ja	.
 if:IF_7_6_4	rdf:type	ifo:IF_7_6_4	.
+if:IF_7_6_4	rdf:type	ifo:Section	.
 if:IF_7_6_4	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_6_4	rdf:value	"該当資料なし"@ja	.
 if:IF_7_7	rdf:type	ifo:IF_7_7	.
+if:IF_7_7	rdf:type	ifo:Section	.
 if:IF_7_7	ifo:package_insert	pi:PI_16_5	.
 if:IF_7_7	rdf:value	"日本人DMD 患者16 例（各用量群8 例）に本剤40 及び80 mg/kg を週1 回、1 時間かけて静脈内投与したとき、投与後24 時間までの尿中排泄率は92.0～95.6%であり、排泄は速やかであった。また、そのほとんどが未変化体であった。"@ja	.
 if:IF_7_7	dct:references	if:ref2	.
 if:IF_7_8	rdf:type	ifo:IF_7_8	.
+if:IF_7_8	rdf:type	ifo:Section	.
 if:IF_7_8	ifo:package_insert	pi:PI_16_4	.
 if:IF_7_8	rdf:value	"ヒトの主要なトランスポーターに対する本薬の基質認識性をin vitro において検討したところ、P 糖タンパク（P-gp）、乳癌耐性タンパク（BCRP）、有機アニオントランスポーター（OAT）1、OAT3、有機カチオントランスポーター（OCT）2、多剤排出輸送体（MATE）1 及びMATE2-K の基質ではないと考えられた。また、本薬はin vitro において有機アニオン輸送ポリペプチド（OATP）1B1、OATP1B3、OAT3 及びBCRP に対して弱い阻害作用を示し、そのIC50 値はそれぞれ0.485、0.448、0.176 及び1.97 mmol/L であった。"@ja	.
 if:IF_7_8	dct:references	if:ref11	.
 if:IF_7_9	rdf:type	ifo:IF_7_9	.
+if:IF_7_9	rdf:type	ifo:Section	.
 if:IF_7_9	ifo:package_insert	pi:PI_16_6	.
 if:IF_7_9	rdf:value	"該当資料なし"@ja	.
 if:IF_7_10	rdf:type	ifo:IF_7_10	.
+if:IF_7_10	rdf:type	ifo:Section	.
 if:IF_7_10	ifo:package_insert	pi:PI_16_6	.
 if:IF_7_10	rdf:value	"該当資料なし"@ja	.
 if:IF_7_11	rdf:type	ifo:IF_7_11	.
+if:IF_7_11	rdf:type	ifo:Section	.
 if:IF_7_11	ifo:package_insert	pi:PI_16_8	.
 if:IF_7_11	rdf:value	"該当資料なし"@ja	.
 if:IF_8_1	rdf:type	ifo:IF_8_1	.
+if:IF_8_1	rdf:type	ifo:Section	.
 if:IF_8_1	ifo:package_insert	pi:PI_1	.
 if:IF_8_1	ifo:item	if:IF_8_1.item1	.
+if:IF_8_1.item1	rdf:type	ifo:Item	.
 if:IF_8_1.item1	ifo:package_insert	pi:PI_1.item1	.
 if:IF_8_1.item1	dct:identifier	"8.1.item1"	.
 if:IF_8_1.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_2	rdf:type	ifo:IF_8_2	.
+if:IF_8_2	rdf:type	ifo:Section	.
 if:IF_8_2	ifo:package_insert	pi:PI_2	.
 if:IF_8_2	ifo:item	if:IF_8_2.item1	.
+if:IF_8_2.item1	rdf:type	ifo:Item	.
 if:IF_8_2.item1	ifo:package_insert	pi:PI_2.item1	.
 if:IF_8_2.item1	dct:identifier	"8.2.item1"	.
 if:IF_8_2.item1	rdf:value	"本剤の成分に対し過敏症の既往歴がある場合、本剤投与により過敏症を発現する可能性があるため設定した。"@ja	.
 if:IF_8_3	rdf:type	ifo:IF_8_3	.
+if:IF_8_3	rdf:type	ifo:Section	.
 if:IF_8_3	rdf:value	"「Ⅴ. 治療に関する項目」を参照すること。"@ja	.
 if:IF_8_3	rdfs:seeAlso	if:IF_5	.
 if:IF_8_4	rdf:type	ifo:IF_8_4	.
+if:IF_8_4	rdf:type	ifo:Section	.
 if:IF_8_4	rdf:value	"「Ⅴ. 治療に関する項目」を参照すること。"@ja	.
 if:IF_8_4	rdfs:seeAlso	if:IF_5	.
 if:IF_8_5	rdf:type	ifo:IF_8_5	.
+if:IF_8_5	rdf:type	ifo:Section	.
 if:IF_8_5	ifo:package_insert	pi:PI_8	.
 if:IF_8_5	ifo:item	if:IF_8_5.item1	.
 if:IF_8_5	ifo:item	if:IF_8_5.item2	.
 if:IF_8_5	ifo:item	if:IF_8_5.item3	.
+if:IF_8_5.item1	rdf:type	ifo:Item	.
 if:IF_8_5.item1	ifo:package_insert	pi:PI_8.item1	.
 if:IF_8_5.item1	dct:identifier	"8.5.item1"	.
 if:IF_8_5.item1	rdf:value	"8.1 本剤を投与する医師には、本剤の対象として適切な患者選択を行い、患者の状態に応じて適切な治療を行うなど、本剤及びデュシェンヌ型筋ジストロフィーに関する十分な知識や経験が必要と考え設定した。"@ja	.
+if:IF_8_5.item2	rdf:type	ifo:Item	.
 if:IF_8_5.item2	ifo:package_insert	pi:PI_8.item2	.
 if:IF_8_5.item2	dct:identifier	"8.5.item2"	.
 if:IF_8_5.item2	rdf:value	"8.2 臨床試験において、本剤投与によりβ2 ミクログロブリン増加及びNAG 増加が認められ、非臨床試験においても腎臓への影響が認められたため設定した。"@ja	.
+if:IF_8_5.item3	rdf:type	ifo:Item	.
 if:IF_8_5.item3	ifo:package_insert	pi:PI_8.item3	.
 if:IF_8_5.item3	dct:identifier	"8.5.item3"	.
 if:IF_8_5.item3	rdf:value	"8.3 rasH2 マウスを用いた26 週間反復静脈内投与がん原性試験において、50 及び150 mg/kg投与群のそれぞれ1 及び2 例で剖検により尿管に腫瘤又は肥大が認められ、病理組織学的検査において尿管に移行上皮癌が認められたことから設定した（治験副作用等報告）。"@ja	.
 if:IF_8_6_1	rdf:type	ifo:IF_8_6_1	.
+if:IF_8_6_1	rdf:type	ifo:Section	.
 if:IF_8_6_1	ifo:package_insert	pi:PI_9_1	.
 if:IF_8_6_1	ifo:item	if:IF_8_6_1.item1	.
+if:IF_8_6_1.item1	rdf:type	ifo:Item	.
 if:IF_8_6_1.item1	ifo:package_insert	pi:PI_9_1.item1	.
 if:IF_8_6_1.item1	dct:identifier	"8.6.1.item1"	.
 if:IF_8_6_1.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_6_2	rdf:type	ifo:IF_8_6_2	.
+if:IF_8_6_2	rdf:type	ifo:Section	.
 if:IF_8_6_2	ifo:package_insert	pi:PI_9_2	.
 if:IF_8_6_2	ifo:item	if:IF_8_6_2.item1	.
+if:IF_8_6_2.item1	rdf:type	ifo:Item	.
 if:IF_8_6_2.item1	ifo:package_insert	pi:PI_9_2.item1	.
 if:IF_8_6_2.item1	dct:identifier	"8.6.2.item1"	.
 if:IF_8_6_2.item1	rdf:value	"腎機能障害患者における臨床試験は実施していないが、本剤は代謝を受けず、未変化体として尿中に排泄されるため、腎機能障害患者では排泄の遅延を生じる可能性があるため設定した。"@ja	.
 if:IF_8_6_3	rdf:type	ifo:IF_8_6_3	.
+if:IF_8_6_3	rdf:type	ifo:Section	.
 if:IF_8_6_3	ifo:package_insert	pi:PI_9_3	.
 if:IF_8_6_3	ifo:item	if:IF_8_6_3.item1	.
+if:IF_8_6_3.item1	rdf:type	ifo:Item	.
 if:IF_8_6_3.item1	ifo:package_insert	pi:PI_9_3.item1	.
 if:IF_8_6_3.item1	dct:identifier	"8.6.3.item1"	.
 if:IF_8_6_3.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_6_4	rdf:type	ifo:IF_8_6_4	.
+if:IF_8_6_4	rdf:type	ifo:Section	.
 if:IF_8_6_4	ifo:package_insert	pi:PI_9_4	.
 if:IF_8_6_4	ifo:item	if:IF_8_6_4.item1	.
+if:IF_8_6_4.item1	rdf:type	ifo:Item	.
 if:IF_8_6_4.item1	ifo:package_insert	pi:PI_9_4.item1	.
 if:IF_8_6_4.item1	dct:identifier	"8.6.4.item1"	.
 if:IF_8_6_4.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_6_5	rdf:type	ifo:IF_8_6_5	.
+if:IF_8_6_5	rdf:type	ifo:Section	.
 if:IF_8_6_5	ifo:package_insert	pi:PI_9_5	.
 if:IF_8_6_5	ifo:item	if:IF_8_6_5.item1	.
+if:IF_8_6_5.item1	rdf:type	ifo:Item	.
 if:IF_8_6_5.item1	ifo:package_insert	pi:PI_9_5.item1	.
 if:IF_8_6_5.item1	dct:identifier	"8.6.5.item1"	.
 if:IF_8_6_5.item1	rdf:value	"胚・胎児発生に関する非臨床試験及び妊婦又は妊娠している可能性のある女性を対象とした臨床試験は実施していないことから設定した。"@ja	.
 if:IF_8_6_6	rdf:type	ifo:IF_8_6_6	.
+if:IF_8_6_6	rdf:type	ifo:Section	.
 if:IF_8_6_6	ifo:package_insert	pi:PI_9_6	.
 if:IF_8_6_6	ifo:item	if:IF_8_6_6.item1	.
+if:IF_8_6_6.item1	rdf:type	ifo:Item	.
 if:IF_8_6_6.item1	ifo:package_insert	pi:PI_9_6.item1	.
 if:IF_8_6_6.item1	dct:identifier	"8.6.6.item1"	.
 if:IF_8_6_6.item1	rdf:value	"動物における乳汁移行試験及び授乳婦を対象とした臨床試験は実施していないことから設定した。"@ja	.
 if:IF_8_6_7	rdf:type	ifo:IF_8_6_7	.
+if:IF_8_6_7	rdf:type	ifo:Section	.
 if:IF_8_6_7	ifo:package_insert	pi:PI_9_7	.
 if:IF_8_6_7	ifo:item	if:IF_8_6_7.item1	.
+if:IF_8_6_7.item1	rdf:type	ifo:Item	.
 if:IF_8_6_7.item1	ifo:package_insert	pi:PI_9_7.item1	.
 if:IF_8_6_7.item1	dct:identifier	"8.6.7.item1"	.
 if:IF_8_6_7.item1	rdf:value	"低出生体重児、新生児、乳児又は4 歳未満の幼児を対象とした臨床試験は実施しておらず、安全性が確立されていない。"@ja	.
 if:IF_8_6_8	rdf:type	ifo:IF_8_6_8	.
+if:IF_8_6_8	rdf:type	ifo:Section	.
 if:IF_8_6_8	ifo:package_insert	pi:PI_9_8	.
 if:IF_8_6_8	ifo:item	if:IF_8_6_8.item1	.
+if:IF_8_6_8.item1	rdf:type	ifo:Item	.
 if:IF_8_6_8.item1	ifo:package_insert	pi:PI_9_8.item1	.
 if:IF_8_6_8.item1	dct:identifier	"8.6.8.item1"	.
 if:IF_8_6_8.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_7_1	rdf:type	ifo:IF_8_7_1	.
+if:IF_8_7_1	rdf:type	ifo:Section	.
 if:IF_8_7_1	ifo:package_insert	pi:PI_10_1	.
 if:IF_8_7_1	ifo:item	if:IF_8_7_1.item1	.
+if:IF_8_7_1.item1	rdf:type	ifo:Item	.
 if:IF_8_7_1.item1	ifo:package_insert	pi:PI_10_1.item1	.
 if:IF_8_7_1.item1	dct:identifier	"8.7.1.item1"	.
 if:IF_8_7_1.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_7_2	rdf:type	ifo:IF_8_7_2	.
+if:IF_8_7_2	rdf:type	ifo:Section	.
 if:IF_8_7_2	ifo:package_insert	pi:PI_10_2	.
 if:IF_8_7_2	ifo:item	if:IF_8_7_2.item1	.
+if:IF_8_7_2.item1	rdf:type	ifo:Item	.
 if:IF_8_7_2.item1	ifo:package_insert	pi:PI_10_2.item1	.
 if:IF_8_7_2.item1	dct:identifier	"8.7.2.item1"	.
 if:IF_8_7_2.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_8_1	rdf:type	ifo:IF_8_8_1	.
+if:IF_8_8_1	rdf:type	ifo:Section	.
 if:IF_8_8_1	ifo:package_insert	pi:PI_11_1	.
 if:IF_8_8_1	ifo:item	if:IF_8_8_1.item1	.
+if:IF_8_8_1.item1	rdf:type	ifo:Item	.
 if:IF_8_8_1.item1	ifo:package_insert	pi:PI_11_1.item1	.
 if:IF_8_8_1.item1	dct:identifier	"8.8.1.item1"	.
 if:IF_8_8_1.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_8_2	rdf:type	ifo:IF_8_8_2	.
+if:IF_8_8_2	rdf:type	ifo:Section	.
 if:IF_8_8_2	ifo:package_insert	pi:PI_11_2	.
 if:IF_8_8_2	ifo:item	if:IF_8_8_2.item1	.
+if:IF_8_8_2.item1	rdf:type	ifo:Item	.
 if:IF_8_8_2.item1	ifo:package_insert	pi:PI_11_2.item1	.
 if:IF_8_8_2.item1	dct:identifier	"8.8.2.item1"	.
 if:IF_8_8_2.item1	rdf:value	"国内臨床試験（NS065/NCNP01-P1/2 試験）16 例及び海外臨床試験（NS-065/NCNP-01-201 試験及びその継続試験であるNS-065/NCNP-01-202 試験）16 例で副作用として認められたものを記載した。"@ja	.
 if:IF_8_9	rdf:type	ifo:IF_8_9	.
+if:IF_8_9	rdf:type	ifo:Section	.
 if:IF_8_9	ifo:package_insert	pi:PI_12	.
 if:IF_8_9	rdf:value	"尿蛋白測定に用いるピロガロールレッドと尿中に排泄されたビルトラルセンが交差反応するため設定した。"@ja	.
 if:IF_8_10	rdf:type	ifo:IF_8_10	.
+if:IF_8_10	rdf:type	ifo:Section	.
 if:IF_8_10	ifo:package_insert	pi:PI_13_2	.
-if:IF_8_10	rdf:value	"設定されていない"@ja	.
+if:IF_8_10	ifo:item	if:IF_8_10.item1	.
+if:IF_8_10.item1	rdf:type	ifo:Item	.
+if:IF_8_10.item1	ifo:package_insert	pi:PI_13_2.item1	.
+if:IF_8_10.item1	dct:identifier	"8.10.item1"	.
+if:IF_8_10.item1	rdf:value	"設定されていない"@ja	.
 if:IF_8_11	rdf:type	ifo:IF_8_11	.
+if:IF_8_11	rdf:type	ifo:Section	.
 if:IF_8_11	ifo:package_insert	pi:PI_14	.
 if:IF_8_11	ifo:item	if:IF_8_11.item1	.
 if:IF_8_11	ifo:item	if:IF_8_11.item2	.
+if:IF_8_11.item1	rdf:type	ifo:Item	.
 if:IF_8_11.item1	ifo:package_insert	pi:PI_14.item1	.
 if:IF_8_11.item1	dct:identifier	"8.11.item1"	.
 if:IF_8_11.item1	rdf:value	"14.1.1 本剤は、国内外の臨床試験において、生理食塩液で100 mL に希釈した溶液を静脈内に投与していることから設定した。また、生理食塩液で混和したときの本剤の安定性は確認しているが、その他の薬剤又は輸液については確認していないことから設定した。\n 14.1.2 本剤の容器は1 回使い切り仕様のバイアルであり、抗菌性保存剤を含有していないため、一般的な注射用製剤に準じ設定した。\n 14.1.3 皮膚や粘膜に対する影響が検討されておらず、安全性が確立していないため、一般的な注意事項として設定した。"@ja	.
+if:IF_8_11.item2	rdf:type	ifo:Item	.
 if:IF_8_11.item2	ifo:package_insert	pi:PI_14.item2	.
 if:IF_8_11.item2	dct:identifier	"8.11.item2"	.
 if:IF_8_11.item2	rdf:value	"14.2 本剤は、生理食塩液以外の輸液や他の注射液等と混合した際の配合変化に関するデータがないことから設定した。"@ja	.
 if:IF_8_12_1	rdf:type	ifo:IF_8_12_1	.
+if:IF_8_12_1	rdf:type	ifo:Section	.
 if:IF_8_12_1	ifo:package_insert	pi:PI_15_1	.
 if:IF_8_12_1	rdf:value	"設定されていない"@ja	.
 if:IF_8_12_2	rdf:type	ifo:IF_8_12_2	.
+if:IF_8_12_2	rdf:type	ifo:Section	.
 if:IF_8_12_2	ifo:package_insert	pi:PI_15_2	.
 if:IF_8_12_2	rdf:value	"非臨床試験の結果12）,13）に基づき記載した。"@ja	.
 if:IF_8_12_2	dct:references	if:ref12	.
 if:IF_8_12_2	dct:references	if:ref13	.
 if:IF_9_1_1	rdf:type	ifo:IF_9_1_1	.
+if:IF_9_1_1	rdf:type	ifo:Section	.
 if:IF_9_1_1	rdf:value	"「Ⅵ．薬効薬理に関する項目」の項参照"@ja	.
 if:IF_9_1_1	rdfs:seeAlso	if:IF_6	.
 if:IF_9_1_2	rdf:type	ifo:IF_9_1_2	.
+if:IF_9_1_2	rdf:type	ifo:Section	.
 if:IF_9_1_2	rdf:value	"安全性薬理試験として以下の試験を実施した。"@ja	.
 if:IF_9_1_2	dct:references	if:ref14	.
 if:IF_9_1_3	rdf:type	ifo:IF_9_1_3	.
+if:IF_9_1_3	rdf:type	ifo:Section	.
 if:IF_9_1_3	rdf:value	"副次的薬理試験（参考情報）15）\n ビルトラルセンが相補的に結合し得る、ジストロフィン遺伝子以外のヒト遺伝子をin silico解析で検索し、それらの候補遺伝子についてヒト培養細胞を用いて本薬が発現変動に与える影響を検討した。その結果、本薬はジストロフィン遺伝子以外の遺伝子への相補的な結合を介してヒトに作用を示す可能性は低いと考えられた。"@ja	.
 if:IF_9_1_3	dct:references	if:ref15	.
 if:IF_9_2_1	rdf:type	ifo:IF_9_2_1	.
+if:IF_9_2_1	rdf:type	ifo:Section	.
 if:IF_9_2_1	rdf:value	"カニクイザルを用いた単回静脈内及び筋肉内投与試験を実施した。\n 静脈内投与毒性試験（投与量：0 及び600 mg/kg）では、一過性のインターロイキン-6（IL-6）の高値、腎臓の近位尿細管上皮の空胞化が認められた。本薬投与に起因した死亡は認められず、概略の致死量は600 mg/kg 超であった。筋肉内投与毒性試験（投与量：0、1、10 及び100 mg/kg）では、10 mg/kg 以上の投与群でアスパラギン酸トランスアミナーゼ（AST）及び骨格筋型クレアチンキナーゼ（CK-MM）の高値、投与部位及び投与部位近傍の大腿四頭筋の筋線維の変性/壊死が認められ、100 mg/kg投与群では投与部位の炎症性細胞浸潤、水腫及び出血を伴っていた。本薬投与に起因した死亡は認められず、概略の致死量は100 mg/kg 超であった。"@ja	.
 if:IF_9_2_1	dct:references	if:ref16	.
 if:IF_9_2_2	rdf:type	ifo:IF_9_2_2	.
+if:IF_9_2_2	rdf:type	ifo:Section	.
 if:IF_9_2_2	rdf:value	"反復投与毒性試験をCD-1 マウス（13 及び26 週）及びカニクイザル（12 及び39 週）にて実施した。一連の試験を通じて、赤血球パラメータの減少、血清中サイトカイン及び補体の変動、腎臓及び膀胱に病理組織学的変化が認められた。これらの変化はいずれも4 週間又は8 週間の休薬後に回復性ないしは回復傾向が認められた。"@ja	.
 if:IF_9_2_2	dct:references	if:ref12	.
 if:IF_9_2_3	rdf:type	ifo:IF_9_2_3	.
+if:IF_9_2_3	rdf:type	ifo:Section	.
 if:IF_9_2_3	rdf:value	"細菌を用いる復帰突然変異試験、哺乳類培養細胞を用いる染色体異常試験及びマウスを用いる小核試験を実施した。いずれの試験においても、本薬は遺伝子突然変異誘発性又は染色体異常誘発性を示さなかった。"@ja	.
 if:IF_9_2_3	dct:references	if:ref17	.
 if:IF_9_2_4	rdf:type	ifo:IF_9_2_4	.
+if:IF_9_2_4	rdf:type	ifo:Section	.
 if:IF_9_2_4	rdf:value	"トランスジェニックマウス（rasH2 マウス）を用いた26 週間静脈内投与がん原性試験（投与量：50、150 及び500 mg/kg、週1 回、各群雄51 例）において、50 及び150 mg/kg 投与群のそれぞれ1 及び2 例で剖検において尿管に腫瘤又は肥大が認められ、病理組織学的検査で移行上皮癌と確認された。500 mg/kg 投与群では発現が認められなかった（治験副作用等報告）。"@ja	.
 if:IF_9_2_4	dct:references	if:ref13	.
 if:IF_9_2_5	rdf:type	ifo:IF_9_2_5	.
+if:IF_9_2_5	rdf:type	ifo:Section	.
 if:IF_9_2_5	rdf:value	"本薬は、エクソン53 スキッピングにより治療可能な男性のデュシェンヌ型筋ジストロフィー患者を対象としているため、胚・胎児発生に関する試験、あるいは、出生前及び出生後の発生並びに母体の機能に関する試験は実施しなかった。\n １）雄の受胎能に関する試験\n 雄性CD-1 マウスに本薬（0、60、240 及び1000 mg/kg、各群25 例）を交配前9 週間、交配期間及び剖検前日までの計12 週間、週1 回反復静脈内投与した。1000 mg/kg 投与群で血中尿素窒素（BUN）の増加が認められたが、生殖能及び胎児の発育状態に本薬投与の影響は認められなかったことから、雄親動物の一般毒性に対する無毒性量（NOAEL）は240 mg/kg、生殖能及び胚・胎児におけるNOAEL は1000 mg/kg と判断した。\n ２）新生児を用いた試験\n 雄性の幼若CD-1 マウスに本薬（0、15、60、240 及び1200 mg/kg、各群80 例）を、生後7日齢（初回投与）は皮下投与、以降は静脈内投与で週1 回、10 週間反復投与した。15 mg/kg以上の投与群で尾静脈（投与部位）周囲に軽微な炎症性細胞浸潤が、240 mg/kg 以上の投与群で腎臓における尿細管変性、好塩基性尿細管及び空胞化が、1200 mg/kg 投与群で半眼、活動性の低下、発声の増加、立毛、体重の低値、腎臓における尿細管拡張及び円柱が認められた。投与期間中に認められた変化は、いずれも10 週間の休薬により回復性ないしは回復傾向が認められた。以上より、NOAEL は、一般毒性に対して60 mg/kg、骨成長及び神経毒性に対して1200 mg/kg と判断した。幼若マウスで認められた毒性は成熟マウスで認められた毒性と類似しており、一般毒性に対しては成熟マウス13 週試験のNOAEL と同じであった。"@ja	.
 if:IF_9_2_5	dct:references	if:ref18	.
 if:IF_9_2_6	rdf:type	ifo:IF_9_2_6	.
+if:IF_9_2_6	rdf:type	ifo:Section	.
 if:IF_9_2_6	rdf:value	"本薬の局所刺激性について、カニクイザルを用いた反復投与毒性試験（静脈内：12 及び39週間、筋肉内：12 週間）の一部として評価した。静脈内投与では、600 mg/kg の雄1 例で投与部位の皮下組織に炎症所見が認められた。筋肉内投与では、100 mg/kg の雄1 例で投与部位あるいは近傍の骨格筋に炎症が認められた。"@ja	.
 if:IF_9_2_6	dct:references	if:ref19	.
 if:IF_9_2_7	rdf:type	ifo:IF_9_2_7	.
+if:IF_9_2_7	rdf:type	ifo:Section	.
 if:IF_9_2_7	rdf:value	"免疫毒性試験20）\n カニクイザルを用いた12 週間反復投与毒性試験（静脈内及び筋肉内投与）において得られた血清試料を用いて抗薬物抗体産生を評価したところ、少数例で抗ビルトラルセン抗体産生が認められた。"@ja	.
 if:IF_9_2_7	dct:references	if:ref20	.
 if:IF_10_1	rdf:type	ifo:IF_10_1	.
+if:IF_10_1	rdf:type	ifo:Section	.
 if:IF_10_1	ifo:package_insert	pi:PI_0_6	.
 if:IF_10_1	rdf:value	"製剤：ビルテプソ点滴静注250mg 処方箋医薬品（注意－医師等の処方箋により使用すること）\n 有効成分：ビルトラルセン"@ja	.
 if:IF_10_2	rdf:type	ifo:IF_10_2	.
+if:IF_10_2	rdf:type	ifo:Section	.
 if:IF_10_2	ifo:package_insert	pi:PI_0_4	.
 if:IF_10_2	rdf:value	"有効期間：24 箇月"@ja	.
 if:IF_10_3	rdf:type	ifo:IF_10_3	.
+if:IF_10_3	rdf:type	ifo:Section	.
 if:IF_10_3	ifo:package_insert	pi:PI_0_4	.
 if:IF_10_3	rdf:value	"貯法：2～8°C で保存"@ja	.
 if:IF_10_4	rdf:type	ifo:IF_10_4	.
+if:IF_10_4	rdf:type	ifo:Section	.
 if:IF_10_4	ifo:package_insert	pi:PI_20	.
 if:IF_10_4	rdfs:seeAlso	if:IF_4_6	.
 if:IF_10_5	rdf:type	ifo:IF_10_5	.
+if:IF_10_5	rdf:type	ifo:Section	.
 if:IF_10_5	rdf:value	"患者向医薬品ガイド：有\n くすりのしおり：有\n その他患者向け資材：有\n ビルテプソによる治療を受けられる患者様・ご家族様へ（「Ⅰ．４．適正使用に関して周知すべき特性」、「ⅩⅢ．２．その他の関連資料」の項参照）"@ja	.
 if:IF_10_5	rdfs:seeAlso	if:IF_1	.
 if:IF_10_5	rdfs:seeAlso	if:IF_13	.
 if:IF_10_6	rdf:type	ifo:IF_10_6	.
+if:IF_10_6	rdf:type	ifo:Section	.
 if:IF_10_6	rdf:value	"同一成分・同効薬はない。"@ja	.
 if:IF_10_7	rdf:type	ifo:IF_10_7	.
+if:IF_10_7	rdf:type	ifo:Section	.
 if:IF_10_7	rdf:value	"2020 年3 月25 日（日本）"@ja	.
 if:IF_10_7	dct:date	"2020_03_25"	.
 if:IF_10_9	rdf:type	ifo:IF_10_9	.
+if:IF_10_9	rdf:type	ifo:Section	.
 if:IF_10_9	rdf:value	"該当しない"@ja	.
 if:IF_10_10	rdf:type	ifo:IF_10_10	.
+if:IF_10_10	rdf:type	ifo:Section	.
 if:IF_10_10	rdf:value	"該当しない"@ja	.
 if:IF_10_11	rdf:type	ifo:IF_10_11	.
-if:IF_10_11	ifo:item	if:IF_10_11.item1	.
-if:IF_10_11.item1	rdf:value	"10 年 2020 年3 月25 日から2030 年3 月24 日"@ja	.
+if:IF_10_11	rdf:type	ifo:Section	.
+if:IF_10_11	rdf:value	"10 年 2020 年3 月25 日から2030 年3 月24 日"@ja	.
 if:IF_10_12	rdf:type	ifo:IF_10_12	.
+if:IF_10_12	rdf:type	ifo:Section	.
 if:IF_10_12	ifo:package_insert	pi:PI_25	.
 if:IF_10_12	rdf:value	"本剤は、投薬期間に関する制限は定められていない。"@ja	.
 if:IF_10_14	rdf:type	ifo:IF_10_14	.
+if:IF_10_14	rdf:type	ifo:Section	.
 if:IF_10_14	ifo:package_insert	pi:PI_25	.
 if:IF_10_14	rdf:value	"①本製剤の効能又は効果に関連する注意に、「遺伝子検査により、エクソン53 スキッピングにより治療可能なジストロフィン遺伝子の欠失（エクソン43-52、45-52、47-52、48-52、49-52、50-52、52 欠失等）が確認されている患者に投与すること。」と記載されているので、遺伝子欠失を確認した検査の実施年月日を診療報酬明細書に記載すること。なお、当該検査を実施した月のみ実施年月日を記載すること。ただし、本剤の初回投与に当たっては、必ず実施年月日を記載すること。\n ②本製剤の効能又は効果に関連する注意に、「正常なX 染色体を有する女性ジストロフィン異常症患者に本剤を投与した場合、正常なジストロフィン発現を低下させるおそれがあるため、このような患者には投与しないこと。」と記載されているので、使用に当たっては十分留意すること。（令和2 年5 月19 日 保医発0519 第3 号）"@ja	.
 if:IF_11_2	rdf:type	ifo:IF_11_2	.
+if:IF_11_2	rdf:type	ifo:Section	.
 if:IF_11_2	rdf:value	"該当資料なし"@ja	.
 if:IF_12_1	rdf:type	ifo:IF_12_1	.
+if:IF_12_1	rdf:type	ifo:Section	.
 if:IF_12_1	ifo:package_insert	pi:PI_6	.
 if:IF_12_1	rdf:value	"本剤は、日本新薬株式会社が世界に先駆けて日本で申請するため、現在承認されている国は\n ない。"@ja	.
 if:IF_12_2	rdf:type	ifo:IF_12_2	.
+if:IF_12_2	rdf:type	ifo:Section	.
 if:IF_12_2	ifo:package_insert	pi:PI_9_7	.
 if:IF_12_2	ifo:item	if:IF_12_2.item1	.
 if:IF_12_2	ifo:item	if:IF_12_2.item2	.
+if:IF_12_2.item1	rdf:type	ifo:Item	.
 if:IF_12_2.item1	ifo:package_insert	pi:PI_9_7.item1	.
 if:IF_12_2.item1	dct:identifier	"12.2.item1"	.
 if:IF_12_2.item1	rdf:value	"（１）妊婦に関する海外情報（FDA、オーストラリア分類）\n 該当しない"@ja	.
+if:IF_12_2.item2	rdf:type	ifo:Item	.
 if:IF_12_2.item2	ifo:package_insert	pi:PI_9_7.item2	.
 if:IF_12_2.item2	dct:identifier	"12.2.item2"	.
 if:IF_12_2.item2	rdf:value	"（２）小児等に関する記載\n 該当しない"@ja	.
 if:IF_13	rdf:type	ifo:IF_13	.
+if:IF_13	rdf:type	ifo:Section	.
 if:IF_13	rdf:value	"１．調剤・服薬支援に際して臨床判断を行うにあたっての参考情報\n （１）粉砕\n 該当しない\n （２）崩壊・懸濁性及び経管投与チューブの透過性\n 該当しない\n ２．その他の関連資料\n 独立行政法人 医薬品医療機器総合機構のRMP 資材掲載ページを参照"@ja	.
 if:ref1	rdf:type	bibo:Document	.
 if:ref1	rdfs:label	"社内報告書"@ja	.

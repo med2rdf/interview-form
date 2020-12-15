@@ -117,8 +117,8 @@ IF_4_1_1,rdf:value,"ボナロン®錠5mg：錠（素錠）,ボナロン®錠35mg
 IF_4_1_2,rdf:value,
 IF_4_1_3,rdf:value,"ボナロン®錠5mg 表面／裏面 TJN BNT／5,ボナロン®錠35mg 表面／裏面 TJN／35,ボナロン®経口ゼリー35mg 該当しない"
 IF_4_1_4,rdf:value,"〈ボナロン®錠5mg〉〈ボナロン®錠35mg〉 該当資料なし,〈ボナロン®経口ゼリー35mg〉 pH ： 5.0～6.0"
+IF_4_1_4,rdfs:seeAlso,
 IF_4_1_5,rdf:value,該当しない
-IF_4_1_5,rdfs:seeAlso,
 IF_4_2,,
 IF_4_2_1,rdf:value,
 IF_4_2_2,rdf:value,該当資料なし
@@ -151,9 +151,9 @@ IF_4_12,rdf:value,錠剤およびゼリー剤を粉砕して投与した場合�
 IF_4_12,dct:references,
 IF_5,,
 IF_5_1,rdf:value,骨粗鬆症
-IF_5_2,rdf:value,
-IF_5_2,ifo:item,item1
-item1,rdf:value,本剤の適用にあたっては、日本骨代謝学会の診断基準等を参考に、骨粗鬆症との診断が確定している患者を対象とすること。
+IF_5_2,rdf:value,本剤の適用にあたっては、日本骨代謝学会の診断基準等を参考に、骨粗鬆症との診断が確定している患者を対象とすること。
+IF_5_2,ifo:item,
+item1,rdf:value,
 item1,dct:references,
 item2,rdf:value,
 ,,
@@ -181,6 +181,7 @@ IF_5_3_2,rdf:value,"〈ボナロン®錠5mg〉
 〈ボナロン®経口ゼリー35mg〉
 ボナロン®経口ゼリー35mgはボナロン®錠35mgと生物学的同等性が確認されたため、ボナロン®錠35mgと同様の用法及び用量を設定した。"
 IF_5_3_2,rdfs:seeAlso,
+IF_5_4,rdf:value,
 IF_5_4,ifo:item,"item1,item2"
 item1,rdf:value,7.1 本剤は水のみで服用すること。水以外の飲み物（Ca、Mg等の含量の特に高いミネラルウォーターを含む）、食物及び他の薬剤と一緒に服用すると、吸収を抑制するおそれがある。
 item1,rdfs:seeAlso,
@@ -320,7 +321,7 @@ item9,dct:references,
 item10,rdf:value,
 item10,dct:references,
 IF_7_1_3,rdf:value,該当資料なし
-IF_7_1_4,ifo:item,
+IF_7_1_4,ifo:item,item1
 item1,rdf:value,「Ⅴ．－3． 用法及び用量」の項及び「Ⅷ.－7. 相互作用」の項を参照すること。
 item1,dct:references,
 item2,rdf:value,
@@ -346,8 +347,8 @@ IF_7_3,,
 IF_7_3_1,rdf:value,該当資料なし
 IF_7_3_2,rdf:value,該当資料なし
 IF_7_3_2,dct:references,
-??,rdf:value,
-??,dct:references,
+IF_7_3_3,rdf:value,
+IF_7_3_3,dct:references,
 IF_7_4,ifo:item,"item1,item2,item3"
 item1,rdf:value,"(1) バイオアベイラビリティ
 アレンドロネートは経口吸収率が低く、ボナロン®錠5mg投与時の血中濃度はほとんどが定量限界未満であったことから、ボナロン®錠5mg及びボナロン®錠35mgの申請では尿中濃度を測定することにより薬物動態を検討した。なお、経口投与後吸収された薬物の尿中排泄率が静脈内投与後の尿中排泄率と同じであると仮定して、本剤のバイオアベイラビリティを求めた。
@@ -524,7 +525,7 @@ item1,rdf:value,"授乳婦への使用経験がなく、また動物実験（ラ
 産後14日のラットに14C-アレンドロネート0.038mg/kgを単回静脈内投与したとき、乳汁中放射能濃度の平均値は投与後2時間で最高の13.80ngeq./mLとなり、その後血漿中放射能濃度より高値を示しながら消失し、投与後48時間では検出限界未満となった。"
 item1,dct:references,
 item1,rdfs:seeAlso,
-IF_8_6_7,ifo:item,item1
+IF_8_6_7,ifo:item,
 item1,rdf:value,
 IF_8_6_8,ifo:item,item1
 item1,rdf:value,設定されていない
@@ -594,12 +595,13 @@ IF_8_8_2,ifo:item,item1
 item1,rdf:value,
 item2,rdf:value,
 IF_8_9,rdf:value,設定されていない
-IF_8_10,rdf:value,"13.1 ミルクあるいは制酸剤等に含まれているカルシウムやマグネシウムイオンとアレンドロン酸とのキレート形成を促し、胃腸粘膜からの吸収を低下させる。
+IF_8_10,ifo:item,item1
+item1,rdf:value,"13.1 ミルクあるいは制酸剤等に含まれているカルシウムやマグネシウムイオンとアレンドロン酸とのキレート形成を促し、胃腸粘膜からの吸収を低下させる。
 〈参考〉
 市販後での世界的な定期的安全性最新報告（PSUR）において、アレンドロネート70mg（海外で承認されているが、本邦では過量投与に該当する）を約45日間の連日投与によっても副作用は認められなかったとの報告例がある。
 （出典：ボナロン®錠35mg審査報告書）"
-item1,rdf:value,
 item2,rdf:value,
+,,
 IF_8_11,ifo:item,item1
 item1,rdf:value,"14.1 薬剤交付時の注意
 PTP包装の薬剤はPTPシートから取り出して服用するよう指導すること。
@@ -681,6 +683,7 @@ IF_10_10,rdf:value,"〈ボナロン®錠5mg〉
 効能・効果、用法・用量の変更なし
 〈ボナロン®経口ゼリー35mg〉
 該当しない"
+IF_10_11,rdf:value,
 IF_10_11,ifo:item,"item1,item2,item3"
 item1,rdf:value,ボナロン®錠5mg：6年間（2001年6月20日～2007年6月19日）
 item2,rdf:value,ボナロン®錠35mg：4年間（2006年7月26日～2010年7月25日）
