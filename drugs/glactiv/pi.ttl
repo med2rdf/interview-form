@@ -1,0 +1,1019 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/180188_3969010F1026_1_31#> .
+
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_0 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_1 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_2 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_3 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_3_1 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_3_2 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_4 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_5 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_6 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_7 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_8 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_9 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_9_1 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_9_2 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_9_3 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_9_4 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_9_5 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_9_6 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_9_7 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_9_8 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_10 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_10_1 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_10_2 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_11 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_11_1 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_11_2 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_12 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_13 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_14 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_15 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_15_1 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_15_2 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_16 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_16_1 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_16_2 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_16_3 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_16_4 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_16_5 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_16_6 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_16_7 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_16_8 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_17 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_17_1 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_17_2 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_17_3 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_18 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_18_1 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_19 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_20 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_21 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_22 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_23 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_24 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_25 .
+pi_root:180188_3969010F1026_1_31 pio:section pi:PI_26 .
+pi_root:180188_3969010F1026_1_31 dct:identifier "180188_3969010F1026_1_31" .
+pi_root:180188_3969010F1026_1_31 pio:company_identifier "180188" .
+pi_root:180188_3969010F1026_1_31 pio:date_of_preparation_or_revision "2019-10"^^xsd:date .
+pi_root:180188_3969010F1026_1_31 pio:version "第2版" .
+pi_root:180188_3969010F1026_1_31 pio:sccj_no "873969" .
+pi_root:180188_3969010F1026_1_31 pio:therapeutic_classification "選択的DPP-4阻害剤" .
+pi_root:180188_3969010F1026_1_31 pio:approval_brand_name "グラクティブ錠12.5mg" .
+pi_root:180188_3969010F1026_1_31 pio:yj_code "3969010F4025" .
+pi_root:180188_3969010F1026_1_31 pio:trademark_name "GLACTIV Tablets" .
+pi_root:180188_3969010F1026_1_31 pio:approval_no "22500AMX01784" .
+pi_root:180188_3969010F1026_1_31 pio:starting_date_of_marketing "2013-11"^^xsd:date .
+pi_root:180188_3969010F1026_1_31 pio:storage_method "室温保存" .
+pi_root:180188_3969010F1026_1_31 pio:shelf_life "3年" .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "重症ケトーシス、糖尿病性昏睡又は前昏睡、1型糖尿病の患者［輸液及びインスリンによる速やかな高血糖の是正が必須となるので本剤を投与すべきでない。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "重症感染症、手術前後、重篤な外傷のある患者［インスリン注射による血糖管理が望まれるので本剤の投与は適さない。］"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "（1錠中）シタグリプチンリン酸塩水和物"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "シタグリプチンとして"@ja .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "12.5mg"@ja .
+pi:PI_3_1.item1 pio:additives "結晶セルロース、無水リン酸水素カルシウム、クロスカルメロースナトリウム、ステアリン酸マグネシウム 、フマル酸ステアリルナトリウム、ポリビニルアルコール（部分けん化物）、酸化チタン、マクロゴール4000、タルク、黄色三二酸化鉄、三二酸化鉄 、黒酸化鉄"@ja .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "（1錠中）シタグリプチンリン酸塩水和物"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "シタグリプチンとして"@ja .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "25mg"@ja .
+pi:PI_3_1.item1 pio:additives "結晶セルロース、無水リン酸水素カルシウム、クロスカルメロースナトリウム、ステアリン酸マグネシウム 、フマル酸ステアリルナトリウム、ポリビニルアルコール（部分けん化物）、酸化チタン、マクロゴール4000、タルク、黄色三二酸化鉄、三二酸化鉄 、黒酸化鉄"@ja .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "（1錠中）シタグリプチンリン酸塩水和物"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "シタグリプチンとして"@ja .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "50mg"@ja .
+pi:PI_3_1.item1 pio:additives "結晶セルロース、無水リン酸水素カルシウム、クロスカルメロースナトリウム、ステアリン酸マグネシウム 、フマル酸ステアリルナトリウム、ポリビニルアルコール（部分けん化物）、酸化チタン、マクロゴール4000、タルク、黄色三二酸化鉄、三二酸化鉄 、黒酸化鉄"@ja .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "（1錠中）シタグリプチンリン酸塩水和物"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "シタグリプチンとして"@ja .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "100mg"@ja .
+pi:PI_3_1.item1 pio:additives "結晶セルロース、無水リン酸水素カルシウム、クロスカルメロースナトリウム、ステアリン酸マグネシウム 、フマル酸ステアリルナトリウム、ポリビニルアルコール（部分けん化物）、酸化チタン、マクロゴール4000、タルク、黄色三二酸化鉄、三二酸化鉄 、黒酸化鉄"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:formulation "フィルムコーティング錠" .
+pi:PI_3_2.item1 pio:color_tone "明るい灰色" .
+pi:PI_3_2.item1 pio:weight "約104mg" .
+pi:PI_3_2.item1 pio:id_code "ONO 663" .
+pi:PI_3_2.item1 pio:shape_front "180188_3969010F1026_fig01.gif" .
+pi:PI_3_2.item1 pio:shape_back "180188_3969010F1026_fig02.gif" .
+pi:PI_3_2.item1 pio:shape_side "180188_3969010F1026_fig03.gif" .
+pi:PI_3_2.item1 pio:size_diameter "6.1mm" .
+pi:PI_3_2.item1 pio:size_thickness "2.7mm" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item2 .
+pi:PI_3_2.item2 pio:formulation "フィルムコーティング錠" .
+pi:PI_3_2.item2 pio:color_tone "うすい赤黄色" .
+pi:PI_3_2.item2 pio:weight "約105mg" .
+pi:PI_3_2.item2 pio:id_code "ONO 660" .
+pi:PI_3_2.item2 pio:shape_front "180188_3969010F1026_fig04.gif" .
+pi:PI_3_2.item2 pio:shape_back "180188_3969010F1026_fig05.gif" .
+pi:PI_3_2.item2 pio:shape_side "180188_3969010F1026_fig06.gif" .
+pi:PI_3_2.item2 pio:size_long_diameter "9.1mm" .
+pi:PI_3_2.item2 pio:size_short_diameter "3.8mm" .
+pi:PI_3_2.item2 pio:size_thickness "2.5mm" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item3 .
+pi:PI_3_2.item3 pio:formulation "フィルムコーティング錠" .
+pi:PI_3_2.item3 pio:color_tone "ごくうすい赤黄色" .
+pi:PI_3_2.item3 pio:weight "約209mg" .
+pi:PI_3_2.item3 pio:id_code "ONO 661" .
+pi:PI_3_2.item3 pio:shape_front "180188_3969010F1026_fig07.gif" .
+pi:PI_3_2.item3 pio:shape_back "180188_3969010F1026_fig08.gif" .
+pi:PI_3_2.item3 pio:shape_side "180188_3969010F1026_fig09.gif" .
+pi:PI_3_2.item3 pio:size_long_diameter "11.5mm" .
+pi:PI_3_2.item3 pio:size_short_diameter "4.8mm" .
+pi:PI_3_2.item3 pio:size_thickness "3.1mm" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item4 .
+pi:PI_3_2.item4 pio:formulation "フィルムコーティング錠" .
+pi:PI_3_2.item4 pio:color_tone "うすい赤黄色" .
+pi:PI_3_2.item4 pio:weight "約416mg" .
+pi:PI_3_2.item4 pio:id_code "ONO 662" .
+pi:PI_3_2.item4 pio:shape_front "180188_3969010F1026_fig10.gif" .
+pi:PI_3_2.item4 pio:shape_back "180188_3969010F1026_fig11.gif" .
+pi:PI_3_2.item4 pio:shape_side "180188_3969010F1026_fig12.gif" .
+pi:PI_3_2.item4 pio:size_diameter "9.8mm" .
+pi:PI_3_2.item4 pio:size_thickness "4.2mm" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 dct:description "2型糖尿病"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 dct:description "本剤の適用はあらかじめ糖尿病治療の基本である食事療法、運動療法を十分に行ったうえで効果が不十分な場合に限り考慮すること。"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "通常、成人にはシタグリプチンとして50mgを1日1回経口投与する。なお、効果不十分な場合には、経過を十分に観察しながら100mg1日1回まで増量することができる。"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 pio:section pi:PI_7.item1 .
+pi:PI_7.item1 dct:description "本剤は主に腎臓で排泄されるため、腎機能障害のある患者では、下表を目安に用量調節すること。 , , ,"@ja .
+pi:PI_7 pio:table pi:PI_7.item1.table1 .
+pi:PI_7.item1.table1 pio:row pi:PI_7.item1.table1.row1 .
+pi:PI_7.item1.table1.row1 pio:column pi:PI_7.item1.table1.row1.column1 .
+pi:PI_7.item1.table1.row1.column1 rdf:value "腎機能障害" .
+pi:PI_7.item1.table1.row1 pio:column pi:PI_7.item1.table1.row1.column2 .
+pi:PI_7.item1.table1.row1.column2 rdf:value "クレアチニンクリアランス（mL/min） 血清クレアチニン値（mg/dL）" .
+pi:PI_7.item1.table1.row1 pio:column pi:PI_7.item1.table1.row1.column3 .
+pi:PI_7.item1.table1.row1.column3 rdf:value "通常 投与量" .
+pi:PI_7.item1.table1.row1 pio:column pi:PI_7.item1.table1.row1.column4 .
+pi:PI_7.item1.table1.row1.column4 rdf:value "最大 投与量" .
+pi:PI_7.item1.table1 pio:row pi:PI_7.item1.table1.row2 .
+pi:PI_7.item1.table1.row2 pio:column pi:PI_7.item1.table1.row2.column1 .
+pi:PI_7.item1.table1.row2.column1 rdf:value "中等度" .
+pi:PI_7.item1.table1.row2 pio:column pi:PI_7.item1.table1.row2.column2 .
+pi:PI_7.item1.table1.row2.column2 rdf:value "30≤CrCl&lt;50 男性：1.5&lt;Cr≤2.5 女性：1.3&lt;Cr≤2.0" .
+pi:PI_7.item1.table1.row2 pio:column pi:PI_7.item1.table1.row2.column3 .
+pi:PI_7.item1.table1.row2.column3 rdf:value "25mg 1日1回" .
+pi:PI_7.item1.table1.row2 pio:column pi:PI_7.item1.table1.row2.column4 .
+pi:PI_7.item1.table1.row2.column4 rdf:value "50mg 1日1回" .
+pi:PI_7.item1.table1 pio:row pi:PI_7.item1.table1.row3 .
+pi:PI_7.item1.table1.row3 pio:column pi:PI_7.item1.table1.row3.column1 .
+pi:PI_7.item1.table1.row3.column1 rdf:value "重度、末期腎不全" .
+pi:PI_7.item1.table1.row3 pio:column pi:PI_7.item1.table1.row3.column2 .
+pi:PI_7.item1.table1.row3.column2 rdf:value "CrCl&lt;30 男性：Cr&gt;2.5 女性：Cr&gt;2.0" .
+pi:PI_7.item1.table1.row3 pio:column pi:PI_7.item1.table1.row3.column3 .
+pi:PI_7.item1.table1.row3.column3 rdf:value "12.5mg 1日1回" .
+pi:PI_7.item1.table1.row3 pio:column pi:PI_7.item1.table1.row3.column4 .
+pi:PI_7.item1.table1.row3.column4 rdf:value "25mg 1日1回" .
+pi:PI_7 pio:section pi:PI_7.item2 .
+pi:PI_7.item2 dct:description "末期腎不全患者については、血液透析との時間関係は問わない。 , ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "本剤の使用にあたっては、患者に対し低血糖症状及びその対処方法について十分説明すること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "本剤投与中は、血糖を定期的に検査するとともに、経過を十分に観察し、常に投与継続の必要性について注意を払うこと。本剤を3ヵ月投与しても効果が不十分な場合、より適切と考えられる治療への変更を考慮すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "腎機能障害のある患者では本剤の排泄が遅延し血中濃度が上昇するおそれがあるので、腎機能を定期的に検査することが望ましい。 , ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 dct:description "急性膵炎があらわれることがあるので、持続的な激しい腹痛、嘔吐等の初期症状があらわれた場合には、速やかに医師の診察を受けるよう患者に指導すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item5 .
+pi:PI_8.item5 dct:description "低血糖症状を起こすことがあるので、高所作業、自動車の運転等に従事している患者に投与するときには注意すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item6 .
+pi:PI_8.item6 dct:description "本剤とGLP-1受容体作動薬はいずれもGLP-1受容体を介した血糖降下作用を有している。両剤を併用した際の臨床試験成績はなく、有効性及び安全性は確認されていない。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "低血糖を起こすおそれのある以下の患者又は状態"@ja .
+pi:PI_9_1.item1 dct:description "               ,"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item2 .
+pi:PI_9_1.item2 rdfs:title "腹部手術の既往又は腸閉塞の既往のある患者"@ja .
+pi:PI_9_1.item2 dct:description "腸閉塞を起こすおそれがある。"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item1 .
+pi:PI_9_2.item1 rdfs:title "中等度腎機能障害又は重度腎機能障害のある患者、血液透析又は腹膜透析を要する末期腎不全の患者"@ja .
+pi:PI_9_2.item1 dct:description "これらの患者には適切な用量調節を行うこと。 , , ,"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には治療上の有益性が危険性を上回ると判断される場合にのみ投与を考慮すること。動物実験（ラット）において、1,000mg/kg/日（臨床での最大投与量100mg/日の約100倍の曝露量に相当する）経口投与により、胎児肋骨の欠損、形成不全及び波状肋骨の発現率の軽度増加が認められたとの報告がある。"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。動物実験（ラット）で乳汁中への移行が報告されている。"@ja .
+pi:PI_9_7 dct:description "小児等を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_8 dct:description "腎機能に注意し、腎機能障害がある場合には適切な用量調節を行うこと。腎機能が低下していることが多い。 , ,"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2 pio:drug pi:PI_10_2.item1 .
+pi:PI_10_2.item1 a pio:PrecautionsForCombi .
+pi:PI_10_2.item1 pio:drug_name "インスリン製剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "スルホニルウレア剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "チアゾリジン系薬剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "ビグアナイド系薬剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "α-グルコシダーゼ阻害剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "速効型インスリン分泌促進薬"@ja .
+pi:PI_10_2.item1 pio:drug_name "GLP-1受容体作動薬"@ja .
+pi:PI_10_2.item1 pio:drug_name "SGLT2阻害剤等"@ja .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "低血糖の発現に注意すること。特に、インスリン製剤、スルホニルウレア剤又は速効型インスリン分泌促進薬と併用する場合、低血糖のリスクが増加するため、これらの薬剤の減量を検討すること。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "糖尿病用薬（特に、インスリン製剤、スルホニルウレア剤又は速効型インスリン分泌促進薬）との併用時には、本剤の血糖降下作用の増強により、低血糖のリスクが増加するおそれがある。"@ja .
+pi:PI_10_2.item2 pio:clin_symptoms_and_measures "本剤との併用によりジゴキシンの血漿中濃度がわずかに増加したとの報告があるので、適切な観察を行うこと。"@ja .
+pi:PI_10_2.item2 pio:mechanism_and_risk_factors "機序不明"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item3 .
+pi:PI_10_2.item3 a pio:PrecautionsForCombi .
+pi:PI_10_2.item3 pio:drug_name "β-遮断薬"@ja .
+pi:PI_10_2.item3 pio:drug_name "サリチル酸剤"@ja .
+pi:PI_10_2.item3 pio:drug_name "モノアミン酸化酵素阻害剤等"@ja .
+pi:PI_10_2.item3 pio:clin_symptoms_and_measures "左記薬剤と本剤を併用する場合には、血糖値その他患者の状態を十分観察しながら投与すること。"@ja .
+pi:PI_10_2.item3 pio:mechanism_and_risk_factors "左記薬剤との併用により血糖降下作用が増強されるおそれがある。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item4 .
+pi:PI_10_2.item4 a pio:PrecautionsForCombi .
+pi:PI_10_2.item4 pio:drug_name "アドレナリン"@ja .
+pi:PI_10_2.item4 pio:drug_name "副腎皮質ホルモン"@ja .
+pi:PI_10_2.item4 pio:drug_name "甲状腺ホルモン等"@ja .
+pi:PI_10_2.item4 pio:clin_symptoms_and_measures "左記薬剤と本剤を併用する場合には、血糖値その他患者の状態を十分観察しながら投与すること。"@ja .
+pi:PI_10_2.item4 pio:mechanism_and_risk_factors "左記薬剤との併用により血糖降下作用が減弱されるおそれがある。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には、投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "アナフィラキシー反応（頻度不明）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "皮膚粘膜眼症候群（Stevens-Johnson症候群）、剥脱性皮膚炎（いずれも頻度不明）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item3 .
+pi:PI_11_1.item3 rdfs:title "低血糖（4.2%）"@ja .
+pi:PI_11_1.item3 dct:description "低血糖があらわれることがある。特に、インスリン製剤又はスルホニルウレア剤との併用で重篤な低血糖症状があらわれ、意識消失を来す例も報告されている。低血糖症状が認められた場合には、糖質を含む食品を摂取するなど適切な処置を行うこと。ただし、α-グルコシダーゼ阻害剤との併用により低血糖症状が認められた場合にはブドウ糖を投与すること。 , , , , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item4 .
+pi:PI_11_1.item4 rdfs:title "肝機能障害、黄疸（いずれも頻度不明）"@ja .
+pi:PI_11_1.item4 dct:description "AST、ALT等の著しい上昇を伴う肝機能障害、黄疸があらわれることがある。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item5 .
+pi:PI_11_1.item5 rdfs:title "急性腎障害（頻度不明）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item6 .
+pi:PI_11_1.item6 rdfs:title "急性膵炎（頻度不明）"@ja .
+pi:PI_11_1.item6 dct:description "持続的な激しい腹痛、嘔吐等の異常が認められた場合には投与を中止し、適切な処置を行うこと。海外の自発報告においては、出血性膵炎又は壊死性膵炎も報告されている。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item7 .
+pi:PI_11_1.item7 rdfs:title "間質性肺炎（頻度不明）"@ja .
+pi:PI_11_1.item7 dct:description "咳嗽、呼吸困難、発熱、肺音の異常（捻髪音）等が認められた場合には、速やかに胸部X線、胸部CT、血清マーカー等の検査を実施すること。間質性肺炎が疑われた場合には投与を中止し、副腎皮質ホルモン剤の投与等の適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item8 .
+pi:PI_11_1.item8 rdfs:title "腸閉塞（頻度不明）"@ja .
+pi:PI_11_1.item8 dct:description "高度の便秘、腹部膨満、持続する腹痛、嘔吐等の異常が認められた場合には投与を中止し、適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item9 .
+pi:PI_11_1.item9 rdfs:title "横紋筋融解症（頻度不明）"@ja .
+pi:PI_11_1.item9 dct:description "筋肉痛、脱力感、CK上昇、血中及び尿中ミオグロビン上昇を特徴とする横紋筋融解症があらわれることがある。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item10 .
+pi:PI_11_1.item10 rdfs:title "血小板減少（頻度不明）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item11 .
+pi:PI_11_1.item11 rdfs:title "類天疱瘡（頻度不明）"@ja .
+pi:PI_11_1.item11 dct:description "水疱、びらん等があらわれた場合には、皮膚科医と相談し、投与を中止するなど適切な処置を行うこと。"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "浮動性めまい、感覚鈍麻" .
+pi:PI_11_2.item1.item1 pio:category "神経系障害" .
+pi:PI_11_2.item1.item1 pio:frequency "0.1～2%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "頭痛" .
+pi:PI_11_2.item1.item2 pio:category "神経系障害" .
+pi:PI_11_2.item1.item2 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "糖尿病網膜症の悪化" .
+pi:PI_11_2.item1.item3 pio:category "眼障害" .
+pi:PI_11_2.item1.item3 pio:frequency "0.1～2%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "回転性めまい" .
+pi:PI_11_2.item1.item4 pio:category "耳及び迷路障害" .
+pi:PI_11_2.item1.item4 pio:frequency "0.1～2%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "上室性期外収縮、心室性期外収縮、動悸" .
+pi:PI_11_2.item1.item5 pio:category "心臓障害" .
+pi:PI_11_2.item1.item5 pio:frequency "0.1～2%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "鼻咽頭炎" .
+pi:PI_11_2.item1.item6 pio:category "呼吸、胸郭及び縦隔障害" .
+pi:PI_11_2.item1.item6 pio:frequency "0.1～2%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "上気道感染" .
+pi:PI_11_2.item1.item7 pio:category "呼吸、胸郭及び縦隔障害" .
+pi:PI_11_2.item1.item7 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "腹部不快感（胃不快感を含む）、腹部膨満、腹痛、上腹部痛、悪心、便秘、下痢、鼓腸、胃ポリープ、胃炎、萎縮性胃炎、びらん性胃炎、歯周炎、胃食道逆流性疾患、口内炎" .
+pi:PI_11_2.item1.item8 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item8 pio:frequency "0.1～2%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "嘔吐" .
+pi:PI_11_2.item1.item9 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item9 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "肝機能異常" .
+pi:PI_11_2.item1.item10 pio:category "肝胆道系障害" .
+pi:PI_11_2.item1.item10 pio:frequency "0.1～2%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item11 .
+pi:PI_11_2.item1.item11 a pio:AdverseEvent .
+pi:PI_11_2.item1.item11 pio:adverse_reaction "発疹、湿疹、冷汗、多汗症" .
+pi:PI_11_2.item1.item11 pio:category "皮膚及び皮下組織障害" .
+pi:PI_11_2.item1.item11 pio:frequency "0.1～2%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item12 .
+pi:PI_11_2.item1.item12 a pio:AdverseEvent .
+pi:PI_11_2.item1.item12 pio:adverse_reaction "皮膚血管炎、じん麻疹、血管浮腫、そう痒症" .
+pi:PI_11_2.item1.item12 pio:category "皮膚及び皮下組織障害" .
+pi:PI_11_2.item1.item12 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item13 .
+pi:PI_11_2.item1.item13 a pio:AdverseEvent .
+pi:PI_11_2.item1.item13 pio:adverse_reaction "関節痛、筋肉痛、四肢痛、背部痛、RS3PE症候群" .
+pi:PI_11_2.item1.item13 pio:category "筋骨格系及び結合組織障害" .
+pi:PI_11_2.item1.item13 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item14 .
+pi:PI_11_2.item1.item14 a pio:AdverseEvent .
+pi:PI_11_2.item1.item14 pio:adverse_reaction "空腹、浮腫、倦怠感" .
+pi:PI_11_2.item1.item14 pio:category "全身障害" .
+pi:PI_11_2.item1.item14 pio:frequency "0.1～2%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item15 .
+pi:PI_11_2.item1.item15 a pio:AdverseEvent .
+pi:PI_11_2.item1.item15 pio:adverse_reaction "心電図T波振幅減少、体重増加、赤血球数減少、ヘモグロビン減少、ヘマトクリット減少、白血球数増加、ALT増加、AST増加、γ-GTP増加、血中ビリルビン増加、血中LDH増加、CK増加、血中コレステロール増加、血中尿酸増加、血中尿素増加、血中クレアチニン増加、血中ブドウ糖減少、低比重リポ蛋白増加、血中トリグリセリド増加、尿中蛋白陽性" .
+pi:PI_11_2.item1.item15 pio:category "臨床検査" .
+pi:PI_11_2.item1.item15 pio:frequency "0.1～2%未満" .
+pi:PI_13 pio:section pi:PI_13.item1 .
+pi:PI_13.item1 rdfs:title "処置"@ja .
+pi:PI_13.item1 dct:description "血液透析によるシタグリプチンの除去はわずかである。"@ja .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤交付時の注意"@ja .
+pi:PI_14.item1 dct:description "PTP包装の薬剤はPTPシートから取り出して服用するよう指導すること。PTPシートの誤飲により、硬い鋭角部が食道粘膜へ刺入し、更には穿孔を起こして縦隔洞炎等の重篤な合併症を併発することがある。"@ja .
+pi:PI_15_2 dct:description "雌雄ラットに本剤50、150及び500mg/kg/日を2年間経口投与したがん原性試験では、500mg/kg/日群の雄ラットにおいて肝腺腫及び肝がんの発現率が増加し、同群の雌ラットにおいて肝がんの発現率が増加したとの報告がある。このラットの投与量は、臨床での最大投与量100mg/日の約58倍の曝露量に相当する。 雌雄マウスに本剤50、125、250及び500mg/kg/日を2年間経口投与したがん原性試験では、本剤500mg/kg/日（臨床での最大投与量100mg/日の約68倍の曝露量に相当する）までの用量で、いずれの臓器においても腫瘍の発現率は増加しなかった。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:title "単回投与"@ja .
+pi:PI_16_1.item1 dct:description "健康成人に、シタグリプチン12.5～100mgを空腹時単回経口投与した場合、シタグリプチンは速やかに吸収され、投与後2～5時間に最高血漿中濃度（Cmax）に達し、半減期（T ）は9.6～12.3時間であった（図及び表1）。シタグリプチンの血漿中濃度－時間曲線下面積（AUC ）は用量にほぼ比例して増加した。"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.table1 .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row1 .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column1 .
+pi:PI_16_1.item1.table1.row1.column1 rdf:value "" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column2 .
+pi:PI_16_1.item1.table1.row1.column2 rdf:value "AUC (μM・hr)" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column3 .
+pi:PI_16_1.item1.table1.row1.column3 rdf:value "Cmax (nM)" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column4 .
+pi:PI_16_1.item1.table1.row1.column4 rdf:value "Tmax (hr)" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column5 .
+pi:PI_16_1.item1.table1.row1.column5 rdf:value "T (hr)" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row2 .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column1 .
+pi:PI_16_1.item1.table1.row2.column1 rdf:value "12.5mg" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column2 .
+pi:PI_16_1.item1.table1.row2.column2 rdf:value "0.96±0.15" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column3 .
+pi:PI_16_1.item1.table1.row2.column3 rdf:value "60± 7" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column4 .
+pi:PI_16_1.item1.table1.row2.column4 rdf:value "4.0 (4.0, 6.0)" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column5 .
+pi:PI_16_1.item1.table1.row2.column5 rdf:value "12.3±0.8" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row3 .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column1 .
+pi:PI_16_1.item1.table1.row3.column1 rdf:value "25mg" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column2 .
+pi:PI_16_1.item1.table1.row3.column2 rdf:value "1.99±0.35" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column3 .
+pi:PI_16_1.item1.table1.row3.column3 rdf:value "145± 33" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column4 .
+pi:PI_16_1.item1.table1.row3.column4 rdf:value "5.0 (2.0, 6.0)" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column5 .
+pi:PI_16_1.item1.table1.row3.column5 rdf:value "11.6±1.8" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row4 .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column1 .
+pi:PI_16_1.item1.table1.row4.column1 rdf:value "50mg" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column2 .
+pi:PI_16_1.item1.table1.row4.column2 rdf:value "3.73±0.63" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column3 .
+pi:PI_16_1.item1.table1.row4.column3 rdf:value "319± 83" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column4 .
+pi:PI_16_1.item1.table1.row4.column4 rdf:value "2.0 (1.0, 6.0)" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column5 .
+pi:PI_16_1.item1.table1.row4.column5 rdf:value "11.4±2.4" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row5 .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column1 .
+pi:PI_16_1.item1.table1.row5.column1 rdf:value "100mg" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column2 .
+pi:PI_16_1.item1.table1.row5.column2 rdf:value "8.43±1.64" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column3 .
+pi:PI_16_1.item1.table1.row5.column3 rdf:value "944±307" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column4 .
+pi:PI_16_1.item1.table1.row5.column4 rdf:value "2.0 (0.5, 6.0)" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column5 .
+pi:PI_16_1.item1.table1.row5.column5 rdf:value "9.6±0.9" .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 rdfs:title "反復投与"@ja .
+pi:PI_16_1.item2 dct:description "健康成人に、シタグリプチン25～400mgを1日1回10日間反復経口投与した場合、血漿中濃度は2日目で定常状態に達し、反復投与による蓄積はほとんど認められなかった。累積係数は1.03～1.19倍であった。"@ja .
+pi:PI_16_2 pio:section pi:PI_16_2.item1 .
+pi:PI_16_2.item1 rdfs:title "バイオアベイラビリティ"@ja .
+pi:PI_16_2.item1 dct:description "健康成人に、シタグリプチン100mgを投与した時の経口バイオアベイラビリティは約87％であった（外国人データ）。"@ja .
+pi:PI_16_2 pio:section pi:PI_16_2.item2 .
+pi:PI_16_2.item2 rdfs:title "食事の影響"@ja .
+pi:PI_16_2.item2 dct:description "健康成人に、シタグリプチン50mgを食後に単回経口投与した場合、空腹時に比べてCmaxは37％増加したが、AUC 及びTmaxに差はなかった（表2）。"@ja .
+pi:PI_16_2 pio:table pi:PI_16_2.item2.table1 .
+pi:PI_16_2.item2.table1 pio:row pi:PI_16_2.item2.table1.row1 .
+pi:PI_16_2.item2.table1.row1 pio:column pi:PI_16_2.item2.table1.row1.column1 .
+pi:PI_16_2.item2.table1.row1.column1 rdf:value "" .
+pi:PI_16_2.item2.table1.row1 pio:column pi:PI_16_2.item2.table1.row1.column2 .
+pi:PI_16_2.item2.table1.row1.column2 rdf:value "AUC (μM・hr)" .
+pi:PI_16_2.item2.table1.row1 pio:column pi:PI_16_2.item2.table1.row1.column3 .
+pi:PI_16_2.item2.table1.row1.column3 rdf:value "Cmax(nM)" .
+pi:PI_16_2.item2.table1.row1 pio:column pi:PI_16_2.item2.table1.row1.column4 .
+pi:PI_16_2.item2.table1.row1.column4 rdf:value "Tmax(hr)" .
+pi:PI_16_2.item2.table1.row1 pio:column pi:PI_16_2.item2.table1.row1.column5 .
+pi:PI_16_2.item2.table1.row1.column5 rdf:value "T (hr)" .
+pi:PI_16_2.item2.table1 pio:row pi:PI_16_2.item2.table1.row2 .
+pi:PI_16_2.item2.table1.row2 pio:column pi:PI_16_2.item2.table1.row2.column1 .
+pi:PI_16_2.item2.table1.row2.column1 rdf:value "空腹時" .
+pi:PI_16_2.item2.table1.row2 pio:column pi:PI_16_2.item2.table1.row2.column2 .
+pi:PI_16_2.item2.table1.row2.column2 rdf:value "4.08±0.52" .
+pi:PI_16_2.item2.table1.row2 pio:column pi:PI_16_2.item2.table1.row2.column3 .
+pi:PI_16_2.item2.table1.row2.column3 rdf:value "366± 93" .
+pi:PI_16_2.item2.table1.row2 pio:column pi:PI_16_2.item2.table1.row2.column4 .
+pi:PI_16_2.item2.table1.row2.column4 rdf:value "2.5 (1.5, 6.0)" .
+pi:PI_16_2.item2.table1.row2 pio:column pi:PI_16_2.item2.table1.row2.column5 .
+pi:PI_16_2.item2.table1.row2.column5 rdf:value "12.2±1.7" .
+pi:PI_16_2.item2.table1 pio:row pi:PI_16_2.item2.table1.row3 .
+pi:PI_16_2.item2.table1.row3 pio:column pi:PI_16_2.item2.table1.row3.column1 .
+pi:PI_16_2.item2.table1.row3.column1 rdf:value "食　後" .
+pi:PI_16_2.item2.table1.row3 pio:column pi:PI_16_2.item2.table1.row3.column2 .
+pi:PI_16_2.item2.table1.row3.column2 rdf:value "3.99±0.64" .
+pi:PI_16_2.item2.table1.row3 pio:column pi:PI_16_2.item2.table1.row3.column3 .
+pi:PI_16_2.item2.table1.row3.column3 rdf:value "500±154" .
+pi:PI_16_2.item2.table1.row3 pio:column pi:PI_16_2.item2.table1.row3.column4 .
+pi:PI_16_2.item2.table1.row3.column4 rdf:value "2.0 (0.5, 6.0)" .
+pi:PI_16_2.item2.table1.row3 pio:column pi:PI_16_2.item2.table1.row3.column5 .
+pi:PI_16_2.item2.table1.row3.column5 rdf:value "12.3±1.8" .
+pi:PI_16_3 pio:section pi:PI_16_3.item1 .
+pi:PI_16_3.item1 rdfs:title "血漿タンパク結合"@ja .
+pi:PI_16_3.item1 dct:description " シタグリプチンの 血漿タンパク結合率は38%であった。"@ja .
+pi:PI_16_4 pio:section pi:PI_16_4.item1 .
+pi:PI_16_4.item1 dct:description "シタグリプチンは、代謝を受けにくく、主に未変化体として尿中に排泄される。健康成人（外国人）に C-シタグリプチンの経口投与後、放射能の約16%がシタグリプチンの代謝物として排泄された。 6種類の代謝物が検出されたが、微量であり 、シタグリプチンの血漿中ジペプチジルペプチダーゼ4（DPP-4）阻害活性に影響しないと考えられる。"@ja .
+pi:PI_16_4 pio:section pi:PI_16_4.item2 .
+pi:PI_16_4.item2 dct:description "シタグリプチンの消失において代謝の関与は少ない。 試験では、シタグリプチンの代謝にCYP3A4が主に関与し、また、CYP2C8も関与することが示された。また、シタグリプチンはCYP3A4、2C8、2C9、2D6、1A2、2C19及び2B6を阻害せず、CYP3A4を誘導しなかった。"@ja .
+pi:PI_16_5 pio:section pi:PI_16_5.item1 .
+pi:PI_16_5.item1 dct:description "健康成人にシタグリプチン25～100mgを単回経口投与した場合、シタグリプチンの79～88%（推測値）は尿中に未変化体として排泄され、腎クリアランスは397～464mL/minであった。"@ja .
+pi:PI_16_5 pio:section pi:PI_16_5.item2 .
+pi:PI_16_5.item2 dct:description "健康成人（外国人）に C-シタグリプチンを経口投与後、1週間以内に投与放射能の約13%が糞中に、87%が尿中に排泄された。 シタグリプチンの消失は主に腎排泄によるもので、能動的な尿細管分泌が関与する。 シタグリプチンはP-糖タンパク質及び有機アニオントランスポーター（hOAT3）の基質である。 試験で、P-糖タンパク質を介するシタグリプチンの輸送はシクロスポリンにより阻害され、hOAT3を介するシタグリプチンの取込みは、プロベネシド、イブプロフェン、フロセミド、フェノフィブリック酸、キナプリル、インダパミド及びシメチジンで阻害された。また、シタグリプチンは500μMまでの濃度では、P-糖タンパク質を介するジゴキシンの輸送を阻害しなかったが、hOAT3を介するシメチジンの取込みには弱い阻害作用を示した（IC ：160μM）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item1 .
+pi:PI_16_6.item1 rdfs:title "腎機能障害患者"@ja .
+pi:PI_16_6.item1 dct:description "シタグリプチン50mg単回経口投与時の薬物動態パラメータは表3のとおりであった。中等度、重度腎機能障害患者、血液透析が必要な末期腎不全患者のAUC は、正常腎機能を有する健康成人のそれぞれ約2.3倍、約3.8倍、約4.5倍であり、腎機能障害の程度に応じて上昇した。血液透析が必要な末期腎不全患者では、投与後4時間から3～4時間の血液透析により、透析液中に投与量の13.5％が除去された（外国人データ）。 なお、腎機能障害患者を対象とした反復投与による薬物動態試験は実施されていない。 , , , ,"@ja .
+pi:PI_16_6 pio:table pi:PI_16_6.item1.table1 .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row1 .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column1 .
+pi:PI_16_6.item1.table1.row1.column1 rdf:value "" .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column2 .
+pi:PI_16_6.item1.table1.row1.column2 rdf:value "正常 （n=82）" .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column3 .
+pi:PI_16_6.item1.table1.row1.column3 rdf:value "軽度の腎 機能障害 （n=6）" .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column4 .
+pi:PI_16_6.item1.table1.row1.column4 rdf:value "中等度 の腎 機能障害 （n=6）" .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column5 .
+pi:PI_16_6.item1.table1.row1.column5 rdf:value "重度の腎 機能障害 （n=6）" .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column6 .
+pi:PI_16_6.item1.table1.row1.column6 rdf:value "血液透析が 必要な末期腎不全患者（n=6）" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row2 .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column1 .
+pi:PI_16_6.item1.table1.row2.column1 rdf:value "AUC （μM・hr） 平均の比" .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column2 .
+pi:PI_16_6.item1.table1.row2.column2 rdf:value "4.40 ±0.832" .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column3 .
+pi:PI_16_6.item1.table1.row2.column3 rdf:value "7.09 ±0.988" .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column4 .
+pi:PI_16_6.item1.table1.row2.column4 rdf:value "9.96 ±1.95" .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column5 .
+pi:PI_16_6.item1.table1.row2.column5 rdf:value "16.6 ±4.82" .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column6 .
+pi:PI_16_6.item1.table1.row2.column6 rdf:value "19.8 ±6.06" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row3 .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column1 .
+pi:PI_16_6.item1.table1.row3.column1 rdf:value "AUC （μM・hr） 平均の比" .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column2 .
+pi:PI_16_6.item1.table1.row3.column2 rdf:value "4.40 ±0.832" .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column3 .
+pi:PI_16_6.item1.table1.row3.column3 rdf:value "1.61" .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column4 .
+pi:PI_16_6.item1.table1.row3.column4 rdf:value "2.26" .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column5 .
+pi:PI_16_6.item1.table1.row3.column5 rdf:value "3.77" .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column6 .
+pi:PI_16_6.item1.table1.row3.column6 rdf:value "4.50" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row4 .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column1 .
+pi:PI_16_6.item1.table1.row4.column1 rdf:value "Cmax (nM) 平均の比" .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column2 .
+pi:PI_16_6.item1.table1.row4.column2 rdf:value "391±123" .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column3 .
+pi:PI_16_6.item1.table1.row4.column3 rdf:value "527±79.1" .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column4 .
+pi:PI_16_6.item1.table1.row4.column4 rdf:value "560±137" .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column5 .
+pi:PI_16_6.item1.table1.row4.column5 rdf:value "684±183" .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column6 .
+pi:PI_16_6.item1.table1.row4.column6 rdf:value "556±113" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row5 .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column1 .
+pi:PI_16_6.item1.table1.row5.column1 rdf:value "Cmax (nM) 平均の比" .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column2 .
+pi:PI_16_6.item1.table1.row5.column2 rdf:value "391±123" .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column3 .
+pi:PI_16_6.item1.table1.row5.column3 rdf:value "1.35" .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column4 .
+pi:PI_16_6.item1.table1.row5.column4 rdf:value "1.43" .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column5 .
+pi:PI_16_6.item1.table1.row5.column5 rdf:value "1.75" .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column6 .
+pi:PI_16_6.item1.table1.row5.column6 rdf:value "1.42" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row6 .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column1 .
+pi:PI_16_6.item1.table1.row6.column1 rdf:value "T （hr）" .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column2 .
+pi:PI_16_6.item1.table1.row6.column2 rdf:value "13.1±2.23" .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column3 .
+pi:PI_16_6.item1.table1.row6.column3 rdf:value "16.1±0.487" .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column4 .
+pi:PI_16_6.item1.table1.row6.column4 rdf:value "19.1±2.08" .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column5 .
+pi:PI_16_6.item1.table1.row6.column5 rdf:value "22.5±2.71" .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column6 .
+pi:PI_16_6.item1.table1.row6.column6 rdf:value "28.4±8.18" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row7 .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column1 .
+pi:PI_16_6.item1.table1.row7.column1 rdf:value "腎クリアラ ンス （mL/min） 平均の比" .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column2 .
+pi:PI_16_6.item1.table1.row7.column2 rdf:value "339±87.3" .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column3 .
+pi:PI_16_6.item1.table1.row7.column3 rdf:value "242±34.0" .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column4 .
+pi:PI_16_6.item1.table1.row7.column4 rdf:value "126±28.1" .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column5 .
+pi:PI_16_6.item1.table1.row7.column5 rdf:value "60.2±19.2" .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column6 .
+pi:PI_16_6.item1.table1.row7.column6 rdf:value "該当なし" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row8 .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column1 .
+pi:PI_16_6.item1.table1.row8.column1 rdf:value "腎クリアラ ンス （mL/min） 平均の比" .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column2 .
+pi:PI_16_6.item1.table1.row8.column2 rdf:value "339±87.3" .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column3 .
+pi:PI_16_6.item1.table1.row8.column3 rdf:value "0.71" .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column4 .
+pi:PI_16_6.item1.table1.row8.column4 rdf:value "0.37" .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column5 .
+pi:PI_16_6.item1.table1.row8.column5 rdf:value "0.18" .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column6 .
+pi:PI_16_6.item1.table1.row8.column6 rdf:value "該当なし" .
+pi:PI_16_6 pio:section pi:PI_16_6.item2 .
+pi:PI_16_6.item2 rdfs:title "肝機能障害患者"@ja .
+pi:PI_16_6.item2 dct:description "シタグリプチン100mgを単回経口投与した場合、中等度肝機能障害患者（Child-Pughスコア7～9）では、シタグリプチンの平均AUC 及び平均Cmaxは、健康成人に比べてそれぞれ約21%及び13%増加した（外国人データ）。 重度肝機能障害患者（Child-Pughスコア9超）での臨床経験はない。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item3 .
+pi:PI_16_6.item3 rdfs:title "高齢者"@ja .
+pi:PI_16_6.item3 dct:description "健康な高齢者（65～80歳）及び若年者（18～45歳）にシタグリプチン50mgを単回経口投与した場合、高齢者は若年者に比べてシタグリプチンのAUC 、Cmaxがそれぞれ31%、23％高かった。腎クリアランスが高齢者では若年者に比べて31％低下していた（外国人データ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item1 .
+pi:PI_16_7.item1 rdfs:title "ボグリボースとの併用"@ja .
+pi:PI_16_7.item1 dct:description "健康成人にシタグリプチン50mg1日1回（朝食直前）及びボグリボース0.3mg1日3回（毎食直前）を3日間併用反復経口投与した場合、ボグリボースはシタグリプチンの薬物動態に影響を及ぼさなかった。一方、2型糖尿病患者にシタグリプチン100mg1日1回（朝食直前）及びボグリボース0.2mg1日3回（毎食直前）を3日間併用反復経口投与した場合、シタグリプチンのAUC 及びCmaxはシタグリプチン単独投与と比べて低下した（それぞれ17%及び34%）が、シタグリプチンの用量調節は必要ないと考えられた。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item2 .
+pi:PI_16_7.item2 rdfs:title "ジゴキシンとの併用"@ja .
+pi:PI_16_7.item2 dct:description "健康成人にシタグリプチン100mgとジゴキシン0.25mgを10日間併用投与した場合、ジゴキシンのAUC 及びCmaxはわずかに上昇した（それぞれ11%及び18%）（外国人データ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item3 .
+pi:PI_16_7.item3 rdfs:title "シクロスポリンとの併用"@ja .
+pi:PI_16_7.item3 dct:description "健康成人にシタグリプチン100mgとシクロスポリン600mgを併用投与した場合、シタグリプチンのAUC 及びCmaxはそれぞれ29%及び68%上昇した（外国人データ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item4 .
+pi:PI_16_7.item4 rdfs:title "メトホルミンとの併用"@ja .
+pi:PI_16_7.item4 dct:description "2型糖尿病患者にシタグリプチン50mg1日2回とメトホルミン1,000mg1日2回を併用投与した場合、シタグリプチン及びメトホルミンは互いの薬物動態に影響を及ぼさなかった（外国人データ）。 このデータから、シタグリプチンは有機カチオントランスポーター（OCT）を阻害しないと考えられた。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item5 .
+pi:PI_16_7.item5 rdfs:title "その他の薬剤との併用"@ja .
+pi:PI_16_7.item5 dct:description "ロシグリタゾン 、グリベンクラミド 、シンバスタチン 、ワルファリン 及び経口避妊薬（ノルエチステロン／エチニルエストラジオール） との薬物相互作用試験データから、シタグリプチン200mg1日1回はCYP3A4、2C8及び2C9を阻害しないと考えられた（外国人データ）。"@ja .
+pi:PI_16_7.item0 dct:description "（注）本剤の承認された用量は、通常、シタグリプチンとして50mg1日1回であり、最大投与量は100mg1日1回である。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:title "国内第Ⅱ/Ⅲ相試験（単独療法）"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item1 .
+pi:PI_17_1.item1 rdfs:title "第Ⅱ相プラセボ対照二重盲検比較試験"@ja .
+pi:PI_17_1.item1 dct:description "食事／運動療法を実施しても十分な血糖コントロールが得られない2型糖尿病患者（363例）を対象に、シタグリプチン25、50、100、200mg又はプラセボを1日1回12週間経口投与（朝食前）した。シタグリプチンはHbA1c値（JDS値）を初回測定時点の投与2週後から有意に低下させ、投与開始初期から血糖コントロールを改善させた。投与12週時の結果［50、100mg（臨床用量）及びプラセボ］は表1の通りであった。低血糖症の副作用発現割合は、シタグリプチンとプラセボとの間で有意差はなかった。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.item1.table1 .
+pi:PI_17_1.item1.item1.table1 pio:row pi:PI_17_1.item1.item1.table1.row1 .
+pi:PI_17_1.item1.item1.table1.row1 pio:column pi:PI_17_1.item1.item1.table1.row1.column1 .
+pi:PI_17_1.item1.item1.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item1.item1.table1.row1 pio:column pi:PI_17_1.item1.item1.table1.row1.column2 .
+pi:PI_17_1.item1.item1.table1.row1.column2 rdf:value "HbA1c（JDS値）（%）" .
+pi:PI_17_1.item1.item1.table1.row1 pio:column pi:PI_17_1.item1.item1.table1.row1.column3 .
+pi:PI_17_1.item1.item1.table1.row1.column3 rdf:value "HbA1c（JDS値）（%）" .
+pi:PI_17_1.item1.item1.table1 pio:row pi:PI_17_1.item1.item1.table1.row2 .
+pi:PI_17_1.item1.item1.table1.row2 pio:column pi:PI_17_1.item1.item1.table1.row2.column1 .
+pi:PI_17_1.item1.item1.table1.row2.column1 rdf:value "" .
+pi:PI_17_1.item1.item1.table1.row2 pio:column pi:PI_17_1.item1.item1.table1.row2.column2 .
+pi:PI_17_1.item1.item1.table1.row2.column2 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item1.item1.table1.row2 pio:column pi:PI_17_1.item1.item1.table1.row2.column3 .
+pi:PI_17_1.item1.item1.table1.row2.column3 rdf:value "プラセボとの差" .
+pi:PI_17_1.item1.item1.table1 pio:row pi:PI_17_1.item1.item1.table1.row3 .
+pi:PI_17_1.item1.item1.table1.row3 pio:column pi:PI_17_1.item1.item1.table1.row3.column1 .
+pi:PI_17_1.item1.item1.table1.row3.column1 rdf:value "プラセボ" .
+pi:PI_17_1.item1.item1.table1.row3 pio:column pi:PI_17_1.item1.item1.table1.row3.column2 .
+pi:PI_17_1.item1.item1.table1.row3.column2 rdf:value "0.3" .
+pi:PI_17_1.item1.item1.table1.row3 pio:column pi:PI_17_1.item1.item1.table1.row3.column3 .
+pi:PI_17_1.item1.item1.table1.row3.column3 rdf:value "－" .
+pi:PI_17_1.item1.item1.table1 pio:row pi:PI_17_1.item1.item1.table1.row4 .
+pi:PI_17_1.item1.item1.table1.row4 pio:column pi:PI_17_1.item1.item1.table1.row4.column1 .
+pi:PI_17_1.item1.item1.table1.row4.column1 rdf:value "シタグリプチン50mg" .
+pi:PI_17_1.item1.item1.table1.row4 pio:column pi:PI_17_1.item1.item1.table1.row4.column2 .
+pi:PI_17_1.item1.item1.table1.row4.column2 rdf:value "-0.7" .
+pi:PI_17_1.item1.item1.table1.row4 pio:column pi:PI_17_1.item1.item1.table1.row4.column3 .
+pi:PI_17_1.item1.item1.table1.row4.column3 rdf:value "-1.0" .
+pi:PI_17_1.item1.item1.table1 pio:row pi:PI_17_1.item1.item1.table1.row5 .
+pi:PI_17_1.item1.item1.table1.row5 pio:column pi:PI_17_1.item1.item1.table1.row5.column1 .
+pi:PI_17_1.item1.item1.table1.row5.column1 rdf:value "シタグリプチン100mg" .
+pi:PI_17_1.item1.item1.table1.row5 pio:column pi:PI_17_1.item1.item1.table1.row5.column2 .
+pi:PI_17_1.item1.item1.table1.row5.column2 rdf:value "-0.7" .
+pi:PI_17_1.item1.item1.table1.row5 pio:column pi:PI_17_1.item1.item1.table1.row5.column3 .
+pi:PI_17_1.item1.item1.table1.row5.column3 rdf:value "-1.0" .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item2 .
+pi:PI_17_1.item1 rdfs:title "第Ⅲ相実薬対照二重盲検比較試験"@ja .
+pi:PI_17_1.item1 dct:description "食事／運動療法を実施しても十分な血糖コントロールが得られない2型糖尿病患者（319例）を対象に、シタグリプチン50mg1日1回（朝食前）又はボグリボース0.2mg1日3回（毎食直前）を12週間経口投与した。シタグリプチンはHbA1c値（JDS値）を初回測定時点の投与4週後から有意に低下させ、投与開始初期から血糖コントロールを改善させた。投与12週時の結果は表2の通りであった。低血糖症の副作用発現割合は、シタグリプチン投与群1.2%、ボグリボース投与群1.3％と同様であった。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.item2.table1 .
+pi:PI_17_1.item1.item2.table1 pio:row pi:PI_17_1.item1.item2.table1.row1 .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column1 .
+pi:PI_17_1.item1.item2.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column2 .
+pi:PI_17_1.item1.item2.table1.row1.column2 rdf:value "HbA1c （JDS値） （%）" .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column3 .
+pi:PI_17_1.item1.item2.table1.row1.column3 rdf:value "HbA1c （JDS値） （%）" .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column4 .
+pi:PI_17_1.item1.item2.table1.row1.column4 rdf:value "食後2時間 血糖値 （mg/dL）" .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column5 .
+pi:PI_17_1.item1.item2.table1.row1.column5 rdf:value "食後2時間 血糖値 （mg/dL）" .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column6 .
+pi:PI_17_1.item1.item2.table1.row1.column6 rdf:value "空腹時血糖値 （mg/dL）" .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column7 .
+pi:PI_17_1.item1.item2.table1.row1.column7 rdf:value "空腹時血糖値 （mg/dL）" .
+pi:PI_17_1.item1.item2.table1 pio:row pi:PI_17_1.item1.item2.table1.row2 .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column1 .
+pi:PI_17_1.item1.item2.table1.row2.column1 rdf:value "" .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column2 .
+pi:PI_17_1.item1.item2.table1.row2.column2 rdf:value "投与前 からの 変化量" .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column3 .
+pi:PI_17_1.item1.item2.table1.row2.column3 rdf:value "ボグリ ボース との差" .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column4 .
+pi:PI_17_1.item1.item2.table1.row2.column4 rdf:value "投与前 からの 変化量" .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column5 .
+pi:PI_17_1.item1.item2.table1.row2.column5 rdf:value "ボグリ ボース との差" .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column6 .
+pi:PI_17_1.item1.item2.table1.row2.column6 rdf:value "投与前 からの 変化量" .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column7 .
+pi:PI_17_1.item1.item2.table1.row2.column7 rdf:value "ボグリ ボース との差" .
+pi:PI_17_1.item1.item2.table1 pio:row pi:PI_17_1.item1.item2.table1.row3 .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column1 .
+pi:PI_17_1.item1.item2.table1.row3.column1 rdf:value "ボグリボース 0.2 mg" .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column2 .
+pi:PI_17_1.item1.item2.table1.row3.column2 rdf:value "-0.3" .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column3 .
+pi:PI_17_1.item1.item2.table1.row3.column3 rdf:value "-0.4" .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column4 .
+pi:PI_17_1.item1.item2.table1.row3.column4 rdf:value "-32" .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column5 .
+pi:PI_17_1.item1.item2.table1.row3.column5 rdf:value "-19" .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column6 .
+pi:PI_17_1.item1.item2.table1.row3.column6 rdf:value "- 9" .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column7 .
+pi:PI_17_1.item1.item2.table1.row3.column7 rdf:value "-11" .
+pi:PI_17_1.item1.item2.table1 pio:row pi:PI_17_1.item1.item2.table1.row4 .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column1 .
+pi:PI_17_1.item1.item2.table1.row4.column1 rdf:value "シタグリプチン50mg" .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column2 .
+pi:PI_17_1.item1.item2.table1.row4.column2 rdf:value "-0.7" .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column3 .
+pi:PI_17_1.item1.item2.table1.row4.column3 rdf:value "-0.4" .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column4 .
+pi:PI_17_1.item1.item2.table1.row4.column4 rdf:value "-51" .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column5 .
+pi:PI_17_1.item1.item2.table1.row4.column5 rdf:value "-19" .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column6 .
+pi:PI_17_1.item1.item2.table1.row4.column6 rdf:value "-20" .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column7 .
+pi:PI_17_1.item1.item2.table1.row4.column7 rdf:value "-11" .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item3 .
+pi:PI_17_1.item1 rdfs:title "第Ⅲ相長期投与試験"@ja .
+pi:PI_17_1.item1 dct:description "食事／運動療法を実施しても十分な血糖コントロールが得られない2型糖尿病患者（177例）を対象に、シタグリプチン50mgあるいは100mg（増量時）1日1回を52週間経口投与（朝食前）した。シタグリプチンはHbA1c値（JDS値）を初回測定時点の投与4週後から有意に低下させ、投与開始初期から血糖コントロールを改善し、52週にわたって安定した血糖コントロールが得られた。52週における低血糖症の副作用発現割合は、0.6%であった。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:title "国内第Ⅲ相試験（併用療法）"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2.item1 .
+pi:PI_17_1.item2 rdfs:title "グリメピリド、ピオグリタゾン、メトホルミン、ボグリボース、又は速効型インスリン分泌促進薬（ナテグリニド・ミチグリニド）との併用試験"@ja .
+pi:PI_17_1.item2 dct:description "食事／運動療法に加えて、経口血糖降下剤（グリメピリド ：146例、ピオグリタゾン ：134例、メトホルミン ：149例、ボグリボース ：133例、ナテグリニド又はミチグリニド ：155例）で十分な血糖コントロールが得られない2型糖尿病患者を対象にシタグリプチン50mg又はプラセボを1日1回、これらの基礎治療に加えて経口投与（朝食前）した。いずれの試験においても、シタグリプチンはHbA1c値（JDS値）を初回測定時点の投与4週後から有意に低下させ、投与開始初期から血糖コントロールを改善させた。投与12週時の結果は表3の通りであった。その後、シタグリプチン50mgあるいは100mg（増量時）の継続投与において、52週にわたって安定した血糖コントロールが得られた。52週までの併用投与時（長期投与例）における低血糖症の副作用発現割合は、グリメピリド併用時5.3%（7例／131例）、ピオグリタゾン併用時0.8%（1例／133例）、メトホルミン併用時0.7%（1例／145例）、ボグリボース併用時0.8%（1例／133例）、ナテグリニド又はミチグリニド併用時6.5%（10例／153例）であった。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item2.item1.table1 .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row1 .
+pi:PI_17_1.item2.item1.table1.row1 pio:column pi:PI_17_1.item2.item1.table1.row1.column1 .
+pi:PI_17_1.item2.item1.table1.row1.column1 rdf:value "試験名" .
+pi:PI_17_1.item2.item1.table1.row1 pio:column pi:PI_17_1.item2.item1.table1.row1.column2 .
+pi:PI_17_1.item2.item1.table1.row1.column2 rdf:value "試験名" .
+pi:PI_17_1.item2.item1.table1.row1 pio:column pi:PI_17_1.item2.item1.table1.row1.column3 .
+pi:PI_17_1.item2.item1.table1.row1.column3 rdf:value "HbA1c（JDS値）（%）" .
+pi:PI_17_1.item2.item1.table1.row1 pio:column pi:PI_17_1.item2.item1.table1.row1.column4 .
+pi:PI_17_1.item2.item1.table1.row1.column4 rdf:value "HbA1c（JDS値）（%）" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row2 .
+pi:PI_17_1.item2.item1.table1.row2 pio:column pi:PI_17_1.item2.item1.table1.row2.column1 .
+pi:PI_17_1.item2.item1.table1.row2.column1 rdf:value "試験名" .
+pi:PI_17_1.item2.item1.table1.row2 pio:column pi:PI_17_1.item2.item1.table1.row2.column2 .
+pi:PI_17_1.item2.item1.table1.row2.column2 rdf:value "試験名" .
+pi:PI_17_1.item2.item1.table1.row2 pio:column pi:PI_17_1.item2.item1.table1.row2.column3 .
+pi:PI_17_1.item2.item1.table1.row2.column3 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item2.item1.table1.row2 pio:column pi:PI_17_1.item2.item1.table1.row2.column4 .
+pi:PI_17_1.item2.item1.table1.row2.column4 rdf:value "両群の差" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row3 .
+pi:PI_17_1.item2.item1.table1.row3 pio:column pi:PI_17_1.item2.item1.table1.row3.column1 .
+pi:PI_17_1.item2.item1.table1.row3.column1 rdf:value "グリメピリド併用試験" .
+pi:PI_17_1.item2.item1.table1.row3 pio:column pi:PI_17_1.item2.item1.table1.row3.column2 .
+pi:PI_17_1.item2.item1.table1.row3.column2 rdf:value "グリメピリド単独投与群" .
+pi:PI_17_1.item2.item1.table1.row3 pio:column pi:PI_17_1.item2.item1.table1.row3.column3 .
+pi:PI_17_1.item2.item1.table1.row3.column3 rdf:value "0.3" .
+pi:PI_17_1.item2.item1.table1.row3 pio:column pi:PI_17_1.item2.item1.table1.row3.column4 .
+pi:PI_17_1.item2.item1.table1.row3.column4 rdf:value "-0.8" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row4 .
+pi:PI_17_1.item2.item1.table1.row4 pio:column pi:PI_17_1.item2.item1.table1.row4.column1 .
+pi:PI_17_1.item2.item1.table1.row4.column1 rdf:value "グリメピリド併用試験" .
+pi:PI_17_1.item2.item1.table1.row4 pio:column pi:PI_17_1.item2.item1.table1.row4.column2 .
+pi:PI_17_1.item2.item1.table1.row4.column2 rdf:value "シタグリプチン併用投与群" .
+pi:PI_17_1.item2.item1.table1.row4 pio:column pi:PI_17_1.item2.item1.table1.row4.column3 .
+pi:PI_17_1.item2.item1.table1.row4.column3 rdf:value "-0.5" .
+pi:PI_17_1.item2.item1.table1.row4 pio:column pi:PI_17_1.item2.item1.table1.row4.column4 .
+pi:PI_17_1.item2.item1.table1.row4.column4 rdf:value "-0.8" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row5 .
+pi:PI_17_1.item2.item1.table1.row5 pio:column pi:PI_17_1.item2.item1.table1.row5.column1 .
+pi:PI_17_1.item2.item1.table1.row5.column1 rdf:value "ピオグリタゾン併用試験" .
+pi:PI_17_1.item2.item1.table1.row5 pio:column pi:PI_17_1.item2.item1.table1.row5.column2 .
+pi:PI_17_1.item2.item1.table1.row5.column2 rdf:value "ピオグリタゾン単独投与群" .
+pi:PI_17_1.item2.item1.table1.row5 pio:column pi:PI_17_1.item2.item1.table1.row5.column3 .
+pi:PI_17_1.item2.item1.table1.row5.column3 rdf:value "0.4" .
+pi:PI_17_1.item2.item1.table1.row5 pio:column pi:PI_17_1.item2.item1.table1.row5.column4 .
+pi:PI_17_1.item2.item1.table1.row5.column4 rdf:value "-0.8" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row6 .
+pi:PI_17_1.item2.item1.table1.row6 pio:column pi:PI_17_1.item2.item1.table1.row6.column1 .
+pi:PI_17_1.item2.item1.table1.row6.column1 rdf:value "ピオグリタゾン併用試験" .
+pi:PI_17_1.item2.item1.table1.row6 pio:column pi:PI_17_1.item2.item1.table1.row6.column2 .
+pi:PI_17_1.item2.item1.table1.row6.column2 rdf:value "シタグリプチン併用投与群" .
+pi:PI_17_1.item2.item1.table1.row6 pio:column pi:PI_17_1.item2.item1.table1.row6.column3 .
+pi:PI_17_1.item2.item1.table1.row6.column3 rdf:value "-0.4" .
+pi:PI_17_1.item2.item1.table1.row6 pio:column pi:PI_17_1.item2.item1.table1.row6.column4 .
+pi:PI_17_1.item2.item1.table1.row6.column4 rdf:value "-0.8" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row7 .
+pi:PI_17_1.item2.item1.table1.row7 pio:column pi:PI_17_1.item2.item1.table1.row7.column1 .
+pi:PI_17_1.item2.item1.table1.row7.column1 rdf:value "メトホルミン併用試験" .
+pi:PI_17_1.item2.item1.table1.row7 pio:column pi:PI_17_1.item2.item1.table1.row7.column2 .
+pi:PI_17_1.item2.item1.table1.row7.column2 rdf:value "メトホルミン単独投与群" .
+pi:PI_17_1.item2.item1.table1.row7 pio:column pi:PI_17_1.item2.item1.table1.row7.column3 .
+pi:PI_17_1.item2.item1.table1.row7.column3 rdf:value "0.3" .
+pi:PI_17_1.item2.item1.table1.row7 pio:column pi:PI_17_1.item2.item1.table1.row7.column4 .
+pi:PI_17_1.item2.item1.table1.row7.column4 rdf:value "-0.7" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row8 .
+pi:PI_17_1.item2.item1.table1.row8 pio:column pi:PI_17_1.item2.item1.table1.row8.column1 .
+pi:PI_17_1.item2.item1.table1.row8.column1 rdf:value "メトホルミン併用試験" .
+pi:PI_17_1.item2.item1.table1.row8 pio:column pi:PI_17_1.item2.item1.table1.row8.column2 .
+pi:PI_17_1.item2.item1.table1.row8.column2 rdf:value "シタグリプチン併用投与群" .
+pi:PI_17_1.item2.item1.table1.row8 pio:column pi:PI_17_1.item2.item1.table1.row8.column3 .
+pi:PI_17_1.item2.item1.table1.row8.column3 rdf:value "-0.4" .
+pi:PI_17_1.item2.item1.table1.row8 pio:column pi:PI_17_1.item2.item1.table1.row8.column4 .
+pi:PI_17_1.item2.item1.table1.row8.column4 rdf:value "-0.7" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row9 .
+pi:PI_17_1.item2.item1.table1.row9 pio:column pi:PI_17_1.item2.item1.table1.row9.column1 .
+pi:PI_17_1.item2.item1.table1.row9.column1 rdf:value "ボグリボース併用試験" .
+pi:PI_17_1.item2.item1.table1.row9 pio:column pi:PI_17_1.item2.item1.table1.row9.column2 .
+pi:PI_17_1.item2.item1.table1.row9.column2 rdf:value "ボグリボース単独投与群" .
+pi:PI_17_1.item2.item1.table1.row9 pio:column pi:PI_17_1.item2.item1.table1.row9.column3 .
+pi:PI_17_1.item2.item1.table1.row9.column3 rdf:value "0.2" .
+pi:PI_17_1.item2.item1.table1.row9 pio:column pi:PI_17_1.item2.item1.table1.row9.column4 .
+pi:PI_17_1.item2.item1.table1.row9.column4 rdf:value "-0.9*" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row10 .
+pi:PI_17_1.item2.item1.table1.row10 pio:column pi:PI_17_1.item2.item1.table1.row10.column1 .
+pi:PI_17_1.item2.item1.table1.row10.column1 rdf:value "ボグリボース併用試験" .
+pi:PI_17_1.item2.item1.table1.row10 pio:column pi:PI_17_1.item2.item1.table1.row10.column2 .
+pi:PI_17_1.item2.item1.table1.row10.column2 rdf:value "シタグリプチン併用投与群" .
+pi:PI_17_1.item2.item1.table1.row10 pio:column pi:PI_17_1.item2.item1.table1.row10.column3 .
+pi:PI_17_1.item2.item1.table1.row10.column3 rdf:value "-0.8" .
+pi:PI_17_1.item2.item1.table1.row10 pio:column pi:PI_17_1.item2.item1.table1.row10.column4 .
+pi:PI_17_1.item2.item1.table1.row10.column4 rdf:value "-0.9*" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row11 .
+pi:PI_17_1.item2.item1.table1.row11 pio:column pi:PI_17_1.item2.item1.table1.row11.column1 .
+pi:PI_17_1.item2.item1.table1.row11.column1 rdf:value "速効型インスリン分泌促進薬併用試験" .
+pi:PI_17_1.item2.item1.table1.row11 pio:column pi:PI_17_1.item2.item1.table1.row11.column2 .
+pi:PI_17_1.item2.item1.table1.row11.column2 rdf:value "速効型インスリン分泌促進薬単独投与群" .
+pi:PI_17_1.item2.item1.table1.row11 pio:column pi:PI_17_1.item2.item1.table1.row11.column3 .
+pi:PI_17_1.item2.item1.table1.row11.column3 rdf:value "0.4" .
+pi:PI_17_1.item2.item1.table1.row11 pio:column pi:PI_17_1.item2.item1.table1.row11.column4 .
+pi:PI_17_1.item2.item1.table1.row11.column4 rdf:value "-1.0*" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row12 .
+pi:PI_17_1.item2.item1.table1.row12 pio:column pi:PI_17_1.item2.item1.table1.row12.column1 .
+pi:PI_17_1.item2.item1.table1.row12.column1 rdf:value "速効型インスリン分泌促進薬併用試験" .
+pi:PI_17_1.item2.item1.table1.row12 pio:column pi:PI_17_1.item2.item1.table1.row12.column2 .
+pi:PI_17_1.item2.item1.table1.row12.column2 rdf:value "シタグリプチン併用投与群" .
+pi:PI_17_1.item2.item1.table1.row12 pio:column pi:PI_17_1.item2.item1.table1.row12.column3 .
+pi:PI_17_1.item2.item1.table1.row12.column3 rdf:value "-0.7" .
+pi:PI_17_1.item2.item1.table1.row12 pio:column pi:PI_17_1.item2.item1.table1.row12.column4 .
+pi:PI_17_1.item2.item1.table1.row12.column4 rdf:value "-1.0*" .
+pi:PI_17_1 pio:section pi:PI_17_1.item2.item2 .
+pi:PI_17_1.item2 rdfs:title "インスリン製剤との併用試験"@ja .
+pi:PI_17_1.item2 dct:description "食事／運動療法に加えて、インスリン製剤［混合型（速効型又は超速効型のインスリンの含有率が25％又は30％）、中間型、又は持効型のいずれか単剤を使用、1日投与量は8単位以上40単位以下］で十分な血糖コントロールが得られない2型糖尿病患者（266例）を対象に、シタグリプチン50mg又はプラセボを1日1回、インスリン製剤による基礎治療に加えて経口投与（朝食前）した。シタグリプチンはHbA1c値（JDS値）を初回測定時点の投与4週後から有意に低下させ、投与開始初期から血糖コントロールを改善させた。投与16週時の結果は表4の通りであった。その後、シタグリプチン50mgあるいは100mg（増量時）の継続投与において、52週にわたって安定した血糖コントロールが得られた。52週までの併用投与時（長期投与例）における低血糖症の副作用発現割合は、17.4%（45例／258例）であった。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item2.item2.table1 .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row1 .
+pi:PI_17_1.item2.item2.table1.row1 pio:column pi:PI_17_1.item2.item2.table1.row1.column1 .
+pi:PI_17_1.item2.item2.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item2.item2.table1.row1 pio:column pi:PI_17_1.item2.item2.table1.row1.column2 .
+pi:PI_17_1.item2.item2.table1.row1.column2 rdf:value "HbA1c（JDS値）（%）" .
+pi:PI_17_1.item2.item2.table1.row1 pio:column pi:PI_17_1.item2.item2.table1.row1.column3 .
+pi:PI_17_1.item2.item2.table1.row1.column3 rdf:value "HbA1c（JDS値）（%）" .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row2 .
+pi:PI_17_1.item2.item2.table1.row2 pio:column pi:PI_17_1.item2.item2.table1.row2.column1 .
+pi:PI_17_1.item2.item2.table1.row2.column1 rdf:value "" .
+pi:PI_17_1.item2.item2.table1.row2 pio:column pi:PI_17_1.item2.item2.table1.row2.column2 .
+pi:PI_17_1.item2.item2.table1.row2.column2 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item2.item2.table1.row2 pio:column pi:PI_17_1.item2.item2.table1.row2.column3 .
+pi:PI_17_1.item2.item2.table1.row2.column3 rdf:value "両群の差" .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row3 .
+pi:PI_17_1.item2.item2.table1.row3 pio:column pi:PI_17_1.item2.item2.table1.row3.column1 .
+pi:PI_17_1.item2.item2.table1.row3.column1 rdf:value "インスリン製剤単独投与群" .
+pi:PI_17_1.item2.item2.table1.row3 pio:column pi:PI_17_1.item2.item2.table1.row3.column2 .
+pi:PI_17_1.item2.item2.table1.row3.column2 rdf:value "0.3" .
+pi:PI_17_1.item2.item2.table1.row3 pio:column pi:PI_17_1.item2.item2.table1.row3.column3 .
+pi:PI_17_1.item2.item2.table1.row3.column3 rdf:value "-0.9" .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row4 .
+pi:PI_17_1.item2.item2.table1.row4 pio:column pi:PI_17_1.item2.item2.table1.row4.column1 .
+pi:PI_17_1.item2.item2.table1.row4.column1 rdf:value "シタグリプチン併用投与群" .
+pi:PI_17_1.item2.item2.table1.row4 pio:column pi:PI_17_1.item2.item2.table1.row4.column2 .
+pi:PI_17_1.item2.item2.table1.row4.column2 rdf:value "-0.6" .
+pi:PI_17_1.item2.item2.table1.row4 pio:column pi:PI_17_1.item2.item2.table1.row4.column3 .
+pi:PI_17_1.item2.item2.table1.row4.column3 rdf:value "-0.9" .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "インクレチンであるglucagon-like peptide 1（GLP-1）及びglucose-dependent insulinotropic polypeptide（GIP）は、グルコース恒常性の維持にかかわるホルモンである。シタグリプチンは、DPP-4酵素を阻害し、インクレチンのDPP-4による分解を抑制する。活性型インクレチン濃度を上昇させることにより、血糖値依存的にインスリン分泌促進作用並びにグルカゴン濃度低下作用を増強し血糖コントロールを改善する。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "ヒトDPP-4阻害作用"@ja .
+pi:PI_18.item1 dct:description "ヒトDPP-4（組換え体、血清由来、CACO-2細胞由来）の活性を選択的に阻害する（ ）。"@ja .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "耐糖能及び糖代謝改善作用"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item1 .
+pi:PI_18.item2.item1 dct:desctiption "2型糖尿病患者において、本剤はDPP-4活性を阻害し、血漿中の活性型GLP-1及びGIP濃度の約2倍の上昇、インスリン及びC-ペプチドの血清中濃度の上昇、グルカゴン濃度の低下、空腹時血糖値の低下、経口グルコース負荷後又は食後過血糖の抑制をもたらした。"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item2 .
+pi:PI_18.item2.item2 dct:desctiption "正常マウスを用いたグルコース負荷試験において、本剤は血糖値の上昇を抑制する。また、このとき血漿中DPP-4の阻害及び血漿中GLP-1濃度の上昇が認められる。"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item3 .
+pi:PI_18.item2.item3 dct:desctiption "高脂肪食により肥満、高血糖及び高インスリン血症を呈し、耐糖能異常を示す食餌負荷肥満マウス（DIOマウス）において、本剤はグルコース負荷による血糖値の上昇を正常マウスと同程度まで抑制する。"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item4 .
+pi:PI_18.item2.item4 dct:desctiption "インスリン抵抗性と高血糖を特徴とする2型糖尿病モデルのdb／dbマウスにおいて、本剤は血糖値を正常マウスと同程度まで正常化させる。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "シタグリプチンリン酸塩水和物（Sitagliptin Phosphate Hydrate）" .
+pi:PI_19 pio:chemical_name "(3 )-3-Amino-1-[3-(trifluoromethyl)-5,6-dihydro[1,2,4]triazolo[4,3-a]pyrazin-7(8 )-yl]-4-(2,4,5-trifluorophenyl)butan-1-one monophosphate monohydrate" .
+pi:PI_19 pio:molecular_formula "C H F N O・H PO ・H O" .
+pi:PI_19 pio:molecular_weight "523.32" .
+pi:PI_19 pio:description_of_active_ingredients "本品は白色の粉末である。 本品は水にやや溶けやすく、メタノールにやや溶けにくく、アセトニトリル又はエタノール（99.5）に極めて溶けにくい。" .
+pi:PI_22 pio:section pi:PI_22.item1 .
+pi:PI_22.item1 rdfs:label "〈グラクティブ錠12.5mg〉"@ja .
+pi:PI_22.item1 dct:description "100錠［10錠（PTP）×10］ 100錠［ポリ瓶、バラ］"@ja .
+pi:PI_22 pio:section pi:PI_22.item2 .
+pi:PI_22.item2 rdfs:label "〈グラクティブ錠 25mg〉（割線入り）"@ja .
+pi:PI_22.item2 dct:description "100錠［10錠（PTP）×10］ 100錠［ポリ瓶、バラ］ 420錠［14錠（PTP）×30］ 500錠［10錠（PTP）×50］"@ja .
+pi:PI_22 pio:section pi:PI_22.item3 .
+pi:PI_22.item3 rdfs:label "〈グラクティブ錠 50mg〉（割線入り）"@ja .
+pi:PI_22.item3 dct:description "100錠［10錠（PTP）×10］ 100錠［ポリ瓶、バラ］ 420錠［14錠（PTP）×30］ 500錠［10錠（PTP）×50］ 500錠［ポリ瓶、バラ］ 1,000錠［10錠（PTP）×100］"@ja .
+pi:PI_22 pio:section pi:PI_22.item4 .
+pi:PI_22.item4 rdfs:label "〈グラクティブ錠100mg〉"@ja .
+pi:PI_22.item4 dct:description "100錠［10錠（PTP）×10］ 100錠［ポリ瓶、バラ］ 420錠［14錠（PTP）×30］ 500錠［10錠（PTP）×50］ 500錠［ポリ瓶、バラ］"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "Herman G.A. et al.：Br.J.Clin.Pharmacol.，2011；71：429-436" .
+pi:PI_23.item1 pio:id "DIC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "片山泰之ほか：新薬と臨床，2011；60：1139-1152" .
+pi:PI_23.item2 pio:id "DIC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "Bergman A. et al.：Biopharma Drug Dispos.，2007；28：315-322" .
+pi:PI_23.item3 pio:id "DIC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "Vincent S.H. et al.：Drug Metab.Dispos.，2007；35：533-538" .
+pi:PI_23.item4 pio:id "DIC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "Chu X.Y. et al.：J.Pharmacol.Exp.Ther.，2007；321：673-683" .
+pi:PI_23.item5 pio:id "DIC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "Bergman A.J. et al.：Diabetes Care，2007；30：1862-1864" .
+pi:PI_23.item6 pio:id "DIC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "Migoya E.M. et al.：Can.J.Clin.Pharmacol.，2009；16：e165-170" .
+pi:PI_23.item7 pio:id "DIC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "Krishna R. et al.：J.Clin.Pharmacol.，2007；47：165-174" .
+pi:PI_23.item8 pio:id "DIC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "Herman G.A. et al.：Curr.Med.Res.Opin.，2006；22：1939-1947" .
+pi:PI_23.item9 pio:id "DIC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "Mistry G.C. et al.：J.Clin.Pharmacol.，2007；47：159-164" .
+pi:PI_23.item10 pio:id "DIC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "Mistry G.C. et al.：Br.J.Clin.Pharmacol.，2008；66：36-42" .
+pi:PI_23.item11 pio:id "DIC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "Bergman A.J. et al.：J.Clin.Pharmacol.，2009；49：483-488" .
+pi:PI_23.item12 pio:id "DIC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "Wright D.H. et al.：J.Clin.Pharmacol.，2009；49：1157-1167" .
+pi:PI_23.item13 pio:id "DIC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "Migoya E. et al.：J.Clin.Pharmacol.，2011；51：1319-1325" .
+pi:PI_23.item14 pio:id "DIC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "Iwamoto Y. et al.：Endocr. J.，2010；57：383-394" .
+pi:PI_23.item15 pio:id "DIC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "Iwamoto Y. et al.：Diabetes Obes.Metab.，2010；12：613-622" .
+pi:PI_23.item16 pio:id "DIC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "Odawara M. et al.：Diabetol.Int.，2011；2：94-105" .
+pi:PI_23.item17 pio:id "DIC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "Tajima N. et al.：Diabetol.Int.，2011；2：32-44" .
+pi:PI_23.item18 pio:id "DIC_18" .
+pi:PI_23 dct:references pi:PI_23.item19 .
+pi:PI_23.item19 a bibo:Document .
+pi:PI_23.item19 rdfs:label "Kashiwagi A. et al.：J.Diabetes Investig.，2011；2：381-390" .
+pi:PI_23.item19 pio:id "DIC_19" .
+pi:PI_23 dct:references pi:PI_23.item20 .
+pi:PI_23.item20 a bibo:Document .
+pi:PI_23.item20 rdfs:label "Kadowaki T. et al.：J.Diabetes Investig.，2013；4：174-181" .
+pi:PI_23.item20 pio:id "DIC_20" .
+pi:PI_23 dct:references pi:PI_23.item21 .
+pi:PI_23.item21 a bibo:Document .
+pi:PI_23.item21 rdfs:label "Tajima N. et al.：J.Diabetes Investig.，2013；4：595-604" .
+pi:PI_23.item21 pio:id "DIC_21" .
+pi:PI_23 dct:references pi:PI_23.item22 .
+pi:PI_23.item22 a bibo:Document .
+pi:PI_23.item22 rdfs:label "Tajima N. et al.：Diabetol.Int.，2016；7：155-166" .
+pi:PI_23.item22 pio:id "DIC_22" .
+pi:PI_23 dct:references pi:PI_23.item23 .
+pi:PI_23.item23 a bibo:Document .
+pi:PI_23.item23 rdfs:label "Kadowaki T. et al.：Diabetol.Int.，2013；4：160-172" .
+pi:PI_23.item23 pio:id "DIC_23" .
+pi:PI_23 dct:references pi:PI_23.item24 .
+pi:PI_23.item24 a bibo:Document .
+pi:PI_23.item24 rdfs:label "Drucker D.J.：Diabetes Care，2003；26：2929-2940" .
+pi:PI_23.item24 pio:id "DIC_24" .
+pi:PI_23 dct:references pi:PI_23.item25 .
+pi:PI_23.item25 a bibo:Document .
+pi:PI_23.item25 rdfs:label "Kim D. et al.：J.Med.Chem.，2005；48：141-151" .
+pi:PI_23.item25 pio:id "DIC_25" .
+pi:PI_23 dct:references pi:PI_23.item26 .
+pi:PI_23.item26 a bibo:Document .
+pi:PI_23.item26 rdfs:label "Herman G.A. et al.：J.Clin.Endocrinol.Metab.，2006；91：4612-4619" .
+pi:PI_23.item26 pio:id "DIC_26" .
+pi:PI_23 dct:references pi:PI_23.item27 .
+pi:PI_23.item27 a bibo:Document .
+pi:PI_23.item27 rdfs:label "小野薬品工業：シタグリプチンの 及び 薬理試験（2009年10月16日承認、CTD 2.6.2.2）" .
+pi:PI_23.item27 pio:id "DIC_27" .
+pi:PI_23 dct:references pi:PI_23.item28 .
+pi:PI_23.item28 a bibo:Document .
+pi:PI_23.item28 rdfs:label "Nonaka K. et al.：Diabetes Res.Clin.Pract.，2008；79：291-298" .
+pi:PI_23.item28 pio:id "DIC_28" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "小野薬品工業株式会社 くすり相談室"@ja .
+pi:PI_24.item1 pio:address "〒541-8564　大阪市中央区久太郎町1丁目8番2号"@ja .
+pi:PI_24.item1 pio:contact_information "電話 0120-626-190"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売"@ja .
+pi:PI_26.item1 pio:name "小野薬品工業株式会社"@ja .
+pi:PI_26.item1 pio:address "〒541-8564 大阪市中央区久太郎町1丁目8番2号"@ja .
