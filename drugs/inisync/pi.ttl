@@ -1,0 +1,809 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/400256_3969105F1023_1_09#> .
+
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_0 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_1 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_2 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_3 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_3_1 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_3_2 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_4 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_5 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_6 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_7 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_8 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_9 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_9_1 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_9_2 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_9_3 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_9_4 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_9_5 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_9_6 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_9_7 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_9_8 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_10 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_10_1 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_10_2 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_11 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_11_1 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_11_2 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_12 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_13 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_14 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_15 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_15_1 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_15_2 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_16 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_16_1 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_16_2 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_16_3 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_16_4 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_16_5 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_16_6 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_16_7 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_16_8 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_17 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_17_1 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_17_2 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_17_3 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_18 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_18_1 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_19 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_20 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_21 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_22 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_23 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_24 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_25 .
+pi_root:400256_3969105F1023_1_09 pio:section pi:PI_26 .
+pi_root:400256_3969105F1023_1_09 dct:identifier "400256_3969105F1023_1_09" .
+pi_root:400256_3969105F1023_1_09 pio:company_identifier "400256" .
+pi_root:400256_3969105F1023_1_09 pio:date_of_preparation_or_revision "2020-02"^^xsd:date .
+pi_root:400256_3969105F1023_1_09 pio:version "第1版" .
+pi_root:400256_3969105F1023_1_09 pio:sccj_no "873969" .
+pi_root:400256_3969105F1023_1_09 pio:therapeutic_classification "選択的DPP-4阻害薬/ビグアナイド系薬配合剤" .
+pi_root:400256_3969105F1023_1_09 pio:approval_brand_name "イニシンク配合錠" .
+pi_root:400256_3969105F1023_1_09 pio:yj_code "3969105F1023" .
+pi_root:400256_3969105F1023_1_09 pio:trademark_name "INISYNC Combination Tablets" .
+pi_root:400256_3969105F1023_1_09 pio:name_in_hiragana "いにしんくはいごうじょう" .
+pi_root:400256_3969105F1023_1_09 pio:approval_no "22800AMX00681" .
+pi_root:400256_3969105F1023_1_09 pio:starting_date_of_marketing "2016-11"^^xsd:date .
+pi_root:400256_3969105F1023_1_09 pio:storage_method "室温保存" .
+pi_root:400256_3969105F1023_1_09 pio:shelf_life "3年" .
+pi:PI_1 a pio:PI_1 .
+pi:PI_1 pio:section pi:PI_1.item1 .
+pi:PI_1.item1 dct:description "メトホルミンにより重篤な乳酸アシドーシスを起こすことがあり、死亡に至った例も報告されている。乳酸アシドーシスを起こしやすい患者には投与しないこと。 , , , , ,"@ja .
+pi:PI_1 pio:section pi:PI_1.item2 .
+pi:PI_1.item2 dct:description "腎機能障害又は肝機能障害のある患者、高齢者に投与する場合には、定期的に腎機能や肝機能を確認するなど慎重に投与すること。特に75歳以上の高齢者では、本剤投与の適否を慎重に判断すること。 , , , ,"@ja .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "次に示す患者［メトホルミンにより乳酸アシドーシスを起こしやすい。］ , ,"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "重症ケトーシス、糖尿病性昏睡又は前昏睡、1型糖尿病の患者［輸液、インスリンによる速やかな高血糖の是正が必須となるので本剤の投与は適さない。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "重症感染症、手術前後、重篤な外傷のある患者［インスリン注射による血糖管理が望まれるので本剤の投与は適さない。また、メトホルミンにより乳酸アシドーシスを起こしやすい。］ , ,"@ja .
+pi:PI_2 pio:section pi:PI_2.item4 .
+pi:PI_2.item4 dct:description "栄養不良状態、飢餓状態、衰弱状態、脳下垂体機能不全又は副腎機能不全の患者［低血糖を起こすおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item5 .
+pi:PI_2.item5 dct:description "妊婦又は妊娠している可能性のある女性"@ja .
+pi:PI_2 pio:section pi:PI_2.item6 .
+pi:PI_2.item6 dct:description "本剤の各成分又はビグアナイド系薬剤に対し過敏症の既往歴のある患者"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "アログリプチン安息香酸塩"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "34mg"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "アログリプチンとして"@ja .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "25mg"@ja .
+pi:PI_3_1.item1 pio:additives "結晶セルロース、ポビドン、クロスポビドン、ステアリン酸マグネシウム、ヒプロメロース、タルク、酸化チタン、三二酸化鉄"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:formulation "フィルムコーティング錠" .
+pi:PI_3_2.item1 pio:color_tone "微赤色" .
+pi:PI_3_2.item1 pio:weight "約631mg" .
+pi:PI_3_2.item1 pio:id_code "                 317" .
+pi:PI_3_2.item1 pio:shape_front "400256_3969105F1023_fig01.gif" .
+pi:PI_3_2.item1 pio:shape_back "400256_3969105F1023_fig02.gif" .
+pi:PI_3_2.item1 pio:shape_side "400256_3969105F1023_fig03.gif" .
+pi:PI_3_2.item1 pio:size_long_diameter "13.7mm" .
+pi:PI_3_2.item1 pio:size_short_diameter "8.7mm" .
+pi:PI_3_2.item1 pio:size_thickness "約6.6mm" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 dct:description "2型糖尿病 ただし、アログリプチン安息香酸塩及びメトホルミン塩酸塩の併用による治療が適切と判断される場合に限る。"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 pio:section pi:PI_5.item1 .
+pi:PI_5.item1 dct:description "本剤を2型糖尿病治療の第一選択薬として用いないこと。"@ja .
+pi:PI_5 pio:section pi:PI_5.item2 .
+pi:PI_5.item2 dct:description "原則として、以下の場合に、本剤の使用を検討すること。"@ja .
+pi:PI_5 pio:section pi:PI_5.item3 .
+pi:PI_5.item3 dct:description "本剤投与中において、本剤の投与がアログリプチン安息香酸塩及びメトホルミン塩酸塩の各単剤の併用よりも適切であるか慎重に判断すること。"@ja .
+pi:PI_5 pio:section pi:PI_5.item4 .
+pi:PI_5.item4 dct:description "中等度の腎機能障害のある患者（eGFR 30mL/min/1.73m 以上60mL/min/1.73m 未満）では、アログリプチン安息香酸塩及びメトホルミン塩酸塩を腎機能の程度に応じて減量するなど慎重な投与が必要であるため、本剤を使用せず、各単剤の併用を検討すること。 , , ,"@ja .
+pi:PI_5 pio:section pi:PI_5.item5 .
+pi:PI_5.item5 dct:description "本剤の適用はあらかじめ糖尿病治療の基本である食事療法、運動療法を十分に行ったうえで効果が不十分な場合に限り考慮すること。"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "通常、成人には1日1回1錠（アログリプチン/メトホルミン塩酸塩として25mg/500mg）を食直前又は食後に経口投与する。"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "メトホルミンによりまれに重篤な乳酸アシドーシスを起こすことがある。リスク因子としては、腎機能障害、肝機能障害、低酸素血症を伴いやすい状態、脱水（利尿作用を有する薬剤の併用を含む）、過度のアルコール摂取、感染症、高齢者等が知られている。特に、脱水、過度のアルコール摂取等により患者の状態が急変することもあるので、以下の点に注意すること。 , , ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "低血糖を起こすおそれがあるので、患者に対し低血糖症状及びその対処方法について十分説明し、注意を喚起すること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "アログリプチンにより急性膵炎があらわれることがあるので、持続的な激しい腹痛、嘔吐等の初期症状があらわれた場合には、速やかに医師の診察を受けるよう患者に指導すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 dct:description "本剤投与中は、血糖を定期的に検査するとともに、経過を十分に観察し、本剤を2〜3ヵ月投与しても効果が不十分な場合には、より適切と考えられる治療への変更を考慮すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item5 .
+pi:PI_8.item5 dct:description "低血糖症状を起こすことがあるので、高所作業、自動車の運転等に従事している患者に投与するときには注意すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item6 .
+pi:PI_8.item6 dct:description "本剤と他の糖尿病用薬の併用における安全性は検討されていない。"@ja .
+pi:PI_8 pio:section pi:PI_8.item7 .
+pi:PI_8.item7 dct:description "アログリプチンとGLP-1受容体作動薬はいずれもGLP-1受容体を介した血糖降下作用を有している。両剤を併用した際の臨床試験成績はなく、有効性及び安全性は確認されていない。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "低血糖を起こすおそれのある以下の患者または状態"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item2 .
+pi:PI_9_1.item2 rdfs:title "感染症"@ja .
+pi:PI_9_1.item2 dct:description "メトホルミンにより乳酸アシドーシスを起こすおそれがある。 ,"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item3 .
+pi:PI_9_1.item3 rdfs:title "腹部手術の既往又は腸閉塞の既往のある患者"@ja .
+pi:PI_9_1.item3 dct:description "アログリプチンにより腸閉塞を起こすおそれがある。"@ja .
+pi:PI_9_2 dct:description "腎臓における排泄が減少しメトホルミンの血中濃度が上昇するため、乳酸アシドーシス等の発現リスクが高くなる可能性がある。また、アログリプチンの血中濃度が上昇する。 , , , ,"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item1 .
+pi:PI_9_2.item1 rdfs:title "重度の腎機能障害のある患者（eGFR 30mL/min/1.73m 未満）又は透析患者（腹膜透析を含む）"@ja .
+pi:PI_9_2.item1 dct:description "投与しないこと。"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item2 .
+pi:PI_9_2.item2 rdfs:title "中等度の腎機能障害のある患者（eGFR 30mL/min/1.73m 以上60mL/min/1.73m 未満）"@ja .
+pi:PI_9_2.item2 dct:description "本剤を使用せず、各単剤の併用を検討すること。 ,"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item3 .
+pi:PI_9_2.item3 rdfs:title "軽度の腎機能障害のある患者（eGFR 60mL/min/1.73m 以上90mL/min/1.73m 未満）"@ja .
+pi:PI_9_2.item3 dct:description "                           "@ja .
+pi:PI_9_3 dct:description "肝臓における乳酸の代謝能が低下し、乳酸アシドーシスの発現リスクが高くなる可能性がある。 , , ,"@ja .
+pi:PI_9_3 pio:section pi:PI_9_3.item1 .
+pi:PI_9_3.item1 rdfs:title "重度の肝機能障害のある患者"@ja .
+pi:PI_9_3.item1 dct:description "投与しないこと。"@ja .
+pi:PI_9_3 pio:section pi:PI_9_3.item2 .
+pi:PI_9_3.item2 rdfs:title "軽度～中等度の肝機能障害のある患者"@ja .
+pi:PI_9_3.item2 dct:description "                           "@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には投与しないこと。メトホルミンでは、動物試験（ラット、ウサギ）で胎児への移行が認められており、一部の動物試験（ラット）で催奇形作用が報告されている 。また、妊婦は乳酸アシドーシスを起こしやすい。アログリプチンでは、動物試験（ラット）において、胎盤通過が報告されている。 ,"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。メトホルミン及びアログリプチンでは、動物試験（ラット）で乳汁中へ移行することが報告されている。"@ja .
+pi:PI_9_7 dct:description "小児等を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_8 dct:description "高齢者では、腎機能、肝機能等が低下していることが多く、また脱水症状を起こしやすい。これらの状態では乳酸アシドーシスを起こしやすいので、以下の点に注意すること。 , , , , , , ,"@ja .
+pi:PI_9_8 pio:section pi:PI_9_8.item1 .
+pi:PI_9_8.item1 dct:description "本剤の投与開始前、投与中は定期的に、特に慎重な経過観察が必要な場合にはより頻回に腎機能や肝機能を確認すること。メトホルミンはほとんど代謝されず、未変化体のまま尿中に排泄される。また、肝機能の低下により乳酸の代謝能が低下する。"@ja .
+pi:PI_9_8 pio:section pi:PI_9_8.item2 .
+pi:PI_9_8.item2 dct:description "腎機能や脱水症状等患者の状態に十分注意して投与の中止を検討すること。特に75歳以上の高齢者では、メトホルミンによる乳酸アシドーシスが多く報告されており、予後も不良であることが多いため、本剤投与の適否をより慎重に判断すること。"@ja .
+pi:PI_9_8 pio:section pi:PI_9_8.item3 .
+pi:PI_9_8.item3 dct:description "血清クレアチニン値が正常範囲内であっても、年齢によっては実際の腎機能が低下していることがあるので、eGFR等も考慮して、慎重に患者の状態を観察すること。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_1.item1 pio:clin_symptoms_and_measures "乳酸アシドーシスを起こすことがある。本剤投与中は過度のアルコール摂取（飲酒）を避けること。"@ja .
+pi:PI_10_1.item1 pio:mechanism_and_risk_factors "肝臓における乳酸の代謝能が低下する。また、脱水状態を来すことがある。"@ja .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "乳酸アシドーシスを起こすことがある。併用する場合は本剤の投与を一時的に中止する等適切な処置を行うこと。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "併用により腎機能が低下し、メトホルミンの排泄が低下する。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item2 .
+pi:PI_10_2.item2 a pio:PrecautionsForCombi .
+pi:PI_10_2.item2 pio:drug_name "ゲンタマイシン　等"@ja .
+pi:PI_10_2.item2 pio:clin_symptoms_and_measures "乳酸アシドーシスを起こすことがある。併用する場合は本剤の投与を一時的に中止する等適切な処置を行うこと。"@ja .
+pi:PI_10_2.item2 pio:mechanism_and_risk_factors "併用により腎機能が低下し、メトホルミンの排泄が低下する。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item3 .
+pi:PI_10_2.item3 a pio:PrecautionsForCombi .
+pi:PI_10_2.item3 pio:drug_name "利尿剤 SGLT2阻害剤　等"@ja .
+pi:PI_10_2.item3 pio:clin_symptoms_and_measures "脱水により乳酸アシドーシスを起こすことがあるため、脱水症状があらわれた場合には、本剤の投与を中止し、適切な処置を行うこと。"@ja .
+pi:PI_10_2.item3 pio:mechanism_and_risk_factors "利尿作用を有する薬剤により、体液量が減少し脱水状態になることがある。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item4 .
+pi:PI_10_2.item4 a pio:PrecautionsForCombi .
+pi:PI_10_2.item4 pio:drug_name "スルホニルウレア剤 速効型インスリン分泌促進薬 α-グルコシダーゼ阻害剤 チアゾリジン系薬剤 GLP-1受容体作動薬 SGLT2阻害剤 インスリン製剤"@ja .
+pi:PI_10_2.item4 pio:clin_symptoms_and_measures "低血糖を発現するおそれがある。特に、スルホニルウレア剤又はインスリン製剤と併用する場合、低血糖のリスクが増加するおそれがある。これらの薬剤の減量を検討すること。"@ja .
+pi:PI_10_2.item4 pio:mechanism_and_risk_factors "併用により血糖降下作用が増強するおそれがある。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item5 .
+pi:PI_10_2.item5 a pio:PrecautionsForCombi .
+pi:PI_10_2.item5 pio:drug_name "ピオグリタゾン塩酸塩"@ja .
+pi:PI_10_2.item5 pio:clin_symptoms_and_measures "浮腫を発現するおそれがあるので観察を十分に行い、浮腫が認められた場合には、患者の状態に応じてチアゾリジン系薬剤を減量あるいは中止し、ループ利尿剤（フロセミド等）を投与するなど適切な処置を行うこと。"@ja .
+pi:PI_10_2.item5 pio:mechanism_and_risk_factors "併用により循環血漿量が増加するおそれがある。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item6 .
+pi:PI_10_2.item6 a pio:PrecautionsForCombi .
+pi:PI_10_2.item6 pio:drug_name "β-遮断薬 サリチル酸製剤 モノアミン酸化酵素阻害薬 フィブラート系の高脂血症治療薬 ワルファリン 蛋白同化ホルモン剤　等"@ja .
+pi:PI_10_2.item6 pio:clin_symptoms_and_measures "血糖が低下するおそれがある。"@ja .
+pi:PI_10_2.item6 pio:mechanism_and_risk_factors "併用により血糖降下作用が増強するおそれがある。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item7 .
+pi:PI_10_2.item7 a pio:PrecautionsForCombi .
+pi:PI_10_2.item7 pio:drug_name "アドレナリン 副腎皮質ホルモン 甲状腺ホルモン 卵胞ホルモン 利尿剤 ピラジナミド イソニアジド ニコチン酸 フェノチアジン系薬剤　等"@ja .
+pi:PI_10_2.item7 pio:clin_symptoms_and_measures "血糖が上昇するおそれがある。"@ja .
+pi:PI_10_2.item7 pio:mechanism_and_risk_factors "併用により血糖降下作用が減弱するおそれがある。"@ja .
+pi:PI_10_2.item8 pio:clin_symptoms_and_measures "メトホルミンの作用が増強するおそれがある。"@ja .
+pi:PI_10_2.item8 pio:mechanism_and_risk_factors "腎臓での有機カチオン輸送系阻害作用によりメトホルミンの排泄が阻害され、血中濃度が上昇するおそれがある。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "乳酸アシドーシス（頻度不明）"@ja .
+pi:PI_11_1.item1 dct:description "血中乳酸値の上昇、乳酸/ピルビン酸比の上昇、血液pHの低下等を示す。予後不良のことが多い。一般的に発現する臨床症状は様々であるが、胃腸症状、倦怠感、筋肉痛、過呼吸等の症状がみられることが多く、これらの症状があらわれた場合には直ちに投与を中止し、必要な検査を行うこと。なお、乳酸アシドーシスの疑いが大きい場合には、乳酸の測定結果等を待つことなく適切な処置を行うこと。 , , , , , , , , , , , , , , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "低血糖（頻度不明）"@ja .
+pi:PI_11_1.item2 dct:description "低血糖があらわれることがある。DPP-4阻害剤で、スルホニルウレア剤又はインスリン製剤との併用で重篤な低血糖症状があらわれ、意識消失を来す例も報告されている。低血糖症状（初期症状：脱力感、高度の空腹感、発汗等）が認められた場合には、糖質を含む食品を摂取させるなど適切な処置を行うこと。ただし、α-グルコシダーゼ阻害剤の併用時はブドウ糖を投与すること。 , , , , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item3 .
+pi:PI_11_1.item3 rdfs:title "急性膵炎（頻度不明）"@ja .
+pi:PI_11_1.item3 dct:description "持続的な激しい腹痛、嘔吐等の異常が認められた場合には投与を中止し、適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item4 .
+pi:PI_11_1.item4 rdfs:title "肝機能障害、黄疸（頻度不明）"@ja .
+pi:PI_11_1.item4 dct:description "AST、ALT、AL-P等の著しい上昇を伴う肝機能障害、黄疸があらわれることがある。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item5 .
+pi:PI_11_1.item5 rdfs:title "皮膚粘膜眼症候群（Stevens-Johnson症候群）、多形紅斑（頻度不明）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item6 .
+pi:PI_11_1.item6 rdfs:title "横紋筋融解症（頻度不明）"@ja .
+pi:PI_11_1.item6 dct:description "筋肉痛、脱力感、CK上昇、血中及び尿中ミオグロビン上昇を特徴とする横紋筋融解症があらわれることがある。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item7 .
+pi:PI_11_1.item7 rdfs:title "腸閉塞（頻度不明）"@ja .
+pi:PI_11_1.item7 dct:description "高度の便秘、腹部膨満、持続する腹痛、嘔吐等の異常が認められた場合には投与を中止し、適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item8 .
+pi:PI_11_1.item8 rdfs:title "間質性肺炎（頻度不明）"@ja .
+pi:PI_11_1.item8 dct:description "咳嗽、呼吸困難、発熱、肺音の異常（捻髪音）等が認められた場合には、速やかに胸部X線、胸部CT、血清マーカー等の検査を実施すること。間質性肺炎が疑われた場合には投与を中止し、副腎皮質ホルモン剤の投与等の適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item9 .
+pi:PI_11_1.item9 rdfs:title "類天疱瘡（頻度不明）"@ja .
+pi:PI_11_1.item9 dct:description "水疱、びらん等があらわれた場合には、皮膚科医と相談し、投与を中止するなど適切な処置を行うこと。"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "発疹、そう痒、じん麻疹" .
+pi:PI_11_2.item1.item1 pio:category "過敏症" .
+pi:PI_11_2.item1.item1 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "胃腸障害、便秘" .
+pi:PI_11_2.item1.item2 pio:category "消化器" .
+pi:PI_11_2.item1.item2 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "下痢、食欲不振、腹痛、悪心、嘔吐、腹部膨満感、鼓腸、消化不良、胃炎、胃腸炎、放屁増加" .
+pi:PI_11_2.item1.item3 pio:category "消化器" .
+pi:PI_11_2.item1.item3 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "貧血、白血球減少、血小板減少、白血球増加、好酸球増加" .
+pi:PI_11_2.item1.item4 pio:category "血液" .
+pi:PI_11_2.item1.item4 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "肝機能異常" .
+pi:PI_11_2.item1.item5 pio:category "肝臓" .
+pi:PI_11_2.item1.item5 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "BUN上昇、クレアチニン上昇" .
+pi:PI_11_2.item1.item6 pio:category "腎臓" .
+pi:PI_11_2.item1.item6 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "四肢のしびれ" .
+pi:PI_11_2.item1.item7 pio:category "精神神経系" .
+pi:PI_11_2.item1.item7 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "CK上昇、ケトーシス、乳酸上昇、血中カリウム上昇、血中尿酸増加" .
+pi:PI_11_2.item1.item8 pio:category "代謝異常" .
+pi:PI_11_2.item1.item8 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "倦怠感" .
+pi:PI_11_2.item1.item9 pio:category "その他" .
+pi:PI_11_2.item1.item9 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "頭痛、頭重、眠気、筋肉痛 、めまい・ふらつき、味覚異常、鼻咽頭炎、浮腫、発汗、脱力感、関節痛、動悸、空腹感、ビタミンB 減少" .
+pi:PI_11_2.item1.item10 pio:category "その他" .
+pi:PI_11_2.item1.item10 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:explanatory_notes_for_other_adverse "注1）乳酸アシドーシスの初期症状であることもあるので注意すること。 注2）長期使用によりビタミンB の吸収不良があらわれることがある。" .
+pi:PI_13 pio:section pi:PI_13.item1 .
+pi:PI_13.item1 rdfs:title "症状"@ja .
+pi:PI_13.item1 dct:description "メトホルミンにより乳酸アシドーシスが起こることがある。"@ja .
+pi:PI_13 pio:section pi:PI_13.item2 .
+pi:PI_13.item2 rdfs:title "処置"@ja .
+pi:PI_13 pio:section pi:PI_13.item2.item1 .
+pi:PI_13.item2 dct:description "アシドーシスの補正（炭酸水素ナトリウム静注等）、輸液（強制利尿）、血液透析等の適切な処置を行う。"@ja .
+pi:PI_13 pio:section pi:PI_13.item2.item2 .
+pi:PI_13.item2 dct:description "アログリプチンに対して、血液透析による除去は有用ではないと考えられる。"@ja .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤調製時の注意"@ja .
+pi:PI_14.item1 dct:description "本剤とオルメサルタン メドキソミル製剤等との一包化は避けること。一包化して高温高湿度条件下にて保存した場合、本剤が変色することがある。"@ja .
+pi:PI_15_1 dct:description "インスリン又は経口血糖降下剤の投与中にアンジオテンシン変換酵素阻害剤を投与することにより、低血糖が起こりやすいとの報告がある。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:title "単回投与"@ja .
+pi:PI_16_1.item1 dct:description "健康成人（32例）にアログリプチン/メトホルミン塩酸塩として25mg/500mg配合錠とアログリプチン25mg及びメトホルミン塩酸塩として500mg（単剤併用）をクロスオーバー法により絶食下で単回経口投与した時のアログリプチン及びメトホルミンの血漿中濃度推移及び薬物動態学的パラメータは以下のとおりであり、生物学的同等性が認められた 。"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.table1 .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row1 .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column1 .
+pi:PI_16_1.item1.table1.row1.column1 rdf:value "" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column2 .
+pi:PI_16_1.item1.table1.row1.column2 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column3 .
+pi:PI_16_1.item1.table1.row1.column3 rdf:value "T （h）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column4 .
+pi:PI_16_1.item1.table1.row1.column4 rdf:value "AUC （ng・h/mL）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column5 .
+pi:PI_16_1.item1.table1.row1.column5 rdf:value "T （h）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row2 .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column1 .
+pi:PI_16_1.item1.table1.row2.column1 rdf:value "アログリプチン（配合錠）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column2 .
+pi:PI_16_1.item1.table1.row2.column2 rdf:value "122.3（29.25）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column3 .
+pi:PI_16_1.item1.table1.row2.column3 rdf:value "3.00（1.50，6.00）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column4 .
+pi:PI_16_1.item1.table1.row2.column4 rdf:value "1,280.2（146.69）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column5 .
+pi:PI_16_1.item1.table1.row2.column5 rdf:value "18.50（3.06）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row3 .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column1 .
+pi:PI_16_1.item1.table1.row3.column1 rdf:value "アログリプチン（単剤併用）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column2 .
+pi:PI_16_1.item1.table1.row3.column2 rdf:value "120.1（22.95）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column3 .
+pi:PI_16_1.item1.table1.row3.column3 rdf:value "3.00（1.00，4.00）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column4 .
+pi:PI_16_1.item1.table1.row3.column4 rdf:value "1,264.6（148.14）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column5 .
+pi:PI_16_1.item1.table1.row3.column5 rdf:value "18.31（3.40）" .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.table2 .
+pi:PI_16_1.item1.table2 pio:row pi:PI_16_1.item1.table2.row1 .
+pi:PI_16_1.item1.table2.row1 pio:column pi:PI_16_1.item1.table2.row1.column1 .
+pi:PI_16_1.item1.table2.row1.column1 rdf:value "" .
+pi:PI_16_1.item1.table2.row1 pio:column pi:PI_16_1.item1.table2.row1.column2 .
+pi:PI_16_1.item1.table2.row1.column2 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item1.table2.row1 pio:column pi:PI_16_1.item1.table2.row1.column3 .
+pi:PI_16_1.item1.table2.row1.column3 rdf:value "T （h）" .
+pi:PI_16_1.item1.table2.row1 pio:column pi:PI_16_1.item1.table2.row1.column4 .
+pi:PI_16_1.item1.table2.row1.column4 rdf:value "AUC （ng・h/mL）" .
+pi:PI_16_1.item1.table2.row1 pio:column pi:PI_16_1.item1.table2.row1.column5 .
+pi:PI_16_1.item1.table2.row1.column5 rdf:value "T （h）" .
+pi:PI_16_1.item1.table2 pio:row pi:PI_16_1.item1.table2.row2 .
+pi:PI_16_1.item1.table2.row2 pio:column pi:PI_16_1.item1.table2.row2.column1 .
+pi:PI_16_1.item1.table2.row2.column1 rdf:value "メトホルミン（配合錠）" .
+pi:PI_16_1.item1.table2.row2 pio:column pi:PI_16_1.item1.table2.row2.column2 .
+pi:PI_16_1.item1.table2.row2.column2 rdf:value "1,722.5（373.66）" .
+pi:PI_16_1.item1.table2.row2 pio:column pi:PI_16_1.item1.table2.row2.column3 .
+pi:PI_16_1.item1.table2.row2.column3 rdf:value "2.50（1.00，4.00）" .
+pi:PI_16_1.item1.table2.row2 pio:column pi:PI_16_1.item1.table2.row2.column4 .
+pi:PI_16_1.item1.table2.row2.column4 rdf:value "10,624.4（1,933.78）" .
+pi:PI_16_1.item1.table2.row2 pio:column pi:PI_16_1.item1.table2.row2.column5 .
+pi:PI_16_1.item1.table2.row2.column5 rdf:value "4.61（0.62）" .
+pi:PI_16_1.item1.table2 pio:row pi:PI_16_1.item1.table2.row3 .
+pi:PI_16_1.item1.table2.row3 pio:column pi:PI_16_1.item1.table2.row3.column1 .
+pi:PI_16_1.item1.table2.row3.column1 rdf:value "メトホルミン（単剤併用）" .
+pi:PI_16_1.item1.table2.row3 pio:column pi:PI_16_1.item1.table2.row3.column2 .
+pi:PI_16_1.item1.table2.row3.column2 rdf:value "1,700.9（309.21）" .
+pi:PI_16_1.item1.table2.row3 pio:column pi:PI_16_1.item1.table2.row3.column3 .
+pi:PI_16_1.item1.table2.row3.column3 rdf:value "3.00（1.50，4.00）" .
+pi:PI_16_1.item1.table2.row3 pio:column pi:PI_16_1.item1.table2.row3.column4 .
+pi:PI_16_1.item1.table2.row3.column4 rdf:value "10,690.3（1,710.52）" .
+pi:PI_16_1.item1.table2.row3 pio:column pi:PI_16_1.item1.table2.row3.column5 .
+pi:PI_16_1.item1.table2.row3.column5 rdf:value "5.37（3.86）" .
+pi:PI_16_2 dct:description "健康成人（12例）にアログリプチン/メトホルミン塩酸塩として25mg/500mg配合錠を絶食下又は朝食開始30分後に単回経口投与した時、アログリプチンのC 、AUC は絶食下投与と比較して食後投与でそれぞれ12.5%増加、1.4%減少し、メトホルミンのC 、AUC は絶食下投与と比較して食後投与でそれぞれ14.1%減少、1.8%減少した 。"@ja .
+pi:PI_16_3 dct:description "［ C］アログリプチンを0.01〜10μg/mLの濃度でヒト血漿に添加した時の蛋白結合率は、28.2〜38.4%であった（ ） 。"@ja .
+pi:PI_16_4 dct:description "アログリプチンはCYP2D6により -脱メチル化体の活性代謝物M-Ⅰに、また、 -アセチル化により非活性代謝物M-Ⅱに代謝されるが、M-Ⅰ及びM-ⅡのAUCはそれぞれ血漿中アログリプチンの1%未満及び6%未満であり、いずれも微量代謝物であった 。 また、アログリプチンはCYP3A4/5に対して弱い阻害作用と弱い誘導作用を示したが、CYP1A2、CYP2C8、CYP2C9、CYP2C19、CYP2D6を阻害せず、CYP1A2、CYP2B6、CYP2C9、CYP2C19を誘導しなかった（ ） 。 メトホルミンはヒト体内では代謝されず、また、チトクロームP450 1A2、2C8、2C9、2C19、2D6、2E1、3A4に影響を与えなかった（ ） 。"@ja .
+pi:PI_16_5 dct:description "健康成人（12例）にアログリプチン/メトホルミン塩酸塩として25mg/500mg配合錠を絶食下又は朝食開始30分後に単回経口投与した時、投与72時間後までのアログリプチンの累積尿中排泄率は、それぞれ73.7%、74.5%であった。また、投与48時間後までのメトホルミンの累積尿中排泄率は、それぞれ50.6%、50.1%であった 。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item1 .
+pi:PI_16_6.item1 rdfs:title "腎機能障害患者"@ja .
+pi:PI_16_6.item1 dct:description "腎機能の程度が異なる成人にアログリプチンとして50mgを単回経口投与した時 のAUCは、年齢と性別を対応させた健康成人と比較して、中等度腎機能障害者（Ccr=30〜50mL/min、6例）では2.1倍、高度腎機能障害者（Ccr＜30mL/min、6例）では3.2倍、末期腎不全罹患者（6例）では3.8倍増加した。また、アログリプチンは血液透析3時間後に投与量の7.2%が除去された （外国人データ）。 , , , 注1）本剤はアログリプチンとして25mg/メトホルミン塩酸塩500mgの配合剤である。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item2 .
+pi:PI_16_6.item2 rdfs:title "肝機能障害患者"@ja .
+pi:PI_16_6.item2 dct:description "中等度肝機能障害者（Child-Pugh スコアが7〜9、8例）及び健康成人（8例）にアログリプチンとして25mgを単回経口投与した時、中等度肝機能障害者のC 、AUCは、健康成人と比較してそれぞれ7.7%、10.1%減少した （外国人データ）。 注2）ビリルビン、アルブミン、PT又はINR、肝性脳症、腹水症の状態からスコア化する分類"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item3 .
+pi:PI_16_6.item3 rdfs:title "高齢者"@ja .
+pi:PI_16_6.item3 dct:description "健康な高齢者（65歳以上85歳以下、8例）及び非高齢者（20歳以上35歳以下、8例）にアログリプチンとして25mgを単回経口投与した時、高齢者のC 、AUCは、非高齢者と比較してそれぞれ47.7%、30.3%増加した 。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item1 .
+pi:PI_16_7.item1 rdfs:title "アログリプチンとメトホルミン"@ja .
+pi:PI_16_7.item1 dct:description "健康成人（17例）にアログリプチンとして100mgを1日1回及びメトホルミン塩酸塩として1,000mgを1日2回6日間反復経口併用投与した時 （3×3クロスオーバー試験）、アログリプチンのC 及びAUCに併用投与による影響はみられなかった。一方、メトホルミンのC に影響はみられず、AUCは単独投与時に比較して18.9%増加した （外国人データ）。 注1）本剤はアログリプチンとして25mg/メトホルミン塩酸塩500mgの配合剤である。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item2 .
+pi:PI_16_7.item2 rdfs:title "アログリプチンとその他の薬剤"@ja .
+pi:PI_16_7.item2 dct:description "アログリプチンとピオグリタゾン（CYP2C8基質）、ゲムフィブロジル（CYP2C8、CYP2C9阻害剤）、フルコナゾール（CYP2C9阻害剤）、ケトコナゾール（CYP3A4阻害剤）、シクロスポリン（P-糖蛋白阻害剤）、カフェイン（CYP1A2基質）、ワルファリン（CYP1A2基質、CYP2C9基質、CYP3A4基質）、グリベンクラミド（CYP2C9基質）、トルブタミド（CYP2C9基質）、デキストロメトルファン（CYP2D6基質）、ミダゾラム（CYP3A4基質）、アトルバスタチン（CYP3A4基質）、エチニルエストラジオール（CYP3A4基質）、ノルエチンドロン（CYP3A4基質）、フェキソフェナジン（P-糖蛋白基質）、ジゴキシン（P-糖蛋白基質、腎排泄）又はシメチジン（腎排泄）、ボグリボース との薬物間相互作用を検討したが、いずれも併用投与の影響はみられなかった （外国人データ）。 注3）ボグリボースのみ日本人データ"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item3 .
+pi:PI_16_7.item3 rdfs:title "メトホルミンとその他の薬剤"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item3.item1 .
+pi:PI_16_7.item3 rdfs:title "メトホルミンとシメチジン"@ja .
+pi:PI_16_7.item3 dct:description "健康成人（7例）にメトホルミン塩酸塩として250mgを1日1回及びシメチジンとして400mgを1日2回併用経口投与した時 、シメチジンの薬物動態には併用投与による影響がみられなかったが、メトホルミンのAUCが約50%増加した （外国人データ）。 注1）本剤はアログリプチンとして25mg/メトホルミン塩酸塩500mgの配合剤である"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item3.item2 .
+pi:PI_16_7.item3 rdfs:title "メトホルミンとドルテグラビル"@ja .
+pi:PI_16_7.item3 dct:description "健康成人（30例）に対しメトホルミン塩酸塩とドルテグラビル50mg/日又は100mg/日を併用して反復経口投与した時 、メトホルミンのC がそれぞれ66%及び111%上昇し、AUCがそれぞれ79%及び145%増加した 。 注1）本剤はアログリプチンとして25mg/メトホルミン塩酸塩500mgの配合剤である"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item3.item3 .
+pi:PI_16_7.item3 rdfs:title "メトホルミンとバンデタニブ"@ja .
+pi:PI_16_7.item3 dct:description "健康成人（13例）に対しメトホルミン塩酸塩とバンデタニブを併用して単回経口投与した時 、メトホルミンのC 及びAUC がそれぞれ50%及び74%増加し、腎クリアランスが52%減少した 。 注1）本剤はアログリプチンとして25mg/メトホルミン塩酸塩500mgの配合剤である。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:title "国内第Ⅱ/Ⅲ相検証試験（二重盲検比較試験）"@ja .
+pi:PI_17_1.item1 dct:description "食事療法、運動療法に加えてメトホルミン塩酸塩として250mgを1日2回又は3回を12週間経口投与するも血糖コントロールが不十分な2型糖尿病患者を対象にアログリプチンとして25mgを1日1回、12週間併用経口投与した二重盲検比較試験の結果は下表のとおりであった 。"@ja .
+pi:PI_17_1.item1 dct:description "治療期終了時（12週）のHbA1c変化量について、上述の共分散分析モデルを適用し、対比検定を行った結果、メトホルミン単独群に対し25mg併用群において有意な差がみられた（p＜0.0001）。 副作用発現頻度は25mg併用群で8.3%（8/96）であり、低血糖の副作用はみられなかった。主な副作用は便秘3.1%（3/96）であった。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.table1 .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row1 .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column1 .
+pi:PI_17_1.item1.table1.row1.column1 rdf:value "投与群" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column2 .
+pi:PI_17_1.item1.table1.row1.column2 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column3 .
+pi:PI_17_1.item1.table1.row1.column3 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row2 .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column1 .
+pi:PI_17_1.item1.table1.row2.column1 rdf:value "投与群" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column2 .
+pi:PI_17_1.item1.table1.row2.column2 rdf:value "投与前値" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column3 .
+pi:PI_17_1.item1.table1.row2.column3 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row3 .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column1 .
+pi:PI_17_1.item1.table1.row3.column1 rdf:value "メトホルミン塩酸塩単独投与（n=100）" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column2 .
+pi:PI_17_1.item1.table1.row3.column2 rdf:value "8.00（0.856）" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column3 .
+pi:PI_17_1.item1.table1.row3.column3 rdf:value "0.22（0.056）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row4 .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column1 .
+pi:PI_17_1.item1.table1.row4.column1 rdf:value "アログリプチン25mg1日1回併用投与（n=96）" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column2 .
+pi:PI_17_1.item1.table1.row4.column2 rdf:value "8.02（0.732）" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column3 .
+pi:PI_17_1.item1.table1.row4.column3 rdf:value "-0.64（0.057）" .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.table2 .
+pi:PI_17_1.item1.table2 pio:row pi:PI_17_1.item1.table2.row1 .
+pi:PI_17_1.item1.table2.row1 pio:column pi:PI_17_1.item1.table2.row1.column1 .
+pi:PI_17_1.item1.table2.row1.column1 rdf:value "投与前からの変化量の投与群間差" .
+pi:PI_17_1.item1.table2.row1 pio:column pi:PI_17_1.item1.table2.row1.column2 .
+pi:PI_17_1.item1.table2.row1.column2 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item1.table2.row1 pio:column pi:PI_17_1.item1.table2.row1.column3 .
+pi:PI_17_1.item1.table2.row1.column3 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item1.table2.row1 pio:column pi:PI_17_1.item1.table2.row1.column4 .
+pi:PI_17_1.item1.table2.row1.column4 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item1.table2 pio:row pi:PI_17_1.item1.table2.row2 .
+pi:PI_17_1.item1.table2.row2 pio:column pi:PI_17_1.item1.table2.row2.column1 .
+pi:PI_17_1.item1.table2.row2.column1 rdf:value "投与前からの変化量の投与群間差" .
+pi:PI_17_1.item1.table2.row2 pio:column pi:PI_17_1.item1.table2.row2.column2 .
+pi:PI_17_1.item1.table2.row2.column2 rdf:value "点推定値" .
+pi:PI_17_1.item1.table2.row2 pio:column pi:PI_17_1.item1.table2.row2.column3 .
+pi:PI_17_1.item1.table2.row2.column3 rdf:value "両側95%信頼区間" .
+pi:PI_17_1.item1.table2.row2 pio:column pi:PI_17_1.item1.table2.row2.column4 .
+pi:PI_17_1.item1.table2.row2.column4 rdf:value "両側95%信頼区間" .
+pi:PI_17_1.item1.table2 pio:row pi:PI_17_1.item1.table2.row3 .
+pi:PI_17_1.item1.table2.row3 pio:column pi:PI_17_1.item1.table2.row3.column1 .
+pi:PI_17_1.item1.table2.row3.column1 rdf:value "投与前からの変化量の投与群間差" .
+pi:PI_17_1.item1.table2.row3 pio:column pi:PI_17_1.item1.table2.row3.column2 .
+pi:PI_17_1.item1.table2.row3.column2 rdf:value "点推定値" .
+pi:PI_17_1.item1.table2.row3 pio:column pi:PI_17_1.item1.table2.row3.column3 .
+pi:PI_17_1.item1.table2.row3.column3 rdf:value "下限" .
+pi:PI_17_1.item1.table2.row3 pio:column pi:PI_17_1.item1.table2.row3.column4 .
+pi:PI_17_1.item1.table2.row3.column4 rdf:value "上限" .
+pi:PI_17_1.item1.table2 pio:row pi:PI_17_1.item1.table2.row4 .
+pi:PI_17_1.item1.table2.row4 pio:column pi:PI_17_1.item1.table2.row4.column1 .
+pi:PI_17_1.item1.table2.row4.column1 rdf:value "アログリプチン25mg1日1回併用投与 －メトホルミン塩酸塩単独投与" .
+pi:PI_17_1.item1.table2.row4 pio:column pi:PI_17_1.item1.table2.row4.column2 .
+pi:PI_17_1.item1.table2.row4.column2 rdf:value "-0.86" .
+pi:PI_17_1.item1.table2.row4 pio:column pi:PI_17_1.item1.table2.row4.column3 .
+pi:PI_17_1.item1.table2.row4.column3 rdf:value "-1.015" .
+pi:PI_17_1.item1.table2.row4 pio:column pi:PI_17_1.item1.table2.row4.column4 .
+pi:PI_17_1.item1.table2.row4.column4 rdf:value "-0.702" .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:title "国内第Ⅱ/Ⅲ相試験（長期継続投与試験）"@ja .
+pi:PI_17_1.item2 dct:description "アログリプチンとして25mgを1日1回、メトホルミン塩酸塩として250mgを1日2回又は3回、12週間併用経口投与した2型糖尿病患者を対象に、さらに、アログリプチンとして25mgを1日1回、メトホルミン塩酸塩として250mgを1日2回又は3回、40週間継続併用経口投与した非盲検試験の結果は下表のとおりであった 。"@ja .
+pi:PI_17_1.item2 dct:description "副作用発現頻度は25mg併用群で20.0%（29/145）であり、低血糖の副作用発現頻度は0.7%（1/145）であった。主な副作用は、便秘、肝機能異常が各2.8%（4/145）、血中乳酸増加、白血球数増加、血中尿酸増加が各2.1%（3/145）であった。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item2.table1 .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row1 .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column1 .
+pi:PI_17_1.item2.table1.row1.column1 rdf:value "投与群" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column2 .
+pi:PI_17_1.item2.table1.row1.column2 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column3 .
+pi:PI_17_1.item2.table1.row1.column3 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row2 .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column1 .
+pi:PI_17_1.item2.table1.row2.column1 rdf:value "投与群" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column2 .
+pi:PI_17_1.item2.table1.row2.column2 rdf:value "投与前値" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column3 .
+pi:PI_17_1.item2.table1.row2.column3 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row3 .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column1 .
+pi:PI_17_1.item2.table1.row3.column1 rdf:value "アログリプチン25mg1日1回、 メトホルミン塩酸塩250mg 1日2回又は3回併用投与（n=145）" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column2 .
+pi:PI_17_1.item2.table1.row3.column2 rdf:value "8.09（0.852）" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column3 .
+pi:PI_17_1.item2.table1.row3.column3 rdf:value "-0.59（0.787）" .
+pi:PI_17_1 pio:section pi:PI_17_1.item3 .
+pi:PI_17_1.item3 rdfs:title "国内第Ⅲ相検証試験（二重盲検比較試験）"@ja .
+pi:PI_17_1.item3 dct:description "食事療法、運動療法に加えてアログリプチンとして25mgを1日1回12週間経口投与するも血糖コントロールが不十分な2型糖尿病患者を対象にメトホルミン塩酸塩として500mgを1日1回又は250mgを1日2回、24週間経口併用投与した二重盲検比較試験の結果は下表のとおりであった 。"@ja .
+pi:PI_17_1.item3 dct:description "治療期終了時（24週）のHbA1c変化量について、上述の共分散分析モデルを適用し、メトホルミン塩酸塩500mg 1日1回併用群とアログリプチン単独群の比較及びメトホルミン塩酸塩500mg 1日1回併用投与群とメトホルミン塩酸塩250mg 1日2回併用投与群の比較を行った結果、メトホルミン塩酸塩500mg 1日1回併用群のアログリプチン単独群に対する優越性及びメトホルミン塩酸塩500mg 1日1回併用投与群のメトホルミン塩酸塩250mg 1日2回併用投与群に対する非劣性（非劣性の許容限界値：0.30%）が検証された。 副作用発現頻度は、メトホルミン塩酸塩500mg 1日1回併用投与群で2.6%（4/152）であり、低血糖の副作用はみられなかった。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item3.table1 .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row1 .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column1 .
+pi:PI_17_1.item3.table1.row1.column1 rdf:value "投与群" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column2 .
+pi:PI_17_1.item3.table1.row1.column2 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column3 .
+pi:PI_17_1.item3.table1.row1.column3 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row2 .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column1 .
+pi:PI_17_1.item3.table1.row2.column1 rdf:value "投与群" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column2 .
+pi:PI_17_1.item3.table1.row2.column2 rdf:value "投与前値" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column3 .
+pi:PI_17_1.item3.table1.row2.column3 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row3 .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column1 .
+pi:PI_17_1.item3.table1.row3.column1 rdf:value "アログリプチン単独投与（n=71）" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column2 .
+pi:PI_17_1.item3.table1.row3.column2 rdf:value "7.77（0.780）" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column3 .
+pi:PI_17_1.item3.table1.row3.column3 rdf:value "0.16（0.072）" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row4 .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column1 .
+pi:PI_17_1.item3.table1.row4.column1 rdf:value "メトホルミン塩酸塩500mg1日1回併用投与（n=152）" .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column2 .
+pi:PI_17_1.item3.table1.row4.column2 rdf:value "7.82（0.820）" .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column3 .
+pi:PI_17_1.item3.table1.row4.column3 rdf:value "-0.49（0.049）" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row5 .
+pi:PI_17_1.item3.table1.row5 pio:column pi:PI_17_1.item3.table1.row5.column1 .
+pi:PI_17_1.item3.table1.row5.column1 rdf:value "メトホルミン塩酸塩250mg1日2回併用投与（n=151）" .
+pi:PI_17_1.item3.table1.row5 pio:column pi:PI_17_1.item3.table1.row5.column2 .
+pi:PI_17_1.item3.table1.row5.column2 rdf:value "7.89（0.791）" .
+pi:PI_17_1.item3.table1.row5 pio:column pi:PI_17_1.item3.table1.row5.column3 .
+pi:PI_17_1.item3.table1.row5.column3 rdf:value "-0.60（0.049）" .
+pi:PI_17_1 pio:table pi:PI_17_1.item3.table2 .
+pi:PI_17_1.item3.table2 pio:row pi:PI_17_1.item3.table2.row1 .
+pi:PI_17_1.item3.table2.row1 pio:column pi:PI_17_1.item3.table2.row1.column1 .
+pi:PI_17_1.item3.table2.row1.column1 rdf:value "投与前からの変化量の投与群間差" .
+pi:PI_17_1.item3.table2.row1 pio:column pi:PI_17_1.item3.table2.row1.column2 .
+pi:PI_17_1.item3.table2.row1.column2 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item3.table2.row1 pio:column pi:PI_17_1.item3.table2.row1.column3 .
+pi:PI_17_1.item3.table2.row1.column3 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item3.table2.row1 pio:column pi:PI_17_1.item3.table2.row1.column4 .
+pi:PI_17_1.item3.table2.row1.column4 rdf:value "HbA1c（NGSP値）（%）" .
+pi:PI_17_1.item3.table2 pio:row pi:PI_17_1.item3.table2.row2 .
+pi:PI_17_1.item3.table2.row2 pio:column pi:PI_17_1.item3.table2.row2.column1 .
+pi:PI_17_1.item3.table2.row2.column1 rdf:value "投与前からの変化量の投与群間差" .
+pi:PI_17_1.item3.table2.row2 pio:column pi:PI_17_1.item3.table2.row2.column2 .
+pi:PI_17_1.item3.table2.row2.column2 rdf:value "点推定値" .
+pi:PI_17_1.item3.table2.row2 pio:column pi:PI_17_1.item3.table2.row2.column3 .
+pi:PI_17_1.item3.table2.row2.column3 rdf:value "両側95%信頼区間" .
+pi:PI_17_1.item3.table2.row2 pio:column pi:PI_17_1.item3.table2.row2.column4 .
+pi:PI_17_1.item3.table2.row2.column4 rdf:value "両側95%信頼区間" .
+pi:PI_17_1.item3.table2 pio:row pi:PI_17_1.item3.table2.row3 .
+pi:PI_17_1.item3.table2.row3 pio:column pi:PI_17_1.item3.table2.row3.column1 .
+pi:PI_17_1.item3.table2.row3.column1 rdf:value "投与前からの変化量の投与群間差" .
+pi:PI_17_1.item3.table2.row3 pio:column pi:PI_17_1.item3.table2.row3.column2 .
+pi:PI_17_1.item3.table2.row3.column2 rdf:value "点推定値" .
+pi:PI_17_1.item3.table2.row3 pio:column pi:PI_17_1.item3.table2.row3.column3 .
+pi:PI_17_1.item3.table2.row3.column3 rdf:value "下限" .
+pi:PI_17_1.item3.table2.row3 pio:column pi:PI_17_1.item3.table2.row3.column4 .
+pi:PI_17_1.item3.table2.row3.column4 rdf:value "上限" .
+pi:PI_17_1.item3.table2 pio:row pi:PI_17_1.item3.table2.row4 .
+pi:PI_17_1.item3.table2.row4 pio:column pi:PI_17_1.item3.table2.row4.column1 .
+pi:PI_17_1.item3.table2.row4.column1 rdf:value "メトホルミン塩酸塩500mg1日1回併用投与－アログリプチン単独投与" .
+pi:PI_17_1.item3.table2.row4 pio:column pi:PI_17_1.item3.table2.row4.column2 .
+pi:PI_17_1.item3.table2.row4.column2 rdf:value "-0.65" .
+pi:PI_17_1.item3.table2.row4 pio:column pi:PI_17_1.item3.table2.row4.column3 .
+pi:PI_17_1.item3.table2.row4.column3 rdf:value "-0.821" .
+pi:PI_17_1.item3.table2.row4 pio:column pi:PI_17_1.item3.table2.row4.column4 .
+pi:PI_17_1.item3.table2.row4.column4 rdf:value "-0.480" .
+pi:PI_17_1.item3.table2 pio:row pi:PI_17_1.item3.table2.row5 .
+pi:PI_17_1.item3.table2.row5 pio:column pi:PI_17_1.item3.table2.row5.column1 .
+pi:PI_17_1.item3.table2.row5.column1 rdf:value "メトホルミン塩酸塩500mg1日1回併用投与－メトホルミン塩酸塩250mg1日2回併用投与" .
+pi:PI_17_1.item3.table2.row5 pio:column pi:PI_17_1.item3.table2.row5.column2 .
+pi:PI_17_1.item3.table2.row5.column2 rdf:value "0.11" .
+pi:PI_17_1.item3.table2.row5 pio:column pi:PI_17_1.item3.table2.row5.column3 .
+pi:PI_17_1.item3.table2.row5.column3 rdf:value "-0.026" .
+pi:PI_17_1.item3.table2.row5 pio:column pi:PI_17_1.item3.table2.row5.column4 .
+pi:PI_17_1.item3.table2.row5.column4 rdf:value "0.247" .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 pio:section pi:PI_18_1.item1 .
+pi:PI_18_1.item1 rdfs:label "〈アログリプチン〉"@ja .
+pi:PI_18_1.item1 dct:description "アログリプチンは食事の経口摂取刺激により腸管から血中に分泌されるグルカゴン様ペプチド-1（GLP-1）を不活性化するジペプチジルペプチダーゼ-4（DPP-4）活性を阻害することにより、GLP-1の血中濃度を上昇させ、糖濃度依存的に膵臓からのインスリン分泌を促進させる 。"@ja .
+pi:PI_18_1 pio:section pi:PI_18_1.item2 .
+pi:PI_18_1.item2 rdfs:label "〈メトホルミン〉"@ja .
+pi:PI_18_1.item2 dct:description "メトホルミン塩酸塩は膵β細胞のインスリン分泌を介することなく血糖降下作用を示す。以下のものが血糖降下作用の主要な作用として提唱されている 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "DPP-4に対する阻害作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item1 .
+pi:PI_18.item1.item1 dct:desctiption "アログリプチンはヒト血漿中DPP-4活性を選択的に阻害した（IC 値：10nmol/L）（ ） 。"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item2 .
+pi:PI_18.item1.item2 dct:desctiption "健康成人にアログリプチンとして25mgを単回経口投与した時、投与24時間後のDPP-4阻害率は81%であった 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "活性型GLP-1濃度増加作用"@ja .
+pi:PI_18.item2 dct:description "食事療法、運動療法を実施するも血糖コントロールが不十分な2型糖尿病患者を対象にアログリプチンとして25mgを12週間経口投与（1日1回朝食前）したプラセボ対照二重盲検比較試験（用量設定試験）において、プラセボ投与群と比べて、活性型GLP-1濃度の有意な増加が認められた 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item3 .
+pi:PI_18.item3 rdfs:label "食後血糖改善作用及び耐糖能改善作用"@ja .
+pi:PI_18.item3 pio:section pi:PI_18.item3.item1 .
+pi:PI_18.item3.item1 dct:desctiption "食事療法、運動療法を実施するも血糖コントロールが不十分な2型糖尿病患者を対象にアログリプチンとして25mgを12週間経口投与（1日1回朝食前）したプラセボ対照二重盲検比較試験（用量設定試験）において、プラセボ投与群と比べて、食後血糖の改善が認められた 。"@ja .
+pi:PI_18.item3 pio:section pi:PI_18.item3.item2 .
+pi:PI_18.item3.item2 dct:desctiption "一晩絶食した非肥満2型糖尿病モデル（N-STZ-1.5ラット）及び肥満2型糖尿病モデル（Wistar fattyラット）にアログリプチンを単回経口投与し、投与1時間後にグルコースを経口投与した糖負荷試験において、耐糖能改善作用が認められた 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item4 .
+pi:PI_18.item4 rdfs:label "血糖低下作用"@ja .
+pi:PI_18.item4 dct:description "メトホルミン塩酸塩は各種動物（マウス 、ラット 、ウサギ 等）において血糖低下作用を示す。この血糖低下作用はエタノール（ウサギ ）、クロルプロマジン、クロルプロチキセン（ラット ）により抑制され、水素化麦角アルカロイド（ウサギ ）により増強された。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:physchem_of_act_ingredients_section_title "〈アログリプチン安息香酸塩〉" .
+pi:PI_19 pio:general_name "アログリプチン安息香酸塩（Alogliptin Benzoate）〔JAN〕" .
+pi:PI_19 pio:chemical_name "2-（｛6-［（3 ）-3-Aminopiperidin-1-yl］-3-methyl-2,4-dioxo-3,4-dihydropyrimidin-1（2 ）-yl｝methyl）benzonitrile monobenzoate" .
+pi:PI_19 pio:molecular_formula "C H N O ・C H O" .
+pi:PI_19 pio:molecular_weight "461.51" .
+pi:PI_19 pio:description_of_active_ingredients "アログリプチン安息香酸塩は白色～帯黄白色の結晶性の粉末である。ジメチルスルホキシドにやや溶けやすく、水又はメタノールにやや溶けにくく、アセトニトリル又はエタノール（99.5）に溶けにくい。" .
+pi:PI_19 pio:melting_point "182.5℃" .
+pi:PI_21 dct:description "医薬品リスク管理計画を策定の上、適切に実施すること。"@ja .
+pi:PI_22 dct:description "PTP 100錠（10錠×10）"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "Tuchmann-Duplessis H, et al．: Compt Rend．1961；253：321-323．" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "アログリプチン/メトホルミン配合剤の薬物動態試験成績①（2016年9月28日承認：CTD2.7.6.2）" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "アログリプチン/メトホルミン配合剤の薬物動態試験成績②（2016年9月28日承認：CTD2.7.6.1）" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "アログリプチンの蛋白結合に関する検討（2010年4月16日承認：CTD2.7.2.2）" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "アログリプチンの代謝に関する検討①（2010年4月16日承認：CTD2.7.2.1）" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "アログリプチンの代謝に関する検討②（2010年4月16日承認：CTD2.7.2.2）" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "アログリプチンの代謝に関する検討③（2010年4月16日承認：CTD2.7.2.3）" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "Study No． AE-4997-G，Final Report（Takeda Pharmaceutical Company Limited. 社内資料）" .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "アログリプチンの腎機能障害患者における薬物動態試験成績（2010年4月16日承認：CTD2.7.6.14）" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "アログリプチンの肝機能障害患者における薬物動態試験成績（2010年4月16日承認：CTD2.7.6.15）" .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "アログリプチンの高齢者における薬物動態試験成績（2010年4月16日承認：CTD2.7.6.13）" .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "アログリプチン/メトホルミン配合剤とメトホルミンとの薬物相互作用試験成績（2016年9月28日承認：CTD2.7.6.3）" .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "アログリプチンとピオグリタゾンとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.2.2）" .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "アログリプチンとボグリボースとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.2.3）" .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "アログリプチンとアトルバスタチンとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.2.2）" .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "アログリプチンとフルコナゾール、ケトコナゾール又はゲムフィブロジルとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.2.2）" .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "アログリプチンとシクロスポリンとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.2.2）" .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "アログリプチンとカフェイン、トルブタミド、デキストロメトルファン、ミダゾラム及びフェキソフェナジンとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.2.2）" .
+pi:PI_23.item18 pio:id "DOC_18" .
+pi:PI_23 dct:references pi:PI_23.item19 .
+pi:PI_23.item19 a bibo:Document .
+pi:PI_23.item19 rdfs:label "アログリプチンとワルファリンとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.2.2）" .
+pi:PI_23.item19 pio:id "DOC_19" .
+pi:PI_23 dct:references pi:PI_23.item20 .
+pi:PI_23.item20 a bibo:Document .
+pi:PI_23.item20 rdfs:label "アログリプチンとエチニルエストラジオール及びノルエチンドロンとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.2.2）" .
+pi:PI_23.item20 pio:id "DOC_20" .
+pi:PI_23 dct:references pi:PI_23.item21 .
+pi:PI_23.item21 a bibo:Document .
+pi:PI_23.item21 rdfs:label "アログリプチンとジゴキシンとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.2.3）" .
+pi:PI_23.item21 pio:id "DOC_21" .
+pi:PI_23 dct:references pi:PI_23.item22 .
+pi:PI_23.item22 a bibo:Document .
+pi:PI_23.item22 rdfs:label "アログリプチンとグリベンクラミドとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.6.21）" .
+pi:PI_23.item22 pio:id "DOC_22" .
+pi:PI_23 dct:references pi:PI_23.item23 .
+pi:PI_23.item23 a bibo:Document .
+pi:PI_23.item23 rdfs:label "アログリプチンとシメチジンとの薬物相互作用試験成績（2010年4月16日承認：CTD2.7.2.3）" .
+pi:PI_23.item23 pio:id "DOC_23" .
+pi:PI_23 dct:references pi:PI_23.item24 .
+pi:PI_23.item24 a bibo:Document .
+pi:PI_23.item24 rdfs:label "Somogyi A, et al．：Br J Clin Pharmacol．1987；23：545-551．" .
+pi:PI_23.item24 pio:id "DOC_24" .
+pi:PI_23 dct:references pi:PI_23.item25 .
+pi:PI_23.item25 a bibo:Document .
+pi:PI_23.item25 rdfs:label "Song I H, et al．：J Acquir Immune Defic Syndr．2016；72：400-407．" .
+pi:PI_23.item25 pio:id "DOC_25" .
+pi:PI_23 dct:references pi:PI_23.item26 .
+pi:PI_23.item26 a bibo:Document .
+pi:PI_23.item26 rdfs:label "Johansson S, et al．：Clin Pharmacokinet．2014；53：837-847．" .
+pi:PI_23.item26 pio:id "DOC_26" .
+pi:PI_23 dct:references pi:PI_23.item27 .
+pi:PI_23.item27 a bibo:Document .
+pi:PI_23.item27 rdfs:label "アログリプチン/メトホルミン配合剤の臨床試験成績①（2016年9月28日承認：CTD2.7.6.5）" .
+pi:PI_23.item27 pio:id "DOC_27" .
+pi:PI_23 dct:references pi:PI_23.item28 .
+pi:PI_23.item28 a bibo:Document .
+pi:PI_23.item28 rdfs:label "アログリプチン/メトホルミン配合剤の臨床試験成績②（2016年9月28日承認：CTD2.7.6.6）" .
+pi:PI_23.item28 pio:id "DOC_28" .
+pi:PI_23 dct:references pi:PI_23.item29 .
+pi:PI_23.item29 a bibo:Document .
+pi:PI_23.item29 rdfs:label "アログリプチン/メトホルミン配合剤の臨床試験成績③（2016年9月28日承認：CTD2.7.6.4）" .
+pi:PI_23.item29 pio:id "DOC_29" .
+pi:PI_23 dct:references pi:PI_23.item30 .
+pi:PI_23.item30 a bibo:Document .
+pi:PI_23.item30 rdfs:label "アログリプチンの耐糖能改善作用に関する検討①（2010年4月16日承認：CTD2.4.2）" .
+pi:PI_23.item30 pio:id "DOC_30" .
+pi:PI_23 dct:references pi:PI_23.item31 .
+pi:PI_23.item31 a bibo:Document .
+pi:PI_23.item31 rdfs:label "アログリプチンの耐糖能改善作用に関する検討②（2010年4月16日承認：CTD2.6.2）" .
+pi:PI_23.item31 pio:id "DOC_31" .
+pi:PI_23 dct:references pi:PI_23.item32 .
+pi:PI_23.item32 a bibo:Document .
+pi:PI_23.item32 rdfs:label "Lee A J．：Pharmacotherapy．1996；16：327-351．" .
+pi:PI_23.item32 pio:id "DOC_32" .
+pi:PI_23 dct:references pi:PI_23.item33 .
+pi:PI_23.item33 a bibo:Document .
+pi:PI_23.item33 rdfs:label "アログリプチンの酵素阻害活性に関する検討（2010年4月16日承認：CTD2.6.2.1）" .
+pi:PI_23.item33 pio:id "DOC_33" .
+pi:PI_23 dct:references pi:PI_23.item34 .
+pi:PI_23.item34 a bibo:Document .
+pi:PI_23.item34 rdfs:label "アログリプチンの薬物動態試験成績①（2010年4月16日承認：CTD2.7.6.6）" .
+pi:PI_23.item34 pio:id "DOC_34" .
+pi:PI_23 dct:references pi:PI_23.item35 .
+pi:PI_23.item35 a bibo:Document .
+pi:PI_23.item35 rdfs:label "アログリプチンの薬物動態試験成績②（2010年4月16日承認：CTD2.7.6.27）" .
+pi:PI_23.item35 pio:id "DOC_35" .
+pi:PI_23 dct:references pi:PI_23.item36 .
+pi:PI_23.item36 a bibo:Document .
+pi:PI_23.item36 rdfs:label "アログリプチンの耐糖能改善作用に関する検討③（2010年4月16日承認：CTD2.6.2.2）" .
+pi:PI_23.item36 pio:id "DOC_36" .
+pi:PI_23 dct:references pi:PI_23.item37 .
+pi:PI_23.item37 a bibo:Document .
+pi:PI_23.item37 rdfs:label "Proske G, et al．：Arzneimittel-Forsch．1962；12：314-318．" .
+pi:PI_23.item37 pio:id "DOC_37" .
+pi:PI_23 dct:references pi:PI_23.item38 .
+pi:PI_23.item38 a bibo:Document .
+pi:PI_23.item38 rdfs:label "Opitz K, et al．：Deut Med Wochenschr．1962；87：105-106．" .
+pi:PI_23.item38 pio:id "DOC_38" .
+pi:PI_23 dct:references pi:PI_23.item39 .
+pi:PI_23.item39 a bibo:Document .
+pi:PI_23.item39 rdfs:label "Sterne J．：Thérapie ．1958；13：650-659．" .
+pi:PI_23.item39 pio:id "DOC_39" .
+pi:PI_23 dct:references pi:PI_23.item40 .
+pi:PI_23.item40 a bibo:Document .
+pi:PI_23.item40 rdfs:label "小澤光　他：日薬理誌．1971；67：12-13．" .
+pi:PI_23.item40 pio:id "DOC_40" .
+pi:PI_23 dct:references pi:PI_23.item41 .
+pi:PI_23.item41 a bibo:Document .
+pi:PI_23.item41 rdfs:label "Kroneberg G, et al．：Arzneimittel-Forsch．1958；8：470-475．" .
+pi:PI_23.item41 pio:id "DOC_41" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "武田薬品工業株式会社　くすり相談室"@ja .
+pi:PI_24.item1 pio:address "〒103-8668　東京都中央区日本橋本町二丁目1番1号"@ja .
+pi:PI_24.item1 pio:contact_information "フリーダイヤル　0120-566-587 受付時間　9：00〜17：30（土日祝日・弊社休業日を除く）"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "武田薬品工業株式会社"@ja .
+pi:PI_26.item1 pio:address "〒540-8645　大阪市中央区道修町四丁目1番1号"@ja .
