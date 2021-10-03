@@ -2,29 +2,344 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix pi: <http://med2rdf.org/pi/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
 @prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://med2rdf.org/pi/530263_1900400A1025_1_01>
-    pio:company_identifier "530263" ;
-    pio:date_of_preparation_or_revision "2020-04"^^xsd:date ;
-    pio:version "第2版"@ja ;
-    pio:sccj_no "87190" ;
-    pio:therapeutic_classification "デュシェンヌ型筋ジストロフィー治療剤"@ja ;
-    pio:approval_etc [
-        pio:approval_brand_name "ビルテプソ点滴静注250mg"@ja ;
-        pio:approval_no "30200AMX00428000" ;
-        pio:yj_code "1900400A1025" ;
-        pio:storage_method "2～8℃で保存"@ja ;
-        pio:shelf_life "24箇月"@ja ;
-        pio:starting_date_of_marketing "2020-04"^^xsd:date ;
-        pio:trademark_name "Viltepso Injection"@dn ;
-        pio:name_in_hiragana "びるてぷそてんてきじょうちゅうにひゃくごじゅうみりぐらむ"@ja ;
-        pio:regulatory_classification_code_and_note [
-            pio:regulatory_classification_code 12
-        ] ;
-    ] ;
-    pio:generic_name "Mirabegron"@en, "ビルトラルセン静注"@ja ;
-    dct:identifier "530263_1900400A1025_1_01" .
+@prefix pi: <http://med2rdf.org/pi/530263_1900400A1025_1_01#> .
 
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_0 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_1 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_2 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_3 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_3_1 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_3_2 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_4 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_5 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_6 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_7 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_8 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_9 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_9_1 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_9_2 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_9_3 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_9_4 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_9_5 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_9_6 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_9_7 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_9_8 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_10 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_10_1 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_10_2 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_11 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_11_1 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_11_2 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_12 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_13 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_14 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_15 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_15_1 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_15_2 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_16 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_16_1 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_16_2 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_16_3 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_16_4 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_16_5 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_16_6 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_16_7 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_16_8 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_17 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_17_1 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_17_2 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_17_3 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_18 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_18_1 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_19 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_20 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_21 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_22 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_23 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_24 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_25 .
+pi_root:530263_1900400A1025_1_01 pio:section pi:PI_26 .
+pi_root:530263_1900400A1025_1_01 dct:identifier "530263_1900400A1025_1_01" .
+pi_root:530263_1900400A1025_1_01 pio:company_identifier "530263" .
+pi_root:530263_1900400A1025_1_01 pio:date_of_preparation_or_revision "2020-04"^^xsd:date .
+pi_root:530263_1900400A1025_1_01 pio:version "第2版" .
+pi_root:530263_1900400A1025_1_01 pio:sccj_no "87190" .
+pi_root:530263_1900400A1025_1_01 pio:therapeutic_classification "デュシェンヌ型筋ジストロフィー治療剤" .
+pi_root:530263_1900400A1025_1_01 pio:approval_brand_name "ビルテプソ点滴静注250mg" .
+pi_root:530263_1900400A1025_1_01 pio:yj_code "1900400A1025" .
+pi_root:530263_1900400A1025_1_01 pio:trademark_name "Viltepso Injection" .
+pi_root:530263_1900400A1025_1_01 pio:approval_no "30200AMX00428000" .
+pi_root:530263_1900400A1025_1_01 pio:starting_date_of_marketing "2020-05"^^xsd:date .
+pi_root:530263_1900400A1025_1_01 pio:storage_method "2～8℃で保存" .
+pi_root:530263_1900400A1025_1_01 pio:shelf_life "24箇月" .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "ビルトラルセン"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "250mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item1.additive1 pio:value_and_unit "45mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "pH調整剤（塩酸、水酸化ナトリウム）"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:formulation "水性注射液" .
+pi:PI_3_2.item1 pio:color_tone "無色澄明の液" .
+pi:PI_3_2.item1 pio:osmotic_ratio "約1.0" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 dct:description "エクソン53スキッピングにより治療可能なジストロフィン遺伝子の欠失が確認されているデュシェンヌ型筋ジストロフィー"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 pio:section pi:PI_5.item1 .
+pi:PI_5.item1 dct:description "遺伝子検査により、エクソン53スキッピングにより治療可能なジストロフィン遺伝子の欠失（エクソン43-52、45-52、47-52、48-52、49-52、50-52、52欠失等）が確認されている患者に投与すること。また、臨床試験に組み入れられた患者のジストロフィン遺伝子の変異型について、「17.臨床成績」の項の内容を熟知し、本剤の有効性及び安全性を十分に理解した上で、適応患者の選択を行うこと。 ,"@ja .
+pi:PI_5 pio:section pi:PI_5.item2 .
+pi:PI_5.item2 dct:description "永続的な人工呼吸が導入された患者及び歩行不能後期の患者における有効性及び安全性は確立していない。これらの患者に投与する場合には、残存している運動機能等を考慮し、投与の可否を判断すること。投与を行った場合は患者の状態を慎重に観察し、定期的に有効性を評価し投与継続の可否を判断すること。効果が認められない場合には投与を中止すること。 ,"@ja .
+pi:PI_5 pio:section pi:PI_5.item3 .
+pi:PI_5.item3 dct:description "正常なX染色体を有する女性ジストロフィン異常症患者に本剤を投与した場合、正常なジストロフィン発現を低下させるおそれがあるため、このような患者には投与しないこと。"@ja .
+pi:PI_5 pio:section pi:PI_5.item4 .
+pi:PI_5.item4 dct:description "女性を対象とした臨床試験は実施していない。"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "通常、ビルトラルセンとして80mg/kgを週1回、1時間かけて静脈内投与する。"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "本剤の投与は、本剤に関する十分な知識及びデュシェンヌ型筋ジストロフィーの診断及び治療に十分な知識・経験を持つ医師のもとで行うこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "本剤投与によりβ2ミクログロブリン増加及びNAG増加が認められ、非臨床試験においても腎臓への影響が認められているため、本剤投与中は定期的に腎機能検査を行うこと。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "rasH2マウスにおいて尿管の移行上皮癌が報告されているため、投与開始に先立ち、患者又はその家族に尿管における腫瘍発生のリスクを十分に説明するとともに、本剤投与中は定期的に尿沈渣、尿細胞診、腎尿路系の超音波検査を実施し、臨床的に問題となる異常が認められた場合には、投与を中止すること。また、痛みや閉塞など、尿路に何らかの自覚症状が認められた場合には、直ちに医師の診察を受けるよう患者又はその家族に指導すること。これらの症状が認められた場合には、泌尿器科医と連携して適切な対応を行うこと。"@ja .
+pi:PI_9_2 dct:description "本剤の排泄が遅延するおそれがある。"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。胚・胎児発生に関する試験は実施していない。"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。動物における乳汁移行試験は実施していない。"@ja .
+pi:PI_9_7 dct:description "低出生体重児、新生児、乳児又は4歳未満の幼児を対象とした臨床試験は実施していない。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "BNP増加、駆出率減少" .
+pi:PI_11_2.item1.item1 pio:category "循環器" .
+pi:PI_11_2.item1.item1 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "腹痛、下痢" .
+pi:PI_11_2.item1.item2 pio:category "消化器" .
+pi:PI_11_2.item1.item2 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "蕁麻疹" .
+pi:PI_11_2.item1.item3 pio:category "皮膚" .
+pi:PI_11_2.item1.item3 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "湿疹、発疹、毛髪変色" .
+pi:PI_11_2.item1.item4 pio:category "皮膚" .
+pi:PI_11_2.item1.item4 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "NAG増加" .
+pi:PI_11_2.item1.item5 pio:category "腎臓" .
+pi:PI_11_2.item1.item5 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "β2ミクログロブリン増加" .
+pi:PI_11_2.item1.item6 pio:category "腎臓" .
+pi:PI_11_2.item1.item6 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "発熱、インターロイキン濃度増加" .
+pi:PI_11_2.item1.item7 pio:category "その他" .
+pi:PI_11_2.item1.item7 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "注射部位紅斑、注射部位漏出" .
+pi:PI_11_2.item1.item8 pio:category "その他" .
+pi:PI_11_2.item1.item8 pio:frequency "5%未満" .
+pi:PI_12 dct:description "ピロガロールレッド法による尿蛋白検査で偽陽性を示すため、投与前か投与後24時間以降に測定すること（尿中に排泄される本剤との交差反応による）。"@ja .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤調製時の注意"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item1 .
+pi:PI_14.item1.item1 dct:desctiption "本剤の混和には生理食塩液を用い、100mLになるように調製を行うこと。ただし、希釈前の本剤の投与液量が100mLを超える場合には、生理食塩液を混和する必要はない。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item2 .
+pi:PI_14.item1.item2 dct:desctiption "本剤のバイアルは1回使い切りである。残液をその後の投与に使用しないこと。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item3 .
+pi:PI_14.item1.item3 dct:desctiption "取扱い時にはゴム手袋、防護メガネ等の着用が望ましい。眼や皮膚に薬液が付着した場合は直ちに多量の水で十分に洗浄し、医師の診断を受けるなど適切な処置を行うこと。"@ja .
+pi:PI_15_2 pio:section pi:PI_15_2.item1 .
+pi:PI_15_2.item1 dct:description "マウス及びサルを用いた非臨床安全性試験において、高用量の本剤を投与した際に尿素窒素やクレアチニンの血清中濃度増加等の腎機能パラメータを含む腎臓への影響が認められている 。"@ja .
+pi:PI_15_2 pio:section pi:PI_15_2.item2 .
+pi:PI_15_2.item2 dct:description "rasH2マウスを用いた26週間反復静脈内投与がん原性試験（50、150及び500mg/kg/週）において、50及び150mg/kg/週投与群のそれぞれ1及び2例で剖検により尿管に腫瘤又は肥大が認められ、病理組織学的検査において尿管に移行上皮癌が認められた 。"@ja .
+pi:PI_16_1 dct:description "日本人デュシェンヌ型筋ジストロフィー患者16例に、ビルトラルセン40  及び80mg/kg（各8例）を1時間かけて静脈内投与したときのビルトラルセンの薬物動態パラメータは以下のとおりであった。 また、初回投与時と24週時で、いずれの薬物動態パラメータにも有意な差は認められなかった 。"@ja .
+pi:PI_16_3 dct:description "           C-ビルトラルセンの血清タンパクに対する結合率は、39.4～40.3%であった （ ）。"@ja .
+pi:PI_16_4 dct:description "ビルトラルセンは、血清、肝由来試料（ミクロソーム及びS9）、DNase I及びPDE1により代謝を受けなかった （ ）。"@ja .
+pi:PI_16_5 dct:description "日本人デュシェンヌ型筋ジストロフィー患者8例にビルトラルセン80mg/kgを1時間かけて静脈内投与したとき、投与後24時間までに尿中へ未変化体として92.0～93.1%が排泄された 。"@ja .
+pi:PI_16_7 dct:description "ビルトラルセンはCYP3A4及びUGT1A1に対して弱い阻害作用を示した（Ki値はそれぞれ1.09及び0.642mmol/L） （ ）。また、ビルトラルセンはOATP1B1、OATP1B3、OAT3及びBCRPに対して弱い阻害作用を示した（IC 値はそれぞれ0.485、0.448、0.176及び1.97mmol/L） （ ）。"@ja .
+pi:PI_16_7 dct:description "                   "@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:title "国内第Ⅰ/Ⅱ相試験"@ja .
+pi:PI_17_1.item1 dct:description "5歳以上13歳未満のデュシェンヌ型筋ジストロフィー男児患者に本剤40mg/kg （8例）又は80mg/kg（8例）を週1回24週間静脈内投与した。投与開始12週後又は24週後における筋生検によるジストロフィン発現（ウェスタンブロット法）は次表のとおりであった。なお、試験に組み入れられた患者のジストロフィン遺伝子のエクソン欠失部位は、45-52欠失（6例）、48-52欠失（3例）、49-52欠失（2例）、50-52欠失（2例）及び52欠失（3例）であった。また、試験に組み入れられた患者のうち、歩行不能であった患者は3例であった。"@ja .
+pi:PI_17_1.item1 dct:description "a：正常対照に対する割合"@ja .
+pi:PI_17_1.item1 dct:description "副作用は40mg/kg群で37.5%（3/8例）、80mg/kg群で75.0%（6/8例）認められた。主な副作用は、脳性ナトリウム利尿ペプチド増加、駆出率減少、蕁麻疹、N-アセチル-β-D-グルコサミニダーゼ増加、発熱、インターロイキン濃度増加（各2例）であった 。 ,"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.table1 .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row1 .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column1 .
+pi:PI_17_1.item1.table1.row1.column1 rdf:value "投与群" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column2 .
+pi:PI_17_1.item1.table1.row1.column2 rdf:value "評価時期" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column3 .
+pi:PI_17_1.item1.table1.row1.column3 rdf:value "例数" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column4 .
+pi:PI_17_1.item1.table1.row1.column4 rdf:value "ジストロフィン発現 （平均値（標準偏差））" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row2 .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column1 .
+pi:PI_17_1.item1.table1.row2.column1 rdf:value "40mg/kg" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column2 .
+pi:PI_17_1.item1.table1.row2.column2 rdf:value "12週後" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column3 .
+pi:PI_17_1.item1.table1.row2.column3 rdf:value "4" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column4 .
+pi:PI_17_1.item1.table1.row2.column4 rdf:value "-1.205（3.262）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row3 .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column1 .
+pi:PI_17_1.item1.table1.row3.column1 rdf:value "40mg/kg" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column2 .
+pi:PI_17_1.item1.table1.row3.column2 rdf:value "24週後" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column3 .
+pi:PI_17_1.item1.table1.row3.column3 rdf:value "4" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column4 .
+pi:PI_17_1.item1.table1.row3.column4 rdf:value "1.458（1.587）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row4 .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column1 .
+pi:PI_17_1.item1.table1.row4.column1 rdf:value "80mg/kg" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column2 .
+pi:PI_17_1.item1.table1.row4.column2 rdf:value "12週後" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column3 .
+pi:PI_17_1.item1.table1.row4.column3 rdf:value "4" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column4 .
+pi:PI_17_1.item1.table1.row4.column4 rdf:value "0.755（1.024）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row5 .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column1 .
+pi:PI_17_1.item1.table1.row5.column1 rdf:value "80mg/kg" .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column2 .
+pi:PI_17_1.item1.table1.row5.column2 rdf:value "24週後" .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column3 .
+pi:PI_17_1.item1.table1.row5.column3 rdf:value "4" .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column4 .
+pi:PI_17_1.item1.table1.row5.column4 rdf:value "4.814（3.113）" .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:title "海外第Ⅱ相試験"@ja .
+pi:PI_17_1.item2 dct:description "歩行可能な4歳以上10歳未満のデュシェンヌ型筋ジストロフィーの男児患者に本剤40mg/kg（8例）又は80mg/kg（8例）を週1回20週間又は24週間静脈内投与した。投与開始24週後（うち3例は最初の4週間はプラセボを投与しているため20週後）における筋生検によるジストロフィン発現（ウェスタンブロット法）は次表のとおりであった。なお、試験に組み入れられた患者のジストロフィン遺伝子のエクソン欠失部位は、45-52欠失（7例）、47-52欠失（1例）、48-52欠失（3例）、49-52欠失（3例）及び50-52欠失（2例）であった。"@ja .
+pi:PI_17_1.item2 dct:description "a：正常対照に対する割合"@ja .
+pi:PI_17_1.item2 dct:description "副作用は認められなかった 。 ,"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item2.table1 .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row1 .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column1 .
+pi:PI_17_1.item2.table1.row1.column1 rdf:value "投与群" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column2 .
+pi:PI_17_1.item2.table1.row1.column2 rdf:value "評価時期" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column3 .
+pi:PI_17_1.item2.table1.row1.column3 rdf:value "例数" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column4 .
+pi:PI_17_1.item2.table1.row1.column4 rdf:value "ジストロフィン発現 （平均値（標準偏差））" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row2 .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column1 .
+pi:PI_17_1.item2.table1.row2.column1 rdf:value "40mg/kg" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column2 .
+pi:PI_17_1.item2.table1.row2.column2 rdf:value "24週後" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column3 .
+pi:PI_17_1.item2.table1.row2.column3 rdf:value "8" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column4 .
+pi:PI_17_1.item2.table1.row2.column4 rdf:value "5.4（2.40）" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row3 .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column1 .
+pi:PI_17_1.item2.table1.row3.column1 rdf:value "80mg/kg" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column2 .
+pi:PI_17_1.item2.table1.row3.column2 rdf:value "24週後" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column3 .
+pi:PI_17_1.item2.table1.row3.column3 rdf:value "8" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column4 .
+pi:PI_17_1.item2.table1.row3.column4 rdf:value "5.3（4.48）" .
+pi:PI_17_1 dct:description "                   "@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "ビルトラルセンはデュシェンヌ型筋ジストロフィーの原因遺伝子であるジストロフィンのエクソン53を標的とするアンチセンス核酸であり、ジストロフィンmRNA前駆体のエクソン53に結合し、エクソン53をスキッピングすることでアミノ酸読み取り枠を回復させ、機能的なジストロフィンタンパク質を発現させることにより、デュシェンヌ型筋ジストロフィーに対する作用を示すと考えられている。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "エクソン53スキッピング活性"@ja .
+pi:PI_18.item1 dct:description "エクソン45-52又はエクソン48-52を欠失したデュシェンヌ型筋ジストロフィー患者由来線維芽細胞から分化させた筋管細胞において、ジストロフィンmRNA前駆体のエクソン53スキッピング作用及びジストロフィンタンパク質の発現増加が認められた 。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "ビルトラルセン（Viltolarsen）（JAN）" .
+pi:PI_19 pio:chemical_name "             - - -［2',3'- Azanediyl - ,2',3'- trideoxy - -（dimethylamino）-2',3'- seco］（2'- →5'）（CCTCCGGTTC TGAAGGTGTT C）" .
+pi:PI_19 pio:molecular_formula "C H N O P" .
+pi:PI_19 pio:molecular_weight "6924.82" .
+pi:PI_19 pio:description_of_active_ingredients "本品は白色の粉末である。 本品は水、生理食塩液及びジメチルスルホキシドに溶けやすく、エタノール（99.5）、1-オクタノール、アセトニトリル、メタノール、クロロホルム及びシクロヘキサンにほとんど溶けない。" .
+pi:PI_20 a pio:PI_20 .
+pi:PI_20 dct:description "凍結を避けること。"@ja .
+pi:PI_21 pio:section pi:PI_21.item1 .
+pi:PI_21.item1 dct:description "医薬品リスク管理計画を策定の上、適切に実施すること。"@ja .
+pi:PI_21 pio:section pi:PI_21.item2 .
+pi:PI_21.item2 dct:description "国内での治験症例が極めて限られていることから、再審査期間中は、全症例を対象とした使用成績調査を実施することにより、本剤の使用患者の背景情報を把握するとともに、本剤の安全性及び有効性に関するデータを早期に収集し、本剤の適正使用に必要な措置を講じること。"@ja .
+pi:PI_21 pio:section pi:PI_21.item3 .
+pi:PI_21.item3 dct:description "本剤の有効性及び安全性の確認を目的とした臨床試験及び国内レジストリを用いた調査を実施し、終了後速やかに試験成績及び解析結果を提出すること。"@ja .
+pi:PI_22.item0 dct:description "5mL×1バイアル"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "非臨床安全性試験（承認年月日：2020年3月25日、CTD 2.6.6.3）" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "がん原性試験（承認年月日：2020年3月25日、CTD 2.4.4.8）" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "国内第Ⅰ/Ⅱ相試験（承認年月日：2020年3月25日、CTD 2.7.6.2）" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "血清タンパク結合に関する検討（承認年月日：2020年3月25日、CTD 2.7.2.2）" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "代謝に関する検討（承認年月日：2020年3月25日、CTD 2.7.2.2）" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "CYP阻害作用に関する検討（承認年月日：2020年3月25日、CTD 2.7.2.2）" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "UGT阻害作用に関する検討（承認年月日：2020年3月25日、CTD 2.7.2.2）" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "薬物トランスポーター阻害作用に関する検討（承認年月日：2020年3月25日、CTD 2.7.2.2）" .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "海外第Ⅱ相試験（承認年月日：2020年3月25日、CTD 2.7.6.1）" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "エクソン45-52欠損DMD患者由来線維芽細胞を用いた検討（承認年月日：2020年3月25日、CTD 2.6.2.2.1）" .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "エクソン48-52欠損DMD患者由来線維芽細胞を用いた検討（承認年月日：2020年3月25日、CTD 2.6.2.2.2）" .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "日本新薬株式会社　製品情報担当"@ja .
+pi:PI_24.item1 pio:address "〒601-8550　京都市南区吉祥院西ノ庄門口町14"@ja .
+pi:PI_24.item1 pio:contact_information "フリーダイヤル 0120-321-372 TEL 075-321-9064 FAX 075-321-9061"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "日本新薬株式会社"@ja .
+pi:PI_26.item1 pio:address "京都市南区吉祥院西ノ庄門口町14"@ja .
