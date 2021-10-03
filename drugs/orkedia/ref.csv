@@ -1,0 +1,317 @@
+subject,predicate,object
+1,rdf:type,bibo:Document
+1,rdfs:label,"レグパラ®錠承認時評価資料：血液透析施行中の二次性副甲状腺機能亢進症患者を対象としたKRN1493 長期投与試験Ⅲ（第Ⅲ相）"
+1,dct:dateAccepted,2007-10-19
+1,ifo:internal_reference_id,
+1,ifo:ctd_number,CTD2.7.6.2.14
+2,rdf:type,bibo:Article
+2,dct:references,17652181
+2,ifo:internal_reference_id,018-119
+3,rdf:type,bibo:Article
+3,dct:references,17518508
+3,ifo:internal_reference_id,018-112
+4,rdf:type,bibo:Article
+4,dct:creator,岩下裕ら
+4,prism:publicationName,腎臓内科・泌尿器科
+4,prism:volume,2
+4,prism:number,6
+4,prism:startingPage,564
+4,prism:endingPage,70
+4,dct:issued,2015
+4,ifo:internal_reference_id,030-125
+5,rdf:type,bibo:Article
+5,dct:references,19193908
+5,ifo:internal_reference_id,030-126
+6,rdf:type,bibo:Article
+6,dct:creator,"社団法人 日本透析医学会"
+6,prism:publicationName,慢性腎臓病に伴う骨・ミネラル代謝異常の診療ガイドライン．透析会誌
+6,prism:volume,45
+6,prism:number,4
+6,prism:startingPage,301
+6,prism:endingPage,56
+6,dct:issued,2012
+6,ifo:internal_reference_id,021-093
+7,rdf:type,bibo:Document
+7,rdfs:label,社内資料：原薬安定性
+7,dct:dateAccepted,2018-03-23
+7,ifo:internal_reference_id,
+7,ifo:ctd_number,CTD2.3.S
+8,rdf:type,bibo:Document
+8,rdfs:label,社内資料：製剤安定性
+8,dct:dateAccepted,2018-03-23
+8,ifo:internal_reference_id,
+8,ifo:ctd_number,CTD2.3.P
+9,rdf:type,bibo:Article
+9,dct:references,31015494
+9,ifo:internal_reference_id,029-699
+10,rdf:type,bibo:Article
+10,dct:references,30955188
+10,ifo:internal_reference_id,029-694
+11,rdf:type,bibo:Document
+11,rdfs:label,社内資料：血液透析施行中の二次性副甲状腺機能亢進症患者を対象とした第Ⅲ相臨床試験
+11,dct:dateAccepted,2018-03-23
+11,ifo:internal_reference_id,
+11,ifo:ctd_number,CTD2.7.6.10
+12,rdf:type,bibo:Document
+12,rdfs:label,社内資料：血液透析施行中の二次性副甲状腺機能亢進症患者を対象とした第Ⅱ相臨床試験
+12,dct:dateAccepted,2018-03-23
+12,ifo:internal_reference_id,
+12,ifo:ctd_number,CTD2.7.6.9
+13,rdf:type,bibo:Document
+13,rdfs:label,社内資料：血液透析施行中の二次性副甲状腺機能亢進症患者を対象とした第Ⅰ/Ⅱ相臨床試験
+13,dct:dateAccepted,2018-03-23
+13,ifo:internal_reference_id,
+13,ifo:ctd_number,CTD2.7.6.5
+14,rdf:type,bibo:Article
+14,dct:references,30159688
+14,ifo:internal_reference_id,029-388
+15,rdf:type,bibo:Document
+15,rdfs:label,社内資料：副甲状腺癌及び副甲状腺摘出術不能又は術後再発の原発性副甲状腺機能亢進症における高カルシウム血症患者を対象とした第Ⅲ相非盲検試験
+15,dct:dateAccepted,2019-12-20
+15,ifo:internal_reference_id,
+15,ifo:ctd_number,CTD2.7.6.1
+16,rdf:type,bibo:Document
+16,rdfs:label,社内資料：第Ⅰ相臨床試験（健康成人男性：単回投与試験）
+16,dct:dateAccepted,2018-03-23
+16,ifo:internal_reference_id,
+16,ifo:ctd_number,CTD2.7.6.2
+17,rdf:type,bibo:Document
+17,rdfs:label,社内資料：第Ⅰ相臨床試験（健康成人男性：反復投与試験）
+17,dct:dateAccepted,2018-03-23
+17,ifo:internal_reference_id,
+17,ifo:ctd_number,CTD2.7.6.3
+18,rdf:type,bibo:Document
+18,rdfs:label,社内資料：腹膜透析施行中の二次性副甲状腺機能亢進症患者を対象とした第Ⅰ相臨床試験
+18,dct:dateAccepted,2018-03-23
+18,ifo:internal_reference_id,
+18,ifo:ctd_number,CTD2.7.6.6
+19,rdf:type,bibo:Document
+19,rdfs:label,"社内資料：QT/QTc 評価試験"
+19,dct:dateAccepted,2018-03-23
+19,ifo:internal_reference_id,
+19,ifo:ctd_number,CTD2.7.2.4.1
+20,rdf:type,bibo:Document
+20,rdfs:label,"社内資料： 第Ⅰ / Ⅱ 相用量反応試験"
+20,dct:dateAccepted,2018-03-23
+20,ifo:internal_reference_id,
+20,ifo:ctd_number,"CTD2.7.3.1.1.1, CTD2.7.6.5"
+21,rdf:type,bibo:Document
+21,rdfs:label,"社内資料： 第Ⅱ 相用量反応試験
+"
+21,dct:dateAccepted,2018-03-23
+21,ifo:internal_reference_id,
+21,ifo:ctd_number,"CTD2.7.3.1.1.2, CTD2.7.6.9"
+22,rdf:type,bibo:Article
+22,dct:references,30049473
+22,ifo:internal_reference_id,029-325
+23,rdf:type,bibo:Document
+23,rdfs:label,"社内資料：第Ⅲ相実薬対照二重盲検比較試験
+"
+23,dct:dateAccepted,2018-03-23
+23,ifo:internal_reference_id,
+23,ifo:ctd_number,"CTD2.7.3.1.1.3, CTD2.7.6.10"
+24,rdf:type,bibo:Document
+24,rdfs:label,社内資料：第Ⅲ相非盲検試験
+24,dct:dateAccepted,2019-12-20
+24,ifo:internal_reference_id,
+24,ifo:ctd_number,"CTD2.7.3.3.1, CTD2.7.6.1"
+25,rdf:type,bibo:Document
+25,rdfs:label,"社内資料： 第Ⅲ 相長期投与試験"
+25,dct:dateAccepted,2018-03-23
+25,ifo:internal_reference_id,
+25,ifo:ctd_number,"CTD2.7.3.1.1.4, CTD2.7.3.3.2, CTD2.7.6.11"
+26,rdf:type,bibo:Document
+26,rdfs:label,"社内資料： 第Ⅲ 相一般臨床試験
+"
+26,dct:dateAccepted,2018-03-23
+26,ifo:internal_reference_id,
+26,ifo:ctd_number,"CTD2.7.3.1.1.5, CTD2.7.6.12"
+27,rdf:type,bibo:Document
+27,rdfs:label,社内資料：薬理試験（ヒトカルシウム受容体に対する作用）
+27,dct:dateAccepted,2018-03-23
+27,ifo:internal_reference_id,
+27,ifo:ctd_number,"CTD2.6.2.1.1, CTD2.6.2.2.1"
+28,rdf:type,bibo:Document
+28,rdfs:label,社内資料：薬理試験（ヒトカルシウム受容体に対する作用様式）
+28,dct:dateAccepted,2018-03-23
+28,ifo:internal_reference_id,
+28,ifo:ctd_number,"CTD2.6.2.1.1, CTD2.6.2.2.2"
+29,rdf:type,bibo:Document
+29,rdfs:label,"社内資料：薬理試験（ラットにおける血清中PTH 及びCa 濃度に対する作用）"
+29,dct:dateAccepted,2018-03-23
+29,ifo:internal_reference_id,
+29,ifo:ctd_number,"CTD2.6.2.1.1, CTD2.6.2.2.4"
+30,rdf:type,bibo:Document
+30,rdfs:label,"社内資料：薬理試験（部分腎摘ラットにおける2 週間反復経口投与による血清中PTH 及びCa 濃度に対する作用
+"
+30,dct:dateAccepted,2018-03-23
+30,ifo:internal_reference_id,
+30,ifo:ctd_number,"CTD2.6.2.1.1, CTD2.6.2.2.5"
+31,rdf:type,bibo:Document
+31,rdfs:label,社内資料：薬理試験（部分腎摘ラットにおける副甲状腺細胞増殖に対する作用）
+31,dct:dateAccepted,2018-03-23
+31,ifo:internal_reference_id,
+31,ifo:ctd_number,"CTD2.6.2.1.1, CTD2.6.2.2.6"
+32,rdf:type,bibo:Article
+32,dct:references,12084632
+32,ifo:internal_reference_id,029-019
+33,rdf:type,bibo:Document
+33,rdfs:label,"社内資料：マウスにおける2 週間反復経口投与による血漿中PTH 及びCa
+濃度に対する作用"
+33,dct:dateAccepted,2018-03-23
+33,ifo:internal_reference_id,
+33,ifo:ctd_number,CTD2.6.2.2.3
+34,rdf:type,bibo:Document
+34,rdfs:label,社内資料：健康成人男性を対象とした第Ⅰ相単回投与試験
+34,dct:dateAccepted,2018-03-23
+34,ifo:internal_reference_id,
+34,ifo:ctd_number,CTD2.7.6.2
+35,rdf:type,bibo:Article
+35,dct:references,30168004
+35,ifo:internal_reference_id,029-387
+36,rdf:type,bibo:Article
+36,dct:references,30254496
+36,ifo:internal_reference_id,029-459
+37,rdf:type,bibo:Document
+37,rdfs:label,社内資料：健康成人男性を対象とした第Ⅰ相反復投与試験
+37,dct:dateAccepted,2018-03-23
+37,ifo:internal_reference_id,
+37,ifo:ctd_number,CTD2.7.6.3
+38,rdf:type,bibo:Document
+38,rdfs:label,社内資料：二次性副甲状腺機能亢進症患者を対象とした臨床薬理試験
+38,dct:dateAccepted,2018-03-23
+38,ifo:internal_reference_id,
+38,ifo:ctd_number,CTD2.7.2.2.3
+39,rdf:type,bibo:Document
+39,rdfs:label,社内資料：健康成人を対象とした食事の影響試験
+39,dct:dateAccepted,2018-03-23
+39,ifo:internal_reference_id,
+39,ifo:ctd_number,CTD2.7.6.1
+40,rdf:type,bibo:Document
+40,rdfs:label,社内資料：健康成人男性を対象とした薬物相互作用試験
+40,dct:dateAccepted,2018-03-23
+40,ifo:internal_reference_id,
+40,ifo:ctd_number,CTD2.7.6.8
+41,rdf:type,bibo:Article
+41,dct:references,30238620
+41,ifo:internal_reference_id,029-460
+42,rdf:type,bibo:Document
+42,rdfs:label,社内資料：二次性副甲状腺機能亢進症患者における薬物動態
+42,dct:dateAccepted,2018-03-23
+42,ifo:internal_reference_id,
+42,ifo:ctd_number,CTD2.7.2.3.2
+43,rdf:type,bibo:Document
+43,rdfs:label,社内資料：副甲状腺癌及び副甲状腺摘出術不能又は術後再発の原発性副甲状腺機能亢進症における高カルシウム血症患者における薬物動態
+43,dct:dateAccepted,2019-12-20
+43,ifo:internal_reference_id,
+43,ifo:ctd_number,CTD2.7.2.3
+44,rdf:type,bibo:Document
+44,rdfs:label,社内資料：健康成人男性を対象としたマスバランス試験
+44,dct:dateAccepted,2018-03-23
+44,ifo:internal_reference_id,
+44,ifo:ctd_number,CTD2.7.6.4
+45,rdf:type,bibo:Document
+45,rdfs:label,社内資料：マスバランス試験
+45,dct:dateAccepted,2018-03-23
+45,ifo:internal_reference_id,
+45,ifo:ctd_number,CTD2.7.2.2.6
+46,rdf:type,bibo:Document
+46,rdfs:label,社内資料：薬物動態試験（非臨床）
+46,dct:dateAccepted,2018-03-23
+46,ifo:internal_reference_id,
+46,ifo:ctd_number,CTD2.6.4.1.5
+47,rdf:type,bibo:Document
+47,rdfs:label,社内資料：ラットにおける組織分布
+47,dct:dateAccepted,2018-03-23
+47,ifo:internal_reference_id,
+47,ifo:ctd_number,CTD2.6.4.4.1
+48,rdf:type,bibo:Document
+48,rdfs:label,社内資料：薬物動態試験（非臨床）_分布
+48,dct:dateAccepted,2018-03-23
+48,ifo:internal_reference_id,
+48,ifo:ctd_number,CTD2.6.5.5
+49,rdf:type,bibo:Document
+49,rdfs:label,"社内資料：薬物動態試験（非臨床）_胎児移行性
+"
+49,dct:dateAccepted,2018-03-23
+49,ifo:internal_reference_id,
+49,ifo:ctd_number,"CTD2.6.4.4.3, CTD2.6.5.7.1"
+50,rdf:type,bibo:Document
+50,rdfs:label,社内資料：薬物動態試験（非臨床）_乳汁排泄
+50,dct:dateAccepted,2018-03-23
+50,ifo:internal_reference_id,
+50,ifo:ctd_number,CTD2.6.4.6.3
+51,rdf:type,bibo:Document
+51,rdfs:label,"社内資料：血漿蛋白結合及び血球移行性（in vitro）"
+51,dct:dateAccepted,2018-03-23
+51,ifo:internal_reference_id,
+51,ifo:ctd_number,CTD2.6.4.4.2
+52,rdf:type,bibo:Document
+52,rdfs:label,社内資料：肝機能障害患者を対象とした臨床薬理試験
+52,dct:dateAccepted,2018-03-23
+52,ifo:internal_reference_id,
+52,ifo:ctd_number,CTD2.7.6.7
+53,rdf:type,bibo:Document
+53,rdfs:label,社内資料：代謝に関与する酵素
+53,dct:dateAccepted,2018-03-23
+53,ifo:internal_reference_id,
+53,ifo:ctd_number,CTD2.6.4.5.4
+54,rdf:type,bibo:Document
+54,rdfs:label,社内資料：薬理試験（ヒトカルシウム受容体に対する代謝物の作用）
+54,dct:dateAccepted,2018-03-23
+54,ifo:internal_reference_id,
+54,ifo:ctd_number,CTD2.6.2.3.4
+55,rdf:type,bibo:Document
+55,rdfs:label,"社内資料：In vivo 代謝プロファイル
+"
+55,dct:dateAccepted,2018-03-23
+55,ifo:internal_reference_id,
+55,ifo:ctd_number,CTD2.7.2.2.1.5
+56,rdf:type,bibo:Document
+56,rdfs:label,"社内資料：薬物相互作用（トランスポーター）
+"
+56,dct:dateAccepted,2018-03-23
+56,ifo:internal_reference_id,
+56,ifo:ctd_number,CTD2.7.2.3.4.2
+57,rdf:type,bibo:Document
+57,rdfs:label,"社内資料：薬物動態に影響を及ぼす内因性要因
+"
+57,dct:dateAccepted,2018-03-23
+57,ifo:internal_reference_id,
+57,ifo:ctd_number,CTD2.7.2.3.3.2
+58,rdf:type,bibo:Article
+58,dct:references,17244128
+58,ifo:internal_reference_id,018-123
+59,rdf:type,bibo:Article
+59,dct:references,17175888
+59,ifo:internal_reference_id,018-111
+60,rdf:type,bibo:Document
+60,rdfs:label,"社内資料： 安全性薬理試験"
+60,dct:dateAccepted,2018-03-23
+60,ifo:internal_reference_id,
+60,ifo:ctd_number,"CTD2.6.2.4, CTD2.6.3.4"
+61,rdf:type,bibo:Document
+61,rdfs:label,社内資料：副次的薬理試験
+61,dct:dateAccepted,2018-03-23
+61,ifo:internal_reference_id,
+61,ifo:ctd_number,CTD2.6.2.1.2
+62,rdf:type,bibo:Document
+62,rdfs:label,"社内資料： 単回投与毒性試験"
+62,dct:dateAccepted,2018-03-23
+62,ifo:internal_reference_id,
+62,ifo:ctd_number,"CTD1.10, CTD2.6.6.2, CTD2.6.6.3.1, CTD2.6.6.3.5, CTD2.6.7.6"
+63,rdf:type,bibo:Document
+63,rdfs:label,社内資料：反復投与毒性試験
+63,dct:dateAccepted,2018-03-23
+63,ifo:internal_reference_id,
+63,ifo:ctd_number,CTD2.6.6.3.2-8
+64,rdf:type,bibo:Document
+64,rdfs:label,社内資料：その他の特殊毒性
+64,dct:dateAccepted,2018-03-23
+64,ifo:internal_reference_id,
+64,ifo:ctd_number,"CTD2.6.6.1, CTD2.6.6.8.1.1-2"
+65,rdf:type,bibo:Document
+65,rdfs:label,社内資料：生殖発生毒性試験
+65,dct:dateAccepted,2018-03-23
+65,ifo:internal_reference_id,
+65,ifo:ctd_number,"CTD2.6.6.6, CTD2.6.6.9.5"
