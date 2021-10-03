@@ -2,41 +2,583 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix pi: <http://med2rdf.org/pi/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
 @prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://med2rdf.org/pi/790005_2399009F4024_1_08>
-    pio:company_identifier "790005" ;
-    pio:date_of_preparation_or_revision "2020-10"^^xsd:date ;
-    pio:version "第2版"@ja ;
-    pio:sccj_no "872399" ;
-    pio:therapeutic_classification "潰瘍性大腸炎治療剤"@ja ;
-    pio:approval_etc [
-        pio:approval_brand_name "リアルダ錠1200mg"@ja ;
-        pio:approval_no "30100AMX00239" ;
-        pio:approval_no "22800AMX00689000" ;
-        pio:yj_code "2399009F4024" ;
-        pio:storage_method "冷所保存"@ja ;
-        pio:shelf_life "3年"@ja ;
-        pio:starting_date_of_marketing "2016-11"^^xsd:date ;
-        pio:trademark_name "LIALDA Tablets 1200mg"@en ;
-        pio:name_in_hiragana "りあるだじょう1200mg"@ja ;
-        pio:regulatory_classification_code_and_note [
-            pio:regulatory_classification_code 12
-        ] ;
-    ] ;
-    pio:generic_name "Mesalazine", "メサラジン"@ja ;
-    pio:precautions_for_combination <http://med2rdf.org/pi/790005_2399009F4024_1_08#PI_10_2> ;
-    dct:identifier "790005_2399009F4024_1_08" .
+@prefix pi: <http://med2rdf.org/pi/790005_2399009F4024_1_08#> .
 
-<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2>
-    pio:precautions_for_combi <http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2.item1> ;
-    a pio:PrecautionsForCombination .
-
-<http://med2rdf.org/pi/800126_2590014F1021_1_12#PI_10_2.item1>
-    pio:clin_symptoms_and_measures "骨髄抑制があらわれるおそれがある。"@ja ;
-    pio:drug_name "アザチオプリン"@ja, "メルカプトプリン水和物"@ja ;
-    pio:mechanism_and_risk_factors "メサラジンがチオプリンメチルトランスフェラーゼ活性を抑制するなど、これらの薬剤の代謝を阻害するとの報告がある。"@ja ;
-    a pio:PrecautionsForCombi .
-
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_0 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_1 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_2 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_3 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_3_1 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_3_2 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_4 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_5 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_6 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_7 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_8 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_9 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_9_1 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_9_2 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_9_3 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_9_4 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_9_5 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_9_6 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_9_7 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_9_8 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_10 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_10_1 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_10_2 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_11 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_11_1 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_11_2 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_12 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_13 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_14 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_15 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_15_1 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_15_2 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_16 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_16_1 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_16_2 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_16_3 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_16_4 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_16_5 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_16_6 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_16_7 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_16_8 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_17 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_17_1 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_17_2 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_17_3 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_18 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_18_1 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_19 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_20 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_21 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_22 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_23 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_24 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_25 .
+pi_root:790005_2399009F4024_1_08 pio:section pi:PI_26 .
+pi_root:790005_2399009F4024_1_08 dct:identifier "790005_2399009F4024_1_08" .
+pi_root:790005_2399009F4024_1_08 pio:company_identifier "790005" .
+pi_root:790005_2399009F4024_1_08 pio:date_of_preparation_or_revision "2020-10"^^xsd:date .
+pi_root:790005_2399009F4024_1_08 pio:version "第2版" .
+pi_root:790005_2399009F4024_1_08 pio:sccj_no "872399" .
+pi_root:790005_2399009F4024_1_08 pio:therapeutic_classification "潰瘍性大腸炎治療剤" .
+pi_root:790005_2399009F4024_1_08 pio:approval_brand_name "リアルダ錠1200mg" .
+pi_root:790005_2399009F4024_1_08 pio:yj_code "2399009F4024" .
+pi_root:790005_2399009F4024_1_08 pio:trademark_name "LIALDA Tablets 1200mg" .
+pi_root:790005_2399009F4024_1_08 pio:name_in_hiragana "りあるだじょう1200mg" .
+pi_root:790005_2399009F4024_1_08 pio:approval_no "22800AMX00689000" .
+pi_root:790005_2399009F4024_1_08 pio:starting_date_of_marketing "2016-11"^^xsd:date .
+pi_root:790005_2399009F4024_1_08 pio:storage_method "冷所保存" .
+pi_root:790005_2399009F4024_1_08 pio:shelf_life "3年" .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "サリチル酸塩類に対し過敏症の既往歴のある患者［交叉アレルギーを発現するおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "重篤な腎障害のある患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item4 .
+pi:PI_2.item4 dct:description "重篤な肝障害のある患者"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "1錠中　日局　メサラジン"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "1200mg"@ja .
+pi:PI_3_1.item1 pio:additives "カルメロースナトリウム、カルナウバロウ、ステアリン酸、含水二酸化ケイ素、デンプングリコール酸ナトリウム、タルク、ステアリン酸マグネシウム、メタクリル酸コポリマーL、メタクリル酸コポリマーS、クエン酸トリエチル、酸化チタン、三二酸化鉄、マクロゴール6000"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:id_code "S476" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 pio:section pi:PI_4.item1 .
+pi:PI_4.item1 rdfs:label "潰瘍性大腸炎（重症を除く）"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "通常、成人にはメサラジンとして1日1回2,400mgを食後経口投与する。活動期は、通常、成人にはメサラジンとして1日1回4,800mgを食後経口投与するが、患者の状態により適宜減量する。"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 pio:section pi:PI_7.item1 .
+pi:PI_7.item1 dct:description "1日4,800mgを投与する場合は、投与開始8週間を目安に有効性を評価し、漫然と継続しないこと。"@ja .
+pi:PI_7 pio:section pi:PI_7.item2 .
+pi:PI_7.item2 dct:description "本剤をメサラジン注腸剤又は坐剤と併用する場合には、メサラジンとしての総投与量が増加することを考慮し、特に肝又は腎機能の低下している患者並びに高齢者等への投与に際しては適宜減量するなど、十分に注意すること。併用時に異常が認められた場合には、減量又は中止するなどの適切な処置を行うこと。 , ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "間質性腎炎、ネフローゼ症候群、腎不全が報告されているため、投与中は腎機能を検査するなど、患者の状態を十分に観察すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "肝機能障害、肝炎、黄疸が報告されているため、投与中はAST、ALT等の肝機能をモニターするなど、患者の状態を十分に観察すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "再生不良性貧血、汎血球減少症、無顆粒球症、白血球減少症、好中球減少症、血小板減少症があらわれることがあるので、投与期間中は血液検査を行うなど、患者の状態を十分に観察すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 dct:description "膵炎があらわれることがあるので、投与期間中は血清アミラーゼの検査を行うなど、患者の状態を十分に観察すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item5 .
+pi:PI_8.item5 dct:description "メサラジンにより過敏症状（発熱、腹痛、下痢、好酸球増多等）が発現することがあり、また、潰瘍性大腸炎が悪化することがあるため、異常が認められた場合には、減量又は投与を中止するなどの適切な処置を行うこと。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "サラゾスルファピリジンに対し過敏症の既往歴のある患者"@ja .
+pi:PI_9_1.item1 dct:description "腹部の痙攣、腹痛、発熱、重症な頭痛又は発疹のような急性の過敏症の症状があらわれた場合には、投与を中止すること。"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item1 .
+pi:PI_9_2.item1 rdfs:title "重篤な腎障害のある患者"@ja .
+pi:PI_9_2.item1 dct:description "投与しないこと。腎障害がさらに悪化するおそれがある。"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item2 .
+pi:PI_9_2.item2 rdfs:title "腎機能の低下している患者（重篤な腎障害のある患者を除く）"@ja .
+pi:PI_9_2.item2 dct:description "排泄が遅延し、副作用があらわれるおそれがある。中等度から重度の腎障害患者は臨床試験では除外されている。"@ja .
+pi:PI_9_3 pio:section pi:PI_9_3.item1 .
+pi:PI_9_3.item1 rdfs:title "重篤な肝障害のある患者"@ja .
+pi:PI_9_3.item1 dct:description "投与しないこと。肝障害がさらに悪化するおそれがある。"@ja .
+pi:PI_9_3 pio:section pi:PI_9_3.item2 .
+pi:PI_9_3.item2 rdfs:title "肝機能の低下している患者（重篤な肝障害のある患者を除く）"@ja .
+pi:PI_9_3.item2 dct:description "代謝が遅延し、副作用があらわれるおそれがある。中等度から重度の肝障害患者は臨床試験では除外されている。"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。なお、動物試験において、メサラジンによる催奇形性は認められていない。"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。メサラジンでヒト乳汁中へ移行することが報告されている 。また、乳児に下痢が起きることが報告されている 。"@ja .
+pi:PI_9_7 dct:description "小児等を対象とした有効性及び安全性を指標とした臨床試験は実施していない。"@ja .
+pi:PI_9_8 dct:description "十分観察しながら慎重に投与すること。一般に生理機能（腎機能、肝機能等）が低下している。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "骨髄抑制があらわれるおそれがある。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "メサラジンがチオプリンメチルトランスフェラーゼ活性を抑制するなど、これらの薬剤の代謝を阻害するとの報告がある。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "再生不良性貧血、汎血球減少症、無顆粒球症、白血球減少症、好中球減少症、血小板減少症（いずれも頻度不明）"@ja .
+pi:PI_11_1.item1 dct:description ""@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "心膜炎（0.1～1%未満）、心筋炎（頻度不明）、胸膜炎（頻度不明）"@ja .
+pi:PI_11_1.item2 dct:description "胸部痛、心電図異常、胸水等が認められた場合には、投与を中止するなど適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item3 .
+pi:PI_11_1.item3 rdfs:title "間質性肺疾患（間質性肺炎、器質化肺炎、胞隔炎、好酸球性肺炎等）（0.1～1%未満）"@ja .
+pi:PI_11_1.item3 dct:description "呼吸困難、胸痛、咳嗽があらわれた場合には、投与を中止するなど適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item4 .
+pi:PI_11_1.item4 rdfs:title "膵炎（頻度不明）"@ja .
+pi:PI_11_1.item4 dct:description ""@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item5 .
+pi:PI_11_1.item5 rdfs:title "間質性腎炎、ネフローゼ症候群、腎不全（いずれも頻度不明）"@ja .
+pi:PI_11_1.item5 dct:description ""@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item6 .
+pi:PI_11_1.item6 rdfs:title "肝機能障害、肝炎、黄疸（いずれも頻度不明）"@ja .
+pi:PI_11_1.item6 dct:description "AST、ALT、γ-GTPの上昇等を伴う肝機能障害、肝炎、黄疸があらわれることがある。"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "そう痒症、発疹、アレルギー反応" .
+pi:PI_11_2.item1.item1 pio:category "過敏症" .
+pi:PI_11_2.item1.item1 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "蕁麻疹、顔面浮腫、血管浮腫" .
+pi:PI_11_2.item1.item2 pio:category "過敏症" .
+pi:PI_11_2.item1.item2 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "貧血、好酸球数増加" .
+pi:PI_11_2.item1.item3 pio:category "血液" .
+pi:PI_11_2.item1.item3 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "潰瘍性大腸炎の悪化、アミラーゼ増加" .
+pi:PI_11_2.item1.item4 pio:category "消化器" .
+pi:PI_11_2.item1.item4 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "腹部膨満、腹痛、下痢、血便排泄" .
+pi:PI_11_2.item1.item5 pio:category "消化器" .
+pi:PI_11_2.item1.item5 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "大腸炎、消化不良、鼓腸、悪心、嘔吐" .
+pi:PI_11_2.item1.item6 pio:category "消化器" .
+pi:PI_11_2.item1.item6 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "ビリルビン増加" .
+pi:PI_11_2.item1.item7 pio:category "肝臓" .
+pi:PI_11_2.item1.item7 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "Al-P増加、ALT増加、AST増加、γ-GTP増加" .
+pi:PI_11_2.item1.item8 pio:category "肝臓" .
+pi:PI_11_2.item1.item8 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "尿中 -アセチル-β-D-グルコサミニダーゼ（NAG）増加" .
+pi:PI_11_2.item1.item9 pio:category "腎臓・ 泌尿器" .
+pi:PI_11_2.item1.item9 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "尿中蛋白陽性、尿中血陽性" .
+pi:PI_11_2.item1.item10 pio:category "腎臓・ 泌尿器" .
+pi:PI_11_2.item1.item10 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item11 .
+pi:PI_11_2.item1.item11 a pio:AdverseEvent .
+pi:PI_11_2.item1.item11 pio:adverse_reaction "クレアチニン増加" .
+pi:PI_11_2.item1.item11 pio:category "腎臓・ 泌尿器" .
+pi:PI_11_2.item1.item11 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item12 .
+pi:PI_11_2.item1.item12 a pio:AdverseEvent .
+pi:PI_11_2.item1.item12 pio:adverse_reaction "頭痛、発熱、脱毛症、浮動性めまい、傾眠、筋肉痛、CRP増加" .
+pi:PI_11_2.item1.item12 pio:category "その他" .
+pi:PI_11_2.item1.item12 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item13 .
+pi:PI_11_2.item1.item13 a pio:AdverseEvent .
+pi:PI_11_2.item1.item13 pio:adverse_reaction "無力症、疲労、関節痛、背部痛、頻脈、ざ瘡、ループス様症候群" .
+pi:PI_11_2.item1.item13 pio:category "その他" .
+pi:PI_11_2.item1.item13 pio:frequency "頻度不明" .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤調製時の注意"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item1 .
+pi:PI_14.item1.item1 dct:desctiption "吸湿により溶出性に影響を及ぼすことがあるため、本剤をPTPシートから取り出し一包化調剤することは避けること。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item2 .
+pi:PI_14.item1.item2 dct:desctiption "乳鉢による粉砕は行わないこと。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:title "単回投与"@ja .
+pi:PI_16_1.item1 dct:description "健康成人に本剤を絶食単回経口投与（メサラジンとして2,400mg、4,800mg）したときの血漿中未変化体濃度の推移及び薬物動態パラメータは以下のとおりであった 。"@ja .
+pi:PI_16_1.item1 dct:description "　"@ja .
+pi:PI_16_1.item1 dct:description ""@ja .
+pi:PI_16_1.item1 dct:description ""@ja .
+pi:PI_16_1.item1 dct:description ""@ja .
+pi:PI_16_1.item1 dct:description ""@ja .
+pi:PI_16_1.item1 dct:description ""@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.table1 .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row1 .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column1 .
+pi:PI_16_1.item1.table1.row1.column1 rdf:value "" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column2 .
+pi:PI_16_1.item1.table1.row1.column2 rdf:value "投与量 （mg）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column3 .
+pi:PI_16_1.item1.table1.row1.column3 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column4 .
+pi:PI_16_1.item1.table1.row1.column4 rdf:value "t （hr）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column5 .
+pi:PI_16_1.item1.table1.row1.column5 rdf:value "t （hr）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row2 .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column1 .
+pi:PI_16_1.item1.table1.row2.column1 rdf:value "未変化体 （メサラジン）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column2 .
+pi:PI_16_1.item1.table1.row2.column2 rdf:value "2,400" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column3 .
+pi:PI_16_1.item1.table1.row2.column3 rdf:value "900±922" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column4 .
+pi:PI_16_1.item1.table1.row2.column4 rdf:value "25.0（6.00－34.0）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column5 .
+pi:PI_16_1.item1.table1.row2.column5 rdf:value "10.5±6.95" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row3 .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column1 .
+pi:PI_16_1.item1.table1.row3.column1 rdf:value "未変化体 （メサラジン）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column2 .
+pi:PI_16_1.item1.table1.row3.column2 rdf:value "4,800" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column3 .
+pi:PI_16_1.item1.table1.row3.column3 rdf:value "1591±932" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column4 .
+pi:PI_16_1.item1.table1.row3.column4 rdf:value "26.0（6.00－34.0）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column5 .
+pi:PI_16_1.item1.table1.row3.column5 rdf:value "6.55±1.76" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row4 .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column1 .
+pi:PI_16_1.item1.table1.row4.column1 rdf:value "アセチル体 （代謝物）" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column2 .
+pi:PI_16_1.item1.table1.row4.column2 rdf:value "2,400" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column3 .
+pi:PI_16_1.item1.table1.row4.column3 rdf:value "1398±765" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column4 .
+pi:PI_16_1.item1.table1.row4.column4 rdf:value "25.0（6.00－36.0）" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column5 .
+pi:PI_16_1.item1.table1.row4.column5 rdf:value "7.62±3.92" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row5 .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column1 .
+pi:PI_16_1.item1.table1.row5.column1 rdf:value "アセチル体 （代謝物）" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column2 .
+pi:PI_16_1.item1.table1.row5.column2 rdf:value "4,800" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column3 .
+pi:PI_16_1.item1.table1.row5.column3 rdf:value "2548±1192" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column4 .
+pi:PI_16_1.item1.table1.row5.column4 rdf:value "26.0（6.00－34.0）" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column5 .
+pi:PI_16_1.item1.table1.row5.column5 rdf:value "5.74±4.09" .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 rdfs:title "反復投与"@ja .
+pi:PI_16_1.item2 dct:description "本剤を1日1回7日間反復経口投与（メサラジンとして2,400mg、4,800mg）したときの血漿中未変化体濃度は、いずれの用量ともに反復経口投与後48時間で定常状態に達した。反復経口投与の最終回投与時の血漿中未変化体濃度の推移は、見かけ上t が消失したが単回経口投与時と類似していた 。"@ja .
+pi:PI_16_2 pio:section pi:PI_16_2.item1 .
+pi:PI_16_2.item1 rdfs:title "単回投与"@ja .
+pi:PI_16_2.item1 dct:description "健康成人に本剤を絶食単回経口投与（メサラジンとして2,400mg、4,800mg）したとき、未変化体とアセチル体の尿中排泄量の合計から計算したメサラジンの吸収率は22.7%、17.1%であった 。"@ja .
+pi:PI_16_2 pio:section pi:PI_16_2.item2 .
+pi:PI_16_2.item2 rdfs:title "反復投与"@ja .
+pi:PI_16_2.item2 dct:description "健康成人に本剤を1日1回7日間反復経口投与（メサラジンとして2,400mg、4,800mg）したとき、未変化体とアセチル体の尿中排泄量の合計から計算したメサラジンの吸収率は22.6%、15.1%で、絶食単回経口投与と同程度であった 。"@ja .
+pi:PI_16_2 pio:section pi:PI_16_2.item3 .
+pi:PI_16_2.item3 rdfs:title "食事の影響"@ja .
+pi:PI_16_2.item3 dct:description "健康成人に本剤を単回経口投与（メサラジンとして2,400mg、4,800mg）したときの血漿中未変化体及びアセチル体の濃度推移、尿中排泄率及び吸収率に、食事による著しい影響は認められなかった 。"@ja .
+pi:PI_16_3 pio:section pi:PI_16_3.item1 .
+pi:PI_16_3.item1 rdfs:title "分布容積"@ja .
+pi:PI_16_3.item1 dct:description "健康成人に本剤を絶食単回経口投与（メサラジンとして2,400mg、4,800mg）したときのみかけの分布容積（Vz/F）は、1,735L、1,072Lであった 。"@ja .
+pi:PI_16_3 pio:section pi:PI_16_3.item2 .
+pi:PI_16_3.item2 rdfs:title "血漿蛋白結合率"@ja .
+pi:PI_16_3.item2 dct:description "メサラジンのヒト血漿蛋白結合率は42.9%、アセチル体のヒト血漿蛋白結合率は78.2%あるいは83%であった （ 、外国人データ）。"@ja .
+pi:PI_16_4 dct:description "メサラジンは、主に消化管粘膜の -アセチルトランスフェラーゼ（NAT）によりアセチル体（ -アセチルメサラジン）に速やかに代謝される 。なお、ヒトにおいて、メサラジンは大部分がNAT1によりアセチル化されることから、CYPを介した他の薬物との相互作用が生じる可能性は低いと考えられた 。"@ja .
+pi:PI_16_5 pio:section pi:PI_16_5.item1 .
+pi:PI_16_5.item1 rdfs:title "単回投与"@ja .
+pi:PI_16_5.item1 dct:description "健康成人に本剤を絶食単回経口投与（メサラジンとして2,400mg、4,800mg）したとき、投与後72時間までの未変化体の尿中排泄率は投与量の0.753%、1.14%、アセチル体の尿中排泄率は22.0%、15.9%であった 。"@ja .
+pi:PI_16_5 pio:section pi:PI_16_5.item2 .
+pi:PI_16_5.item2 rdfs:title "反復投与"@ja .
+pi:PI_16_5.item2 dct:description "健康成人に本剤を1日1回7日間反復経口投与（メサラジンとして2,400mg、4,800mg）したとき、絶食時と食後で合計排泄量は同程度であった 。"@ja .
+pi:PI_16_7 dct:description "一般的な4種の抗菌剤（アモキシシリン、シプロフロキサシン、メトロニダゾール、スルファメトキサゾール）の薬物動態に対する本剤の影響を検討した結果、薬物相互作用は認められなかった 。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:title "国内第Ⅲ相臨床試験（活動期の潰瘍性大腸炎患者）"@ja .
+pi:PI_17_1.item1 dct:description "軽症～中等症の活動期の潰瘍性大腸炎患者を対象として、本剤1日1回4錠（メサラジンとして4,800mg）、pH依存型メサラジン放出調節製剤1日3回9錠（メサラジンとして3,600mg）を投与した二重盲検群間比較試験（投与期間8週間）において、本剤の活動期の潰瘍性大腸炎に対する有用性が認められた。 副作用発現頻度は、本剤投与群で26.4%（37/140例）であった。主な副作用は、尿中NAG増加及び血中ビリルビン増加各5.0%（7/140例）、アミラーゼ増加2.1%（3/140例）であった 。"@ja .
+pi:PI_17_1.item1 dct:description ""@ja .
+pi:PI_17_1.item1 dct:description ""@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.table1 .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row1 .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column1 .
+pi:PI_17_1.item1.table1.row1.column1 rdf:value "投与群" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column2 .
+pi:PI_17_1.item1.table1.row1.column2 rdf:value "UC-DAIスコア の変化量" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column3 .
+pi:PI_17_1.item1.table1.row1.column3 rdf:value "UC-DAIスコア の変化量" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column4 .
+pi:PI_17_1.item1.table1.row1.column4 rdf:value "寛解率" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column5 .
+pi:PI_17_1.item1.table1.row1.column5 rdf:value "寛解率" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row2 .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column1 .
+pi:PI_17_1.item1.table1.row2.column1 rdf:value "投与群" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column2 .
+pi:PI_17_1.item1.table1.row2.column2 rdf:value "平均値 ［95%信頼区間］" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column3 .
+pi:PI_17_1.item1.table1.row2.column3 rdf:value "［95%信頼区間］" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column4 .
+pi:PI_17_1.item1.table1.row2.column4 rdf:value "寛解率（%） ［95%信頼区間］" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column5 .
+pi:PI_17_1.item1.table1.row2.column5 rdf:value "メサラジン群 との差 ［95%信頼区間］" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row3 .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column1 .
+pi:PI_17_1.item1.table1.row3.column1 rdf:value "本剤 （1日1回製剤） 4,800mg/日" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column2 .
+pi:PI_17_1.item1.table1.row3.column2 rdf:value "［-3.0－-2.1］ （134例）" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column3 .
+pi:PI_17_1.item1.table1.row3.column3 rdf:value "-0.7 ［-1.3－-0.1］" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column4 .
+pi:PI_17_1.item1.table1.row3.column4 rdf:value "43.4 ［34.9－52.1］ （59/136例）" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column5 .
+pi:PI_17_1.item1.table1.row3.column5 rdf:value "12.8 ［1.4－24.3］" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row4 .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column1 .
+pi:PI_17_1.item1.table1.row4.column1 rdf:value "メサラジン （1日3回製剤） 3,600mg/日" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column2 .
+pi:PI_17_1.item1.table1.row4.column2 rdf:value "-1.8 ［-2.3－-1.4］ （129例）" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column3 .
+pi:PI_17_1.item1.table1.row4.column3 rdf:value "－" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column4 .
+pi:PI_17_1.item1.table1.row4.column4 rdf:value "30.5 ［22.8－39.2］ （40/131例）" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column5 .
+pi:PI_17_1.item1.table1.row4.column5 rdf:value "－" .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:title "国内第Ⅲ相臨床試験（寛解期の潰瘍性大腸炎患者）"@ja .
+pi:PI_17_1.item2 dct:description "寛解期の潰瘍性大腸炎患者を対象として、本剤1日1回2錠（メサラジンとして2,400mg）、時間依存型メサラジン放出調節製剤1日3回9錠（メサラジンとして2,250mg）を投与した二重盲検群間比較試験（投与期間48週間）において、本剤の寛解期の潰瘍性大腸炎に対する有用性が認められた。 副作用発現頻度は、本剤投与群で17.0%（17/100例）であった。主な副作用は、潰瘍性大腸炎4.0%（4/100例）、尿中NAG増加及び腹部膨満各2.0%（2/100例）であった 。"@ja .
+pi:PI_17_1.item2 dct:description ""@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item2.table1 .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row1 .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column1 .
+pi:PI_17_1.item2.table1.row1.column1 rdf:value "投与群" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column2 .
+pi:PI_17_1.item2.table1.row1.column2 rdf:value "血便の非発現率" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column3 .
+pi:PI_17_1.item2.table1.row1.column3 rdf:value "血便の非発現率" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column4 .
+pi:PI_17_1.item2.table1.row1.column4 rdf:value "再燃率" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column5 .
+pi:PI_17_1.item2.table1.row1.column5 rdf:value "再燃率" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row2 .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column1 .
+pi:PI_17_1.item2.table1.row2.column1 rdf:value "投与群" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column2 .
+pi:PI_17_1.item2.table1.row2.column2 rdf:value "非発現率（%） ［95%信頼区間］" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column3 .
+pi:PI_17_1.item2.table1.row2.column3 rdf:value "メサラジン群 との差 ［95%信頼区間］" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column4 .
+pi:PI_17_1.item2.table1.row2.column4 rdf:value "再燃率（%） ［95%信頼区間］" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column5 .
+pi:PI_17_1.item2.table1.row2.column5 rdf:value "メサラジン群 との差 ［95%信頼区間］" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row3 .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column1 .
+pi:PI_17_1.item2.table1.row3.column1 rdf:value "本剤 （1日1回製剤） 2,400mg/日" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column2 .
+pi:PI_17_1.item2.table1.row3.column2 rdf:value "84.8 ［76.2－91.3］ （84/99例）" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column3 .
+pi:PI_17_1.item2.table1.row3.column3 rdf:value "6.8 ［-3.9－17.6］" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column4 .
+pi:PI_17_1.item2.table1.row3.column4 rdf:value "13.1 ［7.2－21.4］ （13/99例）" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column5 .
+pi:PI_17_1.item2.table1.row3.column5 rdf:value "-4.9 ［-14.9－5.2］" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row4 .
+pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column1 .
+pi:PI_17_1.item2.table1.row4.column1 rdf:value "メサラジン （1日3回製剤） 2,250mg/日" .
+pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column2 .
+pi:PI_17_1.item2.table1.row4.column2 rdf:value "78.0 ［68.6－85.7］ （78/100例）" .
+pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column3 .
+pi:PI_17_1.item2.table1.row4.column3 rdf:value "－" .
+pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column4 .
+pi:PI_17_1.item2.table1.row4.column4 rdf:value "18.0 ［11.0－26.9］ （18/100例）" .
+pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column5 .
+pi:PI_17_1.item2.table1.row4.column5 rdf:value "－" .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "メサラジンは、活性酸素種産生の抑制 、活性酸素種による組織/細胞傷害の抑制 、ペルオキシソーム増殖因子活性化受容体γ（PPAR-γ）活性化 、核内因子κB（NF-κB）活性化の抑制 、アラキドン酸代謝物産生の抑制 及びホスホリパーゼD活性化 を示し、これらの作用機序により有効性を示すと考えられている。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "潰瘍性大腸炎モデルに対する有効性"@ja .
+pi:PI_18.item1 dct:description "メサラジンは、カラゲニン誘発潰瘍性大腸炎モデル（モルモット） 、酢酸誘発潰瘍性大腸炎モデル（ラット） 及び2,4,6-トリニトロベンゼンスルホン酸誘発潰瘍性大腸炎モデル（ラット） において潰瘍発生率あるいは損傷スコアを低下させる。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "メサラジン（Mesalazine）" .
+pi:PI_19 pio:chemical_name "5-Amino-2-hydroxybenzoic acid" .
+pi:PI_19 pio:molecular_formula "C H NO" .
+pi:PI_19 pio:molecular_weight "153.14" .
+pi:PI_19 pio:description_of_active_ingredients "白色、淡灰色又は帯赤白色の結晶又は結晶性の粉末である。水に極めて溶けにくく、エタノール（99.5）にほとんど溶けない。希塩酸に溶ける。" .
+pi:PI_21 dct:description "医薬品リスク管理計画を策定の上、適切に実施すること。"@ja .
+pi:PI_22 dct:description "PTP：56錠（8錠×7）、224錠（8錠×28）"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "Jenss, H. et al.：Am. J. Gastroenterol. 1990；85（3）：331" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "Christensen, L. A. et al.：Acta Obstet. Gynecol. Scand. 1994；73（5）：399-402" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "Klotz, U. et al.：Lancet. 1993；342（8871）：618-619" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "Nelis, G. F.：Lancet. 1989；1（8634）：383" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "Ito, S. et al.：Am. J. Obstet. Gynecol. 1993；168（5）：1393-1399" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "持田製薬社内資料：国内第Ⅰ相試験－健康成人における単回及び反復投与試験－（2016年9月28日承認、CTD 2.7.6.5）" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "Klotz, U. et al.：Arzneimittelforschung. 1985；35（3）：636-639" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "Rasmussen, S. N. et al.：Gastroenterology. 1982；83（5）：1062-1070" .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "Haagen Nielsen, O. et al.：Br. J. Clin. Pharmacol. 1983；16（6）：738-740" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "De Vos, M.：Clin. Pharmacokinet. 2000；39（2）：85-97" .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "Ricart, E. et al.：Am. J. Gastroenterol. 2002；97（7）：1763-1768" .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "Cantilena, L. R. et al.：J. Clin. Pharmacol. 2004；44（12）：1405-1411" .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "Pierce, D. et al.：Drug Des. Devel. Ther. 2014；8：529-543" .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "持田製薬社内資料：国内第Ⅲ相試験－メサラジンを対照とした軽症～中等症の活動期の潰瘍性大腸炎における有効性及び安全性の検討－（2016年9月28日承認、CTD 2.7.6.18）" .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "持田製薬社内資料：国内第Ⅲ相試験－メサラジンを対照とした寛解期の潰瘍性大腸炎における有効性及び安全性の検討－（2016年9月28日承認、CTD 2.7.6.17）" .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "Simmonds, N. J. et al.：Aliment. Pharmacol. Ther. 1999；13（3）：363-372" .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "Valentine, J. F.：Am. J. Physiol. Gastrointest. Liver Physiol. 2001；281（4）：G1044-G1050" .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "Kennedy, M. et al.：Int. J. Mol. Med. 1999；4（4）：437-443" .
+pi:PI_23.item18 pio:id "DOC_18" .
+pi:PI_23 dct:references pi:PI_23.item19 .
+pi:PI_23.item19 a bibo:Document .
+pi:PI_23.item19 rdfs:label "Cavicchi, M. et al.：Gastroenterology. 2000；118（4）：A804" .
+pi:PI_23.item19 pio:id "DOC_19" .
+pi:PI_23 dct:references pi:PI_23.item20 .
+pi:PI_23.item20 a bibo:Document .
+pi:PI_23.item20 rdfs:label "Horváth, K. et al.：Eur. J. Pharmacol. 2008；581（3）：315-323" .
+pi:PI_23.item20 pio:id "DOC_20" .
+pi:PI_23 dct:references pi:PI_23.item21 .
+pi:PI_23.item21 a bibo:Document .
+pi:PI_23.item21 rdfs:label "Sandoval, M. et al.：Gastroenterology. 1997；113（5）：1480-1488" .
+pi:PI_23.item21 pio:id "DOC_21" .
+pi:PI_23 dct:references pi:PI_23.item22 .
+pi:PI_23.item22 a bibo:Document .
+pi:PI_23.item22 rdfs:label "McKenzie, S. M. et al.：Gut. 1999；44（2）：180-185" .
+pi:PI_23.item22 pio:id "DOC_22" .
+pi:PI_23 dct:references pi:PI_23.item23 .
+pi:PI_23.item23 a bibo:Document .
+pi:PI_23.item23 rdfs:label "Lutz, J. et al.：Adv. Exp. Med. Biol. 1994；361：327-332" .
+pi:PI_23.item23 pio:id "DOC_23" .
+pi:PI_23 dct:references pi:PI_23.item24 .
+pi:PI_23.item24 a bibo:Document .
+pi:PI_23.item24 rdfs:label "Rousseaux, C. et al.：J. Exp. Med. 2005；201（8）：1205-1215" .
+pi:PI_23.item24 pio:id "DOC_24" .
+pi:PI_23 dct:references pi:PI_23.item25 .
+pi:PI_23.item25 a bibo:Document .
+pi:PI_23.item25 rdfs:label "Kaiser, G. C. et al.：Gastroenterology. 1999；116（3）：602-609" .
+pi:PI_23.item25 pio:id "DOC_25" .
+pi:PI_23 dct:references pi:PI_23.item26 .
+pi:PI_23.item26 a bibo:Document .
+pi:PI_23.item26 rdfs:label "Yan, F. et al.：J. Biol. Chem. 1999；274（51）：36631-36636" .
+pi:PI_23.item26 pio:id "DOC_26" .
+pi:PI_23 dct:references pi:PI_23.item27 .
+pi:PI_23.item27 a bibo:Document .
+pi:PI_23.item27 rdfs:label "Bantel, H. et al.：Am. J. Gastroenterol. 2000；95（12）：3452-3457" .
+pi:PI_23.item27 pio:id "DOC_27" .
+pi:PI_23 dct:references pi:PI_23.item28 .
+pi:PI_23.item28 a bibo:Document .
+pi:PI_23.item28 rdfs:label "Schmidt, C. et al.：Curr. Med. Res. Opin. 1996；13（7）：417-425" .
+pi:PI_23.item28 pio:id "DOC_28" .
+pi:PI_23 dct:references pi:PI_23.item29 .
+pi:PI_23.item29 a bibo:Document .
+pi:PI_23.item29 rdfs:label "Zijlstra, F. J. et al.：Agents Actions. 1993；38 Spec No：C122-C124" .
+pi:PI_23.item29 pio:id "DOC_29" .
+pi:PI_23 dct:references pi:PI_23.item30 .
+pi:PI_23.item30 a bibo:Document .
+pi:PI_23.item30 rdfs:label "Gómez-Muñoz, A. et al.：Biochim. Biophys. Acta. 2001；1533（2）：110-118" .
+pi:PI_23.item30 pio:id "DOC_30" .
+pi:PI_23 dct:references pi:PI_23.item31 .
+pi:PI_23.item31 a bibo:Document .
+pi:PI_23.item31 rdfs:label "Goto, M. et al.：J. Pharm. Pharmacol. 2001；53（12）：1711-1720" .
+pi:PI_23.item31 pio:id "DOC_31" .
+pi:PI_23 dct:references pi:PI_23.item32 .
+pi:PI_23.item32 a bibo:Document .
+pi:PI_23.item32 rdfs:label "Rodrigues, L. V. et al.：Phytother. Res. 2002；16（3）：267-272" .
+pi:PI_23.item32 pio:id "DOC_32" .
+pi:PI_23 dct:references pi:PI_23.item33 .
+pi:PI_23.item33 a bibo:Document .
+pi:PI_23.item33 rdfs:label "Tozaki, H. et al.：J. Pharm. Pharmacol. 1999；51（10）：1107-1112" .
+pi:PI_23.item33 pio:id "DOC_33" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "持田製薬株式会社　くすり相談窓口"@ja .
+pi:PI_24.item1 pio:address "東京都新宿区四谷1丁目7番地　〒160-8515"@ja .
+pi:PI_24.item1 pio:contact_information "TEL 03-5229-3906　 0120-189-522 FAX 03-5229-3955"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "持田製薬株式会社"@ja .
+pi:PI_26.item1 pio:address "東京都新宿区四谷1丁目7番地"@ja .
+pi:PI_26 pio:section pi:PI_26.item2 .
+pi:PI_26.item2 pio:type_of_industry "提携先"@ja .
+pi:PI_26.item2 pio:name "Nogra Pharma Ltd."@ja .
