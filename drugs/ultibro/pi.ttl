@@ -1,0 +1,879 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/300242_2259805G1027_1_12#> .
+
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_0 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_1 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_2 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_3 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_3_1 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_3_2 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_4 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_5 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_6 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_7 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_8 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_9 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_9_1 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_9_2 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_9_3 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_9_4 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_9_5 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_9_6 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_9_7 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_9_8 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_10 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_10_1 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_10_2 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_11 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_11_1 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_11_2 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_12 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_13 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_14 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_15 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_15_1 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_15_2 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_16 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_16_1 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_16_2 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_16_3 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_16_4 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_16_5 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_16_6 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_16_7 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_16_8 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_17 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_17_1 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_17_2 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_17_3 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_18 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_18_1 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_19 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_20 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_21 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_22 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_23 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_24 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_25 .
+pi_root:300242_2259805G1027_1_12 pio:section pi:PI_26 .
+pi_root:300242_2259805G1027_1_12 dct:identifier "300242_2259805G1027_1_12" .
+pi_root:300242_2259805G1027_1_12 pio:company_identifier "300242" .
+pi_root:300242_2259805G1027_1_12 pio:date_of_preparation_or_revision "2021-03"^^xsd:date .
+pi_root:300242_2259805G1027_1_12 pio:version "第3版" .
+pi_root:300242_2259805G1027_1_12 pio:sccj_no "872259" .
+pi_root:300242_2259805G1027_1_12 pio:therapeutic_classification "長時間作用性吸入気管支拡張配合剤" .
+pi_root:300242_2259805G1027_1_12 pio:approval_brand_name "ウルティブロ吸入用カプセル" .
+pi_root:300242_2259805G1027_1_12 pio:yj_code "2259805G1027" .
+pi_root:300242_2259805G1027_1_12 pio:trademark_name "Ultibro inhalation capsules" .
+pi_root:300242_2259805G1027_1_12 pio:name_in_hiragana "うるてぃぶろきゅうにゅうようかぷせる" .
+pi_root:300242_2259805G1027_1_12 pio:approval_no "22500AMX01815000" .
+pi_root:300242_2259805G1027_1_12 pio:starting_date_of_marketing "2013-11"^^xsd:date .
+pi_root:300242_2259805G1027_1_12 pio:storage_method "室温保存" .
+pi_root:300242_2259805G1027_1_12 pio:shelf_life "24ヵ月" .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "閉塞隅角緑内障の患者［抗コリン作用により、眼圧が上昇し症状を悪化させるおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "前立腺肥大等による排尿障害がある患者［抗コリン作用により、尿閉を誘発するおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "1カプセル中グリコピロニウム臭化物"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "63μg"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "グリコピロニウムとして"@ja .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "50μg"@ja .
+pi:PI_3_1.item1 pio:additives "乳糖水和物、ステアリン酸マグネシウム"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:weight "約0.074g" .
+pi:PI_3_2.item1 pio:id_code "                  IGP110.50" .
+pi:PI_3_2.item1 pio:other_shape pi:PI_3_2.item1.other_shape .
+pi:PI_3_2.item1.other_shape pio:shape_detail "fig02.gif" .
+pi:PI_3_2.item1 pio:size_long_diameter "約15.8mm" .
+pi:PI_3_2.item1 pio:size_short_diameter "約5.6mm" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 dct:description "慢性閉塞性肺疾患（慢性気管支炎、肺気腫）の気道閉塞性障害に基づく諸症状の緩解（長時間作用性吸入抗コリン剤及び長時間作用性吸入β 刺激剤の併用が必要な場合）"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 pio:section pi:PI_5.item1 .
+pi:PI_5.item1 dct:description "本剤は慢性閉塞性肺疾患の症状の長期管理に用いること。本剤は慢性閉塞性肺疾患の増悪時における急性期治療を目的として使用する薬剤ではない。"@ja .
+pi:PI_5 pio:section pi:PI_5.item2 .
+pi:PI_5.item2 dct:description "本剤は気管支喘息治療を目的とした薬剤ではないため、気管支喘息治療の目的には使用しないこと。"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "通常、成人には1回1カプセル（グリコピロニウムとして50μg及びインダカテロールとして110μg）を1日1回本剤専用の吸入用器具を用いて吸入する。"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 pio:section pi:PI_7.item1 .
+pi:PI_7.item1 dct:description "本剤は吸入用カプセルであり、必ず本剤専用の吸入用器具（ブリーズヘラー ）を用いて吸入し、内服しないこと。"@ja .
+pi:PI_7 pio:section pi:PI_7.item2 .
+pi:PI_7.item2 dct:description "本剤は1日1回、一定の時間帯に吸入すること。吸入できなかった場合は、可能な限り速やかに1回分を吸入すること。ただし1日1回を超えて吸入しないこと。"@ja .
+pi:PI_7 pio:section pi:PI_7.item3 .
+pi:PI_7.item3 dct:description "本剤を他の長時間作用性抗コリン剤、長時間作用性β 刺激剤又はこれらを含む配合剤と同時に使用しないこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "用法・用量どおり正しく使用しても効果が認められない場合には、本剤が適当ではないと考えられるので、漫然と投与を継続せず中止すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "吸入薬の場合、薬剤の吸入により気管支痙攣が誘発され生命を脅かすおそれがある。気管支痙攣が認められた場合は、直ちに投与を中止し、適切な処置を行うこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "本剤の投与時に、本剤が目に入らないように患者に注意を与えること。また、結膜の充血及び角膜浮腫に伴う赤色眼とともに眼痛、眼の不快感、霧視、視覚暈輪あるいは虹輪が発現した場合、急性閉塞隅角緑内障の徴候の可能性がある。これらの症状が発現した場合には、可及的速やかに医療機関を受診するように患者に注意を与えること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 dct:description "本剤の交感神経刺激作用により脈拍増加、血圧上昇等の心血管系症状があらわれるおそれがあるので、異常が認められた場合には、投与を中止するなど適切な処置を行うこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item5 .
+pi:PI_8.item5 dct:description "過度に使用を続けた場合、不整脈、場合により心停止を起こすおそれがあるので、使用が過度にならないよう注意すること。また、患者に対し、本剤の過度の使用による危険性を理解させ、1日1回を超えて使用しないよう注意を与えること。本剤の気管支拡張作用は通常24時間持続するので、その間は次の投与を行わないこと。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "甲状腺機能亢進症の患者"@ja .
+pi:PI_9_1.item1 dct:description "甲状腺機能亢進症の症状を悪化させるおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item2 .
+pi:PI_9_1.item2 rdfs:title "心血管障害（冠動脈疾患、急性心筋梗塞、不整脈、高血圧、QT間隔延長等）のある患者"@ja .
+pi:PI_9_1.item2 dct:description "交感神経刺激作用等により症状を悪化させるおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item3 .
+pi:PI_9_1.item3 rdfs:title "心不全、心房細動、期外収縮の患者又はこれらの既往歴のある患者"@ja .
+pi:PI_9_1.item3 dct:description "心不全、心房細動、期外収縮が発現又は悪化するおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item4 .
+pi:PI_9_1.item4 rdfs:title "糖尿病の患者"@ja .
+pi:PI_9_1.item4 dct:description "血糖値をモニタリングするなど慎重に投与すること。高用量のβ 刺激剤を投与すると、血糖値が上昇するおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item5 .
+pi:PI_9_1.item5 rdfs:title "てんかん等の痙攣性疾患のある患者"@ja .
+pi:PI_9_1.item5 dct:description "痙攣の症状を悪化させるおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item6 .
+pi:PI_9_1.item6 rdfs:title "前立腺肥大（排尿障害がある場合を除く）のある患者"@ja .
+pi:PI_9_1.item6 dct:description "排尿障害が発現するおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item7 .
+pi:PI_9_1.item7 rdfs:title "気管支喘息を合併した患者"@ja .
+pi:PI_9_1.item7 dct:description "気管支喘息の管理が十分行われるよう注意すること。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item8 .
+pi:PI_9_1.item8 rdfs:title "低酸素血症の患者"@ja .
+pi:PI_9_1.item8 dct:description "血清カリウム値をモニターすることが望ましい。低酸素血症により血清カリウム値の低下の心リズムに及ぼす影響が増強されることがある。"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item1 .
+pi:PI_9_2.item1 rdfs:title "重度の腎機能障害のある患者（eGFRが30mL/min/1.73m 未満の患者）又は透析を必要とする末期腎不全の患者"@ja .
+pi:PI_9_2.item1 dct:description "治療上の有益性と危険性を勘案して慎重に投与し、副作用の発現に注意すること。グリコピロニウムの血中濃度が上昇し、副作用が増強されるおそれがある。"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。インダカテロールの動物実験（ウサギ）で骨格変異の発生率増加を伴う生殖発生毒性が報告されている。また、グリコピロニウム及びインダカテロールの動物実験で胎盤通過性が報告されている（グリコピロニウム：マウス、ウサギ、イヌ、インダカテロール：ラット）。"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。グリコピロニウム及びインダカテロールの動物実験（ラット）で乳汁中に移行することが報告されている。"@ja .
+pi:PI_9_7 dct:description "小児等を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_8 dct:description "本剤の臨床試験において、尿路感染の発現率はプラセボ群に比べて本剤投与群で高く、高齢になるとともに発現率が高くなる傾向が認められた。それぞれの発現率は、65歳未満ではプラセボ群0%、本剤群1.1%、65歳以上75歳未満ではプラセボ群0.7%、本剤群2.1%、75歳以上ではプラセボ群2.8%、本剤群3.5%であった。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2 pio:drug pi:PI_10_2.item1 .
+pi:PI_10_2.item1 a pio:PrecautionsForCombi .
+pi:PI_10_2.item1 pio:drug_name "CYP3A4を阻害する薬剤"@ja .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "インダカテロールの血中濃度が上昇するおそれがある。エリスロマイシンとの併用投与によりインダカテロールのCmax及びAUCがそれぞれ1.2倍及び1.4～1.6倍に上昇したとの報告がある。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "CYP3A4の活性を阻害することにより、インダカテロールの代謝が阻害され、血中濃度が上昇すると考えられる。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item2 .
+pi:PI_10_2.item2 a pio:PrecautionsForCombi .
+pi:PI_10_2.item2 pio:drug_name "P糖蛋白を阻害する薬剤"@ja .
+pi:PI_10_2.item2 pio:clin_symptoms_and_measures "インダカテロールの血中濃度が上昇するおそれがある。ベラパミルとの併用投与によりインダカテロールのCmax及びAUCがそれぞれ1.5倍及び1.4～2.0倍に上昇したとの報告がある。"@ja .
+pi:PI_10_2.item2 pio:mechanism_and_risk_factors "P糖蛋白の活性を阻害することにより、インダカテロールの排泄が阻害され、血中濃度が上昇すると考えられる。"@ja .
+pi:PI_10_2.item3 pio:clin_symptoms_and_measures "インダカテロールのAUCが上昇するおそれがある。リトナビルとの併用投与によりインダカテロールのAUCが1.6～1.8倍に上昇したとの報告がある。"@ja .
+pi:PI_10_2.item3 pio:mechanism_and_risk_factors "CYP3A4及びP糖蛋白の活性を阻害することにより、インダカテロールの代謝及び排泄が阻害されると考えられる。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item4 .
+pi:PI_10_2.item4 a pio:PrecautionsForCombi .
+pi:PI_10_2.item4 pio:drug_name "QT間隔延長を起こすことが知られている薬剤"@ja .
+pi:PI_10_2.item4 pio:clin_symptoms_and_measures "QT間隔が延長され心室性不整脈等のリスクが増大するおそれがある。"@ja .
+pi:PI_10_2.item4 pio:mechanism_and_risk_factors "いずれもQT間隔を延長させる可能性がある。"@ja .
+pi:PI_10_2.item5 pio:clin_symptoms_and_measures "インダカテロールの作用が増強するおそれがある。"@ja .
+pi:PI_10_2.item5 pio:mechanism_and_risk_factors "交感神経刺激剤との併用により、アドレナリン作動性神経刺激が増大する可能性がある。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item6 .
+pi:PI_10_2.item6 a pio:PrecautionsForCombi .
+pi:PI_10_2.item6 pio:drug_name "キサンチン誘導体"@ja .
+pi:PI_10_2.item6 pio:drug_name "ステロイド剤"@ja .
+pi:PI_10_2.item6 pio:drug_name "利尿剤"@ja .
+pi:PI_10_2.item6 pio:drug_name "                                           "@ja .
+pi:PI_10_2.item6 pio:clin_symptoms_and_measures "低カリウム血症による心血管事象（不整脈）を起こすおそれがあるため、血清カリウム値に注意すること。"@ja .
+pi:PI_10_2.item6 pio:mechanism_and_risk_factors "キサンチン誘導体はアドレナリン作動性神経刺激を増大させるため、血清カリウム値の低下が増強する可能性がある。 ステロイド剤及びこれらの利尿剤は尿細管でのカリウム排泄促進作用があるため、血清カリウム値の低下が増強する可能性がある。"@ja .
+pi:PI_10_2.item7 pio:clin_symptoms_and_measures "インダカテロールの作用が減弱するおそれがある。やむを得ず併用する場合には、心選択性β遮断剤が望ましいが、注意すること。"@ja .
+pi:PI_10_2.item7 pio:mechanism_and_risk_factors "β遮断剤との併用により、インダカテロールの作用が拮抗される可能性がある。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "重篤な血清カリウム値の低下（頻度不明）"@ja .
+pi:PI_11_1.item1 dct:description "                 ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "心房細動（頻度不明）"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "上気道感染" .
+pi:PI_11_2.item1.item1 pio:category "感染症" .
+pi:PI_11_2.item1.item1 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "尿路感染" .
+pi:PI_11_2.item1.item2 pio:category "感染症" .
+pi:PI_11_2.item1.item2 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "鼻咽頭炎、鼻炎、副鼻腔炎" .
+pi:PI_11_2.item1.item3 pio:category "感染症" .
+pi:PI_11_2.item1.item3 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item4 pio:category "代謝及び栄養障害" .
+pi:PI_11_2.item1.item4 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item5 pio:category "代謝及び栄養障害" .
+pi:PI_11_2.item1.item5 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "高血糖、糖尿病" .
+pi:PI_11_2.item1.item6 pio:category "代謝及び栄養障害" .
+pi:PI_11_2.item1.item6 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item7 pio:category "精神障害" .
+pi:PI_11_2.item1.item7 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item8 pio:category "精神障害" .
+pi:PI_11_2.item1.item8 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "不眠症" .
+pi:PI_11_2.item1.item9 pio:category "精神障害" .
+pi:PI_11_2.item1.item9 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "頭痛" .
+pi:PI_11_2.item1.item10 pio:category "神経系障害" .
+pi:PI_11_2.item1.item10 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item11 .
+pi:PI_11_2.item1.item11 a pio:AdverseEvent .
+pi:PI_11_2.item1.item11 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item11 pio:category "神経系障害" .
+pi:PI_11_2.item1.item11 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item12 .
+pi:PI_11_2.item1.item12 a pio:AdverseEvent .
+pi:PI_11_2.item1.item12 pio:adverse_reaction "感覚鈍麻、錯感覚、めまい" .
+pi:PI_11_2.item1.item12 pio:category "神経系障害" .
+pi:PI_11_2.item1.item12 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item13 .
+pi:PI_11_2.item1.item13 a pio:AdverseEvent .
+pi:PI_11_2.item1.item13 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item13 pio:category "眼障害" .
+pi:PI_11_2.item1.item13 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item14 .
+pi:PI_11_2.item1.item14 a pio:AdverseEvent .
+pi:PI_11_2.item1.item14 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item14 pio:category "眼障害" .
+pi:PI_11_2.item1.item14 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item15 .
+pi:PI_11_2.item1.item15 a pio:AdverseEvent .
+pi:PI_11_2.item1.item15 pio:adverse_reaction "緑内障" .
+pi:PI_11_2.item1.item15 pio:category "眼障害" .
+pi:PI_11_2.item1.item15 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item16 .
+pi:PI_11_2.item1.item16 a pio:AdverseEvent .
+pi:PI_11_2.item1.item16 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item16 pio:category "心臓障害" .
+pi:PI_11_2.item1.item16 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item17 .
+pi:PI_11_2.item1.item17 a pio:AdverseEvent .
+pi:PI_11_2.item1.item17 pio:adverse_reaction "動悸、虚血性心疾患" .
+pi:PI_11_2.item1.item17 pio:category "心臓障害" .
+pi:PI_11_2.item1.item17 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item18 .
+pi:PI_11_2.item1.item18 a pio:AdverseEvent .
+pi:PI_11_2.item1.item18 pio:adverse_reaction "頻脈" .
+pi:PI_11_2.item1.item18 pio:category "心臓障害" .
+pi:PI_11_2.item1.item18 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item19 .
+pi:PI_11_2.item1.item19 a pio:AdverseEvent .
+pi:PI_11_2.item1.item19 pio:adverse_reaction "発声障害" .
+pi:PI_11_2.item1.item19 pio:category "呼吸器障害" .
+pi:PI_11_2.item1.item19 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item20 .
+pi:PI_11_2.item1.item20 a pio:AdverseEvent .
+pi:PI_11_2.item1.item20 pio:adverse_reaction "咳嗽・湿性咳嗽、口腔咽頭痛・咽喉刺激感" .
+pi:PI_11_2.item1.item20 pio:category "呼吸器障害" .
+pi:PI_11_2.item1.item20 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item21 .
+pi:PI_11_2.item1.item21 a pio:AdverseEvent .
+pi:PI_11_2.item1.item21 pio:adverse_reaction "鼻出血、鼻漏、副鼻腔うっ血、気管支痙攣" .
+pi:PI_11_2.item1.item21 pio:category "呼吸器障害" .
+pi:PI_11_2.item1.item21 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item22 .
+pi:PI_11_2.item1.item22 a pio:AdverseEvent .
+pi:PI_11_2.item1.item22 pio:adverse_reaction "口内乾燥" .
+pi:PI_11_2.item1.item22 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item22 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item23 .
+pi:PI_11_2.item1.item23 a pio:AdverseEvent .
+pi:PI_11_2.item1.item23 pio:adverse_reaction "胃腸炎" .
+pi:PI_11_2.item1.item23 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item23 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item24 .
+pi:PI_11_2.item1.item24 a pio:AdverseEvent .
+pi:PI_11_2.item1.item24 pio:adverse_reaction "消化不良、嘔吐、齲歯" .
+pi:PI_11_2.item1.item24 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item24 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item25 .
+pi:PI_11_2.item1.item25 a pio:AdverseEvent .
+pi:PI_11_2.item1.item25 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item25 pio:category "過敏症" .
+pi:PI_11_2.item1.item25 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item26 .
+pi:PI_11_2.item1.item26 a pio:AdverseEvent .
+pi:PI_11_2.item1.item26 pio:adverse_reaction "発疹" .
+pi:PI_11_2.item1.item26 pio:category "過敏症" .
+pi:PI_11_2.item1.item26 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item27 .
+pi:PI_11_2.item1.item27 a pio:AdverseEvent .
+pi:PI_11_2.item1.item27 pio:adverse_reaction "血管浮腫、蕁麻疹、そう痒症" .
+pi:PI_11_2.item1.item27 pio:category "過敏症" .
+pi:PI_11_2.item1.item27 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item28 .
+pi:PI_11_2.item1.item28 a pio:AdverseEvent .
+pi:PI_11_2.item1.item28 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item28 pio:category "筋骨格系障害" .
+pi:PI_11_2.item1.item28 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item29 .
+pi:PI_11_2.item1.item29 a pio:AdverseEvent .
+pi:PI_11_2.item1.item29 pio:adverse_reaction "筋痙縮" .
+pi:PI_11_2.item1.item29 pio:category "筋骨格系障害" .
+pi:PI_11_2.item1.item29 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item30 .
+pi:PI_11_2.item1.item30 a pio:AdverseEvent .
+pi:PI_11_2.item1.item30 pio:adverse_reaction "筋肉痛、筋骨格痛、四肢痛、頚部痛" .
+pi:PI_11_2.item1.item30 pio:category "筋骨格系障害" .
+pi:PI_11_2.item1.item30 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item31 .
+pi:PI_11_2.item1.item31 a pio:AdverseEvent .
+pi:PI_11_2.item1.item31 pio:adverse_reaction "―" .
+pi:PI_11_2.item1.item31 pio:category "腎及び尿路障害" .
+pi:PI_11_2.item1.item31 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item32 .
+pi:PI_11_2.item1.item32 a pio:AdverseEvent .
+pi:PI_11_2.item1.item32 pio:adverse_reaction "尿閉" .
+pi:PI_11_2.item1.item32 pio:category "腎及び尿路障害" .
+pi:PI_11_2.item1.item32 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item33 .
+pi:PI_11_2.item1.item33 a pio:AdverseEvent .
+pi:PI_11_2.item1.item33 pio:adverse_reaction "膀胱閉塞" .
+pi:PI_11_2.item1.item33 pio:category "腎及び尿路障害" .
+pi:PI_11_2.item1.item33 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item34 .
+pi:PI_11_2.item1.item34 a pio:AdverseEvent .
+pi:PI_11_2.item1.item34 pio:adverse_reaction "発熱" .
+pi:PI_11_2.item1.item34 pio:category "全身障害" .
+pi:PI_11_2.item1.item34 pio:frequency "1%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item35 .
+pi:PI_11_2.item1.item35 a pio:AdverseEvent .
+pi:PI_11_2.item1.item35 pio:adverse_reaction "末梢性浮腫" .
+pi:PI_11_2.item1.item35 pio:category "全身障害" .
+pi:PI_11_2.item1.item35 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item36 .
+pi:PI_11_2.item1.item36 a pio:AdverseEvent .
+pi:PI_11_2.item1.item36 pio:adverse_reaction "疲労、無力症、胸部不快感、胸痛" .
+pi:PI_11_2.item1.item36 pio:category "全身障害" .
+pi:PI_11_2.item1.item36 pio:frequency "頻度不明" .
+pi:PI_13 pio:section pi:PI_13.item1 .
+pi:PI_13.item1 rdfs:title "症状"@ja .
+pi:PI_13.item1 dct:description "抗コリン作用性の徴候及び症状（口内乾燥、動悸、排尿困難等）及びβ 刺激剤の薬理学的作用による症状（頻脈、振戦、動悸、頭痛、悪心、嘔吐、傾眠、心室性不整脈、代謝性アシドーシス、低カリウム血症及び高血糖等）があらわれるおそれがある。"@ja .
+pi:PI_13 pio:section pi:PI_13.item2 .
+pi:PI_13.item2 rdfs:title "処置"@ja .
+pi:PI_13.item2 dct:description "β刺激作用による心血管症状に対する治療剤として心選択性β遮断剤があるが、気管支痙攣を誘発する可能性があるため、使用にあたっては十分に注意すること。"@ja .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤交付時の注意"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item1 .
+pi:PI_14.item1.item1 rdfs:label "吸入前"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item2 .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item3 .
+pi:PI_14.item1.item3 rdfs:label "吸入時"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item4 .
+pi:PI_14.item1.item4 dct:desctiption "本剤は吸入用カプセルであり、必ず専用の吸入用器具（ブリーズヘラー ）を用いて吸入し、内服しないこと。"@ja .
+pi:PI_15_1 dct:description "本剤と短時間作用性抗コリン剤（イプラトロピウム、オキシトロピウム等）との併用に関する臨床試験成績はなく、有効性及び安全性は確立していないことから、併用は推奨されない。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:title "単回投与"@ja .
+pi:PI_16_1.item1 dct:description "日本人健康成人に本剤50/110μgを単回吸入投与したとき、グリコピロニウム及びインダカテロールの血漿中濃度はそれぞれ5分及び15分で最高値に達した  。"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.table1 .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row1 .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column1 .
+pi:PI_16_1.item1.table1.row1.column1 rdf:value "" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column2 .
+pi:PI_16_1.item1.table1.row1.column2 rdf:value "N" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column3 .
+pi:PI_16_1.item1.table1.row1.column3 rdf:value "Tmax （h）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column4 .
+pi:PI_16_1.item1.table1.row1.column4 rdf:value "Cmax （pg/mL）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column5 .
+pi:PI_16_1.item1.table1.row1.column5 rdf:value "AUC （pg・h/mL）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row2 .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column1 .
+pi:PI_16_1.item1.table1.row2.column1 rdf:value "グリコピロニウム" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column2 .
+pi:PI_16_1.item1.table1.row2.column2 rdf:value "8" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column3 .
+pi:PI_16_1.item1.table1.row2.column3 rdf:value "0.083 （0.083～0.083）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column4 .
+pi:PI_16_1.item1.table1.row2.column4 rdf:value "186±83.4" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column5 .
+pi:PI_16_1.item1.table1.row2.column5 rdf:value "200±65.6" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row3 .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column1 .
+pi:PI_16_1.item1.table1.row3.column1 rdf:value "インダカテロール" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column2 .
+pi:PI_16_1.item1.table1.row3.column2 rdf:value "8" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column3 .
+pi:PI_16_1.item1.table1.row3.column3 rdf:value "0.25 （0.25～0.25）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column4 .
+pi:PI_16_1.item1.table1.row3.column4 rdf:value "309±75.4" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column5 .
+pi:PI_16_1.item1.table1.row3.column5 rdf:value "703±177" .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 rdfs:title "反復投与"@ja .
+pi:PI_16_1.item2 dct:description "健康成人に本剤50/110μgを1日1回14日間反復吸入投与したとき、グリコピロニウムの暴露量は、グリコピロニウム50μg単剤投与時又はグリコピロニウム50μgとインダカテロール150μgの併用投与時と類似した。健康成人に本剤50/110μgを1日1回14日間反復吸入投与したとき、インダカテロールの暴露量は、インダカテロール150μg単剤投与時又はグリコピロニウム50μgとインダカテロール150μgの併用投与時と比較してわずかに低下した  （外国人のデータ）。"@ja .
+pi:PI_16_2 dct:description "健康成人に本剤を吸入投与したときのグリコピロニウム及びインダカテロールの絶対的バイオアベイラビリティは約40%及び47%～66%と推定された  （外国人のデータ）。 健康成人にグリコピロニウムを吸入投与したときの血漿中暴露量に対する肺吸収及び消化管吸収の寄与はそれぞれ約90%及び約10%であった  （外国人のデータ）。 健康成人にインダカテロールを経口投与したときの吸入投与時に対する相対的バイオアベイラビリティは46%であり、インダカテロールは消化管からも吸収されることが考えられた  （外国人のデータ）。"@ja .
+pi:PI_16_3 dct:description "グリコピロニウムのヒト血漿中蛋白結合率は1～10ng/mLの濃度範囲で38%～41%であった  。健康成人にグリコピロニウムを静脈内投与したときの定常状態時及び消失相での分布容積はそれぞれ83L及び376Lであった  （外国人のデータ）。 インダカテロールのヒト血清中蛋白結合率は94%～95%であった  。健康成人にインダカテロールを静脈内投与したときの分布容積は2,560Lであった  （外国人のデータ）。"@ja .
+pi:PI_16_4 dct:description "           試験において、グリコピロニウムの主な代謝物は、水酸化による一水酸化体、二水酸化体、並びに加水分解で生じたカルボン酸誘導体であった。酸化的代謝には複数のCYP分子種の関与が考えられた  。 グリコピロニウム吸入投与時のカルボン酸誘導体の血漿中暴露量は未変化体と同程度であった  。慢性閉塞性肺疾患患者にグリコピロニウムを吸入投与したとき、抱合代謝物は尿中に投与量の約3%排泄された  （外国人のデータ）。 健康成人男子に Cインダカテロール800μgを単回経口投与したとき、血清中には主として未変化体が存在し、総放射能の約1/3を占めた。主な代謝経路は、ベンジル炭素の一水酸化、グルクロン酸抱合、酸化的開裂及びN-脱アルキル化反応と推察された  。インダカテロールは主としてCYP3A4とUGT1A1で代謝され、Pgpの低親和性の基質であることが示唆された  （外国人のデータ）。"@ja .
+pi:PI_16_5 dct:description "日本人健康成人にグリコピロニウムを吸入投与したときの未変化体の尿中排泄量は、投与量の13.0%～15.5%であった。 グリコピロニウムの腎クリアランスは21.4～23.5L/hであり、尿細管分泌の関与が考えられた  。グリコピロニウムの腎クリアランス及び腎外クリアランスは、それぞれ全身クリアランスの60%～70%及び30%～40%であった  。グリコピロニウムを吸入投与したときの消失半減期は33～57時間であった  （外国人のデータ）。 日本人健康成人男子にインダカテロールを単回吸入投与したとき、未変化体の尿中排泄量は投与量の1.6%～1.9%であった。また、このときの腎クリアランスは1.2～1.7L/hであった。インダカテロールの全身クリアランス（23L/h）との比較から、腎排泄の寄与は小さいことが示唆された。健康成人男子に C標識したインダカテロール800μgを単回経口投与したとき、投与量の85%が糞中に排泄され、尿中への排泄は9.7%であった。糞中への排泄は未変化体（投与量の54%）及び水酸化代謝物（投与量の24%）が主であった  （日本人及び外国人のデータ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item1 .
+pi:PI_16_6.item1 rdfs:title "肝機能障害患者におけるインダカテロールの薬物動態"@ja .
+pi:PI_16_6.item1 dct:description "軽度及び中等度の肝機能障害患者にインダカテロールを単回吸入投与したとき、インダカテロールのCmaxは健康成人の0.98倍及び0.77倍、AUCは健康成人の0.87～1.0倍及び0.95～1.1倍であった。肝機能障害による血清中蛋白結合率の変化はみられなかった。重度の肝機能障害患者に対する検討は行っていない  （外国人のデータ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item2 .
+pi:PI_16_6.item2 rdfs:title "腎機能障害患者におけるグリコピロニウムの薬物動態"@ja .
+pi:PI_16_6.item2 dct:description "腎機能障害患者にグリコピロニウムを吸入投与したとき、軽度又は中等度の腎機能障害患者（eGFRが30mL/min/1.73m 以上）及び重度（eGFRが30mL/min/1.73m 未満）又は透析を必要とする末期腎不全患者のAUCは、それぞれ健康成人の1.0～1.4倍及び2.1～2.2倍であった  （外国人のデータ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item3 .
+pi:PI_16_6.item3 rdfs:title "UGT1A1変異型を有する被験者におけるインダカテロールの薬物動態"@ja .
+pi:PI_16_6.item3 dct:description "活性の低いUGT1A1変異型を有する被験者にインダカテロールを反復吸入投与したとき、定常状態時のCmax及びAUCはそれぞれ野生型を有する被験者の1.2倍であった  （外国人のデータ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item1 .
+pi:PI_16_7.item1 rdfs:title "グリコピロニウムとシメチジン"@ja .
+pi:PI_16_7.item1 dct:description "健康成人にシメチジン800mg（経口投与）とグリコピロニウム100μg（吸入投与）を併用したとき、グリコピロニウムのAUCは22%増加し、腎クリアランスは23%低下した  （外国人のデータ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item2 .
+pi:PI_16_7.item2 rdfs:title "グリコピロニウムの 試験"@ja .
+pi:PI_16_7.item2 dct:description "グリコピロニウムはヒト肝ミクロソームCYP分子種（CYP1A2、2A6、2B6、2C8、2C9、2C19、2E1）活性を200μMの濃度範囲まで阻害しなかった。CYP2D6及びCYP3A4/5（ミダゾラム水酸化）に対しては阻害作用を示し、IC50はそれぞれ100μM及び230μMであった  。トランスポーターを強制発現させたMDCK II細胞を用いた検討で、グリコピロニウムはMRP2、MDR1及びBCRP（MXR）を300μMの濃度範囲まで、OATP1B1、OATP1B3、OAT1並びにOAT3を200μMの濃度範囲まで阻害しなかった  。OCT1及びOCT2に対しては阻害作用を示し、IC50はそれぞれ47μM及び17μMであった  。ヒト初代培養肝細胞を用いた検討では、グリコピロニウムはCYP1A2、2A6、2B6、2C8、2C9、2C19、3A4のmRNA及び酵素活性を、また、CYP1A1、3A5、UGT1A1、MDR1及びMRP2のmRNAを50nMの濃度範囲まで誘導しなかった  。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item3 .
+pi:PI_16_7.item3 rdfs:title "インダカテロールとエリスロマイシン"@ja .
+pi:PI_16_7.item3 dct:description "健康成人男子にエリスロマイシン400mg（経口投与）とインダカテロール300μg（吸入投与）を併用したとき、インダカテロールのCmax及びAUCがそれぞれ1.2倍及び1.4～1.6倍に上昇した  （外国人のデータ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item4 .
+pi:PI_16_7.item4 rdfs:title "インダカテロールとベラパミル"@ja .
+pi:PI_16_7.item4 dct:description "健康成人男子にベラパミル80mg（経口投与）とインダカテロール300μg（吸入投与）を併用したとき、インダカテロールのCmax及びAUCがそれぞれ1.5倍及び1.4～2.0倍に上昇した  （外国人のデータ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item5 .
+pi:PI_16_7.item5 rdfs:title "インダカテロールとリトナビル"@ja .
+pi:PI_16_7.item5 dct:description "健康成人にリトナビル300mg（経口投与）とインダカテロール300μg（吸入投与）を併用したとき、インダカテロールのAUCが1.6～1.8倍に上昇した  （外国人のデータ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item6 .
+pi:PI_16_7.item6 rdfs:title "インダカテロールとケトコナゾール（経口剤は国内未発売）"@ja .
+pi:PI_16_7.item6 dct:description "健康成人男子にケトコナゾール200mg（経口投与）とインダカテロール300μg（吸入投与）を併用したとき、インダカテロールのCmax及びAUCがそれぞれ1.3倍及び1.9倍に上昇した  （外国人のデータ）。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:title "国際共同第III相試験"@ja .
+pi:PI_17_1.item1 dct:description "慢性閉塞性肺疾患患者2,144例（日本人182例）を対象としたプラセボ及び実薬を対照とした無作為化二重盲検並行群間比較試験（CQVA149A2303試験/SHINE）で、474例（日本人42例）に本剤50/110μgを1日1回吸入投与した。投与26週後のトラフFEV （投与23時間15分後及び23時間45分後のFEV の平均値）は次表のとおりであり、単剤（グリコピロニウム及びインダカテロール）及びプラセボとの対比較において、統計学的に有意な差が示され、日本人部分集団でも同様であった  。"@ja .
+pi:PI_17_1.item1 dct:description "                                          "@ja .
+pi:PI_17_1.item1 dct:description "副作用発現頻度は、本剤投与群で5.7%（27/474例）であった。主な副作用は、咳嗽2.5%（12例）等であった  。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.table1 .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row1 .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column1 .
+pi:PI_17_1.item1.table1.row1.column1 rdf:value "解析対象 集団" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column2 .
+pi:PI_17_1.item1.table1.row1.column2 rdf:value "治療群" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column3 .
+pi:PI_17_1.item1.table1.row1.column3 rdf:value "ベースライン" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column4 .
+pi:PI_17_1.item1.table1.row1.column4 rdf:value "投与26週後" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column5 .
+pi:PI_17_1.item1.table1.row1.column5 rdf:value "最小二乗平均 （例数）" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column6 .
+pi:PI_17_1.item1.table1.row1.column6 rdf:value "本剤との群間差 ［95%信頼区間］ （p値）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row2 .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column1 .
+pi:PI_17_1.item1.table1.row2.column1 rdf:value "全体集団" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column2 .
+pi:PI_17_1.item1.table1.row2.column2 rdf:value "本剤" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column3 .
+pi:PI_17_1.item1.table1.row2.column3 rdf:value "1.29±0.48 （444）" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column4 .
+pi:PI_17_1.item1.table1.row2.column4 rdf:value "1.45±0.50 （444）" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column5 .
+pi:PI_17_1.item1.table1.row2.column5 rdf:value "1.45 （442）" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column6 .
+pi:PI_17_1.item1.table1.row2.column6 rdf:value "" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row3 .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column1 .
+pi:PI_17_1.item1.table1.row3.column1 rdf:value "全体集団" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column2 .
+pi:PI_17_1.item1.table1.row3.column2 rdf:value "プラセボ" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column3 .
+pi:PI_17_1.item1.table1.row3.column3 rdf:value "1.29±0.49 （193）" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column4 .
+pi:PI_17_1.item1.table1.row3.column4 rdf:value "1.23±0.48 （193）" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column5 .
+pi:PI_17_1.item1.table1.row3.column5 rdf:value "1.25 （191）" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column6 .
+pi:PI_17_1.item1.table1.row3.column6 rdf:value "0.20 ［0.17～0.24］ （p&lt;0.001  ）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row4 .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column1 .
+pi:PI_17_1.item1.table1.row4.column1 rdf:value "全体集団" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column2 .
+pi:PI_17_1.item1.table1.row4.column2 rdf:value "グリコピロニウム" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column3 .
+pi:PI_17_1.item1.table1.row4.column3 rdf:value "1.28±0.46 （429）" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column4 .
+pi:PI_17_1.item1.table1.row4.column4 rdf:value "1.35±0.47 （429）" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column5 .
+pi:PI_17_1.item1.table1.row4.column5 rdf:value "1.36 （424）" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column6 .
+pi:PI_17_1.item1.table1.row4.column6 rdf:value "0.09 ［0.06～0.11］ （p&lt;0.001  ）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row5 .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column1 .
+pi:PI_17_1.item1.table1.row5.column1 rdf:value "全体集団" .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column2 .
+pi:PI_17_1.item1.table1.row5.column2 rdf:value "インダカテロール" .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column3 .
+pi:PI_17_1.item1.table1.row5.column3 rdf:value "1.29±0.46 （435）" .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column4 .
+pi:PI_17_1.item1.table1.row5.column4 rdf:value "1.38±0.50 （435）" .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column5 .
+pi:PI_17_1.item1.table1.row5.column5 rdf:value "1.38 （435）" .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column6 .
+pi:PI_17_1.item1.table1.row5.column6 rdf:value "0.07 ［0.05～0.10］ （p&lt;0.001  ）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row6 .
+pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column1 .
+pi:PI_17_1.item1.table1.row6.column1 rdf:value "全体集団" .
+pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column2 .
+pi:PI_17_1.item1.table1.row6.column2 rdf:value "チオトロピウム （非盲検）" .
+pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column3 .
+pi:PI_17_1.item1.table1.row6.column3 rdf:value "1.27±0.50 （448）" .
+pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column4 .
+pi:PI_17_1.item1.table1.row6.column4 rdf:value "1.36±0.52 （448）" .
+pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column5 .
+pi:PI_17_1.item1.table1.row6.column5 rdf:value "1.37 （446）" .
+pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column6 .
+pi:PI_17_1.item1.table1.row6.column6 rdf:value "0.08 ［0.05～0.10］" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row7 .
+pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column1 .
+pi:PI_17_1.item1.table1.row7.column1 rdf:value "日本人集団" .
+pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column2 .
+pi:PI_17_1.item1.table1.row7.column2 rdf:value "本剤" .
+pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column3 .
+pi:PI_17_1.item1.table1.row7.column3 rdf:value "1.36±0.41 （40）" .
+pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column4 .
+pi:PI_17_1.item1.table1.row7.column4 rdf:value "1.54±0.44 （40）" .
+pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column5 .
+pi:PI_17_1.item1.table1.row7.column5 rdf:value "1.48 （40）" .
+pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column6 .
+pi:PI_17_1.item1.table1.row7.column6 rdf:value "" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row8 .
+pi:PI_17_1.item1.table1.row8 pio:column pi:PI_17_1.item1.table1.row8.column1 .
+pi:PI_17_1.item1.table1.row8.column1 rdf:value "日本人集団" .
+pi:PI_17_1.item1.table1.row8 pio:column pi:PI_17_1.item1.table1.row8.column2 .
+pi:PI_17_1.item1.table1.row8.column2 rdf:value "プラセボ" .
+pi:PI_17_1.item1.table1.row8 pio:column pi:PI_17_1.item1.table1.row8.column3 .
+pi:PI_17_1.item1.table1.row8.column3 rdf:value "1.28±0.32 （15）" .
+pi:PI_17_1.item1.table1.row8 pio:column pi:PI_17_1.item1.table1.row8.column4 .
+pi:PI_17_1.item1.table1.row8.column4 rdf:value "1.18±0.30 （15）" .
+pi:PI_17_1.item1.table1.row8 pio:column pi:PI_17_1.item1.table1.row8.column5 .
+pi:PI_17_1.item1.table1.row8.column5 rdf:value "1.20 （15）" .
+pi:PI_17_1.item1.table1.row8 pio:column pi:PI_17_1.item1.table1.row8.column6 .
+pi:PI_17_1.item1.table1.row8.column6 rdf:value "0.28 ［0.19～0.38］" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row9 .
+pi:PI_17_1.item1.table1.row9 pio:column pi:PI_17_1.item1.table1.row9.column1 .
+pi:PI_17_1.item1.table1.row9.column1 rdf:value "日本人集団" .
+pi:PI_17_1.item1.table1.row9 pio:column pi:PI_17_1.item1.table1.row9.column2 .
+pi:PI_17_1.item1.table1.row9.column2 rdf:value "グリコピロニウム" .
+pi:PI_17_1.item1.table1.row9 pio:column pi:PI_17_1.item1.table1.row9.column3 .
+pi:PI_17_1.item1.table1.row9.column3 rdf:value "1.34±0.49 （36）" .
+pi:PI_17_1.item1.table1.row9 pio:column pi:PI_17_1.item1.table1.row9.column4 .
+pi:PI_17_1.item1.table1.row9.column4 rdf:value "1.41±0.42 （36）" .
+pi:PI_17_1.item1.table1.row9 pio:column pi:PI_17_1.item1.table1.row9.column5 .
+pi:PI_17_1.item1.table1.row9.column5 rdf:value "1.38 （36）" .
+pi:PI_17_1.item1.table1.row9 pio:column pi:PI_17_1.item1.table1.row9.column6 .
+pi:PI_17_1.item1.table1.row9.column6 rdf:value "0.10 ［0.03～0.18］" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row10 .
+pi:PI_17_1.item1.table1.row10 pio:column pi:PI_17_1.item1.table1.row10.column1 .
+pi:PI_17_1.item1.table1.row10.column1 rdf:value "日本人集団" .
+pi:PI_17_1.item1.table1.row10 pio:column pi:PI_17_1.item1.table1.row10.column2 .
+pi:PI_17_1.item1.table1.row10.column2 rdf:value "インダカテロール" .
+pi:PI_17_1.item1.table1.row10 pio:column pi:PI_17_1.item1.table1.row10.column3 .
+pi:PI_17_1.item1.table1.row10.column3 rdf:value "1.28±0.45 （39）" .
+pi:PI_17_1.item1.table1.row10 pio:column pi:PI_17_1.item1.table1.row10.column4 .
+pi:PI_17_1.item1.table1.row10.column4 rdf:value "1.38±0.50 （39）" .
+pi:PI_17_1.item1.table1.row10 pio:column pi:PI_17_1.item1.table1.row10.column5 .
+pi:PI_17_1.item1.table1.row10.column5 rdf:value "1.39 （39）" .
+pi:PI_17_1.item1.table1.row10 pio:column pi:PI_17_1.item1.table1.row10.column6 .
+pi:PI_17_1.item1.table1.row10.column6 rdf:value "0.09 ［0.02～0.16］" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row11 .
+pi:PI_17_1.item1.table1.row11 pio:column pi:PI_17_1.item1.table1.row11.column1 .
+pi:PI_17_1.item1.table1.row11.column1 rdf:value "日本人集団" .
+pi:PI_17_1.item1.table1.row11 pio:column pi:PI_17_1.item1.table1.row11.column2 .
+pi:PI_17_1.item1.table1.row11.column2 rdf:value "チオトロピウム （非盲検）" .
+pi:PI_17_1.item1.table1.row11 pio:column pi:PI_17_1.item1.table1.row11.column3 .
+pi:PI_17_1.item1.table1.row11.column3 rdf:value "1.21±0.46 （37）" .
+pi:PI_17_1.item1.table1.row11 pio:column pi:PI_17_1.item1.table1.row11.column4 .
+pi:PI_17_1.item1.table1.row11.column4 rdf:value "1.30±0.52 （37）" .
+pi:PI_17_1.item1.table1.row11 pio:column pi:PI_17_1.item1.table1.row11.column5 .
+pi:PI_17_1.item1.table1.row11.column5 rdf:value "1.39 （37）" .
+pi:PI_17_1.item1.table1.row11 pio:column pi:PI_17_1.item1.table1.row11.column6 .
+pi:PI_17_1.item1.table1.row11.column6 rdf:value "0.09 ［0.02～0.16］" .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:title "国内第III相試験"@ja .
+pi:PI_17_1.item2 dct:description "慢性閉塞性肺疾患患者160例を対象とした無作為化非盲検並行群間比較の1年間の長期投与試験（CQVA149A1301試験/ARISE）で、119例に本剤50/110μgを1日1回吸入投与した。本剤50/110μg群でトラフFEV （投与15分前及び45分前のFEV の平均値）は上昇し、52週時までその効果は維持された  。 副作用発現頻度は、本剤投与群で20.2%（24/119例）であった。主な副作用は、口内乾燥2.5%（3例）等であった  。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item3 .
+pi:PI_17_1.item3 rdfs:title "外国第III相試験"@ja .
+pi:PI_17_1.item3 dct:description "慢性閉塞性肺疾患患者2,224例を対象とした実薬を対照とした無作為化二重盲検並行群間比較試験（CQVA149A2304試験/SPARK、64週間）で、736例に本剤50/110μgを1日1回吸入投与した。中等度又は重度のCOPD増悪  回数（回/人年）は次表のとおりであり、グリコピロニウムとの対比較において、統計学的に有意な差が示された  。"@ja .
+pi:PI_17_1.item3 dct:description "                                          "@ja .
+pi:PI_17_1.item3 dct:description "副作用発現頻度は、本剤投与群で7.8%（57/729例）であった。主な副作用は、咳嗽1.9%（14例）等であった  。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item3.table1 .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row1 .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column1 .
+pi:PI_17_1.item3.table1.row1.column1 rdf:value "治療群" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column2 .
+pi:PI_17_1.item3.table1.row1.column2 rdf:value "増悪回数（回/人年）" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column3 .
+pi:PI_17_1.item3.table1.row1.column3 rdf:value "増悪回数（回/人年） の本剤との比 ［95%信頼区間］" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row2 .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column1 .
+pi:PI_17_1.item3.table1.row2.column1 rdf:value "本剤（729例）" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column2 .
+pi:PI_17_1.item3.table1.row2.column2 rdf:value "0.94" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column3 .
+pi:PI_17_1.item3.table1.row2.column3 rdf:value "" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row3 .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column1 .
+pi:PI_17_1.item3.table1.row3.column1 rdf:value "グリコピロニウム（739例）" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column2 .
+pi:PI_17_1.item3.table1.row3.column2 rdf:value "1.07" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column3 .
+pi:PI_17_1.item3.table1.row3.column3 rdf:value "0.88［0.77～0.99］" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row4 .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column1 .
+pi:PI_17_1.item3.table1.row4.column1 rdf:value "チオトロピウム（非盲検） （737例）" .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column2 .
+pi:PI_17_1.item3.table1.row4.column2 rdf:value "1.06" .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column3 .
+pi:PI_17_1.item3.table1.row4.column3 rdf:value "0.90［0.79～1.02］" .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 pio:section pi:PI_18_1.item1 .
+pi:PI_18_1.item1 rdfs:label "〈グリコピロニウム〉"@ja .
+pi:PI_18_1.item1 dct:description "長時間作用性のムスカリン受容体拮抗薬であり、すべてのムスカリン受容体M ～M 受容体に対して高い親和性を示す。チオトロピウムと比較した場合、M 受容体に比べてM 受容体に対してやや高い選択性を有する  。"@ja .
+pi:PI_18_1 pio:section pi:PI_18_1.item2 .
+pi:PI_18_1.item2 rdfs:label "〈インダカテロール〉"@ja .
+pi:PI_18_1.item2 dct:description "長時間作用性のβ受容体刺激薬であり、β 及びβ 受容体と比較してβ 受容体に対して高い親和性を示す  。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "気管支拡張作用"@ja .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "作用発現時間"@ja .
+pi:PI_18 pio:section pi:PI_18.item3 .
+pi:PI_18.item3 rdfs:label "作用持続時間"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "グリコピロニウム臭化物（Glycopyrronium Bromide）" .
+pi:PI_19 pio:chemical_name "（3 ）-3-［（2 ）-（2-Cyclopentyl-2-hydroxy-2-phenylacetyl）oxy］-1, 1-dimethylpyrrolidinium bromide" .
+pi:PI_19 pio:molecular_formula "C H BrNO" .
+pi:PI_19 pio:molecular_weight "398.33" .
+pi:PI_19 pio:description_of_active_ingredients "白色の粉末である。水に溶けやすく、エタノール（99.5）にやや溶けにくい。" .
+pi:PI_22 dct:description "14カプセル ［7カプセル×2シート、ブリーズヘラー  1個］ 28カプセル ［7カプセル×4シート、ブリーズヘラー  1個］ 28カプセル ［7カプセル×4シート］"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "社内資料：日本人及び白人健康成人を対象とした単回投与試験（2013年9月20日承認、CTD2.7.2-2.1.1.1）［20134479］" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "社内資料：外国人健康成人を対象とした反復投与試験（2013年9月20日承認、CTD2.7.1-2.1.3）［20134480］" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "社内資料：QVA149吸入投与時の絶対的バイオアベイラビリティ（2013年9月20日承認、CTD2.7.2-3.1.1）［20134481］" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "社内資料：吸入投与時のバイオアベイラビリティの評価（シーブリ2012年9月28日承認、CTD2.7.6-1.1.1）［20124340］" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "社内資料：吸入投与時と経口投与時のバイオアベイラビリティの比較（オンブレス2011年7月1日承認、CTD2.7.1-2.2.1.2）［20113031］" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "社内資料：血球移行性及び血漿中蛋白結合率（シーブリ2012年9月28日承認、CTD2.6.4-4.1）［20124349］" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "社内資料：血漿及び血清中蛋白結合率（オンブレス2011年7月1日承認、CTD2.6.4-4.1）［20113032］" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "社内資料：吸入投与時の絶対的バイオアベイラビリティの評価（オンブレス2011年7月1日承認、CTD2.7.1-2.2.1.1）［20113030］" .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "社内資料：肝細胞、肝ミクロソーム及び肺ミクロソームでの代謝（シーブリ2012年9月28日承認、CTD2.6.4-5）［20124350］" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "社内資料：肝細胞での代謝（シーブリ2012年9月28日承認、CTD2.6.4-5）［20124436］" .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "社内資料：小腸ミクロソーム及び小腸S9画分での代謝（シーブリ2012年9月28日承認、CTD2.6.4-5）［20124437］" .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "社内資料：代謝に関わるCYP分子種の同定（シーブリ2012年9月28日承認、CTD2.6.4-5）［20124351］" .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "社内資料：外国人慢性閉塞性肺疾患患者を対象とした反復投与試験（シーブリ2012年9月28日承認、CTD2.7.2-2.2.1）［20124345］" .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "社内資料：吸収、代謝及び排泄の検討（オンブレス2011年7月1日承認、CTD2.7.2-2.1.2.5）［20113033］" .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "社内資料：代謝酵素の同定（オンブレス2011年7月1日承認、CTD2.6.4-5.2）［20113034］" .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "社内資料：Caco-2細胞単層膜を用いた膜透過性試験（オンブレス2011年7月1日承認、CTD2.6.4-7.2）［20113035］" .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "社内資料：日本人及び白人健康成人を対象とした単回投与試験（シーブリ2012年9月28日承認、CTD2.7.2-2.1.1）［20124339］" .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "社内資料：腎機能低下が薬物動態に及ぼす影響（シーブリ2012年9月28日承認、CTD2.7.2-2.1.2）［20124342］" .
+pi:PI_23.item18 pio:id "DOC_18" .
+pi:PI_23 dct:references pi:PI_23.item19 .
+pi:PI_23.item19 a bibo:Document .
+pi:PI_23.item19 rdfs:label "Dumitras S., et al.：Int. J. Clin. Pharmacol. Ther. 2013；51（10）：771-779［20143374］" .
+pi:PI_23.item19 pio:id "DOC_19" .
+pi:PI_23 dct:references pi:PI_23.item20 .
+pi:PI_23.item20 a bibo:Document .
+pi:PI_23.item20 rdfs:label "社内資料：日本人及び外国人健康成人を対象とした単回投与試験（オンブレス2011年7月1日承認、CTD2.7.2-2.1.1.1）［20113036］" .
+pi:PI_23.item20 pio:id "DOC_20" .
+pi:PI_23 dct:references pi:PI_23.item21 .
+pi:PI_23.item21 a bibo:Document .
+pi:PI_23.item21 rdfs:label "社内資料：肝機能障害が薬物動態に及ぼす影響（オンブレス2011年7月1日承認、CTD2.7.2-2.1.2.6）［20113040］" .
+pi:PI_23.item21 pio:id "DOC_21" .
+pi:PI_23 dct:references pi:PI_23.item22 .
+pi:PI_23.item22 a bibo:Document .
+pi:PI_23.item22 rdfs:label "社内資料：UGT1A1変異型の薬物動態（オンブレス2011年7月1日承認、CTD2.7.2-2.1.2.7）［20113041］" .
+pi:PI_23.item22 pio:id "DOC_22" .
+pi:PI_23 dct:references pi:PI_23.item23 .
+pi:PI_23.item23 a bibo:Document .
+pi:PI_23.item23 rdfs:label "社内資料：CYP各分子種に対する阻害作用（シーブリ2012年9月28日承認、CTD2.6.4-7.1）［20124438］" .
+pi:PI_23.item23 pio:id "DOC_23" .
+pi:PI_23 dct:references pi:PI_23.item24 .
+pi:PI_23.item24 a bibo:Document .
+pi:PI_23.item24 rdfs:label "社内資料：CYP2B6に対する阻害作用（シーブリ2012年9月28日承認、CTD2.7.2-3.3.1）［20124354］" .
+pi:PI_23.item24 pio:id "DOC_24" .
+pi:PI_23 dct:references pi:PI_23.item25 .
+pi:PI_23.item25 a bibo:Document .
+pi:PI_23.item25 rdfs:label "社内資料：MDR1、MRP2及びBCRPに対する阻害作用（シーブリ2012年9月28日承認、CTD2.6.4-7.1）［20124353］" .
+pi:PI_23.item25 pio:id "DOC_25" .
+pi:PI_23 dct:references pi:PI_23.item26 .
+pi:PI_23.item26 a bibo:Document .
+pi:PI_23.item26 rdfs:label "社内資料：OATP1B1及びOATP1B3に対する阻害作用［20143488］" .
+pi:PI_23.item26 pio:id "DOC_26" .
+pi:PI_23 dct:references pi:PI_23.item27 .
+pi:PI_23.item27 a bibo:Document .
+pi:PI_23.item27 rdfs:label "社内資料：OAT1及びOAT3に対する阻害作用［20143489］" .
+pi:PI_23.item27 pio:id "DOC_27" .
+pi:PI_23 dct:references pi:PI_23.item28 .
+pi:PI_23.item28 a bibo:Document .
+pi:PI_23.item28 rdfs:label "社内資料：OCT1及びOCT2に対する阻害作用（シーブリ2012年9月28日承認、CTD2.6.4-7.1）［20124355］" .
+pi:PI_23.item28 pio:id "DOC_28" .
+pi:PI_23 dct:references pi:PI_23.item29 .
+pi:PI_23.item29 a bibo:Document .
+pi:PI_23.item29 rdfs:label "社内資料：代謝酵素及びトランスポーターに対する誘導作用（シーブリ2012年9月28日承認、CTD2.6.4-7.1）［20124352］" .
+pi:PI_23.item29 pio:id "DOC_29" .
+pi:PI_23 dct:references pi:PI_23.item30 .
+pi:PI_23.item30 a bibo:Document .
+pi:PI_23.item30 rdfs:label "社内資料：エリスロマイシンとの薬物間相互作用（オンブレス2011年7月1日承認、CTD2.7.2-2.1.2.10）［20113039］" .
+pi:PI_23.item30 pio:id "DOC_30" .
+pi:PI_23 dct:references pi:PI_23.item31 .
+pi:PI_23.item31 a bibo:Document .
+pi:PI_23.item31 rdfs:label "社内資料：ベラパミルとの薬物間相互作用（オンブレス2011年7月1日承認、CTD2.7.2-2.1.2.9）［20113038］" .
+pi:PI_23.item31 pio:id "DOC_31" .
+pi:PI_23 dct:references pi:PI_23.item32 .
+pi:PI_23.item32 a bibo:Document .
+pi:PI_23.item32 rdfs:label "社内資料：リトナビルとの薬物間相互作用［20134491］" .
+pi:PI_23.item32 pio:id "DOC_32" .
+pi:PI_23 dct:references pi:PI_23.item33 .
+pi:PI_23.item33 a bibo:Document .
+pi:PI_23.item33 rdfs:label "社内資料：ケトコナゾールとの薬物間相互作用（オンブレス2011年7月1日承認、CTD2.7.2-2.1.2.8）［20113037］" .
+pi:PI_23.item33 pio:id "DOC_33" .
+pi:PI_23 dct:references pi:PI_23.item34 .
+pi:PI_23.item34 a bibo:Document .
+pi:PI_23.item34 rdfs:label "社内資料：慢性閉塞性肺疾患患者（日本人を含む）を対象とした国際共同第III相臨床試験（CQVA149A2303）（2013年9月20日承認、CTD2.7.6-4.1.1）［20134482］" .
+pi:PI_23.item34 pio:id "DOC_34" .
+pi:PI_23 dct:references pi:PI_23.item35 .
+pi:PI_23.item35 a bibo:Document .
+pi:PI_23.item35 rdfs:label "Bateman E.D., et al.：Eur. Respir. J. 2013；42（6）：1484-1494［20134476］" .
+pi:PI_23.item35 pio:id "DOC_35" .
+pi:PI_23 dct:references pi:PI_23.item36 .
+pi:PI_23.item36 a bibo:Document .
+pi:PI_23.item36 rdfs:label "社内資料：日本人慢性閉塞性肺疾患患者を対象とした長期投与試験（CQVA149A1301）（2013年9月20日承認、CTD2.7.6-4.1.3）［20134484］" .
+pi:PI_23.item36 pio:id "DOC_36" .
+pi:PI_23 dct:references pi:PI_23.item37 .
+pi:PI_23.item37 a bibo:Document .
+pi:PI_23.item37 rdfs:label "社内資料：慢性閉塞性肺疾患患者を対象とした外国第III相臨床試験（CQVA149A2304）（2013年9月20日承認、CTD2.7.6-4.1.2）［20134485］" .
+pi:PI_23.item37 pio:id "DOC_37" .
+pi:PI_23 dct:references pi:PI_23.item38 .
+pi:PI_23.item38 a bibo:Document .
+pi:PI_23.item38 rdfs:label "Wedzicha J.A., et al.：Lancet Respir. Med. 2013；1（3）：199-209［20134475］" .
+pi:PI_23.item38 pio:id "DOC_38" .
+pi:PI_23 dct:references pi:PI_23.item39 .
+pi:PI_23.item39 a bibo:Document .
+pi:PI_23.item39 rdfs:label "社内資料： におけるムスカリン受容体に対する親和性試験（シーブリ2012年9月28日承認、CTD2.6.2-2.1）［20124346］" .
+pi:PI_23.item39 pio:id "DOC_39" .
+pi:PI_23 dct:references pi:PI_23.item40 .
+pi:PI_23.item40 a bibo:Document .
+pi:PI_23.item40 rdfs:label "社内資料：アドレナリンβ受容体に対するインダカテロールの における選択性及び機能活性（2011年7月1日承認、CTD2.4-3.1.1）［20113374］" .
+pi:PI_23.item40 pio:id "DOC_40" .
+pi:PI_23 dct:references pi:PI_23.item41 .
+pi:PI_23.item41 a bibo:Document .
+pi:PI_23.item41 rdfs:label "社内資料：モルモット摘出気管におけるインダカテロール及びグリコピロニウムの相加作用（2013年9月20日承認、CTD2.6.2-2.5）［20134483］" .
+pi:PI_23.item41 pio:id "DOC_41" .
+pi:PI_23 dct:references pi:PI_23.item42 .
+pi:PI_23.item42 a bibo:Document .
+pi:PI_23.item42 rdfs:label "Villetti G., et al.：Br. J. Pharmacol. 2006；148（3）：291-298.［20124439］" .
+pi:PI_23.item42 pio:id "DOC_42" .
+pi:PI_23 dct:references pi:PI_23.item43 .
+pi:PI_23.item43 a bibo:Document .
+pi:PI_23.item43 rdfs:label "社内資料：覚醒下モルモットにおけるインダカテロールの作用持続の検討（オンブレス2011年7月1日承認、CTD2.4-3.1.4）［20113370］" .
+pi:PI_23.item43 pio:id "DOC_43" .
+pi:PI_23 dct:references pi:PI_23.item44 .
+pi:PI_23.item44 a bibo:Document .
+pi:PI_23.item44 rdfs:label "社内資料：アカゲザルを用いたβ刺激剤のメサコリン誘発気道収縮に対する抑制作用（オンブレス2011年7月1日承認、CTD2.4-3.1.4）［20113371］" .
+pi:PI_23.item44 pio:id "DOC_44" .
+pi:PI_23 dct:references pi:PI_23.item45 .
+pi:PI_23.item45 a bibo:Document .
+pi:PI_23.item45 rdfs:label "社内資料：慢性閉塞性肺疾患患者（日本人を含む）を対象とした国際共同第III相臨床試験（シーブリ2012年9月28日承認、CTD2.7.6-4.1.2）［20124343］" .
+pi:PI_23.item45 pio:id "DOC_45" .
+pi:PI_23 dct:references pi:PI_23.item46 .
+pi:PI_23.item46 a bibo:Document .
+pi:PI_23.item46 rdfs:label "D'Urzo A., et al.：Respir. Res. 2011；12：156.［20124561］" .
+pi:PI_23.item46 pio:id "DOC_46" .
+pi:PI_23 dct:references pi:PI_23.item47 .
+pi:PI_23.item47 a bibo:Document .
+pi:PI_23.item47 rdfs:label "社内資料：ラットにおけるメサコリン誘発 気管支収縮モデルを用いた気管支収縮抑制効果の検討（シーブリ2012年9月28日承認、CTD2.6.2-2.3.1.1）［20124347］" .
+pi:PI_23.item47 pio:id "DOC_47" .
+pi:PI_23 dct:references pi:PI_23.item48 .
+pi:PI_23.item48 a bibo:Document .
+pi:PI_23.item48 rdfs:label "社内資料：アカゲザルにおけるメサコリン誘発 気道収縮モデルを用いた気道収縮抑制効果の検討（シーブリ2012年9月28日承認、CTD2.6.2-2.3.1.3）［20124348］" .
+pi:PI_23.item48 pio:id "DOC_48" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "ノバルティスファーマ株式会社　ノバルティスダイレクト"@ja .
+pi:PI_24.item1 pio:address "〒105-6333　東京都港区虎ノ門1-23-1"@ja .
+pi:PI_24.item1 pio:contact_information "fig09.gif" .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売"@ja .
+pi:PI_26.item1 pio:name "ノバルティスファーマ株式会社"@ja .
+pi:PI_26.item1 pio:address "東京都港区虎ノ門1-23-1"@ja .

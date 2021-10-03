@@ -1,0 +1,331 @@
+subject,predicate,object
+1,rdf:type,bibo:Document
+1,rdfs:label,"社内資料：日本人及び白人健康成人を対象とした単回投与試験(A1101 試験)"
+1,dct:dateAccepted,2013-09-20
+1,ifo:internal_reference_id,20134479
+1,ifo:ctd_number,"CTD2.7.2 2.1.1.1"
+2,rdf:type,bibo:Document
+2,rdfs:label,"社内資料：慢性閉塞性肺疾患患者（日本人を含む）を対象とした国際共同第Ⅲ相臨床試験（ CQVA149A2303)"
+2,dct:dateAccepted,2013-09-20
+2,ifo:internal_reference_id,20134482
+2,ifo:ctd_number,CTD2.7.6-4.1.1
+3,rdf:type,bibo:Article
+3,dct:references,23722616
+3,ifo:internal_reference_id,20134476
+4,rdf:type,bibo:Document
+4,rdfs:label,社内資料：慢性閉塞性肺疾患患者を対象とした外国第相臨床試験(CQVA149A2304)
+4,dct:dateAccepted,2013-09-20
+4,ifo:internal_reference_id,20134485
+4,ifo:ctd_number,CTD2.7.6-4.1.2
+5,rdf:type,bibo:Article
+5,dct:references,"PMID: 24429126"
+5,ifo:internal_reference_id,20134475
+6,rdf:type,bibo:Document
+6,rdfs:label,"社内資料：日本人慢性閉塞性肺疾患患者を対象とした長期投与試験（ CQVA149A1301)"
+6,dct:dateAccepted,2013-09-20
+6,ifo:internal_reference_id,20134484
+6,ifo:ctd_number,CTD2.7.6-4.1.3
+7,rdf:type,bibo:Document
+7,rdfs:label,"社内資料：10 か国で実施した第 相国際共同試験（ A2307 試験）"
+7,dct:dateAccepted,
+7,ifo:internal_reference_id,20134487
+7,ifo:ctd_number,
+8,rdf:type,bibo:Article
+8,dct:references,23867808
+8,ifo:internal_reference_id,20134477
+9,rdf:type,bibo:Document
+9,rdfs:label,社内資料：モルモット摘出気管におけるインダカテロール及びグリコピロニウムの相加作用
+9,dct:dateAccepted,2013-09-20
+9,ifo:internal_reference_id,20134483
+9,ifo:ctd_number,CTD2.6.2-2.5
+10,rdf:type,bibo:Document
+10,rdfs:label,"社内資料：in vitroにおけるムスカリン受容体に対する親和性試験 （シーブリ"
+10,dct:dateAccepted,2012-09-28
+10,ifo:internal_reference_id,20124346
+10,ifo:ctd_number,CTD2.6.2-2.1
+11,rdf:type,bibo:Article
+11,dct:references,16565730
+11,ifo:internal_reference_id,20124439
+12,rdf:type,bibo:Document
+12,rdfs:label,"社内資料：ラットにおけるメサコリン誘発in vivo 気管支収縮モデルを用いた気管支収縮抑制効果の検討 （シーブリ"
+12,dct:dateAccepted,2012-09-28
+12,ifo:internal_reference_id,20124347
+12,ifo:ctd_number,CTD2.6.2-2.3.1.1
+13,rdf:type,bibo:Document
+13,rdfs:label,"社内資料：アカゲザルにおけるメサコリン誘発in vivo 気道収縮モデルを用いた気道収縮抑制効果の検討 （シーブリ"
+13,dct:dateAccepted,2012-09-28
+13,ifo:internal_reference_id,20124348
+13,ifo:ctd_number,CTD2.6.2-2.3.1.3
+14,rdf:type,bibo:Article
+14,dct:references,22854200
+14,ifo:internal_reference_id,20124443
+15,rdf:type,bibo:Document
+15,rdfs:label,"社内資料：アドレナリンβ受容体に対するインダカテロールのin vitro における選択性及び機能活性"
+15,dct:dateAccepted,2011-07-01
+15,ifo:internal_reference_id,20113374
+15,ifo:ctd_number,CTD2.4-3.1.1
+16,rdf:type,bibo:Document
+16,rdfs:label,"社内資料：覚醒下モルモットにおけるインダカテロールの作用持続の検討 （オンブレス"
+16,dct:dateAccepted,2011-07-01
+16,ifo:internal_reference_id,20113370
+16,ifo:ctd_number,"CTD2.4 3.1.4"
+17,rdf:type,bibo:Document
+17,rdfs:label,"社内資料：アカゲザルを用いたβ刺激剤のメサコリン誘発気道収縮に対する抑制作用 （オンブレス"
+17,dct:dateAccepted,2011-07-01
+17,ifo:internal_reference_id,20113371
+17,ifo:ctd_number,CTD2.4-3.1.4
+18,rdf:type,bibo:Document
+18,rdfs:label,"社内資料：慢性閉塞性肺疾患患者（日本人を含む）を対象とした国際共同第 相臨床試験 （シーブリ"
+18,dct:dateAccepted,2012-09-28
+18,ifo:internal_reference_id,20124343
+18,ifo:ctd_number,CTD2.7.6-4.1.2
+19,rdf:type,bibo:Article
+19,dct:creator,"D'Urzo, A. et al."
+19,prism:publicationName,"Respir. Res."
+19,prism:volume,12
+19,prism:number,
+19,prism:startingPage,156
+19,prism:endingPage,
+19,dct:issued,2011
+19,ifo:internal_reference_id,20124561
+20,rdf:type,bibo:Document
+20,rdfs:label,"社内資料：日本人COPD 患者を対象とした用量設定試験"
+20,dct:dateAccepted,
+20,ifo:internal_reference_id,20113201
+20,ifo:ctd_number,
+21,rdf:type,bibo:Article
+21,dct:references,20567133
+21,ifo:internal_reference_id,20112467
+22,rdf:type,bibo:Document
+22,rdfs:label,"社内資料：COPD 患者（日本を含むアジア地域）を対象とした二重盲検比較試験"
+22,dct:dateAccepted,
+22,ifo:internal_reference_id,20113202
+22,ifo:ctd_number,
+23,rdf:type,bibo:Document
+23,rdfs:label,社内資料：外国人健康成人を対象とした反復投与試験（A2106試験)
+23,dct:dateAccepted,2013-09-20
+23,ifo:internal_reference_id,20134480
+23,ifo:ctd_number,CTD2.7.1-2.1.3
+24,rdf:type,bibo:Document
+24,rdfs:label,社内資料：吸入投与時のバイオアベイラビリティの評価（シーブリ
+24,dct:dateAccepted,2012-09-28
+24,ifo:internal_reference_id,20124340
+24,ifo:ctd_number,CTD2.7.6-1.1.1
+25,rdf:type,bibo:Document
+25,rdfs:label,社内資料：吸入投与時の絶対的バイオアベイラビリティの評価（オンブレス
+25,dct:dateAccepted,2011-07-01
+25,ifo:internal_reference_id,20113030
+25,ifo:ctd_number,CTD2.7.1-2.2.1.1
+26,rdf:type,bibo:Document
+26,rdfs:label,社内資料：吸入投与時の絶対的バイオアベイラビリティの評価
+26,dct:dateAccepted,
+26,ifo:internal_reference_id,20134492
+26,ifo:ctd_number,
+27,rdf:type,bibo:Document
+27,rdfs:label,"社内資料：QVA149 吸入投与時の絶対的バイオアベイラビリティ"
+27,dct:dateAccepted,2013-09-20
+27,ifo:internal_reference_id,20134481
+27,ifo:ctd_number,CTD2.7.2-3.1.1
+28,rdf:type,bibo:Document
+28,rdfs:label,"社内資料：吸入投与時と経口投与時のバイオアベイラビリティの比較 （オンブレス"
+28,dct:dateAccepted,2011-07-01
+28,ifo:internal_reference_id,20113031
+28,ifo:ctd_number,CTD2.7.1-2.2.1.2
+29,rdf:type,bibo:Document
+29,rdfs:label,"社内資料：ラット吸収率、血液 脳関門通過性、組織分布、 代謝物（ in vivo ）並びに排泄率"
+29,dct:dateAccepted,
+29,ifo:internal_reference_id,20125855
+29,ifo:ctd_number,
+30,rdf:type,bibo:Document
+30,rdfs:label,"社内資料：マウス血液脳関門、組織分布、代謝物（ in vivo)"
+30,dct:dateAccepted,
+30,ifo:internal_reference_id,20125854
+30,ifo:ctd_number,
+31,rdf:type,bibo:Document
+31,rdfs:label,社内資料：臓器及び組織への分布
+31,dct:dateAccepted,
+31,ifo:internal_reference_id,20113044
+31,ifo:ctd_number,
+32,rdf:type,bibo:Document
+32,rdfs:label,社内資料：血液胎盤関門通過性
+32,dct:dateAccepted,
+32,ifo:internal_reference_id,20125856
+32,ifo:ctd_number,
+33,rdf:type,bibo:Document
+33,rdfs:label,社内資料：胎盤通過性
+33,dct:dateAccepted,
+33,ifo:internal_reference_id,20113042
+33,ifo:ctd_number,
+34,rdf:type,bibo:Document
+34,rdfs:label,社内資料：乳汁移行性
+34,dct:dateAccepted,
+34,ifo:internal_reference_id,20125857
+34,ifo:ctd_number,
+35,rdf:type,bibo:Document
+35,rdfs:label,社内資料：乳汁中代謝物
+35,dct:dateAccepted,
+35,ifo:internal_reference_id,20113043
+35,ifo:ctd_number,
+36,rdf:type,bibo:Document
+36,rdfs:label,社内資料：臓器及び組織への分布
+36,dct:dateAccepted,
+36,ifo:internal_reference_id,20113044
+36,ifo:ctd_number,
+37,rdf:type,bibo:Document
+37,rdfs:label,社内資料：血球移行性及び血漿中蛋白結合率（シーブリ
+37,dct:dateAccepted,2012-09-28
+37,ifo:internal_reference_id,20124349
+37,ifo:ctd_number,CTD2.6.4-4.1
+38,rdf:type,bibo:Document
+38,rdfs:label,社内資料：血漿及び血清中蛋白結合率（オンブレス
+38,dct:dateAccepted,2011-07-01
+38,ifo:internal_reference_id,20113032
+38,ifo:ctd_number,CTD2.6.4-4.1
+39,rdf:type,bibo:Document
+39,rdfs:label,"社内資料：肝細胞、肝ミクロソーム、及び肺ミクロソームでの代謝 （シーブリ"
+39,dct:dateAccepted,2012-09-28
+39,ifo:internal_reference_id,20124350
+39,ifo:ctd_number,CTD2.6.4-5
+40,rdf:type,bibo:Document
+40,rdfs:label,社内資料：肝細胞での代謝（シーブリ
+40,dct:dateAccepted,2012-09-28
+40,ifo:internal_reference_id,20124436
+40,ifo:ctd_number,CTD2.6.4-5
+41,rdf:type,bibo:Document
+41,rdfs:label,"社内資料：小腸ミクロソーム及び小腸S9 画分での代謝 （シーブリ"
+41,dct:dateAccepted,2012-09-28
+41,ifo:internal_reference_id,20124437
+41,ifo:ctd_number,CTD2.6.4-5
+42,rdf:type,bibo:Document
+42,rdfs:label,"社内資料：外国人慢性閉塞性肺疾患患者を対象とした反復投与試験 （シーブリ"
+42,dct:dateAccepted,2012-09-28
+42,ifo:internal_reference_id,20124345
+42,ifo:ctd_number,CTD2.7.2-2.2.1
+43,rdf:type,bibo:Document
+43,rdfs:label,"社内資料：ラット代謝物（in vivo)"
+43,dct:dateAccepted,
+43,ifo:internal_reference_id,20125858
+43,ifo:ctd_number,
+44,rdf:type,bibo:Document
+44,rdfs:label,社内資料：吸収、代謝及び排泄の検討（オンブレス
+44,dct:dateAccepted,2011-07-01
+44,ifo:internal_reference_id,20113033
+44,ifo:ctd_number,CTD2.7.2-2.1.2.5
+45,rdf:type,bibo:Document
+45,rdfs:label,"社内資料：代謝に関わるCYP 分子種の同定 （シーブリ"
+45,dct:dateAccepted,2012-09-28
+45,ifo:internal_reference_id,20124351
+45,ifo:ctd_number,CTD2.6.4-5
+46,rdf:type,bibo:Document
+46,rdfs:label,"社内資料：CYP 各分子種に対する阻害作用 （シーブリ"
+46,dct:dateAccepted,2012-09-28
+46,ifo:internal_reference_id,20124438
+46,ifo:ctd_number,CTD2.6.4-7.1
+47,rdf:type,bibo:Document
+47,rdfs:label,"社内資料：CYP2B6 に対する阻害作用 （シーブリ"
+47,dct:dateAccepted,2012-09-28
+47,ifo:internal_reference_id,20124354
+47,ifo:ctd_number,CTD2.7.2-3.3.1
+48,rdf:type,bibo:Document
+48,rdfs:label,"社内資料：MDR1、MRP2 及び BCRP に対する阻害作用 （シーブリ"
+48,dct:dateAccepted,2012-09-28
+48,ifo:internal_reference_id,20124353
+48,ifo:ctd_number,CTD2.6.4-7.1
+49,rdf:type,bibo:Document
+49,rdfs:label,"社内資料：OATP1B1 及び OATP1B3 に対する阻害作用"
+49,dct:dateAccepted,
+49,ifo:internal_reference_id,20143488
+49,ifo:ctd_number,
+50,rdf:type,bibo:Document
+50,rdfs:label,"社内資料：OAT1 及び OAT3 に対する阻害作用"
+50,dct:dateAccepted,
+50,ifo:internal_reference_id,20143489
+50,ifo:ctd_number,
+51,rdf:type,bibo:Document
+51,rdfs:label,"社内資料：OCT1 及び OCT2 に対する阻害作用 （シーブリ"
+51,dct:dateAccepted,2012-09-28
+51,ifo:internal_reference_id,20124355
+51,ifo:ctd_number,CTD2.6.4-7.1
+52,rdf:type,bibo:Document
+52,rdfs:label,社内資料：代謝酵素及びトランスポーターに対する誘導作用（シーブリ
+52,dct:dateAccepted,2012-09-28
+52,ifo:internal_reference_id,20124352
+52,ifo:ctd_number,CTD2.6.4-7.1
+53,rdf:type,bibo:Document
+53,rdfs:label,社内資料：代謝酵素の同定（オンブレス
+53,dct:dateAccepted,2011-07-01
+53,ifo:internal_reference_id,20113034
+53,ifo:ctd_number,CTD2.7.2-2.1.2.5
+54,rdf:type,bibo:Document
+54,rdfs:label,社内資料：外国人健康成人を対象とした反復投与試験
+54,dct:dateAccepted,
+54,ifo:internal_reference_id,20113029
+54,ifo:ctd_number,
+55,rdf:type,bibo:Document
+55,rdfs:label,社内資料：日本人及び白人健康成人を対象とした単回投与試験（シーブリ
+55,dct:dateAccepted,2012-09-28
+55,ifo:internal_reference_id,20124339
+55,ifo:ctd_number,CTD2.7.2-2.1.1
+56,rdf:type,bibo:Document
+56,rdfs:label,社内資料：日本人及び外国人健康成人を対象とした単回投与試験（オンブレス
+56,dct:dateAccepted,2011-07-01
+56,ifo:internal_reference_id,20113036
+56,ifo:ctd_number,CTD2.7.2-2.1.1.1
+57,rdf:type,bibo:Document
+57,rdfs:label,社内資料：腎機能低下が薬物動態に及ぼす影響（シーブリ
+57,dct:dateAccepted,2012-09-28
+57,ifo:internal_reference_id,20124342
+57,ifo:ctd_number,CTD2.7.2-2.1.2
+58,rdf:type,bibo:Document
+58,rdfs:label,社内資料：シメチジンとの薬物間相互作用
+58,dct:dateAccepted,
+58,ifo:internal_reference_id,20124341
+58,ifo:ctd_number,
+59,rdf:type,bibo:Document
+59,rdfs:label,社内資料：肝機能障害が薬物動態に及ぼす影響（オンブレス
+59,dct:dateAccepted,2011-07-01
+59,ifo:internal_reference_id,20113040
+59,ifo:ctd_number,CTD2.7.2-2.1.2.6
+60,rdf:type,bibo:Document
+60,rdfs:label,"社内資料：UGT1A1 変異型の薬物動態 （オンブレス"
+60,dct:dateAccepted,2011-07-01
+60,ifo:internal_reference_id,20113041
+60,ifo:ctd_number,CTD2.7.2-2.1.2.7
+61,rdf:type,bibo:Document
+61,rdfs:label,"社内資料：Core6 ヵ月 併合集団解析"
+61,dct:dateAccepted,
+61,ifo:internal_reference_id,20134486
+61,ifo:ctd_number,
+62,rdf:type,bibo:Document
+62,rdfs:label,"社内資料：Caco 2 細胞単層膜を用いた膜透過性試験 （オンブレス"
+62,dct:dateAccepted,2011-07-01
+62,ifo:internal_reference_id,20113035
+62,ifo:ctd_number,CTD2.6.4-7.2
+63,rdf:type,bibo:Document
+63,rdfs:label,社内資料：エリスロマイシンとの薬物間相互作用（オンブレス
+63,dct:dateAccepted,2011-07-01
+63,ifo:internal_reference_id,20113039
+63,ifo:ctd_number,CTD2.7.2-2.1.2.10
+64,rdf:type,bibo:Document
+64,rdfs:label,社内資料：ベラパミルとの薬物間相互作用（オンブレス
+64,dct:dateAccepted,2011-07-01
+64,ifo:internal_reference_id,20113038
+64,ifo:ctd_number,CTD2.7.2-2.1.2.9
+65,rdf:type,bibo:Document
+65,rdfs:label,"社内資料：リトナビル との薬物間相互作用"
+65,dct:dateAccepted,
+65,ifo:internal_reference_id,20134491
+65,ifo:ctd_number,
+66,rdf:type,bibo:Document
+66,rdfs:label,社内資料：ケトコナゾールとの薬物間相互作用（オンブレス
+66,dct:dateAccepted,2011-07-01
+66,ifo:internal_reference_id,20113037
+66,ifo:ctd_number,CTD2.7.2-2.1.2.8
+67,rdf:type,bibo:Article
+67,dct:references,24040847
+67,ifo:internal_reference_id,20143374
+68,rdf:type,bibo:Document
+68,rdfs:label,"社内資料：8 か国で実施した第Ⅱ相国際共同試験（ A2203 試験）"
+68,dct:dateAccepted,
+68,ifo:internal_reference_id,20134488
+68,ifo:ctd_number,
