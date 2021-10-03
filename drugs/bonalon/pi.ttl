@@ -1,0 +1,452 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/470310_3999018F1030_2_25#> .
+
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_0 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_1 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_2 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_3 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_3_1 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_3_2 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_4 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_5 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_6 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_7 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_8 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_9 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_9_1 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_9_2 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_9_3 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_9_4 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_9_5 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_9_6 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_9_7 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_9_8 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_10 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_10_1 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_10_2 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_11 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_11_1 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_11_2 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_12 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_13 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_14 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_15 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_15_1 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_15_2 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_16 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_16_1 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_16_2 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_16_3 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_16_4 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_16_5 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_16_6 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_16_7 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_16_8 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_17 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_17_1 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_17_2 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_17_3 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_18 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_18_1 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_19 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_20 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_21 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_22 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_23 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_24 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_25 .
+pi_root:470310_3999018F1030_2_25 pio:section pi:PI_26 .
+pi_root:470310_3999018F1030_2_25 dct:identifier "470310_3999018F1030_2_25" .
+pi_root:470310_3999018F1030_2_25 pio:company_identifier "470310" .
+pi_root:470310_3999018F1030_2_25 pio:date_of_preparation_or_revision "2021-07"^^xsd:date .
+pi_root:470310_3999018F1030_2_25 pio:version "第2版" .
+pi_root:470310_3999018F1030_2_25 pio:sccj_no "873999" .
+pi_root:470310_3999018F1030_2_25 pio:therapeutic_classification "骨粗鬆症治療剤" .
+pi_root:470310_3999018F1030_2_25 pio:approval_brand_name "ボナロン錠5mg" .
+pi_root:470310_3999018F1030_2_25 pio:yj_code "3999018F1030" .
+pi_root:470310_3999018F1030_2_25 pio:trademark_name "Bonalon Tablet 5mg" .
+pi_root:470310_3999018F1030_2_25 pio:name_in_hiragana "ぼなろん" .
+pi_root:470310_3999018F1030_2_25 pio:approval_no "21300AMZ00488000" .
+pi_root:470310_3999018F1030_2_25 pio:starting_date_of_marketing "2001-08"^^xsd:date .
+pi_root:470310_3999018F1030_2_25 pio:storage_method "室温保存" .
+pi_root:470310_3999018F1030_2_25 pio:shelf_life "3年" .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "食道狭窄又はアカラシア（食道弛緩不能症）等の食道通過を遅延させる障害のある患者［本剤の食道通過が遅延することにより、食道局所における副作用発現の危険性が高くなる。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "30分以上上体を起こしていることや立っていることのできない患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "本剤の成分あるいは他のビスホスホネート系薬剤に対し過敏症の既往歴のある患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item4 .
+pi:PI_2.item4 dct:description "低カルシウム血症の患者 ,"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "日局　アレンドロン酸ナトリウム水和物"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "1錠中6.53mg"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "アレンドロン酸として"@ja .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "5mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "無水乳糖"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "結晶セルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "クロスカルメロースナトリウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "ステアリン酸マグネシウム"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:formulation "錠剤" .
+pi:PI_3_2.item1 pio:weight "約200mg" .
+pi:PI_3_2.item1 pio:id_code "TJN BNT" .
+pi:PI_3_2.item1 pio:shape_front "470310_3999018F1030_2_25_fig01.gif" .
+pi:PI_3_2.item1 pio:shape_back "470310_3999018F1030_2_25_fig02.gif" .
+pi:PI_3_2.item1 pio:shape_side "470310_3999018F1030_2_25_fig03.gif" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 dct:description "骨粗鬆症"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 dct:description "本剤の適用にあたっては、日本骨代謝学会の診断基準等を参考に、骨粗鬆症との診断が確定している患者を対象とすること。"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "通常、成人にはアレンドロン酸として5mgを1日1回、毎朝起床時に水約180mLとともに経口投与する。 なお、服用後少なくとも30分は横にならず、飲食（水を除く）並びに他の薬剤の経口摂取も避けること。"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 pio:section pi:PI_7.item1 .
+pi:PI_7.item1 dct:description "本剤は水のみで服用すること。水以外の飲み物（Ca、Mg等の含量の特に高いミネラルウォーターを含む）、食物及び他の薬剤と一緒に服用すると、吸収を抑制するおそれがある。"@ja .
+pi:PI_7 pio:section pi:PI_7.item2 .
+pi:PI_7.item2 dct:description "食道及び局所への副作用の可能性を低下させるため、速やかに胃内へと到達させることが重要である。服用に際しては、以下の事項に注意すること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "本剤は咽喉頭、食道等の粘膜に対し局所刺激症状を引き起こすおそれがある。特に適切に服用しない患者では、食道、口腔内に重度の副作用が発現する可能性があるので、服用法について患者を十分指導し、理解させること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "本剤の投与により、上部消化管に関する副作用が報告されているので、観察を十分に行い、副作用の徴候又は症状（嚥下困難、嚥下痛又は胸骨下痛の発現又は胸やけの発現・悪化等）に注意し、患者に対して、これらの症状があらわれた場合は、本剤の服用を中止して診察を受けるよう指導すること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "患者には、食事等から十分なカルシウムを摂取させること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 dct:description "低カルシウム血症がある場合には、本剤投与前に低カルシウム血症を治療すること。また、ビタミンD欠乏症又はビタミンD代謝異常のようなミネラル代謝障害がある場合には、あらかじめ治療を行うこと。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item5 .
+pi:PI_8.item5 dct:description "ビスホスホネート系薬剤による治療を受けている患者において、顎骨壊死・顎骨骨髄炎があらわれることがある。報告された症例の多くが抜歯等の顎骨に対する侵襲的な歯科処置や局所感染に関連して発現している。リスク因子としては、悪性腫瘍、化学療法、血管新生阻害薬、コルチコステロイド治療、放射線療法、口腔の不衛生、歯科処置の既往等が知られている。 本剤の投与開始前は口腔内の管理状態を確認し、必要に応じて、患者に対し適切な歯科検査を受け、侵襲的な歯科処置をできる限り済ませておくよう指導すること。本剤投与中に侵襲的な歯科処置が必要になった場合には本剤の休薬等を考慮すること。 また、口腔内を清潔に保つこと、定期的な歯科検査を受けること、歯科受診時に本剤の使用を歯科医師に告知して侵襲的な歯科処置はできる限り避けることなどを患者に十分説明し、異常が認められた場合には、直ちに歯科・口腔外科を受診するように指導すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item6 .
+pi:PI_8.item6 dct:description "ビスホスホネート系薬剤を使用している患者において、外耳道骨壊死が発現したとの報告がある。これらの報告では、耳の感染や外傷に関連して発現した症例も認められることから、外耳炎、耳漏、耳痛等の症状が続く場合には、耳鼻咽喉科を受診するよう指導すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item7 .
+pi:PI_8.item7 dct:description "ビスホスホネート系薬剤を長期使用している患者において、非外傷性又は軽微な外力による大腿骨転子下、近位大腿骨骨幹部、近位尺骨骨幹部等の非定型骨折が発現したとの報告がある。これらの報告では、完全骨折が起こる数週間から数ヵ月前に大腿部、鼠径部、前腕部等において前駆痛が認められている報告もあることから、このような症状が認められた場合には、X線検査等を行い、適切な処置を行うこと。また、両側性の骨折が生じる可能性があることから、片側で非定型骨折が起きた場合には、反対側の部位の症状等を確認し、X線検査を行うなど、慎重に観察すること。X線検査時には骨皮質の肥厚等、特徴的な画像所見がみられており、そのような場合には適切な処置を行うこと。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "嚥下困難、食道炎、胃炎、十二指腸炎、又は潰瘍等の上部消化管障害がある患者"@ja .
+pi:PI_9_1.item1 dct:description "上部消化管粘膜に対し、刺激作用を示すことがあるので基礎疾患を悪化させるおそれがある。 ,"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item1 .
+pi:PI_9_2.item1 rdfs:title "重篤な腎機能障害のある患者"@ja .
+pi:PI_9_2.item1 dct:description "重篤な腎機能障害のある患者を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_4 dct:description "妊娠する可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。 ビスホスホネート系薬剤は骨基質に取り込まれた後に全身循環へ徐々に放出される。全身循環への放出量はビスホスホネート系薬剤の投与量・期間に相関する。ビスホスホネート系薬剤の中止から妊娠までの期間と危険性との関連は明らかではない。"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。 動物実験（ラット）でアレンドロン酸が乳汁中に移行することが報告されている。"@ja .
+pi:PI_9_7 dct:description "小児等の骨粗鬆症を対象とした臨床試験は実施していない。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2 pio:drug pi:PI_10_2.item1 .
+pi:PI_10_2.item1 a pio:PrecautionsForCombi .
+pi:PI_10_2.item1 pio:drug_name "カルシウム補給剤"@ja .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "本剤の服用後少なくとも30分経ってから服用すること。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "本剤は多価の陽イオン（Ca、Mg等）とキレートを形成することがあるので、併用すると本剤の吸収を低下させる。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。 副作用の頻度は5mg製剤（5mg/日）の臨床試験及び特定使用成績調査の合計より算出した。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "食道・口腔内障害"@ja .
+pi:PI_11_1.item1 dct:description "食道障害［食道穿孔（頻度不明）、食道狭窄（頻度不明）、食道潰瘍（0.04%）、食道炎（0.2%）、食道びらん（頻度不明）があらわれ、出血を伴う場合がある。］、口腔内潰瘍（頻度不明）があらわれることがある。徴候又は症状（吐血、下血、貧血、嚥下困難、嚥下痛、胸骨下痛、胸やけ、口腔内異和感、口内痛の発現・悪化等）に注意すること。 , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "胃・十二指腸障害"@ja .
+pi:PI_11_1.item2 dct:description "（出血性）胃・十二指腸潰瘍（0.4%）、出血性胃炎（0.02%）があらわれることがある。徴候又は症状（吐血、下血、貧血、上腹部痛、心窩部痛、上腹部不快感の発現・悪化等）に注意すること。 ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item3 .
+pi:PI_11_1.item3 rdfs:title "肝機能障害、黄疸（いずれも頻度不明）"@ja .
+pi:PI_11_1.item3 dct:description "AST、ALTの上昇を伴う肝機能障害、黄疸があらわれることがある。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item4 .
+pi:PI_11_1.item4 rdfs:title "低カルシウム血症（0.2%）"@ja .
+pi:PI_11_1.item4 dct:description "痙攣、テタニー、しびれ、失見当識、QT延長等を伴う低カルシウム血症があらわれることがある。異常が認められた場合にはカルシウム剤の点滴投与等を考慮すること。 , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item5 .
+pi:PI_11_1.item5 rdfs:title "中毒性表皮壊死融解症（Toxic Epidermal Necrolysis：TEN）、皮膚粘膜眼症候群（Stevens-Johnson症候群）（いずれも頻度不明）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item6 .
+pi:PI_11_1.item6 rdfs:title "顎骨壊死・顎骨骨髄炎（頻度不明）"@ja .
+pi:PI_11_1.item6 dct:description "                               "@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item7 .
+pi:PI_11_1.item7 rdfs:title "外耳道骨壊死（頻度不明）"@ja .
+pi:PI_11_1.item7 dct:description "                               "@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item8 .
+pi:PI_11_1.item8 rdfs:title "大腿骨転子下、近位大腿骨骨幹部、近位尺骨骨幹部等の非定型骨折（頻度不明）"@ja .
+pi:PI_11_1.item8 dct:description "                               "@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "嘔気、胃痛・心窩部痛、胃不快感・胃重感・腹部不快感" .
+pi:PI_11_2.item1.item1 pio:category "消化器" .
+pi:PI_11_2.item1.item1 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "口内乾燥、腹痛、嘔吐、食欲不振、腹部膨満感、口内炎、嚥下困難、胃酸逆流、咽喉頭痛、咽喉頭不快感、おくび、便秘、下痢、胃炎、消化不良" .
+pi:PI_11_2.item1.item2 pio:category "消化器" .
+pi:PI_11_2.item1.item2 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "鼓腸放屁、歯肉腫脹" .
+pi:PI_11_2.item1.item3 pio:category "消化器" .
+pi:PI_11_2.item1.item3 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "発疹、かゆみ、脱毛、湿疹、蕁麻疹" .
+pi:PI_11_2.item1.item4 pio:category "皮膚・皮膚付属器" .
+pi:PI_11_2.item1.item4 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "紅斑" .
+pi:PI_11_2.item1.item5 pio:category "皮膚・皮膚付属器" .
+pi:PI_11_2.item1.item5 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "血小板数減少、貧血（赤血球数減少、ヘモグロビン低下等）、白血球数減少" .
+pi:PI_11_2.item1.item6 pio:category "血液" .
+pi:PI_11_2.item1.item6 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "肝機能異常（AST上昇、ALT上昇、γ-GTP上昇等）" .
+pi:PI_11_2.item1.item7 pio:category "肝臓" .
+pi:PI_11_2.item1.item7 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "BUN上昇、頻尿、排尿困難" .
+pi:PI_11_2.item1.item8 pio:category "腎臓" .
+pi:PI_11_2.item1.item8 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "浮動性めまい、回転性めまい、知覚減退、頭痛" .
+pi:PI_11_2.item1.item9 pio:category "中枢・末梢神経系" .
+pi:PI_11_2.item1.item9 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "関節痛 、背（部）痛 、筋肉痛 、骨痛 、筋痙攣" .
+pi:PI_11_2.item1.item10 pio:category "筋・骨格系" .
+pi:PI_11_2.item1.item10 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item11 .
+pi:PI_11_2.item1.item11 a pio:AdverseEvent .
+pi:PI_11_2.item1.item11 pio:adverse_reaction "不眠（症）" .
+pi:PI_11_2.item1.item11 pio:category "精神・神経系" .
+pi:PI_11_2.item1.item11 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item12 .
+pi:PI_11_2.item1.item12 a pio:AdverseEvent .
+pi:PI_11_2.item1.item12 pio:adverse_reaction "血清リン低下、血清カリウム上昇" .
+pi:PI_11_2.item1.item12 pio:category "電解質代謝" .
+pi:PI_11_2.item1.item12 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item13 .
+pi:PI_11_2.item1.item13 a pio:AdverseEvent .
+pi:PI_11_2.item1.item13 pio:adverse_reaction "ぶどう膜炎、眼症状（かすみ、異和感等）、強膜炎、上強膜炎" .
+pi:PI_11_2.item1.item13 pio:category "眼" .
+pi:PI_11_2.item1.item13 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item14 .
+pi:PI_11_2.item1.item14 a pio:AdverseEvent .
+pi:PI_11_2.item1.item14 pio:adverse_reaction "総コレステロール値上昇、胸痛、倦怠（感）、味覚倒錯、血清アルブミン低下、末梢性浮腫、下肢痛、顔面浮腫、動悸、脱力（感）、発熱、気分不良、LDH上昇、CK上昇、血圧上昇" .
+pi:PI_11_2.item1.item14 pio:category "その他" .
+pi:PI_11_2.item1.item14 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item15 .
+pi:PI_11_2.item1.item15 a pio:AdverseEvent .
+pi:PI_11_2.item1.item15 pio:adverse_reaction "血管浮腫、ほてり（顔面紅潮、熱感等）" .
+pi:PI_11_2.item1.item15 pio:category "その他" .
+pi:PI_11_2.item1.item15 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:explanatory_notes_for_other_adverse "                       " .
+pi:PI_13 pio:section pi:PI_13.item1 .
+pi:PI_13.item1 rdfs:title "症状"@ja .
+pi:PI_13.item1 dct:description "低カルシウム血症、低リン酸血症、並びに上部消化管障害（胃不調、胸やけ、食道炎、胃炎、又は潰瘍等）が発現することがある。"@ja .
+pi:PI_13 pio:section pi:PI_13.item2 .
+pi:PI_13.item2 rdfs:title "処置"@ja .
+pi:PI_13.item2 dct:description "アレンドロン酸と結合させるために、ミルクあるいは制酸剤等の投与を考慮する。 食道に対する刺激の危険性があるので嘔吐を誘発してはならず、患者を立たせるか、上体を起こして座らせること。"@ja .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤交付時の注意"@ja .
+pi:PI_14.item1 dct:description "PTP包装の薬剤はPTPシートから取り出して服用するよう指導すること。 PTPシートの誤飲により、硬い鋭角部が食道粘膜に刺入し、更には穿孔を起こして縦隔洞炎等の重篤な合併症を併発することがある。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 dct:description "健康成人男子にアレンドロン酸として5、10、20及び40mgを含有する錠剤を、朝食の2時間前に単回経口投与したとき（各群n=5～6）の血清中アレンドロン酸濃度は、5及び10mg投与群では全例で定量限界（11.5ng/mL）未満であった。20mgでは6例中2例（13.1、18.3ng/mL）で、40mgでは6例中4例（13.8～79.3ng/mL）で投与2時間後にわずかに検出された 。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 dct:description "健康成人男子（n=6）に、アレンドロン酸として20mgを含有する錠剤を、朝食の2時間前に1日1回7日間反復経口投与したとき、血清中アレンドロン酸濃度は6例中の1例で投与4日目（27.0ng/mL）と7日目（19.0ng/mL）に、別の1例で7日目（11.7ng/mL）に、それぞれわずかに検出された他、すべて定量限界（11.5ng/mL）未満であった 。"@ja .
+pi:PI_16_2 dct:description "経口投与後のアレンドロン酸は血清中濃度が低く、薬物吸収の評価ができないため、唯一の消失経路である尿中排泄を吸収の指標とした。 , , , 生物学的利用率の幾何平均値は、非高齢者及び高齢者でそれぞれ2.49%及び2.83%であった 。"@ja .
+pi:PI_16_4 dct:description "アレンドロン酸ナトリウム水和物投与により、動物又はヒトで代謝物は認められていない。"@ja .
+pi:PI_16_5 pio:section pi:PI_16_5.item1 .
+pi:PI_16_5.item1 dct:description "健康成人男子にアレンドロン酸として5、10、20及び40mgを含有する錠剤を、朝食の2時間前に単回経口投与したとき（各群n=5～6）の投与後48時間までの尿中排泄率は0.65～1.41%（幾何平均値）であり、投与量による有意な差は認められなかった。そのほとんどは投与後6時間までに排泄された。"@ja .
+pi:PI_16_5 pio:section pi:PI_16_5.item2 .
+pi:PI_16_5.item2 dct:description "非高齢女性（閉経後60歳未満、n=8）及び高齢女性（閉経後65歳以上、n=8）に2期クロスオーバー法でアレンドロン酸ナトリウム水和物を経口（アレンドロン酸として5mg）及び静脈内点滴（アレンドロン酸として0.1mg）投与し、投与後48時間までの尿中排泄量を測定したとき、下記の結果が得られている 。"@ja .
+pi:PI_16_5 pio:table pi:PI_16_5.item2.table1 .
+pi:PI_16_5.item2.table1 pio:row pi:PI_16_5.item2.table1.row1 .
+pi:PI_16_5.item2.table1.row1 pio:column pi:PI_16_5.item2.table1.row1.column1 .
+pi:PI_16_5.item2.table1.row1.column1 rdf:value "対象" .
+pi:PI_16_5.item2.table1.row1 pio:column pi:PI_16_5.item2.table1.row1.column2 .
+pi:PI_16_5.item2.table1.row1.column2 rdf:value "尿中排泄率 （%）" .
+pi:PI_16_5.item2.table1.row1 pio:column pi:PI_16_5.item2.table1.row1.column3 .
+pi:PI_16_5.item2.table1.row1.column3 rdf:value "尿中排泄率 （%）" .
+pi:PI_16_5.item2.table1 pio:row pi:PI_16_5.item2.table1.row2 .
+pi:PI_16_5.item2.table1.row2 pio:column pi:PI_16_5.item2.table1.row2.column1 .
+pi:PI_16_5.item2.table1.row2.column1 rdf:value "対象" .
+pi:PI_16_5.item2.table1.row2 pio:column pi:PI_16_5.item2.table1.row2.column2 .
+pi:PI_16_5.item2.table1.row2.column2 rdf:value "静脈内投与" .
+pi:PI_16_5.item2.table1.row2 pio:column pi:PI_16_5.item2.table1.row2.column3 .
+pi:PI_16_5.item2.table1.row2.column3 rdf:value "経口投与" .
+pi:PI_16_5.item2.table1 pio:row pi:PI_16_5.item2.table1.row3 .
+pi:PI_16_5.item2.table1.row3 pio:column pi:PI_16_5.item2.table1.row3.column1 .
+pi:PI_16_5.item2.table1.row3.column1 rdf:value "非高齢者" .
+pi:PI_16_5.item2.table1.row3 pio:column pi:PI_16_5.item2.table1.row3.column2 .
+pi:PI_16_5.item2.table1.row3.column2 rdf:value "44.7" .
+pi:PI_16_5.item2.table1.row3 pio:column pi:PI_16_5.item2.table1.row3.column3 .
+pi:PI_16_5.item2.table1.row3.column3 rdf:value "1.11" .
+pi:PI_16_5.item2.table1 pio:row pi:PI_16_5.item2.table1.row4 .
+pi:PI_16_5.item2.table1.row4 pio:column pi:PI_16_5.item2.table1.row4.column1 .
+pi:PI_16_5.item2.table1.row4.column1 rdf:value "高齢者" .
+pi:PI_16_5.item2.table1.row4 pio:column pi:PI_16_5.item2.table1.row4.column2 .
+pi:PI_16_5.item2.table1.row4.column2 rdf:value "44.1" .
+pi:PI_16_5.item2.table1.row4 pio:column pi:PI_16_5.item2.table1.row4.column3 .
+pi:PI_16_5.item2.table1.row4.column3 rdf:value "1.25" .
+pi:PI_16_5 pio:section pi:PI_16_5.item3 .
+pi:PI_16_5.item3 dct:description "海外で行われた試験において、閉経後女性にアレンドロン酸として10mgを含有する錠剤を、単回経口投与（朝食の2、1、0.5時間前、直後及び2時間後の5期クロスオーバー法）したとき（n=49）の投与後36時間までの尿中排泄量（幾何平均値）は、朝食2、1及び0.5時間前の投与ではそれぞれ12.68μg、8.88μg及び6.78μgであり、朝食2時間前に投与した場合が最も多かった。一方、朝食直後及び2時間後の投与では多くが定量限界（1ng/mL）未満であった。"@ja .
+pi:PI_16_5 pio:section pi:PI_16_5.item4 .
+pi:PI_16_5.item4 dct:description "海外で行われた試験において、閉経後女性にアレンドロン酸として10mgを含有する錠剤を、水、コーヒー又はオレンジジュースと同時に単回経口投与（3期クロスオーバー法）したとき（n=40）の投与後24時間までの尿中排泄量（幾何平均値）は、水（19.20μg）を同時に摂取した場合と比べ、コーヒー（7.43μg）、オレンジジュース（6.77μg）では約60%減少した 。"@ja .
+pi:PI_16_5 dct:description "（注）本剤の承認された用法及び用量はアレンドロン酸として1日1回5mgである。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:title "骨密度試験"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item1 .
+pi:PI_17_1.item1 rdfs:title "国内第Ⅲ相試験"@ja .
+pi:PI_17_1.item1 dct:description "退行期骨粗鬆症患者207例における48週間の二重盲検試験（骨密度）において、本剤投与群（5mg/日）の腰椎骨密度の増加率（投与48週後）は6.2%であり、対照薬に比して統計的に有意（unpaired t-test）な骨密度増加効果を示した 。また、投与開始12週間後には3.5%の骨密度増加を示し、対照薬に比して統計的に有意（unpaired t-test）な骨密度増加効果が認められた 。 本試験における本剤投与群（5mg/日）の副作用の発現頻度は18.6%（19/102例）で、主な副作用は胃不快感2.9%（3/102例）、胃痛2.9%（3/102例）、軟便2.0%（2/102例）、めまい2.0%（2/102例）、背部痛2.0%（2/102例）であった。臨床検査値異常変動の発現頻度は15.2%（15/99例）で、主な臨床検査値異常変動はLDH上昇（5/99例）、CK上昇（4/99例）であった。 退行期骨粗鬆症患者120例における96週間の長期投与試験において、本剤5mg/日投与群の腰椎骨密度の増加率（投与96週後）は8.7%であった 。 本試験における本剤5mg/日投与群の副作用の発現頻度は23.0%（14/61例）で、主な副作用は嘔気（3/61例）、頭痛（2/61例）、腹部不快感（2/61例）であった。臨床検査値異常変動の発現頻度は8.6%（5/58例）で、主な臨床検査値異常変動はLDH上昇（3/58例）、CK上昇（2/58例）であった。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item2 .
+pi:PI_17_1.item1 rdfs:title "海外第Ⅲ相試験（参考）"@ja .
+pi:PI_17_1.item1 dct:description "第Ⅲ相プラセボ対照二重盲検比較試験に参加した閉経後骨粗鬆症女性に対し10年間の治療効果について検討した。その結果、本剤10mg/日投与の腰椎骨密度は、本剤投与期間中増加し続けることが確認され、試験開始時と比較して10年終了時の腰椎骨密度は13.7%増加した。同様に、大腿骨近位部骨密度は6.7%増加した 。 なお、腰椎骨密度増加は、国内における本剤5mg/日投与時と海外における10mg/日投与時で類似することが示されている 。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:title "骨折試験"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2.item1 .
+pi:PI_17_1.item2 rdfs:title "国内第Ⅲ相試験"@ja .
+pi:PI_17_1.item2 dct:description "退行期骨粗鬆症患者365例における2年間の二重盲検比較試験（骨折発生頻度）において、胸腰椎の新規骨折発生率は本剤投与（5mg/日）で12.2%、対照薬（アルファカルシドール、1μg/日）で16.7%であり、対照薬に対する本剤の非劣性が検証された。この試験において、投与6ヵ月以降に発生した胸腰椎の新規骨折発生率は、本剤投与では対照薬に比して8.4%低く統計的に有意差を認めた（相対危険減少率66%）。また、2年間における胸腰椎での複数の新規骨折発生率は本剤投与では対照薬に比して4.9%低かった（相対危険減少率67%） 。さらに、延長試験として実施された3年間の成績においても投与6ヵ月以降に発生した胸腰椎の新規骨折発生率は、本剤投与（5mg/日）で7.8%、対照薬で18.8%であり、本剤の有意な椎体骨折抑制効果が3年間にわたり確認された 。 本試験における本剤投与（5mg/日）の副作用の発現頻度は23.2%（44/190例）で、主な副作用は胃炎5.3%（10/190例）、便秘2.6%（5/190例）、胃潰瘍2.1%（4/190例）であった。臨床検査値異常変動の発現頻度は14.5%（25/173例）で、主な臨床検査値異常変動はヘモグロビン低下（6/173例）、ヘマトクリット低下（5/173例）、γ-GTP上昇（5/173例）であった。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2.item2 .
+pi:PI_17_1.item2 rdfs:title "海外第Ⅲ相試験（参考）"@ja .
+pi:PI_17_1.item2 dct:description "閉経後骨粗鬆症患者2,027例における3年間のプラセボ対照二重盲検比較試験において、最初の2年間は5mg/日、3年目は10mg/日投与した結果は下表のとおりである 。"@ja .
+pi:PI_17_1.item2 dct:description "なお、本剤投与後の平均腰椎骨密度増加率は、海外における10mg/日投与12ヵ月後の値と国内における5mg/日投与48週後の値に類似性が認められた 。また、本剤の骨密度増加効果と骨折抑制効果は相関することが確認されている 。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item2.item2.table1 .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row1 .
+pi:PI_17_1.item2.item2.table1.row1 pio:column pi:PI_17_1.item2.item2.table1.row1.column1 .
+pi:PI_17_1.item2.item2.table1.row1.column1 rdf:value "骨折の種類" .
+pi:PI_17_1.item2.item2.table1.row1 pio:column pi:PI_17_1.item2.item2.table1.row1.column2 .
+pi:PI_17_1.item2.item2.table1.row1.column2 rdf:value "骨折抑制率（%）" .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row2 .
+pi:PI_17_1.item2.item2.table1.row2 pio:column pi:PI_17_1.item2.item2.table1.row2.column1 .
+pi:PI_17_1.item2.item2.table1.row2.column1 rdf:value "胸腰椎の新規骨折" .
+pi:PI_17_1.item2.item2.table1.row2 pio:column pi:PI_17_1.item2.item2.table1.row2.column2 .
+pi:PI_17_1.item2.item2.table1.row2.column2 rdf:value "47%" .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row3 .
+pi:PI_17_1.item2.item2.table1.row3 pio:column pi:PI_17_1.item2.item2.table1.row3.column1 .
+pi:PI_17_1.item2.item2.table1.row3.column1 rdf:value "2個以上の胸腰椎の新規骨折" .
+pi:PI_17_1.item2.item2.table1.row3 pio:column pi:PI_17_1.item2.item2.table1.row3.column2 .
+pi:PI_17_1.item2.item2.table1.row3.column2 rdf:value "90%" .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row4 .
+pi:PI_17_1.item2.item2.table1.row4 pio:column pi:PI_17_1.item2.item2.table1.row4.column1 .
+pi:PI_17_1.item2.item2.table1.row4.column1 rdf:value "新規大腿骨近位部骨折" .
+pi:PI_17_1.item2.item2.table1.row4 pio:column pi:PI_17_1.item2.item2.table1.row4.column2 .
+pi:PI_17_1.item2.item2.table1.row4.column2 rdf:value "51%" .
+pi:PI_17_1 dct:description "（注）本剤の承認された用法及び用量はアレンドロン酸として1日1回5mgである。"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "アレンドロン酸は骨のハイドロキシアパタイトに強い親和性を持ち、ラットでは破骨細胞が存在する骨表面に選択的に分布した。アレンドロン酸は破骨細胞に取り込まれた後その活性を抑制することにより、骨吸収を減少させる 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "骨量減少に対する作用"@ja .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "骨石灰化に対する影響"@ja .
+pi:PI_18.item2 dct:description "アレンドロン酸ナトリウム水和物は、上記の骨量減少モデルにおいて1年以上の投与（ラット: 1年、ヒヒ: 2年）を行ったとき、骨量減少を抑制する投与量では骨石灰化障害を示唆する結果が得られていない 。成長過程のラット（Schenk評価系）において、骨吸収を抑制する投与量は骨石灰化を障害する投与量の約1/6000であり、広い安全域が示されている。"@ja .
+pi:PI_18 pio:section pi:PI_18.item3 .
+pi:PI_18.item3 rdfs:label "骨強度、骨折治癒過程に対する影響"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "アレンドロン酸ナトリウム水和物（Alendronate Sodium Hydrate）" .
+pi:PI_19 pio:chemical_name "Monosodium trihydrogen 4-amino-1-hydroxybutane-1, 1-diyldiphosphonate trihydrate" .
+pi:PI_19 pio:molecular_formula "C H NNaO P ・3H O" .
+pi:PI_19 pio:molecular_weight "325.12" .
+pi:PI_19 pio:description_of_active_ingredients "白色の結晶性の粉末である。水にやや溶けにくく、エタノール（99.5）にほとんど溶けない。0.1mol/Lクエン酸三ナトリウム試液に溶ける。" .
+pi:PI_19 pio:melting_point "約252℃（分解、ただし乾燥後）" .
+pi:PI_22.item0 dct:description "PTP: 100錠（10錠×10）"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "中島光好、他. 臨床薬理. 1995; 26: 475-89." .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "坪井實、他. 診療と新薬. 1998; 35: 43-9." .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "Gertz BJ, et al. Clin Pharmacol Ther. 1995; 58: 288-98." .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "Shiraki M, et al. Osteoporos Int. 1999; 10: 183-92." .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "岸本英彰、他. 診療と新薬. 1998; 35: 19-41." .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "Bone HG, et al. N Engl J Med. 2004; 350: 1189-99." .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "Liberman UA, et al. N Engl J Med. 1995; 333: 1437-43." .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "Kushida K, et al. Curr Ther Res. 2002; 63: 606-20." .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "Kushida K, et al. J Bone Miner Metab. 2004; 22: 462-8." .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "Black DM, et al. Lancet. 1996; 348: 1535-41." .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "Hochberg MC, et al. Arthritis Rheum. 1999; 42: 1246-54." .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "Masarachia P, et al. Bone. 1996; 19: 281-90." .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "Sato M, et al. J Clin Invest. 1991; 88: 2095-105." .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "Azuma Y, et al. J Pharmacol Exp Ther. 1998; 286: 128-35." .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "Balena R, et al. J Clin Invest. 1993; 92: 2577-86." .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "Peter CP, et al. J Pharmacol Exp Ther. 1996; 276: 271-6." .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "Balena R, et al. J Pharmacol Exp Ther. 1996; 276: 277-83." .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "Peter CP, et al. J Orthop Res. 1996; 14: 74-9." .
+pi:PI_23.item18 pio:id "DOC_18" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "帝人ファーマ株式会社　メディカル情報グループ"@ja .
+pi:PI_24.item1 pio:address "〒100-8585　東京都千代田区霞が関3丁目2番1号"@ja .
+pi:PI_24.item1 pio:contact_information "フリーダイヤル　0120-189-315"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "帝人ファーマ株式会社"@ja .
+pi:PI_26.item1 pio:address "東京都千代田区霞が関3丁目2番1号"@ja .
