@@ -1,0 +1,472 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/630004_1319405A1027_1_12#> .
+
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_0 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_1 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_2 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_3 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_3_1 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_3_2 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_4 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_5 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_6 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_7 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_8 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_9 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_9_1 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_9_2 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_9_3 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_9_4 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_9_5 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_9_6 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_9_7 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_9_8 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_10 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_10_1 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_10_2 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_11 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_11_1 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_11_2 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_12 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_13 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_14 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_15 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_15_1 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_15_2 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_16 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_16_1 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_16_2 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_16_3 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_16_4 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_16_5 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_16_6 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_16_7 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_16_8 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_17 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_17_1 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_17_2 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_17_3 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_18 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_18_1 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_19 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_20 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_21 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_22 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_23 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_24 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_25 .
+pi_root:630004_1319405A1027_1_12 pio:section pi:PI_26 .
+pi_root:630004_1319405A1027_1_12 dct:identifier "630004_1319405A1027_1_12" .
+pi_root:630004_1319405A1027_1_12 pio:company_identifier "630004" .
+pi_root:630004_1319405A1027_1_12 pio:date_of_preparation_or_revision "2020-03"^^xsd:date .
+pi_root:630004_1319405A1027_1_12 pio:version "第1版" .
+pi_root:630004_1319405A1027_1_12 pio:sccj_no "871319" .
+pi_root:630004_1319405A1027_1_12 pio:therapeutic_classification "" .
+pi_root:630004_1319405A1027_1_12 pio:approval_brand_name "アイリーア硝子体内注射液40mg/mL" .
+pi_root:630004_1319405A1027_1_12 pio:yj_code "1319405A1027" .
+pi_root:630004_1319405A1027_1_12 pio:trademark_name "EYLEA solution for IVT inj. 40mg/mL" .
+pi_root:630004_1319405A1027_1_12 pio:name_in_hiragana "あいりーあしょうしたいないちゅうしゃえき40mg/mL" .
+pi_root:630004_1319405A1027_1_12 pio:approval_no "22400AMX01389000" .
+pi_root:630004_1319405A1027_1_12 pio:starting_date_of_marketing "2012-11"^^xsd:date .
+pi_root:630004_1319405A1027_1_12 pio:storage_method "凍結を避け、2～8℃で保存" .
+pi_root:630004_1319405A1027_1_12 pio:shelf_life "24ヵ月" .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "眼又は眼周囲に感染のある患者、あるいは感染の疑いのある患者［眼内炎等の重篤な副作用が発現するおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "眼内に重度の炎症のある患者［炎症が悪化するおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item4 .
+pi:PI_2.item4 dct:description "妊婦又は妊娠している可能性のある女性"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "1回の投与量（0.05mL）中 アフリベルセプト（遺伝子組換え）"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "2mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "リン酸二水素ナトリウム"@ja .
+pi:PI_3_1.item1.additive1 pio:value_and_unit "0.307mg/バイアル"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "リン酸一水素ナトリウム"@ja .
+pi:PI_3_1.item1.additive2 pio:value_and_unit "0.149mg/バイアル"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item1.additive3 pio:value_and_unit "0.65mg/バイアル"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "精製白糖"@ja .
+pi:PI_3_1.item1.additive4 pio:value_and_unit "13.9mg/バイアル"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "ポリソルベート20"@ja .
+pi:PI_3_1.item1.additive5 pio:value_and_unit "0.083mg/バイアル"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:formulation "澄明の液" .
+pi:PI_3_2.item1 pio:color_tone "無色～微黄色" .
+pi:PI_3_2.item1 pio:osmotic_ratio "約1（生理食塩液に対する比）" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 pio:section pi:PI_4.item1 .
+pi:PI_4.item1 dct:description "中心窩下脈絡膜新生血管を伴う加齢黄斑変性"@ja .
+pi:PI_4 pio:section pi:PI_4.item2 .
+pi:PI_4.item2 dct:description "網膜静脈閉塞症に伴う黄斑浮腫"@ja .
+pi:PI_4 pio:section pi:PI_4.item3 .
+pi:PI_4.item3 dct:description "病的近視における脈絡膜新生血管"@ja .
+pi:PI_4 pio:section pi:PI_4.item4 .
+pi:PI_4.item4 dct:description "糖尿病黄斑浮腫"@ja .
+pi:PI_4 pio:section pi:PI_4.item5 .
+pi:PI_4.item5 dct:description "血管新生緑内障"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 pio:section pi:PI_5.item1 .
+pi:PI_5.item1 rdfs:label "〈効能共通〉"@ja .
+pi:PI_5 pio:section pi:PI_5.item2 .
+pi:PI_5.item2 rdfs:label "〈網膜静脈閉塞症に伴う黄斑浮腫〉"@ja .
+pi:PI_5 pio:section pi:PI_5.item3 .
+pi:PI_5.item3 rdfs:label "〈血管新生緑内障〉"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 pio:section pi:PI_6.item1 .
+pi:PI_6.item1 rdfs:label "〈中心窩下脈絡膜新生血管を伴う加齢黄斑変性〉"@ja .
+pi:PI_6.item1 dct:description "アフリベルセプト（遺伝子組換え）として2mg（0.05mL）を1ヵ月ごとに1回、連続3回（導入期）硝子体内投与する。その後の維持期においては、通常、2ヵ月ごとに1回、硝子体内投与する。なお、症状により投与間隔を適宜調節するが、1ヵ月以上あけること。"@ja .
+pi:PI_6 pio:section pi:PI_6.item2 .
+pi:PI_6.item2 rdfs:label "〈網膜静脈閉塞症に伴う黄斑浮腫、病的近視における脈絡膜新生血管〉"@ja .
+pi:PI_6.item2 dct:description "アフリベルセプト（遺伝子組換え）として1回あたり2mg（0.05mL）を硝子体内投与する。投与間隔は、1ヵ月以上あけること。"@ja .
+pi:PI_6 pio:section pi:PI_6.item3 .
+pi:PI_6.item3 rdfs:label "〈糖尿病黄斑浮腫〉"@ja .
+pi:PI_6.item3 dct:description "アフリベルセプト（遺伝子組換え）として2mg（0.05mL）を1ヵ月ごとに1回、連続5回硝子体内投与する。その後は、通常、2ヵ月ごとに1回、硝子体内投与する。なお、症状により投与間隔を適宜調節するが、1ヵ月以上あけること。"@ja .
+pi:PI_6 pio:section pi:PI_6.item4 .
+pi:PI_6.item4 rdfs:label "〈血管新生緑内障〉"@ja .
+pi:PI_6.item4 dct:description "アフリベルセプト（遺伝子組換え）として1回、2mg（0.05mL）を硝子体内投与する。なお、必要な場合は再投与できるが、1ヵ月以上の間隔をあけること。"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 pio:section pi:PI_7.item1 .
+pi:PI_7.item1 rdfs:label "〈効能共通〉"@ja .
+pi:PI_7 pio:section pi:PI_7.item2 .
+pi:PI_7.item2 rdfs:label "〈網膜静脈閉塞症に伴う黄斑浮腫〉"@ja .
+pi:PI_7 pio:section pi:PI_7.item3 .
+pi:PI_7.item3 rdfs:label "〈病的近視における脈絡膜新生血管〉"@ja .
+pi:PI_7 pio:section pi:PI_7.item4 .
+pi:PI_7.item4 rdfs:label "〈血管新生緑内障〉"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 rdfs:label "〈効能共通〉"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 rdfs:label "〈中心窩下脈絡膜新生血管を伴う加齢黄斑変性、網膜静脈閉塞症に伴う黄斑浮腫、病的近視における脈絡膜新生血管、糖尿病黄斑浮腫〉"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 rdfs:label "〈血管新生緑内障〉"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "緑内障、高眼圧症の患者"@ja .
+pi:PI_9_1.item1 dct:description ","@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item2 .
+pi:PI_9_1.item2 rdfs:title "脳卒中又は一過性脳虚血発作の既往歴等の脳卒中の危険因子のある患者"@ja .
+pi:PI_9_1.item2 dct:description ","@ja .
+pi:PI_9_4 dct:description "妊娠可能な女性には、本剤投与中（最終投与後3ヵ月以上）、適切な避妊法を用いるよう指導すること。なお、ウサギの胚・胎児毒性試験で、胎児奇形がみられた最低用量における最高血漿中濃度は259ng/mLであり、安全域は明確になっていないため、本剤投与中止後の適切な避妊期間は明らかでない。 ,"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には投与しないこと。ウサギの胚・胎児毒性試験（3～60mg/kgを器官形成期に静脈内投与）において、母動物の体重減少、流産、着床後胚死亡及び胎児奇形（外表、内臓及び骨格奇形）の増加が報告されている。別のウサギ胚・胎児毒性試験（0.1～1mg/kgを妊娠1日～器官形成期に皮下投与）において、胎児奇形（外表、内臓及び骨格奇形）の増加が報告されている。妊娠ウサギにおいて、本剤の胎盤通過性が認められた。 ,"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。ヒト母乳中への移行は不明である。"@ja .
+pi:PI_9_7 dct:description "小児等を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_8 dct:description "一般に生理機能が低下している。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "眼障害"@ja .
+pi:PI_11_1.item1 dct:description "眼内炎（0.2%）、眼圧上昇（4.3%）、硝子体はく離（1.2%）、外傷性白内障（0.7%）、網膜出血（0.6%）、網膜色素上皮裂孔（0.4%）、硝子体出血（0.4%）、網膜はく離（0.06%）、網膜裂孔（0.09%）、網膜色素上皮はく離（0.03%）があらわれることがある。 , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "脳卒中（0.2%）"@ja .
+pi:PI_11_1.item2 dct:description ","@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "結膜出血（23.2%）" .
+pi:PI_11_2.item1.item1 pio:category "眼" .
+pi:PI_11_2.item1.item1 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "眼充血、点状角膜炎" .
+pi:PI_11_2.item1.item2 pio:category "眼" .
+pi:PI_11_2.item1.item2 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "白内障、角膜擦過傷、角膜浮腫、角膜びらん、角膜上皮欠損、角膜障害、角膜炎、前房内細胞、前房のフレア、結膜充血、結膜刺激、結膜浮腫、結膜炎、アレルギー性結膜炎、後のう部混濁、虹彩毛様体炎、ブドウ膜炎、前房蓄膿、虹彩炎、前房出血" .
+pi:PI_11_2.item1.item3 pio:category "眼" .
+pi:PI_11_2.item1.item3 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "硝子体浮遊物" .
+pi:PI_11_2.item1.item4 pio:category "眼" .
+pi:PI_11_2.item1.item4 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "硝子体細胞、硝子体混濁、黄斑線維症、黄斑浮腫、黄斑円孔、黄斑部瘢痕、網膜変性、網膜浮腫、網膜下線維症、網膜色素脱失、網膜色素上皮症、網膜分離症、硝子体炎" .
+pi:PI_11_2.item1.item5 pio:category "眼" .
+pi:PI_11_2.item1.item5 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "注射部位疼痛、注射部位出血" .
+pi:PI_11_2.item1.item6 pio:category "眼" .
+pi:PI_11_2.item1.item6 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "注射部位刺激感、注射部位紅斑、注射部位不快感、注射部位乾燥、注射部位炎症、注射部位浮腫、注射部位腫脹、注射部位血腫" .
+pi:PI_11_2.item1.item7 pio:category "眼" .
+pi:PI_11_2.item1.item7 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "眼痛" .
+pi:PI_11_2.item1.item8 pio:category "眼" .
+pi:PI_11_2.item1.item8 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "眼の異物感、眼刺激、流涙増加、霧視、眼部不快感" .
+pi:PI_11_2.item1.item9 pio:category "眼" .
+pi:PI_11_2.item1.item9 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "眼脂、眼乾燥、眼そう痒症、眼の異常感、眼瞼浮腫、眼瞼縁痂皮、眼瞼痛、眼瞼炎、眼窩周囲血腫、眼部腫脹、高眼圧症、羞明、視力障害、変視症、光視症、処置による疼痛、視力低下" .
+pi:PI_11_2.item1.item10 pio:category "眼" .
+pi:PI_11_2.item1.item10 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item11 .
+pi:PI_11_2.item1.item11 a pio:AdverseEvent .
+pi:PI_11_2.item1.item11 pio:adverse_reaction "そう痒症、紅斑" .
+pi:PI_11_2.item1.item11 pio:category "皮膚" .
+pi:PI_11_2.item1.item11 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item12 .
+pi:PI_11_2.item1.item12 a pio:AdverseEvent .
+pi:PI_11_2.item1.item12 pio:adverse_reaction "高血圧、収縮期血圧上昇" .
+pi:PI_11_2.item1.item12 pio:category "循環器" .
+pi:PI_11_2.item1.item12 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item13 .
+pi:PI_11_2.item1.item13 a pio:AdverseEvent .
+pi:PI_11_2.item1.item13 pio:adverse_reaction "会話障害、頭痛" .
+pi:PI_11_2.item1.item13 pio:category "精神神経系" .
+pi:PI_11_2.item1.item13 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item14 .
+pi:PI_11_2.item1.item14 a pio:AdverseEvent .
+pi:PI_11_2.item1.item14 pio:adverse_reaction "悪心" .
+pi:PI_11_2.item1.item14 pio:category "消化器" .
+pi:PI_11_2.item1.item14 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item15 .
+pi:PI_11_2.item1.item15 a pio:AdverseEvent .
+pi:PI_11_2.item1.item15 pio:adverse_reaction "タンパク尿、尿中タンパク/クレアチニン比増加" .
+pi:PI_11_2.item1.item15 pio:category "泌尿器" .
+pi:PI_11_2.item1.item15 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item16 .
+pi:PI_11_2.item1.item16 a pio:AdverseEvent .
+pi:PI_11_2.item1.item16 pio:adverse_reaction "不快感、鼻出血、薬物過敏症、針恐怖" .
+pi:PI_11_2.item1.item16 pio:category "その他" .
+pi:PI_11_2.item1.item16 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:explanatory_notes_for_other_adverse "                       " .
+pi:PI_13 pio:section pi:PI_13.item1 .
+pi:PI_13.item1 rdfs:title "症状"@ja .
+pi:PI_13.item1 dct:description "臨床試験において、一過性の眼圧上昇が報告されている。投与容量の増加に伴い眼圧が上昇することがある。"@ja .
+pi:PI_13 pio:section pi:PI_13.item2 .
+pi:PI_13.item2 rdfs:title "処置"@ja .
+pi:PI_13.item2 dct:description "眼圧を測定し、異常が認められた場合には適切な処置を行うこと。"@ja .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤投与前の注意"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item1 .
+pi:PI_14.item1.item1 dct:desctiption "本剤は、注射前に室温に戻すこと。室温に放置した時間が24時間を超えないように使用すること。未開封で室温に放置した時間が24時間を超えない限り、再度冷蔵保存することができるが、必要最小限に留めること。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item2 .
+pi:PI_14.item1.item2 dct:desctiption "目視による確認を行い、注射液に微粒子、混濁又は変色が認められる場合、容器に破損が認められる場合等、異常が認められる場合には使用しないこと。"@ja .
+pi:PI_15_1 pio:section pi:PI_15_1.item1 .
+pi:PI_15_1.item1 dct:description "本剤投与により、全身のVEGF阻害に起因する動脈血栓塞栓に関連する有害事象（心筋梗塞、脳卒中、血管死等）が発現する可能性がある。滲出型加齢黄斑変性患者を対象に国内外で実施された第Ⅲ相試験［2試験の併合解析（2年間）］における動脈血栓塞栓関連事象の発現率は、本剤投与群全体で3.3%（1824例中60例）であった。網膜中心静脈閉塞症に伴う黄斑浮腫を有する患者を対象に国内外で実施された第Ⅲ相試験［2試験（76週間と100週間）の併合解析］における動脈血栓塞栓関連事象の発現率は、本剤投与群全体で0.6%（317例中2例）であった。網膜静脈分枝閉塞症に伴う黄斑浮腫を有する患者を対象に国内外で実施された第Ⅲ相試験［1試験（52週間）］における動脈血栓塞栓関連事象の発現率は、本剤投与群全体で0.6%（158例中1例）であった。病的近視における脈絡膜新生血管患者を対象に国内外で実施された第Ⅲ相試験［1試験（48週間）］における動脈血栓塞栓関連事象の発現率は、本剤投与群全体で0.9%（116例中1例）であった。糖尿病黄斑浮腫を有する患者を対象に国内外で実施された第Ⅲ相試験［3試験（1年間）の併合解析］における動脈血栓塞栓関連事象の発現率は、本剤投与群全体で2.9%（730例中21例）であった。血管新生緑内障患者を対象に国内で実施された第Ⅲ相試験［2試験（13週間と5週間）］における動脈血栓塞栓関連事象の発現率は、本剤投与群全体で1.5%（66例中1例）であった。 ,"@ja .
+pi:PI_15_1 pio:section pi:PI_15_1.item2 .
+pi:PI_15_1.item2 dct:description "本剤投与により、抗アフリベルセプト抗体が発現することがある。"@ja .
+pi:PI_15_1 pio:section pi:PI_15_1.item3 .
+pi:PI_15_1.item3 dct:description "本剤単独とベルテポルフィンによる光線力学的療法の併用を比較した試験は実施されておらず、本剤とベルテポルフィンを併用した場合の有効性及び安全性が本剤単独時に比べて優れているとの結果は得られていない。"@ja .
+pi:PI_15_2 dct:description "サルに4週間間隔で8ヵ月間硝子体内反復投与後の病理組織学的検査において、2及び4mg/眼投与群の鼻粘膜（鼻甲介呼吸上皮）に軽度なびらん又は潰瘍を示す動物が観察されたが、休薬により回復する可逆性変化であった。0.5mg/眼投与群に当該所見は認められず、当該用量（無毒性量）における血漿中遊離型アフリベルセプトの曝露量は、臨床で2mgを硝子体内反復投与したときの定常状態におけるCmax及びAUCのそれぞれ42倍及び56倍に相当した。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:title "単回硝子体内投与"@ja .
+pi:PI_16_1.item1 dct:description "外国人滲出型加齢黄斑変性患者（6例）に本剤2mgを硝子体内投与したとき、遊離型アフリベルセプトは投与後1～3日目に最高血漿中濃度（Cmax）に達し、Cmaxの平均値は約20ng/mL（0～54ng/mL）であった 。血漿中遊離型アフリベルセプトは、6例中3例では全ての測定時点で定量下限未満であり、投与2週間後にはほとんどの患者で検出されなかった。投与後の被験者ごとの血漿中遊離型アフリベルセプト濃度推移及び薬物動態パラメータの要約を以下に示す。"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.table1 .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row1 .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column1 .
+pi:PI_16_1.item1.table1.row1.column1 rdf:value "パラメータ" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column2 .
+pi:PI_16_1.item1.table1.row1.column2 rdf:value "N/N&gt;LLOQ" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column3 .
+pi:PI_16_1.item1.table1.row1.column3 rdf:value "平均±標準偏差（範囲）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row2 .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column1 .
+pi:PI_16_1.item1.table1.row2.column1 rdf:value "Cmax（ng/mL）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column2 .
+pi:PI_16_1.item1.table1.row2.column2 rdf:value "6/3" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column3 .
+pi:PI_16_1.item1.table1.row2.column3 rdf:value "19.3±22.8 （0-54.0）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row3 .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column1 .
+pi:PI_16_1.item1.table1.row3.column1 rdf:value "tmax（day）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column2 .
+pi:PI_16_1.item1.table1.row3.column2 rdf:value "3" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column3 .
+pi:PI_16_1.item1.table1.row3.column3 rdf:value "1.43±1.46（0.253-3.07）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row4 .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column1 .
+pi:PI_16_1.item1.table1.row4.column1 rdf:value "AUC(0-t )（ng・day/mL）" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column2 .
+pi:PI_16_1.item1.table1.row4.column2 rdf:value "6/3" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column3 .
+pi:PI_16_1.item1.table1.row4.column3 rdf:value "119±190 （0-474）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row5 .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column1 .
+pi:PI_16_1.item1.table1.row5.column1 rdf:value "MRT(0-t )（day）" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column2 .
+pi:PI_16_1.item1.table1.row5.column2 rdf:value "6/3" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column3 .
+pi:PI_16_1.item1.table1.row5.column3 rdf:value "1.66±2.37 （0-5.75）" .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 rdfs:title "反復硝子体内投与"@ja .
+pi:PI_16_1.item2 dct:description "日本人を含む第Ⅲ相国際共同試験において、日本人及び外国人滲出型加齢黄斑変性患者に本剤2mgを4週ごとに硝子体内投与したとき、初回投与1週後の血漿中遊離型アフリベルセプト濃度はそれぞれ2.21±6.24ng/mL（範囲：0-19.6ng/mL、N/N&gt;LLOQ =26/3）及び5.20±9.32ng/mL（範囲：0-35.0ng/mL、N/N&gt;LLOQ =143/36）であった 。4週ごとに硝子体内投与したとき、血漿中での蓄積は認められなかった 。また、本剤2mgを4週ごとに硝子体内投与したとき、3回目投与4週後の血漿中遊離型アフリベルセプト濃度は最大27.8ng/mL（N/N&gt;LLOQ =164/2）、13回又は14回投与した後、全例が定量下限値（15.6ng/mL）未満となったのは投与8週間後であった。 日本人を含む第Ⅲ相国際共同試験において、網膜中心静脈閉塞症に伴う黄斑浮腫を有する患者、網膜静脈分枝閉塞症に伴う黄斑浮腫を有する患者、病的近視における脈絡膜新生血管患者及び糖尿病黄斑浮腫を有する患者に本剤2mgを硝子体内投与したとき、また、国内第Ⅲ相試験において、血管新生緑内障を有する患者に本剤2mgを硝子体内投与したとき、本剤は血漿中において滲出型加齢黄斑変性患者と同様な薬物動態を示した。"@ja .
+pi:PI_16_1.item2 dct:description "※1：被験者数/血漿中遊離型薬物濃度が定量下限値（15.6ng/mL）を上回った被験者数"@ja .
+pi:PI_16_2 dct:description "アフリベルセプトは硝子体内投与された後、全身循環血中に移行する。また、全身循環血中では、不活性で安定なVEGF複合体としてほとんどが存在する。なお、内因性VEGFと結合するのは、遊離型アフリベルセプトのみである。"@ja .
+pi:PI_16_3 dct:description "有色ウサギにアフリベルセプト1mg（0.5mg/眼）を硝子体内投与したとき、遊離型アフリベルセプトは主に硝子体に存在し、その濃度は網膜及び脈絡膜と比べて顕著に高かった。硝子体における最高濃度は491µg/mL、網膜及び脈絡膜中における最高濃度は、それぞれ20.8µg/g及び36.2µg/gであった。遊離型アフリベルセプトの眼内各組織における消失半減期は同様で115～132時間であった。血漿中の遊離型アフリベルセプト濃度は、眼内濃度と比べて極めて低く、硝子体中濃度のおよそ1000分の1であった 。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:label "〈中心窩下脈絡膜新生血管を伴う加齢黄斑変性〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:label "〈網膜静脈閉塞症に伴う黄斑浮腫〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item3 .
+pi:PI_17_1.item3 rdfs:label "〈病的近視における脈絡膜新生血管〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item4 .
+pi:PI_17_1.item4 rdfs:label "〈糖尿病黄斑浮腫〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item5 .
+pi:PI_17_1.item5 rdfs:label "〈血管新生緑内障〉"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "アフリベルセプト（遺伝子組換え）は、ヒトVEGF受容体1及び2の細胞外ドメインをヒトIgG1のFcドメインに結合した組換え融合糖タンパク質であり、可溶性のデコイ受容体として、滲出型加齢黄斑変性等の眼疾患にみられる病的な血管新生及び血管漏出に関与すると考えられているVEGF-A及び胎盤増殖因子（PlGF） に、本来の受容体よりも高い親和性で結合することにより、その作用を阻害する。また、同様に眼疾患への関与が報告 されているVEGF-Bにも結合する。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "VEGFファミリーとの結合性"@ja .
+pi:PI_18.item1 dct:description "アフリベルセプトのヒトVEGF-A 、VEGF-A 、VEGF-B及びPlGF-2に対する結合の解離定数（K ）は、それぞれ0.5pM、0.36pM、1.9pM及び39pMであった（ ） 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "動物モデルにおける作用"@ja .
+pi:PI_18.item2 dct:description "マウス、ラット及びサルの眼疾患動物モデルにおいて、アフリベルセプトは、眼内の病的な血管新生及び血管漏出の発生を抑制した 。サルのレーザー誘発脈絡膜新生血管モデルでは、アフリベルセプトの硝子体内投与により、レーザー傷害後の脈絡膜新生血管（CNV）の形成が抑制され、また既に形成されたCNV病変の血管漏出が改善した 。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "アフリベルセプト（遺伝子組換え） ［Aflibercept（Genetical Recombination）］" .
+pi:PI_19 pio:molecular_formula "C H N O S （タンパク質部分、2量体）" .
+pi:PI_19 pio:molecular_weight "約115,000" .
+pi:PI_19 pio:nature "ヒトVEGF受容体1の第2Igドメイン、ヒトVEGF受容体2の第3Igドメイン、及びヒトIgG1のFcドメインからなる432アミノ酸残基のサブユニット2分子から構成される遺伝子組換え融合糖タンパク質" .
+pi:PI_20 a pio:PI_20 .
+pi:PI_20 dct:description "遮光を保つため、本剤は外箱に入れた状態で保存すること。"@ja .
+pi:PI_21 dct:description "医薬品リスク管理計画を策定の上、適切に実施すること。"@ja .
+pi:PI_22 dct:description "1バイアル（専用フィルター付き採液針1本添付）"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "社内資料: 薬物動態（単回硝子体内投与、外国人）（2012年9月28日承認、CTD2.7.6.1）" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "社内資料: 薬物動態（第Ⅲ相国際共同試験）（2012年9月28日承認、CTD2.7.2.2.4.5）" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "社内資料: 薬物動態（ウサギ単回硝子体内投与）（2012年9月28日承認、CTD2.6.4.4.2）" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "社内資料: 第Ⅲ相試験（視力に関する評価、併合解析）（2012年9月28日承認、CTD2.7.3.3.2.1）" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "社内資料: 日本人を含む第Ⅲ相国際共同試験（VIEW2試験、1年目）（2012年9月28日承認、CTD2.7.6.12）" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "社内資料: 日本人を含む第Ⅲ相国際共同試験（VIEW2試験、2年目）（2012年9月28日承認、CTD2.7.6.19）" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "社内資料: 海外第Ⅲ相試験（VIEW1試験、1年目）（2012年9月28日承認、CTD2.7.6.11）" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "社内資料: 海外第Ⅲ相試験（VIEW1試験、2年目）（2012年9月28日承認、CTD2.7.6.18）" .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "社内資料: 日本人を含む第Ⅲ相国際共同試験（GALILEO試験）（2013年11月22日承認、CTD2.7.6.2）" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "社内資料: 海外第Ⅲ相試験（COPERNICUS試験）（2013年11月22日承認、CTD2.7.6.1）" .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "社内資料: 日本人を含む第Ⅲ相国際共同試験（VIBRANT試験）" .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "社内資料: 日本人を含む第Ⅲ相国際共同試験（MYRROR試験）（2014年9月19日承認、CTD2.7.6.1）" .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "社内資料: 日本人を含む第Ⅲ相国際共同試験（VIVID-DME試験）（2014年11月18日承認、CTD2.7.6.5）" .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "社内資料: 海外第Ⅲ相試験（VISTA-DME試験）（2014年11月18日承認、CTD2.7.6.4）" .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "社内資料: 国内第Ⅲ相試験（VEGA試験）（2020年3月25日承認、CTD2.7.6.1）" .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "社内資料: 国内第Ⅲ相試験（VENERA試験）（2020年3月25日承認、CTD2.7.6.2）" .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "Luttun A, et al.: Biochem Biophys Res Commun. 2002; 295: 428-434" .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "Cao Y: Sci Signal. 2009; 2: re1" .
+pi:PI_23.item18 pio:id "DOC_18" .
+pi:PI_23 dct:references pi:PI_23.item19 .
+pi:PI_23.item19 a bibo:Document .
+pi:PI_23.item19 rdfs:label "Zhong X, et al.: Mol Vis. 2011; 17: 492-507" .
+pi:PI_23.item19 pio:id "DOC_19" .
+pi:PI_23 dct:references pi:PI_23.item20 .
+pi:PI_23.item20 a bibo:Document .
+pi:PI_23.item20 rdfs:label "社内資料:  における作用（2012年9月28日承認、CTD2.6.2.2.1）" .
+pi:PI_23.item20 pio:id "DOC_20" .
+pi:PI_23 dct:references pi:PI_23.item21 .
+pi:PI_23.item21 a bibo:Document .
+pi:PI_23.item21 rdfs:label "Cursiefen C, et al.: Invest Ophthalmol Vis Sci. 2004; 45: 2666-2673" .
+pi:PI_23.item21 pio:id "DOC_21" .
+pi:PI_23 dct:references pi:PI_23.item22 .
+pi:PI_23.item22 a bibo:Document .
+pi:PI_23.item22 rdfs:label "Cao J, et al.: Invest Ophthalmol Vis Sci. 2010; 51: 6009-6017" .
+pi:PI_23.item22 pio:id "DOC_22" .
+pi:PI_23 dct:references pi:PI_23.item23 .
+pi:PI_23.item23 a bibo:Document .
+pi:PI_23.item23 rdfs:label "Nork TM, et al.: Arch Ophthalmol. 2011; 129: 1042-1052" .
+pi:PI_23.item23 pio:id "DOC_23" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "文献請求先 バイエル薬品株式会社・メディカルインフォメーション"@ja .
+pi:PI_24.item1 pio:address "〒530-0001大阪市北区梅田二丁目4番9号"@ja .
+pi:PI_24 pio:section pi:PI_24.item2 .
+pi:PI_24.item2 pio:addressee_of_inquiry "参天製薬株式会社　製品情報センター"@ja .
+pi:PI_24.item2 pio:address "〒530-8552（個別郵便番号）大阪市北区大深町4-20"@ja .
+pi:PI_24 pio:section pi:PI_24.item3 .
+pi:PI_24.item3 pio:addressee_of_inquiry "製品情報お問い合わせ先 バイエル薬品株式会社"@ja .
+pi:PI_24.item3 pio:contact_information "電話0120-106-398"@ja .
+pi:PI_24 pio:section pi:PI_24.item4 .
+pi:PI_24.item4 pio:addressee_of_inquiry "参天製薬株式会社　製品情報センター"@ja .
+pi:PI_24.item4 pio:contact_information "TEL0120-921-839　06-6321-7056"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "バイエル薬品株式会社"@ja .
+pi:PI_26.item1 pio:address "大阪市北区梅田二丁目4番9号"@ja .
+pi:PI_26 pio:section pi:PI_26.item2 .
+pi:PI_26.item2 pio:type_of_industry "発売元"@ja .
+pi:PI_26.item2 pio:name "参天製薬株式会社"@ja .
+pi:PI_26.item2 pio:address "大阪市北区大深町4-20"@ja .
