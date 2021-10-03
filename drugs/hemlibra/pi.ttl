@@ -1,0 +1,516 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/450045_6343451A1025_1_05#> .
+
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_0 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_1 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_2 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_3 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_3_1 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_3_2 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_4 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_5 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_6 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_7 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_8 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_9 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_9_1 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_9_2 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_9_3 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_9_4 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_9_5 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_9_6 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_9_7 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_9_8 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_10 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_10_1 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_10_2 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_11 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_11_1 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_11_2 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_12 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_13 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_14 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_15 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_15_1 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_15_2 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_16 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_16_1 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_16_2 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_16_3 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_16_4 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_16_5 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_16_6 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_16_7 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_16_8 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_17 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_17_1 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_17_2 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_17_3 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_18 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_18_1 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_19 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_20 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_21 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_22 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_23 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_24 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_25 .
+pi_root:450045_6343451A1025_1_05 pio:section pi:PI_26 .
+pi_root:450045_6343451A1025_1_05 dct:identifier "450045_6343451A1025_1_05" .
+pi_root:450045_6343451A1025_1_05 pio:company_identifier "450045" .
+pi_root:450045_6343451A1025_1_05 pio:date_of_preparation_or_revision "2019-10"^^xsd:date .
+pi_root:450045_6343451A1025_1_05 pio:version "第1版" .
+pi_root:450045_6343451A1025_1_05 pio:sccj_no "876349" .
+pi_root:450045_6343451A1025_1_05 pio:therapeutic_classification "抗血液凝固第IXa/X因子ヒト化二重特異性モノクローナル抗体" .
+pi_root:450045_6343451A1025_1_05 pio:approval_brand_name "ヘムライブラ皮下注30mg" .
+pi_root:450045_6343451A1025_1_05 pio:yj_code "6343451A1025" .
+pi_root:450045_6343451A1025_1_05 pio:trademark_name "HEMLIBRA for Subcutaneous Injection" .
+pi_root:450045_6343451A1025_1_05 pio:name_in_hiragana "へむらいぶらひかちゅう30mg" .
+pi_root:450045_6343451A1025_1_05 pio:approval_no "23000AMX00451" .
+pi_root:450045_6343451A1025_1_05 pio:starting_date_of_marketing "2018-05"^^xsd:date .
+pi_root:450045_6343451A1025_1_05 pio:storage_method "2～8℃保存" .
+pi_root:450045_6343451A1025_1_05 pio:shelf_life "24箇月" .
+pi:PI_1 a pio:PI_1 .
+pi:PI_1 pio:section pi:PI_1.item1 .
+pi:PI_1.item1 dct:description "インヒビター保有血友病A患者を対象とした本剤の臨床試験で、活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤との併用において重篤な血栓塞栓症及び血栓性微小血管症の発現が複数例に認められている。本剤投与中及び投与中止後6カ月間は、治療上やむを得ない場合を除き、活性型血液凝固第IX因子及び血液凝固第X因子を含む、活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤及び乾燥濃縮人血液凝固第X因子加活性化第VII因子製剤の投与を避けること。血栓塞栓症及び血栓性微小血管症のリスクを増大させる可能性がある。 , , ,"@ja .
+pi:PI_1 pio:section pi:PI_1.item2 .
+pi:PI_1.item2 dct:description "本剤は血友病治療に十分な知識・経験を持つ医師のもと、緊急時に十分対応できる医療機関で投与開始すること。 , , ,"@ja .
+pi:PI_1 pio:section pi:PI_1.item3 .
+pi:PI_1.item3 dct:description "本剤の投与開始に先立ち、患者又はその家族に危険性（出血時のバイパス止血製剤の投与における危険性を含む）を十分説明し、同意を得た上で本剤を投与すること。"@ja .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "1バイアル（1.0mL）中 エミシズマブ（遺伝子組換え）"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "30mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "L-アルギニン"@ja .
+pi:PI_3_1.item1.additive1 pio:value_and_unit "26.1mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "L-ヒスチジン"@ja .
+pi:PI_3_1.item1.additive2 pio:value_and_unit "3.1mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "ポリオキシエチレン（160）ポリオキシプロピレン（30）グリコール"@ja .
+pi:PI_3_1.item1.additive3 pio:value_and_unit "0.5mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "L-アスパラギン酸"@ja .
+pi:PI_3_1.item1.additive4 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "1バイアル（0.4mL）中 エミシズマブ（遺伝子組換え）"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "60mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "L-アルギニン"@ja .
+pi:PI_3_1.item1.additive1 pio:value_and_unit "26.1mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "L-ヒスチジン"@ja .
+pi:PI_3_1.item1.additive2 pio:value_and_unit "3.1mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "ポリオキシエチレン（160）ポリオキシプロピレン（30）グリコール"@ja .
+pi:PI_3_1.item1.additive3 pio:value_and_unit "0.5mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "L-アスパラギン酸"@ja .
+pi:PI_3_1.item1.additive4 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "1バイアル（0.6mL）中 エミシズマブ（遺伝子組換え）"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "90mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "L-アルギニン"@ja .
+pi:PI_3_1.item1.additive1 pio:value_and_unit "26.1mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "L-ヒスチジン"@ja .
+pi:PI_3_1.item1.additive2 pio:value_and_unit "3.1mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "ポリオキシエチレン（160）ポリオキシプロピレン（30）グリコール"@ja .
+pi:PI_3_1.item1.additive3 pio:value_and_unit "0.5mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "L-アスパラギン酸"@ja .
+pi:PI_3_1.item1.additive4 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "1バイアル（0.7mL）中 エミシズマブ（遺伝子組換え）"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "105mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "L-アルギニン"@ja .
+pi:PI_3_1.item1.additive1 pio:value_and_unit "26.1mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "L-ヒスチジン"@ja .
+pi:PI_3_1.item1.additive2 pio:value_and_unit "3.1mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "ポリオキシエチレン（160）ポリオキシプロピレン（30）グリコール"@ja .
+pi:PI_3_1.item1.additive3 pio:value_and_unit "0.5mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "L-アスパラギン酸"@ja .
+pi:PI_3_1.item1.additive4 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "1バイアル（1.0mL）中 エミシズマブ（遺伝子組換え）"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "150mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "L-アルギニン"@ja .
+pi:PI_3_1.item1.additive1 pio:value_and_unit "26.1mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "L-ヒスチジン"@ja .
+pi:PI_3_1.item1.additive2 pio:value_and_unit "3.1mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "ポリオキシエチレン（160）ポリオキシプロピレン（30）グリコール"@ja .
+pi:PI_3_1.item1.additive3 pio:value_and_unit "0.5mg/mL"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "L-アスパラギン酸"@ja .
+pi:PI_3_1.item1.additive4 pio:value_and_unit "適量"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:formulation "注射剤（バイアル）" .
+pi:PI_3_2.item1 pio:osmotic_ratio "約1.0（生理食塩液に対する比）" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item2 .
+pi:PI_3_2.item2 pio:formulation "注射剤（バイアル）" .
+pi:PI_3_2.item2 pio:osmotic_ratio "約1.2（生理食塩液に対する比）" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item3 .
+pi:PI_3_2.item3 pio:formulation "注射剤（バイアル）" .
+pi:PI_3_2.item3 pio:osmotic_ratio "約1.2（生理食塩液に対する比）" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item4 .
+pi:PI_3_2.item4 pio:formulation "注射剤（バイアル）" .
+pi:PI_3_2.item4 pio:osmotic_ratio "約1.2（生理食塩液に対する比）" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item5 .
+pi:PI_3_2.item5 pio:formulation "注射剤（バイアル）" .
+pi:PI_3_2.item5 pio:osmotic_ratio "約1.2（生理食塩液に対する比）" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 dct:description "先天性血液凝固第VIII因子欠乏患者における出血傾向の抑制"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 dct:description "本剤は、血液凝固第VIII因子に対するインヒビターの有無によらず有効性が確認されている。 , , ,"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "通常、エミシズマブ（遺伝子組換え）として1回3mg/kg（体重）を1週間の間隔で4回皮下投与し、以降は以下のいずれかの用法・用量で皮下投与する。"@ja .
+pi:PI_6 pio:section pi:PI_6.item1 .
+pi:PI_6.item1 dct:description "1回1.5mg/kg（体重）を1週間の間隔"@ja .
+pi:PI_6 pio:section pi:PI_6.item2 .
+pi:PI_6.item2 dct:description "1回3mg/kg（体重）を2週間の間隔"@ja .
+pi:PI_6 pio:section pi:PI_6.item3 .
+pi:PI_6.item3 dct:description "1回6mg/kg（体重）を4週間の間隔"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 dct:description "本剤は、出血傾向の抑制を目的とした定期的な投与のみに使用し、出血時の止血を目的とした投与は行わないこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "インヒビター保有血友病A患者を対象とした臨床試験において、本剤投与中の出血時に活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤を併用した36例において、血栓塞栓症が2例（5.6%）、血栓性微小血管症が3例（8.3%）に認められている。また、乾燥濃縮人血液凝固第X因子加活性化第VII因子製剤を投与することにより血栓塞栓症及び血栓性微小血管症があらわれるおそれがあるため、以下の事項に注意すること。当該事項については、その重要性及び必要性を患者又はその家族にも説明し、理解及び同意を得た上で投与を開始すること。 , , , ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item1.item1 .
+pi:PI_8.item1 dct:description "本剤投与開始前日までに、バイパス止血製剤による定期輸注は中止すること。また、本剤投与中止後6カ月間は、バイパス止血製剤による定期輸注は行わないこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item1.item2 .
+pi:PI_8.item1 dct:description "本剤投与中にバイパス止血製剤を投与する場合は、活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤及び乾燥濃縮人血液凝固第X因子加活性化第VII因子製剤の投与は避け、活性型血液凝固第VII因子（エプタコグ　アルファ（活性型）（遺伝子組換え））製剤を投与すること。さらに、以下の事項にも注意すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item1.item3 .
+pi:PI_8.item1 dct:description "本剤投与中止後6カ月間は、上記8.1.2と同じ対応を行うこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "本剤投与開始前に血液凝固第VIII因子製剤による定期補充療法を実施している患者については、本剤2回目の投与前日までは出血のリスクを低減するため血液凝固第VIII因子製剤の定期補充を継続することが望ましい。また、本剤投与中の出血に対する血液凝固第VIII因子製剤の自己注射の必要性及び種類・用量等について、医師はあらかじめ患者又はその家族に指導すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "本剤は活性化部分トロンボプラスチン時間（APTT）又はAPTTの測定原理に基づく検査値に影響を及ぼすため、本剤を投与した患者の検査値には従来の判断基準が適用できないことに注意すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 rdfs:title "在宅自己注射における注意"@ja .
+pi:PI_8 pio:section pi:PI_8.item4.item1 .
+pi:PI_8.item4 dct:description "本剤の在宅自己注射の適用については、医師がその妥当性を慎重に検討し、十分な教育訓練を実施した後、本剤投与による危険性と対処法について患者又はその家族が理解し、確実に投与できることを確認した上で、医師の管理指導のもとで実施すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4.item2 .
+pi:PI_8.item4 dct:description "患者又はその家族に対し、在宅自己注射後に何らかの異常が認められた場合は、速やかに医療機関へ連絡するよう指導を行うこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4.item3 .
+pi:PI_8.item4 dct:description "在宅自己注射の継続が困難な状況となる可能性がある場合には、直ちに在宅自己注射を中止させ、医師の管理のもとで慎重に観察するなど適切な処置を行うこと。"@ja .
+pi:PI_9_4 dct:description "妊娠可能な女性には、本剤投与中及び投与終了後一定期間は適切な避妊法を用いるよう指導すること。"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。生殖発生毒性試験は実施していない。一般にヒトIgGは胎盤を通過することが知られている。"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。本剤のヒト乳汁中への移行性については不明であるが、一般にヒトIgGは母乳に分泌されることが知られている。"@ja .
+pi:PI_9_7 dct:description "低出生体重児、新生児及び乳児を対象とした有効性及び安全性を指標とした臨床試験は実施していない。"@ja .
+pi:PI_9_8 dct:description "患者の状態を観察しながら慎重に投与すること。一般に生理機能が低下している。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "血栓塞栓症又は血栓性微小血管症があらわれるおそれがある。 本剤投与中及び投与中止後6カ月間は、活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤又は乾燥濃縮人血液凝固第X因子加活性化第VII因子製剤の投与は避けること。 本剤投与中及び投与中止後6カ月間の出血に対してやむを得ず活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤又は乾燥濃縮人血液凝固第X因子加活性化第VII因子製剤を投与する場合は必ず血友病に対する十分な治療経験を有する医師のもと、必要な血液凝固系検査等が実施可能で血栓塞栓症及び血栓性微小血管症に対する適切な処置が可能な医療機関で投与すること。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "血液凝固第VIII因子欠乏ヒト血漿を用いたトロンビン生成試験（ ）において、本剤単独時に比べて本剤との併用時に顕著なトロンビン生成の促進が認められた  。活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤由来の活性型血液凝固第IX因子及び第X因子が本剤による凝固促進に影響を与える可能性が考えられ、凝固活性の増加につながるおそれがある。"@ja .
+pi:PI_10_2.item2 pio:clin_symptoms_and_measures "血栓塞栓症又は血栓性微小血管症があらわれるおそれがある。 本剤投与中及び投与中止後6カ月間は、活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤又は乾燥濃縮人血液凝固第X因子加活性化第VII因子製剤の投与は避けること。 本剤投与中及び投与中止後6カ月間の出血に対してやむを得ず活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤又は乾燥濃縮人血液凝固第X因子加活性化第VII因子製剤を投与する場合は必ず血友病に対する十分な治療経験を有する医師のもと、必要な血液凝固系検査等が実施可能で血栓塞栓症及び血栓性微小血管症に対する適切な処置が可能な医療機関で投与すること。"@ja .
+pi:PI_10_2.item2 pio:mechanism_and_risk_factors "乾燥濃縮人血液凝固第X因子加活性化第VII因子製剤に含まれる血液凝固第X因子が本剤による凝固促進に影響を与える可能性が考えられ、凝固活性の増加につながるおそれがある。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "血栓塞栓症（0.5%）"@ja .
+pi:PI_11_1.item1 dct:description "本剤投与中の出血に対して活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤等のバイパス止血製剤を投与する際は血栓塞栓症があらわれることがあるので、観察を十分に行い、異常が認められた場合には本剤及びバイパス止血製剤の投与を中止し、適切な処置を行うこと。 , , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "血栓性微小血管症（0.8%）"@ja .
+pi:PI_11_1.item2 dct:description "本剤投与中の出血に対して活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤等のバイパス止血製剤を投与する際は血栓性微小血管症があらわれることがあるので、観察を十分に行い、異常が認められた場合には本剤及びバイパス止血製剤の投与を中止し、適切な処置を行うこと。 , , ,"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "悪心" .
+pi:PI_11_2.item1.item1 pio:category "消化器" .
+pi:PI_11_2.item1.item1 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "毛髪成長異常" .
+pi:PI_11_2.item1.item2 pio:category "皮膚" .
+pi:PI_11_2.item1.item2 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "注射部位反応" .
+pi:PI_11_2.item1.item3 pio:category "その他" .
+pi:PI_11_2.item1.item3 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "疲労、頭痛、血液検査異常（ABO式血液型の凝集素検出能の低下）、血中クレアチンホスホキナーゼ増加" .
+pi:PI_11_2.item1.item4 pio:category "その他" .
+pi:PI_11_2.item1.item4 pio:frequency "5%未満" .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤調製時の注意"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item1 .
+pi:PI_14.item1.item1 dct:desctiption "異なる濃度の本剤を混注しないこと。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item2 .
+pi:PI_14.item1.item2 dct:desctiption "他の製剤と本剤を混注しないこと。"@ja .
+pi:PI_15_1 dct:description "血友病A患者を対象とした国際共同第III相臨床試験において、抗エミシズマブ抗体の産生が398例中14例（3.5%）に報告されている。また、血友病A患者を対象とした国内第I/II相臨床試験において、抗エミシズマブ抗体の産生が18例中4例に報告されている。これらのうち、国際共同第III相臨床試験において、中和活性を有すると考えられる抗エミシズマブ抗体の産生が3例に認められ、効果の減弱（APTT延長、出血の発現）を認めた症例も報告されている。"@ja .
+pi:PI_15_2 pio:section pi:PI_15_2.item1 .
+pi:PI_15_2.item1 dct:description "本剤はマウス及びラットには交差反応性を示さないため、がん原性試験は実施されていない。"@ja .
+pi:PI_15_2 pio:section pi:PI_15_2.item2 .
+pi:PI_15_2.item2 dct:description "血液凝固第VIII因子欠乏ヒト血漿を用いたトロンビン生成試験（ ）において、本剤と活性型血液凝固第VII因子（エプタコグ　アルファ（活性型）（遺伝子組換え））製剤の併用により、活性型プロトロンビン複合体（乾燥人血液凝固因子抗体迂回活性複合体）製剤との併用時の顕著な作用に比べると弱いものの、トロンビン生成の促進が認められた  。また、血液凝固第VIII因子製剤との併用においてもトロンビン生成の促進が認められた  。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:title "単回投与"@ja .
+pi:PI_16_1.item1 dct:description "日本人の健康成人男性に本剤0.01、0.1、0.3又は1mg/kg  （各6例）を単回皮下投与した際の血漿中エミシズマブ濃度の薬物動態パラメータは下表のとおりであった  。"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.table1 .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row1 .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column1 .
+pi:PI_16_1.item1.table1.row1.column1 rdf:value "用量 （mg/kg）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column2 .
+pi:PI_16_1.item1.table1.row1.column2 rdf:value "C （μg/mL）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column3 .
+pi:PI_16_1.item1.table1.row1.column3 rdf:value "T （day）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column4 .
+pi:PI_16_1.item1.table1.row1.column4 rdf:value "AUC （day・μg/mL）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column5 .
+pi:PI_16_1.item1.table1.row1.column5 rdf:value "t （day）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row2 .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column1 .
+pi:PI_16_1.item1.table1.row2.column1 rdf:value "0.01" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column2 .
+pi:PI_16_1.item1.table1.row2.column2 rdf:value "0.0675±0.0120" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column3 .
+pi:PI_16_1.item1.table1.row2.column3 rdf:value "14.1（5.00-28.0）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column4 .
+pi:PI_16_1.item1.table1.row2.column4 rdf:value "算出せず" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column5 .
+pi:PI_16_1.item1.table1.row2.column5 rdf:value "算出せず" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row3 .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column1 .
+pi:PI_16_1.item1.table1.row3.column1 rdf:value "0.1" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column2 .
+pi:PI_16_1.item1.table1.row3.column2 rdf:value "0.655±0.0837" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column3 .
+pi:PI_16_1.item1.table1.row3.column3 rdf:value "12.0（7.00-14.1）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column4 .
+pi:PI_16_1.item1.table1.row3.column4 rdf:value "30.2±9.28" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column5 .
+pi:PI_16_1.item1.table1.row3.column5 rdf:value "28.3±4.77" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row4 .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column1 .
+pi:PI_16_1.item1.table1.row4.column1 rdf:value "0.3" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column2 .
+pi:PI_16_1.item1.table1.row4.column2 rdf:value "1.72±0.377" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column3 .
+pi:PI_16_1.item1.table1.row4.column3 rdf:value "10.1（7.00-11.1）" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column4 .
+pi:PI_16_1.item1.table1.row4.column4 rdf:value "86.5±17.9" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column5 .
+pi:PI_16_1.item1.table1.row4.column5 rdf:value "30.3±4.12" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row5 .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column1 .
+pi:PI_16_1.item1.table1.row5.column1 rdf:value "1" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column2 .
+pi:PI_16_1.item1.table1.row5.column2 rdf:value "5.92±1.24" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column3 .
+pi:PI_16_1.item1.table1.row5.column3 rdf:value "10.1（4.00-14.2）" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column4 .
+pi:PI_16_1.item1.table1.row5.column4 rdf:value "266±50.0" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column5 .
+pi:PI_16_1.item1.table1.row5.column5 rdf:value "29.0±3.26" .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 rdfs:title "反復投与"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item2.item1 .
+pi:PI_16_1.item2 rdfs:title "1週間隔"@ja .
+pi:PI_16_1.item2 dct:description "12歳以上のインヒビター保有血友病A患者112例、12歳未満（体重40kg未満の12～17歳を含む）のインヒビター保有血友病A患者63例、又は12歳以上のインヒビター非保有血友病A患者99例に本剤を3mg/kgの用量で1週間隔にて4週間反復皮下投与し、その後1.5mg/kgの用量で1週間隔にて反復皮下投与した際、投与開始4週後に血漿中エミシズマブ濃度トラフ値が定常状態に到達し、その後50μg/mL程度又はそれをやや上回る平均値を維持した。血漿中エミシズマブ濃度トラフ値推移はこれら3つの集団間で同様であった  （日本人及び外国人データ）。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item2.item2 .
+pi:PI_16_1.item2 rdfs:title "2週間隔"@ja .
+pi:PI_16_1.item2 dct:description "12歳以上のインヒビター非保有血友病A患者49例に本剤を3mg/kgの用量で1週間隔にて4週間反復皮下投与し、その後3mg/kgの用量で2週間隔にて反復皮下投与した際、投与開始4週後までの血漿中エミシズマブ濃度トラフ値推移は「(1) 1週間隔」と同様であり、その後45μg/mLをやや上回る平均値を維持した  （日本人及び外国人データ）。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item2.item3 .
+pi:PI_16_1.item2 rdfs:title "4週間隔"@ja .
+pi:PI_16_1.item2 dct:description "12歳以上のインヒビター保有及び非保有血友病A患者41例に本剤を3mg/kgの用量で1週間隔にて4週間反復皮下投与し、その後6mg/kgの用量で4週間隔にて反復皮下投与した際、投与開始4週後までの血漿中エミシズマブ濃度トラフ値推移は「(1) 1週間隔」と同様であり、その後40μg/mLをやや上回る平均値を維持した  （日本人及び外国人データ）。"@ja .
+pi:PI_16_2 dct:description "日本人の健康成人男性に本剤1mg/kg  を腹部、上腕部又は大腿部（各12例）に単回皮下投与した際、血漿中エミシズマブ濃度のC 及びAUC を基に推定された腹部に対する上腕部及び大腿部の相対的バイオアベイラビリティは、82.3%～116.8%の範囲であった。なお、腹部、上腕部及び大腿部への皮下投与時の絶対的バイオアベイラビリティは、80.4%～93.1%の範囲であった  。"@ja .
+pi:PI_16_3 dct:description "日本人の健康成人男性12例に本剤0.25mg/kgを単回静脈内投与  した際、エミシズマブのV の平均値は106mL/kgであった  。"@ja .
+pi:PI_16_3 dct:description "                   "@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:title "国際共同第III相臨床試験（BH29884試験）"@ja .
+pi:PI_17_1.item1 dct:description "成人/青年（12歳以上）のインヒビター保有血友病A患者を対象とし、バイパス止血製剤による出血時の止血療法を実施していた患者53例（日本人6例を含む）を、本剤を3mg/kgの用量で週1回4週間反復皮下投与した後1.5mg/kgの用量で週1回反復皮下投与する群（A群：本剤定期投与群）又は出血時の止血療法を継続する群（B群：本剤定期投与非実施群）にランダムに2：1の比で割り付け、割り付けられた最終の患者が24週の観察期間を完了した時点又は試験を中止した時点で両群の年間出血率を比較した。主要評価項目である治療を要した出血の年間出血率の成績は下表のとおりであった。"@ja .
+pi:PI_17_1.item1 dct:description "また、試験登録前にバイパス止血製剤の定期輸注を受けていた患者に、A群と同様の用法・用量で本剤を定期的に投与する群（C群）での患者内比較［24例（日本人6例を含む）］では、副次的評価項目とした治療を要した出血の年間出血率［95%信頼区間］は、本剤投与前のバイパス止血製剤定期輸注時［観察期間の中央値（範囲）：32.1週（8.1～49.3週）］には15.7［11.08, 22.29］回/年であったのに対し、その後の本剤定期投与時［観察期間の中央値（範囲）：30.1週（6.9～45.3週）］には3.3［1.33, 8.08］回/年であった（初回承認時）。 本試験で本剤を投与された全患者での副作用発現頻度は29.5%（33/112例）であった。主な副作用は、注射部位反応15.2%（17/112例）であった  （承認事項一部変更承認時）。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.table1 .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row1 .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column1 .
+pi:PI_17_1.item1.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column2 .
+pi:PI_17_1.item1.table1.row1.column2 rdf:value "A群：本剤週1回定期投与群（35例）" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column3 .
+pi:PI_17_1.item1.table1.row1.column3 rdf:value "B群：本剤定期投与非実施群（18例）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row2 .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column1 .
+pi:PI_17_1.item1.table1.row2.column1 rdf:value "年間出血率の中央値（範囲） （回/年）" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column2 .
+pi:PI_17_1.item1.table1.row2.column2 rdf:value "0.0（0.00, 33.72）" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column3 .
+pi:PI_17_1.item1.table1.row2.column3 rdf:value "18.8（0.00, 77.80）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row3 .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column1 .
+pi:PI_17_1.item1.table1.row3.column1 rdf:value "年間出血率 ［95%信頼区間］（回/年）" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column2 .
+pi:PI_17_1.item1.table1.row3.column2 rdf:value "2.9［1.69, 5.02］" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column3 .
+pi:PI_17_1.item1.table1.row3.column3 rdf:value "23.3［12.33, 43.89］" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row4 .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column1 .
+pi:PI_17_1.item1.table1.row4.column1 rdf:value "群間比（A群/B群） ［95%信頼区間］、P値" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column2 .
+pi:PI_17_1.item1.table1.row4.column2 rdf:value "0.13 ［0.057, 0.277］、&lt;0.0001" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column3 .
+pi:PI_17_1.item1.table1.row4.column3 rdf:value "0.13 ［0.057, 0.277］、&lt;0.0001" .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:title "国際共同第III相臨床試験（BH29992試験）"@ja .
+pi:PI_17_1.item2 dct:description "小児（12歳未満）のインヒビター保有血友病A患者60例［2歳以下の10例（1歳が5例、2歳が5例）を含む］（日本人8例を含む）に本剤を3mg/kgの用量で週1回4週間反復皮下投与し、その後1.5mg/kgの用量で週1回反復皮下投与した。その内、12週間以上投与された59例（日本人8例を含む）の観察期間の中央値（範囲）は29.6週（18.4～63.0週）であった。同59例での治療を要した出血の年間出血率［95%信頼区間］は0.3［0.13, 0.52］回/年であった。 本試験で本剤を投与された全患者での副作用発現頻度は19.0%（12/63例）であった。主な副作用は、注射部位反応17.5%（11/63例）であった  （承認事項一部変更承認時）。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item3 .
+pi:PI_17_1.item3 rdfs:title "国際共同第III相臨床試験（BH30071試験）"@ja .
+pi:PI_17_1.item3 dct:description "成人/青年（12歳以上）のインヒビター非保有重症血友病A患者を対象とし、血液凝固第VIII因子製剤による出血時の止血療法を実施していた患者89例（日本人10例を含む）を対象に、本剤を3mg/kgの用量で週1回4週間反復皮下投与した後1.5mg/kgの用量で週1回反復皮下投与する群（A群：本剤週1回定期投与群）、本剤を3mg/kgの用量で週1回4週間反復皮下投与した後3mg/kgの用量で2週に1回反復皮下投与する群（B群：本剤2週に1回定期投与群）又は出血時の止血療法を継続する群（C群：本剤定期投与非実施群）にランダムに2：2：1の比で割り付け、割り付けられた最終の患者が24週の観察期間を完了した時点又は試験を中止した時点でA群及びB群とC群の年間出血率を比較した。主要評価項目である治療を要した年間出血率の成績は下表のとおりであった。"@ja .
+pi:PI_17_1.item3 dct:description "また、試験登録前に血液凝固第VIII因子製剤の定期補充を受けていた患者に、A群と同様の用法・用量で本剤を定期的に投与する群（D群）での患者内比較［48例（日本人9例を含む）］では、副次的評価項目とした治療を要した出血の年間出血率［95%信頼区間］は、本剤投与前の血液凝固第VIII因子製剤の定期補充時［観察期間の中央値（範囲）：30.1週（5.0～45.1週）］には4.8［3.22, 7.09］回/年であったのに対し、その後の本剤の定期投与時［観察期間の中央値（範囲）：33.7週（20.1～48.6週）］には1.5［0.98, 2.33］回/年であった。 本試験で本剤を投与された全患者での副作用発現頻度は30.7%（46/150例）であった。主な副作用は、注射部位反応25.3%（38/150例）であった  （承認事項一部変更承認時）。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item3.table1 .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row1 .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column1 .
+pi:PI_17_1.item3.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column2 .
+pi:PI_17_1.item3.table1.row1.column2 rdf:value "A群：本剤週1回定期投与群（36例）" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column3 .
+pi:PI_17_1.item3.table1.row1.column3 rdf:value "B群：本剤2週に1回定期投与群（35例）" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column4 .
+pi:PI_17_1.item3.table1.row1.column4 rdf:value "C群：本剤定期投与非実施群（18例）" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row2 .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column1 .
+pi:PI_17_1.item3.table1.row2.column1 rdf:value "年間出血率の中央値 （範囲）（回/年）" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column2 .
+pi:PI_17_1.item3.table1.row2.column2 rdf:value "0.0 （0.0, 10.8）" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column3 .
+pi:PI_17_1.item3.table1.row2.column3 rdf:value "0.0 （0.0, 26.8）" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column4 .
+pi:PI_17_1.item3.table1.row2.column4 rdf:value "40.4 （4.3, 98.7）" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row3 .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column1 .
+pi:PI_17_1.item3.table1.row3.column1 rdf:value "年間出血率 ［95%信頼区間］（回/年）" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column2 .
+pi:PI_17_1.item3.table1.row3.column2 rdf:value "1.5 ［0.9, 2.5］" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column3 .
+pi:PI_17_1.item3.table1.row3.column3 rdf:value "1.3 ［0.8, 2.3］" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column4 .
+pi:PI_17_1.item3.table1.row3.column4 rdf:value "38.2 ［22.9, 63.8］" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row4 .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column1 .
+pi:PI_17_1.item3.table1.row4.column1 rdf:value "群間比（A群/C群又はB群/C群）［95%信頼区間］、 P値" .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column2 .
+pi:PI_17_1.item3.table1.row4.column2 rdf:value "0.04 ［0.020, 0.075］ &lt;0.0001" .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column3 .
+pi:PI_17_1.item3.table1.row4.column3 rdf:value "0.03 ［0.017, 0.066］ &lt;0.0001" .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column4 .
+pi:PI_17_1.item3.table1.row4.column4 rdf:value "" .
+pi:PI_17_1 pio:section pi:PI_17_1.item4 .
+pi:PI_17_1.item4 rdfs:title "国際共同第III相臨床試験（BO39182試験）"@ja .
+pi:PI_17_1.item4 dct:description "成人/青年（12歳以上）のインヒビター保有及び非保有血友病A患者41例（日本人6例を含む）に本剤を3mg/kgの用量で週1回4週間反復皮下投与し、その後6mg/kgの用量で4週に1回反復皮下投与した。観察期間の中央値（範囲）は25.6週（24.1～29.4週）であった。治療を要した出血の年間出血率［95%信頼区間］は2.4［1.38, 4.28］回/年であった。 本試験で本剤を投与された全患者での副作用発現頻度は27.1%（13/48例）であった。主な副作用は、注射部位反応20.8%（10/48例）であった  （承認事項一部変更承認時）。"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "本剤は、活性型血液凝固第IX因子及び血液凝固第X因子に結合するヒト化二重特異性モノクローナル抗体であり、血液凝固第VIII因子の機能代替作用を有する。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "           抗原結合及び活性型血液凝固第IX因子による血液凝固第X因子活性化の促進作用"@ja .
+pi:PI_18.item1 dct:description "本剤は、プラズモン共鳴法による タンパク質結合測定系において活性型血液凝固第IX因子及び血液凝固第X因子に結合し  、合成発色基質法による 酵素反応測定系において活性型血液凝固第IX因子による血液凝固第X因子の活性化を促進した  。"@ja .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "           血液凝固反応促進作用"@ja .
+pi:PI_18.item2 dct:description "本剤は、インヒビター含有血液凝固第VIII因子欠乏血漿及びインヒビター非含有血液凝固第VIII因子欠乏血漿のいずれにおいても、 添加によりAPTTの短縮及びトロンビン生成の増加を示し、血液凝固反応を促進した  。"@ja .
+pi:PI_18 pio:section pi:PI_18.item3 .
+pi:PI_18.item3 rdfs:label "           出血傾向抑制作用及び止血作用"@ja .
+pi:PI_18.item3 dct:description "抗血液凝固第VIII因子抗体を投与することにより血友病Aを誘発させたサルにおいて、本剤投与による出血傾向抑制作用及び止血作用が認められた  。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "エミシズマブ（遺伝子組換え） （Emicizumab（Genetical Recombination））（JAN）" .
+pi:PI_19 pio:molecular_formula "C H N O S" .
+pi:PI_19 pio:molecular_weight "約148,000" .
+pi:PI_19 pio:nature "448個のアミノ酸残基からなる抗活性型血液凝固第IX因子のH鎖1本、444個のアミノ酸残基からなる抗血液凝固第X因子のH鎖1本及び214個のアミノ酸残基からなるL鎖2本で構成される糖タンパク質" .
+pi:PI_20 a pio:PI_20 .
+pi:PI_20 pio:section pi:PI_20.item1 .
+pi:PI_20.item1 dct:description "外箱開封後は遮光して保存すること。"@ja .
+pi:PI_20 pio:section pi:PI_20.item2 .
+pi:PI_20.item2 dct:description "本剤は特定生物由来製品ではないが血液製剤代替医薬品であることから、本剤を投与（処方）した場合は、医薬品名及びその製造番号、投与（処方）した日、使用患者名、住所等を記録し、少なくとも20年間保存すること。"@ja .
+pi:PI_21 pio:section pi:PI_21.item1 .
+pi:PI_21.item1 rdfs:label "〈血液凝固第VIII因子に対するインヒビターを保有する先天性血液凝固第VIII因子欠乏患者における出血傾向の抑制〉"@ja .
+pi:PI_22 pio:section pi:PI_22.item1 .
+pi:PI_22.item1 rdfs:label "〈ヘムライブラ皮下注30mg〉"@ja .
+pi:PI_22.item1 dct:description "1.0mL×1バイアル"@ja .
+pi:PI_22 pio:section pi:PI_22.item2 .
+pi:PI_22.item2 rdfs:label "〈ヘムライブラ皮下注60mg〉"@ja .
+pi:PI_22.item2 dct:description "0.4mL×1バイアル"@ja .
+pi:PI_22 pio:section pi:PI_22.item3 .
+pi:PI_22.item3 rdfs:label "〈ヘムライブラ皮下注90mg〉"@ja .
+pi:PI_22.item3 dct:description "0.6mL×1バイアル"@ja .
+pi:PI_22 pio:section pi:PI_22.item4 .
+pi:PI_22.item4 rdfs:label "〈ヘムライブラ皮下注105mg〉"@ja .
+pi:PI_22.item4 dct:description "0.7mL×1バイアル"@ja .
+pi:PI_22 pio:section pi:PI_22.item5 .
+pi:PI_22.item5 rdfs:label "〈ヘムライブラ皮下注150mg〉"@ja .
+pi:PI_22.item5 dct:description "1.0mL×1バイアル"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "トロンビン生成における血液凝固第VIII因子製剤及びバイパス製剤の作用に対する影響（2018年3月23日承認、CTD2.6.2.2.7）" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "Uchida N, et al. Blood. 2016;127(13):1633-41." .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "社内資料：国際共同第III相臨床試験（BH29884試験）" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "社内資料：国際共同第III相臨床試験（BH29992試験）" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "社内資料：国際共同第III相臨床試験（BH30071試験）" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "社内資料：国際共同第III相臨床試験（BO39182試験）" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "バイオアベイラビリティ試験（JP29574試験）（2018年3月23日承認、CTD2.7.1.2.1）" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "Kitazawa T, et al. Thromb Haemost. 2017;117(7):1348-57." .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "Sampei Z, et al. PLoS One. 2013;8(2):e57479." .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "Muto A, et al. J Thromb Haemost. 2014;12(2):206-13." .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "Muto A, et al. Blood. 2014;124(20):3165-71." .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "中外製薬株式会社　メディカルインフォメーション部"@ja .
+pi:PI_24.item1 pio:address "〒103-8324　東京都中央区日本橋室町2-1-1"@ja .
+pi:PI_24.item1 pio:contact_information "電話：0120-189706 FAX：0120-189705"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "中外製薬株式会社"@ja .
+pi:PI_26.item1 pio:address "東京都中央区日本橋室町2-1-1"@ja .
