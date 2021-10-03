@@ -1,0 +1,305 @@
+subject,predicate,object
+1,rdf:type,bibo:Document
+1,rdfs:label,社内資料：原薬
+1,dct:dateAccepted,
+1,ifo:internal_reference_id,
+1,ifo:ctd_number,
+2,rdf:type,bibo:Document
+2,rdfs:label,社内資料：製剤
+2,dct:dateAccepted,
+2,ifo:internal_reference_id,
+2,ifo:ctd_number,
+3,rdf:type,bibo:Article
+3,dct:references,21284702
+3,ifo:internal_reference_id,
+4,rdf:type,bibo:Article
+4,dct:creator,片山泰之、他.
+4,prism:publicationName,新薬と臨床.
+4,prism:volume,60
+4,prism:number,
+4,prism:startingPage,1139
+4,prism:endingPage,1152
+4,dct:issued,2011
+4,ifo:internal_reference_id,
+5,rdf:type,bibo:Article
+5,dct:references,17933414
+5,ifo:internal_reference_id,
+6,rdf:type,bibo:Article
+6,dct:references,19253204
+6,ifo:internal_reference_id,
+7,rdf:type,bibo:Article
+7,dct:references,20332588
+7,ifo:internal_reference_id,
+8,rdf:type,bibo:Article
+8,dct:references,20590736
+8,ifo:internal_reference_id,
+9,rdf:type,bibo:Article
+9,dct:creator,"Tajima N, et al."
+9,prism:publicationName,"Diabetol Int."
+9,prism:volume,2
+9,prism:number,
+9,prism:startingPage,32
+9,prism:endingPage,44
+9,dct:issued,2011
+9,ifo:internal_reference_id,
+10,rdf:type,bibo:Article
+10,dct:references,24843518
+10,ifo:internal_reference_id,
+11,rdf:type,bibo:Article
+11,dct:references,24843649
+11,ifo:internal_reference_id,
+12,rdf:type,bibo:Article
+12,dct:references,24843714
+12,ifo:internal_reference_id,
+13,rdf:type,bibo:Article
+13,dct:references,30603259
+13,ifo:internal_reference_id,
+14,rdf:type,bibo:Article
+14,dct:creator,"Kadowaki T, et al."
+14,prism:publicationName,"Diabetol Int."
+14,prism:volume,4
+14,prism:number,
+14,prism:startingPage,160
+14,prism:endingPage,172
+14,dct:issued,2013
+14,ifo:internal_reference_id,
+15,rdf:type,bibo:Article
+15,dct:creator,"Odawara M, et al."
+15,prism:publicationName,"Diabetol Int."
+15,prism:volume,2
+15,prism:number,
+15,prism:startingPage,94
+15,prism:endingPage,105
+15,dct:issued,2011
+15,ifo:internal_reference_id,
+16,rdf:type,bibo:Article
+16,dct:references,18518892
+16,ifo:internal_reference_id,
+17,rdf:type,bibo:Document
+17,rdfs:label,社内資料：製造販売後調査等
+17,dct:dateAccepted,
+17,ifo:internal_reference_id,
+17,ifo:ctd_number,
+18,rdf:type,bibo:Article
+18,dct:creator,池田恵子、他.
+18,prism:publicationName,新薬と臨床.
+18,prism:volume,65
+18,prism:number,
+18,prism:startingPage,1427
+18,prism:endingPage,1451
+18,dct:issued,2016
+18,ifo:internal_reference_id,
+19,rdf:type,bibo:Article
+19,dct:references,29770541
+19,ifo:internal_reference_id,
+20,rdf:type,bibo:Article
+20,dct:references,14514604
+20,ifo:internal_reference_id,
+21,rdf:type,bibo:Article
+21,dct:references,15634008
+21,ifo:internal_reference_id,
+22,rdf:type,bibo:Article
+22,dct:references,16912128
+22,ifo:internal_reference_id,
+23,rdf:type,bibo:Document
+23,rdfs:label,"社内資料：シタグリプチンのin vitro及びin vivo薬理試験"
+23,dct:dateAccepted,2009-10-16
+23,ifo:internal_reference_id,
+23,ifo:ctd_number,"CTD 2.6.2.2"
+24,rdf:type,bibo:Article
+24,dct:references,19765579
+24,ifo:internal_reference_id,
+25,rdf:type,bibo:Document
+25,rdfs:label,社内資料：国内臨床薬理試験
+25,dct:dateAccepted,2009-10-16
+25,ifo:internal_reference_id,
+25,ifo:ctd_number,"CTD 2.7.2.2"
+26,rdf:type,bibo:Document
+26,rdfs:label,社内資料：ボグリボース併用PK試験
+26,dct:dateAccepted,2009-10-16
+26,ifo:internal_reference_id,
+26,ifo:ctd_number,"CTD 2.7.2.2"
+27,rdf:type,bibo:Document
+27,rdfs:label,社内資料：ジゴキシン併用PK試験
+27,dct:dateAccepted,2009-10-16
+27,ifo:internal_reference_id,
+27,ifo:ctd_number,"CTD 2.7.2.2"
+28,rdf:type,bibo:Article
+28,dct:references,17244767
+28,ifo:internal_reference_id,
+29,rdf:type,bibo:Article
+29,dct:references,17022853
+29,ifo:internal_reference_id,
+30,rdf:type,bibo:Article
+30,dct:references,17244766
+30,ifo:internal_reference_id,
+31,rdf:type,bibo:Article
+31,dct:references,18503607
+31,ifo:internal_reference_id,
+32,rdf:type,bibo:Article
+32,dct:references,19204138
+32,ifo:internal_reference_id,
+33,rdf:type,bibo:Article
+33,dct:references,19783710
+33,ifo:internal_reference_id,
+34,rdf:type,bibo:Article
+34,dct:references,21209231
+34,ifo:internal_reference_id,
+35,rdf:type,bibo:Document
+35,rdfs:label,社内資料：母集団薬物動態解析
+35,dct:dateAccepted,2009-10-16
+35,ifo:internal_reference_id,
+35,ifo:ctd_number,"CTD 2.7.2.2"
+36,rdf:type,bibo:Document
+36,rdfs:label,社内資料：ラット薬物動態試験
+36,dct:dateAccepted,2009-10-16
+36,ifo:internal_reference_id,
+36,ifo:ctd_number,"CTD 2.6.4.3"
+37,rdf:type,bibo:Document
+37,rdfs:label,社内資料：分布容積
+37,dct:dateAccepted,2009-10-16
+37,ifo:internal_reference_id,
+37,ifo:ctd_number,"CTD 2.7.1.2"
+38,rdf:type,bibo:Article
+38,dct:references,17575559
+38,ifo:internal_reference_id,
+39,rdf:type,bibo:Document
+39,rdfs:label,社内資料：吸収
+39,dct:dateAccepted,2009-10-16
+39,ifo:internal_reference_id,
+39,ifo:ctd_number,"CTD 2.7.1.2"
+40,rdf:type,bibo:Document
+40,rdfs:label,社内資料：ラットでの分布
+40,dct:dateAccepted,2009-10-16
+40,ifo:internal_reference_id,
+40,ifo:ctd_number,"CTD 2.6.4.4"
+41,rdf:type,bibo:Document
+41,rdfs:label,社内資料：ラット、ウサギでの胎盤移行性
+41,dct:dateAccepted,2009-10-16
+41,ifo:internal_reference_id,
+41,ifo:ctd_number,"CTD 2.6.5.5"
+42,rdf:type,bibo:Document
+42,rdfs:label,社内資料：ラット乳汁中への移行性
+42,dct:dateAccepted,2009-10-16
+42,ifo:internal_reference_id,
+42,ifo:ctd_number,"CTD 2.6.5.21"
+43,rdf:type,bibo:Document
+43,rdfs:label,社内資料：タンパク結合率
+43,dct:dateAccepted,2009-10-16
+43,ifo:internal_reference_id,
+43,ifo:ctd_number,"CTD 2.6.4.4"
+44,rdf:type,bibo:Article
+44,dct:references,17220239
+44,ifo:internal_reference_id,
+45,rdf:type,bibo:Document
+45,rdfs:label,社内資料：CYP分子種への影響
+45,dct:dateAccepted,2009-10-16
+45,ifo:internal_reference_id,
+45,ifo:ctd_number,"CTD 2.6.5.15-17"
+46,rdf:type,bibo:Document
+46,rdfs:label,社内資料：代謝物の活性（2009年10月16日承認、
+46,dct:dateAccepted,2009-10-16
+46,ifo:internal_reference_id,
+46,ifo:ctd_number,"CTD 2.6.4.5"
+47,rdf:type,bibo:Article
+47,dct:references,17314201
+47,ifo:internal_reference_id,
+48,rdf:type,bibo:Document
+48,rdfs:label,社内資料：シタグリプチンによるジゴキシンおよびシメチジンの取り込み阻害
+48,dct:dateAccepted,2009-10-16
+48,ifo:internal_reference_id,
+48,ifo:ctd_number,"CTD 2.6.4.4"
+49,rdf:type,bibo:Article
+49,dct:references,17468348
+49,ifo:internal_reference_id,
+50,rdf:type,bibo:Article
+50,dct:references,19221403
+50,ifo:internal_reference_id,
+51,rdf:type,bibo:Document
+51,rdfs:label,社内資料：高齢男女／成人女性／肥満成人男性における薬物動態
+51,dct:dateAccepted,2009-10-16
+51,ifo:internal_reference_id,
+51,ifo:ctd_number,CTD2.7.2.2
+52,rdf:type,bibo:Document
+52,rdfs:label,社内資料：中枢神経系に対する作用
+52,dct:dateAccepted,2009-10-16
+52,ifo:internal_reference_id,
+52,ifo:ctd_number,"CTD 2.6.2.4"
+53,rdf:type,bibo:Document
+53,rdfs:label,社内資料：呼吸・循環器系に対する作用
+53,dct:dateAccepted,2009-10-16
+53,ifo:internal_reference_id,
+53,ifo:ctd_number,"CTD 2.6.2.4"
+54,rdf:type,bibo:Document
+54,rdfs:label,社内資料：腎機能に対する作用
+54,dct:dateAccepted,2009-10-16
+54,ifo:internal_reference_id,
+54,ifo:ctd_number,"CTD 2.6.2.4"
+55,rdf:type,bibo:Document
+55,rdfs:label,社内資料：消化器系に対する作用
+55,dct:dateAccepted,2009-10-16
+55,ifo:internal_reference_id,
+55,ifo:ctd_number,"CTD 2.6.2.4"
+56,rdf:type,bibo:Document
+56,rdfs:label,社内資料：血液凝固系に対する作用
+56,dct:dateAccepted,2009-10-16
+56,ifo:internal_reference_id,
+56,ifo:ctd_number,"CTD 2.6.2.4"
+57,rdf:type,bibo:Document
+57,rdfs:label,社内資料：単回投与毒性試験
+57,dct:dateAccepted,2009-10-16
+57,ifo:internal_reference_id,
+57,ifo:ctd_number,"CTD 2.6.6.2"
+58,rdf:type,bibo:Document
+58,rdfs:label,社内資料：反復投与毒性試験
+58,dct:dateAccepted,2009-10-16
+58,ifo:internal_reference_id,
+58,ifo:ctd_number,"CTD 2.6.6.3"
+59,rdf:type,bibo:Document
+59,rdfs:label,社内資料：遺伝毒性試験
+59,dct:dateAccepted,2009-10-16
+59,ifo:internal_reference_id,
+59,ifo:ctd_number,"CTD 2.6.6.4"
+60,rdf:type,bibo:Document
+60,rdfs:label,社内資料：がん原性試験
+60,dct:dateAccepted,2009-10-16
+60,ifo:internal_reference_id,
+60,ifo:ctd_number,"CTD 2.6.6.5"
+61,rdf:type,bibo:Document
+61,rdfs:label,社内資料：生殖発生毒性試験
+61,dct:dateAccepted,2009-10-16
+61,ifo:internal_reference_id,
+61,ifo:ctd_number,"CTD 2.6.6.6"
+62,rdf:type,bibo:Document
+62,rdfs:label,社内資料：眼刺激性試験
+62,dct:dateAccepted,2009-10-16
+62,ifo:internal_reference_id,
+62,ifo:ctd_number,"CTD 2.6.6.8"
+63,rdf:type,bibo:Document
+63,rdfs:label,社内資料：皮膚刺激性試験
+63,dct:dateAccepted,2009-10-16
+63,ifo:internal_reference_id,
+63,ifo:ctd_number,"CTD 2.6.6.8"
+64,rdf:type,bibo:Document
+64,rdfs:label,社内資料：局所リンパ節増殖試験
+64,dct:dateAccepted,2009-10-16
+64,ifo:internal_reference_id,
+64,ifo:ctd_number,"CTD 2.6.6.7"
+65,rdf:type,bibo:Document
+65,rdfs:label,社内資料：肝ミクロソーム酵素活性誘導
+65,dct:dateAccepted,2009-10-16
+65,ifo:internal_reference_id,
+65,ifo:ctd_number,"CTD 2.6.6.8"
+66,rdf:type,bibo:Document
+66,rdfs:label,社内資料：溶血性試験
+66,dct:dateAccepted,2009-10-16
+66,ifo:internal_reference_id,
+66,ifo:ctd_number,"CTD 2.6.6.8"
+67,rdf:type,bibo:Document
+67,rdfs:label,社内資料：光毒性試験
+67,dct:dateAccepted,2009-10-16
+67,ifo:internal_reference_id,
+67,ifo:ctd_number,"CTD 2.6.6.8"
+68,rdf:type,bibo:Article
+68,dct:references,24424056
+68,ifo:internal_reference_id,

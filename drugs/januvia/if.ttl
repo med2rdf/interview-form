@@ -1,0 +1,1436 @@
+@prefix	if:	<http://med2rdf.org/if/170050_3969010F1034_2_32#>	.
+@prefix	pi:	<http://med2rdf.org/pi/170050_3969010F1034_2_029_1F#>	.
+
+@prefix yjc:   <http://med2rdf.org/if/yjcode/> .
+@prefix pio:   <http://med2rdf.org/ontology/pio/> .
+@prefix ifo:   <http://med2rdf.org/ontology/ifo/> .
+
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
+@prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	rdf:type	ifo:InterviewForm	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_7	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_8	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_9	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_10	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_11	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_12	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_13	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_14	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_15	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_16	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_17	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_18	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_19	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_0_20	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_4_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_4_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_4_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_4_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_5_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_5_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_1_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_1_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_1_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_1_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_2_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_2_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_2_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_2_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3_1_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3_1_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3_1_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3_1_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3_1_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3_1_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3_1_7	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_3_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_1_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_1_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_1_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_1_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_1_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_2_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_2_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_2_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_7	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_8	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_9	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_10	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_10_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_10_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_10_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_10_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_11	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_4_12	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_3_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_3_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_4_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_4_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_6_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_6_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_5_5_7	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_6_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_6_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_6_2_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_6_2_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_6_2_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_1_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_1_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_1_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_1_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_2_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_2_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_2_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_2_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_2_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_2_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_3_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_3_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_5_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_5_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_5_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_5_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_5_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_5_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_6_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_6_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_6_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_6_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_7	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_8	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_9	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_10	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_7_11	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_6_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_6_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_6_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_6_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_6_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_6_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_6_7	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_6_8	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_7	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_7_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_7_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_8	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_8_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_8_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_9	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_10	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_11	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_12	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_12_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_8_12_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_1_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_1_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_1_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_2_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_2_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_2_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_2_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_2_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_2_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_9_2_7	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_3	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_4	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_5	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_6	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_7	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_8	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_9	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_10	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_11	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_12	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_13	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_10_14	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_11	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_11_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_11_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_12	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_12_1	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_12_2	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:section	if:IF_13	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:package_insert	<http://med2rdf.org/pi/170050_3969010F1034_2_029_1F>	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	dct:identifier	"170050_3969010F1034_2_32"	.
+<http://med2rdf.org/pi/170050_3969010F1034_2_029_1F>	dct:identifier	"170050_3969010F1034_2_029_1F"	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	rdfs:seeAlso	<https://www.info.pmda.go.jp/go/interview/1/170050_3969010F1034_2_32>	.
+<http://med2rdf.org/pi/170050_3969010F1034_2_029_1F>	rdfs:seeAlso	<https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/170050_3969010F1034_2_029_1F>	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:drug	yjc:3969010F4033	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:drug	yjc:3969010F1034	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:drug	yjc:3969010F2030	.
+<http://med2rdf.org/if/170050_3969010F1034_2_32>	ifo:drug	yjc:3969010F3037	.
+yjc:3969010F4033	rdf:type	ifo:Drug	.
+yjc:3969010F4033	ifo:if_0_8	"ジャヌビア®錠12.5mg"@ja	.
+yjc:3969010F4033	ifo:if_0_9	"フィルムコーティング錠"@ja	.
+yjc:3969010F4033	ifo:if_0_11	"1 錠中シタグリプチンとして12.5mg 含有"@ja	.
+yjc:3969010F4033	ifo:if_0_13	"2013-09-02"^^xsd:date	.
+yjc:3969010F4033	ifo:if_0_14	"2013-11-29"^^xsd:date	.
+yjc:3969010F4033	ifo:if_0_15	"2013-11-29"^^xsd:date	.
+yjc:3969010F4033	ifo:if_10_8	"22500AMX01783000"	.
+yjc:3969010F4033	ifo:yakka_code	"3969010F4033"	.
+yjc:3969010F4033	ifo:yj_code	"3969010F4033"	.
+yjc:3969010F4033	ifo:hot_code	"122775801"	.
+yjc:3969010F4033	ifo:resept_code	"622277501"	.
+yjc:3969010F1034	rdf:type	ifo:Drug	.
+yjc:3969010F1034	ifo:if_0_8	"ジャヌビア®錠25mg"@ja	.
+yjc:3969010F1034	ifo:if_0_9	"フィルムコーティング錠"@ja	.
+yjc:3969010F1034	ifo:if_0_11	"1 錠中シタグリプチンとして25mg 含有"@ja	.
+yjc:3969010F1034	ifo:if_0_13	"2009-10-16"^^xsd:date	.
+yjc:3969010F1034	ifo:if_0_14	"2009-12-11"^^xsd:date	.
+yjc:3969010F1034	ifo:if_0_15	"2009-12-11"^^xsd:date	.
+yjc:3969010F1034	ifo:if_10_8	"22100AMX02258000"	.
+yjc:3969010F1034	ifo:yakka_code	"3969010F1034"	.
+yjc:3969010F1034	ifo:yj_code	"3969010F1034"	.
+yjc:3969010F1034	ifo:hot_code	"119509501"	.
+yjc:3969010F1034	ifo:resept_code	"621950901"	.
+yjc:3969010F2030	rdf:type	ifo:Drug	.
+yjc:3969010F2030	ifo:if_0_8	"ジャヌビア®錠50mg"@ja	.
+yjc:3969010F2030	ifo:if_0_9	"フィルムコーティング錠"@ja	.
+yjc:3969010F2030	ifo:if_0_11	"1 錠中シタグリプチンとして50mg 含有"@ja	.
+yjc:3969010F2030	ifo:if_0_13	"2009-10-16"^^xsd:date	.
+yjc:3969010F2030	ifo:if_0_14	"2009-12-11"^^xsd:date	.
+yjc:3969010F2030	ifo:if_0_15	"2009-12-11"^^xsd:date	.
+yjc:3969010F2030	ifo:if_10_8	"22100AMX02257000"	.
+yjc:3969010F2030	ifo:yakka_code	"3969010F2030"	.
+yjc:3969010F2030	ifo:yj_code	"3969010F2030"	.
+yjc:3969010F2030	ifo:hot_code	"119510101"	.
+yjc:3969010F2030	ifo:resept_code	"621951001"	.
+yjc:3969010F3037	rdf:type	ifo:Drug	.
+yjc:3969010F3037	ifo:if_0_8	"ジャヌビア®錠100mg"@ja	.
+yjc:3969010F3037	ifo:if_0_9	"フィルムコーティング錠"@ja	.
+yjc:3969010F3037	ifo:if_0_11	"1 錠中シタグリプチンとして100mg 含有"@ja	.
+yjc:3969010F3037	ifo:if_0_13	"2009-10-16"^^xsd:date	.
+yjc:3969010F3037	ifo:if_0_14	"2009-12-11"^^xsd:date	.
+yjc:3969010F3037	ifo:if_0_15	"2009-12-11"^^xsd:date	.
+yjc:3969010F3037	ifo:if_10_8	"22100AMX02259000"	.
+yjc:3969010F3037	ifo:yakka_code	"3969010F3037"	.
+yjc:3969010F3037	ifo:yj_code	"3969010F3037"	.
+yjc:3969010F3037	ifo:hot_code	"119511801"	.
+yjc:3969010F3037	ifo:resept_code	"621951101"	.
+if:IF_0_3	rdf:type	ifo:IF_0_3	.
+if:IF_0_3	rdf:type	ifo:Section	.
+if:IF_0_3	dct:modified	"2020-12"^^xsd:gYearMonth	.
+if:IF_0_3	pav:version	"28"	.
+if:IF_0_4	rdf:type	ifo:IF_0_4	.
+if:IF_0_4	rdf:type	ifo:Section	.
+if:IF_0_4	ifo:package_insert	pi:PI_0_2	.
+if:IF_0_4	rdf:value	"873969"	.
+if:IF_0_6	rdf:type	ifo:IF_0_6	.
+if:IF_0_6	rdf:type	ifo:Section	.
+if:IF_0_6	rdf:value	"2018"^^xsd:gYear	.
+if:IF_0_7	rdf:type	ifo:IF_0_7	.
+if:IF_0_7	rdf:type	ifo:Section	.
+if:IF_0_7	ifo:package_insert	pi:PI_0_5	.
+if:IF_0_7	rdf:value	"選択的DPP-4阻害剤"@ja	.
+if:IF_0_8	rdf:type	ifo:IF_0_8	.
+if:IF_0_8	rdf:type	ifo:Section	.
+if:IF_0_8	ifo:package_insert	pi:PI_0_7	.
+if:IF_0_8	rdf:value	"日本薬局方　シタグリプチンリン酸塩錠"@ja	.
+if:IF_0_10	rdf:type	ifo:IF_0_10	.
+if:IF_0_10	rdf:type	ifo:Section	.
+if:IF_0_10	ifo:package_insert	pi:PI_0_6	.
+if:IF_0_10	rdf:value	"処方箋医薬品：注意－医師等の処方箋により使用すること"@ja	.
+if:IF_0_12	rdf:type	ifo:IF_0_12	.
+if:IF_0_12	rdf:type	ifo:Section	.
+if:IF_0_12	ifo:package_insert	pi:PI_0_7	.
+if:IF_0_12	rdf:value	"シタグリプチンリン酸塩水和物（日局、JAN）"@ja	.
+if:IF_0_12	rdf:value	"Sitagliptin Phosphate Hydrate（日局、JAN）"@ja	.
+if:IF_0_16	rdf:type	ifo:IF_0_16	.
+if:IF_0_16	rdf:type	ifo:Section	.
+if:IF_0_16	ifo:package_insert	pi:PI_26	.
+if:IF_0_16	rdf:value	"製造販売元：MSD株式会社"@ja	.
+if:IF_0_18	rdf:type	ifo:IF_0_18	.
+if:IF_0_18	rdf:type	ifo:Section	.
+if:IF_0_18	ifo:package_insert	pi:PI_24	.
+if:IF_0_18	rdf:value	"MSD カスタマーサポートセンター\r\n医療関係者の方：フリーダイヤル 0120-024-961\r\n＜受付時間＞ 9:00～17:30（土日祝日・当社休日を除く）\r\n医療関係者向けホームページ https://www.msdconnect.jp/"@ja	.
+if:IF_0_19	rdf:type	ifo:IF_0_19	.
+if:IF_0_19	rdf:type	ifo:Section	.
+if:IF_0_19	ifo:package_insert	pi:PI_0_1	.
+if:IF_0_19	rdf:value	"2020-03"^^xsd:gYearMonth	.
+if:IF_1_1	rdf:type	ifo:IF_1_1	.
+if:IF_1_1	rdf:type	ifo:Section	.
+if:IF_1_1	rdf:value	"ジャヌビア®錠（シタグリプチンリン酸塩水和物：以下、シタグリプチン）はMerck Sharp & Dohme\r\nCorp., a subsidiary of Merck & Co., Inc., Whitehouse Station, N.J., U.S.A.により創製されたジペプチジル\r\nペプチダーゼ-4（DPP-4）阻害薬で、新しい作用機序の経口糖尿病治療薬です。\r\nジャヌビア®錠は、食後に消化管から分泌されるインクレチンの血糖降下作用に着目した薬剤です。\r\nインクレチンは食後に消化管から分泌され、血糖依存的にインスリン分泌促進及びグルカゴン分泌\r\n抑制に働き血糖を調節します。ジャヌビア®錠は、1 日1 回投与でインクレチンの分解酵素である\r\nDPP-4 を阻害する経口血糖降下薬として開発されました。\r\n本剤は、2006 年8 月に世界初のDPP-4 阻害薬としてメキシコで承認され、その後2006 年10 月には\r\n米国で承認されました。2018 年6 月現在、米国、欧州、アジアの各国を含む134 の国・地域で承認\r\nされています。\r\n本邦においては、2003 年から万有製薬株式会社（現 MSD 株式会社）により臨床試験が開始されま\r\nした。第Ⅲ相臨床試験より万有製薬株式会社（現 MSD 株式会社）及び小野薬品工業株式会社の共\r\n同で試験が実施され2008 年に臨床試験が終了しました。ジャヌビア®錠を投与した合計1,190 例の2\r\n型糖尿病患者を評価した結果、本剤の有効性、安全性及び忍容性が確認されました。2009 年10 月\r\nに食事療法、運動療法のみで十分な効果が得られない場合、及び食事療法、運動療法に加えて他の\r\n経口血糖降下剤（スルホニルウレア剤、チアゾリジン系薬剤、ビグアナイド系薬剤）を使用して十\r\n分な効果が得られない場合に限る2 型糖尿病を効能・効果として製造販売承認を取得しました。\r\nまた、2011 年5 月に「食事療法、運動療法に加えてα-グルコシダーゼ阻害剤を使用して十分な効果\r\nが得られない2 型糖尿病患者」、2011 年9 月に「食事療法、運動療法に加えてインスリン製剤を使\r\n用して十分な効果が得られない2 型糖尿病患者」の効能・効果が追加されました。その後、「食事\r\n療法、運動療法に加えて速効型インスリン分泌促進薬を使用して十分な効果が得られない2 型糖尿\r\n病患者」に対する本剤の有効性及び安全性が確認されたことから、『経口血糖降下薬の臨床評価方\r\n法に関するガイドラインについて』（平成22 年7 月9 日付薬食審査発0709 第1 号）に基づき、2014\r\n年5 月に「2 型糖尿病」として効能・効果が承認されました。\r\nなお、シタグリプチンとして12.5mg 1 日1 回が投与可能な「ジャヌビア®錠25mg」（割線入り）が\r\n2013 年6 月に、「ジャヌビア®錠12.5mg」が2013 年9 月に承認されたことから、重度腎機能障害の\r\nある患者、血液透析又は腹膜透析を要する末期腎不全患者に対しても投与可能となっています。"@ja	.
+if:IF_1_2	rdf:type	ifo:IF_1_2	.
+if:IF_1_2	rdf:type	ifo:Section	.
+if:IF_1_2	ifo:package_insert	pi:PI_11_1	.
+if:IF_1_2	rdf:value	"1) 高選択的にDPP-4 を阻害し、DPP-8、DPP-9 などに対する親和性は極めて低い。\r\n2) DPP-4 阻害活性は24 時間持続し、1 日1 回投与で良好な血糖降下作用が得られる。\r\n3) 単独療法で、プラセボと比較して約1.0％のHbA1c 値低下作用が認められた。\r\n4) 食事療法、運動療法に加えて他の経口血糖降下剤（グリメピリド、ピオグリタゾン、メトホルミ\r\nン、ボグリボース、速効型インスリン分泌促進薬）及びインスリン製剤を使用して十分な効果が\r\n得られない2 型糖尿病患者において、併用療法によりHbA1c 値を有意に低下させ、血糖コントロ\r\nールを改善した。\r\n5) 国内で実施された臨床試験において、1,734 例中195 例（11.2％）の副作用が認められた。主なも\r\nのは、低血糖73 例（4.2％）、便秘19 例（1.1％）、空腹9 例（0.5％）、腹部膨満9 例（0.5％）\r\n等であった。関連の否定できない臨床検査値の異常変動は1,732 例中64 例（3.7％）に認められ、\r\n主なものはALT 増加20 例/1,732 例（1.2％）、AST 増加12 例/1,732 例（0.7％）、γ-GTP 増加12\r\n例/1,732 例（0.7％）等であった。（承認時）\r\n「Ⅴ．治療に関する項目 5．臨床成績」各臨床試験の安全性の結果を参照\r\nなお、重大な副作用として、アナフィラキシー反応、皮膚粘膜眼症候群（Stevens-Johnson 症候群）、\r\n剥脱性皮膚炎、低血糖、肝機能障害、黄疸、急性腎障害、急性膵炎、間質性肺炎、腸閉塞、横紋\r\n筋融解症、血小板減少及び類天疱瘡が報告されている。（93-94 ページ参照）"@ja	.
+if:IF_1_2	rdfs:seeAlso	if:IF_5_5	.
+if:IF_1_3	rdf:type	ifo:IF_1_3	.
+if:IF_1_3	rdf:type	ifo:Section	.
+if:IF_1_3	rdf:value	"長円形（25mg、50mg）、円形（12.5mg、100mg）のフィルムコーティング錠である。（7 頁参照）"@ja	.
+if:IF_1_4	rdf:type	ifo:IF_1_4	.
+if:IF_1_4	rdf:type	ifo:Section	.
+if:IF_1_4	rdf:value	"該当資料なし"@ja	.
+if:IF_1_5_1	rdf:type	ifo:IF_1_5_1	.
+if:IF_1_5_1	rdf:type	ifo:Section	.
+if:IF_1_5_1	ifo:package_insert	pi:PI_21	.
+if:IF_1_5_1	rdf:value	"該当しない"@ja	.
+if:IF_1_5_2	rdf:type	ifo:IF_1_5_2	.
+if:IF_1_5_2	rdf:type	ifo:Section	.
+if:IF_1_5_2	ifo:package_insert	pi:PI_21	.
+if:IF_1_5_2	rdf:value	"該当しない"@ja	.
+if:IF_1_6	rdf:type	ifo:IF_1_6	.
+if:IF_1_6	rdf:type	ifo:Section	.
+if:IF_1_6	ifo:package_insert	pi:PI_1	.
+if:IF_1_6	rdf:value	"該当しない"@ja	.
+if:IF_2_1_1	rdf:type	ifo:IF_2_1_1	.
+if:IF_2_1_1	rdf:type	ifo:Section	.
+if:IF_2_1_1	ifo:package_insert	pi:PI_0_7	.
+if:IF_2_1_1	rdf:value	"ジャヌビア®錠12.5mg\r\nジャヌビア®錠25mg\r\nジャヌビア®錠50mg\r\nジャヌビア®錠100mg"@ja	.
+if:IF_2_1_2	rdf:type	ifo:IF_2_1_2	.
+if:IF_2_1_2	rdf:type	ifo:Section	.
+if:IF_2_1_2	ifo:package_insert	pi:PI_0_7	.
+if:IF_2_1_2	rdf:value	"JANUVIA® Tablets 12.5mg\r\nJANUVIA® Tablets 25mg\r\nJANUVIA® Tablets 50mg\r\nJANUVIA® Tablets 100mg"@ja	.
+if:IF_2_1_3	rdf:type	ifo:IF_2_1_3	.
+if:IF_2_1_3	rdf:type	ifo:Section	.
+if:IF_2_1_3	rdf:value	"JANUS（ヤヌス、二つの顔を持つ神）、via（道）から命名"@ja	.
+if:IF_2_2_1	rdf:type	ifo:IF_2_2_1	.
+if:IF_2_2_1	rdf:type	ifo:Section	.
+if:IF_2_2_1	ifo:package_insert	pi:PI_19	.
+if:IF_2_2_1	rdf:value	"シタグリプチンリン酸塩水和物（日局、JAN）"@ja	.
+if:IF_2_2_2	rdf:type	ifo:IF_2_2_2	.
+if:IF_2_2_2	rdf:type	ifo:Section	.
+if:IF_2_2_2	ifo:package_insert	pi:PI_19	.
+if:IF_2_2_2	rdf:value	"Sitagliptin Phosphate Hydrate（日局、JAN）\r\nsitagliptin（INN）"@ja	.
+if:IF_2_2_3	rdf:type	ifo:IF_2_2_3	.
+if:IF_2_2_3	rdf:type	ifo:Section	.
+if:IF_2_2_3	rdf:value	"ジペプチジルペプチダーゼ（DPP）-4 阻害薬：-gliptin"@ja	.
+if:IF_2_4	rdf:type	ifo:IF_2_4	.
+if:IF_2_4	rdf:type	ifo:Section	.
+if:IF_2_4	ifo:package_insert	pi:PI_19	.
+if:IF_2_4	rdf:value	"分子式：C16H15F6N5O・H3PO4・H2O\r\n分子量：523.32"@ja	.
+if:IF_2_5	rdf:type	ifo:IF_2_5	.
+if:IF_2_5	rdf:type	ifo:Section	.
+if:IF_2_5	ifo:package_insert	pi:PI_19	.
+if:IF_2_5	rdf:value	"化学名（命名法）又は本質\r\n(3R)-3-Amino-1-[3-(trifluoromethyl)-5,6-dihydro[1,2,4]triazolo[4,3-α]pyrazin-7(8H)-yl]-4-(2,4,5-\r\ntrifluorophenyl)butan-1-one monophosphate monohydrate（IUPAC）"@ja	.
+if:IF_2_6	rdf:type	ifo:IF_2_6	.
+if:IF_2_6	rdf:type	ifo:Section	.
+if:IF_2_6	ifo:package_insert	pi:PI_19	.
+if:IF_2_6	rdf:value	"治験成分番号：L-000224715、MK-0431、MK-0431/ONO-5435"@ja	.
+if:IF_3	rdf:type	ifo:IF_3	.
+if:IF_3	rdf:type	ifo:Section	.
+if:IF_3	dct:references	if:ref1	.
+if:IF_3_1_1	rdf:type	ifo:IF_3_1_1	.
+if:IF_3_1_1	rdf:type	ifo:Section	.
+if:IF_3_1_1	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_1	rdf:value	"本品は白色の粉末である。"@ja	.
+if:IF_3_1_3	rdf:type	ifo:IF_3_1_3	.
+if:IF_3_1_3	rdf:type	ifo:Section	.
+if:IF_3_1_3	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_3	rdf:value	"吸湿性はない。"@ja	.
+if:IF_3_1_4	rdf:type	ifo:IF_3_1_4	.
+if:IF_3_1_4	rdf:type	ifo:Section	.
+if:IF_3_1_4	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_4	rdf:value	"示差走査熱量測定（DSC）を行ったところ、本品リン酸塩の一水和物の脱水による吸熱ピークをピ\r\nーク温度138℃、融解開始温度134℃に認め、更にリン酸塩の無水の結晶形Form I の融解／分解に\r\nよる吸熱ピークを、ピーク温度213℃、融解開始温度211℃に観測した。なお、塩の分解に起因す\r\nる熱量は観測されなかった。"@ja	.
+if:IF_3_1_5	rdf:type	ifo:IF_3_1_5	.
+if:IF_3_1_5	rdf:type	ifo:Section	.
+if:IF_3_1_5	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_5	rdf:value	"本品の一級アミンのpKa は7.7±0.1 であった（n＝3）。"@ja	.
+if:IF_3_1_6	rdf:type	ifo:IF_3_1_6	.
+if:IF_3_1_6	rdf:type	ifo:Section	.
+if:IF_3_1_6	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_6	rdf:value	"1-オクタノール／pH7 の緩衝液系における本品の分配係数（1-オクタノール中の本品の濃度）／（水\r\n相中の本品の濃度）は0.6 であった（Log P としては-0.25）。"@ja	.
+if:IF_3_1_7	rdf:type	ifo:IF_3_1_7	.
+if:IF_3_1_7	rdf:type	ifo:Section	.
+if:IF_3_1_7	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_7	rdf:value	"25℃で測定した本品の飽和水溶液でのpH は4.4±0.1 であった。"@ja	.
+if:IF_3_3	rdf:type	ifo:IF_3_3	.
+if:IF_3_3	rdf:type	ifo:Section	.
+if:IF_3_3	rdf:value	"確認試験法\r\n日局「シタグリプチンリン酸塩水和物」に準ずる。\r\n定量法\r\n日局「シタグリプチンリン酸塩水和物」に準ずる。"@ja	.
+if:IF_4	rdf:type	ifo:IF_4	.
+if:IF_4	rdf:type	ifo:Section	.
+if:IF_4	dct:references	if:ref2	.
+if:IF_4_1_1	rdf:type	ifo:IF_4_1_1	.
+if:IF_4_1_1	rdf:type	ifo:Section	.
+if:IF_4_1_1	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_1	rdf:value	"フィルムコーティング錠"@ja	.
+if:IF_4_1_2	rdf:type	ifo:IF_4_1_2	.
+if:IF_4_1_2	rdf:type	ifo:Section	.
+if:IF_4_1_2	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_2	rdf:value	"本品は、表示量の95.0～105.0％に対応するシタグリプチンを含む。"@ja	.
+if:IF_4_1_3	rdf:type	ifo:IF_4_1_3	.
+if:IF_4_1_3	rdf:type	ifo:Section	.
+if:IF_4_1_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_3	rdf:value	"ジャヌビア®錠12.5mg ： MSD 211（本体及びPTP 包装に表示）\r\nジャヌビア®錠25mg ： MSD 221（本体及びPTP 包装に表示）\r\nジャヌビア®錠50mg ： MSD 112（本体及びPTP 包装に表示）\r\nジャヌビア®錠100mg ： MSD 277（本体及びPTP 包装に表示）"@ja	.
+if:IF_4_1_4	rdf:type	ifo:IF_4_1_4	.
+if:IF_4_1_4	rdf:type	ifo:Section	.
+if:IF_4_1_4	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_4	rdf:value	"該当資料なし"@ja	.
+if:IF_4_1_5	rdf:type	ifo:IF_4_1_5	.
+if:IF_4_1_5	rdf:type	ifo:Section	.
+if:IF_4_1_5	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_5	rdf:value	"該当資料なし"@ja	.
+if:IF_4_2_2	rdf:type	ifo:IF_4_2_2	.
+if:IF_4_2_2	rdf:type	ifo:Section	.
+if:IF_4_2_2	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_2_2	rdf:value	"該当しない"@ja	.
+if:IF_4_2_3	rdf:type	ifo:IF_4_2_3	.
+if:IF_4_2_3	rdf:type	ifo:Section	.
+if:IF_4_2_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_2_3	rdf:value	"該当しない"@ja	.
+if:IF_4_3	rdf:type	ifo:IF_4_3	.
+if:IF_4_3	rdf:type	ifo:Section	.
+if:IF_4_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_3	rdf:value	"該当しない"@ja	.
+if:IF_4_4	rdf:type	ifo:IF_4_4	.
+if:IF_4_4	rdf:type	ifo:Section	.
+if:IF_4_4	ifo:package_insert	pi:PI_3_1	.
+if:IF_4_4	rdf:value	"本剤1 錠中の含量（12.5mg、25mg、50mg、100mg）は、化学物質のフリー体（シタグリプチン）の\r\n量で表示している。化学物質全体（シタグリプチンリン酸塩水和物）量では各々16.06mg、32.13mg、\r\n64.25mg、128.5mg となる。"@ja	.
+if:IF_4_5	rdf:type	ifo:IF_4_5	.
+if:IF_4_5	rdf:type	ifo:Section	.
+if:IF_4_5	rdf:value	"日局 液体クロマトグラフィーによる\r\n個々の類縁物質の量及び類縁物質の総量を規定"@ja	.
+if:IF_4_7	rdf:type	ifo:IF_4_7	.
+if:IF_4_7	rdf:type	ifo:Section	.
+if:IF_4_7	rdf:value	"該当しない"@ja	.
+if:IF_4_8	rdf:type	ifo:IF_4_8	.
+if:IF_4_8	rdf:type	ifo:Section	.
+if:IF_4_8	rdf:value	"該当しない"@ja	.
+if:IF_4_9	rdf:type	ifo:IF_4_9	.
+if:IF_4_9	rdf:type	ifo:Section	.
+if:IF_4_9	rdf:value	"（方法）日局溶出試験法第1 法（回転バスケット法）による。\r\n条件：毎分100 回転 試験液 水 900mL\r\n（結果）本品は溶出試験規格（15 分間の溶出率が85％以上）に適合する。"@ja	.
+if:IF_4_10_1	rdf:type	ifo:IF_4_10_1	.
+if:IF_4_10_1	rdf:type	ifo:Section	.
+if:IF_4_10_1	rdf:value	"該当しない"@ja	.
+if:IF_4_10_2	rdf:type	ifo:IF_4_10_2	.
+if:IF_4_10_2	rdf:type	ifo:Section	.
+if:IF_4_10_2	ifo:package_insert	pi:PI_22	.
+if:IF_4_10_2	rdf:value	"〈ジャヌビア®錠12.5mg〉100 錠［10 錠（PTP）×10］、140 錠［14 錠（PTP）×10］、\r\n500 錠［10 錠（PTP）×50］、100 錠［瓶］\r\n〈ジャヌビア®錠25mg〉100 錠［10 錠（PTP）×10］、140 錠［14 錠（PTP）×10］、\r\n500 錠［10 錠（PTP）×50］、100 錠［瓶］\r\n〈ジャヌビア®錠50mg〉100 錠［10 錠（PTP）×10］、140 錠［14 錠（PTP）×10］、\r\n500 錠［10 錠（PTP）×50］、700 錠［14 錠（PTP）×50］、500 錠［瓶］\r\n〈ジャヌビア®錠100mg〉100 錠［10 錠（PTP）×10］、140 錠［14 錠（PTP）×10］、\r\n500 錠［10 錠（PTP）×50］、500 錠［瓶］"@ja	.
+if:IF_4_10_3	rdf:type	ifo:IF_4_10_3	.
+if:IF_4_10_3	rdf:type	ifo:Section	.
+if:IF_4_10_3	rdf:value	"該当しない"@ja	.
+if:IF_4_10_4	rdf:type	ifo:IF_4_10_4	.
+if:IF_4_10_4	rdf:type	ifo:Section	.
+if:IF_4_10_4	rdf:value	"PTP 包装\r\nPTP：アルミニウム箔、ポリプロピレン／ポリ塩化ビニリデンの複合フィルム\r\nバラ包装（瓶）\r\n瓶本体：高密度ポリエチレン（HDPE）\r\nキャップ：ポリプロピレン"@ja	.
+if:IF_4_11	rdf:type	ifo:IF_4_11	.
+if:IF_4_11	rdf:type	ifo:Section	.
+if:IF_4_11	rdf:value	"該当資料なし"@ja	.
+if:IF_4_12	rdf:type	ifo:IF_4_12	.
+if:IF_4_12	rdf:type	ifo:Section	.
+if:IF_4_12	rdf:value	"該当資料なし"@ja	.
+if:IF_5_1	rdf:type	ifo:IF_5_1	.
+if:IF_5_1	rdf:type	ifo:Section	.
+if:IF_5_1	ifo:package_insert	pi:PI_4	.
+if:IF_5_1	rdf:value	"2 型糖尿病"@ja	.
+if:IF_5_2	rdf:type	ifo:IF_5_2	.
+if:IF_5_2	rdf:type	ifo:Section	.
+if:IF_5_2	ifo:package_insert	pi:PI_5	.
+if:IF_5_2	ifo:item	if:IF_5_2.item1	.
+if:IF_5_2.item1	rdf:type	ifo:Item	.
+if:IF_5_2.item1	ifo:package_insert	pi:PI_5.item1	.
+if:IF_5_2.item1	dct:identifier	"5.2.item1"	.
+if:IF_5_2.item1	rdf:value	"2 型糖尿病の治療においては、まず食事療法、運動療法を十分に行ったうえで、血糖がコントロールできない場合に薬物療法を行う必要がある。"@ja	.
+if:IF_5_3_1	rdf:type	ifo:IF_5_3_1	.
+if:IF_5_3_1	rdf:type	ifo:Section	.
+if:IF_5_3_1	ifo:package_insert	pi:PI_6	.
+if:IF_5_3_1	rdf:value	"通常、成人にはシタグリプチンとして50mg を1 日1 回経口投与する。なお、効果不十分な場合に\r\nは、経過を十分に観察しながら100mg 1 日1 回まで増量することができる。"@ja	.
+if:IF_5_3_1	rdf:value	"用法は、第Ⅱ相臨床試験の用法検討試験で、24 時間血糖降下作用を検討したところ、本剤100mg1\r\n日1 回経口投与と本剤50mg1 日2 回経口投与で大きな違いは認められなかったため、本剤の用法\r\nとして患者に対してより利便性の高い「1 日1 回投与」と設定した。また、臨床薬理試験の結果、\r\n本剤の薬物動態は食事の影響を受けにくいことから、食事のタイミングに関わらず投与可能である。\r\n用量は、第Ⅱ相臨床試験（プラセボ対照二重盲検比較試験）の結果から、「1 日用量として50mg\r\nを通常投与量」と設定した。また、長期投与試験及び経口血糖降下剤との併用投与試験の計4 試験\r\nから、本剤50mg1 日1 回投与から100mg1 日1 回投与への増量後にHbA1c 値又は空腹時血糖値が\r\nさらに低下した患者やHbA1c 値が7%未満に達した患者がみられたことから、患者によっては増量\r\nにより血糖コントロールのさらなる低下効果が期待できる。安全性については、100mg 1 日1 回投\r\n与へ増量しても副作用又は臨床検査値の異常変動において、特に問題は認められなかった。以上よ\r\nり、「100 ㎎ 1 日1 回まで増量することができる」と設定した。"@ja	.
+if:IF_5_3_1	rdfs:seeAlso	if:IF_7_10_1	.
+if:IF_5_4	rdf:type	ifo:IF_5_4	.
+if:IF_5_4	rdf:type	ifo:Section	.
+if:IF_5_4	ifo:package_insert	pi:PI_7	.
+if:IF_5_4	ifo:item	if:IF_5_4.item1	.
+if:IF_5_4	ifo:item	if:IF_5_4.item2	.
+if:IF_5_4.item1	rdf:type	ifo:Item	.
+if:IF_5_4.item1	ifo:package_insert	pi:PI_7.item1	.
+if:IF_5_4.item1	dct:identifier	"5.4.item1"	.
+if:IF_5_4.item1	rdf:value	"7.1 外国人の腎機能障害患者を対象に、本剤50mg 単回投与時の薬物動態を検討した試験において、中\r\n等度腎機能障害患者、重度腎機能障害患者及び血液透析が必要な末期腎不全患者では本剤のAUC\r\nが約2.3 倍、約3.8 倍及び約4.5 倍上昇した。本剤は主に腎臓から排泄されるため、腎機能が本剤\r\nの薬物動態に影響すること、及び日本人の健康成人における薬物動態は、外国人の薬物動態とよ\r\nく類似していたことから、外国人の薬物動態データに基づき、腎機能障害患者における本剤の用\r\n量調節の目安を記載した。\r\nなお、軽度腎機能障害患者（クレアチニンクリアランス（50mL/min 以上、80mL/min 未満）では、\r\n本剤のAUC が約1.6 倍上昇したが、軽度腎機能障害患者を組み入れた国内の臨床試験において、\r\n腎機能障害患者の有無による有効性の違いは見られず、腎機能障害患者で特に問題となる有害事\r\n象が認められなかったことから、軽度腎機能障害患者での用量調節の必要性はないこととした。\r\n（「Ⅶ．薬物動態に関する項目 10．特定の背景を有する患者 (1) 腎機能障害患者（外国人デー\r\nタ）」参照）"@ja	.
+if:IF_5_4.item2	rdf:type	ifo:Item	.
+if:IF_5_4.item2	ifo:package_insert	pi:PI_7.item2	.
+if:IF_5_4.item2	dct:identifier	"5.4.item2"	.
+if:IF_5_4.item2	rdf:value	"7.2 シタグリプチンは血液透析により一部しか除去されなかった。透析により透析液中に排泄された\r\n未変化体の投与量に対する割合（透析液への移行率）は、3～4 時間の血液透析では、投与4 時間\r\n後（Tmax は3.0～5.0 時間）に13％及び48 時間後に3.5％であった。このため、末期腎不全患者に\r\n対して、シタグリプチンは血液透析との時間関係は問わず投与可能とした。"@ja	.
+if:IF_5_5_2	rdf:type	ifo:IF_5_5_2	.
+if:IF_5_5_2	rdf:type	ifo:Section	.
+if:IF_5_5_2	ifo:package_insert	pi:PI_17_3	.
+if:IF_5_5_2	rdf:value	"1) 単回投与試験\r\n海外在住の日本人健康成人男性18 例を対象としたプラセボ対照二重盲検比較試験の結果、本剤5\r\n～400mg の単回経口投与の忍容性は全般的に良好であり、低血糖症は認められなかった。3）\r\nHerman GA, et al. Br J Clin Pharmacol. 2011; 71: 429-436.\r\n2) 反復投与試験\r\n日本人健康成人男性50 例を対象としたプラセボ対照二重盲検比較試験の結果、本剤25～200mg 1\r\n日1 回10 日間反復経口投与、並びに50mg 単回経口投与後に50mg 1 日2 回10 日間反復経口投与\r\nの忍容性は全般的に良好であった。4）\r\n日本人健康成人男性8 例を対象としたプラセボ対照二重盲検比較試験の結果、本剤400mg 1 日1\r\n回10 日間反復経口投与した際の忍容性は全般的に良好であった。4）\r\n片山泰之、他. 新薬と臨床. 2011; 60: 1139-1152.\r\n注）本剤の承認された用量は、通常、シタグリプチンとして50mg 1 日1 回であり、最大投与量は\r\n100mg 1 日1 回である。"@ja	.
+if:IF_5_5_2	dct:references	if:ref3	.
+if:IF_5_5_2	dct:references	if:ref4	.
+if:IF_5_5_3	rdf:type	ifo:IF_5_5_3	.
+if:IF_5_5_3	rdf:type	ifo:Section	.
+if:IF_5_5_3	rdf:value	"臨床試験において用量反応探索試験は実施されていない。\n注）本剤の承認された用量は、通常、シタグリプチンとして50mg 1 日1 回であり、最大投与量は\r\n100mg 1 日1 回である。"@ja	.
+if:IF_5_5_3	dct:references	if:ref5	.
+if:IF_5_5_3	dct:references	if:ref6	.
+if:IF_5_5_4_1	rdf:type	ifo:IF_5_5_4_1	.
+if:IF_5_5_4_1	rdf:type	ifo:Section	.
+if:IF_5_5_4_1	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_4_1	dct:references	if:ref7	.
+if:IF_5_5_4_1	dct:references	if:ref8	.
+if:IF_5_5_4_1	dct:references	if:ref9	.
+if:IF_5_5_4_1	dct:references	if:ref10	.
+if:IF_5_5_4_1	dct:references	if:ref11	.
+if:IF_5_5_4_1	dct:references	if:ref12	.
+if:IF_5_5_4_1	dct:references	if:ref13	.
+if:IF_5_5_4_1	dct:references	if:ref14	.
+if:IF_5_5_4_2	rdf:type	ifo:IF_5_5_4_2	.
+if:IF_5_5_4_2	rdf:type	ifo:Section	.
+if:IF_5_5_4_2	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_4_2	dct:references	if:ref15	.
+if:IF_5_5_5	rdf:type	ifo:IF_5_5_5	.
+if:IF_5_5_5	rdf:type	ifo:Section	.
+if:IF_5_5_5	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_5	rdf:value	"注）本剤の承認された用量は、通常、シタグリプチンとして50mg1 日1 回であり、最大投与量は\r\n100mg 1 日1 回であるが、腎機能障害のある患者に投与する際は、添付文書の＜用法及び用\r\n量に関連する注意＞の記載を目安に用量調節すること。"@ja	.
+if:IF_5_5_5	dct:references	if:ref16	.
+if:IF_5_5_6_1	rdf:type	ifo:IF_5_5_6_1	.
+if:IF_5_5_6_1	rdf:type	ifo:Section	.
+if:IF_5_5_6_1	ifo:package_insert	pi:PI_17_2	.
+if:IF_5_5_6_1	dct:references	if:ref17	.
+if:IF_5_5_6_1	dct:references	if:ref18	.
+if:IF_5_5_6_1	dct:references	if:ref19	.
+if:IF_5_5_6_2	rdf:type	ifo:IF_5_5_6_2	.
+if:IF_5_5_6_2	rdf:type	ifo:Section	.
+if:IF_5_5_6_2	ifo:package_insert	pi:PI_21	.
+if:IF_5_5_6_2	rdf:value	"該当しない"@ja	.
+if:IF_5_5_7	rdf:type	ifo:IF_5_5_7	.
+if:IF_5_5_7	rdf:type	ifo:Section	.
+if:IF_5_5_7	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_7	rdf:value	"該当資料なし"@ja	.
+if:IF_6_1	rdf:type	ifo:IF_6_1	.
+if:IF_6_1	rdf:type	ifo:Section	.
+if:IF_6_1	rdf:value	"DPP-4 阻害剤\r\n注意：関連のある化合物の効能・効果等は、最新の添付文書を参照すること。"@ja	.
+if:IF_6_2_1	rdf:type	ifo:IF_6_2_1	.
+if:IF_6_2_1	rdf:type	ifo:Section	.
+if:IF_6_2_1	ifo:package_insert	pi:PI_18_1	.
+if:IF_6_2_1	rdf:value	"インクレチンであるglucagon-like peptide 1（GLP-1）及びglucose-dependent insulinotropic polypeptide\r\n（GIP）は、グルコース恒常性の維持にかかわるホルモンである。シタグリプチンは、DPP-4 酵素\r\nを阻害し、インクレチンのDPP-4 による分解を抑制する。活性型インクレチン濃度を上昇させる\r\nことにより、血糖値依存的にインスリン分泌促進作用並びにグルカゴン濃度低下作用を増強し血糖\r\nコントロールを改善する。"@ja	.
+if:IF_6_2_1	dct:references	if:ref20	.
+if:IF_6_2_1	dct:references	if:ref21	.
+if:IF_6_2_1	dct:references	if:ref22	.
+if:IF_6_2_1	dct:references	if:ref23	.
+if:IF_6_2_2	rdf:type	ifo:IF_6_2_2	.
+if:IF_6_2_2	rdf:type	ifo:Section	.
+if:IF_6_2_2	ifo:package_insert	pi:PI_18	.
+if:IF_6_2_2	rdf:value	"1) DPP-4 阻害作用（in vitro 試験）\nシタグリプチンのヒト組換えDPP-4 に対する50％阻害濃度（IC50）は17.9±7.4 nMであり、解離\n定数（Ki）は8.9nM であった。CACO-2 細胞抽出物中の膜結合型DPP-4、並びにヒト、マウス、\nラット及びイヌ血清由来のDPP-4 等、種々の動物由来のDPP-4 に対するシタグリプチンの阻害活\n性も評価した。細胞抽出物や血清由来の酵素に対するシタグリプチンの結合阻害が、単一酵素へ\nの結合阻害と一致することから、これらの活性の大部分はDPP-4 によるものであると示唆された。\n一方、DPP-8 に対するIC50 は48000 nM、QPP、DPP-9、PEP 及びAPP に対するシタグリプチンの\nIC50 は>100000 nMであり、シタグリプチンはDPP-4 に対して高い選択性を有していることが示さ\nれた。23）\nQPP：quiescent cell proline dipeptidase\nPEP：prolyl endopeptidase\nAPP：aminopeptidase P\n2) 耐糖能及び糖代謝改善作用\n① 臨床薬理試験（外国人データ）\n非日本人2 型糖尿病患者（58 例）を対象に、本剤25 mg、200 mg またはプラセボを空腹時に単回\n経口投与し、投与2 時間後に経口ブドウ糖負荷試験（OGTT）を実施した。本剤群において経口\nブドウ糖負荷後の増加血糖AUC0-240minにおいて有意な低下がみられた（p<0.001）が、25mgと200mg\nの間で有意差はなかった。また、本剤は、経口ブドウ糖負荷時の血漿中DPP-4 活性を80％以上阻\n害し、活性型GLP-1 濃度および活性型GIP 濃度を約2 倍増加させ、血中インスリン及び血中C-\nペプチド濃度を有意に増加させた（p<0.001）。一方、血中グルカゴン濃度は有意に低下した（p\n＝0.020）。22）\n日本人2 型糖尿病患者については、「Ⅴ．治療に関する項目」参照。\n注）本剤の承認された用量は、通常、シタグリプチンとして50mg 1 日1 回であり、最大投与100mg\n1 日1 回である。\n② 正常マウスにおけるシタグリプチン単回投与による効果\n正常マウスの経口ブドウ糖負荷モデル（OGTT モデル）を用いて、グルコースを負荷した後の血\n糖値変動に対するシタグリプチンの効果を検討した。シタグリプチンは、用量に応じてグルコー\nス負荷による血糖値上昇を抑制し、1mg/kg 及び3mg/kg で、それぞれ46％及び55％抑制した。21）\n実験方法：一晩絶食させた正常マウス（系統：C57BL/6N）に、媒体（0.25％メチルセルロース溶\n液）又はシタグリプチンを経口投与した。投与後1 時間（t＝0）に血糖値を測定し、\nその後グルコース（5 g/kg；10 mL/kg）を経口負荷した。また、媒体投与後、グルコー\nス負荷の代わりに同量の水を負荷した群を正常対照群とした。グルコース負荷後、経\n時的に血糖値を測定し、各投与群における血糖値のAUC を算出するとともに、正常\n対照群の血糖値のAUC を基準に、媒体対照群の血糖値のAUC に対する各投与群の抑\n制率（％）を算出した。\n③ 経口ブドウ糖負荷試験におけるシタグリプチンの薬力学的評価\n正常マウスにおける薬力学試験として、経口ブドウ糖負荷による血糖値上昇に対するシタグリプ\nチンの用量に応じた抑制作用と、血漿中DPP-4 の阻害活性及びGLP-1 の血中濃度変化との相関に\nついて検討した。シタグリプチンは、用量に応じて血漿中DPP-4 活性を阻害し、血漿中活性型\nGLP-1 濃度を上昇させた。また、シタグリプチンの血漿中濃度は投与量に比例した。血糖値上昇\n抑制の最大効果が認められる3 mg/kg では、血漿中DPP-4 活性は約80％阻害され、血漿中活性型\nGLP-1 濃度は約3 倍上昇した。21）\n血糖AUC（a）は、投与後0～120 分まで測定した。その他の測定（DPP-4 阻害、活性型GLP-1、\n血漿中シタグリプチン濃度）については、グルコース投与後20 分に採取したサンプルで実施した。\n実験方法：一晩絶食させたマウス（系統：C57BL/6N）に、媒体（0.25％メチルセルロース溶液）\n又はシタグリプチンを経口投与した。投与後1 時間（t＝0）に血糖値を測定し、その\n後グルコース（5g/kg；10 mL/kg）の経口負荷を行った。なお､媒体投与後、グルコー\nスの代わりに水を投与した群を正常対照群とした。グルコース負荷後20 分に尾部より\n採血し、血糖値を測定した。その直後に心臓穿刺により血液を採取し、DPP-4 阻害活\n性、活性型GLP-1 及び血漿中シタグリプチン濃度を測定した。\n④ Diet-induced obesity（DIO）マウスにおけるシタグリプチン単回投与の効果\n高脂肪食により肥満、高血糖及び高インスリン血症を呈し、耐糖能異常を示す食餌負荷肥満マウ\nス（Diet-Induced Obesity mouse；DIO マウス）を用いて、経口ブドウ糖負荷後の血糖値上昇に対\nするシタグリプチンの作用を検討した。媒体を投与した正常マウスと比較し、媒体を投与したDIO\nマウスでは、グルコース負荷後に顕著な血糖値上昇が認められた。シタグリプチン投与群では、\nいずれの投与量でもグルコース負荷による血糖値の上昇が顕著に抑制され、シタグリプチンの最\n大効果は3 mg/kg の投与量で得られた。21）\n実験方法：5 週齢から約7 ヶ月齢まで高脂肪食を給餌した雄C57BL/6N マウスをDIO マウスとし、\nまた同齢まで通常食を給餌したC57BL/6N マウスを正常マウスとして試験に用いた。\n一晩絶食後、DIO マウスに媒体（0.25％メチルセルロース溶液）又はシタグリプチン\nを経口投与し、正常マウスには媒体のみを投与した。投与後1 時間（t＝0）に血糖値\nを測定し、その後グルコース（2 g/kg；10 mL/kg）を経口負荷した。グルコース負荷後、\n経時的に血糖値を測定し、各投与群における血糖値のAUC を算出し、正常対照群の\n血糖値のAUC を基準に、媒体対照群の血糖値のAUC に対する各投与群の抑制率（％）\nを求めた。\n⑤ db/db マウスにおけるシタグリプチン単回投与の効果\nインスリン抵抗性と高血糖を特徴とする2 型糖尿病モデルのdb/db マウスを用い、シタグリプチ\nンの血糖低下作用を検討した。シタグリプチンは、3、10 及び30 mg/kg のいずれにおいてもdb/db\nマウスの血糖値を投与前値から有意に低下させ、投与後4 時間の血糖値は、いずれの投与量にお\nいても正常マウスの血糖値と同レベルにまで正常化させた。また、投与後4 時間の血糖低下作用\nは3 mg/kg で最大となり，投与前値の76％の低下を示した。23）\n実験方法：db/db マウスに、媒体（0.5％メチルセルロース溶液）又はシタグリプチンを経口投与\nした。経時的に血糖値を測定し、各採血ポイントの血糖値について、媒体対照群とシ\nタグリプチン投与群間でStudent のt 検定を実施し，有意水準はp<0.05 とした。\n⑥ 膵β 細胞に対するシタグリプチンの作用\n高脂肪食負荷したSTZ 誘発糖尿病モデル動物（ICR マウス）において、シタグリプチン投与によ\nって、膵β 細胞数および膵臓のインスリン含有量が増加した。24）"@ja	.
+if:IF_6_2_2	dct:references	if:ref23	.
+if:IF_6_2_2	dct:references	if:ref22	.
+if:IF_6_2_2	dct:references	if:ref21	.
+if:IF_6_2_2	dct:references	if:ref24	.
+if:IF_6_2_2	rdfs:seeAlso	if:IF_5	.
+if:IF_6_2_3	rdf:type	ifo:IF_6_2_3	.
+if:IF_6_2_3	rdf:type	ifo:Section	.
+if:IF_6_2_3	ifo:package_insert	pi:PI_18_1	.
+if:IF_6_2_3	rdf:value	"非日本人2 型糖尿病患者に本剤25 mg、200 mg あるいはプラセボを単回経口投与し、投与2 時間後\r\nに経口ブドウ糖負荷試験（OGTT）を実施したところ、プラセボ群と比較し、本剤群において経口\r\nブドウ糖負荷後の増加血糖AUC0-240 min の有意な低下が認められた（p<0.001）。22）（「Ⅵ．薬効薬\r\n理に関する項目 2．（2）．2）．①臨床薬理試験」参照）\r\nまた、日本人健康成人男性に、本剤5～400 mg あるいはプラセボを単回経口投与し、血漿中 DPP-4\r\n阻害率を検討したところ、本剤50 mg 以上の用量で、プラセボに対する投与後12 時間の血漿中\r\nDPP-4 活性の重み付き平均阻害率（WAI）は80％以上を示し、本剤100 mg 以上の用量で、プラセ\r\nボに対する投与後24 時間の血漿中DPP-4 活性のWAI は80％以上を示した。3）\r\n日本人健康成人男性に、本剤50mg 単回投与24 時間後の血漿中DPP-4 活性阻害率は92％であっ\r\nた。4）\r\n注）本剤の承認された用量は、通常、シタグリプチンとして50mg 1 日1 回であり、最大投与100mg\r\n1 日1 回である。"@ja	.
+if:IF_6_2_3	dct:references	if:ref22	.
+if:IF_6_2_3	dct:references	if:ref3	.
+if:IF_6_2_3	dct:references	if:ref4	.
+if:IF_6_2_3	rdfs:seeAlso	if:IF_6_2_2_2	.
+if:IF_7_1_1	rdf:type	ifo:IF_7_1_1	.
+if:IF_7_1_1	rdf:type	ifo:Section	.
+if:IF_7_1_1	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_1_1	rdf:value	"経口ブドウ糖負荷試験（OGTT）実施後のおおむね最大の血糖低下作用は、血漿中薬物濃度（トラ\r\nフ）の約100nM 以上、血漿中DPP-4 活性の阻害率の約80％以上、及び活性型GLP-1 とGIP 濃度の\r\n約2 倍以上の上昇とおおむね関連していることが示唆された。22）"@ja	.
+if:IF_7_1_1	dct:references	if:ref22	.
+if:IF_7_1_2	rdf:type	ifo:IF_7_1_2	.
+if:IF_7_1_2	rdf:type	ifo:Section	.
+if:IF_7_1_2	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_1_2	ifo:item	if:IF_7_1_2.item1	.
+if:IF_7_1_2	ifo:item	if:IF_7_1_2.item2	.
+if:IF_7_1_2.item1	rdf:type	ifo:Item	.
+if:IF_7_1_2.item1	ifo:package_insert	pi:PI_16_1.item1	.
+if:IF_7_1_2.item1	dct:identifier	"7.1.2.item1"	.
+if:IF_7_1_2.item1	rdf:value	"1) 単回投与\r\n健康成人男性に、シタグリプチン12.5～100 mg を空腹時単回経口投与した場合、シタグリプチン\r\nは速やかに吸収され、投与後2～5 時間に最高血漿中濃度（Cmax）に達し、半減期（t1/2）は9.6～\r\n12.3 時間であった。シタグリプチンの血漿中濃度－時間曲線下面積（AUC0-∞）は用量にほぼ比例\r\nして増加した。3）"@ja	.
+if:IF_7_1_2.item1	dct:references	if:ref3	.
+if:IF_7_1_2.item2	rdf:type	ifo:Item	.
+if:IF_7_1_2.item2	ifo:package_insert	pi:PI_16_1.item2	.
+if:IF_7_1_2.item2	dct:identifier	"7.1.2.item2"	.
+if:IF_7_1_2.item2	rdf:value	"2) 反復投与\r\n健康成人男性に、シタグリプチン25～200mg を1 日1 回あるいは50mg を1 日2 回、10 日間反復経\r\n口投与した際の血漿中濃度を検討した。1 日1 回投与および1 日2 回反復投与のいずれにおいても、\r\n血漿中シタグリプチンのトラフ濃度は、反復投与2 日目までに定常状態に達した。各用量1 日1 回\r\n投与でのAUC0-24 hr の累積係数（投与10 日目／投与1 日目）は1.03～1.19、1 日2 回投与における\r\nAUC0-12 hr の累積係数（投与10 日目／単回投与）は1.57 であった。反復経口投与時における血漿中\r\n薬物濃度は単回投与データより予測される範囲内であり、蓄積性はほとんど認められなかった。4）"@ja	.
+if:IF_7_1_2.item2	dct:references	if:ref4	.
+if:IF_7_1_3	rdf:type	ifo:IF_7_1_3	.
+if:IF_7_1_3	rdf:type	ifo:Section	.
+if:IF_7_1_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_1_4	rdf:type	ifo:IF_7_1_4	.
+if:IF_7_1_4	rdf:type	ifo:Section	.
+if:IF_7_1_4	ifo:package_insert	pi:PI_16_7	.
+if:IF_7_1_4	ifo:item	if:IF_7_1_4.item1	.
+if:IF_7_1_4	ifo:item	if:IF_7_1_4.item2	.
+if:IF_7_1_4.item1	rdf:type	ifo:Item	.
+if:IF_7_1_4.item1	ifo:package_insert	pi:PI_16_7.item1	.
+if:IF_7_1_4.item1	dct:identifier	"7.1.4.item1"	.
+if:IF_7_1_4.item1	rdf:value	"1) 食事の影響\r\n健康成人に、シタグリプチン50mg を食後に単回経口投与した場合、空腹時に比べてCmax は37％\r\n増加したが、AUC0-∞及びTmax に差はなかった。25）"@ja	.
+if:IF_7_1_4.item1	dct:references	if:ref25	.
+if:IF_7_1_4.item2	rdf:type	ifo:Item	.
+if:IF_7_1_4.item2	ifo:package_insert	pi:PI_16_7.item2	.
+if:IF_7_1_4.item2	dct:identifier	"7.1.4.item2"	.
+if:IF_7_1_4.item2	rdf:value	"2) 併用薬の影響\n① ボグリボースとの併用\n健康成人にシタグリプチン50mg 1 日1 回（朝食直前）およびボグリボース0.3mg 1 日3 回（毎食\n直前）を3 日間併用反復経口投与した場合、ボグリボースはシタグリプチンの薬物動態に影響を\n及ぼさなかった。一方、2 型糖尿病患者にシタグリプチン100mg 1 日1 回（朝食直前）及びボグ\nリボース0.2mg 1 日3 回（毎食直前）を3 日間併用反復経口投与した場合、シタグリプチンの\nAUC0-24hr 及びCmax はシタグリプチン単独投与と比べて低下した（それぞれ17％及び34％）が、\nシタグリプチンの用量調節は必要ないと考えられた。26）\n② ジゴキシンとの併用（外国人データ）\n健康成人にシタグリプチン100mg とジゴキシン0.25mg を10 日間併用投与した場合、ジゴキシン\nのAUC0-24hr 及びCmax はわずかに上昇した（それぞれ11％及び18％）。27）\n「Ⅷ．安全性（使用上の注意等）に関する項目 7．相互作用」参照\n③ シクロスポリンとの併用（外国人データ）\n健康成人にシタグリプチン100mg とシクロスポリン600mg を併用投与した場合、シタグリプチン\nのAUC0-∞及びCmax はそれぞれ29％及び68％上昇した。AUC0-∞のGMR（シタグリプチン＋シク\nロスポリンA／シタグリプチン）の90％信頼区間は臨床的許容範囲（0.50, 2.00）内であったこと\nから、シタグリプチン併用投与によるCmax の軽度の増加は臨床的には意味がないと考えられた。\nまた、シクロスポリンA により、シタグリプチンの腎クリアランスは低下しなかった。28）\n④ メトホルミンとの併用（外国人データ）\n2 型糖尿病患者にシタグリプチン50mg 1 日2 回とメトホルミン1,000mg 1 日2 回を併用投与した\n場合、シタグリプチン及びメトホルミンは互いの薬物動態に影響を及ぼさなかった。29）このデー\nタから、シタグリプチンは有機カチオントランスポーターを阻害しないと考えられた。\n⑤ その他の薬剤との併用（外国人データ）\r\nロシグリタゾン30）、グリベンクラミド31）、シンバスタチン32）、ワルファリン33）及び経口避妊\r\n薬（ノルエチステロン／エチニルエストラジオール）34）との薬物相互作用試験データから、シタ\r\nグリプチン200mg 1 日1 回はCYP3A4、2C8 及び2C9 を阻害しないと考えられた。"@ja	.
+if:IF_7_1_4.item2	dct:references	if:ref26	.
+if:IF_7_1_4.item2	dct:references	if:ref27	.
+if:IF_7_1_4.item2	dct:references	if:ref28	.
+if:IF_7_1_4.item2	dct:references	if:ref29	.
+if:IF_7_1_4.item2	dct:references	if:ref30	.
+if:IF_7_1_4.item2	dct:references	if:ref31	.
+if:IF_7_1_4.item2	dct:references	if:ref32	.
+if:IF_7_1_4.item2	dct:references	if:ref33	.
+if:IF_7_1_4.item2	dct:references	if:ref34	.
+if:IF_7_1_4.item2	rdfs:seeAlso	if:IF_8_7	.
+if:IF_7_2_1	rdf:type	ifo:IF_7_2_1	.
+if:IF_7_2_1	rdf:type	ifo:Section	.
+if:IF_7_2_1	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_1	rdf:value	"海外における第Ⅱ相用量設定試験の2 試験（P010 及びP014）及び第Ⅰ相臨床試験の14 試験（P001\n～P008、P012、P013、P017、P027、P029 及びP033）の血漿中濃度―時間データを用い、母集団薬\n物動態解析を実施した。シタグリプチン投与及び血漿中濃度測定の両方に関して資料作成がなされ\nている合計885 例を本解析の対象とした。20～200mg の投与量範囲における経口投与後の血漿中薬\n物濃度は、2 コンパートメントの線形薬物動態モデルで適切に説明できた。35）\n（参考：ラット）\n薬物動態パラメータは、血漿中濃度－時間曲線のデータを用いノンコンパートメントモデル解析に\nより適切に算出した。36）"@ja	.
+if:IF_7_2_1	dct:references	if:ref35	.
+if:IF_7_2_1	dct:references	if:ref36	.
+if:IF_7_2_2	rdf:type	ifo:IF_7_2_2	.
+if:IF_7_2_2	rdf:type	ifo:Section	.
+if:IF_7_2_2	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_2	rdf:value	"該当資料なし"@ja	.
+if:IF_7_2_3	rdf:type	ifo:IF_7_2_3	.
+if:IF_7_2_3	rdf:type	ifo:Section	.
+if:IF_7_2_3	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_2_4	rdf:type	ifo:IF_7_2_4	.
+if:IF_7_2_4	rdf:type	ifo:Section	.
+if:IF_7_2_4	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_4	rdf:value	"健康成人にシタグリプチン25～100mg を単回経口投与した場合、腎クリアランスは397～\r\n464mL/min であった。3）"@ja	.
+if:IF_7_2_4	dct:references	if:ref3	.
+if:IF_7_2_5	rdf:type	ifo:IF_7_2_5	.
+if:IF_7_2_5	rdf:type	ifo:Section	.
+if:IF_7_2_5	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_5	rdf:value	"健康成人（8 例）にシタグリプチン100mg 静脈内投与後のシタグリプチンの定常状態の分布容積は\r\n198L であった。37）"@ja	.
+if:IF_7_2_5	dct:references	if:ref37	.
+if:IF_7_2_6	rdf:type	ifo:IF_7_2_6	.
+if:IF_7_2_6	rdf:type	ifo:Section	.
+if:IF_7_2_6	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_2_6	rdf:value	"該当資料なし"@ja	.
+if:IF_7_3_1	rdf:type	ifo:IF_7_3_1	.
+if:IF_7_3_1	rdf:type	ifo:Section	.
+if:IF_7_3_1	rdf:value	"海外における第Ⅱ相用量設定試験の2 試験（P010 及びP014）及び第Ⅰ相臨床試験の14 試験（P001\r\n～P008、P012、P013、P017、P027、P029 及びP033）の血漿中濃度―時間データを用い、母集団薬\r\n物動態解析を実施した。解析には、2 コンパートメントの線形薬物動態モデルを用いた。35）"@ja	.
+if:IF_7_3_1	dct:references	if:ref35	.
+if:IF_7_3_2	rdf:type	ifo:IF_7_3_2	.
+if:IF_7_3_2	rdf:type	ifo:Section	.
+if:IF_7_3_2	rdf:value	"母集団薬物動態解析の結果、腎機能が臨床的に意味のある共変量として検出され、その他、年齢、\r\n性別、人種、体重及び2 型糖尿病などの因子は、臨床的に意味のある共変量ではなかった。35）"@ja	.
+if:IF_7_3_2	dct:references	if:ref35	.
+if:IF_7_4	rdf:type	ifo:IF_7_4	.
+if:IF_7_4	rdf:type	ifo:Section	.
+if:IF_7_4	ifo:package_insert	pi:PI_16_2	.
+if:IF_7_4	ifo:item	if:IF_7_4.item1	.
+if:IF_7_4	ifo:item	if:IF_7_4.item2	.
+if:IF_7_4.item1	rdf:type	ifo:Item	.
+if:IF_7_4.item1	ifo:package_insert	pi:PI_16_2.item1	.
+if:IF_7_4.item1	dct:identifier	"7.4.item1"	.
+if:IF_7_4.item1	rdf:value	"バイオアベイラビリティ（外国人データ）\r\n健康成人に、シタグリプチン100mg を単回経口投与した時の絶対バイオアベイラビリティは約87％\r\nであった。38）"@ja	.
+if:IF_7_4.item1	dct:references	if:ref38	.
+if:IF_7_4.item2	rdf:type	ifo:Item	.
+if:IF_7_4.item2	ifo:package_insert	pi:PI_16_2.item2	.
+if:IF_7_4.item2	dct:identifier	"7.4.item2"	.
+if:IF_7_4.item2	rdf:value	"吸収部位（外国人データ）\r\n111 インジウム標識したシタグリプチン50mg を含むEnterionTM カプセルを健康成人男子（8 例）に経\r\n口投与した場合の小腸下部放出後のシタグリプチンAUC0-∞は胃内放出後によるAUC0-∞の約96％で\r\nあり、結腸放出後のシタグリプチンAUC0-∞は約75％であった。したがって、シタグリプチンは胃\r\n内放出と比較して、小腸下部あるいは結腸からの放出においても良好に吸収されることが明らかと\r\nなっている。39）"@ja	.
+if:IF_7_4.item2	dct:references	if:ref39	.
+if:IF_7_5_1	rdf:type	ifo:IF_7_5_1	.
+if:IF_7_5_1	rdf:type	ifo:Section	.
+if:IF_7_5_1	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_1	rdf:value	"ヒトでの該当資料なし\r\n（参考：ラット）\r\nラットに14C-シタグリプチン5 mg/kg を単回経口投与した場合、投与後8 時間までの各組織/血漿放\r\n射能濃度比は、肝臓（22.0～30.7）、腎臓（14.7～28.0）、膀胱（3.98～10.1）、肺（6.35～11.7）、\r\n副腎（5.50～7.34）及び膵臓（4.54～8.75）で高い値を示したのに対し、脳（0.08～0.10）で低い値\r\nを示した。40）\r\n「Ⅶ．薬物動態に関する項目 5．（5）その他の組織への移行性」参照"@ja	.
+if:IF_7_5_1	dct:references	if:ref40	.
+if:IF_7_5_1	rdfs:seeAlso	if:IF_7_5_5	.
+if:IF_7_5_2	rdf:type	ifo:IF_7_5_2	.
+if:IF_7_5_2	rdf:type	ifo:Section	.
+if:IF_7_5_2	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_2	rdf:value	"ヒトでの該当資料なし\r\n（参考：ラット）\r\n妊娠6～20 日まで250 及び1000mg/kg/day の用量でシタグリプチンを反復経口投与し、妊娠20 日\r\nに母動物及び胎児血漿中の未変化体濃度を測定した。投与後2 及び24 時間におけるラット胎児の\r\n平均血漿中濃度は、両用量ともに母動物血漿中濃度のそれぞれ約45 及び約80％であった。この結\r\n果から、シタグリプチンはラットの胎盤を通過することが明らかになった。41）\r\n（参考：ウサギ）\r\n妊娠7～20 日まで125 mg/kg/day の用量でシタグリプチンを反復経口投与し、妊娠20 日に測定した\r\n母動物及び胎児血漿中の未変化体濃度を測定した。投与後2 及び24 時間におけるウサギ胎児の平\r\n均血漿中濃度は投与後2 及び24 時間の時点で、母動物血漿中濃度のそれぞれ約66 及び約30％で\r\nあった。この結果から、シタグリプチンはウサギの胎盤を通過することが明らかになった。41）"@ja	.
+if:IF_7_5_2	dct:references	if:ref41	.
+if:IF_7_5_3	rdf:type	ifo:IF_7_5_3	.
+if:IF_7_5_3	rdf:type	ifo:Section	.
+if:IF_7_5_3	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_3	rdf:value	"ヒトでの該当資料なし\r\n（参考：ラット）\r\nシタグリプチン（250 又は1000 mg/kg）を妊娠6 日から授乳14 日まで反復経口投与し、授乳14 日\r\nに母動物血漿中及び乳汁中の未変化体濃度を測定した。250mg/kg/day 投与におけるシタグリプチン\r\nの平均血漿中及び乳汁中濃度は、それぞれ14.8 及び60.9μMであり、1000mg/kg/day 投与では、そ\r\nれぞれ33.5 及び136μMであった。検討した2 用量とも、乳汁中のシタグリプチン濃度は母体血漿\r\n中濃度に比べ約4 倍高かった。これらの結果から、授乳中のラットにおいて、シタグリプチンが体\r\n循環系より乳汁中に移行することが示された。42）"@ja	.
+if:IF_7_5_3	dct:references	if:ref42	.
+if:IF_7_5_4	rdf:type	ifo:IF_7_5_4	.
+if:IF_7_5_4	rdf:type	ifo:Section	.
+if:IF_7_5_4	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_4	rdf:value	"該当資料なし"@ja	.
+if:IF_7_5_5	rdf:type	ifo:IF_7_5_5	.
+if:IF_7_5_5	rdf:type	ifo:Section	.
+if:IF_7_5_5	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_5	rdf:value	"ヒトでの該当資料なし\r\n（参考：ラット）\r\nラットに14C-シタグリプチンを5 mg/kg で単回経口投与したときの最高放射能濃度は、血液、血漿\r\nのほか、ほとんどの組織で投与後1 時間に認められた。投与後1 時間に高い放射能濃度を示した組\r\n織は、肝臓、腎臓、肺、膵臓、副腎及び膀胱であった。投与後8 時間では、肝臓、腎臓、肺及び腸\r\nでのみ1μg eq./g を超える組織中濃度を示した。投与後24 時間には、肝臓と腎臓以外のすべての組\r\n織で、放射能濃度は0.2μg eq./g 以下となった。投与後8 時間までの各組織／血漿放射能濃度比は、\r\n肝臓、腎臓、膀胱、肺、副腎及び膵臓で高い値を示し、脳、脂肪及び眼で低い値を示した。40）"@ja	.
+if:IF_7_5_5	dct:references	if:ref40	.
+if:IF_7_5_6	rdf:type	ifo:IF_7_5_6	.
+if:IF_7_5_6	rdf:type	ifo:Section	.
+if:IF_7_5_6	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_6	rdf:value	"3H-シタグリプチンのin vitro 血漿タンパク結合率を超遠心法により検討した結果、血漿タンパク結\r\n合率は、0.02～200μM の血漿中濃度範囲において大きく変動せず、約38％であった。43）"@ja	.
+if:IF_7_5_6	dct:references	if:ref43	.
+if:IF_7_6_1	rdf:type	ifo:IF_7_6_1	.
+if:IF_7_6_1	rdf:type	ifo:Section	.
+if:IF_7_6_1	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_1	rdf:value	"健康男性被験者6 例に14C-シタグリプチン83.04mg（193.16μCi）を経口投与したとき、ヒト血漿中\r\nに検出された放射性成分は、主として未変化体であり、投与後1～18 時間まで血漿中放射能の78\r\n～90％を占めた。また、6 種の代謝物（M1、M2、M3、M4、M5 及びM6）が微量で検出され、そ\r\nれぞれ血漿中放射能の1％未満～7％を占めた。また、尿中及び糞中放射能の未変化体はそれぞれ\r\n約85 及び79％を占めた。尿中に回収された未変化体以外の放射能は、血漿中に検出された6 種の\r\n代謝物と同様であり、いずれも総放射能の4％以下であった。糞中の代謝物組成は、尿中及び血漿\r\n中のそれと類似していたが、グルクロン酸抱合体（M3 及びM4）は糞中に検出されなかった。44）"@ja	.
+if:IF_7_6_1	dct:references	if:ref44	.
+if:IF_7_6_2	rdf:type	ifo:IF_7_6_2	.
+if:IF_7_6_2	rdf:type	ifo:Section	.
+if:IF_7_6_2	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_2	rdf:value	"シタグリプチンの消失において代謝の関与は少ない。14C-シタグリプチンをNADPH 産生系下で、\n雌雄のマウス、ラット、ウサギ、イヌ、サル及びヒト由来の肝ミクロソームと1 時間インキュベー\nトした結果、代謝された未変化体は13％以下であった。同様に、14C-シタグリプチンをラット、イ\nヌ及びヒトの肝細胞と4 時間インキュベートした結果、代謝された未変化体は15％未満であった。\n組換えCYP 分子種（CYP2A6、2B6、2C8、2C9、2C19、2D6 及び3A4）とシタグリプチンをイン\nキュベートした結果、CYP3A4 に代謝活性が示され、CYP2C8 にも弱いながら代謝活性が認められ\nた。CYP3A4 はシタグリプチンの酸化的代謝物（M2、M5 及びM6）の生成に関与する主要なCYP\n分子種であり、CYP2C8 はM2 及びM5 の生成に部分的に関与すると考えられた。\nヒト肝ミクロソーム中のCYP 分子種（7 種）に対する、シタグリプチンの可逆的阻害作用を検討\r\nしたところ、すべてのCYP 分子種（CYP1A2、2B6、2C8、2C9、2C19、2D6 及び3A4）に対する\r\nシタグリプチンのIC50 は、100μMより高値を示した。\r\n初代培養ヒト肝細胞を用いて、シタグリプチンによるCYP3A4 mRNA の発現量及び酵素活性誘導\r\n作用について検討した結果、シタグリプチンはCYP3A4 を誘導しないことが示唆された。45）"@ja	.
+if:IF_7_6_2	dct:references	if:ref45	.
+if:IF_7_6_3	rdf:type	ifo:IF_7_6_3	.
+if:IF_7_6_3	rdf:type	ifo:Section	.
+if:IF_7_6_3	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_6_4	rdf:type	ifo:IF_7_6_4	.
+if:IF_7_6_4	rdf:type	ifo:Section	.
+if:IF_7_6_4	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_4	rdf:value	"M1、M2及びM5はシタグリプチンと比較して、DPP-4阻害活性がそれぞれ約1/300、1/1000及び1/1000\r\nであることが示されている（ シタグリプチンのIC50＝ 18nM に対し、それぞれ約5μM、\r\n>20μM及び>20μM）。なお、M3、M4 およびM6 のDPP-4 阻害活性を評価していないが、これらの\r\n代謝物の血漿中濃度は未変化体に比べて低く、臨床的に意味のある影響を及ぼすことはないと考え\r\nられる。46）（「Ⅶ．薬物動態に関する項目 6．（1）代謝部位及び代謝経路（外国人データ）」参\r\n照）"@ja	.
+if:IF_7_6_4	dct:references	if:ref46	.
+if:IF_7_6_4	rdfs:seeAlso	if:IF_7_6_1	.
+if:IF_7_7	rdf:type	ifo:IF_7_7	.
+if:IF_7_7	rdf:type	ifo:Section	.
+if:IF_7_7	ifo:package_insert	pi:PI_16_5	.
+if:IF_7_7	rdf:value	"(1) 排泄部位及び経路\r\n主として尿中に排泄される。シタグリプチンの消失は主に腎排泄によるもので、能動的な尿細管分\r\n泌が関与する。\r\n(2) 排泄率\r\n健康成人にシタグリプチン25～100mg を単回経口投与した場合、シタグリプチンの79～88％（推\r\n測値）が尿中に未変化体として排泄された。3）\r\n（参考：外国人データ）\r\n健康成人（外国人）に14C-シタグリプチンを経口投与後、1 週間以内に投与放射能の約13％が糞中\r\nに、約87％が尿中に排泄された。投与したシタグリプチンの約79％が未変化体として尿中に排泄\r\nされたことから、シタグリプチンの主要排泄経路は、尿中排泄であることが示された。経口投与し\r\nた放射能の約16％が、シタグリプチンの代謝物として尿及び糞中に回収されたことから、代謝が\r\nシタグリプチンの消失に寄与する割合は低いことが示された。44）"@ja	.
+if:IF_7_7	dct:references	if:ref3	.
+if:IF_7_7	dct:references	if:ref44	.
+if:IF_7_8	rdf:type	ifo:IF_7_8	.
+if:IF_7_8	rdf:type	ifo:Section	.
+if:IF_7_8	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_8	rdf:value	"シタグリプチンはP-糖タンパク質及び有機アニオントランスポーター（hOAT3）の基質である。\r\nIn vitro 試験で、P-糖タンパク質を介するシタグリプチンの輸送はシクロスポリンにより阻害され、\r\nhOAT3 を介するシタグリプチンの取込みは、プロベネシド、イブプロフェン、フロセミド、フェノ\r\nフィブリック酸、キナプリル、インダパミド及びシメチジンで阻害された。47）臨床薬物相互作用試\r\n験では、シクロスポリンによりシタグリプチンの腎クリアランスは低下しなかった。28）（「Ⅶ．薬\r\n物動態に関する項目 1．（4）．2）．③シクロスポリンとの併用（外国人データ）参照）\r\n一方、in vitro 試験で、シタグリプチンは500μMまでの濃度では、P-糖タンパク質を介するジゴキシ\r\nンの輸送を阻害しなかったが、hOAT3 を介するシメチジンの取込みには弱い阻害作用を示した\r\n（IC50：160μM）。48）"@ja	.
+if:IF_7_8	dct:references	if:ref47	.
+if:IF_7_8	dct:references	if:ref28	.
+if:IF_7_8	dct:references	if:ref48	.
+if:IF_7_8	rdfs:seeAlso	if:IF_7_1_4_2	.
+if:IF_7_9	rdf:type	ifo:IF_7_9	.
+if:IF_7_9	rdf:type	ifo:Section	.
+if:IF_7_9	ifo:package_insert	pi:PI_16_6	.
+if:IF_7_9	rdf:value	"投与後4 時間あるいは48 時間から3～4 時間血液透析することにより、投与量の13.5％あるいは3.5％\r\nが透析液中に除去された。49）"@ja	.
+if:IF_7_9	dct:references	if:ref49	.
+if:IF_7_10	rdf:type	ifo:IF_7_10	.
+if:IF_7_10	rdf:type	ifo:Section	.
+if:IF_7_10	ifo:package_insert	pi:PI_16_6	.
+if:IF_7_10	rdf:value	"(1) 腎機能障害患者（外国人データ）\r\nシタグリプチン50mg 単回経口投与時の薬物動態パラメータは下表のとおりであった。中等度、重\r\n度腎機能障害患者、血液透析が必要な末期腎不全患者のAUC0-∞は、正常腎機能を有する健康成人\r\nのそれぞれ約2.3 倍、約3.8 倍、約4.5 倍であり、腎機能障害の程度に応じて上昇した。血液透析\r\nが必要な末期腎不全患者では、投与後4 時間から3～4 時間の血液透析により、透析液中に投与量\r\nの13.5％が除去された。49）なお、腎機能障害患者を対象とした反復投与による薬物動態試験は実\r\n施されていない。\r\n(2) 肝機能障害患者（外国人データ）\r\nシタグリプチン100mg を単回経口投与した場合、中等度肝機能障害患者（Child-Pugh スコア7～9）\r\nでは、シタグリプチンの平均AUC0-∞及び平均Cmax は、健康成人に比べてそれぞれ約21％及び13％\r\n増加した。50）重度肝機能障害患者（Child- Pugh スコア9 超）での臨床経験はない。\r\n(3) 高齢男女／成人女性／肥満成人男性（外国人データ）\r\n年齢65～80 歳の健康男性（高齢男性）8 例、年齢65～80 歳の健康女性（高齢女性）8 例、年齢18\r\n～45 歳の健康女性（成人女性）6 例、年齢18～45 歳の健康な肥満成人男性（肥満男性、BMI30～\r\n40kg/m2）8 例に一晩絶食後にシタグリプチン50 mg を単回経口投与した。高齢者では成人と比べ\r\nてAUC0-∞およびCmax がそれぞれ31％、23％高く、腎クリアランス（CLr）は31％低下していた。\r\n未変化体の尿中排泄率（fe,0-∞）がわずかに低かった。女性のCmax は男性に比べて約46％高かった\r\nが、AUC0-∞と他のパラメータは同程度であった。肥満成人男性では非肥満成人男性に比べてAUC0-∞\r\nが約23％低く、未変化体のfe,0-∞もわずかに低かったが、他のパラメータは同程度であった。以上\r\nの比較において認められた薬物動態の差異は、臨床的に意味のあるものではないと考えられた。\r\n51）\r"@ja	.
+if:IF_7_10	dct:references	if:ref49	.
+if:IF_7_10	dct:references	if:ref50	.
+if:IF_7_10	dct:references	if:ref51	.
+if:IF_7_11	rdf:type	ifo:IF_7_11	.
+if:IF_7_11	rdf:type	ifo:Section	.
+if:IF_7_11	ifo:package_insert	pi:PI_16_8	.
+if:IF_7_11	rdf:value	"該当資料なし"@ja	.
+if:IF_8_1	rdf:type	ifo:IF_8_1	.
+if:IF_8_1	rdf:type	ifo:Section	.
+if:IF_8_1	ifo:package_insert	pi:PI_1	.
+if:IF_8_1	ifo:item	if:IF_8_1.item1	.
+if:IF_8_1.item1	rdf:type	ifo:Item	.
+if:IF_8_1.item1	ifo:package_insert	pi:PI_1.item1	.
+if:IF_8_1.item1	dct:identifier	"8.1.item1"	.
+if:IF_8_1.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_2	rdf:type	ifo:IF_8_2	.
+if:IF_8_2	rdf:type	ifo:Section	.
+if:IF_8_2	ifo:package_insert	pi:PI_2	.
+if:IF_8_2	ifo:item	if:IF_8_2.item1	.
+if:IF_8_2	ifo:item	if:IF_8_2.item2	.
+if:IF_8_2	ifo:item	if:IF_8_2.item3	.
+if:IF_8_2.item1	rdf:type	ifo:Item	.
+if:IF_8_2.item1	ifo:package_insert	pi:PI_2.item1	.
+if:IF_8_2.item1	dct:identifier	"8.2.item1"	.
+if:IF_8_2.item1	rdf:value	"2.1 本剤の成分に対して過敏症の既往歴がある患者に本剤を投与した場合、過敏症を起こす可能性が\r\nあるため、本剤を投与しないこと。"@ja	.
+if:IF_8_2.item2	rdf:type	ifo:Item	.
+if:IF_8_2.item2	ifo:package_insert	pi:PI_2.item2	.
+if:IF_8_2.item2	dct:identifier	"8.2.item2"	.
+if:IF_8_2.item2	rdf:value	"2.2 重症ケトーシス、糖尿病性昏睡又は前昏睡、1 型糖尿病の患者に対しては、輸液及びインスリン\r\nによる速やかな治療が必須となるため、本剤を投与しないこと。"@ja	.
+if:IF_8_2.item3	rdf:type	ifo:Item	.
+if:IF_8_2.item3	ifo:package_insert	pi:PI_2.item3	.
+if:IF_8_2.item3	dct:identifier	"8.2.item3"	.
+if:IF_8_2.item3	rdf:value	"2.3 重症感染症、手術前後、重篤な外傷のある患者は、インスリン注射による血糖管理が適している\r\nため、本剤を投与しないこと。"@ja	.
+if:IF_8_3	rdf:type	ifo:IF_8_3	.
+if:IF_8_3	rdf:type	ifo:Section	.
+if:IF_8_3	rdf:value	"「Ⅴ．2．効能又は効果に関連する注意」を参照すること。"@ja	.
+if:IF_8_3	rdfs:seeAlso	if:IF_5_2	.
+if:IF_8_4	rdf:type	ifo:IF_8_4	.
+if:IF_8_4	rdf:type	ifo:Section	.
+if:IF_8_4	rdf:value	"「Ⅴ．4．用法及び用量に関連する注意」を参照すること。"@ja	.
+if:IF_8_4	rdfs:seeAlso	if:IF_5_4	.
+if:IF_8_5	rdf:type	ifo:IF_8_5	.
+if:IF_8_5	rdf:type	ifo:Section	.
+if:IF_8_5	ifo:package_insert	pi:PI_8	.
+if:IF_8_5	ifo:item	if:IF_8_5.item1	.
+if:IF_8_5	ifo:item	if:IF_8_5.item2	.
+if:IF_8_5	ifo:item	if:IF_8_5.item3	.
+if:IF_8_5	ifo:item	if:IF_8_5.item4	.
+if:IF_8_5	ifo:item	if:IF_8_5.item5	.
+if:IF_8_5	ifo:item	if:IF_8_5.item6	.
+if:IF_8_5.item1	rdf:type	ifo:Item	.
+if:IF_8_5.item1	ifo:package_insert	pi:PI_8.item1	.
+if:IF_8_5.item1	dct:identifier	"8.5.item1"	.
+if:IF_8_5.item1	rdf:value	"8.1 低血糖発現時に対する基本的な注意事項として、本剤を投与する場合には、患者に対し低血糖症\r\n状やその対処方法について十分説明するよう記載した。低血糖の症状としてはふらつき、冷汗、\r\n動悸、振戦、いらいら感等を認めるが、このような症状があらわれた場合は、糖質を含む食品を\r\n摂取するなど、適切な対処を行うこと。ただし、α-グルコシダーゼ阻害剤との併用により低血糖\r\n症状が認められた場合にはブドウ糖を投与すること。"@ja	.
+if:IF_8_5.item2	rdf:type	ifo:Item	.
+if:IF_8_5.item2	ifo:package_insert	pi:PI_8.item2	.
+if:IF_8_5.item2	dct:identifier	"8.5.item2"	.
+if:IF_8_5.item2	rdf:value	"8.2 本剤を投与中には、血糖を定期的に検査するなど経過を十分観察すると共に、一定期間使用して\r\nも食後血糖に対して十分な効果が得られない場合には、より適切と考えられる治療への変更を考\r\n慮するよう注意事項を記載した。"@ja	.
+if:IF_8_5.item3	rdf:type	ifo:Item	.
+if:IF_8_5.item3	ifo:package_insert	pi:PI_8.item3	.
+if:IF_8_5.item3	dct:identifier	"8.5.item3"	.
+if:IF_8_5.item3	rdf:value	"8.3 外国人の腎機能障害患者を対象に、本剤50mg 単回投与時の薬物動態を検討した試験において、\r\n中等度腎機能障害患者、重度腎機能障害患者及び血液透析が必要な末期腎不全患者では本剤の\r\nAUC0-∞がそれぞれ約2.3 倍、約3.8 倍及び約4.5 倍上昇した。本剤は主に腎臓から排泄されるた\r\nめ、腎機能障害患者では本剤の排泄が遅延し、血中濃度が上昇する可能性がある。このため、腎\r\n機能を定期的に検査することに関して注意事項を記載した。"@ja	.
+if:IF_8_5.item4	rdf:type	ifo:Item	.
+if:IF_8_5.item4	ifo:package_insert	pi:PI_8.item4	.
+if:IF_8_5.item4	dct:identifier	"8.5.item4"	.
+if:IF_8_5.item4	rdf:value	"8.4 市販後において急性膵炎が報告されたことから、注意事項を記載した。急性膵炎の初期症状であ\r\nる持続的な激しい腹痛、嘔吐等があらわれた場合には、速やかに医師の診察を受けるよう患者を\r\n指導すること。"@ja	.
+if:IF_8_5.item5	rdf:type	ifo:Item	.
+if:IF_8_5.item5	ifo:package_insert	pi:PI_8.item5	.
+if:IF_8_5.item5	dct:identifier	"8.5.item5"	.
+if:IF_8_5.item5	rdf:value	"8.5 平成25 年3 月総務省の勧告「医薬品等の普及・安全に関する行政評価・監視結果に基づく勧告」\r\nを受けて、当局が意識障害等の副作用報告がある医薬品の全ての添付文書を点検した結果、糖尿\r\n病治療薬は副作用として低血糖が注意喚起されており、低血糖の発現は自動車運転に影響を及ぼ\r\nすことが想定されることから、自動車運転等に関する注意喚起を記載した。"@ja	.
+if:IF_8_5.item6	rdf:type	ifo:Item	.
+if:IF_8_5.item6	ifo:package_insert	pi:PI_8.item6	.
+if:IF_8_5.item6	dct:identifier	"8.5.item6"	.
+if:IF_8_5.item6	rdf:value	"8.6 本剤とGLP-1 受容体作動薬との併用投与の有効性及び安全性は検討されていないため、安全性\r\n及び有効性は確立していない旨を記載した。"@ja	.
+if:IF_8_6_1	rdf:type	ifo:IF_8_6_1	.
+if:IF_8_6_1	rdf:type	ifo:Section	.
+if:IF_8_6_1	ifo:package_insert	pi:PI_9_1	.
+if:IF_8_6_1	ifo:item	if:IF_8_6_1.item1	.
+if:IF_8_6_1	ifo:item	if:IF_8_6_1.item2	.
+if:IF_8_6_1.item1	rdf:type	ifo:Item	.
+if:IF_8_6_1.item1	ifo:package_insert	pi:PI_9_1.item1	.
+if:IF_8_6_1.item1	dct:identifier	"8.6.1.item1"	.
+if:IF_8_6_1.item1	rdf:value	"9.1.1 糖尿病治療において、これらの患者又は状態は低血糖を起こすおそれがあることから、一般\r\n的な注意事項として記載した。なお、低血糖の処置方法については「重要な基本的注意」及び「重\r\n大な副作用」の項を参照すること。"@ja	.
+if:IF_8_6_1.item2	rdf:type	ifo:Item	.
+if:IF_8_6_1.item2	ifo:package_insert	pi:PI_9_1.item2	.
+if:IF_8_6_1.item2	dct:identifier	"8.6.1.item2"	.
+if:IF_8_6_1.item2	rdf:value	"9.1.2 腹部手術の既往又は腸閉塞の既往のある患者では腸閉塞を起こすおそれがあるため、これら\r\nの患者には慎重に投与すること。なお、腸閉塞の初期症状、処置方法については「重大な副作用」\r\nの項を参照すること。"@ja	.
+if:IF_8_6_2	rdf:type	ifo:IF_8_6_2	.
+if:IF_8_6_2	rdf:type	ifo:Section	.
+if:IF_8_6_2	ifo:package_insert	pi:PI_9_2	.
+if:IF_8_6_2	ifo:item	if:IF_8_6_2.item1	.
+if:IF_8_6_2.item1	rdf:type	ifo:Item	.
+if:IF_8_6_2.item1	ifo:package_insert	pi:PI_9_2.item1	.
+if:IF_8_6_2.item1	dct:identifier	"8.6.2.item1"	.
+if:IF_8_6_2.item1	rdf:value	"本剤は腎排泄型の薬剤であり、腎機能障害を合併する患者では本剤の血中濃度が上昇するため、中\r\n等度以上の腎機能障害を合併する患者には、「用法及び用量に関連する注意」に記載した用量を目\r\n安にして、患者の状態を観察しながら慎重に投与すること。なお、「重要な基本的注意」の項にも\r\n注意喚起を記載しているので、参照すること。\r\n（「Ⅶ．薬物動態に関する項目 10．特定の背景を有する患者 (1)腎機能障害患者（外国人データ）」\r\n参照）"@ja	.
+if:IF_8_6_2.item1	rdfs:seeAlso	if:IF_7_10_1	.
+if:IF_8_6_3	rdf:type	ifo:IF_8_6_3	.
+if:IF_8_6_3	rdf:type	ifo:Section	.
+if:IF_8_6_3	ifo:package_insert	pi:PI_9_3	.
+if:IF_8_6_3	ifo:item	if:IF_8_6_3.item1	.
+if:IF_8_6_3.item1	rdf:type	ifo:Item	.
+if:IF_8_6_3.item1	ifo:package_insert	pi:PI_9_3.item1	.
+if:IF_8_6_3.item1	dct:identifier	"8.6.3.item1"	.
+if:IF_8_6_3.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_6_4	rdf:type	ifo:IF_8_6_4	.
+if:IF_8_6_4	rdf:type	ifo:Section	.
+if:IF_8_6_4	ifo:package_insert	pi:PI_9_4	.
+if:IF_8_6_4	ifo:item	if:IF_8_6_4.item1	.
+if:IF_8_6_4.item1	rdf:type	ifo:Item	.
+if:IF_8_6_4.item1	ifo:package_insert	pi:PI_9_4.item1	.
+if:IF_8_6_4.item1	dct:identifier	"8.6.4.item1"	.
+if:IF_8_6_4.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_6_5	rdf:type	ifo:IF_8_6_5	.
+if:IF_8_6_5	rdf:type	ifo:Section	.
+if:IF_8_6_5	ifo:package_insert	pi:PI_9_5	.
+if:IF_8_6_5	ifo:item	if:IF_8_6_5.item1	.
+if:IF_8_6_5.item1	rdf:type	ifo:Item	.
+if:IF_8_6_5.item1	ifo:package_insert	pi:PI_9_5.item1	.
+if:IF_8_6_5.item1	dct:identifier	"8.6.5.item1"	.
+if:IF_8_6_5.item1	rdf:value	"妊婦を対象にした臨床試験を実施していないことから、妊婦への投与に関する安全性は確立してい\r\nない。また、動物実験において、ラットに本剤1,000mg/kg/日（ヒトの1 日最大投与量100mg と比\r\n較した場合、約100 倍の曝露量に相当する）を経口投与した結果、胎児肋骨の欠損、形成不全及び\r\n波状肋骨の発現率がわずかに増加したとの報告がある。このことから、妊婦又は妊娠している可能\r\n性のある女性には治療上の有益性が危険性を上回ると判断される場合にのみ投与を検討すること。"@ja	.
+if:IF_8_6_6	rdf:type	ifo:IF_8_6_6	.
+if:IF_8_6_6	rdf:type	ifo:Section	.
+if:IF_8_6_6	ifo:package_insert	pi:PI_9_6	.
+if:IF_8_6_6	ifo:item	if:IF_8_6_6.item1	.
+if:IF_8_6_6.item1	rdf:type	ifo:Item	.
+if:IF_8_6_6.item1	ifo:package_insert	pi:PI_9_6.item1	.
+if:IF_8_6_6.item1	dct:identifier	"8.6.6.item1"	.
+if:IF_8_6_6.item1	rdf:value	"動物実験において、本剤は授乳期ラットの乳汁中に移行することが報告されている。授乳婦への使\r\n用経験がなく、安全性が確立されていないことから、安全性を考慮して本剤投与中の授乳は避ける\r\nこと。"@ja	.
+if:IF_8_6_7	rdf:type	ifo:IF_8_6_7	.
+if:IF_8_6_7	rdf:type	ifo:Section	.
+if:IF_8_6_7	ifo:package_insert	pi:PI_9_7	.
+if:IF_8_6_7	ifo:item	if:IF_8_6_7.item1	.
+if:IF_8_6_7.item1	rdf:type	ifo:Item	.
+if:IF_8_6_7.item1	ifo:package_insert	pi:PI_9_7.item1	.
+if:IF_8_6_7.item1	dct:identifier	"8.6.7.item1"	.
+if:IF_8_6_7.item1	rdf:value	"小児等を対象にした臨床試験を実施していないため、安全性及び有効性は確立していない旨を記載\r\nした。"@ja	.
+if:IF_8_6_8	rdf:type	ifo:IF_8_6_8	.
+if:IF_8_6_8	rdf:type	ifo:Section	.
+if:IF_8_6_8	ifo:package_insert	pi:PI_9_8	.
+if:IF_8_6_8	ifo:item	if:IF_8_6_8.item1	.
+if:IF_8_6_8.item1	rdf:type	ifo:Item	.
+if:IF_8_6_8.item1	ifo:package_insert	pi:PI_9_8.item1	.
+if:IF_8_6_8.item1	dct:identifier	"8.6.8.item1"	.
+if:IF_8_6_8.item1	rdf:value	"本剤は腎排泄型の薬剤であり、高齢者では腎機能が低下している場合が多いため、腎機能に注意す\r\nること。なお、腎機能障害がある場合には、「用法及び用量に関連する注意」に記載されている用\r\n法・用量を目安に適切な用量調節を行うこと。\r\n[高齢者での薬物動態試験]＜外国人データ＞\r\n健康な高齢者（65～80 歳）及び若年者（18～45 歳）に本剤50mg を単回投与した場合、高齢者では\r\n若年者に比べAUC0-∞、Cmax がそれぞれ31％、23％高く、腎クリアランスは31％低下した。"@ja	.
+if:IF_8_7	rdf:type	ifo:IF_8_7	.
+if:IF_8_7	rdf:type	ifo:Section	.
+if:IF_8_7	ifo:package_insert	pi:PI_16_7	.
+if:IF_8_7	rdf:value	"本剤は主に腎臓で排泄される。\r\nIn vitro 試験で、シタグリプチンはP-糖タンパク質の基質であり、P-糖タンパク質を介するシタグ\r\nリプチンの輸送はシクロスポリンにより阻害された。一方、シタグリプチンは、500μM の濃度ま\r\nでP-糖タンパク質を介するジゴキシンの輸送を阻害しなかった。なお、ヒトでの薬物相互作用試\r\n験では、シクロスポリンによるシタグリプチンの腎クリアランスの低下は認められなかった。\r\nまた、in vitro 試験において、シタグリプチンは有機アニオントランスポーター（hOAT3）の基質\r\nであり、hOAT3 を介するシタグリプチンの取込みは、プロベネシド、イブプロフェン、フロセミ\r\nド、フェノフィブリック酸、キナプリル、インダパミド及びシメチジンで阻害された。また、シタ\r\nグリプチンは、hOAT3 を介するシメチジンの取込みに対し、弱い阻害作用を示した（IC50：160μM）。"@ja	.
+if:IF_8_7_1	rdf:type	ifo:IF_8_7_1	.
+if:IF_8_7_1	rdf:type	ifo:Section	.
+if:IF_8_7_1	ifo:package_insert	pi:PI_10_1	.
+if:IF_8_7_1	ifo:item	if:IF_8_7_1.item1	.
+if:IF_8_7_1.item1	rdf:type	ifo:Item	.
+if:IF_8_7_1.item1	ifo:package_insert	pi:PI_10_1.item1	.
+if:IF_8_7_1.item1	dct:identifier	"8.7.1.item1"	.
+if:IF_8_7_1.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_7_2	rdf:type	ifo:IF_8_7_2	.
+if:IF_8_7_2	rdf:type	ifo:Section	.
+if:IF_8_7_2	ifo:package_insert	pi:PI_10_2	.
+if:IF_8_7_2	ifo:item	if:IF_8_7_2.item1	.
+if:IF_8_7_2	ifo:item	if:IF_8_7_2.item2	.
+if:IF_8_7_2	ifo:item	if:IF_8_7_2.item3	.
+if:IF_8_7_2	ifo:item	if:IF_8_7_2.item4	.
+if:IF_8_7_2.item1	rdf:type	ifo:Item	.
+if:IF_8_7_2.item1	ifo:package_insert	pi:PI_10_2.item1	.
+if:IF_8_7_2.item1	dct:identifier	"8.7.2.item1"	.
+if:IF_8_7_2.item1	rdf:value	"①糖尿病用薬\r\n本剤と糖尿病用薬を併用する時には、低血糖の発現に注意すること。\r\n国内で実施されたインスリン製剤、グリメピリド（スルホニルウレア剤）、ピオグリタゾン（チ\r\nアゾリジン系薬剤）、メトホルミン（ビグアナイド系薬剤）、ボグリボース（α-グルコシダーゼ\r\n阻害剤）又はナテグリニド・ミチグリニド（速効型インスリン分泌促進薬）との併用試験におい\r\nて、52 週までの低血糖症の副作用発現率はそれぞれ17.4％、5.3％、0.8％、0.7％、0.8％、6.5％\r\nであり、インスリン製剤、スルホニルウレア剤又は速効型インスリン分泌促進薬との併用におい\r\nて低血糖症の発現率が高い傾向にあった。また、市販後において、本剤とインスリン製剤又はス\r\nルホニルウレア剤との併用で重篤な低血糖症状があらわれ、意識消失を来たす例も報告されてい\r\nることから、本剤とインスリン製剤、スルホニルウレア剤又は速効型インスリン分泌促進薬を併\r\n用する場合には、これらの薬剤による低血糖の発現に注意する必要がある。また、チアゾリジン\r\n系薬剤、ビグアナイド系薬剤及びα-グルコシダーゼ阻害剤との併用投与時においても、低血糖\r\nが認められていることから、インスリン製剤、スルホニルウレア剤又は速効型インスリン分泌促\r\n進薬以外の糖尿病用薬と併用する場合にも、低血糖の発現に注意が必要である。「重要な基本的\r\n注意」及び「重大な副作用」の項に処置方法等が記載されているので、参照すること。"@ja	.
+if:IF_8_7_2.item2	rdf:type	ifo:Item	.
+if:IF_8_7_2.item2	ifo:package_insert	pi:PI_10_2.item2	.
+if:IF_8_7_2.item2	dct:identifier	"8.7.2.item2"	.
+if:IF_8_7_2.item2	rdf:value	"②ジゴキシン\r\n本剤100mg をジゴキシン0.25mg と併用投与した臨床薬理試験において、ジゴキシンのAUC 及\r\nびCmax がわずかに上昇した（それぞれ11％及び18％）との報告があった。ジゴキシンは治療域\r\nが狭い薬剤であるため、適切に観察を行う必要がある。"@ja	.
+if:IF_8_7_2.item3	rdf:type	ifo:Item	.
+if:IF_8_7_2.item3	ifo:package_insert	pi:PI_10_2.item3	.
+if:IF_8_7_2.item3	dct:identifier	"8.7.2.item3"	.
+if:IF_8_7_2.item3	rdf:value	"③血糖降下作用を増強する薬剤（β-遮断薬、サリチル酸剤、モノアミン酸化酵素阻害剤等）\r\n血糖降下作用を増強する薬剤と本剤を併用した相互作用のデータは得られていないが、血糖降下\r\n作用が増強されることにより、さらに血糖が低下する可能性がある。併用する場合には、血糖値\r\nや患者の状態を十分に観察しながら投与することが必要である。"@ja	.
+if:IF_8_7_2.item4	rdf:type	ifo:Item	.
+if:IF_8_7_2.item4	ifo:package_insert	pi:PI_10_2.item4	.
+if:IF_8_7_2.item4	dct:identifier	"8.7.2.item4"	.
+if:IF_8_7_2.item4	rdf:value	"④血糖降下作用を減弱する薬剤（アドレナリン、副腎皮質ホルモン、甲状腺ホルモン等）\r\n血糖降下作用を減弱する薬剤と本剤を併用した相互作用のデータは得られていないが、血糖降下\r\n作用を減弱する薬剤と本剤を併用した場合、血糖降下作用が減弱されることにより、血糖が上昇\r\nする可能性がある。併用する場合には、血糖値や患者の状態を十分に観察しながら投与すること\r\nが必要である。"@ja	.
+if:IF_8_8_1	rdf:type	ifo:IF_8_8_1	.
+if:IF_8_8_1	rdf:type	ifo:Section	.
+if:IF_8_8_1	ifo:package_insert	pi:PI_11_1	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item1	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item2	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item3	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item4	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item5	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item6	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item7	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item8	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item9	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item10	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item11	.
+if:IF_8_8_1.item1	rdf:type	ifo:Item	.
+if:IF_8_8_1.item1	ifo:package_insert	pi:PI_11_1.item1	.
+if:IF_8_8_1.item1	dct:identifier	"8.8.1.item1"	.
+if:IF_8_8_1.item1	rdf:value	"11.1.1 アナフィラキシー反応\r\n海外の市販後において、アナフィラキシー反応の副作用が報告されたこと、アナフィラキシー\r\n反応は重篤な転帰に至ることが考えられることから、「重大な副作用」の項に記載した。"@ja	.
+if:IF_8_8_1.item2	rdf:type	ifo:Item	.
+if:IF_8_8_1.item2	ifo:package_insert	pi:PI_11_1.item2	.
+if:IF_8_8_1.item2	dct:identifier	"8.8.1.item2"	.
+if:IF_8_8_1.item2	rdf:value	"11.1.2 皮膚粘膜眼症候群（Stevens-Johnson 症候群）、剥脱性皮膚炎\r\n海外の市販後において、皮膚粘膜眼症候群（Stevens-Johnson 症候群）、剥脱性皮膚炎の副作用\r\nが報告されたこと、これらの副作用は重篤な転帰に至ることが考えられることから、「重大な\r\n副作用」の項に記載した。"@ja	.
+if:IF_8_8_1.item3	rdf:type	ifo:Item	.
+if:IF_8_8_1.item3	ifo:package_insert	pi:PI_11_1.item3	.
+if:IF_8_8_1.item3	dct:identifier	"8.8.1.item3"	.
+if:IF_8_8_1.item3	rdf:value	"11.1.3 低血糖\r\n国内及び海外での他の糖尿病用薬との併用試験において低血糖が認められている。また、市販\r\n後において、本剤とインスリン製剤又はスルホニルウレア剤との併用で重篤な低血糖症状があ\r\nらわれ、意識消失を来たす例も報告されていること、インスリン製剤、スルホニルウレア剤又\r\nは速効型インスリン分泌促進薬との併用試験において、低血糖症の発現率がそれぞれ17.4％、\r\n5.3％、6.5％と高い傾向が認められたことから、特に、インスリン製剤、スルホニルウレア剤\r\n又は速効型インスリン分泌促進薬と併用する場合には、これらの薬剤の減量を検討するなど注\r\n意すること。\r\nさらに、本剤の単独療法においても低血糖が認められていることから、本剤を投与する際には\r\n低血糖の発現に注意する必要がある。\r\n低血糖症状が認められた場合には、糖質を含む食品を摂取するなどの処置を行うが、α-グルコ\r\nシダーゼ阻害剤は薬理作用として二糖類の消化・吸収を遅延させることから、α-グルコシダー\r\nゼ阻害剤併用時に低血糖症状が認められた場合には、ブドウ糖を投与するよう注意すること。\r\n低血糖に関しては、「重要な基本的注意」、「特定の背景を有する患者に関する注意」、「相\r\n互作用」および「臨床成績」の項にも注意喚起等を記載しているので、参照すること。"@ja	.
+if:IF_8_8_1.item4	rdf:type	ifo:Item	.
+if:IF_8_8_1.item4	ifo:package_insert	pi:PI_11_1.item4	.
+if:IF_8_8_1.item4	dct:identifier	"8.8.1.item4"	.
+if:IF_8_8_1.item4	rdf:value	"11.1.4 肝機能障害、黄疸\r\n市販後において、重篤な肝機能障害（黄疸を伴う症例もあり）が報告されたことから、「重大\r\nな副作用」の項に記載した。"@ja	.
+if:IF_8_8_1.item5	rdf:type	ifo:Item	.
+if:IF_8_8_1.item5	ifo:package_insert	pi:PI_11_1.item5	.
+if:IF_8_8_1.item5	dct:identifier	"8.8.1.item5"	.
+if:IF_8_8_1.item5	rdf:value	"11.1.5 急性腎障害\r\n市販後において、急性腎障害が報告されたことから、「重大な副作用」の項に記載した。"@ja	.
+if:IF_8_8_1.item6	rdf:type	ifo:Item	.
+if:IF_8_8_1.item6	ifo:package_insert	pi:PI_11_1.item6	.
+if:IF_8_8_1.item6	dct:identifier	"8.8.1.item6"	.
+if:IF_8_8_1.item6	rdf:value	"11.1.6 急性膵炎\r\n市販後において、急性膵炎が報告されたことから、「重大な副作用」の項に記載した。急性膵\r\n炎に関する注意については、「重要な基本的注意」の項にも記載しているので、参照すること。"@ja	.
+if:IF_8_8_1.item7	rdf:type	ifo:Item	.
+if:IF_8_8_1.item7	ifo:package_insert	pi:PI_11_1.item7	.
+if:IF_8_8_1.item7	dct:identifier	"8.8.1.item7"	.
+if:IF_8_8_1.item7	rdf:value	"11.1.7 間質性肺炎\r\n市販後において、間質性肺炎が報告されたことから、「重大な副作用」の項に記載した。"@ja	.
+if:IF_8_8_1.item8	rdf:type	ifo:Item	.
+if:IF_8_8_1.item8	ifo:package_insert	pi:PI_11_1.item8	.
+if:IF_8_8_1.item8	dct:identifier	"8.8.1.item8"	.
+if:IF_8_8_1.item8	rdf:value	"11.1.8 腸閉塞\r\n市販後において、DPP-4 阻害剤及びGLP-1 受容体作動薬を投与された患者で腸閉塞が報告され\r\nたことから、「重大な副作用」の項に記載した。\r\n腸閉塞を発現した症例では、腹部手術の既往又は腸閉塞の既往のある患者が含まれていたこと\r\nから、「特定の背景を有する患者に関する注意」の項にも注意喚起を記載しているので、参照\r\nすること。"@ja	.
+if:IF_8_8_1.item9	rdf:type	ifo:Item	.
+if:IF_8_8_1.item9	ifo:package_insert	pi:PI_11_1.item9	.
+if:IF_8_8_1.item9	dct:identifier	"8.8.1.item9"	.
+if:IF_8_8_1.item9	rdf:value	"11.1.9 横紋筋融解症\r\n市販後において、横紋筋融解症が報告されたことから、「重大な副作用」の項に記載した。"@ja	.
+if:IF_8_8_1.item10	rdf:type	ifo:Item	.
+if:IF_8_8_1.item10	ifo:package_insert	pi:PI_11_1.item10	.
+if:IF_8_8_1.item10	dct:identifier	"8.8.1.item10"	.
+if:IF_8_8_1.item10	rdf:value	"11.1.10 血小板減少\r\n市販後において、血小板減少が報告されたことから、「重大な副作用」の項に記載した。"@ja	.
+if:IF_8_8_1.item11	rdf:type	ifo:Item	.
+if:IF_8_8_1.item11	ifo:package_insert	pi:PI_11_1.item11	.
+if:IF_8_8_1.item11	dct:identifier	"8.8.1.item11"	.
+if:IF_8_8_1.item11	rdf:value	"11.1.11 類天疱瘡\r\n市販後において、類天疱瘡が報告されたことから、「重大な副作用」の項に記載した。"@ja	.
+if:IF_8_8_2	rdf:type	ifo:IF_8_8_2	.
+if:IF_8_8_2	rdf:type	ifo:Section	.
+if:IF_8_8_2	ifo:package_insert	pi:PI_11_2	.
+if:IF_8_8_2	ifo:item	if:IF_8_8_2.item1	.
+if:IF_8_8_2.item1	rdf:type	ifo:Item	.
+if:IF_8_8_2.item1	ifo:package_insert	pi:PI_11_2.item1	.
+if:IF_8_8_2.item1	dct:identifier	"8.8.2.item1"	.
+if:IF_8_8_2.item1	rdf:value	"承認時までに実施した国内の臨床試験における副作用及び臨床検査値の異常変動を集計し、主な副\n作用及び臨床検査値異常を「その他の副作用」として記載した。なお、自発報告あるいは海外にお\nいて認められた副作用は、頻度不明として記載した。"@ja	.
+if:IF_8_9	rdf:type	ifo:IF_8_9	.
+if:IF_8_9	rdf:type	ifo:Section	.
+if:IF_8_9	ifo:package_insert	pi:PI_12	.
+if:IF_8_9	rdf:value	"設定されていない"@ja	.
+if:IF_8_10	rdf:type	ifo:IF_8_10	.
+if:IF_8_10	rdf:type	ifo:Section	.
+if:IF_8_10	ifo:package_insert	pi:PI_13_2	.
+if:IF_8_10	rdf:value	"海外で腎機能障害者を対象に実施した臨床試験において、血液透析が必要な末期腎不全患者で投与\r\n後4 時間から血液透析を3～4 時間行った際のシタグリプチンの透析液中への除去率は13.5％であっ\r\nた。このことから、過量投与時の血液透析による本剤の除去効果は低いと考えられる。"@ja	.
+if:IF_8_11	rdf:type	ifo:IF_8_11	.
+if:IF_8_11	rdf:type	ifo:Section	.
+if:IF_8_11	ifo:package_insert	pi:PI_14	.
+if:IF_8_11	ifo:item	if:IF_8_11.item1	.
+if:IF_8_11.item1	rdf:type	ifo:Item	.
+if:IF_8_11.item1	ifo:package_insert	pi:PI_14.item1	.
+if:IF_8_11.item1	dct:identifier	"8.11.item1"	.
+if:IF_8_11.item1	rdf:value	"本剤にはPress Through Package（以下PTP）包装の仕様があるので、日薬連発第240 号（平成8 年3\r\n月27 日付）及び第304 号（平成8 年4 月18 日付）「PTP の誤飲対策について」に従い設定した。\r\n錠剤やカプセル剤のPTP シートの誤飲、すなわち患者がPTP シートから薬剤を取り出さず、分割し\r\nたシートごとに飲み込み、硬い鋭角部が食道粘膜へ刺入し、更には穿孔を起こして縦隔洞炎等の重\r\n篤な合併症を併発するという誤飲事故が報告されている。こうした事故を防ぐため、薬剤交付時に\r\nPTP シートから取り出して服用するよう患者に指導すること。"@ja	.
+if:IF_8_12_1	rdf:type	ifo:IF_8_12_1	.
+if:IF_8_12_1	rdf:type	ifo:Section	.
+if:IF_8_12_1	ifo:package_insert	pi:PI_15_1	.
+if:IF_8_12_1	rdf:value	"設定されていない"@ja	.
+if:IF_8_12_2	rdf:type	ifo:IF_8_12_2	.
+if:IF_8_12_2	rdf:type	ifo:Section	.
+if:IF_8_12_2	ifo:package_insert	pi:PI_15_2	.
+if:IF_8_12_2	rdf:value	"雌雄ラットのがん原性試験では、本剤50、150 及び500mg/kg/日を2 年間経口投与したところ、本\n剤500mg/kg/日群（ヒトの1 日最大投与量100mg と比較した場合、約58 倍の曝露量に相当）の雄\nラットにおいて肝腺腫及び肝がんの発現率が増加し、同群の雌ラットにおいて肝がんの発現率が増\n加したとの報告がある。\n一方、雌雄マウスのがん原性試験では、本剤50、125、250 及び500mg/kg/日を2 年間経口投与した\r\nところ、本剤500mg/kg/日（ヒトの1 日最大投与量100mg と比較した場合、約68 倍の曝露量に相\r\n当）までの用量で、いずれの臓器においても腫瘍の発現率は増加しなかった。\r\nなお、本剤の遺伝毒性試験はすべて陰性であった。また、ラットにおいて、本剤500mg/kg/日の投\r\n与により、肝毒性（肝障害及び酵素誘導を示唆する変化）が認められている。げっ歯類の肝毒性と\r\nその後の肝腫瘍発生には相関があることが示されていることから、ラットで認められた肝腫瘍は、\r\n慢性的な肝毒性に由来することが示唆される。"@ja	.
+if:IF_9_1_1	rdf:type	ifo:IF_9_1_1	.
+if:IF_9_1_1	rdf:type	ifo:Section	.
+if:IF_9_1_1	rdf:value	"「Ⅵ．薬効薬理に関する項目」の項参照"@ja	.
+if:IF_9_1_1	rdfs:seeAlso	if:IF_6	.
+if:IF_9_1_2	rdf:type	ifo:IF_9_1_2	.
+if:IF_9_1_2	rdf:type	ifo:Section	.
+if:IF_9_1_2	dct:references	if:ref52	.
+if:IF_9_1_2	dct:references	if:ref53	.
+if:IF_9_1_2	dct:references	if:ref54	.
+if:IF_9_1_2	dct:references	if:ref55	.
+if:IF_9_1_2	dct:references	if:ref56	.
+if:IF_9_1_3	rdf:type	ifo:IF_9_1_3	.
+if:IF_9_1_3	rdf:type	ifo:Section	.
+if:IF_9_1_3	rdf:value	"T 細胞活性化に対するシタグリプチンの作用\r\nT 細胞又はB 細胞に依存した免疫応答に対するシタグリプチンの作用をin vitro で検討した。その\r\n結果、シタグリプチンは50μMの濃度まで、混合リンパ球応答（MLR）又は抗原特異反応により誘\r\n発されたT 細胞のIL-2 産生及び増殖を阻害しなかった。また、ホルボールミリステートアセテー\r\nト（PMA）及びIL-2 を用いたポリクローナル活性化法によって誘発されたT 細胞の増殖も、シタ\r\nグリプチンにより阻害されなかった。さらに、リポポリサッカライド（LPS）によって誘発された\r\nB 細胞増殖も、シタグリプチンによって阻害されなかった。シタグリプチンによるin vitro でのT 細\r\n胞活性化阻害のIC50 値は、DPP-4 に対するKi 値より1000 倍以上（Ki 値8.9 nM に対しIC50 は50μM\r\n超）高かったことから、シタグリプチンがin vivo で免疫抑制作用を示さないことが示唆された。23）"@ja	.
+if:IF_9_1_3	dct:references	if:ref23	.
+if:IF_9_2_1	rdf:type	ifo:IF_9_2_1	.
+if:IF_9_2_1	rdf:type	ifo:Section	.
+if:IF_9_2_1	dct:references	if:ref57	.
+if:IF_9_2_2	rdf:type	ifo:IF_9_2_2	.
+if:IF_9_2_2	rdf:type	ifo:Section	.
+if:IF_9_2_2	dct:references	if:ref58	.
+if:IF_9_2_3	rdf:type	ifo:IF_9_2_3	.
+if:IF_9_2_3	rdf:type	ifo:Section	.
+if:IF_9_2_3	rdf:value	"細菌を用いた復帰突然変異試験（処置濃度6000μg／プレート以下）、ラット肝細胞を用いたin vitro\r\nアルカリ溶出試験（処置濃度2.0mM 以下）、チャイニーズハムスター卵巣細胞（CHO 細胞）を用\r\nいた染色体異常試験［処置濃度4.75mM（S-9 存在下）または5.0mM（S-9 非存在下）］、in vivo\r\nマウス小核試験（用量2000mg/kg 以下、単回投与）の結果、シタグリプチンには変異原性は認めら\r\nれなかった。59）"@ja	.
+if:IF_9_2_3	dct:references	if:ref59	.
+if:IF_9_2_4	rdf:type	ifo:IF_9_2_4	.
+if:IF_9_2_4	rdf:type	ifo:Section	.
+if:IF_9_2_4	rdf:value	"雌雄ラットに50、150 及び500mg/kg/日のシタグリプチンを2 年間経口投与した結果、500mg/kg/\r\n日群の雄ラットにおいて肝腺腫及び肝がんの発現率が増加し、同群の雌ラットにおいて肝がんの発\r\n現率が増加した。このラットの投与量は、臨床での最大投与量100mg/日の約58 倍の曝露量に相当\r\nする。\r\n雌雄マウスに50、125、250 及び500mg/kg/日のシタグリプチンを2 年間経口投与した結果、本剤\r\n500mg/kg/日（臨床での最大投与量100mg/日の約68 倍の曝露量に相当する）までの用量で、いず\r\nれの臓器においても腫瘍の発現率は増加しなかった。60）\r\n（「Ⅷ．安全性（使用上の注意等）に関する項目 12．その他の注意」参照）"@ja	.
+if:IF_9_2_4	dct:references	if:ref60	.
+if:IF_9_2_4	rdfs:seeAlso	if:IF_8_12	.
+if:IF_9_2_5	rdf:type	ifo:IF_9_2_5	.
+if:IF_9_2_5	rdf:type	ifo:Section	.
+if:IF_9_2_5	rdf:value	"1) 受胎能及び着床までの初期胚発生に関する試験\r\n①雌ラット経口投与受胎能試験（雌、24 例/各投与量）\r\n受胎能に対する無毒性量は1000mg/kg/日以上であった。\r\n②雄ラット経口投与受胎能試験（雄、24 例/各投与量）\r\n受胎能に対する無毒性量は1000mg/kg/日以上であった。\r\n2) 胚・胎児発生に関する試験\r\n①ラット経口投与発生毒性試験（雌、22 例／各投与量）\r\n1000mg/kg/日投与群において胎児肋骨の形態異常がわずかに増加した。胎児に対する無毒性量\r\nは250mg/kg/日であった。\r\n②ウサギ経口投与発生毒性試験（雌、18～19 例／各投与量）\r\n発生毒性に関する無毒性量は125 mg/kg/日であった。\r\n3) 出生前及び出生後の発生並びに母体の機能に関する試験\r\nラットを用いた出生後評価を含む経口投与発生毒性試験（雌、22 例／各投与量）\r\n妊娠6～12 日に250 及び1000mg/kg/日群において投与に関連する母動物の体重増加量の減少（対\r\n照群より、それぞれ15％及び18％減）が認められたが、その他の妊娠期間又は授乳期間では、シ\r\nタグリプチン投与群において母動物体重に変化は認められなかった。体重への影響と関連して、\r\n250 及び1000mg/kg/日群では母動物の妊娠期間中に投与に関連する摂餌量の減少（対照群より8\r\n～12％減）が認められた。母動物毒性に関する無毒性量は125mg/kg/日であった。また、F1 動物\r\nについては、1000mg/kg/日投与群において離乳前（雄、雌）及び離乳後（雄のみ）の体重増加量\r\nの減少が認められた。F1 動物に対する無毒性量は250mg/kg/日であった。"@ja	.
+if:IF_9_2_5	dct:references	if:ref61	.
+if:IF_9_2_6	rdf:type	ifo:IF_9_2_6	.
+if:IF_9_2_6	rdf:type	ifo:Section	.
+if:IF_9_2_6	rdf:value	"1) 眼刺激性試験\r\nIn vitro ウシ角膜混濁（BCOP）試験法により眼刺激性を評価した結果、シタグリプチン（処置濃\r\n度20％シタグリプチン）の刺激性スコアは、軽度刺激性と分類された。また、ウサギ（3 例／各\r\n投与量）を用いて眼刺激性を評価したところ、シタグリプチン（処置量100mg）は中等度の眼刺\r\n激性を示した。62）\r\n2) 皮膚刺激性試験63）\r\n①In vitro\r\nヒト表皮培養システム（EpiDerm™）を用いて、シタグリプチンの皮膚刺激性を評価した。その\r\n結果、シタグリプチンの約25 mg/mL の濃度で細胞生存率が98.7％であった。\r\n②In vivo（雌雄、3 例／各投与量）\r\nウサギを用いて、シタグリプチン（処置量500mg）の皮膚刺激性を評価した。その結果、皮膚\r\n刺激性変化は認められなかった。"@ja	.
+if:IF_9_2_6	dct:references	if:ref62	.
+if:IF_9_2_6	dct:references	if:ref63	.
+if:IF_9_2_7	rdf:type	ifo:IF_9_2_7	.
+if:IF_9_2_7	rdf:type	ifo:Section	.
+if:IF_9_2_7	rdf:value	"1) 局所リンパ節増殖試験（5 例／各投与量）\r\n局所リンパ節増殖試験法（LLNA）により皮膚感作性を検討した結果（処置濃度100％以下）、リ\r\nンパ節の細胞増殖に明らかな増加は認められなかった。64）\r\n2) 肝ミクロソーム酵素活性誘導（雌雄、8 例／各投与量）\r\nマウスに500 mg/kg/日のシタグリプチンを4 日間反復経口投与した。シタグリプチンは肝重量に\r\n影響を及ぼさず、肝臓内にCYP 1A、2B、3A 及び4A を誘導しなかった。65）\r\n3) 溶血性試験\r\nラット、イヌ及びヒトの全血並びに洗浄赤血球を用いて、シタグリプチンの溶血性を評価した。\r\n全血又は洗浄赤血球にシタグリプチン（全血では最大1mg/mL まで、洗浄赤血球では最大9mg/mL\r\nまで）を添加した後、それぞれ15 分間インキュベートした。その結果、シタグリプチン添加全血\r\n及び洗浄赤血球に溶血反応は認められなかった。66）\r\n4) 光毒性試験\r\nシタグリプチンは268 nm で単一の吸収ピークを示し、太陽光線域（290～700 nm）で検出可能な\r\n吸収を示さないことから、光毒性試験は実施しなかった。67）\r\n5) 膵臓に対する影響（雄、25 例／各投与量）68）\r\n糖尿病モデル（ZDF）ラットに30、100、150mg/kg/日のシタグリプチンを3 ヵ月間経口投与した\r\n結果、150mg/kg/日（臨床での最大投与量100mg/日の約19 倍の曝露量に相当する）までの用量で、\r\n膵炎及び膵臓の増殖性変化を含む膵臓への影響は認められなかった。"@ja	.
+if:IF_9_2_7	dct:references	if:ref64	.
+if:IF_9_2_7	dct:references	if:ref65	.
+if:IF_9_2_7	dct:references	if:ref66	.
+if:IF_9_2_7	dct:references	if:ref67	.
+if:IF_9_2_7	dct:references	if:ref68	.
+if:IF_10_1	rdf:type	ifo:IF_10_1	.
+if:IF_10_1	rdf:type	ifo:Section	.
+if:IF_10_1	ifo:package_insert	pi:PI_0_6	.
+if:IF_10_1	rdf:value	"製剤：ジャヌビア®錠12.5mg 処方箋医薬品注）\r\n製剤：ジャヌビア®錠25mg 処方箋医薬品注）\r\n製剤：ジャヌビア®錠50mg 処方箋医薬品注）\r\n製剤：ジャヌビア®錠100mg 処方箋医薬品注）\r\n注）：注意－医師等の処方箋により使用すること\r\n有効成分：日本薬局方 シタグリプチンリン酸塩水和物 該当しない"@ja	.
+if:IF_10_2	rdf:type	ifo:IF_10_2	.
+if:IF_10_2	rdf:type	ifo:Section	.
+if:IF_10_2	ifo:package_insert	pi:PI_0_4	.
+if:IF_10_2	rdf:value	"有効期間：3 年"@ja	.
+if:IF_10_3	rdf:type	ifo:IF_10_3	.
+if:IF_10_3	rdf:type	ifo:Section	.
+if:IF_10_3	ifo:package_insert	pi:PI_0_4	.
+if:IF_10_3	rdf:value	"室温保存"@ja	.
+if:IF_10_4	rdf:type	ifo:IF_10_4	.
+if:IF_10_4	rdf:type	ifo:Section	.
+if:IF_10_4	ifo:package_insert	pi:PI_20	.
+if:IF_10_4	rdf:value	"該当しない"@ja	.
+if:IF_10_5	rdf:type	ifo:IF_10_5	.
+if:IF_10_5	rdf:type	ifo:Section	.
+if:IF_10_5	rdf:value	"患者向医薬品ガイド：あり\r\nくすりのしおり：あり"@ja	.
+if:IF_10_6	rdf:type	ifo:IF_10_6	.
+if:IF_10_6	rdf:type	ifo:Section	.
+if:IF_10_6	rdf:value	"同一成分：グラクティブ錠12.5mg/25mg/50mg/100mg\r\n同 効 薬：ビルダグリプチン、アログリプチン安息香酸塩、リナグリプチン、テネリグリプチン臭化\r\n水素酸塩水和物、アナグリプチン、サキサグリプチン水和物、オマリグリプチン、トレラ\r\nグリプチンコハク酸塩"@ja	.
+if:IF_10_7	rdf:type	ifo:IF_10_7	.
+if:IF_10_7	rdf:type	ifo:Section	.
+if:IF_10_7	rdf:value	"2006 年8 月4 日（メキシコ）"@ja	.
+if:IF_10_7	dct:date	"2006-08-04"^^xsd:date	.
+if:IF_10_9	rdf:type	ifo:IF_10_9	.
+if:IF_10_9	rdf:type	ifo:Section	.
+if:IF_10_9	rdf:value	"(1) 追加年月日：2011 年5 月20 日\r\n［効能・効果］：食事療法、運動療法に加えてα-グルコシダーゼ阻害剤を使用して十分な効果が\r\n得られない2 型糖尿病\r\n(2) 追加年月日：2011 年9 月16 日\r\n［効能・効果］：食事療法、運動療法に加えてインスリン製剤を使用して十分な効果が得られな\r\nい2 型糖尿病\r\n(3) 追加年月日：2014 年5 月23 日\r\n［効能・効果］：2 型糖尿病"@ja	.
+if:IF_10_10	rdf:type	ifo:IF_10_10	.
+if:IF_10_10	rdf:type	ifo:Section	.
+if:IF_10_10	rdf:value	"再審査結果通知年月日 2019 年3 月14 日\r\n医薬品、医療機器等の品質、有効性及び安全性の確保等に関する法律第14 条第2 項第3 号（承認拒\r\n否事由）イからハまでのいずれにも該当しない"@ja	.
+if:IF_10_11	rdf:type	ifo:IF_10_11	.
+if:IF_10_11	rdf:type	ifo:Section	.
+if:IF_10_11	ifo:item	if:IF_10_11.item1	.
+if:IF_10_11	ifo:item	if:IF_10_11.item2	.
+if:IF_10_11	ifo:item	if:IF_10_11.item3	.
+if:IF_10_11	ifo:item	if:IF_10_11.item4	.
+if:IF_10_11.item1	rdf:value	"(1) 2 型糖尿病\r\nただし、下記のいずれかの治療で十分な効果が得られない場合に限る\r\n①食事療法、運動療法のみ\r\n②食事療法、運動療法に加えてスルホニルウレア剤を使用\r\n③食事療法、運動療法に加えてチアゾリジン系薬剤を使用\r\n④食事療法、運動療法に加えてビグアナイド系薬剤を使用\r\n8 年 ：2009 年10 月16 日～2017 年10 月15 日（終了）"@ja	.
+if:IF_10_11.item2	rdf:value	"(2) ⑤食事療法、運動療法に加えてα-グルコシダーゼ阻害剤を使用\r\n残余期間：2011 年 5 月20 日～ 2017 年10 月15 日（終了）"@ja	.
+if:IF_10_11.item3	rdf:value	"(3) ⑥食事療法、運動療法に加えてインスリン製剤を使用\r\n残余期間：2011 年 9 月16 日～2017 年10 月15 日（終了）"@ja	.
+if:IF_10_11.item4	rdf:value	"(4) 2 型糖尿病\r\n残余期間：2014 年5 月23 日～2017 年10 月15 日（終了）"@ja	.
+if:IF_10_12	rdf:type	ifo:IF_10_12	.
+if:IF_10_12	rdf:type	ifo:Section	.
+if:IF_10_12	ifo:package_insert	pi:PI_25	.
+if:IF_10_12	rdf:value	"本剤は、厚生労働省告示第97 号（平成20 年3 月19 日付）に基づく｢投薬期間に上限が設けられて\r\nいる医薬品｣に該当しない。"@ja	.
+if:IF_10_14	rdf:type	ifo:IF_10_14	.
+if:IF_10_14	rdf:type	ifo:Section	.
+if:IF_10_14	ifo:package_insert	pi:PI_25	.
+if:IF_10_14	rdf:value	"該当しない"@ja	.
+if:IF_12_1	rdf:type	ifo:IF_12_1	.
+if:IF_12_1	rdf:type	ifo:Section	.
+if:IF_12_1	ifo:package_insert	pi:PI_6	.
+if:IF_12_1	rdf:value	"上記を含み、2018 年6 月現在、134 の国・地域で承認されている。"@ja	.
+if:IF_12_2	rdf:type	ifo:IF_12_2	.
+if:IF_12_2	rdf:type	ifo:Section	.
+if:IF_12_2	ifo:package_insert	pi:PI_9_7	.
+if:IF_12_2	ifo:item	if:IF_12_2.item1	.
+if:IF_12_2	ifo:item	if:IF_12_2.item2	.
+if:IF_12_2.item1	rdf:type	ifo:Item	.
+if:IF_12_2.item1	ifo:package_insert	pi:PI_9_7.item1	.
+if:IF_12_2.item1	dct:identifier	"12.2.item1"	.
+if:IF_12_2.item1	rdf:value	"妊婦に関する海外情報（FDA 分類）\r\n本邦における「9.5 妊婦」「9.6 授乳婦」の項の記載は以下のとおりであり、米国添付文書とは異な\r\nる。\r\n9.5 妊婦\r\n妊婦又は妊娠している可能性のある女性には治療上の有益性が危険性を上回ると判断される場\r\n合にのみ投与を考慮すること。動物実験（ラット）において、1,000mg/kg/日（臨床での最大投\r\n与量100mg/日の約100 倍の曝露量に相当する）経口投与により、胎児肋骨の欠損、形成不全及\r\nび波状肋骨の発現率の軽度増加が認められたとの報告がある。\r\n9.6 授乳婦\r\n治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。動物実験\r\n（ラット）で乳汁中への移行が報告されている。"@ja	.
+if:IF_12_2.item2	rdf:type	ifo:Item	.
+if:IF_12_2.item2	ifo:package_insert	pi:PI_9_7.item2	.
+if:IF_12_2.item2	dct:identifier	"12.2.item2"	.
+if:IF_12_2.item2	rdf:value	"小児等への投与に関する情報\r\n本邦における「9.7 小児等」の項の記載は以下のとおりであり、米国添付文書とは異なる。"@ja	.
+if:IF_13	rdf:type	ifo:IF_13	.
+if:IF_13	rdf:type	ifo:Section	.
+if:IF_13	rdf:value	"1. 調剤・服薬支援に際して臨床判断を行うにあたっての参考情報\r\n(1) 粉砕\r\n錠剤が粉砕された状態での薬物動態試験、有効性試験、安全性試験は実施されておらず、その有効\r\n性・安全性を評価する情報は存在しない。\r\n以上の理由により、本剤の粉砕投与は推奨されない。\r\n(2) 崩壊・懸濁性及び経管投与チューブの通過性\r\n該当資料なし\r\n2. その他の関連資料\r\n医療関係者向け製品サイト\r\nhttps://www.msdconnect.jp/products/januvia/index.xhtml"@ja	.
+if:ref1	rdf:type	bibo:Document	.
+if:ref1	rdfs:label	"社内資料：原薬"@ja	.
+if:ref2	rdf:type	bibo:Document	.
+if:ref2	rdfs:label	"社内資料：製剤"@ja	.
+if:ref3	rdf:type	bibo:Article	.
+if:ref3	dct:references	pmid:21284702	.
+if:ref4	rdf:type	bibo:Article	.
+if:ref4	dct:creator	"片山泰之、他."@ja	.
+if:ref4	prism:publicationName	"新薬と臨床."@ja	.
+if:ref4	prism:volume	"60"	.
+if:ref4	prism:startingPage	"1139"^^xsd:gYear	.
+if:ref4	prism:endingPage	"1152"^^xsd:gYear	.
+if:ref4	dct:issued	"2011"^^xsd:gYear	.
+if:ref5	rdf:type	bibo:Article	.
+if:ref5	dct:references	pmid:17933414	.
+if:ref6	rdf:type	bibo:Article	.
+if:ref6	dct:references	pmid:19253204	.
+if:ref7	rdf:type	bibo:Article	.
+if:ref7	dct:references	pmid:20332588	.
+if:ref8	rdf:type	bibo:Article	.
+if:ref8	dct:references	pmid:20590736	.
+if:ref9	rdf:type	bibo:Article	.
+if:ref9	dct:creator	"Tajima N, et al."	.
+if:ref9	prism:publicationName	"Diabetol Int."	.
+if:ref9	prism:volume	"2"	.
+if:ref9	prism:startingPage	"32"	.
+if:ref9	prism:endingPage	"44"	.
+if:ref9	dct:issued	"2011"^^xsd:gYear	.
+if:ref10	rdf:type	bibo:Article	.
+if:ref10	dct:references	pmid:24843518	.
+if:ref11	rdf:type	bibo:Article	.
+if:ref11	dct:references	pmid:24843649	.
+if:ref12	rdf:type	bibo:Article	.
+if:ref12	dct:references	pmid:24843714	.
+if:ref13	rdf:type	bibo:Article	.
+if:ref13	dct:references	pmid:30603259	.
+if:ref14	rdf:type	bibo:Article	.
+if:ref14	dct:creator	"Kadowaki T, et al."	.
+if:ref14	prism:publicationName	"Diabetol Int."	.
+if:ref14	prism:volume	"4"	.
+if:ref14	prism:startingPage	"160"	.
+if:ref14	prism:endingPage	"172"	.
+if:ref14	dct:issued	"2013"^^xsd:gYear	.
+if:ref15	rdf:type	bibo:Article	.
+if:ref15	dct:creator	"Odawara M, et al."	.
+if:ref15	prism:publicationName	"Diabetol Int."	.
+if:ref15	prism:volume	"2"	.
+if:ref15	prism:startingPage	"94"	.
+if:ref15	prism:endingPage	"105"	.
+if:ref15	dct:issued	"2011"^^xsd:gYear	.
+if:ref16	rdf:type	bibo:Article	.
+if:ref16	dct:references	pmid:18518892	.
+if:ref17	rdf:type	bibo:Document	.
+if:ref17	rdfs:label	"社内資料：製造販売後調査等"@ja	.
+if:ref18	rdf:type	bibo:Article	.
+if:ref18	dct:creator	"池田恵子、他."@ja	.
+if:ref18	prism:publicationName	"新薬と臨床."@ja	.
+if:ref18	prism:volume	"65"	.
+if:ref18	prism:startingPage	"1427"^^xsd:gYear	.
+if:ref18	prism:endingPage	"1451"^^xsd:gYear	.
+if:ref18	dct:issued	"2016"^^xsd:gYear	.
+if:ref19	rdf:type	bibo:Article	.
+if:ref19	dct:references	pmid:29770541	.
+if:ref20	rdf:type	bibo:Article	.
+if:ref20	dct:references	pmid:14514604	.
+if:ref21	rdf:type	bibo:Article	.
+if:ref21	dct:references	pmid:15634008	.
+if:ref22	rdf:type	bibo:Article	.
+if:ref22	dct:references	pmid:16912128	.
+if:ref23	rdf:type	bibo:Document	.
+if:ref23	rdfs:label	"社内資料：シタグリプチンのin vitro及びin vivo薬理試験"@ja	.
+if:ref23	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref23	ifo:ctd_number	"CTD 2.6.2.2"	.
+if:ref24	rdf:type	bibo:Article	.
+if:ref24	dct:references	pmid:19765579	.
+if:ref25	rdf:type	bibo:Document	.
+if:ref25	rdfs:label	"社内資料：国内臨床薬理試験"@ja	.
+if:ref25	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref25	ifo:ctd_number	"CTD 2.7.2.2"	.
+if:ref26	rdf:type	bibo:Document	.
+if:ref26	rdfs:label	"社内資料：ボグリボース併用PK試験"@ja	.
+if:ref26	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref26	ifo:ctd_number	"CTD 2.7.2.2"	.
+if:ref27	rdf:type	bibo:Document	.
+if:ref27	rdfs:label	"社内資料：ジゴキシン併用PK試験"@ja	.
+if:ref27	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref27	ifo:ctd_number	"CTD 2.7.2.2"	.
+if:ref28	rdf:type	bibo:Article	.
+if:ref28	dct:references	pmid:17244767	.
+if:ref29	rdf:type	bibo:Article	.
+if:ref29	dct:references	pmid:17022853	.
+if:ref30	rdf:type	bibo:Article	.
+if:ref30	dct:references	pmid:17244766	.
+if:ref31	rdf:type	bibo:Article	.
+if:ref31	dct:references	pmid:18503607	.
+if:ref32	rdf:type	bibo:Article	.
+if:ref32	dct:references	pmid:19204138	.
+if:ref33	rdf:type	bibo:Article	.
+if:ref33	dct:references	pmid:19783710	.
+if:ref34	rdf:type	bibo:Article	.
+if:ref34	dct:references	pmid:21209231	.
+if:ref35	rdf:type	bibo:Document	.
+if:ref35	rdfs:label	"社内資料：母集団薬物動態解析"@ja	.
+if:ref35	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref35	ifo:ctd_number	"CTD 2.7.2.2"	.
+if:ref36	rdf:type	bibo:Document	.
+if:ref36	rdfs:label	"社内資料：ラット薬物動態試験"@ja	.
+if:ref36	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref36	ifo:ctd_number	"CTD 2.6.4.3"	.
+if:ref37	rdf:type	bibo:Document	.
+if:ref37	rdfs:label	"社内資料：分布容積"@ja	.
+if:ref37	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref37	ifo:ctd_number	"CTD 2.7.1.2"	.
+if:ref38	rdf:type	bibo:Article	.
+if:ref38	dct:references	pmid:17575559	.
+if:ref39	rdf:type	bibo:Document	.
+if:ref39	rdfs:label	"社内資料：吸収"@ja	.
+if:ref39	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref39	ifo:ctd_number	"CTD 2.7.1.2"	.
+if:ref40	rdf:type	bibo:Document	.
+if:ref40	rdfs:label	"社内資料：ラットでの分布"@ja	.
+if:ref40	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref40	ifo:ctd_number	"CTD 2.6.4.4"	.
+if:ref41	rdf:type	bibo:Document	.
+if:ref41	rdfs:label	"社内資料：ラット、ウサギでの胎盤移行性"@ja	.
+if:ref41	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref41	ifo:ctd_number	"CTD 2.6.5.5"	.
+if:ref42	rdf:type	bibo:Document	.
+if:ref42	rdfs:label	"社内資料：ラット乳汁中への移行性"@ja	.
+if:ref42	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref42	ifo:ctd_number	"CTD 2.6.5.21"	.
+if:ref43	rdf:type	bibo:Document	.
+if:ref43	rdfs:label	"社内資料：タンパク結合率"@ja	.
+if:ref43	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref43	ifo:ctd_number	"CTD 2.6.4.4"	.
+if:ref44	rdf:type	bibo:Article	.
+if:ref44	dct:references	pmid:17220239	.
+if:ref45	rdf:type	bibo:Document	.
+if:ref45	rdfs:label	"社内資料：CYP分子種への影響"@ja	.
+if:ref45	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref45	ifo:ctd_number	"CTD 2.6.5.15-17"	.
+if:ref46	rdf:type	bibo:Document	.
+if:ref46	rdfs:label	"社内資料：代謝物の活性（2009年10月16日承認、"@ja	.
+if:ref46	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref46	ifo:ctd_number	"CTD 2.6.4.5"	.
+if:ref47	rdf:type	bibo:Article	.
+if:ref47	dct:references	pmid:17314201	.
+if:ref48	rdf:type	bibo:Document	.
+if:ref48	rdfs:label	"社内資料：シタグリプチンによるジゴキシンおよびシメチジンの取り込み阻害"@ja	.
+if:ref48	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref48	ifo:ctd_number	"CTD 2.6.4.4"	.
+if:ref49	rdf:type	bibo:Article	.
+if:ref49	dct:references	pmid:17468348	.
+if:ref50	rdf:type	bibo:Article	.
+if:ref50	dct:references	pmid:19221403	.
+if:ref51	rdf:type	bibo:Document	.
+if:ref51	rdfs:label	"社内資料：高齢男女／成人女性／肥満成人男性における薬物動態"@ja	.
+if:ref51	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref51	ifo:ctd_number	"CTD2.7.2.2"	.
+if:ref52	rdf:type	bibo:Document	.
+if:ref52	rdfs:label	"社内資料：中枢神経系に対する作用"@ja	.
+if:ref52	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref52	ifo:ctd_number	"CTD 2.6.2.4"	.
+if:ref53	rdf:type	bibo:Document	.
+if:ref53	rdfs:label	"社内資料：呼吸・循環器系に対する作用"@ja	.
+if:ref53	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref53	ifo:ctd_number	"CTD 2.6.2.4"	.
+if:ref54	rdf:type	bibo:Document	.
+if:ref54	rdfs:label	"社内資料：腎機能に対する作用"@ja	.
+if:ref54	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref54	ifo:ctd_number	"CTD 2.6.2.4"	.
+if:ref55	rdf:type	bibo:Document	.
+if:ref55	rdfs:label	"社内資料：消化器系に対する作用"@ja	.
+if:ref55	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref55	ifo:ctd_number	"CTD 2.6.2.4"	.
+if:ref56	rdf:type	bibo:Document	.
+if:ref56	rdfs:label	"社内資料：血液凝固系に対する作用"@ja	.
+if:ref56	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref56	ifo:ctd_number	"CTD 2.6.2.4"	.
+if:ref57	rdf:type	bibo:Document	.
+if:ref57	rdfs:label	"社内資料：単回投与毒性試験"@ja	.
+if:ref57	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref57	ifo:ctd_number	"CTD 2.6.6.2"	.
+if:ref58	rdf:type	bibo:Document	.
+if:ref58	rdfs:label	"社内資料：反復投与毒性試験"@ja	.
+if:ref58	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref58	ifo:ctd_number	"CTD 2.6.6.3"	.
+if:ref59	rdf:type	bibo:Document	.
+if:ref59	rdfs:label	"社内資料：遺伝毒性試験"@ja	.
+if:ref59	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref59	ifo:ctd_number	"CTD 2.6.6.4"	.
+if:ref60	rdf:type	bibo:Document	.
+if:ref60	rdfs:label	"社内資料：がん原性試験"@ja	.
+if:ref60	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref60	ifo:ctd_number	"CTD 2.6.6.5"	.
+if:ref61	rdf:type	bibo:Document	.
+if:ref61	rdfs:label	"社内資料：生殖発生毒性試験"@ja	.
+if:ref61	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref61	ifo:ctd_number	"CTD 2.6.6.6"	.
+if:ref62	rdf:type	bibo:Document	.
+if:ref62	rdfs:label	"社内資料：眼刺激性試験"@ja	.
+if:ref62	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref62	ifo:ctd_number	"CTD 2.6.6.8"	.
+if:ref63	rdf:type	bibo:Document	.
+if:ref63	rdfs:label	"社内資料：皮膚刺激性試験"@ja	.
+if:ref63	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref63	ifo:ctd_number	"CTD 2.6.6.8"	.
+if:ref64	rdf:type	bibo:Document	.
+if:ref64	rdfs:label	"社内資料：局所リンパ節増殖試験"@ja	.
+if:ref64	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref64	ifo:ctd_number	"CTD 2.6.6.7"	.
+if:ref65	rdf:type	bibo:Document	.
+if:ref65	rdfs:label	"社内資料：肝ミクロソーム酵素活性誘導"@ja	.
+if:ref65	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref65	ifo:ctd_number	"CTD 2.6.6.8"	.
+if:ref66	rdf:type	bibo:Document	.
+if:ref66	rdfs:label	"社内資料：溶血性試験"@ja	.
+if:ref66	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref66	ifo:ctd_number	"CTD 2.6.6.8"	.
+if:ref67	rdf:type	bibo:Document	.
+if:ref67	rdfs:label	"社内資料：光毒性試験"@ja	.
+if:ref67	dct:dateAccepted	"2009-10-16"^^xsd:date	.
+if:ref67	ifo:ctd_number	"CTD 2.6.6.8"	.
+if:ref68	rdf:type	bibo:Article	.
+if:ref68	dct:references	pmid:24424056	.
+if:IF_11_1	dct:references	if:ref1	.
+if:IF_11_1	dct:references	if:ref2	.
+if:IF_11_1	dct:references	if:ref3	.
+if:IF_11_1	dct:references	if:ref4	.
+if:IF_11_1	dct:references	if:ref5	.
+if:IF_11_1	dct:references	if:ref6	.
+if:IF_11_1	dct:references	if:ref7	.
+if:IF_11_1	dct:references	if:ref8	.
+if:IF_11_1	dct:references	if:ref9	.
+if:IF_11_1	dct:references	if:ref10	.
+if:IF_11_1	dct:references	if:ref11	.
+if:IF_11_1	dct:references	if:ref12	.
+if:IF_11_1	dct:references	if:ref13	.
+if:IF_11_1	dct:references	if:ref14	.
+if:IF_11_1	dct:references	if:ref15	.
+if:IF_11_1	dct:references	if:ref16	.
+if:IF_11_1	dct:references	if:ref17	.
+if:IF_11_1	dct:references	if:ref18	.
+if:IF_11_1	dct:references	if:ref19	.
+if:IF_11_1	dct:references	if:ref20	.
+if:IF_11_1	dct:references	if:ref21	.
+if:IF_11_1	dct:references	if:ref22	.
+if:IF_11_1	dct:references	if:ref23	.
+if:IF_11_1	dct:references	if:ref24	.
+if:IF_11_1	dct:references	if:ref25	.
+if:IF_11_1	dct:references	if:ref26	.
+if:IF_11_1	dct:references	if:ref27	.
+if:IF_11_1	dct:references	if:ref28	.
+if:IF_11_1	dct:references	if:ref29	.
+if:IF_11_1	dct:references	if:ref30	.
+if:IF_11_1	dct:references	if:ref31	.
+if:IF_11_1	dct:references	if:ref32	.
+if:IF_11_1	dct:references	if:ref33	.
+if:IF_11_1	dct:references	if:ref34	.
+if:IF_11_1	dct:references	if:ref35	.
+if:IF_11_1	dct:references	if:ref36	.
+if:IF_11_1	dct:references	if:ref37	.
+if:IF_11_1	dct:references	if:ref38	.
+if:IF_11_1	dct:references	if:ref39	.
+if:IF_11_1	dct:references	if:ref40	.
+if:IF_11_1	dct:references	if:ref41	.
+if:IF_11_1	dct:references	if:ref42	.
+if:IF_11_1	dct:references	if:ref43	.
+if:IF_11_1	dct:references	if:ref44	.
+if:IF_11_1	dct:references	if:ref45	.
+if:IF_11_1	dct:references	if:ref46	.
+if:IF_11_1	dct:references	if:ref47	.
+if:IF_11_1	dct:references	if:ref48	.
+if:IF_11_1	dct:references	if:ref49	.
+if:IF_11_1	dct:references	if:ref50	.
+if:IF_11_1	dct:references	if:ref51	.
+if:IF_11_1	dct:references	if:ref52	.
+if:IF_11_1	dct:references	if:ref53	.
+if:IF_11_1	dct:references	if:ref54	.
+if:IF_11_1	dct:references	if:ref55	.
+if:IF_11_1	dct:references	if:ref56	.
+if:IF_11_1	dct:references	if:ref57	.
+if:IF_11_1	dct:references	if:ref58	.
+if:IF_11_1	dct:references	if:ref59	.
+if:IF_11_1	dct:references	if:ref60	.
+if:IF_11_1	dct:references	if:ref61	.
+if:IF_11_1	dct:references	if:ref62	.
+if:IF_11_1	dct:references	if:ref63	.
+if:IF_11_1	dct:references	if:ref64	.
+if:IF_11_1	dct:references	if:ref65	.
+if:IF_11_1	dct:references	if:ref66	.
+if:IF_11_1	dct:references	if:ref67	.
+if:IF_11_1	dct:references	if:ref68	.
