@@ -1,0 +1,1763 @@
+@prefix	if:	<http://med2rdf.org/if/#>	.
+@prefix	pi:	<http://med2rdf.org/pi/#>	.
+
+@prefix yjc:   <http://med2rdf.org/if/yjcode/> .
+@prefix pio:   <http://med2rdf.org/ontology/pio/> .
+@prefix ifo:   <http://med2rdf.org/ontology/ifo/> .
+
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
+@prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+
+<http://med2rdf.org/if/>	rdf:type	ifo:InterviewForm	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_7	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_8	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_9	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_10	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_11	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_12	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_13	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_14	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_15	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_16	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_17	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_18	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_19	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_0_20	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_4_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_4_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_4_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_4_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_5_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_5_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_1_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_1_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_1_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_1_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_2_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_2_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_2_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_2_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3_1_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3_1_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3_1_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3_1_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3_1_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3_1_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3_1_7	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_3_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_1_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_1_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_1_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_1_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_1_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_2_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_2_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_2_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_7	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_8	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_9	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_10	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_10_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_10_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_10_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_10_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_11	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_4_12	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_3_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_3_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_4_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_4_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_6_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_6_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_5_5_7	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_6_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_6_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_6_2_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_6_2_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_6_2_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_1_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_1_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_1_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_1_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_2_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_2_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_2_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_2_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_2_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_2_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_3_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_3_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_5_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_5_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_5_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_5_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_5_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_5_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_6_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_6_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_6_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_6_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_7	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_8	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_9	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_10	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_7_11	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_6_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_6_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_6_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_6_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_6_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_6_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_6_7	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_6_8	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_7	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_7_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_7_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_8	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_8_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_8_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_9	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_10	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_11	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_12	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_12_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_8_12_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_1_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_1_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_1_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_2_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_2_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_2_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_2_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_2_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_2_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_9_2_7	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_3	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_4	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_5	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_6	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_7	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_8	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_9	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_10	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_11	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_12	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_13	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_10_14	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_11	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_11_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_11_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_12	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_12_1	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_12_2	.
+<http://med2rdf.org/if/>	ifo:section	if:IF_13	.
+<http://med2rdf.org/if/>	ifo:package_insert	<http://med2rdf.org/pi/>	.
+<http://med2rdf.org/if/>	dct:identifier	""@ja	.
+<http://med2rdf.org/pi/>	dct:identifier	""@ja	.
+<http://med2rdf.org/if/>	rdfs:seeAlso	<https://www.info.pmda.go.jp/go/interview/1/>	.
+<http://med2rdf.org/pi/>	rdfs:seeAlso	<https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/>	.
+<http://med2rdf.org/if/>	ifo:drug	yjc:3969018F1022	.
+<http://med2rdf.org/if/>	ifo:drug	yjc:3969018F2029	.
+yjc:3969018F1022	rdf:type	ifo:Drug	.
+yjc:3969018F1022	ifo:if_0_8	"スーグラ錠25mg："@ja	.
+yjc:3969018F1022	ifo:if_0_9	"フィルムコーティング錠"@ja	.
+yjc:3969018F1022	ifo:if_0_11	"1 錠中にイプラグリフロジンとして25mg 含有する。"@ja	.
+yjc:3969018F1022	ifo:if_0_13	"2018-12-21"^^xsd:date	.
+yjc:3969018F1022	ifo:if_0_14	"2014-04-17"^^xsd:date	.
+yjc:3969018F1022	ifo:if_0_15	"2014-04-17"^^xsd:date	.
+yjc:3969018F1022	ifo:if_10_8	"22600AMX00009"	.
+yjc:3969018F1022	ifo:yakka_code	"3969018F1022"	.
+yjc:3969018F1022	ifo:yj_code	"3969018F1022"	.
+yjc:3969018F1022	ifo:hot_code	"123066601"	.
+yjc:3969018F1022	ifo:resept_code	"622306601"	.
+yjc:3969018F2029	rdf:type	ifo:Drug	.
+yjc:3969018F2029	ifo:if_0_8	"スーグラ錠50mg"@ja	.
+yjc:3969018F2029	ifo:if_0_9	"フィルムコーティング錠"@ja	.
+yjc:3969018F2029	ifo:if_0_11	"1 錠中にイプラグリフロジンとして50mg 含有する。"@ja	.
+yjc:3969018F2029	ifo:if_0_13	"2018-12-21"^^xsd:date	.
+yjc:3969018F2029	ifo:if_0_14	"2014-04-17"^^xsd:date	.
+yjc:3969018F2029	ifo:if_0_15	"2014-04-17"^^xsd:date	.
+yjc:3969018F2029	ifo:if_10_8	"22600AMX00010"	.
+yjc:3969018F2029	ifo:yakka_code	"3969018F2029"	.
+yjc:3969018F2029	ifo:yj_code	"3969018F2029"	.
+yjc:3969018F2029	ifo:hot_code	"123067301"	.
+yjc:3969018F2029	ifo:resept_code	"622306701"	.
+if:IF_0_3	rdf:type	ifo:IF_0_3	.
+if:IF_0_3	rdf:type	ifo:Section	.
+if:IF_0_3	dct:modified	"2020-01"^^xsd:gYearMonth	.
+if:IF_0_3	pav:version	"11"	.
+if:IF_0_4	rdf:type	ifo:IF_0_4	.
+if:IF_0_4	rdf:type	ifo:Section	.
+if:IF_0_4	ifo:package_insert	pi:PI_0_2	.
+if:IF_0_4	rdf:value	"873969"	.
+if:IF_0_6	rdf:type	ifo:IF_0_6	.
+if:IF_0_6	rdf:type	ifo:Section	.
+if:IF_0_6	rdf:value	"2018"^^xsd:gYear	.
+if:IF_0_7	rdf:type	ifo:IF_0_7	.
+if:IF_0_7	rdf:type	ifo:Section	.
+if:IF_0_7	ifo:package_insert	pi:PI_0_5	.
+if:IF_0_7	rdf:value	"選択的SGLT2阻害剤－糖尿病治療剤－"@ja	.
+if:IF_0_8	rdf:type	ifo:IF_0_8	.
+if:IF_0_8	rdf:type	ifo:Section	.
+if:IF_0_8	ifo:package_insert	pi:PI_0_7	.
+if:IF_0_8	rdf:value	"イプラグリフロジン L-プロリン錠"@ja	.
+if:IF_0_10	rdf:type	ifo:IF_0_10	.
+if:IF_0_10	rdf:type	ifo:Section	.
+if:IF_0_10	ifo:package_insert	pi:PI_0_6	.
+if:IF_0_10	rdf:value	"処方箋医薬品(注意－医師等の処方箋により使用すること)"@ja	.
+if:IF_0_12	rdf:type	ifo:IF_0_12	.
+if:IF_0_12	rdf:type	ifo:Section	.
+if:IF_0_12	ifo:package_insert	pi:PI_0_7	.
+if:IF_0_12	rdf:value	"イプラグリフロジンL-プロリン(JAN)"@ja	.
+if:IF_0_12	rdf:value	"Ipragliflozin L-Proline (JAN)"	.
+if:IF_0_16	rdf:type	ifo:IF_0_16	.
+if:IF_0_16	rdf:type	ifo:Section	.
+if:IF_0_16	ifo:package_insert	pi:PI_26	.
+if:IF_0_16	rdf:value	"製造販売：アステラス製薬株式会社\r\n販売提携：寿製薬株式会社"@ja	.
+if:IF_0_18	rdf:type	ifo:IF_0_18	.
+if:IF_0_18	rdf:type	ifo:Section	.
+if:IF_0_18	ifo:package_insert	pi:PI_24	.
+if:IF_0_18	rdf:value	"アステラス製薬株式会社\r\nメディカルインフォメーションセンターTEL 0120-189-371\r\n医療従事者向け情報サイト(Astellas Medical Net)\r\nhttps://amn.astellas.jp/\r\n寿製薬株式会社TEL 0268-82-2211\r\nホームページ\r\nhttp://www.kotobuki-pharm.co.jp/"@ja	.
+if:IF_0_19	rdf:type	ifo:IF_0_19	.
+if:IF_0_19	rdf:type	ifo:Section	.
+if:IF_0_19	ifo:package_insert	pi:PI_0_1	.
+if:IF_0_19	rdf:value	"2020-01"^^xsd:gYearMonth	.
+if:IF_1_1	rdf:type	ifo:IF_1_1	.
+if:IF_1_1	rdf:type	ifo:Section	.
+if:IF_1_1	rdf:value	"スーグラ(一般名：イプラグリフロジンL-プロリン、以下、イプラグリフロジン)は、アステラス製薬株式\r\n会社と寿製薬株式会社との共同研究において見出され、国内で創製された選択的SGLT2(sodium glucose\r\nco-transporter 2)阻害剤である。\r\n体内で消化・吸収されたグルコースは、血液循環を介して腎臓に到達し、糸球体で濾過された後に腎近\r\n位尿細管で再吸収されるが、腎近位尿細管におけるグルコース再吸収にはSGLT2 が主たる役割を担って\r\nいる1)。スーグラはSGLT2 の働きを阻害し、腎近位尿細管でのグルコース再吸収を阻害することにより、\r\n血液中の過剰なグルコースを体外に排出することで血糖降下作用を発揮する。\r\n現在、様々な作用メカニズムを有する糖尿病治療薬が使用されているが、国内55 施設において2008 年\r\n1～7 月に実施された調査結果では、経口血糖降下薬で治療中の糖尿病患者のうち良好な血糖管理が達成さ\r\nれている割合は38.6％に過ぎないことが報告されており2)、未だ血糖管理に対するアンメットニーズは存\r\n在していると考えられる。スーグラは腎臓に作用し、インスリン非依存性に血糖降下作用を発現すること\r\nから、インスリンの直接作用に起因する副作用が発現し難いことが期待される。以上のことから、国内に\r\nおいて2006 年より臨床開発に着手し、日本人2 型糖尿病患者に対する本剤の臨床的有用性が確認され、\r\n2014 年1 月に「2 型糖尿病」の効能又は効果で承認された。その後、服薬コンプライアンスの向上を目指\r\nし、スーグラ錠50mg を小型化する開発に取り組み、2015 年1 月に一部変更承認を取得した。\r\nさらに1 型糖尿病の治療は2 型糖尿病の治療と比較して薬物療法の選択肢が限られており、1 型糖尿病患\r\n者では平均HbA1c 値が2 型糖尿病患者より高く、血糖コントロールが十分ではない患者が存在している。\r\n1 型糖尿病患者に対する現行の基本療法としてインスリン療法が行われているが、インスリン投与量を増\r\n加することで低血糖を来す可能性があり、インスリンの投与量を十分増量できない患者が存在する。また、\r\n長期リスクとして体重増加などにも注意が必要である。スーグラは、インスリン製剤とは作用機序が異な\r\nることからインスリン製剤との相加的な血糖降下作用を発現し、体重減少作用も示すことが期待され、1\r\n型糖尿病治療薬として臨床開発された。1 型糖尿病患者を対象とした国内臨床試験の結果から、スーグラ\r\nの有効性及び安全性が確認され、2018 年12 月に「1 型糖尿病」の効能又は効果並びに用法及び用量が追\r\n加承認された。"@ja	.
+if:IF_1_1	dct:references	if:ref1	.
+if:IF_1_1	dct:references	if:ref2	.
+if:IF_1_2	rdf:type	ifo:IF_1_2	.
+if:IF_1_2	rdf:type	ifo:Section	.
+if:IF_1_2	ifo:package_insert	pi:PI_11_1	.
+if:IF_1_2	rdf:value	"(1)腎臓でのグルコース再吸収を抑制する、日本初の選択的SGLT2 阻害剤である。\n(「Ⅵ.2.(1)作用部位・作用機序」の項参照)\n(2)2 型糖尿病患者において、1 日1 回朝食前又は朝食後の経口投与により、HbA1c 低下作用を示し、その\n作用は長期(52 週)にわたり維持された。\n(「Ⅴ.5.(4)1)①i)第Ⅲ相単独療法試験」及び「Ⅴ.5.(4)2)①iv)長期投与試験」の項参照)\n(3)インスリン療法にて血糖管理不十分な1 型糖尿病患者において、インスリン製剤との併用下で、1 日1\n回朝食前又は朝食後の経口投与により、HbA1c 低下作用を示し、その作用は長期(52 週)にわたり維持さ\nれた。また、総インスリン1 日投与量の低下もみられた。\n(「Ⅴ.5.(4)1)②i)第Ⅲ相臨床試験」の項参照)\n(4)1 型糖尿病患者に対しては、インスリン製剤の投与を中止しないこと。インスリン製剤の投与を中止し\nた場合、急激な高血糖や糖尿病性ケトアシドーシスが発現するおそれがある。\n(「Ⅴ.4.用法及び用量に関連する注意」及び「Ⅷ．5.重要な基本的注意とその理由」の項参照)\n(5)1 型糖尿病患者においてはインスリン製剤と併用されるため低血糖の発現に注意が必要である。2 型糖\n尿病患者においても、特に、インスリン製剤、スルホニルウレア剤、速効型インスリン分泌促進剤又は\nGLP-1 受容体作動薬との併用時は低血糖リスクが増大する可能性がある。\n(「Ⅷ．5.重要な基本的注意とその理由」及び「Ⅷ.7.(2)併用注意とその理由」の項参照)\n(6)低血糖以外に注意すべき副作用として、脱水リスクの増大、尿路・性器感染症、栄養不良状態の悪化、\n尿中及び血中ケトン体の増加がある。これらのリスクを有する患者に投与する際は慎重に経過を観察す\nる必要がある。特に1 型糖尿病患者についてはケトアシドーシスのリスクが高まるため、インスリン製\n剤の過度な減量に注意する。\n(「Ⅷ.5.重要な基本的注意とその理由」、「Ⅷ.6.特定の背景を有する患者に関する注意」及び\n「Ⅷ.7.(2)併用注意とその理由」の項参照)\n(7)副作用の概要\n2 型糖尿病\n承認時までの国内の臨床試験では、1,669 例中549 例(32.9％)に臨床検査値異常を含む副作用が認められ\nた。主な副作用は頻尿、口渇、便秘、尿中β2 ミクログロブリン増加、体重減少であった。\n(承認時：2014 年1 月)\n1 型糖尿病\n承認時までの国内の臨床試験では、201 例中197 例(98.0％)に臨床検査値異常を含む副作用が認められた。\n主な副作用は低血糖、血中ケトン体増加、体重減少、膀胱炎、頻尿、口渇、ケトーシス、陰部そう痒症、\n便秘、頭痛、細菌尿であった。\n(効能・効果追加時：2018 年12 月)\n重大な副作用として低血糖、腎盂腎炎、外陰部及び会陰部の壊死性筋炎(フルニエ壊疽)、敗血症、脱水、\nケトアシドーシス及びショック、アナフィラキシーが報告されている。\n(「Ⅷ.8.副作用」の項参照)"@ja	.
+if:IF_1_2	rdfs:seeAlso	if:IF_6_2_1	.
+if:IF_1_2	rdfs:seeAlso	if:IF_5_5_4	.
+if:IF_1_2	rdfs:seeAlso	if:IF_5_5_4	.
+if:IF_1_2	rdfs:seeAlso	if:IF_5_4	.
+if:IF_1_2	rdfs:seeAlso	if:IF_8_5	.
+if:IF_1_2	rdfs:seeAlso	if:IF_8_7_2	.
+if:IF_1_2	rdfs:seeAlso	if:IF_8_6	.
+if:IF_1_2	rdfs:seeAlso	if:IF_8_8	.
+if:IF_1_3	rdf:type	ifo:IF_1_3	.
+if:IF_1_3	rdf:type	ifo:Section	.
+if:IF_1_3	rdf:value	"錠剤の識別性を高める目的で、製品名・含量を両面印字している。(「Ⅳ.1.剤形」の項参照)"@ja	.
+if:IF_1_3	rdfs:seeAlso	if:IF_4_1	.
+if:IF_1_4_1	rdf:type	ifo:IF_1_4_1	.
+if:IF_1_4_1	rdf:type	ifo:Section	.
+if:IF_1_4_1	rdf:value	"有"@ja	.
+if:IF_1_4_1	rdfs:comment	"(「Ⅰ.6.RMP の概要」の項参照)"@ja	.
+if:IF_1_4_1	rdfs:seeAlso	if:IF_1_6	.
+if:IF_1_4_2	rdf:type	ifo:IF_1_4_2	.
+if:IF_1_4_2	rdf:type	ifo:Section	.
+if:IF_1_4_2	rdf:value	"有"@ja	.
+if:IF_1_4_2	rdfs:comment	"・医療従事者向け資材：\r\n「スーグラ®錠25mg、50mg 適正使用ガイド」\r\n・患者向け資材：\r\n服薬説明冊子「スーグラ®錠25mg，50mg を服用され\r\nる患者さんへ」\r\n服薬説明リーフ「スーグラ錠®を服用される患者さん\r\nへ」\r\n服薬時注意喚起カード「スーグラ®錠を服用される1\r\n型糖尿病患者さんへ」\r\n患者カード「私は糖尿病の治療のためスーグラ®錠\r\n(SGLT2 阻害薬)を服用しています。」\r\n「服薬指導用下敷き(1 型糖尿病)」\r\n（「XⅢ．備考」の項参照）"@ja	.
+if:IF_1_4_2	rdfs:seeAlso	if:IF_13	.
+if:IF_1_4_3	rdf:type	ifo:IF_1_4_3	.
+if:IF_1_4_3	rdf:type	ifo:Section	.
+if:IF_1_4_3	rdf:value	"無"@ja	.
+if:IF_1_4_4	rdf:type	ifo:IF_1_4_4	.
+if:IF_1_4_4	rdf:type	ifo:Section	.
+if:IF_1_4_4	rdf:value	"無"@ja	.
+if:IF_1_5_1	rdf:type	ifo:IF_1_5_1	.
+if:IF_1_5_1	rdf:type	ifo:Section	.
+if:IF_1_5_1	ifo:package_insert	pi:PI_21	.
+if:IF_1_5_1	rdf:value	"医薬品リスク管理計画を策定の上、適切に実施すること。(「6.RMP の概要」の項参照)"@ja	.
+if:IF_1_5_1	rdfs:seeAlso	if:IF_6	.
+if:IF_1_5_2	rdf:type	ifo:IF_1_5_2	.
+if:IF_1_5_2	rdf:type	ifo:Section	.
+if:IF_1_5_2	ifo:package_insert	pi:PI_21	.
+if:IF_1_5_2	rdf:value	"該当しない"@ja	.
+if:IF_2_1_1	rdf:type	ifo:IF_2_1_1	.
+if:IF_2_1_1	rdf:type	ifo:Section	.
+if:IF_2_1_1	ifo:package_insert	pi:PI_0_7	.
+if:IF_2_1_1	rdf:value	"スーグラ錠25mg、スーグラ錠50mg"@ja	.
+if:IF_2_1_2	rdf:type	ifo:IF_2_1_2	.
+if:IF_2_1_2	rdf:type	ifo:Section	.
+if:IF_2_1_2	ifo:package_insert	pi:PI_0_7	.
+if:IF_2_1_2	rdf:value	"Suglat Tablets 25mg・50mg"@ja	.
+if:IF_2_1_3	rdf:type	ifo:IF_2_1_3	.
+if:IF_2_1_3	rdf:type	ifo:Section	.
+if:IF_2_1_3	rdf:value	"本剤の薬効発現の作用機序に関連する、SGLT2(sodium glucose co-transporter 2)のローマ字部分S・G・L・T を\r\nとって、スーグラ(Suglat)と命名した。"@ja	.
+if:IF_2_2_1	rdf:type	ifo:IF_2_2_1	.
+if:IF_2_2_1	rdf:type	ifo:Section	.
+if:IF_2_2_1	ifo:package_insert	pi:PI_19	.
+if:IF_2_2_1	rdf:value	"イプラグリフロジンL-プロリン(JAN)"@ja	.
+if:IF_2_2_2	rdf:type	ifo:IF_2_2_2	.
+if:IF_2_2_2	rdf:type	ifo:Section	.
+if:IF_2_2_2	ifo:package_insert	pi:PI_19	.
+if:IF_2_2_2	rdf:value	"Ipragliflozin L-Proline (JAN)\r\nipragliflozin (INN)"	.
+if:IF_2_2_3	rdf:type	ifo:IF_2_2_3	.
+if:IF_2_2_3	rdf:type	ifo:Section	.
+if:IF_2_2_3	rdf:value	"SGLT2 阻害剤：-gliflozin"@ja	.
+if:IF_2_4	rdf:type	ifo:IF_2_4	.
+if:IF_2_4	rdf:type	ifo:Section	.
+if:IF_2_4	ifo:package_insert	pi:PI_19	.
+if:IF_2_4	rdf:value	"分子式：C21H21FO5S･C5H9NO2\r\n分子量：519.58"@ja	.
+if:IF_2_5	rdf:type	ifo:IF_2_5	.
+if:IF_2_5	rdf:type	ifo:Section	.
+if:IF_2_5	ifo:package_insert	pi:PI_19	.
+if:IF_2_5	rdf:value	"(1S)-1,5-Anhydro-1-C-{3-[(1-benzothiophen-2-yl)methyl]-4-fluorophenyl}-D-glucitol-(2S)-pyrrolidine-\r\n2-carboxylic acid (1:1) (IUPAC)"	.
+if:IF_2_6	rdf:type	ifo:IF_2_6	.
+if:IF_2_6	rdf:type	ifo:Section	.
+if:IF_2_6	ifo:package_insert	pi:PI_19	.
+if:IF_2_6	rdf:value	"治験番号：ASP1941"@ja	.
+if:IF_3_1_1	rdf:type	ifo:IF_3_1_1	.
+if:IF_3_1_1	rdf:type	ifo:Section	.
+if:IF_3_1_1	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_1	rdf:value	"白色～微帯褐白色の結晶又は粉末である。"@ja	.
+if:IF_3_1_3	rdf:type	ifo:IF_3_1_3	.
+if:IF_3_1_3	rdf:type	ifo:Section	.
+if:IF_3_1_3	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_3	rdf:value	"吸湿性は認められない。"@ja	.
+if:IF_3_1_4	rdf:type	ifo:IF_3_1_4	.
+if:IF_3_1_4	rdf:type	ifo:Section	.
+if:IF_3_1_4	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_4	rdf:value	"融点：約205℃(分解)"@ja	.
+if:IF_3_1_5	rdf:type	ifo:IF_3_1_5	.
+if:IF_3_1_5	rdf:type	ifo:Section	.
+if:IF_3_1_5	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_5	rdf:value	"pH 1～12 の範囲に酸解離定数を持たない。"@ja	.
+if:IF_3_1_7	rdf:type	ifo:IF_3_1_7	.
+if:IF_3_1_7	rdf:type	ifo:Section	.
+if:IF_3_1_7	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_7	rdf:value	"旋光度［α］20\r\nD ：-9.68°(2.5g、液体クロマトグラフィー用アセトニトリル/水混液(7：3)、50mL、100mm)"@ja	.
+if:IF_3_3	rdf:type	ifo:IF_3_3	.
+if:IF_3_3	rdf:type	ifo:Section	.
+if:IF_3_3	rdf:value	"確認試験法\r\n(1)紫外可視吸光度測定法\r\n(2)赤外吸収スペクトル測定法\r\n定量法\r\n液体クロマトグラフィー"@ja	.
+if:IF_4_1_1	rdf:type	ifo:IF_4_1_1	.
+if:IF_4_1_1	rdf:type	ifo:Section	.
+if:IF_4_1_1	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_1	rdf:value	"スーグラ錠25mg：フィルムコーティング錠\r\nスーグラ錠50mg：フィルムコーティング錠"@ja	.
+if:IF_4_1_3	rdf:type	ifo:IF_4_1_3	.
+if:IF_4_1_3	rdf:type	ifo:Section	.
+if:IF_4_1_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_3	rdf:value	"該当しない"@ja	.
+if:IF_4_1_4	rdf:type	ifo:IF_4_1_4	.
+if:IF_4_1_4	rdf:type	ifo:Section	.
+if:IF_4_1_4	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_4	rdf:value	"該当しない"@ja	.
+if:IF_4_1_5	rdf:type	ifo:IF_4_1_5	.
+if:IF_4_1_5	rdf:type	ifo:Section	.
+if:IF_4_1_5	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_5	rdf:value	"該当しない"@ja	.
+if:IF_4_2_1	rdf:type	ifo:IF_4_2_1	.
+if:IF_4_2_1	rdf:type	ifo:Section	.
+if:IF_4_2_1	ifo:package_insert	pi:PI_3_1	.
+if:IF_4_2_1	rdf:value	"「医薬品添加物の記載に関する申し合わせについて」(平成13 年10 月1 日 日薬連発第712 号)並びに「『医\r\n薬品添加物の記載に関する自主申し合わせ』の実施について」(平成14 年3 月13 日 日薬連発第170 号)\r\nに基づき全添加剤について記載した。添加剤は以下のとおり。"@ja	.
+if:IF_4_2_2	rdf:type	ifo:IF_4_2_2	.
+if:IF_4_2_2	rdf:type	ifo:Section	.
+if:IF_4_2_2	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_2_2	rdf:value	"該当しない"@ja	.
+if:IF_4_2_3	rdf:type	ifo:IF_4_2_3	.
+if:IF_4_2_3	rdf:type	ifo:Section	.
+if:IF_4_2_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_2_3	rdf:value	"該当しない"@ja	.
+if:IF_4_3	rdf:type	ifo:IF_4_3	.
+if:IF_4_3	rdf:type	ifo:Section	.
+if:IF_4_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_3	rdf:value	"該当しない"@ja	.
+if:IF_4_4	rdf:type	ifo:IF_4_4	.
+if:IF_4_4	rdf:type	ifo:Section	.
+if:IF_4_4	ifo:package_insert	pi:PI_3_1	.
+if:IF_4_4	rdf:value	"該当しない"@ja	.
+if:IF_4_5	rdf:type	ifo:IF_4_5	.
+if:IF_4_5	rdf:type	ifo:Section	.
+if:IF_4_5	rdf:value	"原薬由来の類縁物質は製剤中では増加しない。その他、0.1％を超える製剤特有の分解物は認められていない。"@ja	.
+if:IF_4_7	rdf:type	ifo:IF_4_7	.
+if:IF_4_7	rdf:type	ifo:Section	.
+if:IF_4_7	rdf:value	"該当しない"@ja	.
+if:IF_4_8	rdf:type	ifo:IF_4_8	.
+if:IF_4_8	rdf:type	ifo:Section	.
+if:IF_4_8	rdf:value	"該当しない"@ja	.
+if:IF_4_9	rdf:type	ifo:IF_4_9	.
+if:IF_4_9	rdf:type	ifo:Section	.
+if:IF_4_9	rdf:value	"日局一般試験法(パドル法)により試験を行うとき、これに適合する。\r\n条件：試験液 0.1mol/L 塩酸試液、900mL\r\n回転数 毎分50 回転\r\n分析法：液体クロマトグラフィー"@ja	.
+if:IF_4_10_1	rdf:type	ifo:IF_4_10_1	.
+if:IF_4_10_1	rdf:type	ifo:Section	.
+if:IF_4_10_1	rdf:value	"該当資料なし"@ja	.
+if:IF_4_10_2	rdf:type	ifo:IF_4_10_2	.
+if:IF_4_10_2	rdf:type	ifo:Section	.
+if:IF_4_10_2	ifo:package_insert	pi:PI_22	.
+if:IF_4_10_2	rdf:value	"＜スーグラ錠25mg＞\r\n100 錠(10 錠×10)、140 錠(14 錠×10)\r\n＜スーグラ錠50mg＞\r\n100 錠(10 錠×10)、140 錠(14 錠×10)、300 錠(バラ、乾燥剤入り)、500 錠(10 錠×50)"@ja	.
+if:IF_4_10_3	rdf:type	ifo:IF_4_10_3	.
+if:IF_4_10_3	rdf:type	ifo:Section	.
+if:IF_4_10_3	rdf:value	"該当しない"@ja	.
+if:IF_4_10_4	rdf:type	ifo:IF_4_10_4	.
+if:IF_4_10_4	rdf:type	ifo:Section	.
+if:IF_4_10_4	rdf:value	"＜スーグラ錠25mg、スーグラ錠50mg＞\r\n〔PTP 包装〕\r\nPTP：表－ポリ塩化ビニル 裏－アルミニウム\r\nピロー：ポリプロピレン\r\n＜スーグラ錠50mg＞\r\n〔ボトル包装〕\r\nボトル：ポリエチレン、キャップ：ポリプロピレン、パッキン：ポリエチレン、\r\n添付文書入り容器：ポリプロピレン"@ja	.
+if:IF_4_11	rdf:type	ifo:IF_4_11	.
+if:IF_4_11	rdf:type	ifo:Section	.
+if:IF_4_11	rdf:value	"該当資料なし"@ja	.
+if:IF_4_12	rdf:type	ifo:IF_4_12	.
+if:IF_4_12	rdf:type	ifo:Section	.
+if:IF_4_12	rdf:value	"該当しない"@ja	.
+if:IF_5_1	rdf:type	ifo:IF_5_1	.
+if:IF_5_1	rdf:type	ifo:Section	.
+if:IF_5_1	ifo:package_insert	pi:PI_4	.
+if:IF_5_1	rdf:value	"2 型糖尿病\r\n1 型糖尿病"@ja	.
+if:IF_5_2	rdf:type	ifo:IF_5_2	.
+if:IF_5_2	rdf:type	ifo:Section	.
+if:IF_5_2	ifo:package_insert	pi:PI_5	.
+if:IF_5_2	ifo:item	if:IF_5_2.item1	.
+if:IF_5_2	ifo:item	if:IF_5_2.item2	.
+if:IF_5_2.item1	rdf:type	ifo:Item	.
+if:IF_5_2.item1	ifo:package_insert	pi:PI_5.item1	.
+if:IF_5_2.item1	dct:identifier	"5.2.item1"	.
+if:IF_5_2.item1	rdf:value	"効能共通\r\n臨床試験成績より、腎機能低下に伴い血糖降下作用が減弱することが示唆された。本剤は糸球体で濾過\r\nされたグルコースの腎尿細管での再吸収を阻害することによって血糖降下作用を発揮するため、著しく\r\n糸球体濾過量が低下している重度の腎機能障害のある患者又は透析中の末期腎不全患者では本剤の効果\r\nが期待できないことより設定した。また、中等度の腎機能障害のある患者では本剤の効果が十分に得ら\r\nれない可能性があるため投与の必要性を慎重に判断するよう設定した。(「Ⅴ.5.(5)1)腎機能低下患者試\r\n験(2 型糖尿病患者)」、「Ⅷ.5.重要な基本的注意とその理由8.3」及び「Ⅷ.6.(2)腎機能障害患者」の項\r\n参照)"@ja	.
+if:IF_5_2.item1	rdfs:seeAlso	if:IF_5_5_5	.
+if:IF_5_2.item1	rdfs:seeAlso	if:IF_8_5	.
+if:IF_5_2.item1	rdfs:seeAlso	if:IF_8_6_2	.
+if:IF_5_2.item2	rdf:type	ifo:Item	.
+if:IF_5_2.item2	ifo:package_insert	pi:PI_5.item2	.
+if:IF_5_2.item2	dct:identifier	"5.2.item2"	.
+if:IF_5_2.item2	rdf:value	"1 型糖尿病\r\nインスリン療法にて血糖管理が不十分な1 型糖尿病患者を対象とした臨床試験において、本剤の有効性\r\n並びに安全性が確認されたことから設定した。"@ja	.
+if:IF_5_3_1	rdf:type	ifo:IF_5_3_1	.
+if:IF_5_3_1	rdf:type	ifo:Section	.
+if:IF_5_3_1	ifo:package_insert	pi:PI_6	.
+if:IF_5_3_1	rdf:value	"＜2 型糖尿病＞\r\n通常、成人にはイプラグリフロジンとして50mg を1 日1 回朝食前又は朝食後に経口投与する。なお、\r\n効果不十分な場合には、経過を十分に観察しながら100mg 1 日1 回まで増量することができる。\r\n＜1 型糖尿病＞\r\nインスリン製剤との併用において、通常、成人にはイプラグリフロジンとして50mg を1 日1 回朝食前\r\n又は朝食後に経口投与する。なお、効果不十分な場合には、経過を十分に観察しながら100mg 1 日1\r\n回まで増量することができる。\r\n(解説)\r\n食事の影響試験で本剤の薬物動態パラメータに及ぼす食事の影響を検討したところ、食後投与では食前投\r\n与と比較してCmax は約33％低かったもののAUClast に影響は認められなかった。また単独長期投与試験で\r\n朝食前又は朝食後において本剤投与前後の有効性及びを検討した結果、用法による違いは見られなかった\r\nことから、朝食前又は朝食後に経口投与とした。(「Ⅶ.1.(4)食事・併用薬の影響」の項参照)"@ja	.
+if:IF_5_3_1	rdfs:seeAlso	if:IF_7_1_4	.
+if:IF_5_3_1	rdf:value	"＜2 型糖尿病＞\r\n第Ⅱ相用量設定試験におけるHbA1c 値(NGSP 値)変化量のプラセボ群との群間差は、12.5mg/日群で\r\n-0.61％、25mg/日群で-0.97％、50mg/日群で-1.29％、100mg/日群で-1.31％であり、50mg/日群と100mg/\r\n日群で同程度であった。また各投与群の安全性に大きな問題はみられず、副作用発現割合に用量依存性は認められなかったことから、通常用量を50mg/日と設定した。(「Ⅴ.5.(3)用量反応探索試験」の項\r\n参照)\r\n長期投与試験(一部の併用療法試験を含む)において、50mg/日投与で効果不十分な症例に対して100mg/\r\n日へ増量することの有用性が確認された。また副作用発現割合は増量前と増量後とで大きく変わらず、\r\n50mg/日の用量を維持した患者と比べても増量による明らかな影響はみられなかったことから、「効果\r\n不十分な場合には100mg/日まで増量することができる」こととした。(「Ⅴ.5.(4)検証的試験」の項参照)\r\n＜1 型糖尿病＞\r\n1 型糖尿病患者を対象としたPK/PD試験及び2 型糖尿病患者を対象とした血糖日内変動試験の結果から、\r\n1 型糖尿病患者に本剤を食前反復経口投与したときの曝露量は2 型糖尿病患者と同程度と考えられた。\r\nまた同2 試験で尿中グルコース排泄機能への作用を評価した結果、1 型糖尿病患者と2 型糖尿病患者と\r\nの間で大きな違いはなく、1 型糖尿病患者も2 型糖尿病患者と同じ投与量で同程度の尿中グルコース排\r\n泄機能への作用が期待できると考えられたことから、2 型糖尿病と同様に通常用量を50mg/日と設定し\r\nた。(「Ⅴ.5.(2)臨床薬理試験」の項参照)"@ja	.
+if:IF_5_3_1	rdfs:seeAlso	if:IF5_5_3	.
+if:IF_5_3_1	rdfs:seeAlso	if:IF_5_5_4	.
+if:IF_5_3_1	rdfs:seeAlso	if:IF_5_5_2	.
+if:IF_5_4	rdf:type	ifo:IF_5_4	.
+if:IF_5_4	rdf:type	ifo:Section	.
+if:IF_5_4	ifo:package_insert	pi:PI_7	.
+if:IF_5_4	ifo:item	if:IF_5_4.item1	.
+if:IF_5_4.item1	rdf:type	ifo:Item	.
+if:IF_5_4.item1	ifo:package_insert	pi:PI_7.item1	.
+if:IF_5_4.item1	dct:identifier	"5.4.item1"	.
+if:IF_5_4.item1	rdf:value	"1 型糖尿病\r\n本剤はインスリン製剤の代替薬ではないことから、その旨を記載した。\r\n1 型糖尿病のようなインスリン依存状態の患者では、併用するインスリン製剤の中止や過度の減量によ\r\nり、急激な高血糖や糖尿病性ケトアシドーシスが発現する可能性があることから設定した。また、イン\r\nスリン製剤との併用により、低血糖が発現する可能性があることから設定した。(「Ⅷ.5.重要な基本的\r\n注意とその理由8.6」及び「Ⅷ.8.(1)重大な副作用と初期症状11.1.4」の項参照)"@ja	.
+if:IF_5_4.item1	rdfs:seeAlso	if:IF_8_5	.
+if:IF_5_4.item1	rdfs:seeAlso	if:IF_8_8_1	.
+if:IF_5_5_2	rdf:type	ifo:IF_5_5_2	.
+if:IF_5_5_2	rdf:type	ifo:Section	.
+if:IF_5_5_2	ifo:package_insert	pi:PI_17_3	.
+if:IF_5_5_2	rdf:value	"1）第Ⅰ相試験［CL-0101］3,4)\n① 単回投与試験\n日本人健康成人男性に本剤(1、3、10、30、100、300mg、各6 例)を空腹下単回経口投与し、安全性を確\n認した。その結果、2 例以上に認められた副作用は、血中ビリルビン増加(4 例)、活性化部分トロンボ\nプラスチン時間延長(3 例)、尿中白血球陽性(2 例)であった。また100mg 投与群において薬力学への食\n事の影響を検討した結果、尿中グルコース排泄量は空腹時単回経口投与時と食後単回経口投与時で同程\n度であった。\n② 反復投与試験\n日本人健康成人男性に本剤(20、50、100mg、各8 例)を7 日間食後反復経口投与し、安全性及び薬力学\nを確認した。その結果、2 例以上に認められた副作用は、β-N アセチルD グルコサミニダーゼ増加(10\n例)、尿中β2 ミクログロブリン増加(3 例)、尿中白血球陽性(2 例)であった。投与後24 時間までの累積尿\n中グルコース排泄量は50mg 群と100mg 群で同程度であった。\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。\n2）血糖日内変動試験［CL-0070］5,6)\n日本人2 型糖尿病患者30 例を対象に本剤50mg 及び100mg 又はプラセボを1 日1 回2 週間投与したと\nきの、薬力学(血糖日内変動、尿中グルコース排泄量)及び安全性を検討した。\nその結果、本剤50mg 群、100mg 群の投与開始後2 週間の血糖値の平均値は、いずれの評価時点でもベー\nスラインと比較して低かった。一方、プラセボ群の投与開始後2 週間の血糖値は、ベースラインと同程\n度の値で推移した。\nまた、反復投与後の空腹時血糖値は、本剤群ではベースラインより低下した。プラセボ群では、空腹時\r\n血糖値の変化がみられなかった。\nまた、反復投与後の空腹時血糖値は、本剤群ではベースラインより低下した。プラセボ群では、空腹時\r\n血糖値の変化がみられなかった。\n副作用は、本剤群で7 件認められた。認められた副作用の内訳は、50mg 群の心筋梗塞、血中ケトン体増\r\n加、関節炎、発疹、中毒性皮疹各1 件、100mg 群の血中ケトン体増加、発疹各1 件であった。\n3）1 型糖尿病患者を対象とした PK/PD 試験［CL-6001］7,8)\r\n日本人1 型糖尿病患者43 例を対象に本剤25mg、50mg 及び100mg 又はプラセボを1 日1 回2 週間朝食\r\n前に反復投与したときの、薬力学(血糖日内変動、尿中グルコース排泄量等)、薬物動態及び安全性を検\r\n討した。\r\nその結果、本剤投与群において初回投与後及び最終投与後24 時間までの累積尿中グルコース排泄量は\r\nベースラインから増加した。また、血糖値のAUC はベースラインから減少した。\r\n一方、本剤投与群において、インスリン1 日投与量(ベーサルインスリン、ボーラスインスリン及び総イ\r\nンスリン)はベースラインから減少した。\n副作用は、プラセボ群で10 例(90.9％)、本剤25mg 群で10 例(100.0％)、本剤50mg 群で12 例(100.0％)、\r\n本剤100mg 群で9 例(90.0％)にみられた。プラセボ群及び本剤群での副作用の発現割合に違いはみられ\r\nなかった。死亡、重篤な副作用及び試験薬投与中止に至った副作用はみられなかった。副作用の程度は\r\nほとんどが軽度であった。\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。\n4）PK/PD 比較解析［PK-0101］10)\r\n日本人1 型糖尿病患者を対象としたPK/PD 試験(CL-6001)7,8)と日本人2 型糖尿病患者を対象とした血糖\r\n日内変動試験(CL-0070)5,6)を用いて、1 型糖尿病患者及び2 型糖尿病患者の薬力学を比較した。\r\nその結果、Day14 における尿中グルコース排泄クリアランスのベースラインからの変化量は、1 型糖尿\r\n病患者においても2 型糖尿病患者と同様に、投与量の増加に従い増大し、大きな差は認められないと考\r\nえられた。\n5）QT/QTc評価試験（外国人データ）［CL-0058］11)\r\n健康成人88 例を対象とした無作為化、二重盲検、プラセボ及びモキシフロキサシン対照、4 群4 期クロ\r\nスオーバー試験としてQT/QTc 評価試験を実施し、80 例が試験を完了した。\r\n被験者を投与順序の異なる4 群のいずれかに無作為に割り付け、第1～4 期の各投与期間に本剤100mg/\r\n日、本剤600mg/日、モキシフロキサシン400mg 又はプラセボのいずれかを投与した。各期の間には7\r\n日間以上の休薬期間を設けた。\r\nその結果、本剤100mg/日及び600mg/日の投与は、健康成人のQTcFに臨床的に重要な影響を及ぼさなかった。\r\n本試験における副作用は、プラセボ群22 例(26.2％)、本剤100mg 群25 例(29.4％)、600mg 群22 例(26.2％)、\r\nモキシフロキサシン群21 例(25.3％)に認められた。死亡、その他の重篤な有害事象は認められなかった。\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。"@ja	.
+if:IF_5_5_2	dct:references	if:ref3	.
+if:IF_5_5_2	dct:references	if:ref4	.
+if:IF_5_5_2	dct:references	if:ref5	.
+if:IF_5_5_2	dct:references	if:ref6	.
+if:IF_5_5_2	dct:references	if:ref7	.
+if:IF_5_5_2	dct:references	if:ref8	.
+if:IF_5_5_2	dct:references	if:ref9	.
+if:IF_5_5_2	dct:references	if:ref10	.
+if:IF_5_5_2	dct:references	if:ref11	.
+if:IF_5_5_3	rdf:type	ifo:IF_5_5_3	.
+if:IF_5_5_3	rdf:type	ifo:Section	.
+if:IF_5_5_3	rdf:value	"第Ⅱ相用量設定試験12,13)\n≪結果≫\n① 主要評価項目\ni)HbA1c 値\n治療期最終時点におけるHbA1c 値のベースラインからの変化量(平均値)は、プラセボ群で0.50％、\n12.5mg 群で-0.11％、25mg 群で-0.47％、50mg 群で-0.79％、100mg 群で-0.81％であり、用量依存的な\nHbA1c 値の低下が認められ、50mg 群と100mg 群では同程度の低下であった。\nベースラインのHbA1c 値をモデルに含む共分散分析の結果、治療期最終時点におけるHbA1c 値のベー\nスラインからの変化量の各本剤群とプラセボ群との調整済み平均値の差は、12.5mg 群で-0.61％、25mg\n群で-0.97％、50mg 群で-1.29％、100mg 群で-1.31％であった。閉手順に基づき高用量群から順にプラ\nセボ群との対比較を行った結果、本剤はいずれの群でもプラセボ群に対して有意なHbA1c 値の低下が\n認められた(いずれの群もP＜0.001)。\n② 副次評価項目\ni)空腹時血糖値\n治療期最終時点における空腹時血糖値のベースラインからの変化量(平均値)は、プラセボ群で\n12.0mg/dL、12.5mg 群で-15.6mg/dL、25mg 群で-23.7mg/dL、50mg 群で-34.1mg/dL、100mg 群で-46.9mg/dL\nであり、用量依存的な空腹時血糖値の低下が認められた。\nii)体重14)\n治療期最終時点でのベースラインからの変化量の平均値は、プラセボ群で-0.35kg、本剤12.5mg 群で\n-1.44kg、25mg 群で-1.72kg、50mg 群で-1.81kg、100mg 群で-2.11kg であった。\n投与群、ベースラインの体重をモデルに含む共分散分析の結果、ベースラインからの変化量のプラセ\nボとの調整済み平均値の差は、12.5mg 群で-1.07kg、25mg 群で-1.30kg、50mg 群で-1.42kg、100mg 群で\n-1.71kg であり、本剤ではいずれの投与群でも、プラセボに対して有意な体重減少が認められた(いず\nれの群もP＜0.001)。\niii)その他15-17)\r\n投与群、ベースライン値をモデルに含む共分散分析の結果、空腹時インスリンは本剤100mg 群におい\r\nてのみ、プラセボに対して有意な低下が認められた(p＜0.001)。一方、レプチン、アディポネクチンの\r\n値については、プラセボに対する有意差は認められなかった。\r\n③ 副作用\r\n本試験での副作用の発現割合はプラセボ群18.8％(13/69 例)、本剤12.5mg 群16.2％(12/74 例)、25mg 群\r\n25.7％(19/74 例)、50mg 群26.4％(19/72 例)、100mg 群25.0％(18/72 例)であった。本剤群のいずれかで2％\r\n以上に認められた副作用は、便秘、口渇、膀胱炎、尿中β2 ミクログロブリン増加、β-N アセチルD グ\r\nルコサミニダーゼ増加、尿中蛋白陽性、尿中アルブミン/クレアチニン比増加、尿中ケトン体陽性、尿\r\n中α1 ミクログロブリン増加、浮動性めまい、頻尿であった。低血糖症状の副作用発現割合は本剤100mg\r\nで1.4％(1/72 例)、本剤12.5mg、25mg、50mg、プラセボは0％(0/74 例、0/74 例、0/72 例、0/69 例)であっ\r\nた。\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。"@ja	.
+if:IF_5_5_3	dct:references	if:ref12	.
+if:IF_5_5_3	dct:references	if:ref13	.
+if:IF_5_5_3	dct:references	if:ref14	.
+if:IF_5_5_3	dct:references	if:ref15	.
+if:IF_5_5_3	dct:references	if:ref16	.
+if:IF_5_5_3	dct:references	if:ref17	.
+if:IF_5_5_4_1	rdf:type	ifo:IF_5_5_4_1	.
+if:IF_5_5_4_1	rdf:type	ifo:Section	.
+if:IF_5_5_4_1	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_4_1	rdf:value	"① 2 型糖尿病\ni)第Ⅲ相単独療法試験18,19)\n≪結果≫\nⓐ主要評価項目\n(a)HbA1c 値\n治療期最終時点におけるHbA1c 値のベースラインからの平均変化量はプラセボ群で0.54％、50mg 群\nで-0.76％であった。\nベースラインのHbA1c 値とスクリーニング期開始前8 週以内の血糖降下薬投与の有無をモデルに含\nむ共分散分析の結果、ベースラインからの変化量のプラセボとの調整済み平均値の差は-1.24％で\nあった。また、プラセボ群と50mg 群の間に有意差が認められたことから(P＜0.001)、本剤50mg のプ\nラセボに対する優越性が検証された。\nⓑ副次評価項目\n(a)空腹時血糖値\n治療期最終時点における空腹時血糖値のベースラインからの平均変化量は、プラセボ群で6.3mg/dL、\n50mg 群で-40.2mg/dL であった。\nベースラインの空腹時血糖値とスクリーニング期開始前8 週以内の血糖降下薬投与の有無をモデル\nに含む共分散分析の結果、ベースラインからの変化量のプラセボとの調整済み平均値の差は、\n-45.8mg/dL であった。また、プラセボ群と50mg 群の間に有意な差が認められた(P＜0.001)。\n(b)アディポネクチン\nアディポネクチン値のベースライン値とスクリーニング期開始前8 週以内の血糖降下薬投与の有無\nをモデルに含む共分散分析の結果、治療期最終時点におけるベースラインからの変化量のプラセボと\nの調整済み平均値の差は0.51μg/mL であり、プラセボに対する有意差が認められた(p=0.001)。\n(c)体重\n体重のベースライン値とスクリーニング期開始前8 週以内の血糖降下薬投与の有無をモデルに含む\n共分散分析の結果、治療期最終時点におけるベースラインからの変化量のプラセボとの調整済み平均\n値の差は-1.47kg であり、プラセボに対する有意差が認められた(p＜0.001)。\n(d)ウエスト周囲長\nウエスト周囲長のベースライン値とスクリーニング期開始前8 週以内の血糖降下薬投与の有無を共\n変量とした共分散分析の結果、治療期最終時点におけるベースラインからの変化量のプラセボとの調\n整済み平均値の差は-1.35cm であり、プラセボに対する有意差が認められた(p=0.028)。\n(e)その他\nスクリーニング期開始前8 週以内の血糖降下薬投与の有無及びベースライン値をモデルに含む共分\n散分析の結果、レプチン、空腹時インスリン及び空腹時インタクトプロインスリン/インスリン比で\nは、プラセボに対する有意差は認められなかった。\nⓒ副作用\n副作用はプラセボ群9.0％(6/67 例)、50mg 群16.1％(10/62 例)にみられた。50mg 群での副作用のうち、2\n例以上にみられたのは便秘のみであった。低血糖症状の副作用発現割合は本剤50mg 及びプラセボでそ\nれぞれ0％(0/62 例)及び0％(0/67 例)であった。\nii)第Ⅲ相臨床試験 －メトホルミン併用試験－20,21)\n≪結果≫\nⓐ二重盲検期\n(a)主要評価項目\n＜HbA1c 値＞\n二重盲検期最終時点におけるHbA1c 値のベースラインからの平均変化量は、プラセボ群で0.38％、\n50mg 群で-0.87％であった。\nベースラインのHbA1c 値をモデルに含む共分散分析の結果、ベースラインからの変化量のプラセボ\nとの調整済み平均値の差は、-1.30％であった。その差が有意であったことから(P＜0.001)、本剤50mg\nのプラセボに対する優越性が検証された。\n(b)副次評価項目\n＜空腹時血糖値＞\n二重盲検期最終時点における空腹時血糖値のベースラインからの平均変化量は、プラセボ群で\n10.7mg/dL、50mg 群で-22.2mg/dL であった。\nベースライン値をモデルに含む共分散分析の結果、ベースラインからの変化量のプラセボとの調整済\nみ平均値の差は-39.4mg/dL であり、プラセボとの有意差が認められた(P＜0.001)。\n＜アディポネクチン＞\nベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点におけるベースラインからの\n変化量のプラセボとの調整済み平均値の差は0.77μg/mL であり、プラセボに対する有意差が認められ\nた(P=0.002)。\n＜体重＞\nベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点におけるベースラインからの\n変化量のプラセボとの調整済み平均値の差は-1.69kg であり、プラセボに対する有意差が認められた(P\n＜0.001)。\n＜ウエスト周囲長＞\nベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点におけるベースラインからの\n変化量のプラセボとの調整済み平均値の差は-1.83cm であり、プラセボに対する有意差が認められた\n(P=0.001)。\n＜その他＞\n空腹時インスリン及びレプチンでは、ベースライン値をモデルに含む共分散分析の結果、二重盲検期\n最終時点におけるベースラインからの変化量のプラセボとの調整済み平均値の差は、いずれもプラセ\nボに対する有意差は認められなかった。\nⓑ全治療期（二重盲検期＋非盲検期）\n(a)長期投与時の有効性\n＜HbA1c 値＞\nHbA1c 値(平均値±標準偏差)のベースラインから最終評価時までの変化量は-0.95±0.671％(112 例)で\nあった。本剤50mg とメトホルミンの併用投与によるHbA1c 値の改善効果は、52 週時まで維持され\nた。\n(b)その他の有効性評価項目\r\n本剤50mg とメトホルミンの併用投与による空腹時血糖値、アディポネクチン、体重及びウエスト周\r\n囲長の改善効果は、52 週時まで維持された。\r\n※ガイドラインの表記変更にともない、「ウエスト周囲径」から「ウエスト周囲長」に表記を変更した。\r\nⓒ副作用\r\n(a)二重盲検期\r\nメトホルミンの併用投与による副作用発現割合は、プラセボ群(21.4％、12/56 例)に比べ本剤50mg 群\r\n(29.5％、33/112 例)で高かったが、投与群間で有意な差は認められなかった(P=0.356、Fisher の直接確\r\n率検定)。低血糖症状の副作用発現割合は本剤50mg 群及びプラセボ群でそれぞれ0％(0/112 例中)及び\r\n0％(0/56 例中)であった。\r\n(b)全治療期（二重盲検期＋非盲検期）\r\n本試験における副作用発現割合は42.9％(48/112 例)、また低血糖症状の副作用発現割合は0％(0/112\r\n例)であった。\niii)第Ⅲ相臨床試験 －ピオグリタゾン併用試験－22,23)\n≪結果≫\r\nⓐ二重盲検期\r\n(a)主要評価項目\r\n＜HbA1c 値＞\r\n二重盲検期最終時点でのHbA1c 値のベースラインからの平均変化量は、プラセボ群で0.22％、50mg\r\n群で-0.64％であった。投与群、ベースラインのHbA1c 値をモデルに含む共分散分析の結果、ベース\r\nラインからの変化量のプラセボとの調整済み平均値の差は-0.88％であった。プラセボに対する有意\r\n差が認められたことから(P＜0.001)、本剤50mg のプラセボに対する優越性が検証された。\n(b)副次評価項目\r\n＜空腹時血糖値＞\r\n二重盲検期最終時点での空腹時血糖値のベースラインからの平均変化量は、プラセボ群で6.1mg/dL、\r\n50mg 群で-36.4mg/dL であった。投与群、ベースライン値をモデルに含む共分散分析の結果、ベース\r\nラインからの変化量のプラセボとの調整済み平均値の差は-41.0mg/dL で、プラセボに対する有意差\r\nが認められた(P＜0.001)。\n＜空腹時インスリン＞\r\n投与群、ベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点における空腹時イン\r\nスリンのベースラインからの変化量のプラセボとの調整済み平均値の差は-1.49μU/mL で、プラセボ\r\nに対する有意差が認められた(P＜0.001)。\n＜体重＞\r\n投与群、ベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点における体重のベー\r\nスラインからの変化量のプラセボとの調整済み平均値の差は-2.79kg で、プラセボに対する有意差が\r\n認められた(P＜0.001)。\n＜ウエスト周囲長＞\r\n投与群、ベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点におけるウエスト周\r\n囲長のベースラインからの変化量のプラセボとの調整済み平均値の差は-2.00cm で、プラセボに対す\r\nる有意差が認められた(P=0.004)。\n＜レプチン＞\r\n投与群、ベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点におけるレプチンの\r\nベースラインからの変化量のプラセボとの調整済み平均値の差は-1.59ng/mL で、有意差が認められ\r\nた(P＜0.001)。\n＜その他＞\r\nアディポネクチンにて、投与群、ベースライン値をモデルに含む共分散分析の結果、二重盲検期最終\r\n時点におけるベースラインからの変化量のプラセボとの調整済み平均値の差は、プラセボに対する有\r\n意差は認められなかった。\r\nⓑ全治療期（二重盲検期＋非盲検期）\r\n(a)長期投与時の有効性\r\n＜HbA1c 値＞\r\n本剤 50mg とピオグリタゾンを併用投与したとき、HbA1c 値の改善効果は、52 週時まで維持された。\r\nHbA1c 値(平均値±標準偏差)のベースラインから最終評価時までの変化量は-0.74±0.694％(97 例)で\r\nであった。\n(b)その他の有効性評価項目\r\n本剤50mg とピオグリタゾンを併用投与したとき、空腹時血糖値、体重及びウエスト周囲長の改善効\r\n果は、52 週時まで維持された。\r\n※ガイドラインの表記変更にともない、「ウエスト周囲径」から「ウエスト周囲長」に表記を変更した。\r\nⓒ副作用\r\n(a)二重盲検期\r\nピオグリタゾンの併用投与による副作用発現割合は、本剤50mg 群で25.8％(25/97 例)、プラセボ群で\r\n9.3％(5/54 例)であり、プラセボ群に比べて本剤50mg 群で有意に高かった(P=0.018、Fisher の直接確率\r\n検定)。低血糖症状の副作用発現割合は本剤50mg 群及びプラセボ群でそれぞれピオグリタゾン併用時\r\n1.0％(1/97 例)及び0％(0/54 例)であった。\r\n(b)全治療期（二重盲検期＋非盲検期）\r\n副作用の発現割合は50mg 無作為化群で30.9％(30/97 例)であった。低血糖症状の副作用発現割合は\r\n1.0％(1/97 例)であった。\niv)第Ⅲ相臨床試験 －スルホニルウレア剤併用試験－24,25)\n≪結果≫\r\nⓐ二重盲検期\r\n(a)主要評価項目\r\n＜HbA1c 値＞\r\n二重盲検期最終時点におけるHbA1c 値のベースラインからの平均変化量は、プラセボ群で0.32％、\r\n50mg 群で-0.83％であった。\r\n投与群、ベースラインのHbA1c 値をモデルに含む共分散分析の結果、二重盲検期最終時点における\r\nベースラインからの変化量のプラセボとの調整済み平均値の差は-1.14％で、プラセボに対する有意\r\n差が認められた(P＜0.001)。\n(b)副次評価項目\r\n＜空腹時血糖値＞\r\n二重盲検期最終時点における空腹時血糖値のベースラインからの平均変化量は、プラセボ群で\r\n-1.0mg/dL、50mg 群で-41.4mg/dL であった。\r\n投与群、ベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点における空腹時血糖\r\n値のベースラインからの変化量のプラセボとの調整済み平均値の差は-38.0mg/dL であり、プラセボ\r\nに対する有意差が認められた(P＜0.001)。\n＜アディポネクチン＞\r\n投与群、ベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点におけるアディポネ\r\nクチンのベースラインからの変化量のプラセボとの調整済み平均値の差は0.44μg/mL であり、プラセ\r\nボに対する有意差が認められた(P=0.010)。\n＜体重＞\r\n投与群、ベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点における体重のベー\r\nスラインからの変化量のプラセボとの調整済み平均値の差は-1.32kg で、プラセボに対する有意差が\r\n認められた(P＜0.001)。\n＜その他＞\r\n空腹時インスリン、レプチン及びウエスト周囲長では、投与群、ベースライン値をモデルに含む共分\r\n散分析の結果、二重盲検期最終時点におけるベースラインからの変化量のプラセボとの調整済み平均\r\n値の差は、いずれもプラセボに対する有意差は認められなかった。\r\nⓑ全治療期（二重盲検期＋非盲検期）\r\n(a)長期投与時の有効性\r\n＜HbA1c 値＞\r\nHbA1c 値(平均値±標準偏差)のベースラインから最終評価時までの変化量は、-0.84±0.714％(165 例)\r\nであった。本剤50mg とSU 剤を併用投与したとき、HbA1c 値の改善効果は、52 週時まで維持された。\n(b)その他の有効性評価項目\r\n本剤50mg とSU 剤を併用投与したとき、空腹時血糖値、及び体重の改善効果は、52 週時まで維持された。\nⓒ副作用\r\n(a)二重盲検期\r\nSU 剤の併用投与における副作用発現割合は、本剤50mg 群で23.5％(39/166 例)、プラセボ群で23.7％\r\n(18/76 例)であった。低血糖症状の副作用発現割合は本剤50mg 群及びプラセボ群でそれぞれ0.6％(1/166\r\n例)及び1.3％(1/76 例)であった。\r\n(b)全治療期（二重盲検期＋非盲検期）\r\n副作用の発現割合は50mg 無作為化群で31.3％(52/166 例)であった。低血糖症状の副作用発現割合は\r\n3.0％(5/166 例)であった。\r\n② 1 型糖尿病\r\ni)第Ⅲ相臨床試験 －インスリン製剤併用試験－26-28)\n≪結果≫\r\nⓐ二重盲検期26,27)\r\n(a)主要評価項目\r\n＜HbA1c 値＞\r\n二重盲検期最終時点のHbA1c 値のベースラインからの変化量の平均値は、プラセボ群で-0.11％、本\r\n剤50mg 群で-0.47％であった。投与群、ベースラインのHbA1c 値をモデルに含む共分散分析の結果、\r\n二重盲検期最終時点におけるベースラインからの変化量のプラセボとの調整済み平均値の差は\r\n-0.36％であり、本剤50mg 群ではプラセボ群に比べて、有意なHbA1c 値の低下がみられた(P=0.001)。\n二重盲検期最終時点でHbA1c 値が8.0％未満となった被験者の割合は、プラセボ群で23.7％、本剤\r\n50mg 群で47.8％であった。また、二重盲検期最終時点でHbA1c 値が7.0％未満となった被験者の割\r\n合は、プラセボ群で1.7％、本剤50mg 群で6.1％であった。二重盲検期最終時点でHbA1c 値が8.0％\r\n未満又は7.0％未満となった被験者の割合は、いずれもプラセボ群に比べて本剤50mg 群で高かった。\r\n(b)副次評価項目\r\n＜空腹時血糖値＞\r\n二重盲検期最終時点における空腹時血糖値のベースラインからの平均変化量は、プラセボ群で\r\n-1.4mg/dL、本剤50mg 群で-45.2mg/dL であった。\r\n投与群、ベースラインの空腹時血糖値をモデルに含む共分散分析の結果、二重盲検期最終時点におけ\r\nるベースラインからの変化量のプラセボとの調整済み平均値の差は-47.4mg/dL であり、本剤50mg\r\n群はプラセボ群に比べて、有意な低下が認められた(P＜0.001)。\n＜併用インスリン投与単位数＞\r\n・ベーサルインスリン1 日投与量の二重盲検期最終時点でのベースラインからの変化量の平均値は、\r\nプラセボ群で0.38IU、本剤50mg 群で-3.38IU であった。投与群、ベースライン値をモデルに含む\r\n共分散分析の結果、二重盲検期最終時点におけるベースラインからの変化量のプラセボとの調整済\r\nみ平均値の差は-3.75IU であり、本剤50mg 群ではプラセボ群に比べて、有意なベーサルインスリ\r\nン1 日投与量の低下がみられた(P＜0.001)。\r\n・ボーラスインスリン1 日投与量の二重盲検期最終時点でのベースラインからの変化量の平均値は、\r\nプラセボ群で0.25IU、本剤50mg 群で-3.25IU であった。投与群、ベースライン値をモデルに含む\r\n共分散分析の結果、二重盲検期最終時点におけるベースラインからの変化量のプラセボとの調整済\r\nみ平均値の差は-3.66IU であり、本剤50mg 群ではプラセボ群に比べて、有意なボーラスインスリ\r\nン1 日投与量の低下がみられた(P＜0.001)。\r\n・総インスリン1 日投与量の二重盲検期最終時点でのベースラインからの変化量の平均値は、プラセ\r\nボ群で0.63IU、本剤50mg 群で-6.64IU であった。投与群、ベースライン値をモデルに含む共分散\r\n分析の結果、二重盲検期最終時点におけるベースラインからの変化量のプラセボとの調整済み平均\r\n値の差は-7.35IU であり、本剤50mg 群ではプラセボ群に比べて、有意な総インスリン1 日投与量\r\nの低下がみられた(P＜0.001)。\n＜血糖自己測定値＞\r\n投与群、ベースライン値をモデルに含む共分散分析の結果、二重盲検期最終時点の血糖自己測定値の\r\nプラセボとの調整済み平均値の差は、朝食前で-40.25mg/dL、朝食開始後1 時間で-19.68mg/dL、昼食\r\n前で-24.72mg/dL、昼食開始後1 時間で-12.63mg/dL、夕食前で-31.34mg/dL、夕食開始後1 時間で\r\n-3.64mg/dL、就寝前で1.81mg/dL であった。このうち朝食前、朝食開始後1 時間、昼食前及び夕食前\r\nで、本剤50mg 群ではプラセボ群に比べて、有意な血糖自己測定値の低下がみられた(それぞれ、P＜\r\n0.001、P=0.027、P=0.001、P＜0.001)。\n＜グリコアルブミン値＞\r\n二重盲検期最終時点のグリコアルブミン値のベースラインからの変化量の平均値は、プラセボ群で\r\n-0.20％、本剤50mg 群で-2.02％であった。投与群、ベースライン値をモデルに含む共分散分析の結果、\r\n二重盲検期最終時点におけるベースラインからの変化量のプラセボとの調整済み平均値の差は\r\n-1.92％であり、本剤50mg 群ではプラセボ群に比べて、有意なグリコアルブミン値の低下がみられた\r\n(P＜0.001)。\n＜レプチン値＞\r\n二重盲検期最終時点のレプチン値のベースラインからの変化量の平均値は、プラセボ群で2.90ng/mL、\r\n本剤50mg 群で0.13ng/mL であった。投与群、ベースライン値をモデルに含む共分散分析の結果、二\r\n重盲検期最終時点におけるベースラインからの変化量のプラセボとの調整済み平均値の差は\r\n-2.73ng/mL であり、本剤50mg 群ではプラセボ群に比べて、有意なレプチン値の低下がみられた(P=0.001)。\n＜アディポネクチン値＞\r\n二重盲検期最終時点のアディポネクチン値のベースラインからの変化量の平均値は、プラセボ群で\r\n0.28μg/mL、本剤50mg 群で1.96μg/mL であった。投与群、ベースライン値をモデルに含む共分散分析\r\nの結果、二重盲検期最終時点におけるベースラインからの変化量のプラセボとの調整済み平均値の差\r\nは1.72μg/mL であり、本剤50mg 群ではプラセボ群に比べて、有意なアディポネクチン値の上昇がみ\r\nられた(P＜0.001)。\n＜グルカゴン値＞\r\n二重盲検期最終時点のグルカゴン値のベースラインからの変化量の平均値は、プラセボ群で\r\n-2.2pg/mL、本剤50mg 群で-4.7pg/mL であった。投与群、ベースライン値をモデルに含む共分散分析\r\nの結果、二重盲検期最終時点におけるベースラインからの変化量のプラセボとの調整済み平均値の差\r\nは-1.0pg/mL であり、プラセボ群に対する有意差はみられなかった(P=0.715)。\n＜体重＞\r\n二重盲検期最終時点の体重のベースラインからの変化量の平均値は、プラセボ群で-0.04kg、本剤50mg\r\n群で-2.92kg であった。投与群、ベースライン値をモデルに含む共分散分析の結果、二重盲検期最終\r\n時点におけるベースラインからの変化量のプラセボとの調整済み平均値の差は-2.87kg であり、本剤\r\n50mg 群ではプラセボ群に比べて、有意な体重の減少がみられた(P＜0.001)。\n＜ウエスト周囲長＞\r\n二重盲検期最終時点のウエスト周囲長のベースラインからの変化量の平均値は、プラセボ群で\r\n-0.06cm、本剤50mg 群で-2.77cm であった。投与群、ベースライン値をモデルに含む共分散分析の結\r\n果、二重盲検期最終時点におけるベースラインからの変化量のプラセボとの調整済み平均値の差は\r\n-2.56cm であり、本剤50mg 群ではプラセボ群に比べて、有意なウエスト周囲長の減少がみられた\r\n(P＜0.001)。\nⓑ非盲検期26)\r\n(a)主要評価項目\r\n＜HbA1c 値＞\r\nHbA1c 値(平均値±標準偏差)のベースラインから最終評価時までの変化量は-0.33±0.72％であった。\r\n本剤群のHbA1c 値は4 週時に低下し、変動はあるものの52 週時までその効果は維持された。増量の\r\n有無別では、投与最終時でのHbA1c 値の投与開始時からの変化量は50mg 維持群-0.43％、100mg 増\r\n量群-0.20％であった。100mg 増量群では、投与最終時のHbA1c 値の32 週時からの変化量は0.01％で\r\nあり、50mg 維持群では、投与最終時のHbA1c 値の32 週時からの変化量は0.29％であった。\n本剤群でHbA1c 値が8.0％未満であった被験者の割合は、投与開始時18.3％から投与最終時34.8％へ\r\n増加した。増量の有無別では、50mg 維持群は投与開始時27.9％から投与最終時52.9％へ増加し、100mg\r\n増量群は投与開始時2.3％及び増量前の32 週時0％から投与最終時6.8％へ増加した。本剤群でHbA1c\r\n値が7.0％未満であった被験者の割合は、投与開始時0％から投与最終時2.6％へ増加した。\n(b)副次評価項目\r\n＜空腹時血糖値＞\r\n本剤群の空腹時血糖値は2 週時に低下し、変動はあるものの52 週時までその効果は維持された。投\r\n与最終時の空腹時血糖値の投与開始時からの変化量は-30.3mg/dL であった。増量の有無別では、投与\r\n最終時での空腹時血糖値の投与開始時からの変化量は50mg 維持群-11.5mg/dL、100mg 増量群\r\n-60.7mg/dL であった。100mg 増量群での投与最終時の空腹時血糖値の32 週時からの変化量は\r\n-7.6mg/dL であり、50mg 維持群では、投与最終時の空腹時血糖値の32 週時からの変化量は6.5mg/dL\r\nであった。\r\n＜併用インスリン投与単位数＞\r\n本剤群のベーサルインスリン1 日投与量は、16 週時まで低下し、その後は52 週時まで低下が維持さ\r\nれた。ベーサルインスリン1 日投与量の本剤投与最終時点での投与開始時からの変化量の平均値は、\r\n-3.76IU であった。本剤群のボーラスインスリン1 日投与量は、8 週時まで低下し、その後は52 週時\r\nまで低下が維持された。ボーラスインスリン1 日投与量の本剤投与最終時点での投与開始時からの変\r\n化量の平均値は、-2.51IU であった。本剤群の総インスリン1 日投与量は、8 週時まで低下し、その後\r\nは52 週時まで低下が維持された。総インスリン1 日投与量の本剤投与最終時点での投与開始時から\r\nの変化量の平均値は、-6.27IU であった。増量の有無別では、50mg 維持群及び100mg 増量群の併用イ\r\nンスリン投与単位数は、2 週時から低下がみられ、52 週時まで低下が維持された。\r\n＜血糖自己測定値＞\r\n本剤群での投与最終時での血糖自己測定値の投与開始時からの変化量は、朝食前-30.25mg/dL、朝食\r\n開始後1 時間-15.36mg/dL、昼食前-14.39mg/dL、昼食開始後1 時間3.53mg/dL、夕食前-11.88mg/dL、\r\n夕食開始後1 時間-1.38mg/dL、就寝前6.11mg/dL であった。朝食前、朝食開始後1 時間、昼食前及び\r\n夕食前で血糖値の変化量が大きかった。\r\n＜グリコアルブミン値＞\r\n本剤群のグリコアルブミン値は、2 週時に低下し、24 週時及び投与最終時ではその低下がほぼ維持さ\r\nれた。\r\n＜レプチン値＞\r\n本剤群のレプチン値は、16 週時まで低下し、24 週時以降は投与開始時の値とほぼ同じであった。\r\n＜アディポネクチン値＞\r\n本剤群のアディポネクチン値は、52 週時まで持続的に上昇した。\r\n＜グルカゴン値＞\r\n本剤群のグルカゴン値は、2 週時に上昇し24 週時に投与開始時の値まで低下した。その後は52 週時\r\nまで持続的に上昇した。\r\n＜体重＞\r\n本剤群の体重は2 週時から低下がみられ、52 週を通じて低下が維持された。投与最終時の体重の投\r\n与開始時からの変化量は-3.13kg であった。増量の有無別では、投与最終時での体重の投与開始時か\r\nらの変化量は50mg 維持群-2.95kg、100mg 増量群-3.43kg であった。100mg 増量群での投与最終時の\r\n体重の32 週時からの変化量は-0.23kg であり、50mg 維持群では、投与最終時の体重の32 週時からの\r\n変化量は0.09kg であった。\r\n＜ウエスト周囲長＞\r\n本剤群のウエスト周囲長は、32 週時まで低下し、その後は52 週時まで低下が維持された。\r\n※ガイドラインの表記変更にともない、「ウエスト周囲径」から「ウエスト周囲長」に表記を変更した。\nⓒ副作用26,28)\r\n(a)二重盲検期\r\n副作用の発現割合は、プラセボ群で86.7％(52/60 例)、本剤50mg 群で98.3％(113/115 例)であった。\r\n本剤 50mg 群で発現割合が最も高かった副作用は低血糖であり、本剤50mg 群97.4％(112/115 例)、プ\r\nラセボ群85.0％(51/60 例)であった。また第三者の介助が必要な低血糖症状の副作用発現割合は本剤\r\n50mg 及びプラセボでそれぞれ0％(0/115 例)及び1.7％(1/60 例)であった。\r\nその他の副作用発現割合は、血中ケトン体増加(プラセボ群1.7％、本剤50mg 群8.7％)、口渇(プラセ\r\nボ群3.3％、本剤50mg 群4.3％)及び体重減少(プラセボ群0％、本剤50mg 群4.3％)の順で高かった。\r\nこれらの事象のうち、口渇の発現割合は両群間で同程度であったが、その他の事象の発現割合は、い\r\nずれもプラセボ群に比べて本剤50mg 群で高かった。重篤な副作用は本剤50mg 群ではみられなかっ\r\nた。\r\n(b)非盲検期\r\n本剤群での副作用の発現割合は、100.0％(115/115 例)であった。本剤群で発現割合が最も高かった副\r\n作用は低血糖100.0％(115/115 例)であった。また第三者の介助が必要な低血糖症状の副作用発現割合\r\nは0.9％(1/115 例)であった。\r\nその他の副作用発現割合は、血中ケトン体増加11.3％(13/115 例)、体重減少8.7％(10/115 例)の順に高\r\nかった。重篤な副作用は本剤群及びプラセボ/本剤群ともにみられなかった。"@ja	.
+if:IF_5_5_4_1	dct:references	if:ref18	.
+if:IF_5_5_4_1	dct:references	if:ref19	.
+if:IF_5_5_4_1	dct:references	if:ref20	.
+if:IF_5_5_4_1	dct:references	if:ref21	.
+if:IF_5_5_4_1	dct:references	if:ref22	.
+if:IF_5_5_4_1	dct:references	if:ref23	.
+if:IF_5_5_4_1	dct:references	if:ref24	.
+if:IF_5_5_4_1	dct:references	if:ref25	.
+if:IF_5_5_4_1	dct:references	if:ref26	.
+if:IF_5_5_4_1	dct:references	if:ref27	.
+if:IF_5_5_4_1	dct:references	if:ref28	.
+if:IF_5_5_4_2	rdf:type	ifo:IF_5_5_4_2	.
+if:IF_5_5_4_2	rdf:type	ifo:Section	.
+if:IF_5_5_4_2	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_4_2	rdf:value	"① 2 型糖尿病\r\ni)第Ⅲ相臨床試験 －α-グルコシダーゼ阻害剤併用試験－29,30)\r\n≪結果≫\r\nⓐ有効性\r\n(a)HbA1c 値\r\n全被験者におけるHbA1c 値(平均値±標準偏差)のベースラインは7.96±0.820％であり、ベースライ\r\nンから最終評価時までの変化量は-0.82±0.712％(109 例)であった。HbA1c 値の平均値は、投与開始後\r\n4 週時には低下がみられ、12 週時まで低下し、その後20 週時までほぼ一定に推移した。また、24 週\r\n時から36 週時まで更に低下がみられ、その後ほぼ一定に推移した。\r\n100mg 増量群では、20 週時に投与量を100mg に増量した後、HbA1c 値の平均値は更に低下した。\r\n(b)空腹時血糖値\r\n空腹時血糖値の平均値は、ベースライン時で170.6mg/dL、20 週LOCF(Last observation carried forward)\r\nで133.7mg/dL、投与終了時で135.3mg/dL であった。空腹時血糖値の平均値は、投与開始後2 週時に\r\n顕著な低下がみられ、24 週時まで徐々に低下し、以降はほぼ一定に推移した。\r\n100mg 増量群では、空腹時血糖値の平均値は、20 週時の増量後に更に低下がみられた。\r\n(c)体重\r\n全被験者における体重の平均値は、ベースライン時で68.98kg、20 週LOCF で66.07kg、投与終了時\r\nで66.20kg であった。体重の平均値は28 週時まで徐々に減少し、その後ほぼ一定に推移した。ベー\r\nスラインから5％の体重減少がみられた被験者の割合は、20 週LOCF で33.6％、投与終了時で32.7％\r\nであった。\r\n(d)尿糖/クレアチニン比\r\n全被験者における尿糖/クレアチニン比の平均値は、ベースライン時で3212.61mg/g Cr、20 週LOCF\r\nで38190.19mg/g Cr、投与終了時で46636.97mg/g Cr であった。尿糖/クレアチニン比の平均値は、2 週\r\n時で顕著に増加し、20 週時までほぼ一定に推移した。また、24 週時に更に増加がみられ、その後徐々\r\nに増加した。\r\nⓑ副作用\r\n副作用の発現割合は全患者で33.6％(38/113 例)であり、ほとんどの副作用が軽度であった。\r\n投与期間が長くなることに伴う、発現割合の増加傾向はみられなかった。投与量増量前と比較して、増\r\n量後に副作用の発現割合が増加することはなかった。3％以上にみられた副作用は、頻尿、口渇、体重\r\n減少及び尿中β2 ミクログロブリン増加であった。低血糖症状の副作用発現割合は0％(0/113 例)であっ\r\nた。\r\nii)第Ⅲ相臨床試験 －DPP-4 阻害剤併用試験－31,32)\r\n≪結果≫\r\nⓐ有効性\r\n(a)HbA1c 値\r\n全被験者におけるHbA1c 値(平均値±標準偏差)はベースラインで7.84±0.767％、ベースラインから\r\n最終評価時までの変化量は-0.81±0.617％(105 例)であった。HbA1c 値の平均値は、投与開始後4 週時\r\nには低下がみられ、32 週時まで低下し、その後ほぼ一定に推移した。\r\n100mg 増量群では、20 週時に投与量を100mg に増量した後、HbA1c 値の平均値は更に低下した。\r\n(b)空腹時血糖値\r\n全被験者の空腹時血糖値の平均値は、ベースライン時で166.4mg/dL、20 週LOCF で130.7mg/dL、投\r\n与終了時で132.3mg/dL であった。空腹時血糖値の平均値は、28 週時まで低下し、その後ほぼ一定に\r\n推移した。\r\n100mg 増量群では、20 週時の増量後、空腹時血糖値の平均値は24 週時点では低下し、その後ほぼ一\r\n定に推移した。\r\n(c)体重\r\n全被験者における体重の平均値は、ベースライン時で67.38kg、20 週LOCF で64.70kg、投与終了時\r\nで64.69kg であった。体重の平均値は24 週時まで徐々に減少し、その後ほぼ一定に推移した。5％の\r\n体重減少がみられた被験者の割合は、20 週LOCF で32.1％、投与終了時で30.2％であった。\r\n(d)尿糖/クレアチニン比\r\n全被験者における尿糖/クレアチニン比の平均値は、ベースライン時で2446.73mg/g Cr、20 週LOCF\r\nで40363.28mg/g Cr、投与終了時で50050.61mg/g Cr であった。尿糖/クレアチニン比の平均値は、2 週\r\n時で顕著に増加し、その後ほぼ一定に推移した。\r\nⓑ副作用\r\n副作用の発現割合は全患者で43.4％(46/106 例)であり、ほとんどの副作用は軽度であった。\r\n投与期間が長くなることに伴う、発現割合の増加傾向はみられなかった。投与量増量前と比較して、増量後\r\nに副作用の発現割合が増加することはなかった。3％以上にみられた副作用は、頻尿、口渇及び便秘であっ\r\nた。また、便秘を除いて、投与量増量後の発現割合が増量前と比較して明らかに高い副作用はなかった。低\r\n血糖症状の副作用発現割合は0.9％(1/106 例)であった。\r\niii)第Ⅲ相臨床試験 －ナテグリニド併用試験－33,34)\r\n≪結果≫\r\nⓐ有効性\r\n(a)HbA1c 値\r\n全被験者におけるHbA1c 値(平均値±標準偏差)はベースラインで7.99±0.801％、ベースラインから\r\n最終評価時までの変化量は-0.75±0.720％(118 例)であった。HbA1c 値の平均値は、投与開始後4 週時\r\nには低下がみられ、12 週時まで低下した後、20 週時までほぼ一定に推移した。また、24 週時から32\r\n週時まで更に低下がみられ、その後ほぼ一定に推移した。\r\n100mg 増量群では、20 週時に投与量を100mg に増量した後、HbA1c 値の平均値に更に低下がみられた。\r\n(b)空腹時血糖値\r\n全被験者での空腹時血糖値の平均値は、ベースラインで167.4mg/dL、20 週LOCF で137.5mg/dL、投与終\r\n了時で136.3mg/dL であった。空腹時血糖値の平均値は8 週時まで低下し、その後ほぼ一定に推移した。\r\n100mg 増量群では、20 週時の増量後、空腹時血糖値の平均値は24 週時点で低下し、その後ほぼ一定\r\nに推移した。\r\n(c)体重\r\n全被験者における体重の平均値は、ベースライン時で68.16kg、20 週LOCF で66.09kg、投与終了時\r\nで65.75kg であった。体重の平均値は16 週時まで徐々に減少し、その後ほぼ一定に推移した。ベー\r\nスラインから5％の体重減少がみられた被験者の割合は、20 週LOCF で21.7％、投与終了時で32.5％\r\nであった。\r\n(d)尿糖/クレアチニン比\r\n全被験者における尿糖/クレアチニン比の平均値は、ベースライン時で3831.58mg/g Cr、20 週LOCF\r\nで45264.53mg/g Cr、投与終了時で50328.51mg/g Cr であった。尿糖/クレアチニン比の平均値は、2 週\r\n時に顕著に増加し、20 週時までほぼ一定に推移した。また、24 週時から32 週時までに更に増加がみ\r\nられ、その後ほぼ一定に推移した。\r\nⓑ副作用\r\n副作用発現割合は全体で28.7％(35/122 例)であり、ほとんどの副作用が軽度であった。\r\n投与期間が長くなることに伴う、発現割合の増加傾向はみられなかった。投与量増量前と比較して、増量\r\n後に副作用の発現割合が増加することはなかった。3％以上にみられた副作用は、口渇及び頻尿であった。\r\n低血糖症状の副作用発現割合は2.5％(3/122 例)であった。\r\niv)長期投与試験（52 週）35,36)\r\n≪結果≫\r\nⓐ有効性\r\n(a)HbA1c 値\r\n全体でのHbA1c 値(平均値±標準偏差)は、ベースラインで7.93±0.791％、ベースラインから最終評\r\n価時までの変化量は-0.51±0.806％であった。HbA1c 値の平均値は投与開始後4 週時から12 週時にか\r\nけて低下し、20 週時までほぼ一定に推移した。それ以降24 週時及び28 週時にわずかに低下し、そ\r\nの後はほぼ一定に推移した。\r\n増量判断時以降100mg 投与へ増量した群(以下、100mg 増量群)では、増量後に、HbA1c 値のわずかな\r\n低下がみられた。投与終了時のHbA1c 値のベースラインからの変化量の平均値は、朝食前投与群で\r\n-0.56％、朝食後投与群で-0.46％であった。ベースラインのHbA1c 値、用法別と観察期開始前8 週以\r\n内の血糖降下薬投与の有無をモデルに含む共分散分析を用いて調整した用法別の差(朝食後投与群－\r\n朝食前投与群)［95％CI］は0.04％［-0.161、0.233］であり、朝食前投与群及び朝食後投与群間で明ら\r\nかな違いはみられなかった(P=0.717)。\r\n※HbA1c はJDS 値からNGSP 値に変換して表記した。\r\n(b)空腹時血糖値\r\n患者全体での空腹時血糖値の平均値は、ベースラインで165.7mg/dL、20 週LOCF で133.1mg/dL、投\r\n与終了時で133.3mg/dL であった。投与終了時の空腹時血糖値のベースラインからの変化量は、朝食\r\n前投与群で-32.9mg/dL、朝食後投与群で-32.4mg/dL であった。ベースライン値、用法別と観察期開始\r\n前8 週以内の血糖降下薬投与の有無をモデルに含む共分散分析を用いて調整した用法別の差(朝食後\r\n投与群－朝食前投与群)［95％CI］は、-0.94mg/dL［-6.076、4.192］であり、朝食前投与群及び朝食後\r\n投与群間で明らかな違いはみられなかった(P=0.718)。\r\n(c)体重\r\n体重の平均値を合計でみると、ベースラインで67.49kg、20 週LOCF で64.70kg、投与終了時で64.08kg\r\nであり、投与終了時の体重のベースラインからの変化量は、-3.41kg であった。5％の体重減少がみら\r\nれた被験者の割合を合計でみると、20 週LOCF で30.9％、投与終了時で45.9％であった。\r\n(d)空腹時インスリン\r\n空腹時インスリンの平均値はベースラインで8.60μU/mL、投与終了時で6.60μU/mL であった。\r\n(e)アディポネクチン\r\nアディポネクチンの平均値はベースラインで6.59μg/mL、投与終了時で8.25μg/mL であった。\r\n(f)ウエスト周囲長\r\nウエスト周囲長の平均値は、ベースラインで88.47cm、投与終了時で86.12cm であった。\r\n※ガイドラインの表記変更にともない、「ウエスト周囲径」から「ウエスト周囲長」に表記を変更した。\r\n(g)尿糖/クレアチニン比\r\n尿糖/クレアチニン比はベースラインで2972.19mg/g Cr、投与終了時で51539.60mg/g Cr であり、平均\r\n値の著しい増加が認められた。\r\nⓑ副作用\r\n副作用は患者全体の49.5％(90/182 例)にみられた。投与期間が長くなるにつれ、副作用の発現割合が増加\r\nするような傾向はみられなかった。増量前と比較して増量後で副作用発現割合の増加はみられなかった。\r\n5％以上にみられた副作用は頻尿、口渇及び体重減少であった。低血糖症状の副作用発現割合は1.1％(2/182\r\n例)であった。朝食前投与群、朝食後投与群間での副作用の発現割合に明らかな違いはみられなかった。\r\nv)長期投与試験（24 週）37)\r\n≪結果≫\r\nⓐ有効性\r\n(a)HbA1c 値\r\nHbA1c 値(平均値±標準偏差)のベースラインは7.65±0.663％、ベースラインから最終評価時までの変\r\n化量は-0.32±0.671％であった。本剤投与開始後、HbA1c 値の平均値は初回評価時点の治療期4 週時\r\nに低下がみられ、治療期8 週時7.35％まで低下し、それ以降は治療期24 週時まで低下が維持された。\r\n治療期最終時点のHbA1c 値の平均値は7.33％であった。\r\n※HbA1c はJDS 値からNGSP 値に変換して表記した。\r\n(b)空腹時血糖値\r\nベースラインの空腹時血糖値の平均値は154.7mg/dL であった。本剤投与開始後に空腹時血糖値の平\r\n均値は治療期4 週時で134.7mg/dL まで低下し、それ以降は治療期24 週時まで低下が維持された。治\r\n療期最終時点の空腹時血糖値の平均値は137.2mg/dL であり、ベースラインからの変化量の平均値\r\n［95％CI］は-17.5mg/dL［-21.17、-13.92］であった。\r\n(c)体重\r\nベースラインからの変化量の平均値［95％CI］は-2.38kg［-2.673，-2.090］であった。\r\n(d)空腹時インスリン\r\nベースラインからの変化量の平均値［95％CI］は-0.89μU/mL［-1.303，-0.468］であった。\r\n(e)ウエスト周囲長\r\nベースラインからの変化量の平均値［95％CI］は-2.03cm［-2.479，-1.590］であった。\r\n※ガイドラインの表記変更にともない、「ウエスト周囲径」から「ウエスト周囲長」に表記を変更した。\r\n(f)尿糖/クレアチニン比\r\nベースラインからの変化量の平均値［95％CI］は42526.26mg/g Cr［39088.357，45964.155］であった。\r\nⓑ副作用\r\n副作用の発現割合は31.6％(55/174 例)であった。全被験者の5％以上にみられた副作用は、頻尿6.9％\r\n(12/174 例)であった。低血糖症状の副作用発現割合は1.7％(3/174 例)であった。\r\n② 1 型糖尿病\r\n1 型糖尿病患者を対象とした長期投与試験(52 週)は、インスリン製剤併用第Ⅲ相臨床試験の継続投与試\r\n験(非盲検)として実施した。\r\n詳細については、「1)②i)第Ⅲ相臨床試験 －インスリン製剤併用試験－」の項参照。"@ja	.
+if:IF_5_5_4_2	dct:references	if:ref29	.
+if:IF_5_5_4_2	dct:references	if:ref30	.
+if:IF_5_5_4_2	dct:references	if:ref31	.
+if:IF_5_5_4_2	dct:references	if:ref32	.
+if:IF_5_5_4_2	dct:references	if:ref33	.
+if:IF_5_5_4_2	dct:references	if:ref34	.
+if:IF_5_5_4_2	dct:references	if:ref35	.
+if:IF_5_5_4_2	dct:references	if:ref36	.
+if:IF_5_5_4_2	dct:references	if:ref37	.
+if:IF_5_5_5	rdf:type	ifo:IF_5_5_5	.
+if:IF_5_5_5	rdf:type	ifo:Section	.
+if:IF_5_5_5	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_5	rdf:value	"（5）患者・病態別試験\r\n1）腎機能低下患者試験(2 型糖尿病患者)38,39)\r\n≪結果≫\r\n① 二重盲検期\r\ni)HbA1c 値\r\n全体(軽度～中等度腎機能低下患者)では、二重盲検期最終時点におけるHbA1c 値のベースラインから\r\nの変化量の平均値は、プラセボ群で-0.17％、本剤50mg 群で-0.42％であった。投与群、ベースライン\r\nのHbA1c 値及びeGFR のカテゴリーをモデルに含む共分散分析の結果、ベースラインからの変化量の\r\nプラセボとの調整済み平均値の差は-0.25％であり、有意であった(P=0.004、有意水準両側0.05)。\r\nii)腎機能低下重症度別のHbA1c 値\r\n腎機能低下の重症度別では、二重盲検期最終時点におけるHbA1c 値のベースラインからの変化量の平\r\n均値は、軽度腎機能低下患者でプラセボ群-0.26％、本剤50mg 群-0.56％、中等度腎機能低下患者でプ\r\nラセボ群-0.09％、50mg 群-0.28％であった。\r\n投与群、ベースラインのHbA1c 値をモデルに含む共分散分析の結果、50mg 群の変化量のプラセボと\r\nの調整済み平均値の差は、軽度腎機能低下患者-0.35％、中等度腎機能低下患者-0.17％であり、軽度腎\r\n機能低下患者では、50mg 群でのプラセボ群に対する有意なHbA1c 値の低下が認められた(P＜0.001)。\r\n中等度腎機能低下患者では、有意な差はみられなかったものの、50mg 群ではプラセボ群に比べて\r\nHbA1c 値の低下がみられた。\r\niii)空腹時血糖値\r\n空腹時血糖値のベースラインからの変化量の平均値は、プラセボ群で-4.2mg/dL、50mg 群で-12.4mg/dL\r\nであった。投与群、ベースライン値及びeGFR のカテゴリーをモデルに含む共分散分析の結果、ベー\r\nスラインからの変化量のプラセボとの調整済み平均値の差は-8.0mg/dL であり、プラセボに対する有\r\n意差が認められた(P=0.021)。\r\niv)腎機能低下重症度別の空腹時血糖値\r\n二重盲検期最終時点における空腹時血糖値のベースラインからの変化量の平均値は、軽度腎機能低下\r\n患者でプラセボ群-3.2mg/dL、50mg 群-16.2mg/dL、中等度腎機能低下患者でプラセボ群-5.2mg/dL、50mg\r\n群-8.6mg/dL であった。\r\n投与群、ベースライン値をモデルに含む共分散分析の結果、50mg 群の変化量のプラセボとの調整済み\r\n平均値の差は、軽度腎機能低下患者-14.8mg/dL、中等度腎機能低下患者-1.8mg/dL であり、軽度腎機能\r\n低下患者でプラセボに対する有意な低下がみられた(P＜0.001)。\r\n中等度腎機能低下患者ではプラセボに対する有意な差はみられなかったものの、空腹時血糖値の低下\r\n傾向がみられた。\r\nv)その他\r\n投与群、ベースライン値及びeGFR のカテゴリーをモデルに含む共分散分析の結果、プラセボに比べ\r\nて有意な体重の減少(P＜0.001)及びレプチンの低下(P＝0.037)が認められた。また、空腹時インスリン、\r\nアディポネクチン及びウエスト周囲長では、プラセボに対する有意差は認められなかった。\r\n② 全治療期（二重盲検期＋非盲検期）\r\ni)長期投与時の有効性\r\n＜HbA1c 値＞\r\nHbA1c 値(平均値±標準偏差)のベースラインから最終評価時までの変化量は-0.44±0.595％であった。\r\n腎機能別にサブグループ解析した結果、軽度腎機能低下患者では-0.54±0.478％、中等度腎機能低下患\r\n者では-0.33±0.684％であった。本剤50mg を1 日1 回52 週間投与したとき、HbA1c 値の改善作用は、\r\n投与52 週後まで持続した。\r\n50mg から100mg への増量群では、治療期最終時点でのHbA1c 値の二重盲検期最終時点からの変化量\r\nの平均値は-0.15％であった。\r\nii)その他の有効性評価項目\r\n本剤50mg を1 日1 回52 週間投与したとき、空腹時血糖値、レプチン及び体重に対する本剤の改善作\r\n用は、投与52 週後まで持続した。\r\n③ 副作用\r\ni)二重盲検期\r\n副作用の発現割合は、プラセボ群17.4％(8/46 例)、50mg 群27.7％(33/119 例)であった。\r\nまた、腎機能低下の重症度別の副作用の発現割合は軽度低下患者でプラセボ群13.0％(3/23 例)、50mg\r\n群34.4％(21/61 例)、中等度低下患者でプラセボ群21.7％(5/23 例)、50mg 群20.7％(12/58 例)であった。\r\n低血糖症状の副作用発現割合は本剤50mg 及びプラセボでそれぞれ軽度腎機能低下患者で0％(0/61 例)\r\n及び0％(0/23 例)、中等度腎機能低下患者で1.7％(1/58 例)及び0％(0/23 例)であった。\r\nii)全治療期（二重盲検期＋非盲検期）\r\n副作用の発現割合は39.5％(47/119 例)であった。低血糖症状の副作用発現割合は軽度腎機能低下患者\r\nで6.6％(4/61 例)、中等度腎機能低下患者で3.4％(2/58 例)であった。"@ja	.
+if:IF_5_5_6_1	rdf:type	ifo:IF_5_5_6_1	.
+if:IF_5_5_6_1	rdf:type	ifo:Section	.
+if:IF_5_5_6_1	ifo:package_insert	pi:PI_17_2	.
+if:IF_5_5_6_1	rdf:value	"① 特定使用成績調査40)\r\nⅰ)高齢者を対象とした特定使用成績調査\r\n2 型糖尿病高齢患者における使用実態下での本剤の安全性について、本剤の製造販売後3 か月間に本\r\n剤を最初に処方された65 歳以上の日本人2 型糖尿病患者全症例を対象とし、2014 年4 月から2015\r\n年7 月まで調査を実施した。安全性解析対象症例数は8505 例(男性4181 例、女性4324 例)、平均年齢\r\n72.3±5.9 歳、糖尿病の罹患期間平均10.6±7.52 年※であった。解析対象患者の31.8%は75 歳以上であっ\r\nた。初期投与量として本剤50mg/日を処方されたのは86.3%(7344 例)であり、50mg/日から投与量の変\r\n更なく投与継続されたのは84.3％(7168 例)であった。\r\n副作用は1438 例(16.91％)、1880 件で発現し、うち重篤と判定されたのは127 例(1.49％)、165 件であっ\r\nた。主な副作用(器官別大分類)は「皮膚および皮下組織障害」(276 例、3.25％)、「腎および尿路障害」\r\n(223 例、2.74％)、「感染症および寄生虫症」(190 例、2.23％)であった。副作用1880 件のうち773 件\r\n(38.99％)が投与開始30 日以内、1235 件(65.69％)が90 日以内に発現した一方、317 件(16.86％)は6 カ\r\n月以上経ってから発現した。\r\n注目すべき副作用である皮膚疾患、体液量減少の関連事象、多尿/頻尿、性器感染、尿路感染、腎障害、\r\n低血糖、脳血管疾患、心血管疾患、悪性腫瘍、骨折、ケトン体関連事象の発現割合は以下の通りであった。\r\n副作用の発現と関連ある因子として、性別(女性)、BMI30kg/m2 以上、中等度の肝機能障害及び軽度の\r\n腎機能障害がみいだされた。\r\nこの結果、本剤を高齢者に投与した際に発現しうる副作用及び危険因子について、承認時の臨床試験\r\nで観察された以外の新たな懸念事項は確認されなかった。\r\n※：5327 例\r\nii)長期使用に関する特定使用成績調査（実施中）\r\n2 型糖尿病患者を対象とし、製造販売後の使用実態下での長期使用(3 年)における本剤の安全性及び\r\n有効性を検討する。\r\n② 製造販売後臨床試験\r\n製造販売後臨床試験として、インスリン製剤との併用試験（二重盲検比較試験及び長期継続投与試験）\r\n並びにGLP-1 受容体作動薬との併用試験を実施した。\r\ni)インスリン製剤との併用試験\r\nⓐ二重盲検比較試験41)\r\nインスリン製剤単独療法又はインスリン製剤とDPP-4 阻害剤との併用(インスリン製剤：中間型、持\r\n効型溶解、混合型のいずれか単剤を使用、1 日投与量は8 単位以上40 単位以下)で血糖コントロール\r\nが不十分な2 型糖尿病患者を対象に、本剤50mg 又はプラセボを1 日1 回16 週間投与した。結果は\r\n次表のとおりであった。併用療法における低血糖症状の副作用発現割合は本剤50mg 及びプラセボ\r\nでそれぞれ29.1％(175 例中51 例)、14.9％(87 例中13 例)であった。\r\nⓑ長期継続投与試験42)\r\n上記ⓐの二重盲検比較試験終了後、本剤50mg 又は100mg(増量時)を1 日1 回36 週間(合計52 週間)\r\n継続投与した。HbA1c 値(NGSP 値：平均値±標準偏差)のベースラインから最終評価時までの変化量\r\nは-0.83±0.72％(168 例)であった。低血糖症状の副作用発現割合は36.0％(175 例中63 例)であった。\r\nii)GLP-1 受容体作動薬との併用試験43)\r\nGLP-1 受容体作動薬単独療法又はGLP-1 受容体作動薬とスルホニルウレア剤との併用療法で血糖コント\r\nロールが不十分な2 型糖尿病患者(103 例)を対象に、本剤50mg 又は100mg(増量時)を1 日1 回52 週間投\r\n与した結果、HbA1c 値(NGSP 値：平均値±標準偏差)のベースライン(8.81±0.89％)から最終評価時まで\r\nの変化量は-0.92±0.80％であった。低血糖症状の副作用発現割合は8.7％(103 例中9 例)であった。"@ja	.
+if:IF_5_5_6_1	dct:references	if:ref40	.
+if:IF_5_5_6_1	dct:references	if:ref41	.
+if:IF_5_5_6_1	dct:references	if:ref42	.
+if:IF_5_5_6_1	dct:references	if:ref43	.
+if:IF_5_5_6_2	rdf:type	ifo:IF_5_5_6_2	.
+if:IF_5_5_6_2	rdf:type	ifo:Section	.
+if:IF_5_5_6_2	ifo:package_insert	pi:PI_21	.
+if:IF_5_5_6_2	rdf:value	"該当しない"@ja	.
+if:IF_5_5_7	rdf:type	ifo:IF_5_5_7	.
+if:IF_5_5_7	rdf:type	ifo:Section	.
+if:IF_5_5_7	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_7	rdf:value	"該当資料なし"@ja	.
+if:IF_6_1	rdf:type	ifo:IF_6_1	.
+if:IF_6_1	rdf:type	ifo:Section	.
+if:IF_6_1	rdf:value	"SGLT2 阻害剤\r\n注意：関連のある化合物の効能又は効果等は、最新の添付文書を参照すること。"@ja	.
+if:IF_6_2_1	rdf:type	ifo:IF_6_2_1	.
+if:IF_6_2_1	rdf:type	ifo:Section	.
+if:IF_6_2_1	ifo:package_insert	pi:PI_18_1	.
+if:IF_6_2_1	rdf:value	"血中グルコースは血液循環を介して腎臓に到達した後に糸球体で濾過され、腎近位尿細管で再吸収される。\r\nSGLT は、Na+の濃度勾配を駆動力としてグルコースを細胞内へ能動輸送するトランスポーターであり、ヒ\r\nトにおけるSGLT1 とSGLT2 の機能について、消化管におけるグルコース吸収はSGLT1 が、腎近位尿細管\r\nにおけるグルコース再吸収はSGLT2 が、それぞれ主たる役割を担っていることが明らかになっている1)。\r\n本剤はSGLT2 阻害作用により、腎近位尿細管でのグルコース再吸収を抑制し、血液中の過剰なグルコー\r\nスを体外に排出することで血糖値を低下させ、2 型糖尿病における血糖コントロールを改善する。"@ja	.
+if:IF_6_2_1	dct:references	if:ref1	.
+if:IF_6_2_2	rdf:type	ifo:IF_6_2_2	.
+if:IF_6_2_2	rdf:type	ifo:Section	.
+if:IF_6_2_2	ifo:package_insert	pi:PI_18	.
+if:IF_6_2_2	rdf:value	"1）ヒト SGLT2阻害作用（in vitro）44,45)\r\n［試験方法］\r\nヒト SGLT の各サブタイプを発現させたCHO 細胞を用い、Na+依存的な14C-AMG の取り込み活性を指標\r\nとして、SGLT に対する阻害作用を検討した。\r\n［結果］\r\nヒト SGLT2 発現細胞において、本薬(0.1～300nmol/L)は濃度依存的にAMG の取り込みを阻害し、IC50\r\n値は7.38nmol/L であった。同様にヒトSGLT1 発現細胞において、本薬(30～100000nmol/L)は濃度依存的\r\nにAMG の取り込みを阻害し、IC50 値は1880nmol/L であった。\r\n2）正常及び各種 2 型糖尿病モデルマウスにおける尿中グルコース排泄促進作用\r\n(単回経口投与)46)\r\n［試験方法］\r\n正常マウスとして雄性ICR マウス(7 週齢、各群4 例)、2 型糖尿病モデルマウスとして雄性NA/STZ マウ\r\nス(8 週齢、各群4 例)及び雄性KK-Ay マウス(11 週齢、各群4 例)を用いて、本薬の尿中グルコース排泄促\r\n進作用を検討した。非絶食下において、本薬(0.01～10mg/kg)又は0.5％メチルセルロース水溶液(溶媒)を\r\n単回経口投与し、代謝ケージを用いて24 時間採尿を行った。投与後24 時間までの尿量及び尿中グルコー\r\nス濃度を測定して、尿中グルコース排泄量を算出した。\r\n［結果］\r\n本薬は、ICR マウス及びNA/STZ マウスにおいて3mg/kg 以上の用量で溶媒投与群と比較して尿量を有意\r\nに増加させたが、KK-Ay マウスでは有意な変化はみられなかった。\r\nいずれのモデル動物においても本薬は0.3mg/kg 以上の用量で尿中グルコース排泄量を溶媒投与群と比\r\n較して増加させた。\r\n3）正常及び各種 2 型糖尿病モデルマウスにおける液体栄養剤負荷後の血糖上昇に対する抑制作用（単回経\r\n口投与）47)\r\n［試験方法］\r\n正常マウスとして雄性ICR マウス(7 週齢、各群4 例)、2 型糖尿病モデルマウスとして雄性NA/STZ マウ\r\nス(8 週齢、各群4 例)及び雄性KK-Ay マウス(11 週齢、各群4 例)を用いて、液体栄養剤負荷後の血糖上昇\r\nに対する本薬単回経口投与による抑制作用及び本薬投与後の作用の持続性について検討した。\r\n一晩絶食したICR マウス、NA/STZ マウス及びKK-Ay マウスに本薬(0.1～1mg/kg)を単回経口投与し、投\r\n与後0.5、6 及び12 時間後に液体栄養剤(エンシュア®･H、20mL/kg)を経口投与した。各時間における血\r\n糖上昇量を比較するため、各液体栄養剤負荷から2 時間までの経時的血糖値と各液体栄養剤負荷前血糖\r\n値の差を用いて、血糖値AUC(増加分)を算出した。\r\n［結果］\r\nICR マウス及び各種2 型糖尿病マウスにおいて本薬は、経口投与後0.5、6 及び12 時間における液体栄\r\n養剤負荷後の血糖値AUC(増加分)を、0.1mg/kg の用量から有意に低下させた。この結果から、本薬の薬\r\n効が少なくとも投与後12 時間まで持続することが示唆された。\r\n4） Ayマウスにおける HbA1c値低下作用（反復経口投与）48)\r\n［試験方法］\r\n雄性 KK-Ay マウス(8 週齢、各群7 例)に本薬(0.3 及び1mg/kg)又は0.5％メチルセルロース水溶液(溶媒)\r\nを1 日1 回28 日間反復経口投与し、血糖値、長期の血糖コントロールの指標であるHbA1c 値及び血漿\r\n中インスリン値を測定した。\r\n［結果］\r\n本薬は、1mg/kg の用量で尿中グルコース排泄を促進し、血糖値を低下させ、0.3mg/kg の用量からHbA1c\r\n値を低下させたが、血漿中インスリン値には有意な変化はみられなかった。\r\n5） 2型糖尿病 db/dbマウスにおける HbA1c値低下作用（反復経口投与）49)\r\n［試験方法］\r\n雄性 2 型糖尿病db/db マウス(7 週齢、各群7～8 例)に本薬(0.1～1mg/kg)又は0.5％メチルセルロース水溶\r\n液(溶媒)を1 日1 回28 日間反復経口投与し、血糖値、血漿中インスリン値、HbA1c 値及び膵疲弊の指標\r\nとして膵インスリン含量を測定した。\r\n［結果］\r\n本薬は、0.1mg/kg の用量から有意に血糖値、HbA1c 値を低下させ、1mg/kg では血漿中インスリン値及び\r\n膵インスリン含量を有意に増加させた。\r\n\r\n6） ストレプトゾトシン誘発 1型糖尿病ラット(STZラット)における高血糖改善作用 50)\r\n［試験方法］\r\n採尿試験では、雄性STZラット(各群4例)に本薬(0.01～10mg/kg)又は0.5％メチルセルロース水溶液(溶媒)\r\nを単回経口投与し、その後24時間の尿中グルコース排泄量を測定した。経口グルコース負荷試験では、\r\n一晩絶食した雄性STZラット(各群4例)に本薬(0.01～3mg/kg)又は溶媒を単回経口投与し、その0.5時間後\r\nにグルコース溶液を経口投与した後、経時的に血糖値を測定した。反復経口投与試験では、雄性STZラッ\r\nト(各群6例)に本薬(0.1～3mg/kg)又は溶媒を1日1回4週間経口投与した後、血糖値及びHbA1c値を測定した。\r\n［結果］\r\n本薬は、単回経口投与により投与後24 時間の尿中グルコース排泄量を増加させ、グルコース溶液経口投\r\n与後の血糖値上昇を抑制した。また、本薬は、4 週間の反復経口投与により0.3mg/kg 以上の用量で血糖\r\n値及びHbA1c 値を有意に低下させた。\r\n7）2 型糖尿病患者における尿中グルコース排泄作用 5,6)\r\n2 型糖尿病患者を対象に、本剤50mg、100mg 又はプラセボを1 日1 回14 日間投与したところ、本剤投\r\n与群において最終投与後24 時間までの累積尿中グルコース排泄量はベースラインから増加した。また、\r\n空腹時血糖値はベースラインから減少した。(「Ⅴ.5.(2)臨床薬理試験」の項参照)\r\n8）1 型糖尿病患者における尿中グルコース排泄作用 7,8)\r\n1 型糖尿病患者を対象に、本剤25mg、50mg、100mg 又はプラセボを1 日1 回14 日間投与したところ、\r\n本剤投与群において初回投与後及び最終投与後24 時間までの累積尿中グルコース排泄量はベースライ\r\nンから増加した。また、空腹時血糖値はベースラインから減少した。(「Ⅴ.5.(2)臨床薬理試験」の項参\r\n照)\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。"@ja	.
+if:IF_6_2_2	dct:references	if:ref44	.
+if:IF_6_2_2	dct:references	if:ref45	.
+if:IF_6_2_2	dct:references	if:ref46	.
+if:IF_6_2_2	dct:references	if:ref47	.
+if:IF_6_2_2	dct:references	if:ref48	.
+if:IF_6_2_2	dct:references	if:ref49	.
+if:IF_6_2_2	dct:references	if:ref50	.
+if:IF_6_2_2	dct:references	if:ref5	.
+if:IF_6_2_2	dct:references	if:ref6	.
+if:IF_6_2_2	dct:references	if:ref7	.
+if:IF_6_2_2	dct:references	if:ref8	.
+if:IF_6_2_2	rdfs:seeAlso	if:IF_5_5_2	.
+if:IF_6_2_3	rdf:type	ifo:IF_6_2_3	.
+if:IF_6_2_3	rdf:type	ifo:Section	.
+if:IF_6_2_3	ifo:package_insert	pi:PI_18_1	.
+if:IF_6_2_3	rdf:value	"非臨床成績における作用発現時間・持続時間については、「(2)3)正常及び各種2 型糖尿病モデルマウス\r\nにおける液体栄養剤負荷後の血糖上昇に対する抑制作用(単回経口投与)」の項参照"@ja	.
+if:IF_7_1_1	rdf:type	ifo:IF_7_1_1	.
+if:IF_7_1_1	rdf:type	ifo:Section	.
+if:IF_7_1_1	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_1_1	rdf:value	"該当資料なし"@ja	.
+if:IF_7_1_1.item1	rdf:type	ifo:Item	.
+if:IF_7_1_1.item1	ifo:package_insert	pi:PI_16_1.item1	.
+if:IF_7_1_1.item1	dct:identifier	"7.1.1.item1"	.
+if:IF_7_1_1.item1	rdf:value	"1）健康成人［CL-0101］\r\n① 単回投与3,4）\r\n健康成人男性に本剤1～300mg を空腹時に単回経口投与したとき、血漿中未変化体濃度は投与後約1～3\r\n時間でCmax に達し、その後速やかに消失した。Cmax 及びAUCinf の平均値は投与量の増加に伴って\r\n上昇した。t1/2 の平均値は、消失相の血漿中濃度が十分評価できなかったと推測される本剤1mg 群で4.35\r\n時間であったが、3mg 群以上では10.01～13.34 時間で、投与量に依存する傾向は認められなかった。\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。"@ja	.
+if:IF_7_1_1.item1	dct:references	if:ref3	.
+if:IF_7_1_1.item1	dct:references	if:ref4	.
+if:IF_7_1_1.item2	rdf:type	ifo:Item	.
+if:IF_7_1_1.item2	ifo:package_insert	pi:PI_16_1.item2	.
+if:IF_7_1_1.item2	dct:identifier	"7.1.1.item2"	.
+if:IF_7_1_1.item2	rdf:value	"② 反復投与\r\n健康成人男性(各群8 例)に本剤20mg、50mg、100mg それぞれを単回経口投与した際(Day 1)、及び1 日\r\n休薬の後、7 日間反復経口投与した際(Day 9)の血漿中濃度を検討した。最終投与後(Day 9)の血漿中未変\r\n化体濃度は、投与後約1 時間でCmax に達し、その後速やかに消失した。Cmax 及びAUC24h は投与量の\r\n増加に伴って上昇した。t1/2 の平均値は11.24～15.36 時間であり、投与量に依存する傾向は認められな\r\nかった。Cmax の幾何平均比(Day 9/Day 1)は、20mg で1.179、50mg で1.104、100mg で1.235 であった。\r\nAUC24h の幾何平均比(Day 9/Day 1)は、20mg で1.257、50mg で1.190、100mg で1.231 であった。いずれ\r\nの投与量においてもCmax 及びAUC24h の幾何平均比は1.2 程度であり、本剤を7 日間反復経口投与し\r\nたときの蓄積性はわずかであった4)。また、トラフ濃度は反復投与3 日目でほぼ一定となったことから、\r\nイプラグリフロジンの薬物動態は反復投与3 日目に定常状態に達すると考えられた51)。\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。"@ja	.
+if:IF_7_1_1.item2	dct:references	if:ref51	.
+if:IF_7_1_1.item3	rdf:type	ifo:Item	.
+if:IF_7_1_1.item3	ifo:package_insert	pi:PI_16_1.item3	.
+if:IF_7_1_1.item3	dct:identifier	"7.1.1.item3"	.
+if:IF_7_1_1.item3	rdf:value	"2）2 型糖尿病患者\r\n① 単回投与［CL-0073］52,53)\r\n2 型糖尿病患者(8 例)に、本剤50mg を食前単回経口投与したときの血漿中未変化体濃度推移及び薬物動\r\n態パラメータは下図及び下表のとおりである。"@ja	.
+if:IF_7_1_1.item3	dct:references	if:ref52	.
+if:IF_7_1_1.item3	dct:references	if:ref53	.
+if:IF_7_1_1.item4	rdf:type	ifo:Item	.
+if:IF_7_1_1.item4	ifo:package_insert	pi:PI_16_1.item4	.
+if:IF_7_1_1.item4	dct:identifier	"7.1.1.item4"	.
+if:IF_7_1_1.item4	rdf:value	"② 反復投与［CL-0070］5,6)\r\n2 型糖尿病患者(各群9 例)に本剤50 又は100mg を1 日1 回14 日間食前反復経口投与したとき、最終投\r\n与後のCmax は1225 及び2030ng/mL、AUC24h は4808 及び9213ng・h/mL であった。\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。"@ja	.
+if:IF_7_1_1.item4	dct:references	if:ref5	.
+if:IF_7_1_1.item4	dct:references	if:ref6	.
+if:IF_7_1_1.item5	rdf:type	ifo:Item	.
+if:IF_7_1_1.item5	ifo:package_insert	pi:PI_16_1.item5	.
+if:IF_7_1_1.item5	dct:identifier	"7.1.1.item5"	.
+if:IF_7_1_1.item5	rdf:value	"3）1 型糖尿病患者［CL-6001］7)\r\n反復投与\r\n1 型糖尿病患者に本剤25、50 又は100mg(各群10、12 又は10 例)を1 日1 回14 日間、食前反復経口投\r\n与したとき、最終投与後のCmax は694、1400 及び2680ng/mL、AUC24h は2510、5790 及び10600ng・\r\nh/mL であった。"@ja	.
+if:IF_7_1_1.item5	dct:references	if:ref7	.
+if:IF_7_1_1.item6	rdf:type	ifo:Item	.
+if:IF_7_1_1.item6	ifo:package_insert	pi:PI_16_1.item6	.
+if:IF_7_1_1.item6	dct:identifier	"7.1.1.item6"	.
+if:IF_7_1_1.item6	rdf:value	"4）生物学的同等性試験［CL-7001］54)\n・スーグラ錠50mg(小型化錠)とスーグラ錠50mg(通常錠)との生物学的同等性試験\n健康成人男性32 例を対象に、2 剤2 時期のクロスオーバー試験として小型化錠及び通常錠をそれぞれ空\n腹時単回経口投与し、薬物動態を比較した結果、Cmax 及びAUC72h の幾何平均比の90％CI は、それぞ\nれ1.039(0.960～1.126)及び1.001(0.979～1.024)で、いずれも生物学的同等性の判定基準である0.80～1.25\nの範囲内にあり、小型化錠と通常錠の生物学的同等性が示された。"@ja	.
+if:IF_7_1_1.item6	dct:references	if:ref54	.
+if:IF_7_1_3	rdf:type	ifo:IF_7_1_3	.
+if:IF_7_1_3	rdf:type	ifo:Section	.
+if:IF_7_1_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_1_4	rdf:type	ifo:IF_7_1_4	.
+if:IF_7_1_4	rdf:type	ifo:Section	.
+if:IF_7_1_4	ifo:package_insert	pi:PI_16_7	.
+if:IF_7_1_4	ifo:item	if:IF_7_1_4.item1	.
+if:IF_7_1_4	ifo:item	if:IF_7_1_4.item2	.
+if:IF_7_1_4.item1	rdf:type	ifo:Item	.
+if:IF_7_1_4.item1	ifo:package_insert	pi:PI_16_7.item1	.
+if:IF_7_1_4.item1	dct:identifier	"7.1.4.item1"	.
+if:IF_7_1_4.item1	rdf:value	"1）食事の影響［CL-0071］52,55)\r\n非高齢健康成人男性(30 例)を対象に、本剤50mg を空腹時、食前又は食後単回経口投与したときの薬物\r\n動態を検討した。\r\nその結果、本剤の空腹時投与に対する食前投与のCmax 及びAUClast の幾何平均比(90％信頼区間)は\r\n1.23(1.14～1.33)及び1.04(1.01～1.07)、空腹時投与に対する食後投与のCmax 及びAUClast の幾何平均比\r\n(90％信頼区間)は0.82(0.76～0.89)及び1.00(0.97～1.03)であった。食前投与に対する食後投与のCmax 及\r\nびAUClast の幾何平均比(90%信頼区間)は0.67(0.62～0.72)及び0.97(0.94～0.99)であった。Tmax は空腹時\r\n投与と比較して食前投与で短縮し、食後投与で延長した。"@ja	.
+if:IF_7_1_4.item1	dct:references	if:ref52	.
+if:IF_7_1_4.item1	dct:references	if:ref55	.
+if:IF_7_1_4.item2	rdf:type	ifo:Item	.
+if:IF_7_1_4.item2	ifo:package_insert	pi:PI_16_7.item2	.
+if:IF_7_1_4.item2	dct:identifier	"7.1.4.item2"	.
+if:IF_7_1_4.item2	rdf:value	"2）併用薬の影響\n① メトホルミンとの併用（外国人データ）［CL-0056］56,57)\n2 型糖尿病患者(18 例)にメトホルミン(850、1000 又は1500mg)を1 日2 回及び本剤300mg を1 日1 回\n14 日間反復併用投与したとき、メトホルミンのCmax 及びAUC10h の単独投与時に対する幾何平均比\n［90％CI］は1.11［1.03, 1.19］及び1.18［1.08, 1.28］であった(用量補正したメトホルミンのAUC10h の\nベースライン値をモデルに含めた対数変換値に対する共分散分析)。本剤はメトホルミンの薬物動態に\n明らかな影響を及ぼさなかった。\n② ミグリトールとの併用［CL-0062］52,58)\r\n非高齢健康成人男性(30 例)に本剤100mg 及びミグリトール75mg を空腹時単回併用投与したとき、ミグ\r\nリトールのCmax 及びAUCinf の単独投与時に対する幾何平均比［90％CI］は0.761［0.672, 0.861］及\r\nび0.796［0.719, 0.881］であった。一方、本剤のCmax 及びAUCinf の単独投与時に対する幾何平均比\r\n［90％CI］は1.034［0.944, 1.132］及び1.015［0.988, 1.043］であった。本剤はミグリトールの薬物動態\r\nに明らかな影響を及ぼさなかった。また、ミグリトールは本剤の薬物動態に明らかな影響を及ぼさな\r\nかった。\n③ ピオグリタゾンとの併用（外国人データ）［CL-0060］59,60)\r\n非高齢健康成人男女(32 例)に本剤150mg を8 日間食前反復投与及びピオグリタゾン30mgを併用投与(本\r\n剤投与5 日目に食前単回投与)したとき、ピオグリタゾンのCmax 及びAUCinf の単独投与時に対する幾\r\n何平均比［90％CI］は0.986［0.877, 1.108］及び1.017［0.966, 1.070］であった*。非高齢健康成人男女\r\n(32 例)にピオグリタゾン30mg を10 日間食前反復投与及び本剤150mg を併用投与(ピオグリタゾン投与\r\n7 日目に食前単回投与)したとき、本剤のCmax 及びAUCinf の単独投与時に対する幾何平均比［90％CI］\r\nは0.935［0.863, 1.012］及び1.000［0.981, 1.020］であった*。本剤はピオグリタゾンの薬物動態に明ら\r\nかな影響を及ぼさなかった。また、ピオグリタゾンは本剤の薬物動態に明らかな影響を及ぼさなかった。\r\n*：投与薬剤、投与期及び投与順序、投与順序内被験者をモデルに含めた対数変換値に対する分散分析\n④ シタグリプチンとの併用（外国人データ）［CL-0066］60,61)\r\n非高齢健康成人男女(32 例)に本剤150mg を7 日間食前反復投与及びシタグリプチン100mg を併用投与\r\n(本剤投与5 日目に食前単回投与)したとき、シタグリプチンのCmax 及びAUCinf の単独投与時に対す\r\nる幾何平均比［90％CI］は0.924［0.828, 1.031］及び1.001［0.969, 1.035］であった*。非高齢健康成人\r\n男女(32 例)にシタグリプチン100mg を7 日間食前反復投与及び本剤150mg を併用投与(シタグリプチン\r\n投与4 日目に食前単回投与)したとき、本剤のCmax 及びAUCinf の単独投与時に対する幾何平均比［90％\r\nCI］は0.965［0.904, 1.031］及び0.950［0.934, 0.966］であった*。本剤はシタグリプチンの薬物動態に\r\n明らかな影響を及ぼさなかった。また、シタグリプチンは本剤の薬物動態に明らかな影響を及ぼさな\r\nかった。\r\n*：投与薬剤、投与期、投与順序、投与順序内被験者をモデルに含めた対数変換値に対する分散分析\n⑤ グリメピリドとの併用（外国人データ）［CL-0059］60,62)\r\n非高齢健康成人男女(26 例)に本剤150mg を7 日間食前反復投与及びグリメピリド2mg を併用投与(本剤\r\n投与5 日目に食前単回投与)したとき、グリメピリドのCmax 及びAUCinf の単独投与時に対する幾何平\r\n均比［90％CI］は1.100［1.019, 1.188］及び1.051［1.013, 1.090］であった*。非高齢健康成人男女(26 例)\r\nにグリメピリド1mg を5 日間食前反復投与及び本剤150mg を併用投与(グリメピリド投与3 日目に単回\r\n投与)したとき、本剤のCmax 及びAUCinf の単独投与時に対する幾何平均比［90％CI］は0.973［0.892,\r\n1.062］及び0.991［0.966, 1.016］であった*。本剤はグリメピリドの薬物動態に明らかな影響を及ぼさな\r\nかった。また、グリメピリドは本剤の薬物動態に明らかな影響を及ぼさなかった。\r\n*：投与薬剤、投与順序、被験者をモデルに含めた対数変換値に対する分散分析\n⑥ ミチグリニドとの併用［CL-0074］52,63)\r\n非高齢健康成人男性(30 例)に本剤100mg を3 日間食前反復投与及びミチグリニド10mg を併用投与(本\r\n剤投与3 日目に食前単回投与)したとき、ミチグリニドのCmax 及びAUCinf の単独投与時に対する幾何\r\n平均比［90％CI］は0.871［0.769, 0.986］及び1.011［0.994, 1.029］であった。非高齢健康成人男性(30\r\n例)にミチグリニド10mg を1 日3 回4 日間食前反復投与及び本剤100mg を併用投与(ミチグリニド投与\r\n2 日目に食前単回投与)したとき、本剤のCmax 及びAUCinf の単独投与時に対する幾何平均比［90％CI］\r\nは0.946［0.896, 0.999］及び1.004［0.982, 1.026］であった。本剤はミチグリニドの薬物動態に明らかな\r\n影響を及ぼさなかった。また、ミチグリニドは本剤の薬物動態に明らかな影響を及ぼさなかった。\n⑦ フロセミドとの併用（外国人データ）［CL-0054］52,64)\r\n非高齢健康成人男女(24 例)にフロセミド40mg を1 日1 回7 日間投与及び本剤150mg を併用投与(1 日1\r\n回5 日間反復投与)したとき、本剤はフロセミドの薬物の薬物動態に明らかな影響を及ぼさなかった。"@ja	.
+if:IF_7_1_4.item2	dct:references	if:ref56	.
+if:IF_7_1_4.item2	dct:references	if:ref57	.
+if:IF_7_1_4.item2	dct:references	if:ref52	.
+if:IF_7_1_4.item2	dct:references	if:ref58	.
+if:IF_7_1_4.item2	dct:references	if:ref59	.
+if:IF_7_1_4.item2	dct:references	if:ref60	.
+if:IF_7_1_4.item2	dct:references	if:ref61	.
+if:IF_7_1_4.item2	dct:references	if:ref62	.
+if:IF_7_1_4.item2	dct:references	if:ref63	.
+if:IF_7_1_4.item2	dct:references	if:ref64	.
+if:IF_7_2_1	rdf:type	ifo:IF_7_2_1	.
+if:IF_7_2_1	rdf:type	ifo:Section	.
+if:IF_7_2_1	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_1	rdf:value	"ノンコンパートメントモデルより算出した。"@ja	.
+if:IF_7_2_2	rdf:type	ifo:IF_7_2_2	.
+if:IF_7_2_2	rdf:type	ifo:Section	.
+if:IF_7_2_2	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_2	rdf:value	"該当資料なし"@ja	.
+if:IF_7_2_3	rdf:type	ifo:IF_7_2_3	.
+if:IF_7_2_3	rdf:type	ifo:Section	.
+if:IF_7_2_3	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_2_4	rdf:type	ifo:IF_7_2_4	.
+if:IF_7_2_4	rdf:type	ifo:Section	.
+if:IF_7_2_4	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_4	rdf:value	"(外国人データ)65)\r\n健康成人男女(14 例)に本剤25mg を空腹時1 時間持続静脈内投与した時の全身クリアランスは10.9L/h で\r\nあった。\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)で、1 日1 回朝食前又は朝食後に経口投与す\r\nるである。"@ja	.
+if:IF_7_2_4	dct:references	if:ref65	.
+if:IF_7_2_5	rdf:type	ifo:IF_7_2_5	.
+if:IF_7_2_5	rdf:type	ifo:Section	.
+if:IF_7_2_5	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_5	rdf:value	"(外国人データ)51,65)\r\n非高齢健康成人男女に本剤25mg を単回静脈内投与したときの分布容積は127L であった。\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)で、1 日1 回朝食前又は朝食後に経口投与す\r\nるである。"@ja	.
+if:IF_7_2_5	dct:references	if:ref51	.
+if:IF_7_2_5	dct:references	if:ref65	.
+if:IF_7_2_6	rdf:type	ifo:IF_7_2_6	.
+if:IF_7_2_6	rdf:type	ifo:Section	.
+if:IF_7_2_6	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_2_6	rdf:value	"該当資料なし"@ja	.
+if:IF_7_3_1	rdf:type	ifo:IF_7_3_1	.
+if:IF_7_3_1	rdf:type	ifo:Section	.
+if:IF_7_3_1	rdf:value	"一次吸収を仮定した2-コンパートメントモデルを用いた。"@ja	.
+if:IF_7_3_1	dct:references	if:ref66	.
+if:IF_7_3_2	rdf:type	ifo:IF_7_3_2	.
+if:IF_7_3_2	rdf:type	ifo:Section	.
+if:IF_7_3_2	rdf:value	"2 型糖尿病患者モデル66)\r\n2 型糖尿病患者を対象とした血糖日内変動試験［CL-0070］、腎機能低下患者PK/PD 試験［CL-0073］か\r\nら得られた薬物動態プロファイルデータ(534 点、43 症例)から非線形混合効果モデルを用いた母集団薬物\r\n動態モデルを構築し、第Ⅱ相用量設定試験［CL-0103］、第Ⅲ相単独療法試験［CL-0105］、長期投与試\r\n験［CL-0121］、腎機能低下患者試験［CL-0072］の4 試験から得られた計640 例、3714 時点の血漿中濃\r\n度データ(トラフ濃度)を加えてモデルの更新を行った。体表面積、GFR、総タンパク濃度、総ビリルビン\r\n濃度が経口クリアランスに対する有意な共変量として最終モデルに組み込まれた。経口クリアランスの母\r\n集団平均値は、各共変量の典型値において9.47L/h と推定された(個体間変動は23.4％)。体表面積が10％\r\n小さくなると、経口クリアランスは約6％低下することが示唆された。GFR については、GFR=45mL/min\r\nの患者(中等度腎機能低下患者)ではGFR=90mL/min の患者(腎機能正常患者)に比べ15％程度、経口クリア\r\nランスが低下することが示唆された。総タンパク濃度、総ビリルビン濃度については、正常範囲内の変動\r\nであれば、経口クリアランスはいずれも±10％以内の変動であると推察された。\r\n1 型糖尿病患者モデル67)\r\n1 型糖尿病患者を対象としたPK/PD 試験［CL-6001］から得られた血漿中未変化体データ(736 点、32 症\r\n例)から非線形混合効果モデルを用いた母集団薬物動態モデルを構築し、1 型糖尿病患者を対象とした第\r\nⅢ相試験［CL-6002］から得られた血漿中未変化体濃度データ(554 点、114 症例)を加えてモデルの更新を\r\n行った。GFR と性別が経口クリアランスに対する有意な共変量として最終モデルに組み込まれた。経口\r\nクリアランスの母集団平均値は、GFR の算術平均(92.63mL/min)において男性は9.36L/h、女性は8.10L/h\r\nと推定された。CL-6002 から得られたGFR の範囲(54.0～146mL/min)において、経口クリアランスは母集\r\n団平均に対して-19.6％から20.3％まで変化することが示唆された。2 型糖尿病で選択された体表面積は、\r\n性別により有意な差があり、1 型糖尿病において性別の代わりに体表面積を組み込んだ場合、経口クリア\r\nランスに与える影響は同程度となることから、両患者集団における共変量は、概ね同等と考えられた。"@ja	.
+if:IF_7_3_2	dct:references	if:ref66	.
+if:IF_7_3_2	dct:references	if:ref67	.
+if:IF_7_4	rdf:type	ifo:IF_7_4	.
+if:IF_7_4	rdf:type	ifo:Section	.
+if:IF_7_4	ifo:package_insert	pi:PI_16_2	.
+if:IF_7_4	ifo:item	if:IF_7_4.item1	.
+if:IF_7_4.item1	rdf:type	ifo:Item	.
+if:IF_7_4.item1	ifo:package_insert	pi:PI_16_2.item1	.
+if:IF_7_4.item1	dct:identifier	"7.4.item1"	.
+if:IF_7_4.item1	rdf:value	"バイオアベイラビリティ(外国人データ)65)\r\n健康成人男女(14 例)に本剤25mg を空腹時1 時間持続静脈内投与又は100mg を空腹時単回経口投与したと\r\nき、本剤の絶対バイオアベイラビリティは90.2％であった。本剤の吸収は良好と考えられた。\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)で、1 日1 回朝食前又は朝食後に経口投与する\r\nである。"@ja	.
+if:IF_7_4.item1	dct:references	if:ref65	.
+if:IF_7_5_1	rdf:type	ifo:IF_7_5_1	.
+if:IF_7_5_1	rdf:type	ifo:Section	.
+if:IF_7_5_1	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_1	rdf:value	"ラット68)\r\n雄白色ラットに14C-イプラグリフロジンを1mg/kg 単回経口投与したときの組織内放射能濃度は、大部分\r\nの組織において投与後1 時間以内に最高値を示した。投与後1 時間の大脳の放射能濃度は、血漿に比べて\r\n0.11 倍と低かった。\r\n「(5)その他の組織への移行性」の項参照"@ja	.
+if:IF_7_5_1	dct:references	if:ref68	.
+if:IF_7_5_1	rdfs:seeAlso	if:IF_7_5_1_5	.
+if:IF_7_5_2	rdf:type	ifo:IF_7_5_2	.
+if:IF_7_5_2	rdf:type	ifo:Section	.
+if:IF_7_5_2	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_2	rdf:value	"ラット68)\r\n妊娠 14 日目(器官形成期)の雌ラットに14C-イプラグリフロジンを非絶食下1mg/kg 単回経口投与したとき、\r\n投与後4 時間において胎盤及び胎児に母体血漿中放射能のそれぞれ1.2 倍及び0.4 倍の放射能が認められ、\r\nイプラグリフロジン由来成分が血液－胎盤関門を通過して胎児へ移行することが示された。"@ja	.
+if:IF_7_5_2	dct:references	if:ref68	.
+if:IF_7_5_3	rdf:type	ifo:IF_7_5_3	.
+if:IF_7_5_3	rdf:type	ifo:Section	.
+if:IF_7_5_3	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_3	rdf:value	"ラット68)\r\n授乳中(分娩後13 日目)の雌ラットに14C-イプラグリフロジンを非絶食下1mg/kg 単回経口投与したとき、\r\n乳汁中放射能濃度は投与後4 時間において最高値を示した。乳汁中放射能濃度は投与後48 時間において\r\n最高値の2％未満まで低下したことから、乳汁中の放射能の残留性は認められないと考えられた。また、\r\n投与後4、24 及び48 時間の哺乳児の血液、血漿及び組織において放射能が検出されたことから、イプラ\r\nグリフロジン由来成分が乳汁を介して哺乳児の組織に分布したものと考えられた。"@ja	.
+if:IF_7_5_3	dct:references	if:ref68	.
+if:IF_7_5_4	rdf:type	ifo:IF_7_5_4	.
+if:IF_7_5_4	rdf:type	ifo:Section	.
+if:IF_7_5_4	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_4	rdf:value	"該当資料なし"@ja	.
+if:IF_7_5_5	rdf:type	ifo:IF_7_5_5	.
+if:IF_7_5_5	rdf:type	ifo:Section	.
+if:IF_7_5_5	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_5	rdf:value	"ラット68)\r\n雄白色ラットに14C-イプラグリフロジンを1mg/kg 単回経口投与したときの組織内放射能濃度は、消化管\r\n以外では、大部分の組織において投与後1 時間以内に最高値を示した。投与後1 時間の放射能濃度は消化\r\n管以外では腎臓で最も高く、血漿に比べて9.49 倍高い濃度を示した。次いで肝臓、副腎、心臓及び顎下\r\n腺で血漿に比べて2.27～6.17 倍高い濃度を示し、大脳及び精巣では血漿に比べて0.11 及び0.21 倍と最も\r\n低かった。その後、いずれの組織においても放射能濃度は速やかに減少し、投与後24 時間では大部分の\r\n組織で最高値の10％未満であったが、精巣では最高値の21％であった。"@ja	.
+if:IF_7_5_5	dct:references	if:ref68	.
+if:IF_7_5_6	rdf:type	ifo:IF_7_5_6	.
+if:IF_7_5_6	rdf:type	ifo:Section	.
+if:IF_7_5_6	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_6	rdf:value	"(in vitro)\r\nイプラグリフロジンの血漿蛋白結合率を、14C-イプラグリフロジンを用いて限外濾過法により測定したと\r\nころ、添加濃度0.05～200μg/mL における血漿蛋白結合率は94.6％～96.5％であり、検討した濃度範囲に\r\nおいて血漿蛋白結合率はほぼ一定であった69)。\r\n血漿中主要結合蛋白を推定する目的で、健康成人の血漿中蛋白含量を参考に調製したヒト血清アルブミン\r\n(HSA、40mg/mL)、α1-酸性糖蛋白(α1-AGP、1mg/mL)、高密度リポ蛋白(HDL、3mg/mL)、低密度リポ蛋白\r\n(LDL、3mg/mL)及びγ-グロブリン(10mg/mL)に対する結合率を、14C-イプラグリフロジンを用いて限外濾\r\n過法により測定した。イプラグリフロジン(添加濃度2μg/mL)と最も高い結合率を示したのはHSA(89.8％)\r\nであり、次いでHDL(75.7％)、LDL(56.9％)、α1-AGP(48.3％)及びγ-グロブリン(7.8％)の順であった70)。"@ja	.
+if:IF_7_5_6	dct:references	if:ref69	.
+if:IF_7_5_6	dct:references	if:ref70	.
+if:IF_7_6_1	rdf:type	ifo:IF_7_6_1	.
+if:IF_7_6_1	rdf:type	ifo:Section	.
+if:IF_7_6_1	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_1	rdf:value	"(外国人データ)51)\r\n外国人健康成人に14C-イプラグリフロジンを単回経口投与したとき、血漿中放射能の主成分は未変化体で\r\nあり、グルクロン酸抱合代謝物であるM2 及びM4 も認められた。外国人健康成人、2 型糖尿病患者(腎機\r\n能正常及び軽度～高度腎機能低下)及び肝機能低下患者のすべてにおいて主代謝物はM2 であり、M2 以外\r\nの代謝物の曝露量はわずかであった。M2 以外の代謝物の曝露量は、グルクロン酸抱合代謝物であるM3\r\nとM4 が同程度であり、続いて硫酸抱合代謝物であるM6、グルクロン酸抱合代謝物であるM1 の順であっ\r\nた。以上の結果から、イプラグリフロジンは、主にグルクロン酸抱合代謝を受けると考えられた。また、\r\n肝・腎及び小腸ミクロソームを用いてイプラグリフロジンの代謝部位について検討した結果、イプラグリ\r\nフロジンは肝臓に加えて腎臓でも代謝されるが、小腸ではほとんど代謝されないと考えられた。"@ja	.
+if:IF_7_6_1	dct:references	if:ref51	.
+if:IF_7_6_1	dct:references	if:ref71	.
+if:IF_7_6_2	rdf:type	ifo:IF_7_6_2	.
+if:IF_7_6_2	rdf:type	ifo:Section	.
+if:IF_7_6_2	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_2	rdf:value	"(in vitro)\r\nヒト肝ミクロソーム及びヒトUGT 発現系を用いてイプラグリフロジンの代謝に関与する酵素を検討した\r\n結果、UGT2B7 が主代謝酵素と考えられ、UGT2B4、UGT1A8 及びUGT1A9 も寄与することが示唆された\r\n51,72)。また、イプラグリフロジンの各種CYP 及びUGT 分子種に対する阻害作用は弱く、CYP1A2 及び\r\nCYP3A4 に対する誘導作用もほとんど示さなかった73-75)。"@ja	.
+if:IF_7_6_2	dct:references	if:ref51	.
+if:IF_7_6_2	dct:references	if:ref72	.
+if:IF_7_6_2	dct:references	if:ref73	.
+if:IF_7_6_2	dct:references	if:ref74	.
+if:IF_7_6_2	dct:references	if:ref75	.
+if:IF_7_6_3	rdf:type	ifo:IF_7_6_3	.
+if:IF_7_6_3	rdf:type	ifo:Section	.
+if:IF_7_6_3	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_3	rdf:value	"(外国人データ)65)\r\n非高齢男女におけるバイオアベイラビリティが90.2％であったことから、未変化体の消失経路は投与経路\r\nに依存しないことが示唆された。初回通過効果はほとんどないと考えられる。"@ja	.
+if:IF_7_6_3	dct:references	if:ref65	.
+if:IF_7_6_4	rdf:type	ifo:IF_7_6_4	.
+if:IF_7_6_4	rdf:type	ifo:Section	.
+if:IF_7_6_4	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_4	rdf:value	"(in vitro)76)\nヒト SGLT2 及びSGLT1 の各サブタイプを発現させたCHO 細胞を用い、本薬の6 種類の代謝物について\nNa+依存的な14C-AMG の取り込み活性に対する阻害作用を検討した。\nヒト SGLT2 に対する本薬の代謝物(M1、M2、M3、M4、M5 及びM6)の阻害活性のIC50 値は、それぞれ\n686、1870、7110、3690、392 及び399nmol/L であり、本薬のIC50 値(7.38nmol/L)の約53～963 倍であった。\nまた、これら代謝物のSGLT1 に対する阻害活性のIC50 値は、47500nmol/L 以上であった。\r\nAMG：メチル-α-D-グルコピラノシド"@ja	.
+if:IF_7_6_4	dct:references	if:ref76	.
+if:IF_7_7	rdf:type	ifo:IF_7_7	.
+if:IF_7_7	rdf:type	ifo:Section	.
+if:IF_7_7	ifo:package_insert	pi:PI_16_5	.
+if:IF_7_7	rdf:value	"非高齢健康成人男性に本剤1～300mg を空腹時単回経口投与したとき、未変化体の尿中排泄率は約1％で\r\nあった3,4)。\r\n健康成人男性に14C-イプラグリフロジン100mg を空腹時単回経口投与したとき、投与後48 時間までに大\r\n部分(84.4％)の放射能が尿中及び糞中に排泄された。投与後144 時間までの放射能の尿中及び糞中排泄率は、\r\nそれぞれ67.9％及び32.7％(合計100.6％)であった。呼気中には放射能は検出されなかった(外国人デー\r\nタ)51,77)。\r\n健康成人、高齢者、腎機能低下患者、肝機能低下患者及び2 型糖尿病患者に経口投与したとき、尿中未変化\r\n体排泄率は0.65％～1.58％の範囲であり、いずれの試験においても尿中未変化体排泄率は低かった。\r\n本剤 100mg を外国人健康成人、2 型糖尿病患者(腎機能正常及び軽度～高度腎機能低下)及び肝機能低下患\r\n者に経口投与したとき、代謝物の尿中排泄率はそれぞれM1 で2.08％～6.82％、M2 で34.7％～64.79％、\r\nM3 で3.08％～5.88％、M4 で5.56％～31.72％及びM6 で0.938％～1.51％であった。\r\nしたがって、本剤を経口投与すると、主に肝臓でグルクロン酸抱合を受け、尿中に代謝物として排泄され\r\nると考えられた51)。\r\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。"@ja	.
+if:IF_7_7	dct:references	if:ref3	.
+if:IF_7_7	dct:references	if:ref4	.
+if:IF_7_7	dct:references	if:ref51	.
+if:IF_7_7	dct:references	if:ref77	.
+if:IF_7_8	rdf:type	ifo:IF_7_8	.
+if:IF_7_8	rdf:type	ifo:Section	.
+if:IF_7_8	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_8	rdf:value	"(in vitro)78)\r\nヒト P-糖蛋白(P-gp)を発現させたイヌ尿細管上皮細胞由来のMadin-Darby canine kidney II(MDCKⅡ)細胞を\r\n用いて、イプラグリフロジンのP-gp に対する基質性を評価した結果、イプラグリフロジンはP-gp の基質\r\nになると考えられた。また、P-gp を発現させたMDCKⅡ細胞を用いてジゴキシンの経細胞輸送に対するイ\r\nプラグリフロジン(添加濃度0.412～100μmol/L)の影響を検討した結果、検討したいずれの濃度においても\r\n影響を及ぼさなかったことから、イプラグリフロジンが併用薬剤に対してP-gp を介した薬物輸送阻害に基\r\nづく薬物相互作用を引き起こす可能性は低いと考えられた。"@ja	.
+if:IF_7_8	dct:references	if:ref78	.
+if:IF_7_9	rdf:type	ifo:IF_7_9	.
+if:IF_7_9	rdf:type	ifo:Section	.
+if:IF_7_9	ifo:package_insert	pi:PI_16_6	.
+if:IF_7_9	rdf:value	"該当資料なし"@ja	.
+if:IF_7_10	rdf:type	ifo:IF_7_10	.
+if:IF_7_10	rdf:type	ifo:Section	.
+if:IF_7_10	ifo:package_insert	pi:PI_16_6	.
+if:IF_7_10	rdf:value	"1）腎機能低下患者\n① 軽度及び中等度腎機能低下患者［CL-0073］52,53)\n正常な腎機能を有する2 型糖尿病患者(8 例)、及び軽度(9 例)又は中等度腎機能低下(8 例)を伴う2 型糖\n尿病患者に本剤50mg を食前単回経口投与した結果、本剤は速やかに吸収され、投与後約1 時間でCmax\nに到達し、血漿中未変化体濃度はいずれの群でも二相性に消失した。\n腎機能正常患者に対する軽度腎機能低下患者のCmax 及びAUCinf の幾何平均比(90％信頼区間)は\n1.12(0.83～1.52)及び0.94(0.69～1.26)、中等度腎機能低下患者のCmax 及びAUCinf の幾何平均比(90％信\n頼区間)は1.17(0.85～1.60)及び1.21(0.89～1.65)であった。\n1 日尿中グルコース排泄量のベースラインからの変化量は、腎機能正常患者で約71g、軽度腎機能低下\n患者で約61g、中等度腎機能低下患者で約38g であり、腎機能低下患者で低かった。Cmax 及びAUCinf\nの平均値はそれぞれ腎機能正常患者で1044.74ng/mL、4821.35ng・h/mL、腎機能軽度低下患者で\n1088.77ng/mL 及び4482.28ng・h/mL、腎機能中等度低下患者で1160.97ng/mL 及び5947.60ng・h/mL で\nあった。t1/2 には、腎機能低下による影響は認められなかった。\n② 重度腎機能低下患者（外国人データ）［CL-0064］52,79)\n腎機能の程度が異なる外国人2 型糖尿病患者に本剤100mg を空腹時単回経口投与したとき、腎機能正\n常患者(8 例)に対する重度腎機能低下患者(8 例)のCmax 及びAUCinf の幾何平均比(90％信頼区間)は\n1.05(0.85～1.31)及び1.47(1.12～1.92)であった(自然対数変換値に対する分散分析)。\n一方、20 時間あたりの尿中グルコース排泄量は、腎機能正常患者で約49g(ベースライン値：約1g)であっ\nたのに対し、重度腎機能低下患者では約12g(ベースライン値：約2g)であった。\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。\n2）肝機能低下患者（外国人データ）［CL-0063］80,81)\n中等度(Child-Pugh 分類B、スコア7～9)の肝機能低下患者(8 例)に本剤100mg を空腹時単回経口投与した\nとき、健康成人(8 例)に対する中等度肝機能低下患者のCmax 及びAUCinf の幾何平均比(90％信頼区間)\nは1.27(0.93～1.73)及び1.25(0.94～1.66)であった(投与群、年齢、BMI をモデルに含めた自然対数変換値\nに対する分散分析)。\n3）高齢者（男女）/非高齢男女（外国人データ）［CL-0052］52,82)\n① 加齢の影響\n健康な非高齢(18 歳以上45 歳以下、24 例)及び高齢(65 歳以上、25 例)男女に本剤100mg を1 日1 回14\n日間食前反復経口投与したとき、非高齢男性に対する高齢男性のCmax 及びAUC24h の幾何平均比(90％\n信頼区間)は0.99(0.84～1.16)及び1.21(1.06～1.38)であった。一方、非高齢女性に対する高齢女性のCmax\n及びAUC24h の幾何平均比(90％信頼区間)は1.25(1.06～1.49)及び1.45(1.27～1.67)であった(年齢、性別及\nび年齢と性別との交互作用を固定効果とした② 性差\n健康な男性及び女性に本剤100mg を1 日1 回14 日間食前反復経口投与したとき、非高齢男性に対する\n非高齢女性のCmax 及びAUC24h の幾何平均比(90％信頼区間)は1.06(0.89～1.25)及び1.16(1.01～1.33)で\nあった。一方、高齢男性に対する高齢女性のCmax 及びAUC24h の幾何平均比(90％信頼区間)は1.35(1.15\n～1.58)及び1.39(1.22～1.59)であった(年齢、性別及び年齢と性別との交互作用を固定効果としたモデル\nを用いて算出)。モデルを用いて算出)。\n注)本剤の承認された1 回用量は50mg(効果不十分な場合は100mg まで)である。"@ja	.
+if:IF_7_10	dct:references	if:ref52	.
+if:IF_7_10	dct:references	if:ref53	.
+if:IF_7_10	dct:references	if:ref79	.
+if:IF_7_10	dct:references	if:ref80	.
+if:IF_7_10	dct:references	if:ref81	.
+if:IF_7_10	dct:references	if:ref82	.
+if:IF_7_11	rdf:type	ifo:IF_7_11	.
+if:IF_7_11	rdf:type	ifo:Section	.
+if:IF_7_11	ifo:package_insert	pi:PI_16_8	.
+if:IF_7_11	rdf:value	"該当資料なし"@ja	.
+if:IF_8_1	rdf:type	ifo:IF_8_1	.
+if:IF_8_1	rdf:type	ifo:Section	.
+if:IF_8_1	ifo:package_insert	pi:PI_1	.
+if:IF_8_1	ifo:item	if:IF_8_1.item1	.
+if:IF_8_1.item1	rdf:type	ifo:Item	.
+if:IF_8_1.item1	ifo:package_insert	pi:PI_1.item1	.
+if:IF_8_1.item1	dct:identifier	"8.1.item1"	.
+if:IF_8_1.item1	rdf:value	"該当しない"@ja	.
+if:IF_8_2	rdf:type	ifo:IF_8_2	.
+if:IF_8_2	rdf:type	ifo:Section	.
+if:IF_8_2	ifo:package_insert	pi:PI_2	.
+if:IF_8_2	ifo:item	if:IF_8_2.item1	.
+if:IF_8_2	ifo:item	if:IF_8_2.item2	.
+if:IF_8_2	ifo:item	if:IF_8_2.item3	.
+if:IF_8_2.item1	rdf:type	ifo:Item	.
+if:IF_8_2.item1	ifo:package_insert	pi:PI_2.item1	.
+if:IF_8_2.item1	dct:identifier	"8.2.item1"	.
+if:IF_8_2.item1	rdf:value	"2.1 薬剤の一般的注意事項として設定した。"@ja	.
+if:IF_8_2.item2	rdf:type	ifo:Item	.
+if:IF_8_2.item2	ifo:package_insert	pi:PI_2.item2	.
+if:IF_8_2.item2	dct:identifier	"8.2.item2"	.
+if:IF_8_2.item2	rdf:value	"2.2 重症ケトーシス、糖尿病性昏睡又は前昏睡のような急性代謝失調の状態に対しては、輸液、インスリ\r\nン療法が必須であり、本剤は適さないため設定した。"@ja	.
+if:IF_8_2.item3	rdf:type	ifo:Item	.
+if:IF_8_2.item3	ifo:package_insert	pi:PI_2.item3	.
+if:IF_8_2.item3	dct:identifier	"8.2.item3"	.
+if:IF_8_2.item3	rdf:value	"2.3 重症感染症、手術前後、重篤な外傷のある患者に対しては、インスリン注射による的確な血糖管理が\r\n望まれるため設定した。"@ja	.
+if:IF_8_3	rdf:type	ifo:IF_8_3	.
+if:IF_8_3	rdf:type	ifo:Section	.
+if:IF_8_3	rdf:value	"「Ⅴ.治療に関する項目」の項を参照すること。"@ja	.
+if:IF_8_3	rdfs:seeAlso	if:IF_5	.
+if:IF_8_4	rdf:type	ifo:IF_8_4	.
+if:IF_8_4	rdf:type	ifo:Section	.
+if:IF_8_4	rdf:value	"「Ⅴ.治療に関する項目」の項を参照すること。"@ja	.
+if:IF_8_4	rdfs:seeAlso	if:IF_5	.
+if:IF_8_5	rdf:type	ifo:IF_8_5	.
+if:IF_8_5	rdf:type	ifo:Section	.
+if:IF_8_5	ifo:package_insert	pi:PI_8	.
+if:IF_8_5	ifo:item	if:IF_8_5.item1	.
+if:IF_8_5	ifo:item	if:IF_8_5.item2	.
+if:IF_8_5	ifo:item	if:IF_8_5.item3	.
+if:IF_8_5	ifo:item	if:IF_8_5.item4	.
+if:IF_8_5	ifo:item	if:IF_8_5.item5	.
+if:IF_8_5	ifo:item	if:IF_8_5.item6	.
+if:IF_8_5	ifo:item	if:IF_8_5.item7	.
+if:IF_8_5	ifo:item	if:IF_8_5.item8	.
+if:IF_8_5	ifo:item	if:IF_8_5.item9	.
+if:IF_8_5.item1	rdf:type	ifo:Item	.
+if:IF_8_5.item1	ifo:package_insert	pi:PI_8.item1	.
+if:IF_8_5.item1	dct:identifier	"8.5.item1"	.
+if:IF_8_5.item1	rdf:value	"8.1 患者に対しては、低血糖症状及びその対処方法について十分説明すること。特に、インスリン製剤、\r\nスルホニルウレア剤又は速効型インスリン分泌促進剤と併用する場合には、これらの薬剤による低血\r\n糖のリスクが増加するおそれがある。また、GLP-1 受容体作動薬との併用試験においても低血糖が認\r\nめられた。これらの薬剤と併用する場合には、これらの薬剤の減量を検討すること。（「Ⅷ.7.(2)併用\r\n注意とその理由」の項参照)"@ja	.
+if:IF_8_5.item1	rdfs:seeAlso	if:IF_8_7_2	.
+if:IF_8_5.item2	rdf:type	ifo:Item	.
+if:IF_8_5.item2	ifo:package_insert	pi:PI_8.item2	.
+if:IF_8_5.item2	dct:identifier	"8.5.item2"	.
+if:IF_8_5.item2	rdf:value	"8.2 糖尿病薬の一般的な注意事項を参考に設定した。"@ja	.
+if:IF_8_5.item3	rdf:type	ifo:Item	.
+if:IF_8_5.item3	ifo:package_insert	pi:PI_8.item3	.
+if:IF_8_5.item3	dct:identifier	"8.5.item3"	.
+if:IF_8_5.item3	rdf:value	"8.3 治療期最終時には投与開始時からの血清クレアチニン、eGFR の明らかな変動はみられなかったが、\r\n本剤投与2 週後わずかに一過性の血清クレアチニンの上昇又はeGFR の低下がみられた。また、類薬(海\r\n外)では、血清クレアチニンの上昇又はeGFR の低下がみられているので、腎機能を定期的に検査する\r\nとともに、腎機能障害患者における治療にあたっては経過を十分に観察すること。"@ja	.
+if:IF_8_5.item4	rdf:type	ifo:Item	.
+if:IF_8_5.item4	ifo:package_insert	pi:PI_8.item4	.
+if:IF_8_5.item4	dct:identifier	"8.5.item4"	.
+if:IF_8_5.item4	rdf:value	"8.4 糖尿病患者は一般に尿路感染症、皮膚感染症等の感染症にかかりやすいことが知られているが、本剤の\r\n薬理作用による尿中グルコース排泄量の増加に伴い、尿路感染症及び性器感染症の発現及び悪化のリス\r\nクを高める可能性がある。状態に応じて本剤の休薬を考慮すること。患者に対しては、症状及びその対\r\n処方法について説明すること。尿路感染症に関連する有害事象の発現割合は、本剤の国内第Ⅱ/Ⅲ相臨床\r\n試験ではプラセボ群と本剤各用量群の間で明らかな違いはみられなかった。腎盂腎炎等の重篤な尿路感\r\n染症発現に対する本剤の関連性は不明だが、作用機序から本剤が起炎菌の増殖を促進する可能性も考え\r\nられる。性器感染症に関連する有害事象は、本剤の国内第Ⅱ/Ⅲ相臨床試験においてプラセボ群に比べ本\r\n剤群で発現割合が高く、男性より女性で多く認められた。また、市販後のSGLT2 阻害剤投与において、\r\n腎盂腎炎があらわれた後に敗血症を起こす症例が集積されたことから、尿路感染を起こして、腎盂腎炎、\r\n敗血症等の重篤な感染症に至る旨を記載した。さらに、国内外において、SGLT2 阻害剤と因果関係が否\r\n定できない外陰部及び会陰部の壊死性筋膜炎(フルニエ壊疽)を認めた症例が報告されていることから「重\r\n要な基本的注意」の項に追記し注意喚起することとした。診療時には十分注意すること。"@ja	.
+if:IF_8_5.item5	rdf:type	ifo:Item	.
+if:IF_8_5.item5	ifo:package_insert	pi:PI_8.item5	.
+if:IF_8_5.item5	dct:identifier	"8.5.item5"	.
+if:IF_8_5.item5	rdf:value	"8.5 本剤はSGLT2 によるグルコース再吸収を阻害するため、尿中グルコース排泄量の増加により尿浸透圧\r\nが上昇し、浸透圧利尿によって尿量が増え、体液量に影響を及ぼす可能性がある。\r\n本剤の国内第Ⅱ/Ⅲ相臨床試験では、ヘマトクリットやBUN などのわずかな増加が認められており、\r\n体液量減少に関連する有害事象として最も多くみられたものは口渇であった。多尿、頻尿を来し、脱\r\n水症状を起こすおそれがあるため、口渇感等の患者の状態を観察し、脱水、血圧低下等の異常が認め\r\nられた場合は、休薬や補液等の適切な処置を行うこと。患者に対しては、口渇感等に注意し適度な水\r\n分補給を行うよう指導すること。\r\nまた、潜在的に体液喪失のリスクを有する患者では、脱水や糖尿病性ケトアシドーシス、高浸透圧高\r\n血糖症候群、脳梗塞を含む血栓・塞栓症等を未然に防ぐことが大切である。特に高齢者や利尿剤の併\r\n用、体内の水分調節に関わる内分泌機能異常、下痢・嘔吐のある血糖コントロール不良の患者に対し\r\nては、十分に注意すること。夏場は発汗などにより水分を失いやすいため、特に注意すること。"@ja	.
+if:IF_8_5.item6	rdf:type	ifo:Item	.
+if:IF_8_5.item6	ifo:package_insert	pi:PI_8.item6	.
+if:IF_8_5.item6	dct:identifier	"8.5.item6"	.
+if:IF_8_5.item6	rdf:value	"8.6 本剤の薬理作用によりエネルギー源の一つであるグルコースが尿中に排泄されるため、それに伴い脂\r\n肪酸代謝が亢進し、脂肪量が減少することが推察される。その結果として、体重減少に加えてケトン\r\n体が増加する可能性が考えられる。\r\n一般に、糖尿病患者では、インスリン不足のために体内の糖をエネルギーとして十分に利用できず、\r\n脂肪酸代謝が亢進し、尿中ケトン体の増加を認めることがある。\r\n尿中ケトン体又は血中ケトン体は糖尿病における病状を確認する一つの臨床検査として使用されてい\r\nるが、本剤投与中は血糖コントロールが良好な場合でも、尿中ケトン体陽性又は血中ケトン体増加を\r\n呈することがあるため、診療時には十分注意すること。本剤の2 型糖尿病患者を対象とした国内第Ⅱ/\r\nⅢ相臨床試験では、本剤によるケトン体増加の程度は臨床上問題とならない程度であることが示され\r\nている。また、1 型糖尿病患者を対象とした国内第Ⅱ/Ⅲ相試験ではケトアシドーシスの発現はなかっ\r\nたものの、1 型糖尿病のようなインスリン依存状態の患者では、急激な高血糖や糖尿病性ケトアシドー\r\nシスが発現する可能性があることから、1 型糖尿病患者及びインスリン分泌能が低下している患者では\r\n糖尿病性ケトアシドーシスの発現リスクの上昇が否定できないため、投与する際は観察を十分に行う\r\nこと。"@ja	.
+if:IF_8_5.item7	rdf:type	ifo:Item	.
+if:IF_8_5.item7	ifo:package_insert	pi:PI_8.item7	.
+if:IF_8_5.item7	dct:identifier	"8.5.item7"	.
+if:IF_8_5.item7	rdf:value	"8.7 尿の生成自体が著しく減少している無尿、乏尿では、本剤の尿中グルコース排泄促進作用は著しく損\r\nなわれ、効果が発揮できない。また、未治療の排尿困難、尿閉の患者では、本剤の十分な効果が期待\r\nできない可能性や、排尿困難、尿閉の病態悪化につながる可能性があるので、十分な排尿が行われる\r\nよう排尿困難、尿閉に対する治療や処置を優先すること。排尿困難、無尿、乏尿あるいは尿閉に対す\r\nる治療を行っていない患者に対しては、他の治療法を考慮すること。"@ja	.
+if:IF_8_5.item8	rdf:type	ifo:Item	.
+if:IF_8_5.item8	ifo:package_insert	pi:PI_8.item8	.
+if:IF_8_5.item8	dct:identifier	"8.5.item8"	.
+if:IF_8_5.item8	rdf:value	"8.8 本剤投与による体重減少は、尿中グルコース排泄に伴う浸透圧利尿による水分量減少と、体内に蓄積\r\nされるカロリーの減少に伴う脂肪減少が背景にあるものと考えられる。"@ja	.
+if:IF_8_5.item9	rdf:type	ifo:Item	.
+if:IF_8_5.item9	ifo:package_insert	pi:PI_8.item9	.
+if:IF_8_5.item9	dct:identifier	"8.5.item9"	.
+if:IF_8_5.item9	rdf:value	"8.9 本剤投与により、低血糖症状が起こるおそれがあることから、高所作業、自動車の運転等に従事して\r\nいる患者に投与する際には注意が必要と考え設定した。"@ja	.
+if:IF_8_6_1	rdf:type	ifo:IF_8_6_1	.
+if:IF_8_6_1	rdf:type	ifo:Section	.
+if:IF_8_6_1	ifo:package_insert	pi:PI_9_1	.
+if:IF_8_6_1	ifo:item	if:IF_8_6_1.item1	.
+if:IF_8_6_1	ifo:item	if:IF_8_6_1.item2	.
+if:IF_8_6_1	ifo:item	if:IF_8_6_1.item3	.
+if:IF_8_6_1.item1	rdf:type	ifo:Item	.
+if:IF_8_6_1.item1	ifo:package_insert	pi:PI_9_1.item1	.
+if:IF_8_6_1.item1	dct:identifier	"8.6.1.item1"	.
+if:IF_8_6_1.item1	rdf:value	"9.1.1 次に掲げる患者又は状態は低血糖を起こすおそれがあるため設定した。\n・脳下垂体機能不全又は副腎機能不全\n脳下垂体機能不全又は副腎機能不全を合併している患者では、グルココルチコイド分泌不全により血\n糖値が下がった際に十分な血糖値の回復ができず低血糖のリスクを増大させ、また、低血糖に至ると\n遷延する可能性がある。\n・栄養不良状態、るいそう、飢餓状態、不規則な食事摂取、食事摂取量の不足又は衰弱状態\n本剤は尿中へのグルコース排出を促進するため体重を減少させることがある。体重減少は一般には糖\n尿病治療において好ましい作用となるが、本項に該当する患者に対しては栄養不良状態を悪化させる\nおそれがある。また、栄養不良状態、るいそう、飢餓状態、不規則な食事摂取、食事摂取量の不足又\nは衰弱状態では、肝臓におけるグルコースの貯蔵が十分に行われず、そのため本剤の作用により血糖\n値が低下した場合、血糖値を回復させるだけのグルコースを生成できずに、低血糖を起こすおそれが\nある。\n・激しい筋肉運動\r\n筋肉運動の際に筋肉での糖利用が肝臓からの糖放出を上回ると血糖値が低下し、低血糖を起こすおそ\r\nれがある。\r\n・過度のアルコール摂取者\r\nアルコールは肝臓における糖新生を抑制する作用があり、過度のアルコール摂取者では本剤によって\r\n血糖を低下させた際に十分なグルコース生成ができずに低血糖に至る可能性がある。"@ja	.
+if:IF_8_6_1.item2	rdf:type	ifo:Item	.
+if:IF_8_6_1.item2	ifo:package_insert	pi:PI_9_1.item2	.
+if:IF_8_6_1.item2	dct:identifier	"8.6.1.item2"	.
+if:IF_8_6_1.item2	rdf:value	"9.1.2 尿路感染症に関連する有害事象の発現割合に、プラセボ群と本剤各用量群の間で明らかな違いはみ\r\nられなかった。しかしながら、2 型糖尿病患者を対象とした国内臨床試験で腎盂腎炎が1,669 例中2 例\r\nにみられ、そのうち1 例は下部尿路感染症から上部尿路感染症に進展した症例であった。腎盂腎炎等の\r\n重篤な尿路感染症発現に対する本剤の寄与は不明だが、作用機序から本剤が起炎菌の増殖を促進する可\r\n能性もある。また、性器感染症に関連する有害事象の発現割合は、プラセボ群と比べ本剤群で発現割合\r\nが高かったが、重篤化した症例はみられなかった。性器感染症で重篤化した症例はないものの本剤によ\r\nり発現リスクを高めており、症状を悪化させる可能性もある。"@ja	.
+if:IF_8_6_1.item3	rdf:type	ifo:Item	.
+if:IF_8_6_1.item3	ifo:package_insert	pi:PI_9_1.item3	.
+if:IF_8_6_1.item3	dct:identifier	"8.6.1.item3"	.
+if:IF_8_6_1.item3	rdf:value	"9.1.3 市販後のSGLT2 阻害剤投与において、脱水及びそれに引き続く脳梗塞を含む血栓・塞栓症等が発現\r\nする重篤な症例が集積されており、市販後に集積された症例の中には、HbA1c が10％を超える血糖コン\r\nトロールが極めて不良な患者(尿糖が高く、浸透圧利尿が起こりやすい状態)、高齢者及び利尿剤併用患\r\n者等の体液量減少を起こしやすい患者が認められている。"@ja	.
+if:IF_8_6_2	rdf:type	ifo:IF_8_6_2	.
+if:IF_8_6_2	rdf:type	ifo:Section	.
+if:IF_8_6_2	ifo:package_insert	pi:PI_9_2	.
+if:IF_8_6_2	ifo:item	if:IF_8_6_2.item1	.
+if:IF_8_6_2.item1	rdf:type	ifo:Item	.
+if:IF_8_6_2.item1	ifo:package_insert	pi:PI_9_2.item1	.
+if:IF_8_6_2.item1	dct:identifier	"8.6.2.item1"	.
+if:IF_8_6_2.item1	rdf:value	"臨床試験成績より、腎機能低下に伴い血糖降下作用が減弱することが示唆された。本剤は糸球体で濾過さ\r\nれたグルコースの腎尿細管での再吸収を阻害することによって血糖降下作用を発揮するため、著しく糸球\r\n体濾過量が低下している重度の腎機能障害のある患者又は透析中の末期腎不全患者では本剤の効果が期\r\n待できないことより設定した。また、中等度の腎機能障害のある患者では本剤の効果が十分に得られない\r\n可能性があるため投与の必要性を慎重に判断するよう設定した。(「Ⅴ.5.(5)1)腎機能低下患者試験(2 型糖\r\n尿病患者)」、「Ⅴ.2.効能又は効果に関連する注意5.1」及び「Ⅷ.5.重要な基本的注意とその理由8.3」の\r\n項参照)"@ja	.
+if:IF_8_6_2.item1	rdfs:seeAlso	if:IF_5_5_1	.
+if:IF_8_6_2.item1	rdfs:seeAlso	if:IF_5_2	.
+if:IF_8_6_2.item1	rdfs:seeAlso	if:IF_8_5	.
+if:IF_8_6_3	rdf:type	ifo:IF_8_6_3	.
+if:IF_8_6_3	rdf:type	ifo:Section	.
+if:IF_8_6_3	ifo:package_insert	pi:PI_9_3	.
+if:IF_8_6_3	ifo:item	if:IF_8_6_3.item1	.
+if:IF_8_6_3.item1	rdf:type	ifo:Item	.
+if:IF_8_6_3.item1	ifo:package_insert	pi:PI_9_3.item1	.
+if:IF_8_6_3.item1	dct:identifier	"8.6.3.item1"	.
+if:IF_8_6_3.item1	rdf:value	"9.3.1 本剤は主に肝臓で代謝を受けると考えられることから、重度肝機能低下患者では中等度肝機能低下\r\n患者以上の曝露量の増加が想定されるものの、中等度肝機能低下患者における未変化体の曝露量の上昇\r\nは健康成人に比較してCmax で約27％、AUCinf で約25％にとどまること77)、更に本剤の消失に対して\r\n腎臓での代謝の寄与が示唆されていることを考慮すると、重度肝機能低下患者における曝露量の増加も\r\n安全性に大きく影響する程度ではないと考えられる。しかしながら、重度肝機能低下患者に対しては使\r\n用経験がなく安全性が確立していないことから設定した。"@ja	.
+if:IF_8_6_3.item1	dct:references	if:ref77	.
+if:IF_8_6_4	rdf:type	ifo:IF_8_6_4	.
+if:IF_8_6_4	rdf:type	ifo:Section	.
+if:IF_8_6_4	ifo:package_insert	pi:PI_9_4	.
+if:IF_8_6_4	ifo:item	if:IF_8_6_4.item1	.
+if:IF_8_6_4.item1	rdf:type	ifo:Item	.
+if:IF_8_6_4.item1	ifo:package_insert	pi:PI_9_4.item1	.
+if:IF_8_6_4.item1	dct:identifier	"8.6.4.item1"	.
+if:IF_8_6_4.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_6_5	rdf:type	ifo:IF_8_6_5	.
+if:IF_8_6_5	rdf:type	ifo:Section	.
+if:IF_8_6_5	ifo:package_insert	pi:PI_9_5	.
+if:IF_8_6_5	ifo:item	if:IF_8_6_5.item1	.
+if:IF_8_6_5.item1	rdf:type	ifo:Item	.
+if:IF_8_6_5.item1	ifo:package_insert	pi:PI_9_5.item1	.
+if:IF_8_6_5.item1	dct:identifier	"8.6.5.item1"	.
+if:IF_8_6_5.item1	rdf:value	"妊婦に対する使用経験がなく、安全性は確立されていないことから設定した。\r\nまた、動物実験(ラット)で胎児への移行、出生時の体重増加抑制が報告されていること、類薬の動物実験\r\n(ラット)で、ヒトの妊娠中期及び後期にあたる幼若動物への曝露により、腎盂及び尿細管の拡張が報告さ\r\nれていることから設定した。"@ja	.
+if:IF_8_6_6	rdf:type	ifo:IF_8_6_6	.
+if:IF_8_6_6	rdf:type	ifo:Section	.
+if:IF_8_6_6	ifo:package_insert	pi:PI_9_6	.
+if:IF_8_6_6	ifo:item	if:IF_8_6_6.item1	.
+if:IF_8_6_6.item1	rdf:type	ifo:Item	.
+if:IF_8_6_6.item1	ifo:package_insert	pi:PI_9_6.item1	.
+if:IF_8_6_6.item1	dct:identifier	"8.6.6.item1"	.
+if:IF_8_6_6.item1	rdf:value	"授乳婦に対する使用経験がなく、安全性は確立されていないことから設定した。\r\nまた、動物実験(ラット)で乳汁中への移行が報告されていることから設定した。"@ja	.
+if:IF_8_6_7	rdf:type	ifo:IF_8_6_7	.
+if:IF_8_6_7	rdf:type	ifo:Section	.
+if:IF_8_6_7	ifo:package_insert	pi:PI_9_7	.
+if:IF_8_6_7	ifo:item	if:IF_8_6_7.item1	.
+if:IF_8_6_7.item1	rdf:type	ifo:Item	.
+if:IF_8_6_7.item1	ifo:package_insert	pi:PI_9_7.item1	.
+if:IF_8_6_7.item1	dct:identifier	"8.6.7.item1"	.
+if:IF_8_6_7.item1	rdf:value	"小児等を対象とした有効性及び安全性を指標とした臨床試験は実施しておらず、安全性は確立していない\r\nことから設定した。"@ja	.
+if:IF_8_6_8	rdf:type	ifo:IF_8_6_8	.
+if:IF_8_6_8	rdf:type	ifo:Section	.
+if:IF_8_6_8	ifo:package_insert	pi:PI_9_8	.
+if:IF_8_6_8	ifo:item	if:IF_8_6_8.item1	.
+if:IF_8_6_8.item1	rdf:type	ifo:Item	.
+if:IF_8_6_8.item1	ifo:package_insert	pi:PI_9_8.item1	.
+if:IF_8_6_8.item1	dct:identifier	"8.6.8.item1"	.
+if:IF_8_6_8.item1	rdf:value	"一般に高齢者では生理機能が低下していることが多く、脱水症状を来しやすいと考えられる。また、口渇\r\nへの感受性が低下しているため脱水症状(口渇等)の認知が遅れるおそれがあるので、患者の状態を観察し\r\nながら慎重に投与すること。"@ja	.
+if:IF_8_7	rdf:type	ifo:IF_8_7	.
+if:IF_8_7	rdf:type	ifo:Section	.
+if:IF_8_7	ifo:package_insert	pi:PI_16_7	.
+if:IF_8_7	rdf:value	"「Ⅶ.6.(2)代謝に関与する酵素(CYP 等)の分子種、寄与率」の項参照)"@ja	.
+if:IF_8_7	dct:references	if:refIF_7_6_2	.
+if:IF_8_7_1	rdf:type	ifo:IF_8_7_1	.
+if:IF_8_7_1	rdf:type	ifo:Section	.
+if:IF_8_7_1	ifo:package_insert	pi:PI_10_1	.
+if:IF_8_7_1	ifo:item	if:IF_8_7_1.設定されていない	.
+if:IF_8_7_2	rdf:type	ifo:IF_8_7_2	.
+if:IF_8_7_2	rdf:type	ifo:Section	.
+if:IF_8_7_2	ifo:package_insert	pi:PI_10_2	.
+if:IF_8_7_2	ifo:item	if:IF_8_7_2.item1	.
+if:IF_8_7_2	ifo:item	if:IF_8_7_2.item2	.
+if:IF_8_7_2	ifo:item	if:IF_8_7_2.item3	.
+if:IF_8_7_2	ifo:item	if:IF_8_7_2.item4	.
+if:IF_8_7_2.item1	rdf:type	ifo:Item	.
+if:IF_8_7_2.item1	ifo:package_insert	pi:PI_10_2.item1	.
+if:IF_8_7_2.item1	dct:identifier	"8.7.2.item1"	.
+if:IF_8_7_2.item1	rdf:value	"【糖尿病用薬】\r\n作用機序の異なる糖尿病用薬の併用により、血糖降下作用が相加的に増強されるおそれがあること、1 型\r\n糖尿病のようなインスリン依存状態の患者では、インスリン製剤を減量する場合、糖尿病性ケトアシドー\r\nシスが発現する可能性があることから設定した。(「Ⅷ.5.重要な基本的注意とその理由 8.6」の項参照)"@ja	.
+if:IF_8_7_2.item1	rdfs:seeAlso	if:IF_8_5	.
+if:IF_8_7_2.item2	rdf:type	ifo:Item	.
+if:IF_8_7_2.item2	ifo:package_insert	pi:PI_10_2.item2	.
+if:IF_8_7_2.item2	dct:identifier	"8.7.2.item2"	.
+if:IF_8_7_2.item2	rdf:value	"【血糖降下作用を増強する薬剤】\r\nこれらの薬剤との併用により、本剤の血糖降下作用が増強され、低血糖が起こるおそれがあることから\r\n設定した。"@ja	.
+if:IF_8_7_2.item3	rdf:type	ifo:Item	.
+if:IF_8_7_2.item3	ifo:package_insert	pi:PI_10_2.item3	.
+if:IF_8_7_2.item3	dct:identifier	"8.7.2.item3"	.
+if:IF_8_7_2.item3	rdf:value	"【血糖降下作用を減弱する薬剤】\r\nこれらの薬剤との併用により、本剤の血糖降下作用が減弱され、血糖コントロール不良になるおそれが\r\nあることから設定した。"@ja	.
+if:IF_8_7_2.item4	rdf:type	ifo:Item	.
+if:IF_8_7_2.item4	ifo:package_insert	pi:PI_10_2.item4	.
+if:IF_8_7_2.item4	dct:identifier	"8.7.2.item4"	.
+if:IF_8_7_2.item4	rdf:value	"【利尿作用を有する薬剤】\r\nこれらの薬剤との併用により、利尿作用が過剰にみられるおそれがあることから設定した。"@ja	.
+if:IF_8_8_1	rdf:type	ifo:IF_8_8_1	.
+if:IF_8_8_1	rdf:type	ifo:Section	.
+if:IF_8_8_1	ifo:package_insert	pi:PI_11_1	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item1	.
+if:IF_8_8_1	ifo:item	"if:IF_8_8_1.item2m item3"	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item4	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item5	.
+if:IF_8_8_1.item1	rdf:type	ifo:Item	.
+if:IF_8_8_1.item1	ifo:package_insert	pi:PI_11_1.item1	.
+if:IF_8_8_1.item1	dct:identifier	"8.8.1.item1"	.
+if:IF_8_8_1.item1	rdf:value	"11.1.1 低血糖\r\n臨床試験においては重篤なものはみられなかったが、本剤との関連性が否定されなかった低血糖は認め\r\nられており、市販後に重篤な転帰に至る低血糖の発現が否定できないことから、重大な副作用の項に記\r\n載した。(「5.重要な基本的注意とその理由8.1」の項参照)"@ja	.
+if:IF_8_8_1.item1	rdfs:seeAlso	if:IF_8_8_5	.
+if:IF_8_8_1.item2	rdf:type	ifo:Item	.
+if:IF_8_8_1.item2	ifo:package_insert	pi:PI_11_1.item2	.
+if:IF_8_8_1.item2	dct:identifier	"8.8.1.item2"	.
+if:IF_8_8_1.item2	rdf:value	"11.1.2 腎盂腎炎、外陰部及び会陰部の壊死性筋膜炎(フルニエ壊疽)、敗血症\r\n2 型糖尿病患者を対象とした国内臨床試験において本剤との関連性が否定されなかった腎盂腎炎が\r\n1,669 例中2 例(0.1％)にみられ、そのうち1 例は下部尿路感染症から上部尿路感染症に進展した症例で\r\nあった。腎盂腎炎等の重篤な尿路感染症発現に対する本剤の寄与は不明だが、作用機序から本剤が起炎\r\n菌の増殖を促進する可能性もあるため記載した。また、市販後のSGLT2 阻害剤投与において、腎盂腎\r\n炎があらわれた後に敗血症を起こす症例が集積されたことから、「重大な副作用」の項に、腎盂腎炎に\r\n加えて「敗血症」を追記した。さらに、国内外において、SGLT2 阻害剤と因果関係が否定できない外\r\n陰部及び会陰部の壊死性筋膜炎(フルニエ壊疽)を認めた症例が報告されていることから「重大な副作用」\r\nの項に追記し注意喚起することとした。(「5.重要な基本的注意とその理由8.4」の項参照)"@ja	.
+if:IF_8_8_1.item2	rdfs:seeAlso	if:IF_8_8_5	.
+if:IF_8_8_1.item3	rdf:type	ifo:Item	.
+if:IF_8_8_1.item3	ifo:package_insert	pi:PI_11_1.item3	.
+if:IF_8_8_1.item3	dct:identifier	"8.8.1.item3"	.
+if:IF_8_8_1.item3	rdf:value	"11.1.3 脱水\r\n市販後のSGLT2 阻害剤投与において、脱水及びそれに引き続く脳梗塞を含む血栓・塞栓症等が発現す\r\nる重篤な症例が集積されたことから、「重大な副作用」の項へ「脱水」を追記し、従来より広範囲の患\r\n者に対して注意喚起することとした。(「5.重要な基本的注意とその理由及び処置方法8.5」の項参照)"@ja	.
+if:IF_8_8_1.item3	rdfs:seeAlso	if:IF_8_8_5	.
+if:IF_8_8_1.item4	rdf:type	ifo:Item	.
+if:IF_8_8_1.item4	ifo:package_insert	pi:PI_11_1.item4	.
+if:IF_8_8_1.item4	dct:identifier	"8.8.1.item4"	.
+if:IF_8_8_1.item4	rdf:value	"11.1.4 ケトアシドーシス\r\n市販後のSGLT2 阻害剤投与において、ケトアシドーシスの症例が集積されたことから、「重大な副作\r\n用」の項に「ケトアシドーシス」を追記し、注意喚起することとした。著しい血糖の上昇を伴わないケ\r\nトアシドーシスの症例が集積されていることから、血糖コントロールが良好であっても脂肪酸代謝が亢\r\n進し、ケトーシスがあらわれ、ケトアシドーシスに至ることがある旨を追記し、ケトアシドーシスの症\r\n状、処置、ケトアシドーシスを発現しやすい患者等の情報を具体的に記載した。(「5.重要な基本的注\r\n意とその理由8.6」の項参照)"@ja	.
+if:IF_8_8_1.item4	rdfs:seeAlso	if:IF_8_8_5	.
+if:IF_8_8_1.item5	rdf:type	ifo:Item	.
+if:IF_8_8_1.item5	ifo:package_insert	pi:PI_11_1.item5	.
+if:IF_8_8_1.item5	dct:identifier	"8.8.1.item5"	.
+if:IF_8_8_1.item5	rdf:value	"11.1.5 ショック、アナフィラキシー\r\n本剤の市販後において、本剤と因果関係が否定できない症例が集積されたことから「重大な副作用」の\r\n項に「ショック、アナフィラキシー」を追記し、注意喚起することとした。"@ja	.
+if:IF_8_8_2	rdf:type	ifo:IF_8_8_2	.
+if:IF_8_8_2	rdf:type	ifo:Section	.
+if:IF_8_8_2	ifo:package_insert	pi:PI_11_2	.
+if:IF_8_8_2	ifo:item	if:IF_8_8_2.item1	.
+if:IF_8_8_2.item1	rdf:type	ifo:Item	.
+if:IF_8_8_2.item1	ifo:package_insert	pi:PI_11_2.item1	.
+if:IF_8_8_2.item1	dct:identifier	"8.8.2.item1"	.
+if:IF_8_8_2.item1	rdf:value	"本剤の初回承認時(2 型糖尿病)及び効能又は効果追加承認時(1 型糖尿病)に実施した国内の臨床試験成績\nを併合した安全性解析対象集団のうち、本剤投与群の臨床試験成績において4 例以上認められた副作用\n(重大な副作用に記載した副作用を除く)を記載した。"@ja	.
+if:IF_8_9	rdf:type	ifo:IF_8_9	.
+if:IF_8_9	rdf:type	ifo:Section	.
+if:IF_8_9	ifo:package_insert	pi:PI_12	.
+if:IF_8_9	rdf:value	"本剤の作用機序である尿中グルコース排泄促進作用により、尿糖の臨床検査は慢性的に陽性となる。また、\r\n血清1,5-AG(1,5-アンヒドログルシトール)値は尿糖排泄の影響を受けるため、本剤の服用中は血清1,5-AG\r\nが低値を示すことが考えられる。尿糖、血清1,5-AG は糖尿病における病状を確認する一つの臨床検査と\r\nして使用されており、本剤服用時にはその測定結果だけでは血糖コントロールを判断することができない\r\nため注意が必要と考え設定した。"@ja	.
+if:IF_8_10	rdf:type	ifo:IF_8_10	.
+if:IF_8_10	rdf:type	ifo:Section	.
+if:IF_8_10	ifo:package_insert	pi:PI_13_2	.
+if:IF_8_10	rdf:value	"設定されていない"@ja	.
+if:IF_8_11	rdf:type	ifo:IF_8_11	.
+if:IF_8_11	rdf:type	ifo:Section	.
+if:IF_8_11	ifo:package_insert	pi:PI_14	.
+if:IF_8_11	ifo:item	if:IF_8_11.item1	.
+if:IF_8_11.item1	rdf:type	ifo:Item	.
+if:IF_8_11.item1	ifo:package_insert	pi:PI_14.item1	.
+if:IF_8_11.item1	dct:identifier	"8.11.item1"	.
+if:IF_8_11.item1	rdf:value	"一般的留意事項として記載した。\r\n本剤はPTP(Press Through Package)包装の仕様となっているので、日薬連第240 号(平成8 年3 月27 日付)\r\n及び第304 号(平成8 年4 月18 日付)「PTP 誤飲対策について」に従い設定した。\r\nPTP シートの誤飲により、硬い鋭角部が食道粘膜へ刺入し、更には穿孔をおこして縦隔洞炎等の重篤な合\r\n併症を併発することがあるので、薬剤交付時には、PTP シートから取り出して服用するよう患者へ指導す\r\nること。"@ja	.
+if:IF_8_12_1	rdf:type	ifo:IF_8_12_1	.
+if:IF_8_12_1	rdf:type	ifo:Section	.
+if:IF_8_12_1	ifo:package_insert	pi:PI_15_1	.
+if:IF_8_12_1	rdf:value	"設定されていない"@ja	.
+if:IF_8_12_2	rdf:type	ifo:IF_8_12_2	.
+if:IF_8_12_2	rdf:type	ifo:Section	.
+if:IF_8_12_2	ifo:package_insert	pi:PI_15_2	.
+if:IF_8_12_2	rdf:value	"雌雄ラットに本剤12.5、40、125、250mg/kg/日(250mg/kg/日群は雌のみで実施)を104 週間反復経口投与し\nたがん原性試験において、40mg/kg/日以上の雄及び125mg/kg/日以上の雌で副腎髄質の褐色細胞腫の発生頻\n度の増加が認められた。ラットに本剤40mg/kg/日(雄)又は125mg/kg/日(雌)を反復経口投与したときの曝露\n量(AUC24h)は、最大臨床推奨用量(1 日1 回100mg)の約10 倍又は約60 倍だった。\n一般にラットでは副腎髄質の褐色細胞腫は加齢に伴い自然発症するが、自然発生性の褐色細胞腫の発生頻\n度を増加させる重要な因子として、栄養学的要因、特にカルシウムがその発生に大きく影響することがよ\nく知られている83)。本薬の場合も、褐色細胞腫の増加はSGLT2 阻害作用の代償性変化である摂餌量増加\nに伴うカルシウム吸収の増加が主な原因と考えられ、血中カルシウムの上昇を介した副腎髄質細胞機能の\n亢進が長期間持続したためにラットに自然発生する副腎髄質褐色細胞腫の発生頻度が増加したものと考\nえられている。また、他のSGLT2 阻害薬(カナグリフロジン)ではラットの腸管内におけるSGLT1 阻害作\n用によって腸管からのグルコースの吸収抑制が生じることで、腸内細菌叢の活性化による腸管内pH の低\n下に伴って、腸管からのカルシウム吸収が増加することにより、ラットでは副腎髄質褐色細胞腫の発生頻\n度が増加すると報告されていることから、本薬でも同じ機序によりカルシウムの吸収量が増大し、副腎髄\r\n質褐色細胞腫が増加した可能性も考えられている。\r\n一般的にラットと、ヒトを含めた他の動物種の間では、副腎髄質に機能的差異があり、ラットでは種々の\r\n化学物質、あるいは食品添加物であるポリオール類(マンニトール、キシリトール等)、乳糖、あるいはビ\r\nタミンD の摂取により、カルシウム吸収の増加に伴い副腎髄質の褐色細胞腫が増加するが、一方、マウス\r\nやイヌ及びヒトではこれらを長期投与しても副腎髄質の褐色細胞腫は生じないことから、カルシウムの吸\r\n収増加を介した副腎髄質の増殖性変化はラット特有の現象と考えられている84~87)。\r\n本薬投与によりマウス及びカニクイザルでは血中カルシウムの上昇は認められず、褐色細胞腫の発現も認\r\nめられなかった。ヒトではマウスやカニクイザルと同様に本薬投与により血中カルシウム濃度に臨床上問\r\n題となるような影響は認められないことから、ラットと同じ機序で褐色細胞腫がヒトで発現するリスクは\r\nないと考えられている。したがって、本薬投与によりラットでは副腎髄質褐色細胞腫の増加がみられたも\r\nのの、カルシウムの吸収増加を介したラットの副腎髄質に特有の現象で、ヒトへの外挿性には乏しい所見\r\nと考えられた。\r\nこれまでに実施された臨床試験では、副腎髄質褐色細胞腫の発生は認められておらず、また、ヒト褐色細\r\n胞腫のスクリーニング検査88)として尿中メタネフリン及びノルメタネフリンの検査を実施した一部の第\r\nⅢ相臨床試験(検査例数はそれぞれ589 例、592 例)においてもスクリーニング基準(クレアチニン補正値＞\r\n基準値上限の3 倍)を超える異常は認められなかった。\r\n以上のことから、ヒトにおいては副腎髄質褐色細胞腫に対する安全性上の懸念は極めて小さいと考えられた。"@ja	.
+if:IF_8_12_2	dct:references	if:ref83	.
+if:IF_8_12_2	dct:references	if:ref84	.
+if:IF_8_12_2	dct:references	if:ref85	.
+if:IF_8_12_2	dct:references	if:ref86	.
+if:IF_8_12_2	dct:references	if:ref87	.
+if:IF_8_12_2	dct:references	if:ref88	.
+if:IF_9_1_1	rdf:type	ifo:IF_9_1_1	.
+if:IF_9_1_1	rdf:type	ifo:Section	.
+if:IF_9_1_1	rdf:value	"「Ⅵ．薬効薬理に関する項目」の項参照"@ja	.
+if:IF_9_1_1	rdfs:seeAlso	if:IF_6	.
+if:IF_9_1_2	rdf:type	ifo:IF_9_1_2	.
+if:IF_9_1_2	rdf:type	ifo:Section	.
+if:IF_9_1_2	dct:references	if:ref89	.
+if:IF_9_1_3	rdf:type	ifo:IF_9_1_3	.
+if:IF_9_1_3	rdf:type	ifo:Section	.
+if:IF_9_1_3	rdf:value	"高脂肪食負荷ラットにおける抗肥満作用（反復経口投与）90)\r\n雄性 SD ラットに高脂肪食を22 日間負荷して肥満を惹起した高脂肪食負荷ラット(10 週齢、各群7～8 例)\r\nに、高脂肪食継続下で本薬(1、3、10mg/kg)あるいは対照溶媒を1 日1 回30 日間反復経口投与し、本薬\r\nの抗肥満作用を検討した。なお、正常対照である通常食群には、試験を通じて通常食を給餌した。その\r\n結果、高脂肪食負荷溶媒投与群では、通常食群と比較して体重及び副睾丸周囲脂肪重量の有意な増加が\r\n認められた。本薬10mg/kg 投与群は、溶媒投与群と比較して有意に体重増加及び副睾丸周囲脂肪重量を\r\n低下させた。"@ja	.
+if:IF_9_1_3	dct:references	if:ref90	.
+if:IF_9_2_1	rdf:type	ifo:IF_9_2_1	.
+if:IF_9_2_1	rdf:type	ifo:Section	.
+if:IF_9_2_1	dct:references	if:ref91	.
+if:IF_9_2_2	rdf:type	ifo:IF_9_2_2	.
+if:IF_9_2_2	rdf:type	ifo:Section	.
+if:IF_9_2_2	dct:references	if:ref92	.
+if:IF_9_2_3	rdf:type	ifo:IF_9_2_3	.
+if:IF_9_2_3	rdf:type	ifo:Section	.
+if:IF_9_2_3	rdf:value	"ネズミチフス菌及び大腸菌を用いた復帰突然変異試験(処置濃度1.5～5000μg/プレート、in vitro)において、\r\nイプラグリフロジンは遺伝子突然変異誘発性を示さなかった。\r\nチャイニーズハムスター肺由来線維芽細胞(CHL/IU)を用いた染色体異常試験(処置濃度500μg/mL 以下、in\r\nvitro)では、細胞増殖抑制(細胞増殖率52％未満)を示す高濃度範囲において、染色体構造異常を持つ細胞\r\n数の増加が認められた。SD ラットを用いた小核試験(投与量雄2000mg/kg/日以下、雌1000mg/kg/日以下、\r\n経口投与)において、イプラグリフロジンの小核誘発性は認められなかった。SD ラットを用いた不定期\r\nDNA 合成試験(投与量2000mg/kg/日以下、経口投与)において、肝細胞における不定期DNA 合成誘発作用\r\nは認められなかった。"@ja	.
+if:IF_9_2_3	dct:references	if:ref93	.
+if:IF_9_2_4	rdf:type	ifo:IF_9_2_4	.
+if:IF_9_2_4	rdf:type	ifo:Section	.
+if:IF_9_2_4	rdf:value	"1）マウスがん原性試験\r\nB6C3F1 マウス(1 群雌雄各n=60)にイプラグリフロジン50、150 及び500mg/kg/日を1 日1 回104 週間反\r\n復経口投与した結果、腫瘍性変化はいずれもB6C3F1 マウスで通常観察される変化の範囲内であり、対\r\n照群と投与群間に発現頻度の差は認められず、イプラグリフロジンはマウスに対してがん原性を示さな\r\nいと判断された。\r\n2）ラットがん原性試験\r\nF344 ラット(1 群雌雄各n=55)にイプラグリフロジン12.5、40、125 及び250(雌のみ)mg/kg/日を1 日1 回\r\n104 週間反復経口投与した結果、腫瘍性変化として、副腎髄質の良性褐色細胞腫の発現頻度の増加が、\r\n雄では40mg/kg/日以上、雌では125mg/kg/日以上の投与群で認められた。また、副腎髄質の過形成は用\r\n量依存的に発現頻度及び程度が増加する傾向が認められた。その他の器官・組織の腫瘍については対照\r\n群と投与群間で発現頻度に差は認められなかった。"@ja	.
+if:IF_9_2_4	dct:references	if:ref94	.
+if:IF_9_2_5	rdf:type	ifo:IF_9_2_5	.
+if:IF_9_2_5	rdf:type	ifo:Section	.
+if:IF_9_2_5	dct:references	if:ref95	.
+if:IF_9_2_6	rdf:type	ifo:IF_9_2_6	.
+if:IF_9_2_6	rdf:type	ifo:Section	.
+if:IF_9_2_6	rdf:value	"1）眼粘膜刺激性試験（ウサギ）96)\r\nイプラグリフロジン100mg を日本白色種ウサギ(雄n=6)の右眼結膜嚢内に投与した結果、結膜の発赤及\r\nび浮腫、分泌物、残存薬物、角膜上皮欠損が認められ、いずれの所見も洗眼群では3 日までに、非洗眼群\r\nでも8 日までに消失した。このようにイプラグリフロジンには軽度な眼粘膜刺激性が認められたが、洗\r\n眼により眼粘膜刺激性が軽減することが示された。\r\n2）血管局所刺激性試験（ウサギ）96)\r\nイプラグリフロジン注射液(濃度0.05mg/mL)を、日本白色種ウサギ(1 群雄n=3)の左耳に、静脈内投与群\r\nには10mL/kg、静脈周囲投与群には0.2mL/部位の液量で単回投与した結果、本薬投与に関連した変化は\r\n認められず、イプラグリフロジン注射液(濃度0.05mg/mL)には血管局所刺激性はないと判断された。\r\n3）皮膚感作性試験（モルモット）97)\r\nHartley 系雄モルモット(イプラグリフロジン感作群n=20、溶媒対照群n=10、陽性対照群n=5)を用いて皮\r\n膚感作性試験(マキシマイゼーション試験)を行った結果、イプラグリフロジン感作群の投与部位に皮膚\r\n反応は認められず、イプラグリフロジンはモルモットに対して皮膚感作性をもたないと判断された。"@ja	.
+if:IF_9_2_6	dct:references	if:ref96	.
+if:IF_9_2_6	dct:references	if:ref97	.
+if:IF_9_2_7	rdf:type	ifo:IF_9_2_7	.
+if:IF_9_2_7	rdf:type	ifo:Section	.
+if:IF_9_2_7	rdf:value	"該当資料なし"@ja	.
+if:IF_10_1	rdf:type	ifo:IF_10_1	.
+if:IF_10_1	rdf:type	ifo:Section	.
+if:IF_10_1	ifo:package_insert	pi:PI_0_6	.
+if:IF_10_1	rdf:value	"製 剤：スーグラ錠25mg、スーグラ錠50mg\r\n処方箋医薬品注)\r\n注)注意－医師等の処方箋により使用すること\r\n有効成分：イプラグリフロジンL-プロリン\r\n該当しない"@ja	.
+if:IF_10_2	rdf:type	ifo:IF_10_2	.
+if:IF_10_2	rdf:type	ifo:Section	.
+if:IF_10_2	ifo:package_insert	pi:PI_0_4	.
+if:IF_10_2	rdf:value	"有効期間：3年"@ja	.
+if:IF_10_3	rdf:type	ifo:IF_10_3	.
+if:IF_10_3	rdf:type	ifo:Section	.
+if:IF_10_3	ifo:package_insert	pi:PI_0_4	.
+if:IF_10_3	rdf:value	"室温保存"@ja	.
+if:IF_10_4	rdf:type	ifo:IF_10_4	.
+if:IF_10_4	rdf:type	ifo:Section	.
+if:IF_10_4	ifo:package_insert	pi:PI_20	.
+if:IF_10_4	rdfs:seeAlso	"設定されていない"@ja	.
+if:IF_10_5	rdf:type	ifo:IF_10_5	.
+if:IF_10_5	rdf:type	ifo:Section	.
+if:IF_10_5	rdf:value	"患者向医薬品ガイド：あり\r\nくすりのしおり：あり\r\nその他の患者向け資材\r\nスーグラ®錠25mg, 50mg を服用される患者さんへ(RMP のリスク最小化活動のために作成された資材)\r\nスーグラ®錠を服用される患者さんへ(RMP のリスク最小化活動のために作成された資材)\r\nスーグラ®錠を服用される1 型糖尿病患者さんへ(RMP のリスク最小化活動のために作成された資材)\r\n「私は糖尿病の治療のためスーグラ®錠(SGLT2 阻害薬)を服用しています。」\r\n(RMP のリスク最小化活動のために作成された資材)\r\n服薬指導用下敷き(1 型糖尿病)(RMP のリスク最小化活動のために作成された資材)\r\n(「Ⅰ.概要に関する項目」及び「XⅢ.備考」の項参照)"@ja	.
+if:IF_10_5	rdfs:seeAlso	if:IF_1	.
+if:IF_10_5	rdfs:seeAlso	if:IF_13	.
+if:IF_10_6	rdf:type	ifo:IF_10_6	.
+if:IF_10_6	rdf:type	ifo:Section	.
+if:IF_10_6	rdf:value	"同一成分薬：なし\r\n同 効 薬：フォシーガ錠5mg・10mg、アプルウェイ錠20mg、デベルザ錠20mg、ルセフィ錠2.5mg・5mg、\r\nカナグル錠100mg、ジャディアンス錠10mg・25mg"@ja	.
+if:IF_10_7	rdf:type	ifo:IF_10_7	.
+if:IF_10_7	rdf:type	ifo:Section	.
+if:IF_10_7	rdf:value	"2014 年1 月17 日(日本)"@ja	.
+if:IF_10_7	dct:date	"2014-01-17"^^xsd:date	.
+if:IF_10_9	rdf:type	ifo:IF_10_9	.
+if:IF_10_9	rdf:type	ifo:Section	.
+if:IF_10_9	rdf:value	"2018 年12 月21 日\r\n効能・効果追加\r\n1 型糖尿病\r\n用法及び用量追加\r\n1 型糖尿病"@ja	.
+if:IF_10_10	rdf:type	ifo:IF_10_10	.
+if:IF_10_10	rdf:type	ifo:Section	.
+if:IF_10_10	rdf:value	"該当しない"@ja	.
+if:IF_10_11	rdf:type	ifo:IF_10_11	.
+if:IF_10_11	rdf:type	ifo:Section	.
+if:IF_10_11	ifo:item	if:IF_10_11.item1	.
+if:IF_10_11	ifo:item	if:IF_10_11.item2	.
+if:IF_10_11.item1	rdf:value	"2 型糖尿病\r\n8 年(2014 年1 月17 日～2022 年1 月16 日)"@ja	.
+if:IF_10_11.item2	rdf:value	"1 型糖尿病\r\n4 年(2018 年12 月21 日～2022 年12 月20 日)"@ja	.
+if:IF_10_12	rdf:type	ifo:IF_10_12	.
+if:IF_10_12	rdf:type	ifo:Section	.
+if:IF_10_12	ifo:package_insert	pi:PI_25	.
+if:IF_10_12	rdf:value	"「療担規則及び薬担規則並びに療担基準に基づき厚生労働大臣が定める掲示事項等」(厚生労働省告示第\r\n107 号：平成18 年3 月6 日付)とその一部改正(厚生労働省告示第97 号：平成20 年3 月19 日付)により「投\r\n薬期間に上限が設けられている医薬品」には該当しない。"@ja	.
+if:IF_10_14	rdf:type	ifo:IF_10_14	.
+if:IF_10_14	rdf:type	ifo:Section	.
+if:IF_10_14	ifo:package_insert	pi:PI_25	.
+if:IF_10_14	rdf:value	"該当しない"@ja	.
+if:IF_11_2	rdf:type	ifo:IF_11_2	.
+if:IF_11_2	rdf:type	ifo:Section	.
+if:IF_11_2	rdf:value	"該当資料なし"@ja	.
+if:IF_12_1	rdf:type	ifo:IF_12_1	.
+if:IF_12_1	rdf:type	ifo:Section	.
+if:IF_12_1	ifo:package_insert	pi:PI_6	.
+if:IF_12_1	rdf:value	"韓国、ロシアで2 型糖尿病の適応症の承認を取得している。\r\n1 型糖尿病の適応症で承認を取得している国はない。(2019 年7 月現在)\r\n本邦における効能又は効果並びに用法及び用量は以下のとおりであり、外国での承認状況とは異なる。\r\n4.効能又は効果\r\n2 型糖尿病\r\n1 型糖尿病\r\n5.効能又は効果に関連する注意\r\n〈効能共通〉\r\n5.1 重度の腎機能障害のある患者又は透析中の末期腎不全患者では本剤の効果が期待できないため、投与\r\nしないこと。［8.3、9.2.1、16.6.1 参照］\r\n5.2 中等度の腎機能障害のある患者では本剤の効果が十分に得られない可能性があるので投与の必要性を\r\n慎重に判断すること。［8.3、9.2.2、16.6.1、17.1.11、17.1.12 参照］\r\n5.3 本剤の適用はあらかじめ糖尿病治療の基本である食事療法、運動療法を十分に行った上で効果が不十\r\n分な場合に限り考慮すること。\r\n〈1 型糖尿病〉\r\n5.4 本剤の適用はあらかじめ適切なインスリン治療を十分に行った上で、血糖コントロールが不十分な場\r\n合に限ること。\r\n6.用法及び用量\r\n〈2 型糖尿病〉\r\n通常、成人にはイプラグリフロジンとして50mg を1 日1 回朝食前又は朝食後に経口投与する。なお、\r\n効果不十分な場合には、経過を十分に観察しながら100mg 1 日1 回まで増量することができる。\r\n〈1 型糖尿病〉\r\nインスリン製剤との併用において、通常、成人にはイプラグリフロジンとして50mg を1 日1 回朝食前\r\n又は朝食後に経口投与する。なお、効果不十分な場合には、経過を十分に観察しながら100mg 1 日1 回\r\nまで増量することができる。\r\n7.用法及び用量に関連する注意\r\n〈1 型糖尿病〉\r\n7.1 本剤はインスリン製剤の代替薬ではない。インスリン製剤の投与を中止すると急激な高血糖やケトア\r\nシドーシスが起こるおそれがあるので、本剤の投与にあたってはインスリン製剤を中止しないこと。［8.6、\r\n11.1.4 参照］\r\n7.2 本剤とインスリン製剤の併用にあたっては、低血糖リスクを軽減するためにインスリン製剤の減量を\r\n検討すること。ただし、過度な減量はケトアシドーシスのリスクを高めるので注意すること。なお、臨\r\n床試験では、インスリン製剤の1 日投与量は15％減量することが推奨された。［8.6、11.1.4、17.1.13 参\r\n照］"@ja	.
+if:IF_12_2	rdf:type	ifo:IF_12_2	.
+if:IF_12_2	rdf:type	ifo:Section	.
+if:IF_12_2	ifo:package_insert	pi:PI_9_7	.
+if:IF_12_2	ifo:item	if:IF_12_2.item1	.
+if:IF_12_2	ifo:item	if:IF_12_2.item2	.
+if:IF_12_2.item1	rdf:type	ifo:Item	.
+if:IF_12_2.item1	ifo:package_insert	pi:PI_9_7.item1	.
+if:IF_12_2.item1	dct:identifier	"12.2.item1"	.
+if:IF_12_2.item1	rdf:value	"（1）妊婦に関する海外情報\r\n該当資料なし"@ja	.
+if:IF_12_2.item2	rdf:type	ifo:Item	.
+if:IF_12_2.item2	ifo:package_insert	pi:PI_9_7.item2	.
+if:IF_12_2.item2	dct:identifier	"12.2.item2"	.
+if:IF_12_2.item2	rdf:value	"（2）小児等に関する記載\r\n該当資料なし"@ja	.
+if:IF_13	rdf:type	ifo:IF_13	.
+if:IF_13	rdf:type	ifo:Section	.
+if:IF_13	rdf:value	"その他の関連資料\r\n医療従事者向け情報サイト(Astellas Medical Net)\r\nhttps://amn.astellas.jp/"@ja	.
+if:ref1	rdf:type	bibo:Article	.
+if:ref1	dct:references	pmid:17222166	.
+if:ref1	ifo:internal_reference_id	"SGL-00028"	.
+if:ref2	rdf:type	bibo:Article	.
+if:ref2	dct:creator	"金塚東 他"@ja	.
+if:ref2	prism:publicationName	"糖尿病"@ja	.
+if:ref2	prism:volume	"53"	.
+if:ref2	prism:number	"20"	.
+if:ref2	prism:startingPage	"737"	.
+if:ref2	prism:endingPage	"744"	.
+if:ref2	dct:issued	"2010"^^xsd:gYear	.
+if:ref2	ifo:internal_reference_id	"R-06364"	.
+if:ref3	rdf:type	bibo:Article	.
+if:ref3	dct:creator	"Kadokura, T. et al."	.
+if:ref3	prism:publicationName	"Diabetol. Int."	.
+if:ref3	prism:volume	"2"	.
+if:ref3	prism:number	"4"	.
+if:ref3	prism:startingPage	"172"	.
+if:ref3	prism:endingPage	"182"	.
+if:ref3	dct:issued	"2011"^^xsd:gYear	.
+if:ref3	ifo:internal_reference_id	"SGL-00020"	.
+if:ref4	rdf:type	bibo:Document	.
+if:ref4	rdfs:label	"健康成人・第Ⅰ相試験"@ja	.
+if:ref4	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref4	ifo:internal_reference_id	"DIR130186"	.
+if:ref4	ifo:ctd_number	"CTD 2.7.6.3"	.
+if:ref5	rdf:type	bibo:Article	.
+if:ref5	dct:references	pmid:25149596	.
+if:ref5	ifo:internal_reference_id	"SGL-00089"	.
+if:ref6	rdf:type	bibo:Document	.
+if:ref6	rdfs:label	"2型糖尿病患者・血糖日内変動試験"@ja	.
+if:ref6	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref6	ifo:internal_reference_id	"DIR130199"	.
+if:ref6	ifo:ctd_number	"CTD 2.7.6.20"	.
+if:ref7	rdf:type	bibo:Document	.
+if:ref7	rdfs:label	"1型糖尿病患者・PK/PD試験"@ja	.
+if:ref7	dct:dateAccepted	"2018-12-21"^^xsd:date	.
+if:ref7	ifo:internal_reference_id	"DIR180297"	.
+if:ref7	ifo:ctd_number	"CTD 2.7.6.1"	.
+if:ref8	rdf:type	bibo:Article	.
+if:ref8	dct:references	pmid:30821047	.
+if:ref8	ifo:internal_reference_id	"SGL-00884"	.
+if:ref9	rdf:type	bibo:Document	.
+if:ref9	rdfs:label	"1型糖尿病患者・PK/PD試験要約"@ja	.
+if:ref9	dct:dateAccepted	"2018-12-21"^^xsd:date	.
+if:ref9	ifo:internal_reference_id	"DIR190224"	.
+if:ref9	ifo:ctd_number	"CTD2.7.2.2.1"	.
+if:ref10	rdf:type	bibo:Document	.
+if:ref10	rdfs:label	"PK/PD比較解析"@ja	.
+if:ref10	dct:dateAccepted	"2018-12-21"^^xsd:date	.
+if:ref10	ifo:internal_reference_id	"DIR180387"	.
+if:ref10	ifo:ctd_number	"CTD 2.7.2.3.1.1"	.
+if:ref11	rdf:type	bibo:Document	.
+if:ref11	rdfs:label	"健康成人・QT/QTc評価試験"@ja	.
+if:ref11	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref11	ifo:internal_reference_id	"DIR130145"	.
+if:ref11	ifo:ctd_number	"CTD2.7.6.18"	.
+if:ref12	rdf:type	bibo:Article	.
+if:ref12	dct:references	pmid:25411597	.
+if:ref12	ifo:internal_reference_id	"SGL-00073"	.
+if:ref13	rdf:type	bibo:Document	.
+if:ref13	rdfs:label	"第Ⅱ相用量設定試験"@ja	.
+if:ref13	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref13	ifo:internal_reference_id	"DIR130200"	.
+if:ref13	ifo:ctd_number	"CTD 2.7.6.21"	.
+if:ref14	rdf:type	bibo:Document	.
+if:ref14	rdfs:label	"体重・臨床的有用性"@ja	.
+if:ref14	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref14	ifo:internal_reference_id	"DIR130182"	.
+if:ref14	ifo:ctd_number	"CTD 2.7.3.3.2.2.2"	.
+if:ref15	rdf:type	bibo:Document	.
+if:ref15	rdfs:label	"空腹時インスリン・臨床的有用性"@ja	.
+if:ref15	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref15	ifo:internal_reference_id	"DIR130151"	.
+if:ref15	ifo:ctd_number	"CTD 2.7.3.3.2.2.5"	.
+if:ref16	rdf:type	bibo:Document	.
+if:ref16	rdfs:label	"レプチン・臨床的有用性"@ja	.
+if:ref16	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref16	ifo:internal_reference_id	"DIR130150"	.
+if:ref16	ifo:ctd_number	"CTD 2.7.3.3.2.2.4"	.
+if:ref17	rdf:type	bibo:Document	.
+if:ref17	rdfs:label	"アディポネクチン・臨床的有用性"@ja	.
+if:ref17	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref17	ifo:internal_reference_id	"DIR130152"	.
+if:ref17	ifo:ctd_number	"CTD 2.7.3.3.2.2.7"	.
+if:ref18	rdf:type	bibo:Article	.
+if:ref18	dct:creator	"Kashiwagi, A. et al."	.
+if:ref18	prism:publicationName	"Diabetol. Int."	.
+if:ref18	prism:volume	"6"	.
+if:ref18	prism:number	"1"	.
+if:ref18	prism:startingPage	"8"	.
+if:ref18	prism:endingPage	"18"	.
+if:ref18	dct:issued	"2015"^^xsd:gYear	.
+if:ref18	ifo:internal_reference_id	"SGL-00224"	.
+if:ref19	rdf:type	bibo:Document	.
+if:ref19	rdfs:label	"2型糖尿病患者・第Ⅲ相単独療法試験"@ja	.
+if:ref19	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref19	ifo:internal_reference_id	"DIR130201"	.
+if:ref19	ifo:ctd_number	"CTD 2.7.6.22"	.
+if:ref20	rdf:type	bibo:Article	.
+if:ref20	dct:references	pmid:24919820	.
+if:ref20	ifo:internal_reference_id	"SGL-00176"	.
+if:ref21	rdf:type	bibo:Document	.
+if:ref21	rdfs:label	"2型糖尿病患者・メトホルミン併用試験"@ja	.
+if:ref21	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref21	ifo:internal_reference_id	"DIR130202"	.
+if:ref21	ifo:ctd_number	"CTD 2.7.6.23"	.
+if:ref22	rdf:type	bibo:Article	.
+if:ref22	dct:creator	"Kashiwagi, A. et al."	.
+if:ref22	prism:publicationName	"Diabetol. Int."	.
+if:ref22	prism:volume	"6"	.
+if:ref22	prism:number	"2"	.
+if:ref22	prism:startingPage	"104"	.
+if:ref22	prism:endingPage	"116"	.
+if:ref22	dct:issued	"2015"^^xsd:gYear	.
+if:ref22	ifo:internal_reference_id	"SGL-00348"	.
+if:ref23	rdf:type	bibo:Document	.
+if:ref23	rdfs:label	"2型糖尿病患者・ピオグリタゾン併用試験"@ja	.
+if:ref23	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref23	ifo:internal_reference_id	"DIR130203"	.
+if:ref23	ifo:ctd_number	"CTD 2.7.6.24"	.
+if:ref24	rdf:type	bibo:Article	.
+if:ref24	dct:creator	"Kashiwagi, A. et al."	.
+if:ref24	prism:publicationName	"Diabetol. Int."	.
+if:ref24	prism:volume	"6"	.
+if:ref24	prism:number	"2"	.
+if:ref24	prism:startingPage	"125"	.
+if:ref24	prism:endingPage	"138"	.
+if:ref24	dct:issued	"2015"^^xsd:gYear	.
+if:ref24	ifo:internal_reference_id	"SGL-00345"	.
+if:ref25	rdf:type	bibo:Document	.
+if:ref25	rdfs:label	"2型糖尿病患者・スルホニルウレア剤併用試験"@ja	.
+if:ref25	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref25	ifo:internal_reference_id	"DIR130204"	.
+if:ref25	ifo:ctd_number	"CTD 2.7.6.25"	.
+if:ref26	rdf:type	bibo:Document	.
+if:ref26	rdfs:label	"1型糖尿病患者・第Ⅲ相試験"@ja	.
+if:ref26	dct:dateAccepted	"2018-12-21"^^xsd:date	.
+if:ref26	ifo:internal_reference_id	"DIR180298"	.
+if:ref26	ifo:ctd_number	"CTD 2.7.6.2"	.
+if:ref27	rdf:type	bibo:Article	.
+if:ref27	dct:references	pmid:31173455	.
+if:ref27	ifo:internal_reference_id	"SGL-00932"	.
+if:ref28	rdf:type	bibo:Document	.
+if:ref28	rdfs:label	"1型糖尿病患者・低血糖に関連する有害事象"@ja	.
+if:ref28	dct:dateAccepted	"2018-12-21"^^xsd:date	.
+if:ref28	ifo:internal_reference_id	"DIR180404"	.
+if:ref28	ifo:ctd_number	"CTD 2.7.4.2.1.5.1"	.
+if:ref29	rdf:type	bibo:Article	.
+if:ref29	dct:creator	"柏木厚典 他"@ja	.
+if:ref29	prism:publicationName	"薬理と治療"@ja	.
+if:ref29	prism:volume	"42"	.
+if:ref29	prism:number	"12"	.
+if:ref29	prism:startingPage	"923"	.
+if:ref29	prism:endingPage	"939"	.
+if:ref29	dct:issued	"2014"^^xsd:gYear	.
+if:ref29	ifo:internal_reference_id	"SGL-00165"	.
+if:ref30	rdf:type	bibo:Document	.
+if:ref30	rdfs:label	"2型糖尿病患者・α-GI併用試験"@ja	.
+if:ref30	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref30	ifo:internal_reference_id	"DIR130206"	.
+if:ref30	ifo:ctd_number	"CTD2.7.6.30"	.
+if:ref31	rdf:type	bibo:Article	.
+if:ref31	dct:creator	"柏木厚典 他"@ja	.
+if:ref31	prism:publicationName	"薬理と治療"@ja	.
+if:ref31	prism:volume	"42"	.
+if:ref31	prism:number	"12"	.
+if:ref31	prism:startingPage	"941"	.
+if:ref31	prism:endingPage	"957"	.
+if:ref31	dct:issued	"2014"^^xsd:gYear	.
+if:ref31	ifo:internal_reference_id	"SGL-00167"	.
+if:ref32	rdf:type	bibo:Document	.
+if:ref32	rdfs:label	"2型糖尿病患者・DPP-4阻害剤併用試験"@ja	.
+if:ref32	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref32	ifo:internal_reference_id	"DIR130207"	.
+if:ref32	ifo:ctd_number	"CTD2.7.6.31"	.
+if:ref33	rdf:type	bibo:Article	.
+if:ref33	dct:creator	"柏木厚典 他"@ja	.
+if:ref33	prism:publicationName	"薬理と治療"@ja	.
+if:ref33	prism:volume	"42"	.
+if:ref33	prism:number	"12"	.
+if:ref33	prism:startingPage	"959"	.
+if:ref33	prism:endingPage	"975"	.
+if:ref33	dct:issued	"2014"^^xsd:gYear	.
+if:ref33	ifo:internal_reference_id	"SGL-00166"	.
+if:ref34	rdf:type	bibo:Document	.
+if:ref34	rdfs:label	"2型糖尿病患者・ナテグリニド併用試験"@ja	.
+if:ref34	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref34	ifo:internal_reference_id	"DIR130208"	.
+if:ref34	ifo:ctd_number	"CTD2.7.6.32"	.
+if:ref35	rdf:type	bibo:Article	.
+if:ref35	dct:creator	"柏木厚典 他"@ja	.
+if:ref35	prism:publicationName	"薬理と治療"@ja	.
+if:ref35	prism:volume	"43"	.
+if:ref35	prism:number	"1"	.
+if:ref35	prism:startingPage	"85"	.
+if:ref35	prism:endingPage	"100"	.
+if:ref35	dct:issued	"2015"^^xsd:gYear	.
+if:ref35	ifo:internal_reference_id	"SGL-00173"	.
+if:ref36	rdf:type	bibo:Document	.
+if:ref36	rdfs:label	"2型糖尿病・長期投与試験(52週)"@ja	.
+if:ref36	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref36	ifo:internal_reference_id	"DIR130209"	.
+if:ref36	ifo:ctd_number	"CTD2.7.6.33"	.
+if:ref37	rdf:type	bibo:Document	.
+if:ref37	rdfs:label	"2型糖尿病患者・長期投与試験"@ja	.
+if:ref37	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref37	ifo:internal_reference_id	"DIR130210"	.
+if:ref37	ifo:ctd_number	"CTD 2.7.6.34"	.
+if:ref38	rdf:type	bibo:Article	.
+if:ref38	dct:references	pmid:25347938	.
+if:ref38	ifo:internal_reference_id	"SGL-00204"	.
+if:ref39	rdf:type	bibo:Document	.
+if:ref39	rdfs:label	"2型糖尿病患者・腎機能低下患者試験"@ja	.
+if:ref39	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref39	ifo:internal_reference_id	"DIR130205"	.
+if:ref39	ifo:ctd_number	"CTD2.7.6.26"	.
+if:ref40	rdf:type	bibo:Article	.
+if:ref40	dct:references	pmid:27477242	.
+if:ref40	ifo:internal_reference_id	"SGL-00598"	.
+if:ref41	rdf:type	bibo:Article	.
+if:ref41	dct:references	pmid:27436788	.
+if:ref41	ifo:internal_reference_id	"SGL-00611"	.
+if:ref42	rdf:type	bibo:Article	.
+if:ref42	dct:references	pmid:30800562	.
+if:ref42	ifo:internal_reference_id	"SGL-00836"	.
+if:ref43	rdf:type	bibo:Article	.
+if:ref43	dct:references	pmid:29926400	.
+if:ref43	ifo:internal_reference_id	"SGL-00833"	.
+if:ref44	rdf:type	bibo:Document	.
+if:ref44	rdfs:label	"ヒトSGLT2及びSGLT1阻害活性・薬理試験"@ja	.
+if:ref44	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref44	ifo:internal_reference_id	"DIR130160"	.
+if:ref44	ifo:ctd_number	"CTD 2.6.2.2.1.1"	.
+if:ref45	rdf:type	bibo:Article	.
+if:ref45	dct:references	pmid:22139434	.
+if:ref45	ifo:internal_reference_id	"SGL-00019"	.
+if:ref46	rdf:type	bibo:Document	.
+if:ref46	rdfs:label	"尿中グルコース排泄促進作用・薬理試験"@ja	.
+if:ref46	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref46	ifo:internal_reference_id	"DIR130161"	.
+if:ref46	ifo:ctd_number	"CTD 2.6.2.2.2.2"	.
+if:ref47	rdf:type	bibo:Document	.
+if:ref47	rdfs:label	"液体栄養剤負荷後高血糖の改善作用・薬理試験"@ja	.
+if:ref47	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref47	ifo:internal_reference_id	"DIR130162"	.
+if:ref47	ifo:ctd_number	"CTD 2.6.2.2.3.3"	.
+if:ref48	rdf:type	bibo:Document	.
+if:ref48	rdfs:label	"KK‒Ayマウス反復投与試験・薬理試験"@ja	.
+if:ref48	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref48	ifo:internal_reference_id	"DIR130163"	.
+if:ref48	ifo:ctd_number	"CTD 2.6.2.2.4.1"	.
+if:ref49	rdf:type	bibo:Document	.
+if:ref49	rdfs:label	"db/dbマウス反復投与試験・薬理試験"@ja	.
+if:ref49	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref49	ifo:internal_reference_id	"DIR130164"	.
+if:ref49	ifo:ctd_number	"CTD 2.6.2.2.4.3"	.
+if:ref50	rdf:type	bibo:Article	.
+if:ref50	dct:references	pmid:24533859	.
+if:ref50	ifo:internal_reference_id	"SGL-00061"	.
+if:ref51	rdf:type	bibo:Document	.
+if:ref51	rdfs:label	"薬物動態"@ja	.
+if:ref51	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref51	ifo:internal_reference_id	"DIR130181"	.
+if:ref51	ifo:ctd_number	"CTD 2.7.2.3.1"	.
+if:ref52	rdf:type	bibo:Article	.
+if:ref52	dct:references	pmid:25316572	.
+if:ref52	ifo:internal_reference_id	"SGL-00170"	.
+if:ref53	rdf:type	bibo:Document	.
+if:ref53	rdfs:label	"2型糖尿病患者・腎機能低下患者PK/PD 試験"@ja	.
+if:ref53	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref53	ifo:internal_reference_id	"DIR130189"	.
+if:ref53	ifo:ctd_number	"CTD 2.7.6.8"	.
+if:ref54	rdf:type	bibo:Document	.
+if:ref54	rdfs:label	"小型化錠生物学的同等性試験・薬物動態"@ja	.
+if:ref54	ifo:ctd_number	"DIR140200"	.
+if:ref55	rdf:type	bibo:Document	.
+if:ref55	rdfs:label	"食事の影響試験・薬物動態"@ja	.
+if:ref55	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref55	ifo:internal_reference_id	"DIR130184"	.
+if:ref55	ifo:ctd_number	"CTD 2.7.6.1"	.
+if:ref56	rdf:type	bibo:Document	.
+if:ref56	rdfs:label	"薬物相互作用試験(メトホルミン)"@ja	.
+if:ref56	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref56	ifo:internal_reference_id	"DIR130192"	.
+if:ref56	ifo:ctd_number	"CTD 2.7.6.11"	.
+if:ref57	rdf:type	bibo:Article	.
+if:ref57	dct:references	pmid:MED-01740	.
+if:ref57	ifo:internal_reference_id	"22795925"	.
+if:ref58	rdf:type	bibo:Document	.
+if:ref58	rdfs:label	"薬物相互作用試験(ミグリトール)"@ja	.
+if:ref58	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref58	ifo:internal_reference_id	"DIR130195"	.
+if:ref58	ifo:ctd_number	"CTD 2.7.6.14"	.
+if:ref59	rdf:type	bibo:Document	.
+if:ref59	rdfs:label	"薬物相互作用試験(ピオグリタゾン)"@ja	.
+if:ref59	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref59	ifo:internal_reference_id	"DIR130194"	.
+if:ref59	ifo:ctd_number	"CTD 2.7.6.13"	.
+if:ref60	rdf:type	bibo:Article	.
+if:ref60	dct:references	pmid:22587345	.
+if:ref60	ifo:internal_reference_id	"SGL-00018"	.
+if:ref61	rdf:type	bibo:Document	.
+if:ref61	rdfs:label	"薬物相互作用試験(シタグリプチン)"@ja	.
+if:ref61	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref61	ifo:internal_reference_id	"DIR130196"	.
+if:ref61	ifo:ctd_number	"CTD 2.7.6.15"	.
+if:ref62	rdf:type	bibo:Document	.
+if:ref62	rdfs:label	"薬物相互作用試験(グリメピリド)"@ja	.
+if:ref62	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref62	ifo:internal_reference_id	"DIR130193"	.
+if:ref62	ifo:ctd_number	"CTD 2.7.6.12"	.
+if:ref63	rdf:type	bibo:Document	.
+if:ref63	rdfs:label	"薬物相互作用紙面(ミチグリニド"@ja	.
+if:ref63	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref63	ifo:internal_reference_id	"DIR130197"	.
+if:ref63	ifo:ctd_number	"CTD 2.7.6.16"	.
+if:ref64	rdf:type	bibo:Document	.
+if:ref64	rdfs:label	"薬物相互作用試験(フロセミド)"@ja	.
+if:ref64	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref64	ifo:internal_reference_id	"DIR130198"	.
+if:ref64	ifo:ctd_number	"CTD 2.7.6.17"	.
+if:ref65	rdf:type	bibo:Document	.
+if:ref65	rdfs:label	"健康成人・絶対バイオアベイラビリティ試験"@ja	.
+if:ref65	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref65	ifo:internal_reference_id	"DIR130185"	.
+if:ref65	ifo:ctd_number	"CTD 2.7.6.2"	.
+if:ref66	rdf:type	bibo:Document	.
+if:ref66	rdfs:label	"母集団薬物動態解析及び濃度—応答解析"@ja	.
+if:ref66	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref66	ifo:internal_reference_id	"DIR130183"	.
+if:ref66	ifo:ctd_number	"CTD 2.7.2.3.5"	.
+if:ref67	rdf:type	bibo:Document	.
+if:ref67	rdfs:label	"母集団薬物動態解析"@ja	.
+if:ref67	dct:dateAccepted	"2018-12-21"^^xsd:date	.
+if:ref67	ifo:internal_reference_id	"DIR180386"	.
+if:ref67	ifo:ctd_number	"CTD 2.7.2.3.1.2"	.
+if:ref68	rdf:type	bibo:Document	.
+if:ref68	rdfs:label	"分布・薬物動態"@ja	.
+if:ref68	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref68	ifo:internal_reference_id	"DIR130167"	.
+if:ref68	ifo:ctd_number	"CTD 2.6.4.5"	.
+if:ref69	rdf:type	bibo:Document	.
+if:ref69	rdfs:label	"血漿蛋白結合率・薬物動態"@ja	.
+if:ref69	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref69	ifo:internal_reference_id	"DIR130172"	.
+if:ref69	ifo:ctd_number	"CTD 2.7.2.2.1.1.1"	.
+if:ref70	rdf:type	bibo:Document	.
+if:ref70	rdfs:label	"血漿中主要結合蛋白の推定・薬物動態"@ja	.
+if:ref70	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref70	ifo:internal_reference_id	"DIR130173"	.
+if:ref70	ifo:ctd_number	"CTD 2.7.2.2.1.1.2"	.
+if:ref71	rdf:type	bibo:Document	.
+if:ref71	rdfs:label	"代謝物の検索及び同定・薬物動態"@ja	.
+if:ref71	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref71	ifo:internal_reference_id	"DIR130174"	.
+if:ref71	ifo:ctd_number	"CTD 2.7.2.2.1.6.1"	.
+if:ref72	rdf:type	bibo:Document	.
+if:ref72	rdfs:label	"UGT分子種同定・薬物動態"@ja	.
+if:ref72	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref72	ifo:internal_reference_id	"DIR130175"	.
+if:ref72	ifo:ctd_number	"CTD 2.7.2.2.1.2.2"	.
+if:ref73	rdf:type	bibo:Document	.
+if:ref73	rdfs:label	"CYP阻害作用・薬物動態"@ja	.
+if:ref73	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref73	ifo:internal_reference_id	"DIR130176"	.
+if:ref73	ifo:ctd_number	"CTD 2.7.2.2.1.3.1"	.
+if:ref74	rdf:type	bibo:Document	.
+if:ref74	rdfs:label	"UGT阻害作用・薬物動態"@ja	.
+if:ref74	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref74	ifo:internal_reference_id	"DIR130177"	.
+if:ref74	ifo:ctd_number	"CTD 2.7.2.2.1.3.3"	.
+if:ref75	rdf:type	bibo:Document	.
+if:ref75	rdfs:label	"CYP誘導作用・薬物動態"@ja	.
+if:ref75	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref75	ifo:internal_reference_id	"DIR130178"	.
+if:ref75	ifo:ctd_number	"CTD 2.7.2.2.1.3.2"	.
+if:ref76	rdf:type	bibo:Document	.
+if:ref76	rdfs:label	"ヒト代謝物の薬理作用・薬物動態"@ja	.
+if:ref76	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref76	ifo:internal_reference_id	"DIR130165"	.
+if:ref76	ifo:ctd_number	"CTD 2.6.2.2.5"	.
+if:ref77	rdf:type	bibo:Document	.
+if:ref77	rdfs:label	"健康成人・マスバランス試験"@ja	.
+if:ref77	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref77	ifo:internal_reference_id	"DIR130187"	.
+if:ref77	ifo:ctd_number	"CTD 2.7.6.6"	.
+if:ref78	rdf:type	bibo:Document	.
+if:ref78	rdfs:label	"P‒gp基質性・薬物動態"@ja	.
+if:ref78	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref78	ifo:internal_reference_id	"DIR130212"	.
+if:ref78	ifo:ctd_number	"CTD 2.7.2.2.1.4.1"	.
+if:ref79	rdf:type	bibo:Document	.
+if:ref79	rdfs:label	"海外腎機能低下者試験(2014年1月17日承認"@ja	.
+if:ref79	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref79	ifo:internal_reference_id	"DIR130190"	.
+if:ref79	ifo:ctd_number	"CTD 2.7.6.9"	.
+if:ref80	rdf:type	bibo:Article	.
+if:ref80	dct:references	pmid:23733389	.
+if:ref80	ifo:internal_reference_id	"SGL-00015"	.
+if:ref81	rdf:type	bibo:Document	.
+if:ref81	rdfs:label	"海外肝機能低下者試験"@ja	.
+if:ref81	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref81	ifo:internal_reference_id	"DIR130191"	.
+if:ref81	ifo:ctd_number	"CTD 2.7.6.10"	.
+if:ref82	rdf:type	bibo:Document	.
+if:ref82	rdfs:label	"健康成人・高齢者・性差試験"@ja	.
+if:ref82	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref82	ifo:internal_reference_id	"DIR130188"	.
+if:ref82	ifo:ctd_number	"CTD 2.7.6.7"	.
+if:ref83	rdf:type	bibo:BookSection	.
+if:ref83	dct:creator	"Klaassen, C. D."	.
+if:ref83	prism:publicationName	"Casarett & Doull’s Toxicology-The Basic Science of Poisons 8th Ed. "@ja	.
+if:ref83	prism:startingPage	"907"	.
+if:ref83	prism:endingPage	"907"	.
+if:ref83	dct:issued	"2013"^^xsd:gYear	.
+if:ref83	ifo:internal_reference_id	"R-06382"	.
+if:ref84	rdf:type	bibo:Article	.
+if:ref84	prism:publicationName	"World Health Organization Technical Report Series. "	.
+if:ref84	prism:volume	"868"	.
+if:ref84	prism:number	"46"	.
+if:ref84	prism:startingPage	"8"	.
+if:ref84	prism:endingPage	"8"	.
+if:ref84	dct:issued	"1997"^^xsd:gYear	.
+if:ref84	ifo:internal_reference_id	"R-06362"	.
+if:ref85	rdf:type	bibo:Article	.
+if:ref85	dct:references	pmid:2663701	.
+if:ref85	ifo:internal_reference_id	"R-06358"	.
+if:ref86	rdf:type	bibo:BookSection	.
+if:ref86	dct:creator	"福田英臣 編"@ja	.
+if:ref86	prism:publicationName	"毒性試験講座 1"@ja	.
+if:ref86	prism:startingPage	"253"	.
+if:ref86	prism:endingPage	"253"	.
+if:ref86	dct:issued	"1990"^^xsd:gYear	.
+if:ref86	ifo:internal_reference_id	"R-06361"	.
+if:ref87	rdf:type	bibo:BookSection	.
+if:ref87	dct:creator	"高橋道人 他"@ja	.
+if:ref87	prism:publicationName	"伊東毒性病理学"@ja	.
+if:ref87	prism:startingPage	"134"	.
+if:ref87	prism:endingPage	"134"	.
+if:ref87	dct:issued	"2013"^^xsd:gYear	.
+if:ref87	ifo:internal_reference_id	"R-06360"	.
+if:ref88	rdf:type	bibo:Article	.
+if:ref88	dct:creator	"方波見卓行 他"@ja	.
+if:ref88	prism:publicationName	"日本臨床"@ja	.
+if:ref88	prism:volume	"69"	.
+if:ref88	prism:number	"2"	.
+if:ref88	prism:startingPage	"505"	.
+if:ref88	prism:endingPage	"510"	.
+if:ref88	dct:issued	"2013"^^xsd:gYear	.
+if:ref88	ifo:internal_reference_id	"R-06359"	.
+if:ref89	rdf:type	bibo:Document	.
+if:ref89	rdfs:label	"安全性薬理試験"@ja	.
+if:ref89	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref89	ifo:internal_reference_id	"DIR130146"	.
+if:ref89	ifo:ctd_number	"CTD 2.6.3.4"	.
+if:ref90	rdf:type	bibo:Document	.
+if:ref90	rdfs:label	"副次的薬理試験"@ja	.
+if:ref90	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref90	ifo:internal_reference_id	"DIR130166"	.
+if:ref90	ifo:ctd_number	"CTD 2.6.2.3"	.
+if:ref91	rdf:type	bibo:Document	.
+if:ref91	rdfs:label	"単独投与毒性試験"@ja	.
+if:ref91	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref91	ifo:internal_reference_id	"DIR130147"	.
+if:ref91	ifo:ctd_number	"CTD 2.6.7.5"	.
+if:ref92	rdf:type	bibo:Document	.
+if:ref92	rdfs:label	"反復投与毒性試験"@ja	.
+if:ref92	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref92	ifo:internal_reference_id	"DIR130168"	.
+if:ref92	ifo:ctd_number	"CTD 2.6.6.3"	.
+if:ref93	rdf:type	bibo:Document	.
+if:ref93	rdfs:label	"遺伝毒性試験"@ja	.
+if:ref93	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref93	ifo:internal_reference_id	"DIR130169"	.
+if:ref93	ifo:ctd_number	"CTD 2.6.6.4"	.
+if:ref94	rdf:type	bibo:Document	.
+if:ref94	rdfs:label	"がん原性試験"@ja	.
+if:ref94	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref94	ifo:internal_reference_id	"DIR130170"	.
+if:ref94	ifo:ctd_number	"CTD 2.6.6.5"	.
+if:ref95	rdf:type	bibo:Document	.
+if:ref95	rdfs:label	"生殖発生毒性試験"@ja	.
+if:ref95	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref95	ifo:internal_reference_id	"DIR130171"	.
+if:ref95	ifo:ctd_number	"CTD 2.6.6.6"	.
+if:ref96	rdf:type	bibo:Document	.
+if:ref96	rdfs:label	"局所刺激性試験"@ja	.
+if:ref96	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref96	ifo:internal_reference_id	"DIR130148"	.
+if:ref96	ifo:ctd_number	"CTD 2.6.6.7"	.
+if:ref97	rdf:type	bibo:Document	.
+if:ref97	rdfs:label	"モルモット皮膚感作性試験"@ja	.
+if:ref97	dct:dateAccepted	"2014-01-17"^^xsd:date	.
+if:ref97	ifo:internal_reference_id	"DIR130149"	.
+if:ref97	ifo:ctd_number	"CTD 2.6.6.8.1"	.
+if:IF_11_1	dct:references	if:ref1	.
+if:IF_11_1	dct:references	if:ref2	.
+if:IF_11_1	dct:references	if:ref3	.
+if:IF_11_1	dct:references	if:ref4	.
+if:IF_11_1	dct:references	if:ref5	.
+if:IF_11_1	dct:references	if:ref6	.
+if:IF_11_1	dct:references	if:ref7	.
+if:IF_11_1	dct:references	if:ref8	.
+if:IF_11_1	dct:references	if:ref9	.
+if:IF_11_1	dct:references	if:ref10	.
+if:IF_11_1	dct:references	if:ref11	.
+if:IF_11_1	dct:references	if:ref12	.
+if:IF_11_1	dct:references	if:ref13	.
+if:IF_11_1	dct:references	if:ref14	.
+if:IF_11_1	dct:references	if:ref15	.
+if:IF_11_1	dct:references	if:ref16	.
+if:IF_11_1	dct:references	if:ref17	.
+if:IF_11_1	dct:references	if:ref18	.
+if:IF_11_1	dct:references	if:ref19	.
+if:IF_11_1	dct:references	if:ref20	.
+if:IF_11_1	dct:references	if:ref21	.
+if:IF_11_1	dct:references	if:ref22	.
+if:IF_11_1	dct:references	if:ref23	.
+if:IF_11_1	dct:references	if:ref24	.
+if:IF_11_1	dct:references	if:ref25	.
+if:IF_11_1	dct:references	if:ref26	.
+if:IF_11_1	dct:references	if:ref27	.
+if:IF_11_1	dct:references	if:ref28	.
+if:IF_11_1	dct:references	if:ref29	.
+if:IF_11_1	dct:references	if:ref30	.
+if:IF_11_1	dct:references	if:ref31	.
+if:IF_11_1	dct:references	if:ref32	.
+if:IF_11_1	dct:references	if:ref33	.
+if:IF_11_1	dct:references	if:ref34	.
+if:IF_11_1	dct:references	if:ref35	.
+if:IF_11_1	dct:references	if:ref36	.
+if:IF_11_1	dct:references	if:ref37	.
+if:IF_11_1	dct:references	if:ref38	.
+if:IF_11_1	dct:references	if:ref39	.
+if:IF_11_1	dct:references	if:ref40	.
+if:IF_11_1	dct:references	if:ref41	.
+if:IF_11_1	dct:references	if:ref42	.
+if:IF_11_1	dct:references	if:ref43	.
+if:IF_11_1	dct:references	if:ref44	.
+if:IF_11_1	dct:references	if:ref45	.
+if:IF_11_1	dct:references	if:ref46	.
+if:IF_11_1	dct:references	if:ref47	.
+if:IF_11_1	dct:references	if:ref48	.
+if:IF_11_1	dct:references	if:ref49	.
+if:IF_11_1	dct:references	if:ref50	.
+if:IF_11_1	dct:references	if:ref51	.
+if:IF_11_1	dct:references	if:ref52	.
+if:IF_11_1	dct:references	if:ref53	.
+if:IF_11_1	dct:references	if:ref54	.
+if:IF_11_1	dct:references	if:ref55	.
+if:IF_11_1	dct:references	if:ref56	.
+if:IF_11_1	dct:references	if:ref57	.
+if:IF_11_1	dct:references	if:ref58	.
+if:IF_11_1	dct:references	if:ref59	.
+if:IF_11_1	dct:references	if:ref60	.
+if:IF_11_1	dct:references	if:ref61	.
+if:IF_11_1	dct:references	if:ref62	.
+if:IF_11_1	dct:references	if:ref63	.
+if:IF_11_1	dct:references	if:ref64	.
+if:IF_11_1	dct:references	if:ref65	.
+if:IF_11_1	dct:references	if:ref66	.
+if:IF_11_1	dct:references	if:ref67	.
+if:IF_11_1	dct:references	if:ref68	.
+if:IF_11_1	dct:references	if:ref69	.
+if:IF_11_1	dct:references	if:ref70	.
+if:IF_11_1	dct:references	if:ref71	.
+if:IF_11_1	dct:references	if:ref72	.
+if:IF_11_1	dct:references	if:ref73	.
+if:IF_11_1	dct:references	if:ref74	.
+if:IF_11_1	dct:references	if:ref75	.
+if:IF_11_1	dct:references	if:ref76	.
+if:IF_11_1	dct:references	if:ref77	.
+if:IF_11_1	dct:references	if:ref78	.
+if:IF_11_1	dct:references	if:ref79	.
+if:IF_11_1	dct:references	if:ref80	.
+if:IF_11_1	dct:references	if:ref81	.
+if:IF_11_1	dct:references	if:ref82	.
+if:IF_11_1	dct:references	if:ref83	.
+if:IF_11_1	dct:references	if:ref84	.
+if:IF_11_1	dct:references	if:ref85	.
+if:IF_11_1	dct:references	if:ref86	.
+if:IF_11_1	dct:references	if:ref87	.
+if:IF_11_1	dct:references	if:ref88	.
+if:IF_11_1	dct:references	if:ref89	.
+if:IF_11_1	dct:references	if:ref90	.
+if:IF_11_1	dct:references	if:ref91	.
+if:IF_11_1	dct:references	if:ref92	.
+if:IF_11_1	dct:references	if:ref93	.
+if:IF_11_1	dct:references	if:ref94	.
+if:IF_11_1	dct:references	if:ref95	.
+if:IF_11_1	dct:references	if:ref96	.
+if:IF_11_1	dct:references	if:ref97	.

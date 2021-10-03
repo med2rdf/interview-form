@@ -1,0 +1,506 @@
+subject,predicate,object
+1,rdf:type,bibo:Article
+1,dct:references,17222166
+1,ifo:internal_reference_id,SGL-00028
+2,rdf:type,bibo:Article
+2,dct:creator,"金塚東 他"
+2,prism:publicationName,糖尿病
+2,prism:volume,53
+2,prism:number,20
+2,prism:startingPage,737
+2,prism:endingPage,744
+2,dct:issued,2010
+2,ifo:internal_reference_id,R-06364
+3,rdf:type,bibo:Article
+3,dct:creator,"Kadokura, T. et al."
+3,prism:publicationName,"Diabetol. Int."
+3,prism:volume,2
+3,prism:number,4
+3,prism:startingPage,172
+3,prism:endingPage,182
+3,dct:issued,2011
+3,ifo:internal_reference_id,SGL-00020
+4,rdf:type,bibo:Document
+4,rdfs:label,健康成人・第Ⅰ相試験
+4,dct:dateAccepted,2014-01-17
+4,ifo:internal_reference_id,DIR130186
+4,ifo:ctd_number,"CTD 2.7.6.3"
+5,rdf:type,bibo:Article
+5,dct:references,25149596
+5,ifo:internal_reference_id,SGL-00089
+6,rdf:type,bibo:Document
+6,rdfs:label,2型糖尿病患者・血糖日内変動試験
+6,dct:dateAccepted,2014-01-17
+6,ifo:internal_reference_id,DIR130199
+6,ifo:ctd_number,"CTD 2.7.6.20"
+7,rdf:type,bibo:Document
+7,rdfs:label,1型糖尿病患者・PK/PD試験
+7,dct:dateAccepted,2018-12-21
+7,ifo:internal_reference_id,DIR180297
+7,ifo:ctd_number,"CTD 2.7.6.1"
+8,rdf:type,bibo:Article
+8,dct:references,30821047
+8,ifo:internal_reference_id,SGL-00884
+9,rdf:type,bibo:Document
+9,rdfs:label,1型糖尿病患者・PK/PD試験要約
+9,dct:dateAccepted,2018-12-21
+9,ifo:internal_reference_id,DIR190224
+9,ifo:ctd_number,CTD2.7.2.2.1
+10,rdf:type,bibo:Document
+10,rdfs:label,PK/PD比較解析
+10,dct:dateAccepted,2018-12-21
+10,ifo:internal_reference_id,DIR180387
+10,ifo:ctd_number,"CTD 2.7.2.3.1.1"
+11,rdf:type,bibo:Document
+11,rdfs:label,健康成人・QT/QTc評価試験
+11,dct:dateAccepted,2014-01-17
+11,ifo:internal_reference_id,DIR130145
+11,ifo:ctd_number,CTD2.7.6.18
+12,rdf:type,bibo:Article
+12,dct:references,25411597
+12,ifo:internal_reference_id,SGL-00073
+13,rdf:type,bibo:Document
+13,rdfs:label,第Ⅱ相用量設定試験
+13,dct:dateAccepted,2014-01-17
+13,ifo:internal_reference_id,DIR130200
+13,ifo:ctd_number,"CTD 2.7.6.21"
+14,rdf:type,bibo:Document
+14,rdfs:label,体重・臨床的有用性
+14,dct:dateAccepted,2014-01-17
+14,ifo:internal_reference_id,DIR130182
+14,ifo:ctd_number,"CTD 2.7.3.3.2.2.2"
+15,rdf:type,bibo:Document
+15,rdfs:label,空腹時インスリン・臨床的有用性
+15,dct:dateAccepted,2014-01-17
+15,ifo:internal_reference_id,DIR130151
+15,ifo:ctd_number,"CTD 2.7.3.3.2.2.5"
+16,rdf:type,bibo:Document
+16,rdfs:label,レプチン・臨床的有用性
+16,dct:dateAccepted,2014-01-17
+16,ifo:internal_reference_id,DIR130150
+16,ifo:ctd_number,"CTD 2.7.3.3.2.2.4"
+17,rdf:type,bibo:Document
+17,rdfs:label,アディポネクチン・臨床的有用性
+17,dct:dateAccepted,2014-01-17
+17,ifo:internal_reference_id,DIR130152
+17,ifo:ctd_number,"CTD 2.7.3.3.2.2.7"
+18,rdf:type,bibo:Article
+18,dct:creator,"Kashiwagi, A. et al."
+18,prism:publicationName,"Diabetol. Int."
+18,prism:volume,6
+18,prism:number,1
+18,prism:startingPage,8
+18,prism:endingPage,18
+18,dct:issued,2015
+18,ifo:internal_reference_id,SGL-00224
+19,rdf:type,bibo:Document
+19,rdfs:label,2型糖尿病患者・第Ⅲ相単独療法試験
+19,dct:dateAccepted,2014-01-17
+19,ifo:internal_reference_id,DIR130201
+19,ifo:ctd_number,"CTD 2.7.6.22"
+20,rdf:type,bibo:Article
+20,dct:references,24919820
+20,ifo:internal_reference_id,SGL-00176
+21,rdf:type,bibo:Document
+21,rdfs:label,2型糖尿病患者・メトホルミン併用試験
+21,dct:dateAccepted,2014-01-17
+21,ifo:internal_reference_id,DIR130202
+21,ifo:ctd_number,"CTD 2.7.6.23"
+22,rdf:type,bibo:Article
+22,dct:creator,"Kashiwagi, A. et al."
+22,prism:publicationName,"Diabetol. Int."
+22,prism:volume,6
+22,prism:number,2
+22,prism:startingPage,104
+22,prism:endingPage,116
+22,dct:issued,2015
+22,ifo:internal_reference_id,SGL-00348
+23,rdf:type,bibo:Document
+23,rdfs:label,2型糖尿病患者・ピオグリタゾン併用試験
+23,dct:dateAccepted,2014-01-17
+23,ifo:internal_reference_id,DIR130203
+23,ifo:ctd_number,"CTD 2.7.6.24"
+24,rdf:type,bibo:Article
+24,dct:creator,"Kashiwagi, A. et al."
+24,prism:publicationName,"Diabetol. Int."
+24,prism:volume,6
+24,prism:number,2
+24,prism:startingPage,125
+24,prism:endingPage,138
+24,dct:issued,2015
+24,ifo:internal_reference_id,SGL-00345
+25,rdf:type,bibo:Document
+25,rdfs:label,2型糖尿病患者・スルホニルウレア剤併用試験
+25,dct:dateAccepted,2014-01-17
+25,ifo:internal_reference_id,DIR130204
+25,ifo:ctd_number,"CTD 2.7.6.25"
+26,rdf:type,bibo:Document
+26,rdfs:label,1型糖尿病患者・第Ⅲ相試験
+26,dct:dateAccepted,2018-12-21
+26,ifo:internal_reference_id,DIR180298
+26,ifo:ctd_number,"CTD 2.7.6.2"
+27,rdf:type,bibo:Article
+27,dct:references,31173455
+27,ifo:internal_reference_id,SGL-00932
+28,rdf:type,bibo:Document
+28,rdfs:label,1型糖尿病患者・低血糖に関連する有害事象
+28,dct:dateAccepted,2018-12-21
+28,ifo:internal_reference_id,DIR180404
+28,ifo:ctd_number,"CTD 2.7.4.2.1.5.1"
+29,rdf:type,bibo:Article
+29,dct:creator,"柏木厚典 他"
+29,prism:publicationName,薬理と治療
+29,prism:volume,42
+29,prism:number,12
+29,prism:startingPage,923
+29,prism:endingPage,939
+29,dct:issued,2014
+29,ifo:internal_reference_id,SGL-00165
+30,rdf:type,bibo:Document
+30,rdfs:label,2型糖尿病患者・α-GI併用試験
+30,dct:dateAccepted,2014-01-17
+30,ifo:internal_reference_id,DIR130206
+30,ifo:ctd_number,CTD2.7.6.30
+31,rdf:type,bibo:Article
+31,dct:creator,"柏木厚典 他"
+31,prism:publicationName,薬理と治療
+31,prism:volume,42
+31,prism:number,12
+31,prism:startingPage,941
+31,prism:endingPage,957
+31,dct:issued,2014
+31,ifo:internal_reference_id,SGL-00167
+32,rdf:type,bibo:Document
+32,rdfs:label,2型糖尿病患者・DPP-4阻害剤併用試験
+32,dct:dateAccepted,2014-01-17
+32,ifo:internal_reference_id,DIR130207
+32,ifo:ctd_number,CTD2.7.6.31
+33,rdf:type,bibo:Article
+33,dct:creator,"柏木厚典 他"
+33,prism:publicationName,薬理と治療
+33,prism:volume,42
+33,prism:number,12
+33,prism:startingPage,959
+33,prism:endingPage,975
+33,dct:issued,2014
+33,ifo:internal_reference_id,SGL-00166
+34,rdf:type,bibo:Document
+34,rdfs:label,2型糖尿病患者・ナテグリニド併用試験
+34,dct:dateAccepted,2014-01-17
+34,ifo:internal_reference_id,DIR130208
+34,ifo:ctd_number,CTD2.7.6.32
+35,rdf:type,bibo:Article
+35,dct:creator,"柏木厚典 他"
+35,prism:publicationName,薬理と治療
+35,prism:volume,43
+35,prism:number,1
+35,prism:startingPage,85
+35,prism:endingPage,100
+35,dct:issued,2015
+35,ifo:internal_reference_id,SGL-00173
+36,rdf:type,bibo:Document
+36,rdfs:label,2型糖尿病・長期投与試験(52週)
+36,dct:dateAccepted,2014-01-17
+36,ifo:internal_reference_id,DIR130209
+36,ifo:ctd_number,CTD2.7.6.33
+37,rdf:type,bibo:Document
+37,rdfs:label,2型糖尿病患者・長期投与試験
+37,dct:dateAccepted,2014-01-17
+37,ifo:internal_reference_id,DIR130210
+37,ifo:ctd_number,"CTD 2.7.6.34"
+38,rdf:type,bibo:Article
+38,dct:references,25347938
+38,ifo:internal_reference_id,SGL-00204
+39,rdf:type,bibo:Document
+39,rdfs:label,2型糖尿病患者・腎機能低下患者試験
+39,dct:dateAccepted,2014-01-17
+39,ifo:internal_reference_id,DIR130205
+39,ifo:ctd_number,CTD2.7.6.26
+40,rdf:type,bibo:Article
+40,dct:references,27477242
+40,ifo:internal_reference_id,SGL-00598
+41,rdf:type,bibo:Article
+41,dct:references,27436788
+41,ifo:internal_reference_id,SGL-00611
+42,rdf:type,bibo:Article
+42,dct:references,30800562
+42,ifo:internal_reference_id,SGL-00836
+43,rdf:type,bibo:Article
+43,dct:references,29926400
+43,ifo:internal_reference_id,SGL-00833
+44,rdf:type,bibo:Document
+44,rdfs:label,ヒトSGLT2及びSGLT1阻害活性・薬理試験
+44,dct:dateAccepted,2014-01-17
+44,ifo:internal_reference_id,DIR130160
+44,ifo:ctd_number,"CTD 2.6.2.2.1.1"
+45,rdf:type,bibo:Article
+45,dct:references,22139434
+45,ifo:internal_reference_id,SGL-00019
+46,rdf:type,bibo:Document
+46,rdfs:label,尿中グルコース排泄促進作用・薬理試験
+46,dct:dateAccepted,2014-01-17
+46,ifo:internal_reference_id,DIR130161
+46,ifo:ctd_number,"CTD 2.6.2.2.2.2"
+47,rdf:type,bibo:Document
+47,rdfs:label,液体栄養剤負荷後高血糖の改善作用・薬理試験
+47,dct:dateAccepted,2014-01-17
+47,ifo:internal_reference_id,DIR130162
+47,ifo:ctd_number,"CTD 2.6.2.2.3.3"
+48,rdf:type,bibo:Document
+48,rdfs:label,KK‒Ayマウス反復投与試験・薬理試験
+48,dct:dateAccepted,2014-01-17
+48,ifo:internal_reference_id,DIR130163
+48,ifo:ctd_number,"CTD 2.6.2.2.4.1"
+49,rdf:type,bibo:Document
+49,rdfs:label,db/dbマウス反復投与試験・薬理試験
+49,dct:dateAccepted,2014-01-17
+49,ifo:internal_reference_id,DIR130164
+49,ifo:ctd_number,"CTD 2.6.2.2.4.3"
+50,rdf:type,bibo:Article
+50,dct:references,24533859
+50,ifo:internal_reference_id,SGL-00061
+51,rdf:type,bibo:Document
+51,rdfs:label,薬物動態
+51,dct:dateAccepted,2014-01-17
+51,ifo:internal_reference_id,DIR130181
+51,ifo:ctd_number,"CTD 2.7.2.3.1"
+52,rdf:type,bibo:Article
+52,dct:references,25316572
+52,ifo:internal_reference_id,SGL-00170
+53,rdf:type,bibo:Document
+53,rdfs:label,"2型糖尿病患者・腎機能低下患者PK/PD 試験"
+53,dct:dateAccepted,2014-01-17
+53,ifo:internal_reference_id,DIR130189
+53,ifo:ctd_number,"CTD 2.7.6.8"
+54,rdf:type,bibo:Document
+54,rdfs:label,小型化錠生物学的同等性試験・薬物動態
+54,dct:dateAccepted,
+54,ifo:internal_reference_id,
+54,ifo:ctd_number,DIR140200
+55,rdf:type,bibo:Document
+55,rdfs:label,食事の影響試験・薬物動態
+55,dct:dateAccepted,2014-01-17
+55,ifo:internal_reference_id,DIR130184
+55,ifo:ctd_number,"CTD 2.7.6.1"
+56,rdf:type,bibo:Document
+56,rdfs:label,薬物相互作用試験(メトホルミン)
+56,dct:dateAccepted,2014-01-17
+56,ifo:internal_reference_id,DIR130192
+56,ifo:ctd_number,"CTD 2.7.6.11"
+57,rdf:type,bibo:Article
+57,dct:references,MED-01740
+57,ifo:internal_reference_id,22795925
+58,rdf:type,bibo:Document
+58,rdfs:label,薬物相互作用試験(ミグリトール)
+58,dct:dateAccepted,2014-01-17
+58,ifo:internal_reference_id,DIR130195
+58,ifo:ctd_number,"CTD 2.7.6.14"
+59,rdf:type,bibo:Document
+59,rdfs:label,薬物相互作用試験(ピオグリタゾン)
+59,dct:dateAccepted,2014-01-17
+59,ifo:internal_reference_id,DIR130194
+59,ifo:ctd_number,"CTD 2.7.6.13"
+60,rdf:type,bibo:Article
+60,dct:references,22587345
+60,ifo:internal_reference_id,SGL-00018
+61,rdf:type,bibo:Document
+61,rdfs:label,薬物相互作用試験(シタグリプチン)
+61,dct:dateAccepted,2014-01-17
+61,ifo:internal_reference_id,DIR130196
+61,ifo:ctd_number,"CTD 2.7.6.15"
+62,rdf:type,bibo:Document
+62,rdfs:label,薬物相互作用試験(グリメピリド)
+62,dct:dateAccepted,2014-01-17
+62,ifo:internal_reference_id,DIR130193
+62,ifo:ctd_number,"CTD 2.7.6.12"
+63,rdf:type,bibo:Document
+63,rdfs:label,薬物相互作用紙面(ミチグリニド
+63,dct:dateAccepted,2014-01-17
+63,ifo:internal_reference_id,DIR130197
+63,ifo:ctd_number,"CTD 2.7.6.16"
+64,rdf:type,bibo:Document
+64,rdfs:label,薬物相互作用試験(フロセミド)
+64,dct:dateAccepted,2014-01-17
+64,ifo:internal_reference_id,DIR130198
+64,ifo:ctd_number,"CTD 2.7.6.17"
+65,rdf:type,bibo:Document
+65,rdfs:label,健康成人・絶対バイオアベイラビリティ試験
+65,dct:dateAccepted,2014-01-17
+65,ifo:internal_reference_id,DIR130185
+65,ifo:ctd_number,"CTD 2.7.6.2"
+66,rdf:type,bibo:Document
+66,rdfs:label,母集団薬物動態解析及び濃度—応答解析
+66,dct:dateAccepted,2014-01-17
+66,ifo:internal_reference_id,DIR130183
+66,ifo:ctd_number,"CTD 2.7.2.3.5"
+67,rdf:type,bibo:Document
+67,rdfs:label,母集団薬物動態解析
+67,dct:dateAccepted,2018-12-21
+67,ifo:internal_reference_id,DIR180386
+67,ifo:ctd_number,"CTD 2.7.2.3.1.2"
+68,rdf:type,bibo:Document
+68,rdfs:label,分布・薬物動態
+68,dct:dateAccepted,2014-01-17
+68,ifo:internal_reference_id,DIR130167
+68,ifo:ctd_number,"CTD 2.6.4.5"
+69,rdf:type,bibo:Document
+69,rdfs:label,血漿蛋白結合率・薬物動態
+69,dct:dateAccepted,2014-01-17
+69,ifo:internal_reference_id,DIR130172
+69,ifo:ctd_number,"CTD 2.7.2.2.1.1.1"
+70,rdf:type,bibo:Document
+70,rdfs:label,血漿中主要結合蛋白の推定・薬物動態
+70,dct:dateAccepted,2014-01-17
+70,ifo:internal_reference_id,DIR130173
+70,ifo:ctd_number,"CTD 2.7.2.2.1.1.2"
+71,rdf:type,bibo:Document
+71,rdfs:label,代謝物の検索及び同定・薬物動態
+71,dct:dateAccepted,2014-01-17
+71,ifo:internal_reference_id,DIR130174
+71,ifo:ctd_number,"CTD 2.7.2.2.1.6.1"
+72,rdf:type,bibo:Document
+72,rdfs:label,UGT分子種同定・薬物動態
+72,dct:dateAccepted,2014-01-17
+72,ifo:internal_reference_id,DIR130175
+72,ifo:ctd_number,"CTD 2.7.2.2.1.2.2"
+73,rdf:type,bibo:Document
+73,rdfs:label,CYP阻害作用・薬物動態
+73,dct:dateAccepted,2014-01-17
+73,ifo:internal_reference_id,DIR130176
+73,ifo:ctd_number,"CTD 2.7.2.2.1.3.1"
+74,rdf:type,bibo:Document
+74,rdfs:label,UGT阻害作用・薬物動態
+74,dct:dateAccepted,2014-01-17
+74,ifo:internal_reference_id,DIR130177
+74,ifo:ctd_number,"CTD 2.7.2.2.1.3.3"
+75,rdf:type,bibo:Document
+75,rdfs:label,CYP誘導作用・薬物動態
+75,dct:dateAccepted,2014-01-17
+75,ifo:internal_reference_id,DIR130178
+75,ifo:ctd_number,"CTD 2.7.2.2.1.3.2"
+76,rdf:type,bibo:Document
+76,rdfs:label,ヒト代謝物の薬理作用・薬物動態
+76,dct:dateAccepted,2014-01-17
+76,ifo:internal_reference_id,DIR130165
+76,ifo:ctd_number,"CTD 2.6.2.2.5"
+77,rdf:type,bibo:Document
+77,rdfs:label,健康成人・マスバランス試験
+77,dct:dateAccepted,2014-01-17
+77,ifo:internal_reference_id,DIR130187
+77,ifo:ctd_number,"CTD 2.7.6.6"
+78,rdf:type,bibo:Document
+78,rdfs:label,P‒gp基質性・薬物動態
+78,dct:dateAccepted,2014-01-17
+78,ifo:internal_reference_id,DIR130212
+78,ifo:ctd_number,"CTD 2.7.2.2.1.4.1"
+79,rdf:type,bibo:Document
+79,rdfs:label,海外腎機能低下者試験(2014年1月17日承認
+79,dct:dateAccepted,2014-01-17
+79,ifo:internal_reference_id,DIR130190
+79,ifo:ctd_number,"CTD 2.7.6.9"
+80,rdf:type,bibo:Article
+80,dct:references,23733389
+80,ifo:internal_reference_id,SGL-00015
+81,rdf:type,bibo:Document
+81,rdfs:label,海外肝機能低下者試験
+81,dct:dateAccepted,2014-01-17
+81,ifo:internal_reference_id,DIR130191
+81,ifo:ctd_number,"CTD 2.7.6.10"
+82,rdf:type,bibo:Document
+82,rdfs:label,健康成人・高齢者・性差試験
+82,dct:dateAccepted,2014-01-17
+82,ifo:internal_reference_id,DIR130188
+82,ifo:ctd_number,"CTD 2.7.6.7"
+83,rdf:type,bibo:BookSection
+83,dct:creator,"Klaassen, C. D."
+83,bibo:editor,
+83,dct:publisher,
+83,prism:publicationName,"Casarett & Doull’s Toxicology-The Basic Science of Poisons 8th Ed. "
+83,prism:startingPage,907
+83,prism:endingPage,907
+83,dct:issued,2013
+83,ifo:internal_reference_id,R-06382
+84,rdf:type,bibo:Article
+84,dct:creator,
+84,prism:publicationName,"World Health Organization Technical Report Series. "
+84,prism:volume,868
+84,prism:number,46
+84,prism:startingPage,8
+84,prism:endingPage,8
+84,dct:issued,1997
+84,ifo:internal_reference_id,R-06362
+85,rdf:type,bibo:Article
+85,dct:references,2663701
+85,ifo:internal_reference_id,R-06358
+86,rdf:type,bibo:BookSection
+86,dct:creator,"福田英臣 編"
+86,bibo:editor,
+86,dct:publisher,
+86,prism:publicationName,"毒性試験講座 1"
+86,prism:startingPage,253
+86,prism:endingPage,253
+86,dct:issued,1990
+86,ifo:internal_reference_id,R-06361
+87,rdf:type,bibo:BookSection
+87,dct:creator,"高橋道人 他"
+87,bibo:editor,
+87,dct:publisher,
+87,prism:publicationName,伊東毒性病理学
+87,prism:startingPage,134
+87,prism:endingPage,134
+87,dct:issued,2013
+87,ifo:internal_reference_id,R-06360
+88,rdf:type,bibo:Article
+88,dct:creator,"方波見卓行 他"
+88,prism:publicationName,日本臨床
+88,prism:volume,69
+88,prism:number,2
+88,prism:startingPage,505
+88,prism:endingPage,510
+88,dct:issued,2013
+88,ifo:internal_reference_id,R-06359
+89,rdf:type,bibo:Document
+89,rdfs:label,安全性薬理試験
+89,dct:dateAccepted,2014-01-17
+89,ifo:internal_reference_id,DIR130146
+89,ifo:ctd_number,"CTD 2.6.3.4"
+90,rdf:type,bibo:Document
+90,rdfs:label,副次的薬理試験
+90,dct:dateAccepted,2014-01-17
+90,ifo:internal_reference_id,DIR130166
+90,ifo:ctd_number,"CTD 2.6.2.3"
+91,rdf:type,bibo:Document
+91,rdfs:label,単独投与毒性試験
+91,dct:dateAccepted,2014-01-17
+91,ifo:internal_reference_id,DIR130147
+91,ifo:ctd_number,"CTD 2.6.7.5"
+92,rdf:type,bibo:Document
+92,rdfs:label,反復投与毒性試験
+92,dct:dateAccepted,2014-01-17
+92,ifo:internal_reference_id,DIR130168
+92,ifo:ctd_number,"CTD 2.6.6.3"
+93,rdf:type,bibo:Document
+93,rdfs:label,遺伝毒性試験
+93,dct:dateAccepted,2014-01-17
+93,ifo:internal_reference_id,DIR130169
+93,ifo:ctd_number,"CTD 2.6.6.4"
+94,rdf:type,bibo:Document
+94,rdfs:label,がん原性試験
+94,dct:dateAccepted,2014-01-17
+94,ifo:internal_reference_id,DIR130170
+94,ifo:ctd_number,"CTD 2.6.6.5"
+95,rdf:type,bibo:Document
+95,rdfs:label,生殖発生毒性試験
+95,dct:dateAccepted,2014-01-17
+95,ifo:internal_reference_id,DIR130171
+95,ifo:ctd_number,"CTD 2.6.6.6"
+96,rdf:type,bibo:Document
+96,rdfs:label,局所刺激性試験
+96,dct:dateAccepted,2014-01-17
+96,ifo:internal_reference_id,DIR130148
+96,ifo:ctd_number,"CTD 2.6.6.7"
+97,rdf:type,bibo:Document
+97,rdfs:label,モルモット皮膚感作性試験
+97,dct:dateAccepted,2014-01-17
+97,ifo:internal_reference_id,DIR130149
+97,ifo:ctd_number,"CTD 2.6.6.8.1"

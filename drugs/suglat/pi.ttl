@@ -1,0 +1,644 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/800126_3969018F1022_1_13#> .
+
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_0 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_1 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_2 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_3 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_3_1 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_3_2 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_4 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_5 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_6 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_7 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_8 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_9 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_9_1 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_9_2 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_9_3 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_9_4 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_9_5 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_9_6 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_9_7 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_9_8 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_10 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_10_1 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_10_2 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_11 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_11_1 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_11_2 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_12 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_13 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_14 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_15 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_15_1 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_15_2 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_16 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_16_1 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_16_2 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_16_3 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_16_4 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_16_5 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_16_6 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_16_7 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_16_8 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_17 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_17_1 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_17_2 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_17_3 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_18 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_18_1 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_19 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_20 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_21 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_22 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_23 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_24 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_25 .
+pi_root:800126_3969018F1022_1_13 pio:section pi:PI_26 .
+pi_root:800126_3969018F1022_1_13 dct:identifier "800126_3969018F1022_1_13" .
+pi_root:800126_3969018F1022_1_13 pio:company_identifier "800126" .
+pi_root:800126_3969018F1022_1_13 pio:date_of_preparation_or_revision "2020-01"^^xsd:date .
+pi_root:800126_3969018F1022_1_13 pio:version "第2版" .
+pi_root:800126_3969018F1022_1_13 pio:sccj_no "873969" .
+pi_root:800126_3969018F1022_1_13 pio:therapeutic_classification "選択的SGLT2阻害剤 －糖尿病治療剤－" .
+pi_root:800126_3969018F1022_1_13 pio:approval_brand_name "スーグラ錠25mg" .
+pi_root:800126_3969018F1022_1_13 pio:yj_code "3969018F1022" .
+pi_root:800126_3969018F1022_1_13 pio:trademark_name "Suglat Tablets 25mg" .
+pi_root:800126_3969018F1022_1_13 pio:name_in_hiragana "すーぐらじょう　にじゅうごみりぐらむ" .
+pi_root:800126_3969018F1022_1_13 pio:approval_no "22600AMX00009" .
+pi_root:800126_3969018F1022_1_13 pio:starting_date_of_marketing "2014-04"^^xsd:date .
+pi_root:800126_3969018F1022_1_13 pio:storage_method "室温保存" .
+pi_root:800126_3969018F1022_1_13 pio:shelf_life "3年" .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "重症ケトーシス、糖尿病性昏睡又は前昏睡［輸液、インスリン製剤による速やかな高血糖の是正が必須となるので本剤の投与は適さない。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "重症感染症、手術前後、重篤な外傷のある患者［インスリン製剤による血糖管理が望まれるので本剤の投与は適さない。］"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "（1錠中） イプラグリフロジン　L‒プロリン"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "32.15mg"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "イプラグリフロジンとして"@ja .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "25mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "D‒マンニトール"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "結晶セルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "デンプングリコール酸ナトリウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "ヒドロキシプロピルセルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "ステアリン酸マグネシウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
+pi:PI_3_1.item1.additive6 pio:additive "ヒプロメロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive7 .
+pi:PI_3_1.item1.additive7 pio:additive "マクロゴール"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive8 .
+pi:PI_3_1.item1.additive8 pio:additive "酸化チタン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive9 .
+pi:PI_3_1.item1.additive9 pio:additive "タルク"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive10 .
+pi:PI_3_1.item1.additive10 pio:additive "黄色三二酸化鉄"@ja .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "（1錠中） イプラグリフロジン　L‒プロリン"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "64.3mg"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "イプラグリフロジンとして"@ja .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "50mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "結晶セルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "デンプングリコール酸ナトリウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "ヒドロキシプロピルセルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "ステアリン酸マグネシウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "ヒプロメロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
+pi:PI_3_1.item1.additive6 pio:additive "マクロゴール"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive7 .
+pi:PI_3_1.item1.additive7 pio:additive "酸化チタン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive8 .
+pi:PI_3_1.item1.additive8 pio:additive "タルク"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive9 .
+pi:PI_3_1.item1.additive9 pio:additive "三二酸化鉄"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive10 .
+pi:PI_3_1.item1.additive10 pio:additive "黒酸化鉄"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:formulation "フィルムコーティング錠" .
+pi:PI_3_2.item1 pio:color_tone "淡黄色" .
+pi:PI_3_2.item1 pio:weight "約186mg" .
+pi:PI_3_2.item1 pio:shape_front "3969018F1022_fig01.gif" .
+pi:PI_3_2.item1 pio:shape_back "3969018F1022_fig02.gif" .
+pi:PI_3_2.item1 pio:shape_side "3969018F1022_fig03.gif" .
+pi:PI_3_2.item1 pio:size_diameter "約8.1mm" .
+pi:PI_3_2.item1 pio:size_thickness "約3.6mm" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item2 .
+pi:PI_3_2.item2 pio:formulation "フィルムコーティング錠" .
+pi:PI_3_2.item2 pio:color_tone "淡紫色" .
+pi:PI_3_2.item2 pio:weight "約227mg" .
+pi:PI_3_2.item2 pio:shape_front "3969018F1022_fig04.gif" .
+pi:PI_3_2.item2 pio:shape_back "3969018F1022_fig05.gif" .
+pi:PI_3_2.item2 pio:shape_side "3969018F1022_fig06.gif" .
+pi:PI_3_2.item2 pio:size_diameter "約8.6mm" .
+pi:PI_3_2.item2 pio:size_thickness "約3.9mm" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 pio:section pi:PI_4.item1 .
+pi:PI_4.item1 rdfs:title "2型糖尿病"@ja .
+pi:PI_4 pio:section pi:PI_4.item2 .
+pi:PI_4.item2 rdfs:title "1型糖尿病"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 pio:section pi:PI_5.item1 .
+pi:PI_5.item1 rdfs:label "〈効能共通〉"@ja .
+pi:PI_5 pio:section pi:PI_5.item2 .
+pi:PI_5.item2 rdfs:label "〈1型糖尿病〉"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 pio:section pi:PI_6.item1 .
+pi:PI_6.item1 rdfs:label "〈2型糖尿病〉"@ja .
+pi:PI_6.item1 dct:description "通常、成人にはイプラグリフロジンとして50mgを1日1回朝食前又は朝食後に経口投与する。なお、効果不十分な場合には、経過を十分に観察しながら100mg1日1回まで増量することができる。"@ja .
+pi:PI_6 pio:section pi:PI_6.item2 .
+pi:PI_6.item2 rdfs:label "〈1型糖尿病〉"@ja .
+pi:PI_6.item2 dct:description "インスリン製剤との併用において、通常、成人にはイプラグリフロジンとして50mgを1日1回朝食前又は朝食後に経口投与する。なお、効果不十分な場合には、経過を十分に観察しながら100mg1日1回まで増量することができる。"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 pio:section pi:PI_7.item1 .
+pi:PI_7.item1 rdfs:label "〈1型糖尿病〉"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "本剤の使用にあたっては、患者に対し低血糖症状及びその対処方法について十分説明すること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "本剤投与中は、血糖値等を定期的に検査し、薬剤の効果を確かめ、3カ月投与しても効果が不十分な場合には、より適切な治療法への変更を考慮すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "本剤投与により、血清クレアチニンの上昇又はeGFRの低下がみられることがあるので、腎機能を定期的に検査するとともに、腎機能障害患者における治療にあたっては経過を十分に観察すること。 , , ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 dct:description "尿路感染及び性器感染を起こし、腎盂腎炎、外陰部及び会陰部の壊死性筋膜炎（フルニエ壊疽）、敗血症等の重篤な感染症に至ることがある。十分な観察を行うなど尿路感染及び性器感染の発症に注意し、発症した場合には適切な処置を行うとともに、状態に応じて休薬等を考慮すること。尿路感染及び性器感染の症状及びその対処方法について患者に説明すること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item5 .
+pi:PI_8.item5 dct:description "本剤の利尿作用により多尿・頻尿がみられることがある。また、体液量が減少することがあるので、適度な水分補給を行うよう指導し、観察を十分に行うこと。脱水、血圧低下等の異常が認められた場合は、休薬や補液等の適切な処置を行うこと。特に体液量減少を起こしやすい患者（高齢者や利尿剤併用患者等）においては、脱水や糖尿病性ケトアシドーシス、高浸透圧高血糖症候群、脳梗塞を含む血栓・塞栓症等の発現に注意すること。 , , ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item6 .
+pi:PI_8.item6 dct:description "本剤の作用機序である尿中グルコース排泄促進作用により、血糖コントロールが良好であっても脂肪酸代謝が亢進し、ケトーシスがあらわれ、ケトアシドーシスに至ることがある。著しい血糖の上昇を伴わない場合があるため、以下の点に留意すること。"@ja .
+pi:PI_8.item6 dct:description "             , ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item7 .
+pi:PI_8.item7 dct:description "排尿困難、無尿、乏尿あるいは尿閉の症状を呈する患者においては、その治療を優先するとともに他剤での治療を考慮すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item8 .
+pi:PI_8.item8 dct:description "本剤投与による体重減少が報告されているため、過度の体重減少に注意すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item9 .
+pi:PI_8.item9 dct:description "低血糖症状を起こすことがあるので、高所作業、自動車の運転等に従事している患者に投与するときには注意すること。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "低血糖を起こすおそれのある以下の患者又は状態"@ja .
+pi:PI_9_1.item1 dct:description "               ,"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item2 .
+pi:PI_9_1.item2 rdfs:title "尿路感染、性器感染のある患者"@ja .
+pi:PI_9_1.item2 dct:description "症状を悪化させるおそれがある。 ,"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item3 .
+pi:PI_9_1.item3 rdfs:title "脱水を起こしやすい患者（血糖コントロールが極めて不良の患者、高齢者、利尿剤併用患者等）"@ja .
+pi:PI_9_1.item3 dct:description "本剤の利尿作用により脱水を起こすおそれがある。 , ,"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item1 .
+pi:PI_9_2.item1 rdfs:title "重度の腎機能障害のある患者又は透析中の末期腎不全患者"@ja .
+pi:PI_9_2.item1 dct:description "投与しないこと。本剤の効果が期待できない。 , ,"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item2 .
+pi:PI_9_2.item2 rdfs:title "中等度の腎機能障害のある患者"@ja .
+pi:PI_9_2.item2 dct:description "投与の必要性を慎重に判断すること。本剤の効果が十分に得られない可能性がある。 , , , ,"@ja .
+pi:PI_9_3 pio:section pi:PI_9_3.item1 .
+pi:PI_9_3.item1 rdfs:title "重度の肝機能障害のある患者"@ja .
+pi:PI_9_3.item1 dct:description "低用量から投与を開始するなど慎重に投与すること。重度の肝機能障害のある患者を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には本剤を投与せず、インスリン製剤等を使用すること。類薬の動物実験（ラット）で、ヒトの妊娠中期及び後期にあたる幼若動物への曝露により、腎盂及び尿細管の拡張が報告されている。また、本剤の動物実験（ラット）で胎児への移行が報告されている。"@ja .
+pi:PI_9_6 dct:description "授乳しないことが望ましい。動物実験（ラット）で乳汁中への移行及び出生児の体重増加抑制が報告されている。"@ja .
+pi:PI_9_7 dct:description "小児等を対象とした有効性及び安全性を指標とした臨床試験は実施していない。"@ja .
+pi:PI_9_8 dct:description "高齢者では脱水症状（口渇等）の認知が遅れるおそれがある。 ,"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2 pio:drug pi:PI_10_2.item1 .
+pi:PI_10_2.item1 a pio:PrecautionsForCombi .
+pi:PI_10_2.item1 pio:drug_name "糖尿病用薬"@ja .
+pi:PI_10_2.item1 pio:drug_name "                       ,"@ja .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "低血糖の発現に注意すること。特に、インスリン製剤、スルホニルウレア剤、速効型インスリン分泌促進剤又はGLP-1受容体作動薬の減量を検討すること。ただし、1型糖尿病患者においてインスリン製剤を減量する場合、ケトアシドーシス等のリスクが高まるため、過度の減量に注意すること。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "血糖降下作用が増強されるおそれがある。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item2 .
+pi:PI_10_2.item2 a pio:PrecautionsForCombi .
+pi:PI_10_2.item2 pio:drug_name "血糖降下作用を増強する薬剤"@ja .
+pi:PI_10_2.item2 pio:clin_symptoms_and_measures "血糖値その他患者の状態を十分観察しながら投与すること。"@ja .
+pi:PI_10_2.item2 pio:mechanism_and_risk_factors "血糖降下作用が増強されるおそれがある。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item3 .
+pi:PI_10_2.item3 a pio:PrecautionsForCombi .
+pi:PI_10_2.item3 pio:drug_name "血糖降下作用を減弱する薬剤"@ja .
+pi:PI_10_2.item3 pio:clin_symptoms_and_measures "血糖値その他患者の状態を十分観察しながら投与すること。"@ja .
+pi:PI_10_2.item3 pio:mechanism_and_risk_factors "血糖降下作用が減弱されるおそれがある。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item4 .
+pi:PI_10_2.item4 a pio:PrecautionsForCombi .
+pi:PI_10_2.item4 pio:drug_name "利尿作用を有する薬剤"@ja .
+pi:PI_10_2.item4 pio:drug_name "                       , ,"@ja .
+pi:PI_10_2.item4 pio:clin_symptoms_and_measures "利尿作用が過剰にみられるおそれがあるため、必要に応じ利尿薬の用量を調整するなど注意すること。"@ja .
+pi:PI_10_2.item4 pio:mechanism_and_risk_factors "利尿作用が増強されるおそれがある。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "低血糖（1.0％ ）"@ja .
+pi:PI_11_1.item1 dct:description "低血糖症状が認められた場合には、糖質を含む食品を摂取するなど適切な処置を行うこと。ただし、 ‒グルコシダーゼ阻害剤との併用により低血糖症状が認められた場合にはブドウ糖を投与すること。 ,  , , , , , , , , , , , , , , , , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "腎盂腎炎（0.1％）、外陰部及び会陰部の壊死性筋膜炎（フルニエ壊疽）（頻度不明）、敗血症（頻度不明）"@ja .
+pi:PI_11_1.item2 dct:description "腎盂腎炎、外陰部及び会陰部の壊死性筋膜炎（フルニエ壊疽）があらわれ、敗血症（敗血症性ショックを含む）に至ることがある。 ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item3 .
+pi:PI_11_1.item3 rdfs:title "脱水（0.2%）"@ja .
+pi:PI_11_1.item3 dct:description "口渇、多尿、頻尿、血圧低下等の症状があらわれ脱水が疑われる場合には、休薬や補液等の適切な処置を行うこと。脱水に引き続き脳梗塞を含む血栓・塞栓症等を発現した例が報告されている。 , , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item4 .
+pi:PI_11_1.item4 rdfs:title "ケトアシドーシス（頻度不明）"@ja .
+pi:PI_11_1.item4 dct:description "ケトアシドーシス（糖尿病性ケトアシドーシスを含む）があらわれることがある。 , , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item5 .
+pi:PI_11_1.item5 rdfs:title "ショック、アナフィラキシー（いずれも頻度不明）"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "貧血" .
+pi:PI_11_2.item1.item1 pio:category "血液及びリンパ系障害" .
+pi:PI_11_2.item1.item1 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "糖尿病網膜症" .
+pi:PI_11_2.item1.item2 pio:category "眼障害" .
+pi:PI_11_2.item1.item2 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "眼瞼浮腫" .
+pi:PI_11_2.item1.item3 pio:category "眼障害" .
+pi:PI_11_2.item1.item3 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "便秘" .
+pi:PI_11_2.item1.item4 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item4 pio:frequency "1～5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "下痢、胃炎、胃食道逆流性疾患、上腹部痛、腹部膨満、齲歯、悪心" .
+pi:PI_11_2.item1.item5 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item5 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "嘔吐" .
+pi:PI_11_2.item1.item6 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item6 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "口渇、体重減少" .
+pi:PI_11_2.item1.item7 pio:category "全身障害及び投与局所様態" .
+pi:PI_11_2.item1.item7 pio:frequency "1～5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "空腹、倦怠感" .
+pi:PI_11_2.item1.item8 pio:category "全身障害及び投与局所様態" .
+pi:PI_11_2.item1.item8 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "顔面浮腫、脱力感" .
+pi:PI_11_2.item1.item9 pio:category "全身障害及び投与局所様態" .
+pi:PI_11_2.item1.item9 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "肝機能異常、脂肪肝" .
+pi:PI_11_2.item1.item10 pio:category "肝胆道系障害" .
+pi:PI_11_2.item1.item10 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item11 .
+pi:PI_11_2.item1.item11 a pio:AdverseEvent .
+pi:PI_11_2.item1.item11 pio:adverse_reaction "膀胱炎" .
+pi:PI_11_2.item1.item11 pio:category "感染症" .
+pi:PI_11_2.item1.item11 pio:frequency "1～5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item12 .
+pi:PI_11_2.item1.item12 a pio:AdverseEvent .
+pi:PI_11_2.item1.item12 pio:adverse_reaction "鼻咽頭炎、外陰部膣カンジダ症、細菌尿" .
+pi:PI_11_2.item1.item12 pio:category "感染症" .
+pi:PI_11_2.item1.item12 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item13 .
+pi:PI_11_2.item1.item13 a pio:AdverseEvent .
+pi:PI_11_2.item1.item13 pio:adverse_reaction "ケトーシス" .
+pi:PI_11_2.item1.item13 pio:category "代謝及び栄養障害" .
+pi:PI_11_2.item1.item13 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item14 .
+pi:PI_11_2.item1.item14 a pio:AdverseEvent .
+pi:PI_11_2.item1.item14 pio:adverse_reaction "筋痙縮" .
+pi:PI_11_2.item1.item14 pio:category "筋骨格系及び結合組織障害" .
+pi:PI_11_2.item1.item14 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item15 .
+pi:PI_11_2.item1.item15 a pio:AdverseEvent .
+pi:PI_11_2.item1.item15 pio:adverse_reaction "筋肉痛、背部痛" .
+pi:PI_11_2.item1.item15 pio:category "筋骨格系及び結合組織障害" .
+pi:PI_11_2.item1.item15 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item16 .
+pi:PI_11_2.item1.item16 a pio:AdverseEvent .
+pi:PI_11_2.item1.item16 pio:adverse_reaction "糖尿病性ニューロパチー、浮動性めまい、体位性めまい、頭痛、感覚鈍麻" .
+pi:PI_11_2.item1.item16 pio:category "神経系障害" .
+pi:PI_11_2.item1.item16 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item17 .
+pi:PI_11_2.item1.item17 a pio:AdverseEvent .
+pi:PI_11_2.item1.item17 pio:adverse_reaction "頻尿" .
+pi:PI_11_2.item1.item17 pio:category "腎及び尿路障害" .
+pi:PI_11_2.item1.item17 pio:frequency "5％以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item18 .
+pi:PI_11_2.item1.item18 a pio:AdverseEvent .
+pi:PI_11_2.item1.item18 pio:adverse_reaction "多尿" .
+pi:PI_11_2.item1.item18 pio:category "腎及び尿路障害" .
+pi:PI_11_2.item1.item18 pio:frequency "1～5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item19 .
+pi:PI_11_2.item1.item19 a pio:AdverseEvent .
+pi:PI_11_2.item1.item19 pio:adverse_reaction "尿管結石、腎結石症" .
+pi:PI_11_2.item1.item19 pio:category "腎及び尿路障害" .
+pi:PI_11_2.item1.item19 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item20 .
+pi:PI_11_2.item1.item20 a pio:AdverseEvent .
+pi:PI_11_2.item1.item20 pio:adverse_reaction "陰部そう痒症" .
+pi:PI_11_2.item1.item20 pio:category "生殖系及び乳房障害" .
+pi:PI_11_2.item1.item20 pio:frequency "1～5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item21 .
+pi:PI_11_2.item1.item21 a pio:AdverseEvent .
+pi:PI_11_2.item1.item21 pio:adverse_reaction "上気道の炎症" .
+pi:PI_11_2.item1.item21 pio:category "呼吸器、胸郭及び縦隔障害" .
+pi:PI_11_2.item1.item21 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item22 .
+pi:PI_11_2.item1.item22 a pio:AdverseEvent .
+pi:PI_11_2.item1.item22 pio:adverse_reaction "湿疹、発疹、蕁麻疹、薬疹、そう痒症" .
+pi:PI_11_2.item1.item22 pio:category "皮膚及び皮下組織障害" .
+pi:PI_11_2.item1.item22 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item23 .
+pi:PI_11_2.item1.item23 a pio:AdverseEvent .
+pi:PI_11_2.item1.item23 pio:adverse_reaction "高血圧" .
+pi:PI_11_2.item1.item23 pio:category "血管障害" .
+pi:PI_11_2.item1.item23 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item24 .
+pi:PI_11_2.item1.item24 a pio:AdverseEvent .
+pi:PI_11_2.item1.item24 pio:adverse_reaction "尿中β ミクログロブリン増加、血中ケトン体増加" .
+pi:PI_11_2.item1.item24 pio:category "臨床検査" .
+pi:PI_11_2.item1.item24 pio:frequency "1～5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item25 .
+pi:PI_11_2.item1.item25 a pio:AdverseEvent .
+pi:PI_11_2.item1.item25 pio:adverse_reaction "尿中β‒NアセチルDグルコサミニダーゼ増加、尿潜血陽性、尿中アルブミン／クレアチニン比増加、尿中ケトン体陽性、尿中α ミクログロブリン増加、尿量増加" .
+pi:PI_11_2.item1.item25 pio:category "臨床検査" .
+pi:PI_11_2.item1.item25 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:explanatory_notes_for_other_adverse "注2）投与初期に比較的多く発現していることから、投与後は十分な観察を行い、症状がみられた場合は投与を中止するなどし、必要に応じて皮膚科専門医と相談して適切な処置を行うこと。" .
+pi:PI_12 dct:description "本剤の作用機序により、本剤服用中は尿糖陽性、血清1,5‒AG（1,5‒アンヒドログルシトール）低値を示す。尿糖、血清1,5‒AGの検査結果は、血糖コントロールの参考とはならない。"@ja .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤交付時の注意"@ja .
+pi:PI_14.item1 dct:description "PTP包装の薬剤はPTPシートから取り出して服用するよう指導すること。PTPシートの誤飲により、硬い鋭角部が食道粘膜へ刺入し、更には穿孔をおこして縦隔洞炎等の重篤な合併症を併発することがある。"@ja .
+pi:PI_15_2 dct:description "雌雄ラットに本剤12.5、40、125、250mg/kg/日（250mg/kg/日群は雌のみで実施）を104週間反復経口投与したがん原性試験において、40mg/kg/日以上の雄及び125mg/kg/日以上の雌で副腎髄質の褐色細胞腫の発生頻度増加が認められた。ラットに本剤40mg/kg/日（雄）又は125mg/kg/日（雌）を反復経口投与したときの曝露量（AUC ）は、最大臨床推奨用量（1日1回100mg）の約10倍又は約60倍であった。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:label "〈2型糖尿病〉"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 rdfs:label "〈1型糖尿病〉"@ja .
+pi:PI_16_2 pio:section pi:PI_16_2.item1 .
+pi:PI_16_2.item1 rdfs:title "生物学的利用率"@ja .
+pi:PI_16_2.item1 dct:description "健康成人男女（14例）に本剤25mgを空腹時1時間持続静脈内投与又は100mgを空腹時単回経口投与 したとき、イプラグリフロジンの絶対バイオアベイラビリティは90.2％と高く、本剤の吸収は良好と考えられた （外国人データ）。"@ja .
+pi:PI_16_2 pio:section pi:PI_16_2.item2 .
+pi:PI_16_2.item2 rdfs:title "食事の影響"@ja .
+pi:PI_16_2.item2 dct:description "健康成人男性（30例）に本剤50mgを空腹時、食前又は食後単回経口投与したとき、空腹時投与に対する食前投与のCmax及びAUClastの幾何平均比（90％信頼区間）は1.23（1.14～1.33）及び1.04（1.01～1.07）、空腹時投与に対する食後投与のCmax及びAUClastの幾何平均比（90％信頼区間）は0.82（0.76～0.89）及び1.00（0.97～1.03）であった 。"@ja .
+pi:PI_16_3 dct:description "イプラグリフロジンの血漿蛋白結合率は94.6％～96.5％であり、主要結合蛋白質はアルブミンであった （ 試験）。"@ja .
+pi:PI_16_4 dct:description "イプラグリフロジンは主にグルクロン酸抱合代謝を受け、ヒト血漿中には4種のグルクロン酸抱合代謝物が認められた 。また、1種の硫酸抱合代謝物が少量認められた。イプラグリフロジンの主代謝酵素はUGT2B7であり、UGT2B4、UGT1A8及びUGT1A9も寄与することが示された （ 試験）。 イプラグリフロジンの各種CYP及びUGT分子種に対する阻害作用は弱く、CYP1A2及びCYP3A4に対する誘導作用もほとんど示さなかった （ 試験）。"@ja .
+pi:PI_16_5 dct:description "イプラグリフロジンはP‒gpの基質であった （ 試験）。 健康成人男性に本剤1～300mgを空腹時単回経口投与 したとき、未変化体の尿中排泄率は約1％であった 。 健康成人男性（6例）に C‒イプラグリフロジン100mgを空腹時単回経口投与したとき、投与後48時間までに大部分（84.4％）の放射能が排泄された。投与後144時間までの放射能の尿中及び糞中排泄率はそれぞれ67.9％及び32.7％（合計100.6％）であり、投与した放射能のほとんどは尿中又は糞中に排泄された。呼気中には放射能は検出されなかった （外国人データ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item1 .
+pi:PI_16_6.item1 rdfs:title "腎機能低下患者"@ja .
+pi:PI_16_6.item1 dct:description "腎機能の程度が異なる2型糖尿病患者（25例）に、本剤50mgを食前単回経口投与したとき、腎機能正常患者（8例）に対する軽度腎機能低下患者（eGFR：60mL/min/1.73m 以上90mL/min/1.73m 未満、9例）のCmax及びAUCinfの幾何平均比（90％信頼区間）は1.12（0.83～1.52）及び0.94（0.69～1.26）、中等度腎機能低下患者（eGFR：30mL/min/1.73m 以上60mL/min/1.73m 未満、8例）のCmax及びAUCinfの幾何平均比（90％信頼区間）は1.17（0.85～1.60）及び1.21（0.89～1.65）であった 。一方、腎機能の程度が異なる2型糖尿病患者に本剤100mgを空腹時単回経口投与したとき、腎機能正常患者（8例）に対する重度腎機能低下患者（8例）のCmax及びAUCinfの幾何平均比（90％信頼区間）は1.05（0.85～1.31）及び1.47（1.12～1.92）であった （外国人データ）。 , , ,"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item2 .
+pi:PI_16_6.item2 rdfs:title "肝機能低下患者"@ja .
+pi:PI_16_6.item2 dct:description "中等度（Child‒Pugh分類B、スコア7～9）の肝機能低下患者（8例）に本剤100mgを空腹時単回経口投与したとき、健康成人（8例）に対する中等度肝機能低下患者のCmax及びAUCinfの幾何平均比（90％信頼区間）は1.27（0.93～1.73）及び1.25（0.94～1.66）であった （外国人データ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item3 .
+pi:PI_16_6.item3 rdfs:title "高齢者"@ja .
+pi:PI_16_6.item3 dct:description "健康な高齢（25例）及び非高齢（24例）男女に本剤100mgを食前反復経口投与したとき、非高齢男性に対する高齢男性のCmax及びAUC の幾何平均比（90％信頼区間）は0.99（0.84～1.16）及び1.21（1.06～1.38）であった。一方、非高齢女性に対する高齢女性のCmax及びAUC の幾何平均比（90％信頼区間）は1.25（1.06～1.49）及び1.45（1.27～1.67）であった （外国人データ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item1 .
+pi:PI_16_7.item1 rdfs:title "イプラグリフロジンが及ぼす影響"@ja .
+pi:PI_16_7.item1 dct:description "イプラグリフロジンは以下の薬物の薬物動態に明らかな影響を及ぼさなかった。 シタグリプチン 、メトホルミン 、ミグリトール 、ピオグリタゾン 、グリメピリド 、ミチグリニド 、フロセミド"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item2 .
+pi:PI_16_7.item2 rdfs:title "イプラグリフロジンが受ける影響"@ja .
+pi:PI_16_7.item2 dct:description "以下の薬物はイプラグリフロジンの薬物動態に明らかな影響を及ぼさなかった。 シタグリプチン 、ミグリトール 、ピオグリタゾン 、グリメピリド 、ミチグリニド"@ja .
+pi:PI_16_7 dct:description "※）外国人データ"@ja .
+pi:PI_16_8 pio:section pi:PI_16_8.item1 .
+pi:PI_16_8.item1 rdfs:title "薬力学（尿中グルコース排泄量）"@ja .
+pi:PI_16_8.item1 dct:description "腎機能の程度が異なる2型糖尿病患者（25例）に、本剤50mgを食前単回経口投与したとき、1日あたりの尿中グルコース排泄量のベースラインからの変化量は、腎機能正常患者で約71g、軽度腎機能低下患者で約61g、中等度腎機能低下患者で約38gであり、腎機能低下患者で低かった 。一方、腎機能の程度が異なる2型糖尿病患者に本剤100mgを空腹時単回経口投与したとき、20時間あたりの尿中グルコース排泄量は、腎機能正常患者で約49g（ベースライン値：約1g）であったのに対し、重度腎機能低下患者では約12g（ベースライン値：約2g）であった （外国人データ）。"@ja .
+pi:PI_16_8 dct:description "注）本剤の承認された1回用量は50mg（効果不十分な場合は100mgまで）である。"@ja .
+pi:PI_17_1 dct:description "いずれの試験もLOCF（Last observation carried forward）法を適用した。"@ja .
+pi:PI_17_1 dct:description "注）本剤の承認された1回用量は50mg（効果不十分な場合は100mgまで）である。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:label "〈2型糖尿病〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:label "○単独療法"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item3 .
+pi:PI_17_1.item3 rdfs:label "○併用療法（メトホルミン、ピオグリタゾン、スルホニルウレア剤との併用試験）"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item4 .
+pi:PI_17_1.item4 rdfs:label "○併用療法（α‒グルコシダーゼ阻害剤、DPP‒4阻害剤、ナテグリニドとの併用試験）"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item5 .
+pi:PI_17_1.item5 rdfs:label "○併用療法（インスリン製剤との併用試験）"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item6 .
+pi:PI_17_1.item6 rdfs:label "○併用療法（GLP-1受容体作動薬との併用試験）"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item7 .
+pi:PI_17_1.item7 rdfs:label "○腎機能低下患者での効果"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item8 .
+pi:PI_17_1.item8 rdfs:label "〈1型糖尿病（併用療法）〉"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "Na /グルコース共輸送担体（SGLT：Na ‒glucose cotransporter）は、Na の濃度勾配を駆動力としてグルコースを細胞内へ能動輸送するトランスポーターである。ヒトにおけるSGLT1とSGLT2の機能について、消化管におけるグルコース吸収はSGLT1が、腎近位尿細管におけるグルコース再吸収はSGLT2が、それぞれ主たる役割を担っていることが明らかになっている 。イプラグリフロジンは腎近位尿細管に発現するSGLT2を阻害し、血液中の過剰なグルコースを体外に排出することで血糖降下作用を発揮する。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "薬理作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item1 .
+pi:PI_18.item1.item1 rdfs:label "ヒトSGLT2阻害作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item2 .
+pi:PI_18.item1.item2 dct:desctiption "イプラグリフロジンは、ヒトSGLT2に対して選択的な阻害作用を示し、その50％阻害濃度（IC 値）は、7.38nmol/Lであった。SGLT1に対するIC 値は、1880nmol/Lであった （ 試験）。"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item3 .
+pi:PI_18.item1.item3 rdfs:label "尿中グルコース排泄促進作用及び血糖降下作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item4 .
+pi:PI_18.item1.item4 dct:desctiption "イプラグリフロジンは、正常マウス、ニコチンアミド/ストレプトゾトシン誘発軽症2型糖尿病マウス及び2型糖尿病KK‒A マウスにおいて単回経口投与により投与後24時間までの累積尿中グルコース排泄量を増加させた 。また、イプラグリフロジンは、それらのマウスにおいて単回経口投与により液体栄養剤負荷後の血糖値上昇を抑制した 。更に、イプラグリフロジンは2型糖尿病KK‒A マウス並びにdb/dbマウスにおいて、1日1回28日間の反復経口投与によりHbA1c低下作用を示した 。 イプラグリフロジンは、ストレプトゾトシン誘発1型糖尿病ラットにおいて単回経口投与により投与後24時間までの累積尿中グルコース排泄量を増加させ、グルコース溶液負荷後の血糖値上昇を抑制した。更に1日1回28日間の反復経口投与によりHbA1c低下作用を示した 。 2型糖尿病患者を対象に、本剤50mg、100mg又はプラセボを1日1回14日間投与したところ、本剤投与群において最終投与後24時間までの累積尿中グルコース排泄量はベースラインから増加した。また、空腹時血糖値はベースラインから減少した 。 1型糖尿病患者を対象に、本剤25mg、50mg、100mg又はプラセボを1日1回14日間投与したところ、本剤投与群において初回投与後及び最終投与後24時間までの累積尿中グルコース排泄量はベースラインから増加した。また、空腹時血糖値はベースラインから減少した 。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "イプラグリフロジン　 ‒プロリン" .
+pi:PI_19 pio:chemical_name "(1 )-1,5-Anhydro-1- -{3-[(1-benzothiophen-2-yl)methyl]-4-fluorophenyl}- -glucitol-(2 )-pyrrolidine-2-carboxylic acid(1:1)" .
+pi:PI_19 pio:molecular_formula "C H FO S・C H NO" .
+pi:PI_19 pio:molecular_weight "519.58" .
+pi:PI_19 pio:description_of_active_ingredients "イプラグリフロジン　L‒プロリンは白色～微帯褐白色の結晶又は粉末である。ジメチルスルホキシドに溶けやすく、エタノール（99.5）に溶けにくく、水にほとんど溶けない。" .
+pi:PI_19 pio:melting_point "約205ºC（分解）" .
+pi:PI_21 dct:description "医薬品リスク管理計画を策定の上、適切に実施すること。"@ja .
+pi:PI_22 pio:section pi:PI_22.item1 .
+pi:PI_22.item1 rdfs:label "〈スーグラ錠25mg〉"@ja .
+pi:PI_22.item1 dct:description "100錠（10錠×10）、140錠（14錠×10）"@ja .
+pi:PI_22 pio:section pi:PI_22.item2 .
+pi:PI_22.item2 rdfs:label "〈スーグラ錠50mg〉"@ja .
+pi:PI_22.item2 dct:description "100錠（10錠×10）、140錠（14錠×10）、300錠（バラ、乾燥剤入り）、500錠（10錠×50）"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "Kadokura, T. et al.：Diabetol. Int. 2011；2（4）：172-182［SGL-00020］" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "Kadokura, T. et al.：Clin. Pharmacokinet. 2014；53（11）：975-988［SGL-00170］" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "Kadokura, T. et al.：Diabetes Res. Clin. Pract. 2014；106（1）：50-56［SGL-00089］" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "社内報告書：1型糖尿病患者・PK/PD試験（2018年12月21日承認 CTD 2.7.6.1）（DIR180297）" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "社内報告書：健康成人・絶対バイオアベイラビリティ試験（2014年1月17日承認 CTD 2.7.6.2）（DIR130185）" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "社内報告書：血漿蛋白結合率・薬物動態（2014年1月17日承認 CTD 2.7.2.2.1.1.1）（DIR130172）" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "社内報告書：血漿中主要結合蛋白の推定・薬物動態（2014年1月17日承認 CTD 2.7.2.2.1.1.2）（DIR130173）" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "社内報告書：代謝物の検索及び同定・薬物動態（2014年1月17日承認 CTD 2.7.2.2.1.6.1）（DIR130174）" .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "社内報告書：UGT分子種同定・薬物動態（2014年1月17日承認 CTD 2.7.2.2.1.2.2）（DIR130175）" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "社内報告書：CYP阻害作用・薬物動態（2014年1月17日承認 CTD 2.7.2.2.1.3.1）（DIR130176）" .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "社内報告書：UGT阻害作用・薬物動態（2014年1月17日承認 CTD 2.7.2.2.1.3.3）（DIR130177）" .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "社内報告書：CYP誘導作用・薬物動態（2014年1月17日承認 CTD 2.7.2.2.1.3.2）（DIR130178）" .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "社内報告書：P‒gp基質性・薬物動態（2014年1月17日承認 CTD 2.7.2.2.1.4.1）（DIR130212）" .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "社内報告書：健康成人・マスバランス試験（2014年1月17日承認 CTD 2.7.6.6）（DIR130187）" .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "Zhang, W. et al.：Clin. Drug Investig. 2013；33（7）：489-496［SGL-00015］" .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "Smulders, R. A. et al.：Diabetes Obes. Metab. 2012；14（10）：937-943［SGL-00018］" .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "Veltkamp, S. A. et al.：Clin. Ther. 2012；34（8）：1761-1771［MED-01740］" .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "Kashiwagi, A. et al.：J. Diabetes Investig. 2014；5（4）：382-391［SGL-00073］" .
+pi:PI_23.item18 pio:id "DOC_18" .
+pi:PI_23 dct:references pi:PI_23.item19 .
+pi:PI_23.item19 a bibo:Document .
+pi:PI_23.item19 rdfs:label "Kashiwagi, A. et al.：Diabetol. Int. 2015；6（1）：8-18［SGL-00224］" .
+pi:PI_23.item19 pio:id "DOC_19" .
+pi:PI_23 dct:references pi:PI_23.item20 .
+pi:PI_23.item20 a bibo:Document .
+pi:PI_23.item20 rdfs:label "社内報告書：2型糖尿病患者・長期投与試験（2014年1月17日承認 CTD 2.7.6.34）（DIR130210）" .
+pi:PI_23.item20 pio:id "DOC_20" .
+pi:PI_23 dct:references pi:PI_23.item21 .
+pi:PI_23.item21 a bibo:Document .
+pi:PI_23.item21 rdfs:label "柏木厚典 他：薬理と治療 2015；43（1）：85-100［SGL-00173］" .
+pi:PI_23.item21 pio:id "DOC_21" .
+pi:PI_23 dct:references pi:PI_23.item22 .
+pi:PI_23.item22 a bibo:Document .
+pi:PI_23.item22 rdfs:label "Kashiwagi, A. et al.：Diabetes Obes. Metab. 2015；17（3）：304-308［SGL-00176］" .
+pi:PI_23.item22 pio:id "DOC_22" .
+pi:PI_23 dct:references pi:PI_23.item23 .
+pi:PI_23.item23 a bibo:Document .
+pi:PI_23.item23 rdfs:label "Kashiwagi, A. et al.：Diabetol. Int. 2015；6（2）：104-116［SGL-00348］" .
+pi:PI_23.item23 pio:id "DOC_23" .
+pi:PI_23 dct:references pi:PI_23.item24 .
+pi:PI_23.item24 a bibo:Document .
+pi:PI_23.item24 rdfs:label "Kashiwagi, A. et al.：Diabetol. Int. 2015；6（2）：125-138［SGL-00345］" .
+pi:PI_23.item24 pio:id "DOC_24" .
+pi:PI_23 dct:references pi:PI_23.item25 .
+pi:PI_23.item25 a bibo:Document .
+pi:PI_23.item25 rdfs:label "柏木厚典 他：薬理と治療 2014；42（12）：923-939［SGL-00165］" .
+pi:PI_23.item25 pio:id "DOC_25" .
+pi:PI_23 dct:references pi:PI_23.item26 .
+pi:PI_23.item26 a bibo:Document .
+pi:PI_23.item26 rdfs:label "柏木厚典 他：薬理と治療 2014；42（12）：941-957［SGL-00167］" .
+pi:PI_23.item26 pio:id "DOC_26" .
+pi:PI_23 dct:references pi:PI_23.item27 .
+pi:PI_23.item27 a bibo:Document .
+pi:PI_23.item27 rdfs:label "柏木厚典 他：薬理と治療 2014；42（12）：959-975［SGL-00166］" .
+pi:PI_23.item27 pio:id "DOC_27" .
+pi:PI_23 dct:references pi:PI_23.item28 .
+pi:PI_23.item28 a bibo:Document .
+pi:PI_23.item28 rdfs:label "Ishihara, H. et al.：Diabetes Obes. Metab. 2016；18（12）：1207-1216［SGL-00611］" .
+pi:PI_23.item28 pio:id "DOC_28" .
+pi:PI_23 dct:references pi:PI_23.item29 .
+pi:PI_23.item29 a bibo:Document .
+pi:PI_23.item29 rdfs:label "Ishihara, H. et al.：Diabetol. Int. 2019；10（1）：37-50［SGL-00836］" .
+pi:PI_23.item29 pio:id "DOC_29" .
+pi:PI_23 dct:references pi:PI_23.item30 .
+pi:PI_23.item30 a bibo:Document .
+pi:PI_23.item30 rdfs:label "Ishihara, H. et al.：Diabetes Ther. 2018；9（4）：1549-1567［SGL-00833］" .
+pi:PI_23.item30 pio:id "DOC_30" .
+pi:PI_23 dct:references pi:PI_23.item31 .
+pi:PI_23.item31 a bibo:Document .
+pi:PI_23.item31 rdfs:label "Kashiwagi, A. et al.：Diabetes Obes. Metab. 2015；17（2）：152-160［SGL-00204］" .
+pi:PI_23.item31 pio:id "DOC_31" .
+pi:PI_23 dct:references pi:PI_23.item32 .
+pi:PI_23.item32 a bibo:Document .
+pi:PI_23.item32 rdfs:label "社内報告書：1型糖尿病患者・第Ⅲ相試験（2018年12月21日承認 CTD 2.7.6.2）（DIR180298）" .
+pi:PI_23.item32 pio:id "DOC_32" .
+pi:PI_23 dct:references pi:PI_23.item33 .
+pi:PI_23.item33 a bibo:Document .
+pi:PI_23.item33 rdfs:label "Wright, E. M. et al.：J. Intern. Med. 2007；261（1）：32-43［SGL-00028］" .
+pi:PI_23.item33 pio:id "DOC_33" .
+pi:PI_23 dct:references pi:PI_23.item34 .
+pi:PI_23.item34 a bibo:Document .
+pi:PI_23.item34 rdfs:label "Tahara, A. et al.：Naunyn‒Schmiedeberg’s Arch. Pharmacol. 2012；385（4）：423-436［SGL-00019］" .
+pi:PI_23.item34 pio:id "DOC_34" .
+pi:PI_23 dct:references pi:PI_23.item35 .
+pi:PI_23.item35 a bibo:Document .
+pi:PI_23.item35 rdfs:label "社内報告書：尿中グルコース排泄促進作用・薬理試験（2014年1月17日承認 CTD 2.6.2.2.2.2）（DIR130161）" .
+pi:PI_23.item35 pio:id "DOC_35" .
+pi:PI_23 dct:references pi:PI_23.item36 .
+pi:PI_23.item36 a bibo:Document .
+pi:PI_23.item36 rdfs:label "社内報告書：液体栄養剤負荷後高血糖の改善作用・薬理試験（2014年1月17日承認 CTD 2.6.2.2.3.3）（DIR130162）" .
+pi:PI_23.item36 pio:id "DOC_36" .
+pi:PI_23 dct:references pi:PI_23.item37 .
+pi:PI_23.item37 a bibo:Document .
+pi:PI_23.item37 rdfs:label "社内報告書：KK‒A マウス反復投与試験・薬理試験（2014年1月17日承認 CTD 2.6.2.2.4.1）（DIR130163）" .
+pi:PI_23.item37 pio:id "DOC_37" .
+pi:PI_23 dct:references pi:PI_23.item38 .
+pi:PI_23.item38 a bibo:Document .
+pi:PI_23.item38 rdfs:label "社内報告書：db/dbマウス反復投与試験・薬理試験（2014年1月17日承認 CTD 2.6.2.2.4.3）（DIR130164）" .
+pi:PI_23.item38 pio:id "DOC_38" .
+pi:PI_23 dct:references pi:PI_23.item39 .
+pi:PI_23.item39 a bibo:Document .
+pi:PI_23.item39 rdfs:label "Tahara, A. et al.：J. Pharma. Pharmacol. 2014；66（7）：975-987［SGL-00061］" .
+pi:PI_23.item39 pio:id "DOC_39" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "アステラス製薬株式会社　メディカルインフォメーションセンター"@ja .
+pi:PI_24.item1 pio:address "〒103‐8411　東京都中央区日本橋本町2丁目5番1号"@ja .
+pi:PI_24.item1 pio:contact_information "フリーダイヤル　0120‐189‐371"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売"@ja .
+pi:PI_26.item1 pio:name "アステラス製薬株式会社"@ja .
+pi:PI_26.item1 pio:address "東京都中央区日本橋本町2丁目5番1号"@ja .
+pi:PI_26 pio:section pi:PI_26.item2 .
+pi:PI_26.item2 pio:type_of_industry "販売提携"@ja .
+pi:PI_26.item2 pio:name "寿製薬株式会社"@ja .
+pi:PI_26.item2 pio:address "長野県埴科郡坂城町大字上五明字東川原198"@ja .
