@@ -1,0 +1,200 @@
+subject,predicate,object
+1,rdf:type,bibo:Article
+1,dct:references,25809824
+1,ifo:internal_reference_id,TXT8177
+2,rdf:type,bibo:Article
+2,dct:references,20888992
+2,ifo:internal_reference_id,TXT6714
+3,rdf:type,bibo:Article
+3,dct:references,22975213
+3,ifo:internal_reference_id,TXT7892
+4,rdf:type,bibo:Article
+4,dct:references,24718982
+4,ifo:internal_reference_id,TXT7937
+5,rdf:type,bibo:Article
+5,dct:references,24488323
+5,ifo:internal_reference_id,TXT7735
+6,rdf:type,bibo:Article
+6,dct:references,23589177
+6,ifo:internal_reference_id,TXT7894
+7,rdf:type,bibo:Article
+7,dct:references,12711638
+7,ifo:internal_reference_id,TXT7911
+8,rdf:type,bibo:Article
+8,dct:references,31361807
+8,ifo:internal_reference_id,
+*1,rdf:type,bibo:Document
+*1,rdfs:label,国内第Ⅰ相臨床試験（TED11576試験）
+*1,dct:dateAccepted,2014-07-04
+*1,ifo:internal_reference_id,JET－14
+*1,ifo:ctd_number,"CTD2.7.6.2, 2.7.4.2"
+*2,rdf:type,bibo:Document
+*2,rdfs:label,海外第Ⅲ相臨床試験（EFC6193試験）
+*2,dct:dateAccepted,2014-07-04
+*2,ifo:internal_reference_id,JET－18
+*2,ifo:ctd_number,CTD2.7.4.2
+*3,rdf:type,bibo:Document
+*3,rdfs:label,薬物動態（用量比例性）
+*3,dct:dateAccepted,2014-07-04
+*3,ifo:internal_reference_id,JET－05
+*3,ifo:ctd_number,"CTD 2.7.2.3"
+*4,rdf:type,bibo:Document
+*4,rdfs:label,"QT/QTc 評価試験"
+*4,dct:dateAccepted,2014-07-04
+*4,ifo:internal_reference_id,JET－19
+*4,ifo:ctd_number,"CTD 2.7.6.2"
+*5,rdf:type,bibo:Document
+*5,rdfs:label,カバジタキセル作用機序に関する検討
+*5,dct:dateAccepted,2014-07-04
+*5,ifo:internal_reference_id,JET－15
+*5,ifo:ctd_number,"CTD 2.6.2.2"
+*6,rdf:type,bibo:Document
+*6,rdfs:label,"ヒト前立腺癌細胞株に対する増殖阻害作用（in vitro）"
+*6,dct:dateAccepted,2014-07-04
+*6,ifo:internal_reference_id,JET－20
+*6,ifo:ctd_number,"CTD 2.6.2.2"
+*7,rdf:type,bibo:Document
+*7,rdfs:label,"薬剤耐性腫瘍細胞株に対する増殖阻害作用（in vitro）"
+*7,dct:dateAccepted,2014-07-04
+*7,ifo:internal_reference_id,JET－21
+*7,ifo:ctd_number,"CTD 2.6.2.2"
+*8,rdf:type,bibo:Document
+*8,rdfs:label,ヒト前立腺癌由来細胞株移植マウスモデルにおける抗腫瘍効果
+*8,dct:dateAccepted,2014-07-04
+*8,ifo:internal_reference_id,JET－16
+*8,ifo:ctd_number,"CTD 2.6.2.2"
+*9,rdf:type,bibo:Document
+*9,rdfs:label,ドセタキセル耐性腫瘍細胞株移植マウスモデルにおける抗腫瘍効果
+*9,dct:dateAccepted,2014-07-04
+*9,ifo:internal_reference_id,JET－17
+*9,ifo:ctd_number,"CTD 2.6.2.2"
+*10,rdf:type,bibo:Document
+*10,rdfs:label,日本人前立腺癌患者における薬物動態
+*10,dct:dateAccepted,2014-07-04
+*10,ifo:internal_reference_id,JET－04
+*10,ifo:ctd_number,"CTD 2.7.2.2"
+*11,rdf:type,bibo:Document
+*11,rdfs:label,母集団薬物動態解析（腎障害患者）
+*11,dct:dateAccepted,2014-07-04
+*11,ifo:internal_reference_id,JET－13
+*11,ifo:ctd_number,"CTD 2.7.2.3"
+*12,rdf:type,bibo:Document
+*12,rdfs:label,"薬物相互作用（CYP3A 阻害剤及び誘導剤の影響））"
+*12,dct:dateAccepted,2014-07-04
+*12,ifo:internal_reference_id,JET－10
+*12,ifo:ctd_number,
+*13,rdf:type,bibo:Document
+*13,rdfs:label,薬物相互作用（ミダゾラムの影響）
+*13,dct:dateAccepted,2014-07-04
+*13,ifo:internal_reference_id,JET－11
+*13,ifo:ctd_number,"CTD 2.7.2.2"
+*14,rdf:type,bibo:Document
+*14,rdfs:label,母集団薬物動態解析
+*14,dct:dateAccepted,2014-07-04
+*14,ifo:internal_reference_id,JET－22
+*14,ifo:ctd_number,CTD2.7.2.3
+*15,rdf:type,bibo:Document
+*15,rdfs:label,薬物動態（分布）
+*15,dct:dateAccepted,2014-07-04
+*15,ifo:internal_reference_id,JET－06
+*15,ifo:ctd_number,"CTD 2.7.2.2"
+*16,rdf:type,bibo:Document
+*16,rdfs:label,血液-脳関門通過性（単回投与：マウス、ラット、イヌ）
+*16,dct:dateAccepted,2014-07-04
+*16,ifo:internal_reference_id,JET－23
+*16,ifo:ctd_number,"CTD 2.6.4.5, 2.4.3.2"
+*17,rdf:type,bibo:Document
+*17,rdfs:label,血液-脳関門通過性（反復投与：マウス）
+*17,dct:dateAccepted,2014-07-04
+*17,ifo:internal_reference_id,JET－24
+*17,ifo:ctd_number,"CTD 2.6.4.5"
+*18,rdf:type,bibo:Document
+*18,rdfs:label,血液-胎盤関門通過性（ラット）
+*18,dct:dateAccepted,2014-07-04
+*18,ifo:internal_reference_id,JET－25
+*18,ifo:ctd_number,"CTD 2.6.4.5"
+*19,rdf:type,bibo:Document
+*19,rdfs:label,乳汁への移行性（ラット）
+*19,dct:dateAccepted,2014-07-04
+*19,ifo:internal_reference_id,JET－26
+*19,ifo:ctd_number,"CTD 2.6.4.7"
+*20,rdf:type,bibo:Document
+*20,rdfs:label,髄液への移行性
+*20,dct:dateAccepted,2014-07-04
+*20,ifo:internal_reference_id,JET－27
+*20,ifo:ctd_number,"CTD 2.7.2.3, 2.7.6.2"
+*21,rdf:type,bibo:Document
+*21,rdfs:label,薬物動態（血液/血漿分配）
+*21,dct:dateAccepted,2014-07-04
+*21,ifo:internal_reference_id,JET－07
+*21,ifo:ctd_number,"CTD 2.7.2.2"
+*22,rdf:type,bibo:Document
+*22,rdfs:label,組織への移行性（マウス）
+*22,dct:dateAccepted,2014-07-04
+*22,ifo:internal_reference_id,JET－28
+*22,ifo:ctd_number,"CTD 2.6.4.5, 2.4.3.2"
+*23,rdf:type,bibo:Document
+*23,rdfs:label,薬物動態（代謝）
+*23,dct:dateAccepted,2014-07-04
+*23,ifo:internal_reference_id,JET－08
+*23,ifo:ctd_number,CTD2.7.2.2
+*24,rdf:type,bibo:Document
+*24,rdfs:label,薬物動態（代謝物の活性）
+*24,dct:dateAccepted,2014-07-04
+*24,ifo:internal_reference_id,JET－29
+*24,ifo:ctd_number,"CTD 2.6.2.2"
+*25,rdf:type,bibo:Document
+*25,rdfs:label,薬物動態（排泄）
+*25,dct:dateAccepted,2014-07-04
+*25,ifo:internal_reference_id,JET－09
+*25,ifo:ctd_number,"CTD 2.7.2.2"
+*26,rdf:type,bibo:Document
+*26,rdfs:label,トランスポーターに対する影響
+*26,dct:dateAccepted,2014-07-04
+*26,ifo:internal_reference_id,JET－30
+*26,ifo:ctd_number,"CTD 2.5.3.1, 2.7.2.2, 2.7.2.3"
+*27,rdf:type,bibo:Document
+*27,rdfs:label,OATP1B1の基質に対するカバジタキセルの影響
+*27,dct:dateAccepted,2014-07-04
+*27,ifo:internal_reference_id,JET－12
+*27,ifo:ctd_number,"CTD 2.7.2.2"
+*28,rdf:type,bibo:Document
+*28,rdfs:label,ラットを用いた反復投与毒性試験
+*28,dct:dateAccepted,2014-07-04
+*28,ifo:internal_reference_id,JET－01
+*28,ifo:ctd_number,"CTD 2.6.6.3, 2.6.6.9"
+*29,rdf:type,bibo:Document
+*29,rdfs:label,遺伝毒性試験
+*29,dct:dateAccepted,2014-07-04
+*29,ifo:internal_reference_id,JET－02
+*29,ifo:ctd_number,"CTD 2.6.6.4"
+*30,rdf:type,bibo:Document
+*30,rdfs:label,マウスを用いた神経毒性試験
+*30,dct:dateAccepted,2014-07-04
+*30,ifo:internal_reference_id,JET－03
+*30,ifo:ctd_number,"CTD 2.6.6.2"
+*31,rdf:type,bibo:Document
+*31,rdfs:label,単回投与毒性試験
+*31,dct:dateAccepted,2014-07-04
+*31,ifo:internal_reference_id,JET－31
+*31,ifo:ctd_number,"CTD 2.6.6.2"
+*32,rdf:type,bibo:Document
+*32,rdfs:label,反復投与毒性試験
+*32,dct:dateAccepted,2014-07-04
+*32,ifo:internal_reference_id,JET－32
+*32,ifo:ctd_number,"CTD 2.6.6.3"
+*33,rdf:type,bibo:Document
+*33,rdfs:label,生殖発生毒性試験
+*33,dct:dateAccepted,2014-07-04
+*33,ifo:internal_reference_id,JET－33
+*33,ifo:ctd_number,"CTD 2.6.6.6"
+*34,rdf:type,bibo:Document
+*34,rdfs:label,局所刺激性試験
+*34,dct:dateAccepted,2014-07-04
+*34,ifo:internal_reference_id,JET－34
+*34,ifo:ctd_number,"CTD 2.6.6.7"
+*35,rdf:type,bibo:Document
+*35,rdfs:label,"ヒトの全血、血清及び血漿とのin vitro 適合性試験"
+*35,dct:dateAccepted,2014-07-04
+*35,ifo:internal_reference_id,JET－35
+*35,ifo:ctd_number,"CTD 2.6.6.8"
