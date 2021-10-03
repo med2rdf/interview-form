@@ -1,0 +1,292 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/400315_2399006F1331_1_06#> .
+
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_0 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_1 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_2 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_3 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_3_1 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_3_2 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_4 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_5 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_6 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_7 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_8 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_9 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_9_1 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_9_2 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_9_3 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_9_4 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_9_5 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_9_6 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_9_7 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_9_8 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_10 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_10_1 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_10_2 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_11 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_11_1 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_11_2 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_12 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_13 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_14 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_15 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_15_1 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_15_2 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_16 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_16_1 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_16_2 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_16_3 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_16_4 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_16_5 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_16_6 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_16_7 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_16_8 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_17 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_17_1 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_17_2 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_17_3 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_18 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_18_1 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_19 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_20 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_21 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_22 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_23 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_24 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_25 .
+pi_root:400315_2399006F1331_1_06 pio:section pi:PI_26 .
+pi_root:400315_2399006F1331_1_06 dct:identifier "400315_2399006F1331_1_06" .
+pi_root:400315_2399006F1331_1_06 pio:company_identifier "400315" .
+pi_root:400315_2399006F1331_1_06 pio:date_of_preparation_or_revision "2020-04"^^xsd:date .
+pi_root:400315_2399006F1331_1_06 pio:version "第1版" .
+pi_root:400315_2399006F1331_1_06 pio:sccj_no "872399" .
+pi_root:400315_2399006F1331_1_06 pio:therapeutic_classification "消化管運動調律剤" .
+pi_root:400315_2399006F1331_1_06 pio:approval_brand_name "セレキノン錠100mg" .
+pi_root:400315_2399006F1331_1_06 pio:yj_code "2399006F1331" .
+pi_root:400315_2399006F1331_1_06 pio:trademark_name "CEREKINON Tablets" .
+pi_root:400315_2399006F1331_1_06 pio:name_in_hiragana "せれきのんじょう" .
+pi_root:400315_2399006F1331_1_06 pio:approval_no "21900AMX00681" .
+pi_root:400315_2399006F1331_1_06 pio:starting_date_of_marketing "1984-05"^^xsd:date .
+pi_root:400315_2399006F1331_1_06 pio:storage_method "室温保存" .
+pi_root:400315_2399006F1331_1_06 pio:shelf_life "3年" .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "日局 トリメブチンマレイン酸塩"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "1錠中 100mg"@ja .
+pi:PI_3_1.item1 pio:additives "エチルセルロース、カルメロースカルシウム、ステアリン酸マグネシウム、セルロース、ヒプロメロース、マクロゴール6000"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:formulation "フィルムコーティング錠" .
+pi:PI_3_2.item1 pio:color_tone "白色～微黄白色" .
+pi:PI_3_2.item1 pio:weight "0.17g" .
+pi:PI_3_2.item1 pio:id_code "TA127" .
+pi:PI_3_2.item1 pio:other_shape pi:PI_3_2.item1.other_shape .
+pi:PI_3_2.item1 pio:size_diameter "8.0mm" .
+pi:PI_3_2.item1 pio:size_thickness "3.5mm" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 pio:section pi:PI_4.item1 .
+pi:PI_4.item1 dct:description "慢性胃炎における消化器症状（腹部疼痛、悪心、噯気、腹部膨満感）"@ja .
+pi:PI_4 pio:section pi:PI_4.item2 .
+pi:PI_4.item2 dct:description "過敏性腸症候群"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 pio:section pi:PI_6.item1 .
+pi:PI_6.item1 rdfs:label "〈慢性胃炎における消化器症状〉"@ja .
+pi:PI_6.item1 dct:description "トリメブチンマレイン酸塩として、通常成人1日量300mgを3回に分けて経口投与する。 年齢、症状により適宜増減する。"@ja .
+pi:PI_6 pio:section pi:PI_6.item2 .
+pi:PI_6.item2 rdfs:label "〈過敏性腸症候群〉"@ja .
+pi:PI_6.item2 dct:description "トリメブチンマレイン酸塩として、通常成人1日量300～600mgを3回に分けて経口投与する。"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。非臨床試験で乳汁への移行が認められている。"@ja .
+pi:PI_9_7 dct:description "小児等を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_8 dct:description "減量するなど注意すること。一般に生理機能が低下している。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には、投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "肝機能障害（0.1%未満）、黄疸（頻度不明）"@ja .
+pi:PI_11_1.item1 dct:description "AST、ALT、ALP、LDH、γ-GTPの上昇等を伴う肝機能障害、黄疸があらわれることがある。"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "便秘、下痢、腹鳴、口渇、口内しびれ感、悪心、嘔吐" .
+pi:PI_11_2.item1.item1 pio:category "消化器" .
+pi:PI_11_2.item1.item1 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "心悸亢進" .
+pi:PI_11_2.item1.item2 pio:category "循環器" .
+pi:PI_11_2.item1.item2 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "眠気、めまい、倦怠感、頭痛" .
+pi:PI_11_2.item1.item3 pio:category "精神神経系" .
+pi:PI_11_2.item1.item3 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "発疹、蕁麻疹、そう痒感" .
+pi:PI_11_2.item1.item4 pio:category "過敏症" .
+pi:PI_11_2.item1.item4 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "排尿障害、尿閉" .
+pi:PI_11_2.item1.item5 pio:category "泌尿器" .
+pi:PI_11_2.item1.item5 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:explanatory_notes_for_other_adverse "注）発現頻度は、製造販売後調査の結果を含む。" .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤交付時の注意"@ja .
+pi:PI_14.item1 dct:description "PTP包装の薬剤はPTPシートから取り出して服用するよう指導すること。PTPシートの誤飲により、硬い鋭角部が食道粘膜へ刺入し、更には穿孔をおこして縦隔洞炎等の重篤な合併症を併発することがある。"@ja .
+pi:PI_16_1 dct:description "健康成人男子にトリメブチンマレイン酸塩を100mg経口投与したとき血漿中トリメブチン濃度は30分前後に最高値32.5～42.3ng/mLを示す。半減期は約2時間である。"@ja .
+pi:PI_16_2 dct:description "ラットの小腸（空腸）結紮部に C-トリメブチンを投与し、トリメブチンの消化管からの吸収は速やかであり、1時間までに94%の放射能が吸収された  。"@ja .
+pi:PI_16_3 pio:section pi:PI_16_3.item1 .
+pi:PI_16_3.item1 rdfs:title "蛋白結合率"@ja .
+pi:PI_16_3.item1 dct:description "ヒト血清において77.0%であった  （in vitro、平衡透析法）。"@ja .
+pi:PI_16_3 pio:section pi:PI_16_3.item2 .
+pi:PI_16_3.item2 rdfs:title "組織への移行性"@ja .
+pi:PI_16_3.item2 dct:description "ラットに C-又は H-トリメブチンを経口投与後30分での放射能濃度は、肝臓、消化管内容、腎臓では高く、肺、脾臓、膵臓、副腎では中程度、血液、骨格筋、脳、精巣等では低かった。 H-標識体投与時の同時点では、消化管内容、腎臓、肝臓に高く、肺、血液、心筋には中程度、精巣及び脳では低かった。いずれの標識化合物投与時でも、72時間後には極めて低い濃度となった  。 ラットに H/ C-トリメブチンを1日1回、7日及び14日間連続経口投与した際の組織内濃度は、14日連続投与してもそれらの値は7回連続投与群とほとんど同程度か、むしろ低くなる臓器・組織もあった。14日連続投与後72時間目の C濃度はかなり低くなり、特定の臓器・組織に残留する傾向は認められなかった。一方、組織内 H濃度についてみると、分布パターンにおいて C-標識体の場合と若干異なるところもあったが、 C-標識体の場合と同様に、特定の臓器・組織に残留する傾向は認められなかった  。"@ja .
+pi:PI_16_3 pio:section pi:PI_16_3.item3 .
+pi:PI_16_3.item3 rdfs:title "胎児への移行性"@ja .
+pi:PI_16_3.item3 dct:description "妊娠後期の雌ラットに C-トリメブチンを経口投与した際の母体組織内濃度は投与後30分値が最も高く、以後経時的に減少していった。卵巣、子宮、胎盤の濃度は母体血中濃度にほぼ等しく、胎児、羊水の濃度は極めて低かった。胎児1匹当りの放射能移行量は母体投与量の約0.02%であった  。"@ja .
+pi:PI_16_3 pio:section pi:PI_16_3.item4 .
+pi:PI_16_3.item4 rdfs:title "乳汁への移行性"@ja .
+pi:PI_16_3.item4 dct:description "分娩後6日目の母体ラットに C-トリメブチン（30mg/kg）を経口投与した際、哺乳児中の放射能濃度は4時間から8時間にかけて最高値に達し、乳児1匹への放射能移行量は、8時間までに母体投与量の約0.04%と推定された  。"@ja .
+pi:PI_16_4 dct:description "ヒトにおける血漿及び尿中の代謝物組成から、トリメブチンの代謝経路はN-脱メチル化、エステル加水分解、ならびにそれに引き続く抱合反応であると考えられる  。"@ja .
+pi:PI_16_5 dct:description "健康成人男子にトリメブチンマレイン酸塩を経口投与したとき、主な消失経路は代謝であり、代謝物のほとんどは尿中へ排泄される。投与後24時間までの尿中への未変化体の排泄率は0.01%以下である  。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:label "〈慢性胃炎〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:label "〈過敏性腸症候群〉"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 pio:section pi:PI_18_1.item1 .
+pi:PI_18_1.item1 rdfs:title "消化管平滑筋に対する作用"@ja .
+pi:PI_18_1.item1 dct:description "トリメブチンは、平滑筋細胞において、弛緩した細胞に対しては、Kチャネルの抑制に基づく脱分極作用により細胞の興奮性を高め、一方、細胞の興奮性に応じてCaチャネルを抑制することで過剰な収縮を抑制することが推測される  。"@ja .
+pi:PI_18_1 pio:section pi:PI_18_1.item2 .
+pi:PI_18_1.item2 rdfs:title "オピオイド受容体を介する作用"@ja .
+pi:PI_18_1.item2 dct:description "トリメブチンは、運動亢進状態にある腸管では、副交感神経終末にあるオピオイドμ及びκ受容体に作用して、アセチルコリン遊離を抑制し、消化管運動を抑制する。一方、運動低下状態にある腸管では、交感神経終末にあるμ受容体に作用してノルアドレナリン遊離を抑制する。その結果、副交感神経終末からのアセチルコリン遊離が増加し、消化管運動を亢進する  。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "消化管運動に対する作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item1 .
+pi:PI_18.item1.item1 rdfs:label "胃運動調律作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item2 .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item3 .
+pi:PI_18.item1.item3 rdfs:label "消化管連動運動誘発作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item4 .
+pi:PI_18.item1.item4 dct:desctiption "ヒトの消化管運動に対し、4～6mg/kgの空腸内投与で生理的な消化管連動運動の誘発が認められる  。"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item5 .
+pi:PI_18.item1.item5 rdfs:label "胃排出能改善作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item6 .
+pi:PI_18.item1.item6 dct:desctiption "上腹部消化器不定愁訴を有する慢性胃炎患者に対し、200mgの経口投与で、胃排出能の低下している場合には亢進させる。 一方、亢進している場合には抑制傾向が認められる  。"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item7 .
+pi:PI_18.item1.item7 rdfs:label "腸運動調律作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item8 .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item9 .
+pi:PI_18.item1.item9 rdfs:label "食道下端括約圧（LESP）調節作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item10 .
+pi:PI_18.item1.item10 dct:desctiption "麻酔イヌにおけるテトラガストリン負荷誘発食道下端括約圧上昇は、0.6mg/kg静脈内投与で低下する。一方、セクレチン負荷誘発内圧低下は上昇する  。"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item11 .
+pi:PI_18.item1.item11 rdfs:label "消化管平滑筋直接作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item12 .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "末梢性鎮吐作用"@ja .
+pi:PI_18.item2 dct:description "イヌにおいて、アポモルヒネ誘発の嘔吐に対する抑制作用は弱いが、硫酸銅誘発の嘔吐に対し3mg/kgの静脈内投与又は60mg/kgの経口投与で嘔吐発現潜時を明らかに延長させる  。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "トリメブチンマレイン酸塩（Trimebutine Maleate）" .
+pi:PI_19 pio:chemical_name "(2 )-2-Dimethylamino-2-phenylbutyl 3,4,5-trimethoxybenzoate monomaleate" .
+pi:PI_19 pio:molecular_formula "C H NO ・C H O" .
+pi:PI_19 pio:molecular_weight "503.54" .
+pi:PI_19 pio:description_of_active_ingredients "白色の結晶又は結晶性の粉末である。 , -ジメチルホルムアミド又は酢酸（100）に溶けやすく、アセトニトリルにやや溶けやすく、水又はエタノール（99.5）に溶けにくい。0.01mol/L塩酸試液に溶ける。" .
+pi:PI_19 pio:melting_point "131～135℃" .
+pi:PI_22.item0 dct:description "100錠［10錠（PTP）×10］、1,000錠［10錠（PTP）×100］、500錠［瓶、バラ］"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "吉川正美, 他：応用薬理. 1982; 24（2）: 289-300" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "吉川正美, 他：応用薬理. 1982; 24（2）: 309-314" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "吉川正美, 他：応用薬理. 1982; 24（2）: 315-324" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "吉川正美, 他：応用薬理. 1982; 24（2）: 301-307" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "田辺三菱製薬（株）：ヒトにおけるTrimebutine maleate（TM-906）一回経口投与後の尿中未変化体および代謝物排泄量の測定（社内資料）" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "長崎正明, 他：Therapeutic Research. 1993; 14（7）: 2919-2926" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "Taniyama K, et al.：Gastroenterol. 1991; 101（6）: 1579–1587" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "竹永秀幸, 他：日本薬理学雑誌. 1982; 80（2）: 163-168" .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "玉木　元, 他：日本平滑筋学会雑誌. 1984; 20（5）: 407-412" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "Mazzone O, et al.：Clin Ter. 1980; 95（6）: 629-635" .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "西岡利夫, 他：日本平滑筋学会雑誌. 1982; 18（2）: 105-113" .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "原沢　茂, 他：臨牀と研究. 1985; 62（5）: 1487-1491" .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "Takenaga H, et al.：Jpn J Pharmacol. 1984; 34（2）: 177-181" .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "福土　審, 他：薬理と治療. 1986; 14（9）: 5841-5854" .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "佐々木大輔：Therapeutic Research. 1985; 3（5）: 788-797" .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "川村　武：Therapeutic Research. 1985; 3（5）: 761-766" .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "石田柳一, 他：基礎と臨床. 1982; 16（8）: 4139-4152" .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "玉木　元, 他：基礎と臨床. 1982; 16（8）: 4153-4160" .
+pi:PI_23.item18 pio:id "DOC_18" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "田辺三菱製薬株式会社　くすり相談センター"@ja .
+pi:PI_24.item1 pio:address "〒541-8505 大阪市中央区道修町3-2-10"@ja .
+pi:PI_24.item1 pio:contact_information "電話 0120-753-280"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "田辺三菱製薬株式会社"@ja .
+pi:PI_26.item1 pio:address "大阪市中央区道修町3-2-10"@ja .
