@@ -1,0 +1,230 @@
+subject,predicate,object
+1,rdf:type,bibo:Article
+1,dct:creator,"林晃正, 他"
+1,prism:publicationName,薬理と治療
+1,prism:volume,38
+1,prism:number,12
+1,prism:startingPage,1175
+1,prism:endingPage,1190
+1,dct:issued,2010
+1,ifo:internal_reference_id,
+2,rdf:type,bibo:Article
+2,dct:creator,"成瀬友彦, 他"
+2,prism:publicationName,薬理と治療
+2,prism:volume,38
+2,prism:number,12
+2,prism:startingPage,1159
+2,prism:endingPage,1174
+2,dct:issued,2010
+2,ifo:internal_reference_id,
+3,rdf:type,bibo:Article
+3,dct:creator,"北岡建樹, 他"
+3,prism:publicationName,臨牀透析
+3,prism:volume,27
+3,prism:number,4
+3,prism:startingPage,485
+3,prism:endingPage,497
+3,dct:issued,2011
+3,ifo:internal_reference_id,
+4,rdf:type,bibo:Article
+4,dct:creator,"保利敬, 他"
+4,prism:publicationName,薬理と治療
+4,prism:volume,39
+4,prism:number,Suppl.1
+4,prism:startingPage,S43
+4,prism:endingPage,54
+4,dct:issued,2011
+4,ifo:internal_reference_id,
+5,rdf:type,bibo:Article
+5,dct:creator,"椿原美治, 他"
+5,prism:publicationName,腎と透析
+5,prism:volume,70
+5,prism:number,6
+5,prism:startingPage,953
+5,prism:endingPage,963
+5,dct:issued,2011
+5,ifo:internal_reference_id,
+6,rdf:type,bibo:Article
+6,dct:creator,"渡邊有三, 他"
+6,prism:publicationName,薬理と治療
+6,prism:volume,39
+6,prism:number,Suppl.1
+6,prism:startingPage,S21
+6,prism:endingPage,30
+6,dct:issued,2011
+6,ifo:internal_reference_id,
+7,rdf:type,bibo:Article
+7,dct:creator,"鶴田良成, 他"
+7,prism:publicationName,薬理と治療
+7,prism:volume,39
+7,prism:number,Suppl.1
+7,prism:startingPage,S31
+7,prism:endingPage,42
+7,dct:issued,2011
+7,ifo:internal_reference_id,
+8,rdf:type,bibo:Article
+8,dct:creator,"湯澤由紀夫, 他"
+8,prism:publicationName,薬理と治療
+8,prism:volume,39
+8,prism:number,Suppl.1
+8,prism:startingPage,S55
+8,prism:endingPage,68
+8,dct:issued,2011
+8,ifo:internal_reference_id,
+9,rdf:type,bibo:Article
+9,dct:creator,"平松信, 他"
+9,prism:publicationName,薬理と治療
+9,prism:volume,39
+9,prism:number,Suppl.1
+9,prism:startingPage,S69
+9,prism:endingPage,78
+9,dct:issued,2011
+9,ifo:internal_reference_id,
+10,rdf:type,bibo:Article
+10,dct:creator,"椿原美治, 他"
+10,prism:publicationName,日本透析医学会雑誌
+10,prism:volume,41
+10,prism:number,10
+10,prism:startingPage,661
+10,prism:endingPage,716
+10,dct:issued,2008
+10,ifo:internal_reference_id,
+11,rdf:type,bibo:Article
+11,dct:references,17108343
+11,ifo:internal_reference_id,
+12,rdf:type,bibo:Article
+12,dct:references,19880844
+12,ifo:internal_reference_id,
+13,rdf:type,bibo:Document
+13,rdfs:label,社内資料：国内生物学的同等性試験（JP29942試験)
+13,dct:dateAccepted,
+13,ifo:internal_reference_id,
+13,ifo:ctd_number,
+14,rdf:type,bibo:Article
+14,dct:creator,"衣笠えり子, 他"
+14,prism:publicationName,薬理と治療
+14,prism:volume,39
+14,prism:number,Suppl.1
+14,prism:startingPage,S9
+14,prism:endingPage,19
+14,dct:issued,2011
+14,ifo:internal_reference_id,
+15,rdf:type,bibo:Article
+15,dct:creator,"水口隆, 他"
+15,prism:publicationName,臨牀透析
+15,prism:volume,27
+15,prism:number,6
+15,prism:startingPage,723
+15,prism:endingPage,736
+15,dct:issued,2011
+15,ifo:internal_reference_id,
+16,rdf:type,bibo:Document
+16,rdfs:label,ヒト骨髄及び臍帯血由来CD34陽性細胞に対する赤血球系細胞への分化・増殖誘導活性
+16,dct:dateAccepted,2011-04-22
+16,ifo:internal_reference_id,申請資料概要2.6.2.2.2(1)
+16,ifo:ctd_number,
+17,rdf:type,bibo:Document
+17,rdfs:label,エリスロポエチン受容体に対する親和性
+17,dct:dateAccepted,2011-04-22
+17,ifo:internal_reference_id,申請資料概要2.6.2.2.1(2)1
+17,ifo:ctd_number,
+18,rdf:type,bibo:Document
+18,rdfs:label,"マウスにおける赤血球造血活性 (単回投与)"
+18,dct:dateAccepted,2011-04-22
+18,ifo:internal_reference_id,申請資料概要2.6.2.2.2(1)
+18,ifo:ctd_number,
+19,rdf:type,bibo:Document
+19,rdfs:label,"マウスにおける赤血球造血活性 (反復皮下投与)"
+19,dct:dateAccepted,2011-04-22
+19,ifo:internal_reference_id,申請資料概要2.6.2.2.2(2)
+19,ifo:ctd_number,
+20,rdf:type,bibo:Document
+20,rdfs:label,"ラットにおける赤血球造血活性 (反復静脈内投与)"
+20,dct:dateAccepted,2011-04-22
+20,ifo:internal_reference_id,申請資料概要2.6.2.2.2(3)1）
+20,ifo:ctd_number,
+21,rdf:type,bibo:Document
+21,rdfs:label,"ラットにおける赤血球造血活性 (反復皮下投与)"
+21,dct:dateAccepted,2011-04-22
+21,ifo:internal_reference_id,申請資料概要2.6.2.2.2(3)2）
+21,ifo:ctd_number,
+22,rdf:type,bibo:Document
+22,rdfs:label,"5/6腎摘ラットにおける赤血球造血活性 (反復皮下投与)"
+22,dct:dateAccepted,2011-04-22
+22,ifo:internal_reference_id,申請資料概要2.6.2.2.3
+22,ifo:ctd_number,
+23,rdf:type,bibo:Document
+23,rdfs:label,社内資料：皮下投与時の吸収速度定数およびバイオアベイラビリティ
+23,dct:dateAccepted,
+23,ifo:internal_reference_id,
+23,ifo:ctd_number,
+24,rdf:type,bibo:Document
+24,rdfs:label,薬物動態試験
+24,dct:dateAccepted,2011-04-22
+24,ifo:internal_reference_id,申請資料概要2.6.4
+24,ifo:ctd_number,
+25,rdf:type,bibo:Document
+25,rdfs:label,社内資料：臨床薬理－排泄、代謝－
+25,dct:dateAccepted,
+25,ifo:internal_reference_id,
+25,ifo:ctd_number,
+26,rdf:type,bibo:Document
+26,rdfs:label,非臨床－排泄－
+26,dct:dateAccepted,2011-04-22
+26,ifo:internal_reference_id,申請資料概要2.6.4.6.1
+26,ifo:ctd_number,
+27,rdf:type,bibo:Article
+27,dct:references,18484803
+27,ifo:internal_reference_id,
+28,rdf:type,bibo:Article
+28,dct:references,18513461
+28,ifo:internal_reference_id,
+29,rdf:type,bibo:Article
+29,dct:references,9718377
+29,ifo:internal_reference_id,
+30,rdf:type,bibo:Article
+30,dct:creator,"栗原怜, 他"
+30,prism:publicationName,日本透析療法学会雑誌
+30,prism:volume,22
+30,prism:number,7
+30,prism:startingPage,733
+30,prism:endingPage,736
+30,dct:issued,1989
+30,ifo:internal_reference_id,
+31,rdf:type,bibo:Article
+31,dct:references,16087945
+31,ifo:internal_reference_id,
+32,rdf:type,bibo:Article
+32,dct:references,14575968
+32,ifo:internal_reference_id,
+33,rdf:type,bibo:Article
+33,dct:creator,"Overgaard J, et al."
+33,prism:publicationName,"J Clin Oncol."
+33,prism:volume,27
+33,prism:number,15s
+33,prism:startingPage,302s
+33,prism:endingPage,
+33,dct:issued,2009
+33,ifo:internal_reference_id,
+34,rdf:type,bibo:Article
+34,dct:creator,"Luksenburg, H. et al."
+34,prism:publicationName,"FDA Briefing Document.ODAC"
+34,prism:volume,
+34,prism:number,
+34,prism:startingPage,
+34,prism:endingPage,
+34,dct:issued,"May 4(2004)"
+34,ifo:internal_reference_id,
+35,rdf:type,bibo:Article
+35,dct:references,18227526
+35,ifo:internal_reference_id,
+36,rdf:type,bibo:Document
+36,rdfs:label,安全性薬理試験
+36,dct:dateAccepted,2011-04-22
+36,ifo:internal_reference_id,申請資料概要2.6.2.4
+36,ifo:ctd_number,
+37,rdf:type,bibo:Document
+37,rdfs:label,毒性試験
+37,dct:dateAccepted,2011-04-22
+37,ifo:internal_reference_id,申請資料概要2.6.6
+37,ifo:ctd_number,

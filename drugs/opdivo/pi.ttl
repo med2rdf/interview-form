@@ -109,53 +109,53 @@ pi:PI_3_1.item1.additive5 pio:value_and_unit "0.4mg"@ja .
 pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
 pi:PI_3_1.item1.additive6 pio:additive "pH調節剤　2成分"@ja .
 pi:PI_3_1.item1.additive6 pio:value_and_unit "適量"@ja .
-pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
-pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "ニボルマブ（遺伝子組換え）"@ja .
-pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
-pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "含量/容量 （1バイアル中）"@ja .
-pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "100mg/10mL"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
-pi:PI_3_1.item1.additive1 pio:additive "D-マンニトール"@ja .
-pi:PI_3_1.item1.additive1 pio:value_and_unit "300mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
-pi:PI_3_1.item1.additive2 pio:additive "クエン酸ナトリウム水和物"@ja .
-pi:PI_3_1.item1.additive2 pio:value_and_unit "58.8mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
-pi:PI_3_1.item1.additive3 pio:additive "塩化ナトリウム"@ja .
-pi:PI_3_1.item1.additive3 pio:value_and_unit "29.2mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
-pi:PI_3_1.item1.additive4 pio:additive "ジエチレントリアミン五酢酸"@ja .
-pi:PI_3_1.item1.additive4 pio:value_and_unit "0.0788mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
-pi:PI_3_1.item1.additive5 pio:additive "ポリソルベート80"@ja .
-pi:PI_3_1.item1.additive5 pio:value_and_unit "2mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
-pi:PI_3_1.item1.additive6 pio:additive "pH調節剤　2成分"@ja .
-pi:PI_3_1.item1.additive6 pio:value_and_unit "適量"@ja .
-pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
-pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "ニボルマブ（遺伝子組換え）"@ja .
-pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
-pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "含量/容量 （1バイアル中）"@ja .
-pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "240mg/24mL"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
-pi:PI_3_1.item1.additive1 pio:additive "D-マンニトール"@ja .
-pi:PI_3_1.item1.additive1 pio:value_and_unit "720mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
-pi:PI_3_1.item1.additive2 pio:additive "クエン酸ナトリウム水和物"@ja .
-pi:PI_3_1.item1.additive2 pio:value_and_unit "141mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
-pi:PI_3_1.item1.additive3 pio:additive "塩化ナトリウム"@ja .
-pi:PI_3_1.item1.additive3 pio:value_and_unit "70.1mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
-pi:PI_3_1.item1.additive4 pio:additive "ジエチレントリアミン五酢酸"@ja .
-pi:PI_3_1.item1.additive4 pio:value_and_unit "0.189mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
-pi:PI_3_1.item1.additive5 pio:additive "ポリソルベート80"@ja .
-pi:PI_3_1.item1.additive5 pio:value_and_unit "4.8mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
-pi:PI_3_1.item1.additive6 pio:additive "pH調節剤　2成分"@ja .
-pi:PI_3_1.item1.additive6 pio:value_and_unit "適量"@ja .
-pi:PI_3_1.item1 pio:composition_comments "注1)本剤は遺伝子組換え技術により、チャイニーズハムスター卵巣細胞を用いて製造される。 注2)本品は注射液吸引時の損失を考慮して、過量充填されているので、実充填量は各々22mg/2.2mL、105mg/10.5mL、246mg/24.6mLである。"@ja .
+pi:PI_3_1.item2 pio:contained_amount pi:PI_3_1.item2.contained_amount .
+pi:PI_3_1.item2.contained_amount pio:active_ingredient_name "ニボルマブ（遺伝子組換え）"@ja .
+pi:PI_3_1.item2.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item2.active_ingredient_additional_info .
+pi:PI_3_1.item2.active_ingredient_additional_info pio:active_ingredient_name "含量/容量 （1バイアル中）"@ja .
+pi:PI_3_1.item2.active_ingredient_additional_info pio:value_and_unit "100mg/10mL"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive1 .
+pi:PI_3_1.item2.additive1 pio:additive "D-マンニトール"@ja .
+pi:PI_3_1.item2.additive1 pio:value_and_unit "300mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive2 .
+pi:PI_3_1.item2.additive2 pio:additive "クエン酸ナトリウム水和物"@ja .
+pi:PI_3_1.item2.additive2 pio:value_and_unit "58.8mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive3 .
+pi:PI_3_1.item2.additive3 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item2.additive3 pio:value_and_unit "29.2mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive4 .
+pi:PI_3_1.item2.additive4 pio:additive "ジエチレントリアミン五酢酸"@ja .
+pi:PI_3_1.item2.additive4 pio:value_and_unit "0.0788mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive5 .
+pi:PI_3_1.item2.additive5 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item2.additive5 pio:value_and_unit "2mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive6 .
+pi:PI_3_1.item2.additive6 pio:additive "pH調節剤　2成分"@ja .
+pi:PI_3_1.item2.additive6 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item3 pio:contained_amount pi:PI_3_1.item3.contained_amount .
+pi:PI_3_1.item3.contained_amount pio:active_ingredient_name "ニボルマブ（遺伝子組換え）"@ja .
+pi:PI_3_1.item3.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item3.active_ingredient_additional_info .
+pi:PI_3_1.item3.active_ingredient_additional_info pio:active_ingredient_name "含量/容量 （1バイアル中）"@ja .
+pi:PI_3_1.item3.active_ingredient_additional_info pio:value_and_unit "240mg/24mL"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive1 .
+pi:PI_3_1.item3.additive1 pio:additive "D-マンニトール"@ja .
+pi:PI_3_1.item3.additive1 pio:value_and_unit "720mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive2 .
+pi:PI_3_1.item3.additive2 pio:additive "クエン酸ナトリウム水和物"@ja .
+pi:PI_3_1.item3.additive2 pio:value_and_unit "141mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive3 .
+pi:PI_3_1.item3.additive3 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item3.additive3 pio:value_and_unit "70.1mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive4 .
+pi:PI_3_1.item3.additive4 pio:additive "ジエチレントリアミン五酢酸"@ja .
+pi:PI_3_1.item3.additive4 pio:value_and_unit "0.189mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive5 .
+pi:PI_3_1.item3.additive5 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item3.additive5 pio:value_and_unit "4.8mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive6 .
+pi:PI_3_1.item3.additive6 pio:additive "pH調節剤　2成分"@ja .
+pi:PI_3_1.item3.additive6 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item4 pio:composition_comments "注1)本剤は遺伝子組換え技術により、チャイニーズハムスター卵巣細胞を用いて製造される。 注2)本品は注射液吸引時の損失を考慮して、過量充填されているので、実充填量は各々22mg/2.2mL、105mg/10.5mL、246mg/24.6mLである。"@ja .
 pi:PI_3_2 a pio:PI_3_2 .
 pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
 pi:PI_3_2.item1 pio:formulation "注射剤（バイアル）" .

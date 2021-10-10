@@ -7,699 +7,608 @@
 @prefix bibo: <http://purl.org/ontology/bibo/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-@prefix pi: <http://med2rdf.org/pi/780069_3999444G1022_1_07#> .
+@prefix pi: <http://med2rdf.org/pi/630004_6343447D1025_1_07#> .
 
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_0 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_1 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_2 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_3 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_3_1 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_3_2 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_4 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_5 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_6 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_7 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_8 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_9 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_9_1 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_9_2 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_9_3 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_9_4 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_9_5 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_9_6 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_9_7 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_9_8 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_10 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_10_1 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_10_2 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_11 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_11_1 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_11_2 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_12 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_13 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_14 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_15 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_15_1 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_15_2 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_16 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_16_1 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_16_2 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_16_3 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_16_4 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_16_5 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_16_6 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_16_7 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_16_8 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_17 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_17_1 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_17_2 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_17_3 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_18 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_18_1 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_19 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_20 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_21 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_22 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_23 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_24 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_25 .
-pi_root:780069_3999444G1022_1_07 pio:section pi:PI_26 .
-pi_root:780069_3999444G1022_1_07 dct:identifier "780069_3999444G1022_1_07" .
-pi_root:780069_3999444G1022_1_07 pio:company_identifier "780069" .
-pi_root:780069_3999444G1022_1_07 pio:date_of_preparation_or_revision "2020-03"^^xsd:date .
-pi_root:780069_3999444G1022_1_07 pio:version "第1版" .
-pi_root:780069_3999444G1022_1_07 pio:sccj_no "873999" .
-pi_root:780069_3999444G1022_1_07 pio:therapeutic_classification "ヒト型抗ヒトIL-6受容体モノクローナル抗体" .
-pi_root:780069_3999444G1022_1_07 pio:approval_brand_name "ケブザラ皮下注150mgシリンジ" .
-pi_root:780069_3999444G1022_1_07 pio:yj_code "3999444G1022" .
-pi_root:780069_3999444G1022_1_07 pio:trademark_name "KEVZARA S.C. Injection" .
-pi_root:780069_3999444G1022_1_07 pio:name_in_hiragana "けぶざらひかちゅう150mgしりんじ" .
-pi_root:780069_3999444G1022_1_07 pio:approval_no "22900AMX00958" .
-pi_root:780069_3999444G1022_1_07 pio:starting_date_of_marketing "2018-02"^^xsd:date .
-pi_root:780069_3999444G1022_1_07 pio:storage_method "凍結を避け、2～8℃にて保存" .
-pi_root:780069_3999444G1022_1_07 pio:shelf_life "36箇月" .
-pi:PI_1 a pio:PI_1 .
-pi:PI_1 pio:section pi:PI_1.item1 .
-pi:PI_1.item1 rdfs:title "感染症"@ja .
-pi:PI_1.item1 dct:description "本剤投与により、敗血症、肺炎等の重篤な感染症があらわれ、致命的な経過をたどることがある。本剤はIL-6の作用を抑制し治療効果を得る薬剤である。IL-6は急性期反応（発熱、CRP増加等）を誘引するサイトカインであり、本剤投与によりこれらの反応は抑制されるため、感染症に伴う症状が抑制される。そのため感染症の発見が遅れ、重篤化することがあるので、本剤投与中は患者の状態を十分に観察し問診を行うこと。症状が軽微であり急性期反応が認められないときでも、白血球数、好中球数の変動に注意し、感染症が疑われる場合には、胸部X線、CT等の検査を実施し、適切な処置を行うこと。 , , , ,"@ja .
-pi:PI_1 pio:section pi:PI_1.item2 .
-pi:PI_1.item2 dct:description "治療開始に際しては、重篤な感染症等の副作用があらわれることがあること及び本剤が疾病を完治させる薬剤でないことも含めて患者に十分説明し、理解したことを確認した上で、治療上の有益性が危険性を上回ると判断される場合にのみ本剤を投与すること。"@ja .
-pi:PI_1 pio:section pi:PI_1.item3 .
-pi:PI_1.item3 dct:description "本剤の治療を行う前に、関節リウマチの既存治療薬の使用を十分勘案すること。"@ja .
-pi:PI_1 pio:section pi:PI_1.item4 .
-pi:PI_1.item4 dct:description "本剤についての十分な知識と関節リウマチ治療の知識・経験をもつ医師が使用すること。"@ja .
-pi:PI_2 a pio:PI_2 .
-pi:PI_2 pio:section pi:PI_2.item1 .
-pi:PI_2.item1 dct:description "重篤な感染症を合併している患者［感染症が悪化するおそれがある。］ , , , ,"@ja .
-pi:PI_2 pio:section pi:PI_2.item2 .
-pi:PI_2.item2 dct:description "活動性結核の患者［症状を悪化させるおそれがある。］ ,"@ja .
-pi:PI_2 pio:section pi:PI_2.item3 .
-pi:PI_2.item3 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_0 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_1 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_2 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_3 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_3_1 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_3_2 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_4 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_5 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_6 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_7 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_8 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_9 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_9_1 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_9_2 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_9_3 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_9_4 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_9_5 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_9_6 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_9_7 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_9_8 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_10 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_10_1 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_10_2 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_11 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_11_1 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_11_2 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_12 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_13 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_14 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_15 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_15_1 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_15_2 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_16 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_16_1 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_16_2 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_16_3 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_16_4 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_16_5 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_16_6 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_16_7 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_16_8 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_17 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_17_1 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_17_2 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_17_3 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_18 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_18_1 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_19 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_20 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_21 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_22 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_23 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_24 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_25 .
+pi_root:630004_6343447D1025_1_07 pio:section pi:PI_26 .
+pi_root:630004_6343447D1025_1_07 dct:identifier "630004_6343447D1025_1_07" .
+pi_root:630004_6343447D1025_1_07 pio:company_identifier "630004" .
+pi_root:630004_6343447D1025_1_07 pio:date_of_preparation_or_revision "2020-04"^^xsd:date .
+pi_root:630004_6343447D1025_1_07 pio:version "第1版" .
+pi_root:630004_6343447D1025_1_07 pio:sccj_no "876349" .
+pi_root:630004_6343447D1025_1_07 pio:therapeutic_classification "遺伝子組換え型血液凝固第Ⅷ因子製剤" .
+pi_root:630004_6343447D1025_1_07 pio:approval_brand_name "コバールトリイ静注用250" .
+pi_root:630004_6343447D1025_1_07 pio:yj_code "6343447D1025" .
+pi_root:630004_6343447D1025_1_07 pio:trademark_name "Kovaltry for iv injection 250" .
+pi_root:630004_6343447D1025_1_07 pio:name_in_hiragana "こばーるとりいじょうちゅうよう250" .
+pi_root:630004_6343447D1025_1_07 pio:approval_no "22800AMX00392000" .
+pi_root:630004_6343447D1025_1_07 pio:starting_date_of_marketing "2016-06"^^xsd:date .
+pi_root:630004_6343447D1025_1_07 pio:storage_method "凍結を避け、2～8℃で保存" .
+pi_root:630004_6343447D1025_1_07 pio:shelf_life "30ヵ月" .
 pi:PI_3 a pio:PI_3 .
 pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
 pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
-pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "サリルマブ（遺伝子組換え）"@ja .
-pi:PI_3_1.item1.contained_amount pio:value_and_unit "150mg"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "オクトコグ　ベータ（遺伝子組換え）"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "250国際単位"@ja .
 pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
-pi:PI_3_1.item1.additive1 pio:additive "L-ヒスチジン、L-ヒスチジン塩酸塩水和物"@ja .
-pi:PI_3_1.item1.additive1 pio:value_and_unit "3.71mg"@ja .
+pi:PI_3_1.item1.additive1 pio:additive "精製白糖"@ja .
+pi:PI_3_1.item1.additive1 pio:value_and_unit "27mg"@ja .
 pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
-pi:PI_3_1.item1.additive2 pio:additive "L-アルギニン塩酸塩"@ja .
-pi:PI_3_1.item1.additive2 pio:value_and_unit "8.94mg"@ja .
+pi:PI_3_1.item1.additive2 pio:additive "L-ヒスチジン"@ja .
+pi:PI_3_1.item1.additive2 pio:value_and_unit "8.4mg"@ja .
 pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
-pi:PI_3_1.item1.additive3 pio:additive "ポリソルベート20"@ja .
-pi:PI_3_1.item1.additive3 pio:value_and_unit "2.28mg"@ja .
+pi:PI_3_1.item1.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item1.additive3 pio:value_and_unit "59mg"@ja .
 pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
-pi:PI_3_1.item1.additive4 pio:additive "精製白糖"@ja .
-pi:PI_3_1.item1.additive4 pio:value_and_unit "57mg"@ja .
-pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
-pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "サリルマブ（遺伝子組換え）"@ja .
-pi:PI_3_1.item1.contained_amount pio:value_and_unit "200mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
-pi:PI_3_1.item1.additive1 pio:additive "L-ヒスチジン、L-ヒスチジン塩酸塩水和物"@ja .
-pi:PI_3_1.item1.additive1 pio:value_and_unit "3.71mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
-pi:PI_3_1.item1.additive2 pio:additive "L-アルギニン塩酸塩"@ja .
-pi:PI_3_1.item1.additive2 pio:value_and_unit "8.94mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
-pi:PI_3_1.item1.additive3 pio:additive "ポリソルベート20"@ja .
-pi:PI_3_1.item1.additive3 pio:value_and_unit "2.28mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
-pi:PI_3_1.item1.additive4 pio:additive "精製白糖"@ja .
-pi:PI_3_1.item1.additive4 pio:value_and_unit "57mg"@ja .
-pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
-pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "サリルマブ（遺伝子組換え）"@ja .
-pi:PI_3_1.item1.contained_amount pio:value_and_unit "150mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
-pi:PI_3_1.item1.additive1 pio:additive "L-ヒスチジン、L-ヒスチジン塩酸塩水和物"@ja .
-pi:PI_3_1.item1.additive1 pio:value_and_unit "3.71mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
-pi:PI_3_1.item1.additive2 pio:additive "L-アルギニン塩酸塩"@ja .
-pi:PI_3_1.item1.additive2 pio:value_and_unit "8.94mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
-pi:PI_3_1.item1.additive3 pio:additive "ポリソルベート20"@ja .
-pi:PI_3_1.item1.additive3 pio:value_and_unit "2.28mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
-pi:PI_3_1.item1.additive4 pio:additive "精製白糖"@ja .
-pi:PI_3_1.item1.additive4 pio:value_and_unit "57mg"@ja .
-pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
-pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "サリルマブ（遺伝子組換え）"@ja .
-pi:PI_3_1.item1.contained_amount pio:value_and_unit "200mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
-pi:PI_3_1.item1.additive1 pio:additive "L-ヒスチジン、L-ヒスチジン塩酸塩水和物"@ja .
-pi:PI_3_1.item1.additive1 pio:value_and_unit "3.71mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
-pi:PI_3_1.item1.additive2 pio:additive "L-アルギニン塩酸塩"@ja .
-pi:PI_3_1.item1.additive2 pio:value_and_unit "8.94mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
-pi:PI_3_1.item1.additive3 pio:additive "ポリソルベート20"@ja .
-pi:PI_3_1.item1.additive3 pio:value_and_unit "2.28mg"@ja .
-pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
-pi:PI_3_1.item1.additive4 pio:additive "精製白糖"@ja .
-pi:PI_3_1.item1.additive4 pio:value_and_unit "57mg"@ja .
-pi:PI_3_1.item1 pio:composition_comments "                                         "@ja .
+pi:PI_3_1.item1.additive4 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item1.additive4 pio:value_and_unit "4.7mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "塩化カルシウム水和物"@ja .
+pi:PI_3_1.item1.additive5 pio:value_and_unit "1.0mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
+pi:PI_3_1.item1.additive6 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item1.additive6 pio:value_and_unit "216μg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive7 .
+pi:PI_3_1.item1.additive7 pio:additive "pH調整剤"@ja .
+pi:PI_3_1.item1.additive7 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item2 pio:contained_amount pi:PI_3_1.item2.contained_amount .
+pi:PI_3_1.item2.contained_amount pio:active_ingredient_name "オクトコグ　ベータ（遺伝子組換え）"@ja .
+pi:PI_3_1.item2.contained_amount pio:value_and_unit "500国際単位"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive1 .
+pi:PI_3_1.item2.additive1 pio:additive "精製白糖"@ja .
+pi:PI_3_1.item2.additive1 pio:value_and_unit "27mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive2 .
+pi:PI_3_1.item2.additive2 pio:additive "L-ヒスチジン"@ja .
+pi:PI_3_1.item2.additive2 pio:value_and_unit "8.4mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive3 .
+pi:PI_3_1.item2.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item2.additive3 pio:value_and_unit "59mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive4 .
+pi:PI_3_1.item2.additive4 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item2.additive4 pio:value_and_unit "4.7mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive5 .
+pi:PI_3_1.item2.additive5 pio:additive "塩化カルシウム水和物"@ja .
+pi:PI_3_1.item2.additive5 pio:value_and_unit "1.0mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive6 .
+pi:PI_3_1.item2.additive6 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item2.additive6 pio:value_and_unit "216μg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive7 .
+pi:PI_3_1.item2.additive7 pio:additive "pH調整剤"@ja .
+pi:PI_3_1.item2.additive7 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item3 pio:contained_amount pi:PI_3_1.item3.contained_amount .
+pi:PI_3_1.item3.contained_amount pio:active_ingredient_name "オクトコグ　ベータ（遺伝子組換え）"@ja .
+pi:PI_3_1.item3.contained_amount pio:value_and_unit "1000国際単位"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive1 .
+pi:PI_3_1.item3.additive1 pio:additive "精製白糖"@ja .
+pi:PI_3_1.item3.additive1 pio:value_and_unit "27mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive2 .
+pi:PI_3_1.item3.additive2 pio:additive "L-ヒスチジン"@ja .
+pi:PI_3_1.item3.additive2 pio:value_and_unit "8.4mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive3 .
+pi:PI_3_1.item3.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item3.additive3 pio:value_and_unit "59mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive4 .
+pi:PI_3_1.item3.additive4 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item3.additive4 pio:value_and_unit "4.7mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive5 .
+pi:PI_3_1.item3.additive5 pio:additive "塩化カルシウム水和物"@ja .
+pi:PI_3_1.item3.additive5 pio:value_and_unit "1.0mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive6 .
+pi:PI_3_1.item3.additive6 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item3.additive6 pio:value_and_unit "216μg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive7 .
+pi:PI_3_1.item3.additive7 pio:additive "pH調整剤"@ja .
+pi:PI_3_1.item3.additive7 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item4 pio:contained_amount pi:PI_3_1.item4.contained_amount .
+pi:PI_3_1.item4.contained_amount pio:active_ingredient_name "オクトコグ　ベータ（遺伝子組換え）"@ja .
+pi:PI_3_1.item4.contained_amount pio:value_and_unit "2000国際単位"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive1 .
+pi:PI_3_1.item4.additive1 pio:additive "精製白糖"@ja .
+pi:PI_3_1.item4.additive1 pio:value_and_unit "52mg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive2 .
+pi:PI_3_1.item4.additive2 pio:additive "L-ヒスチジン"@ja .
+pi:PI_3_1.item4.additive2 pio:value_and_unit "16.1mg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive3 .
+pi:PI_3_1.item4.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item4.additive3 pio:value_and_unit "114mg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive4 .
+pi:PI_3_1.item4.additive4 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item4.additive4 pio:value_and_unit "9.1mg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive5 .
+pi:PI_3_1.item4.additive5 pio:additive "塩化カルシウム水和物"@ja .
+pi:PI_3_1.item4.additive5 pio:value_and_unit "1.9mg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive6 .
+pi:PI_3_1.item4.additive6 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item4.additive6 pio:value_and_unit "416μg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive7 .
+pi:PI_3_1.item4.additive7 pio:additive "pH調整剤"@ja .
+pi:PI_3_1.item4.additive7 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item5 pio:contained_amount pi:PI_3_1.item5.contained_amount .
+pi:PI_3_1.item5.contained_amount pio:active_ingredient_name "オクトコグ　ベータ（遺伝子組換え）"@ja .
+pi:PI_3_1.item5.contained_amount pio:value_and_unit "3000国際単位"@ja .
+pi:PI_3_1.item5 pio:info_individual_additives pi:PI_3_1.item5.additive1 .
+pi:PI_3_1.item5.additive1 pio:additive "精製白糖"@ja .
+pi:PI_3_1.item5.additive1 pio:value_and_unit "52mg"@ja .
+pi:PI_3_1.item5 pio:info_individual_additives pi:PI_3_1.item5.additive2 .
+pi:PI_3_1.item5.additive2 pio:additive "L-ヒスチジン"@ja .
+pi:PI_3_1.item5.additive2 pio:value_and_unit "16.1mg"@ja .
+pi:PI_3_1.item5 pio:info_individual_additives pi:PI_3_1.item5.additive3 .
+pi:PI_3_1.item5.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item5.additive3 pio:value_and_unit "114mg"@ja .
+pi:PI_3_1.item5 pio:info_individual_additives pi:PI_3_1.item5.additive4 .
+pi:PI_3_1.item5.additive4 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item5.additive4 pio:value_and_unit "9.1mg"@ja .
+pi:PI_3_1.item5 pio:info_individual_additives pi:PI_3_1.item5.additive5 .
+pi:PI_3_1.item5.additive5 pio:additive "塩化カルシウム水和物"@ja .
+pi:PI_3_1.item5.additive5 pio:value_and_unit "1.9mg"@ja .
+pi:PI_3_1.item5 pio:info_individual_additives pi:PI_3_1.item5.additive6 .
+pi:PI_3_1.item5.additive6 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item5.additive6 pio:value_and_unit "416μg"@ja .
+pi:PI_3_1.item5 pio:info_individual_additives pi:PI_3_1.item5.additive7 .
+pi:PI_3_1.item5.additive7 pio:additive "pH調整剤"@ja .
+pi:PI_3_1.item5.additive7 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item6 pio:composition_comments "本剤はベビーハムスター腎細胞を用いた遺伝子組換え技術により製造する。 マスターセルバンク及びワーキングセルバンクの凍結培地の一部にヒト血漿タンパク溶液を使用しているが、本剤の培養工程以降では使用していない。"@ja .
 pi:PI_3_2 a pio:PI_3_2 .
 pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
-pi:PI_3_2.item1 pio:formulation "注射剤" .
-pi:PI_3_2.item1 pio:osmotic_ratio "1.0～1.2（生理食塩液に対する比）" .
+pi:PI_3_2.item1 pio:osmotic_ratio "1.3〜1.6 （生理食塩液に対する比）" .
 pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item2 .
-pi:PI_3_2.item2 pio:formulation "注射剤" .
-pi:PI_3_2.item2 pio:osmotic_ratio "1.1～1.3（生理食塩液に対する比）" .
+pi:PI_3_2.item2 pio:osmotic_ratio "1.3〜1.6 （生理食塩液に対する比）" .
 pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item3 .
-pi:PI_3_2.item3 pio:formulation "注射剤" .
-pi:PI_3_2.item3 pio:osmotic_ratio "1.0～1.2（生理食塩液に対する比）" .
+pi:PI_3_2.item3 pio:osmotic_ratio "1.3〜1.6 （生理食塩液に対する比）" .
 pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item4 .
-pi:PI_3_2.item4 pio:formulation "注射剤" .
-pi:PI_3_2.item4 pio:osmotic_ratio "1.1～1.3（生理食塩液に対する比）" .
+pi:PI_3_2.item4 pio:osmotic_ratio "1.3〜1.6 （生理食塩液に対する比）" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item5 .
+pi:PI_3_2.item5 pio:osmotic_ratio "1.3〜1.6 （生理食塩液に対する比）" .
 pi:PI_4 a pio:PI_4 .
 pi:PI_4 dct:title "効能又は効果"@ja .
-pi:PI_4 dct:description "既存治療で効果不十分な関節リウマチ"@ja .
-pi:PI_5 a pio:PI_5 .
-pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
-pi:PI_5 pio:section pi:PI_5.item1 .
-pi:PI_5.item1 dct:description "過去の治療において、少なくとも1剤の抗リウマチ薬による適切な治療を行っても、効果不十分な場合に投与すること。"@ja .
+pi:PI_4 dct:description "血液凝固第Ⅷ因子欠乏患者における出血傾向の抑制"@ja .
 pi:PI_6 a pio:PI_6 .
 pi:PI_6 dct:title "用法及び用量"@ja .
-pi:PI_6 dct:description "通常、成人にはサリルマブ（遺伝子組換え）として1回200mgを2週間隔で皮下投与する。なお、患者の状態により1回150mgに減量すること。"@ja .
+pi:PI_6 dct:description "本剤を添付の溶解液全量で溶解し、緩徐に静脈内注射する。なお、1分間に5mLを超える注射速度は避けること。 通常、1回体重1kg当たり10～30国際単位を投与するが、患者の状態に応じて適宜増減する。 定期的に投与する場合、通常、体重1kg当たり20～40国際単位を週2回又は週3回投与し、12歳以下の小児に対しては、体重1kg当たり25～50国際単位を週2回、週3回又は隔日投与する。"@ja .
 pi:PI_7 a pio:PI_7 .
 pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
-pi:PI_7 pio:section pi:PI_7.item1 .
-pi:PI_7.item1 dct:description "好中球数、血小板数又は肝機能検査値に異常が認められた場合は、減量を考慮すること。 , , , , ,"@ja .
-pi:PI_7 pio:section pi:PI_7.item2 .
-pi:PI_7.item2 dct:description "本剤による治療反応は、通常投与開始から12週までには得られる。12週までに治療反応が得られない場合は、現在の治療計画の継続を慎重に再考すること。"@ja .
-pi:PI_7 pio:section pi:PI_7.item3 .
-pi:PI_7.item3 dct:description "本剤と他の抗リウマチ生物製剤の併用について安全性及び有効性は確立していないので併用を避けること。"@ja .
+pi:PI_7 dct:description "輸注速度が速すぎるとチアノーゼ、動悸を起こすことがあるので、1分間に5mLを超えない速度でゆっくり注入すること。"@ja .
 pi:PI_8 pio:section pi:PI_8.item1 .
-pi:PI_8.item1 dct:description "アナフィラキシーショック、アナフィラキシーがあらわれることがあるので、適切な薬物治療（アドレナリン、副腎皮質ステロイド薬、抗ヒスタミン薬等）や緊急処置を直ちに実施できるようにしておくこと。"@ja .
+pi:PI_8.item1 dct:description "本剤の投与は、血友病の治療経験をもつ医師のもとで開始すること。"@ja .
 pi:PI_8 pio:section pi:PI_8.item2 .
-pi:PI_8.item2 dct:description "本剤投与により、投与時反応（発熱、悪寒、嘔気、嘔吐、頭痛、発疹等）が発現する可能性があるため、患者の状態を十分に観察し、異常が認められた場合は、適切な処置を行うこと。"@ja .
+pi:PI_8.item2 dct:description "患者の血中に血液凝固第Ⅷ因子に対するインヒビターが発生するおそれがある。特に、血液凝固第Ⅷ因子製剤による補充療法開始後、投与回数が少ない時期（補充療法開始後の比較的早期）や短期間に集中して補充療法を受けた時期にインヒビターが発生しやすいことが知られている。本剤を投与しても予想した止血効果が得られない場合には、インヒビターの発生を疑い、回収率やインヒビターの検査を行うなど注意深く対応し、適切な処置を行うこと。"@ja .
 pi:PI_8 pio:section pi:PI_8.item3 .
-pi:PI_8.item3 dct:description "本剤投与後、注射部位反応（紅斑、そう痒感、血腫、腫脹、出血、疼痛等）が発現することが報告されていることから、投与にあたっては、注射部位反応の発現に注意し、必要に応じて適切な処置を行うこと。"@ja .
-pi:PI_8 pio:section pi:PI_8.item4 .
-pi:PI_8.item4 dct:description "感染症を合併している患者に本剤を投与することにより、感染症が重篤化するおそれがあるため、下記の点に留意すること。 , , , ,"@ja .
-pi:PI_8 pio:section pi:PI_8.item5 .
-pi:PI_8.item5 dct:description "本剤投与により、急性期反応（発熱、CRP増加等）、感染症状が抑制され、感染症発見が遅れる可能性があるため、急性期反応が認められないときでも、白血球数、好中球数を定期的に測定し、これらの変動及び喘鳴、咳嗽、咽頭痛等の症状から感染症が疑われる場合には、胸部X線、CT等の検査を実施し適切な処置を行うこと。また、呼吸器感染のみならず皮膚感染や尿路感染等の自他覚症状についても注意し、異常がみられる場合には、速やかに担当医師に相談するよう患者を指導すること。 , , , ,"@ja .
-pi:PI_8 pio:section pi:PI_8.item6 .
-pi:PI_8.item6 dct:description "抗リウマチ生物製剤を投与されたB型肝炎ウイルスキャリアの患者又は既往感染者（HBs抗原陰性、かつHBc抗体又はHBs抗体陽性）において、B型肝炎ウイルスの再活性化が報告されている。本剤投与に先立って、B型肝炎ウイルス感染の有無を確認すること。"@ja .
-pi:PI_8 pio:section pi:PI_8.item7 .
-pi:PI_8.item7 dct:description "本剤投与に先立って結核に関する十分な問診（結核の既往歴、結核患者との濃厚接触歴等）及び胸部X線検査に加え、インターフェロン-γ遊離試験又はツベルクリン反応検査を行い、適宜胸部CT検査等を行うことにより、結核感染の有無を確認すること。 本剤投与中は、胸部X線検査等の適切な検査を定期的に行うなど結核症の発現には十分に注意し、患者に対し、結核を疑う症状が発現した場合（持続する咳、発熱等）には速やかに担当医師に連絡するよう説明すること。なお、結核の活動性が確認された場合は本剤を投与せず、結核の治療を優先すること。 ,"@ja .
-pi:PI_8 pio:section pi:PI_8.item8 .
-pi:PI_8.item8 dct:description "本剤投与中は、生ワクチン接種により感染するおそれがあるので、生ワクチン接種は行わないこと。"@ja .
-pi:PI_8 pio:section pi:PI_8.item9 .
-pi:PI_8.item9 dct:description "総コレステロール値、トリグリセリド値、LDLコレステロール値の増加等の脂質検査値異常があらわれることがあるので、投与開始3ヵ月後を目安に、以後は必要に応じて脂質検査を実施し、臨床上必要と認められた場合には、高脂血症治療薬の投与等の適切な処置を考慮すること。"@ja .
-pi:PI_8 pio:section pi:PI_8.item10 .
-pi:PI_8.item10 dct:description "無顆粒球症、白血球減少症、好中球減少症、血小板減少症があらわれることがあるので、定期的に血液検査を行うなど患者の状態を十分に観察すること。 ,"@ja .
-pi:PI_8 pio:section pi:PI_8.item11 .
-pi:PI_8.item11 dct:description "肝機能障害があらわれることがあるので、定期的に肝機能検査を行うなど患者の状態を十分に観察すること。 ,"@ja .
-pi:PI_8 pio:section pi:PI_8.item12 .
-pi:PI_8.item12 dct:description "他の抗リウマチ生物製剤から本剤に切り替える際には、感染症の徴候について患者の状態を十分に観察すること。"@ja .
-pi:PI_8 pio:section pi:PI_8.item13 .
-pi:PI_8.item13 dct:description "本剤の投与開始にあたっては、医療施設において、必ず医師によるか、医師の直接の監督のもとで投与を行うこと。 自己投与の適用については、医師がその妥当性を慎重に検討し、十分な教育訓練を実施した後、本剤投与による危険性と対処法について患者が理解し、患者自ら確実に投与できることを確認した上で、医師の管理指導の下で実施すること。また、適用後、感染症等の本剤による副作用が疑われる場合や自己投与の継続が困難な状況となる可能性がある場合には、直ちに自己投与を中止させ、医師の管理下で慎重に観察するなど適切な処置を行うこと。また、本剤投与後に副作用の発現が疑われる場合は、医療機関へ連絡するよう患者に指導を行うこと。 さらに、使用済みの注射器を再使用しないように患者に注意を促し、すべての器具の安全な廃棄方法に関する指導の徹底を行うと同時に、使用済みの注射器を廃棄する容器を提供すること。"@ja .
+pi:PI_8.item3 dct:description "本剤の在宅自己注射は、医師がその妥当性を慎重に検討し、患者又はその家族が適切に使用可能と判断した場合のみに適用すること。本剤を処方する際には、使用方法等の患者教育を十分に実施した後、在宅にて適切な治療が行えることを確認した上で、医師の管理指導のもとで実施すること。また、患者又はその家族に対し、本剤の注射により発現する可能性のある副作用等についても十分説明し、在宅自己注射後何らかの異常が認められた場合や投与後の止血効果が不十分な場合には、速やかに医療機関へ連絡するよう指導すること。適用後、在宅自己注射の継続が困難な場合には、医師の管理下で慎重に観察するなど、適切な対応を行うこと。"@ja .
 pi:PI_9_1 pio:section pi:PI_9_1.item1 .
-pi:PI_9_1.item1 rdfs:title "感染症（重篤な感染症を除く）を合併している患者又は感染症が疑われる患者"@ja .
-pi:PI_9_1.item1 dct:description "感染症を合併している場合は感染症の治療を優先すること。感染症が悪化するおそれがある。 , , , ,"@ja .
+pi:PI_9_1.item1 rdfs:title "マウスモノクローナル抗体により精製した製剤又はハムスター腎細胞由来の製剤に過敏症の既往歴のある患者"@ja .
 pi:PI_9_1 pio:section pi:PI_9_1.item2 .
-pi:PI_9_1.item2 rdfs:title "結核の既感染者（特に結核の既往歴のある患者及び胸部X線上結核治癒所見のある患者）又は結核感染が疑われる患者"@ja .
-pi:PI_9_1.item2 dct:description "               ,"@ja .
-pi:PI_9_1 pio:section pi:PI_9_1.item2.item1 .
-pi:PI_9_1.item2 dct:description "結核の既感染者では、結核を活動化させる可能性が否定できない。"@ja .
-pi:PI_9_1 pio:section pi:PI_9_1.item2.item2 .
-pi:PI_9_1.item2 dct:description "結核の既往歴を有する場合及び結核感染が疑われる場合には、結核の診療経験がある医師に相談すること。以下のいずれかの患者には、原則として本剤の投与開始前に適切に抗結核薬を投与すること。"@ja .
-pi:PI_9_1 pio:section pi:PI_9_1.item3 .
-pi:PI_9_1.item3 rdfs:title "B型肝炎ウイルスキャリアの患者又は既往感染者（HBs抗原陰性、かつHBc抗体又はHBs抗体陽性）"@ja .
-pi:PI_9_1.item3 dct:description "最新のB型肝炎治療ガイドラインを参考に肝機能検査値や肝炎ウイルスマーカーのモニタリングを行うなど、B型肝炎ウイルスの再活性化の徴候や症状の発現に注意すること。抗リウマチ生物製剤を投与されたB型肝炎ウイルスキャリアの患者又は既往感染者において、B型肝炎ウイルスの再活性化が報告されている。"@ja .
-pi:PI_9_1 pio:section pi:PI_9_1.item4 .
-pi:PI_9_1.item4 rdfs:title "易感染性の状態にある患者"@ja .
-pi:PI_9_1.item4 dct:description "投与を避けることが望ましい。なお、リンパ球数減少が遷延化した場合（目安として500/μL）は、投与を開始しないこと。日和見感染を含む感染症を誘発するおそれがある。"@ja .
-pi:PI_9_1 pio:section pi:PI_9_1.item5 .
-pi:PI_9_1.item5 rdfs:title "間質性肺炎の既往歴のある患者"@ja .
-pi:PI_9_1.item5 dct:description "定期的に問診を行うなど、注意すること。間質性肺炎が増悪又は再発することがある。"@ja .
-pi:PI_9_1 pio:section pi:PI_9_1.item6 .
-pi:PI_9_1.item6 rdfs:title "腸管憩室のある患者"@ja .
-pi:PI_9_1.item6 dct:description "                           "@ja .
-pi:PI_9_1 pio:section pi:PI_9_1.item7 .
-pi:PI_9_1.item7 rdfs:title "白血球減少、好中球数減少又は血小板減少のある患者"@ja .
-pi:PI_9_1.item7 dct:description "白血球減少、好中球数減少、血小板減少が更に悪化するおそれがある。 ,"@ja .
-pi:PI_9_3 dct:description "トランスアミナーゼ値上昇に注意するなど観察を十分に行うこと。 ,"@ja .
-pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。本剤はIgG1モノクローナル抗体であり、ヒトIgGは胎盤関門を通過することが知られている。"@ja .
-pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。本剤のヒト乳汁への移行は不明であるが、本剤はIgG1モノクローナル抗体であり、ヒトIgGは乳汁中に移行することが知られている。"@ja .
-pi:PI_9_7 dct:description "小児等を対象とした臨床試験は実施していない。"@ja .
-pi:PI_9_8 dct:description "十分な観察を行い、感染症等の副作用に留意すること。高齢者において重篤な有害事象の発現率の上昇が認められている。一般に生理機能（免疫機能等）が低下している。"@ja .
+pi:PI_9_1.item2 rdfs:title "本剤の成分又は他の第Ⅷ因子製剤に対し過敏症の既往歴のある患者"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。生殖発生毒性試験は実施していない。"@ja .
+pi:PI_9_8 dct:description "患者の状態を観察しながら慎重に投与すること。一般に高齢者では生理機能が低下している。"@ja .
 pi:PI_10_1 a pio:PI_10_1 .
 pi:PI_10_2 a pio:PI_10_2 .
-pi:PI_10_2 pio:drug pi:PI_10_2.item1 .
-pi:PI_10_2.item1 a pio:PrecautionsForCombi .
-pi:PI_10_2.item1 pio:drug_name "CYP3A4基質"@ja .
-pi:PI_10_2.item1 pio:clin_symptoms_and_measures "CYP3A4基質の薬剤の血中濃度が減少するおそれがある。"@ja .
-pi:PI_10_2.item1 pio:mechanism_and_risk_factors "リウマチ患者ではIL-6値の上昇に伴いCYP活性が下方制御を受け、CYPにより代謝を受ける薬剤の血中濃度が上昇する。本剤などのIL-6Rα受容体阻害剤によりIL-6シグナル伝達が抑制されると、CYP活性が非炎症状態のレベルに回復し、その結果、CYPにより代謝を受ける薬剤の血中濃度が減少する可能性がある。"@ja .
-pi:PI_10_2.item2 pio:clin_symptoms_and_measures "肝機能障害があらわれるおそれがある。"@ja .
-pi:PI_10_2.item2 pio:mechanism_and_risk_factors "機序不明"@ja .
 pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
 pi:PI_11_1 pio:section pi:PI_11_1.item1 .
-pi:PI_11_1.item1 rdfs:title "感染症"@ja .
-pi:PI_11_1.item1 dct:description "蜂巣炎（1.2%）、肺炎（0.6%）等の日和見感染を含む重篤な感染症があらわれ、致命的な経過をたどることがある。 , , , ,"@ja .
-pi:PI_11_1 pio:section pi:PI_11_1.item2 .
-pi:PI_11_1.item2 rdfs:title "無顆粒球症（頻度不明）、白血球減少症（1.8%）、好中球減少症（12.3%）、血小板減少症（2.8%）"@ja .
-pi:PI_11_1.item2 dct:description "                 , ,"@ja .
-pi:PI_11_1 pio:section pi:PI_11_1.item3 .
-pi:PI_11_1.item3 rdfs:title "腸管穿孔"@ja .
-pi:PI_11_1.item3 dct:description "消化管穿孔（頻度不明）が報告されている。本剤投与により、憩室炎等の急性腹症の症状（腹痛、発熱等）が抑制され、発見が遅れて穿孔に至る可能性があるため、異常が認められた場合には、腹部X線、CT等の検査を実施するなど十分に観察し、適切な処置を行うこと。"@ja .
-pi:PI_11_1 pio:section pi:PI_11_1.item4 .
-pi:PI_11_1.item4 rdfs:title "ショック、アナフィラキシー（いずれも頻度不明）"@ja .
-pi:PI_11_1.item4 dct:description "血圧低下、呼吸困難、意識消失、めまい、嘔気、嘔吐、そう痒感、潮紅等があらわれることがあるので、本剤投与中は、患者の状態を十分に観察し、異常が認められた場合には直ちに投与を中止し、アドレナリン、副腎皮質ステロイド薬、抗ヒスタミン薬を投与するなど適切な処置を行うとともに症状が回復するまで患者の状態を十分に観察すること。また、投与終了後も症状のないことを確認すること。"@ja .
-pi:PI_11_1 pio:section pi:PI_11_1.item5 .
-pi:PI_11_1.item5 rdfs:title "間質性肺炎（頻度不明）"@ja .
-pi:PI_11_1.item5 dct:description "発熱、咳嗽、呼吸困難等の呼吸器症状に十分に注意し、異常が認められた場合には、速やかに胸部X線、CT及び血液ガス検査等を実施し、本剤の投与を中止するとともにニューモシスチス肺炎との鑑別診断（β-D-グルカンの測定等）を考慮に入れ適切な処置を行うこと。"@ja .
-pi:PI_11_1 pio:section pi:PI_11_1.item6 .
-pi:PI_11_1.item6 rdfs:title "肝機能障害"@ja .
-pi:PI_11_1.item6 dct:description "AST（1.2%）、ALT（3.4%）の上昇等の肝機能障害があらわれることがある。 , , ,"@ja .
+pi:PI_11_1.item1 rdfs:title "ショック、アナフィラキシー（頻度不明）"@ja .
+pi:PI_11_1.item1 dct:description "胸部圧迫感、めまい、低血圧、悪心等の症状が認められた場合には投与を中止し、適切な処置を行うこと。"@ja .
 pi:PI_11_2 a pio:PI_11_2 .
 pi:PI_11_2 pio:section pi:PI_11_2.item1 .
 pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
 pi:PI_11_2.item1.item1 a pio:AdverseEvent .
-pi:PI_11_2.item1.item1 pio:adverse_reaction "鼻咽頭炎" .
-pi:PI_11_2.item1.item1 pio:category "感染症" .
-pi:PI_11_2.item1.item1 pio:frequency "5%以上" .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "そう痒、潮紅、アレルギー性皮膚炎" .
+pi:PI_11_2.item1.item1 pio:category "過敏症" .
+pi:PI_11_2.item1.item1 pio:frequency "0.1～5%未満" .
 pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
 pi:PI_11_2.item1.item2 a pio:AdverseEvent .
-pi:PI_11_2.item1.item2 pio:adverse_reaction "上気道感染、口腔ヘルペス" .
-pi:PI_11_2.item1.item2 pio:category "感染症" .
-pi:PI_11_2.item1.item2 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "じん麻疹、発疹" .
+pi:PI_11_2.item1.item2 pio:category "過敏症" .
+pi:PI_11_2.item1.item2 pio:frequency "頻度不明" .
 pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
 pi:PI_11_2.item1.item3 a pio:AdverseEvent .
-pi:PI_11_2.item1.item3 pio:adverse_reaction "尿路感染" .
-pi:PI_11_2.item1.item3 pio:category "感染症" .
-pi:PI_11_2.item1.item3 pio:frequency "1%未満" .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "頭痛、味覚異常" .
+pi:PI_11_2.item1.item3 pio:category "精神神経系" .
+pi:PI_11_2.item1.item3 pio:frequency "0.1～5%未満" .
 pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
 pi:PI_11_2.item1.item4 a pio:AdverseEvent .
-pi:PI_11_2.item1.item4 pio:adverse_reaction "高コレステロール血症" .
-pi:PI_11_2.item1.item4 pio:category "代謝" .
-pi:PI_11_2.item1.item4 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "めまい、不眠" .
+pi:PI_11_2.item1.item4 pio:category "精神神経系" .
+pi:PI_11_2.item1.item4 pio:frequency "頻度不明" .
 pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
 pi:PI_11_2.item1.item5 a pio:AdverseEvent .
-pi:PI_11_2.item1.item5 pio:adverse_reaction "高トリグリセリド血症" .
-pi:PI_11_2.item1.item5 pio:category "代謝" .
-pi:PI_11_2.item1.item5 pio:frequency "1%未満" .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "動悸、洞性頻脈" .
+pi:PI_11_2.item1.item5 pio:category "循環器" .
+pi:PI_11_2.item1.item5 pio:frequency "頻度不明" .
 pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
 pi:PI_11_2.item1.item6 a pio:AdverseEvent .
-pi:PI_11_2.item1.item6 pio:adverse_reaction "肝機能異常、ALT増加" .
-pi:PI_11_2.item1.item6 pio:category "肝臓" .
-pi:PI_11_2.item1.item6 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "腹痛、腹部不快感、消化不良" .
+pi:PI_11_2.item1.item6 pio:category "消化器" .
+pi:PI_11_2.item1.item6 pio:frequency "頻度不明" .
 pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
 pi:PI_11_2.item1.item7 a pio:AdverseEvent .
-pi:PI_11_2.item1.item7 pio:adverse_reaction "高血圧" .
-pi:PI_11_2.item1.item7 pio:category "循環器" .
-pi:PI_11_2.item1.item7 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "注射部位疼痛、注射部位そう痒" .
+pi:PI_11_2.item1.item7 pio:category "投与部位" .
+pi:PI_11_2.item1.item7 pio:frequency "0.1～5%未満" .
 pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
 pi:PI_11_2.item1.item8 a pio:AdverseEvent .
-pi:PI_11_2.item1.item8 pio:adverse_reaction "口内炎" .
-pi:PI_11_2.item1.item8 pio:category "消化器" .
-pi:PI_11_2.item1.item8 pio:frequency "5%以上" .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "注射部位反応" .
+pi:PI_11_2.item1.item8 pio:category "投与部位" .
+pi:PI_11_2.item1.item8 pio:frequency "頻度不明" .
 pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
 pi:PI_11_2.item1.item9 a pio:AdverseEvent .
-pi:PI_11_2.item1.item9 pio:adverse_reaction "注射部位紅斑" .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "リンパ節腫脹" .
 pi:PI_11_2.item1.item9 pio:category "その他" .
-pi:PI_11_2.item1.item9 pio:frequency "5%以上" .
+pi:PI_11_2.item1.item9 pio:frequency "0.1～5%未満" .
 pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
 pi:PI_11_2.item1.item10 a pio:AdverseEvent .
-pi:PI_11_2.item1.item10 pio:adverse_reaction "注射部位そう痒感" .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "発熱、胸部不快感" .
 pi:PI_11_2.item1.item10 pio:category "その他" .
-pi:PI_11_2.item1.item10 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1.item10 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:explanatory_notes_for_other_adverse "                                    " .
 pi:PI_14 pio:section pi:PI_14.item1 .
-pi:PI_14.item1 rdfs:label "薬剤投与前の注意"@ja .
+pi:PI_14.item1 rdfs:label "薬剤調製時の注意"@ja .
 pi:PI_14.item1 pio:section pi:PI_14.item1.item1 .
-pi:PI_14.item1.item1 dct:desctiption "投与に先立ち、室温に戻しておくこと。"@ja .
+pi:PI_14.item1.item1 dct:desctiption "本剤及び添付溶解液を冷所保存している場合、調製前に室温に戻しておくこと。"@ja .
 pi:PI_14.item1 pio:section pi:PI_14.item1.item2 .
-pi:PI_14.item1.item2 dct:desctiption "溶液が白濁したり、着色したり、微粒子がみられた場合及びシリンジに損傷がみられた場合には本剤は使用しないこと。"@ja .
+pi:PI_14.item1.item2 dct:desctiption "添付の溶解液以外は使用しないこと。本剤に溶解液全量を加えた後、泡立てないようバイアルを静かに円を描くように回して溶解すること（激しく振とうしないこと）。"@ja .
 pi:PI_14.item1 pio:section pi:PI_14.item1.item3 .
-pi:PI_14.item1.item3 dct:desctiption "投与直前まで本剤の注射針のキャップを外さないこと。キャップを外したら直ちに投与すること。"@ja .
-pi:PI_15_1 pio:section pi:PI_15_1.item1 .
-pi:PI_15_1.item1 dct:description "国内のプラセボ対照第2/3相臨床試験では、投与開始後24週までに抗サリルマブ抗体は本剤200mg＋メトトレキサート投与群、本剤150mg＋メトトレキサート投与群及びプラセボ＋メトトレキサート投与群でそれぞれ1.3%（1/80）、1.2%（1/81）、1.2%（1/81）で持続的に認められ、そのうち中和抗体は本剤200mg＋メトトレキサート投与群1.3%（1/80）に認められた。海外試験併合安全性集団では、抗サリルマブ抗体は本剤200mg＋DMARDs投与群、本剤150mg＋DMARDs投与群及びプラセボ＋DMARDs投与群でそれぞれ4.0%（24/607）、5.6%（34/607）、2.0%（12/608）で持続的に認められ、そのうち中和抗体はそれぞれ1.0%（6/607）、1.6%（10/607）、0.2%（1/608）に認められた。抗サリルマブ抗体形成は本剤の薬物動態に影響を及ぼす可能性が示唆された。"@ja .
-pi:PI_15_1 pio:section pi:PI_15_1.item2 .
-pi:PI_15_1.item2 dct:description "海外試験併合安全性集団における曝露期間で調整した非黒色腫皮膚癌を含む全悪性腫瘍の発現率は、サリルマブ200mg併用群0.9件/100人年、サリルマブ150mg併用群1.1件/100人年及びプラセボ群1.0件/100人年、非黒色腫皮膚癌を除く全悪性腫瘍の発現率は、サリルマブ200mg併用群0.5件/100人年、サリルマブ150mg併用群1.1件/100人年及びプラセボ群0.3件/100人年であった。 DMARDs併用長期安全性集団では、全悪性腫瘍の発現率は0.8件/100人年であり、非黒色腫皮膚癌を除く悪性腫瘍の発現率は0.5件/100人年であった。"@ja .
+pi:PI_14.item1.item3 dct:desctiption "他剤と混合しないこと。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item4 .
+pi:PI_14.item1.item4 dct:desctiption "溶解した液を使用する際には、フィルターのあるセットを用いること。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item5 .
+pi:PI_14.item1.item5 dct:desctiption "一度溶解したものは室温（30℃以下）で3時間以内に使用すること。3時間以内に使用されない場合は、廃棄すること。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item6 .
+pi:PI_14.item1.item6 dct:desctiption "使用後の残液は細菌汚染のおそれがあるので使用しないこと。本剤は保存剤が含有されていない。"@ja .
+pi:PI_15_1 dct:description "本剤はvon Willebrand因子を含んでいない。"@ja .
 pi:PI_16_1 pio:section pi:PI_16_1.item1 .
-pi:PI_16_1.item1 rdfs:title "単回投与"@ja .
-pi:PI_16_1.item1 dct:description "日本人関節リウマチ患者にサリルマブ150mg（単剤投与）又は200mg（メトトレキサート併用投与）を単回皮下投与した。血清中サリルマブ濃度推移及び薬物動態パラメータを以下に示した  。"@ja .
+pi:PI_16_1.item1 dct:description "12歳以上の小児及び成人の重症血友病A患者（FⅧ活性が1%未満）を対象とした海外第Ⅰ/Ⅱ/Ⅲ相試験 及び日本人を含む国際共同第Ⅱ/Ⅲ相試験 において、本剤（50IU/kg）を単回静脈内投与した際の薬物動態パラメータは以下のとおりであった。"@ja .
 pi:PI_16_1 pio:table pi:PI_16_1.item1.table1 .
 pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row1 .
 pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column1 .
-pi:PI_16_1.item1.table1.row1.column1 rdf:value "投与量 （mg）" .
+pi:PI_16_1.item1.table1.row1.column1 rdf:value "" .
 pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column2 .
-pi:PI_16_1.item1.table1.row1.column2 rdf:value "例数" .
+pi:PI_16_1.item1.table1.row1.column2 rdf:value "日本人 （N＝4）" .
 pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column3 .
-pi:PI_16_1.item1.table1.row1.column3 rdf:value "C （mg/L）" .
-pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column4 .
-pi:PI_16_1.item1.table1.row1.column4 rdf:value "t （day）" .
-pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column5 .
-pi:PI_16_1.item1.table1.row1.column5 rdf:value "t （day）" .
-pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column6 .
-pi:PI_16_1.item1.table1.row1.column6 rdf:value "AUC （mg・day/L）" .
-pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column7 .
-pi:PI_16_1.item1.table1.row1.column7 rdf:value "AUC （mg・day/L）" .
-pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column8 .
-pi:PI_16_1.item1.table1.row1.column8 rdf:value "CL/F （L/day）" .
-pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column9 .
-pi:PI_16_1.item1.table1.row1.column9 rdf:value "V /F （L）" .
+pi:PI_16_1.item1.table1.row1.column3 rdf:value "外国人 （N＝26）" .
 pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row2 .
 pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column1 .
-pi:PI_16_1.item1.table1.row2.column1 rdf:value "150" .
+pi:PI_16_1.item1.table1.row2.column1 rdf:value "生体内回収率（kg/dL） 算術平均±SD" .
 pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column2 .
-pi:PI_16_1.item1.table1.row2.column2 rdf:value "15" .
+pi:PI_16_1.item1.table1.row2.column2 rdf:value "2.40±0.16" .
 pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column3 .
-pi:PI_16_1.item1.table1.row2.column3 rdf:value "15.4±6.17" .
-pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column4 .
-pi:PI_16_1.item1.table1.row2.column4 rdf:value "3.91" .
-pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column5 .
-pi:PI_16_1.item1.table1.row2.column5 rdf:value "2.34±0.334" .
-pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column6 .
-pi:PI_16_1.item1.table1.row2.column6 rdf:value "164±84.8" .
-pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column7 .
-pi:PI_16_1.item1.table1.row2.column7 rdf:value "167±84.7" .
-pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column8 .
-pi:PI_16_1.item1.table1.row2.column8 rdf:value "1.46±1.58" .
-pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column9 .
-pi:PI_16_1.item1.table1.row2.column9 rdf:value "8.90±6.81" .
+pi:PI_16_1.item1.table1.row2.column3 rdf:value "2.03±0.51" .
 pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row3 .
 pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column1 .
-pi:PI_16_1.item1.table1.row3.column1 rdf:value "200" .
+pi:PI_16_1.item1.table1.row3.column1 rdf:value "AUC（IU・h/dL） 幾何平均/%CV" .
 pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column2 .
-pi:PI_16_1.item1.table1.row3.column2 rdf:value "6" .
+pi:PI_16_1.item1.table1.row3.column2 rdf:value "1850/34.9" .
 pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column3 .
-pi:PI_16_1.item1.table1.row3.column3 rdf:value "27.7±12.6" .
-pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column4 .
-pi:PI_16_1.item1.table1.row3.column4 rdf:value "3.00" .
-pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column5 .
-pi:PI_16_1.item1.table1.row3.column5 rdf:value "3.49±1.35" .
-pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column6 .
-pi:PI_16_1.item1.table1.row3.column6 rdf:value "339±173" .
-pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column7 .
-pi:PI_16_1.item1.table1.row3.column7 rdf:value "409±126" .
-pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column8 .
-pi:PI_16_1.item1.table1.row3.column8 rdf:value "0.536±0.194" .
-pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column9 .
-pi:PI_16_1.item1.table1.row3.column9 rdf:value "5.02±1.47" .
+pi:PI_16_1.item1.table1.row3.column3 rdf:value "1890/36.1" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row4 .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column1 .
+pi:PI_16_1.item1.table1.row4.column1 rdf:value "t （h） 幾何平均/%CV" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column2 .
+pi:PI_16_1.item1.table1.row4.column2 rdf:value "12.8/23.0" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column3 .
+pi:PI_16_1.item1.table1.row4.column3 rdf:value "13.8/28.0" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row5 .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column1 .
+pi:PI_16_1.item1.table1.row5.column1 rdf:value "Vss（dL/kg） 幾何平均/%CV" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column2 .
+pi:PI_16_1.item1.table1.row5.column2 rdf:value "0.527/8.39" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column3 .
+pi:PI_16_1.item1.table1.row5.column3 rdf:value "0.511/31.0" .
 pi:PI_16_1 pio:section pi:PI_16_1.item2 .
-pi:PI_16_1.item2 rdfs:title "反復投与"@ja .
-pi:PI_16_1.item2 dct:description "日本人関節リウマチ患者にメトトレキサート併用下でサリルマブ150mg又は200mgを2週に1回皮下投与したとき、24週時までの血清中サリルマブのトラフ濃度推移を以下に示した。初回投与24週後の血清中サリルマブ濃度は16.1±10.6mg/L（150mg皮下投与、67例）及び30.5±16.9mg/L（200mg皮下投与、57例）であった  。"@ja .
-pi:PI_16_7 pio:section pi:PI_16_7.item1 .
-pi:PI_16_7.item1 rdfs:title "薬物代謝酵素に関わる相互作用"@ja .
-pi:PI_16_7.item1 dct:description "シンバスタチンはCYP3A4代謝を受ける基質である。17名の外国人関節リウマチ患者に本剤200mg単回皮下投与後の1週後にシンバスタチンを投与したとき、シンバスタチン及びシンバスタチン酸の曝露量はそれぞれ45%及び36%減少した  。（外国人データ）"@ja .
+pi:PI_16_1.item2 dct:description "12歳以下の小児の重症血友病A患者（FⅧ活性が1%未満）を対象とした海外第Ⅲ相試験 において、本剤（50IU/kg）を単回静脈内投与した際の薬物動態パラメータは以下のとおりであった。"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item2.table1 .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row1 .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column1 .
+pi:PI_16_1.item2.table1.row1.column1 rdf:value "" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column2 .
+pi:PI_16_1.item2.table1.row1.column2 rdf:value "6歳未満 （N＝5）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column3 .
+pi:PI_16_1.item2.table1.row1.column3 rdf:value "6歳以上12歳以下 （N＝10）" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row2 .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column1 .
+pi:PI_16_1.item2.table1.row2.column1 rdf:value "生体内回収率（kg/dL） 算術平均±SD" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column2 .
+pi:PI_16_1.item2.table1.row2.column2 rdf:value "1.63±0.31" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column3 .
+pi:PI_16_1.item2.table1.row2.column3 rdf:value "1.76±0.42" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row3 .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column1 .
+pi:PI_16_1.item2.table1.row3.column1 rdf:value "AUC（IU・h/dL） 幾何平均/%CV" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column2 .
+pi:PI_16_1.item2.table1.row3.column2 rdf:value "1330/29.4" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column3 .
+pi:PI_16_1.item2.table1.row3.column3 rdf:value "1160/34.7" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row4 .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column1 .
+pi:PI_16_1.item2.table1.row4.column1 rdf:value "t （h） 幾何平均/%CV" .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column2 .
+pi:PI_16_1.item2.table1.row4.column2 rdf:value "11.8/27.0" .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column3 .
+pi:PI_16_1.item2.table1.row4.column3 rdf:value "11.9/16.6" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row5 .
+pi:PI_16_1.item2.table1.row5 pio:column pi:PI_16_1.item2.table1.row5.column1 .
+pi:PI_16_1.item2.table1.row5.column1 rdf:value "Vss（dL/kg） 幾何平均/%CV" .
+pi:PI_16_1.item2.table1.row5 pio:column pi:PI_16_1.item2.table1.row5.column2 .
+pi:PI_16_1.item2.table1.row5.column2 rdf:value "0.636/20.6" .
+pi:PI_16_1.item2.table1.row5 pio:column pi:PI_16_1.item2.table1.row5.column3 .
+pi:PI_16_1.item2.table1.row5.column3 rdf:value "0.761/28.6" .
 pi:PI_17_1 pio:section pi:PI_17_1.item1 .
-pi:PI_17_1.item1 rdfs:title "国内第2/3相プラセボ対照二重盲検比較試験（メトトレキサート併用試験）"@ja .
-pi:PI_17_1.item1 dct:description "メトトレキサートにより十分な効果が得られなかった関節リウマチ患者を対象にメトトレキサート併用下で実施したプラセボ対照二重盲検比較試験における24週時のACR改善率（ACR20、ACR50、ACR70）  を以下に示す。24週時のACR20改善率は、プラセボ群14.8%に対し、本剤150mg q2w群67.9%及び200mg q2w群57.5%といずれも有意に高かった（P&lt;0.0001  ）  。"@ja .
-pi:PI_17_1.item1 dct:description "                                                         "@ja .
-pi:PI_17_1.item1 dct:description "投与24週時までの副作用は、本剤150mg q2w群81例中42例（51.9%）、本剤200mg q2w群80例中39例（48.8%）及びプラセボ群81例中22例（27.2%）にみられた。主な副作用としては、本剤150mg q2w群、200mg q2w群に、それぞれ鼻咽頭炎9例（11.1%）/3例（3.8%）、好中球減少症6例（7.4%）/9例（11.3%）、注射部位紅斑6例（7.4%）/7例（8.8%）、肝機能異常5例（6.2%）/6例（7.5%）、注射部位そう痒感4例（4.9%）/4例（5.0%）がみられた。投与52週時までの副作用は、本剤150mg q2w群では81例中57例（70.4%）に、本剤200mg q2w群では80例中47例（58.8%）にみられた。本剤の主な副作用として、本剤150mg q2w群及び200mg q2w群に、それぞれ鼻咽頭炎15例（18.5%）/6例（7.5%）、好中球減少症10例（12.3%）/9例（11.3%）、注射部位紅斑7例（8.6%）/7例（8.8%）、肝機能異常7例（8.6%）/5例（6.3%）、注射部位そう痒感5例（6.2%）/4例（5.0%）がみられた  。"@ja .
+pi:PI_17_1.item1 rdfs:title "海外第Ⅰ/Ⅱ/Ⅲ相試験"@ja .
+pi:PI_17_1.item1 dct:description "治療歴のある12歳以上の小児及び成人の重症血友病A患者（FⅧ活性が1%未満）を対象とした試験において、定期投与が行われた62例に394件の出血が認められた（継続投与期間を含む）。主な出血は軽度又は中等度の自然出血であり、最も出血の多かった部位は関節であった。止血効果は評価可能であった383件の出血のうち、296件（77.3%）が「非常に良好」又は「良好」であり、また、394件の出血のうち343件（87.1%）は本剤の2回以下の投与で止血した。定期投与における一人あたりの推定年間出血率の中央値は1.98回/年であった 。"@ja .
+pi:PI_17_1.item1 dct:description "10例に12件の大手術、及び18例に26件の小手術が行われた。評価不能であった2件の小手術を除くすべての手術において止血管理に対する評価は「非常に良好」又は「良好」であった 。 安全性評価対象62例中6例（9.7%）に副作用が認められた。発現した副作用は、急性心筋梗塞、悪心、注入部位疼痛、季節性アレルギー、筋肉痛、味覚異常、頭痛、鼻閉、鼻漏、そう痒症及び潮紅が各1例であった。"@ja .
 pi:PI_17_1 pio:table pi:PI_17_1.item1.table1 .
 pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row1 .
 pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column1 .
-pi:PI_17_1.item1.table1.row1.column1 rdf:value "24週時" .
+pi:PI_17_1.item1.table1.row1.column1 rdf:value "" .
 pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column2 .
-pi:PI_17_1.item1.table1.row1.column2 rdf:value "プラセボ＋MTX （81例）" .
+pi:PI_17_1.item1.table1.row1.column2 rdf:value "総出血件数" .
 pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column3 .
-pi:PI_17_1.item1.table1.row1.column3 rdf:value "本剤＋MTX" .
+pi:PI_17_1.item1.table1.row1.column3 rdf:value "止血効果評価可能件数" .
 pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column4 .
-pi:PI_17_1.item1.table1.row1.column4 rdf:value "本剤＋MTX" .
+pi:PI_17_1.item1.table1.row1.column4 rdf:value "止血効果" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column5 .
+pi:PI_17_1.item1.table1.row1.column5 rdf:value "止血効果" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column6 .
+pi:PI_17_1.item1.table1.row1.column6 rdf:value "止血効果" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column7 .
+pi:PI_17_1.item1.table1.row1.column7 rdf:value "止血効果" .
 pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row2 .
 pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column1 .
-pi:PI_17_1.item1.table1.row2.column1 rdf:value "24週時" .
+pi:PI_17_1.item1.table1.row2.column1 rdf:value "" .
 pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column2 .
-pi:PI_17_1.item1.table1.row2.column2 rdf:value "プラセボ＋MTX （81例）" .
+pi:PI_17_1.item1.table1.row2.column2 rdf:value "総出血件数" .
 pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column3 .
-pi:PI_17_1.item1.table1.row2.column3 rdf:value "150mg q2w （81例）" .
+pi:PI_17_1.item1.table1.row2.column3 rdf:value "止血効果評価可能件数" .
 pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column4 .
-pi:PI_17_1.item1.table1.row2.column4 rdf:value "200mg q2w （80例）" .
+pi:PI_17_1.item1.table1.row2.column4 rdf:value "非常に 良好" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column5 .
+pi:PI_17_1.item1.table1.row2.column5 rdf:value "良好" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column6 .
+pi:PI_17_1.item1.table1.row2.column6 rdf:value "やや良好" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column7 .
+pi:PI_17_1.item1.table1.row2.column7 rdf:value "不十分" .
 pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row3 .
 pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column1 .
-pi:PI_17_1.item1.table1.row3.column1 rdf:value "ACR20" .
+pi:PI_17_1.item1.table1.row3.column1 rdf:value "定期投与 (62例)" .
 pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column2 .
-pi:PI_17_1.item1.table1.row3.column2 rdf:value "12（14.8%）" .
+pi:PI_17_1.item1.table1.row3.column2 rdf:value "394" .
 pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column3 .
-pi:PI_17_1.item1.table1.row3.column3 rdf:value "55（67.9%）" .
+pi:PI_17_1.item1.table1.row3.column3 rdf:value "383" .
 pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column4 .
-pi:PI_17_1.item1.table1.row3.column4 rdf:value "46（57.5%）" .
-pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row4 .
-pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column1 .
-pi:PI_17_1.item1.table1.row4.column1 rdf:value "プラセボ群との改善率の差 ［95%信頼区間］" .
-pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column2 .
-pi:PI_17_1.item1.table1.row4.column2 rdf:value "－" .
-pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column3 .
-pi:PI_17_1.item1.table1.row4.column3 rdf:value "52.9% ［40.9%, 64.9%］" .
-pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column4 .
-pi:PI_17_1.item1.table1.row4.column4 rdf:value "42.6% ［29.5%, 55.8%］" .
-pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row5 .
-pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column1 .
-pi:PI_17_1.item1.table1.row5.column1 rdf:value "P値" .
-pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column2 .
-pi:PI_17_1.item1.table1.row5.column2 rdf:value "－" .
-pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column3 .
-pi:PI_17_1.item1.table1.row5.column3 rdf:value "&lt;0.0001" .
-pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column4 .
-pi:PI_17_1.item1.table1.row5.column4 rdf:value "&lt;0.0001" .
-pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row6 .
-pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column1 .
-pi:PI_17_1.item1.table1.row6.column1 rdf:value "ACR50" .
-pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column2 .
-pi:PI_17_1.item1.table1.row6.column2 rdf:value "8（9.9%）" .
-pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column3 .
-pi:PI_17_1.item1.table1.row6.column3 rdf:value "35（43.2%）" .
-pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column4 .
-pi:PI_17_1.item1.table1.row6.column4 rdf:value "31（38.8%）" .
-pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row7 .
-pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column1 .
-pi:PI_17_1.item1.table1.row7.column1 rdf:value "ACR70" .
-pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column2 .
-pi:PI_17_1.item1.table1.row7.column2 rdf:value "3（3.7%）" .
-pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column3 .
-pi:PI_17_1.item1.table1.row7.column3 rdf:value "15（18.5%）" .
-pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column4 .
-pi:PI_17_1.item1.table1.row7.column4 rdf:value "12（15.0%）" .
+pi:PI_17_1.item1.table1.row3.column4 rdf:value "91 (23.8%)" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column5 .
+pi:PI_17_1.item1.table1.row3.column5 rdf:value "205 (53.5%)" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column6 .
+pi:PI_17_1.item1.table1.row3.column6 rdf:value "72 (18.8%)" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column7 .
+pi:PI_17_1.item1.table1.row3.column7 rdf:value "15 (3.9%)" .
 pi:PI_17_1 pio:section pi:PI_17_1.item2 .
-pi:PI_17_1.item2 rdfs:title "国内第3相二重盲検試験（メトトレキサート以外のDMARDs併用又は単剤投与試験）"@ja .
-pi:PI_17_1.item2 dct:description "関節リウマチ患者を対象にメトトレキサート以外のDMARDs併用下で本剤を投与したとき、又は本剤を単剤投与したときの安全性及び有効性を検討した二重盲検試験における24週時のACR改善率（ACR20、ACR50、ACR70）を以下に示す  。"@ja .
-pi:PI_17_1.item2 dct:description "投与52週までの副作用は、単剤投与時で150mg q2w群30例中18例（60.0%）及び200mg q2w群31例中23例（74.2%）に、DMARDs併用投与時で150mg q2w群及び200mg q2w群ともに、それぞれ15例中9例（60.0%）にみられた。主な副作用として、単剤投与時で本剤150mg q2w群及び200mg q2w群に、それぞれ鼻咽頭炎4例（13.3%）/6例（19.4%）、高コレステロール血症0例/2例（6.5%）、注射部位紅斑1例（3.3%）/6例（19.4%）、口内炎3例（10.0%）/4例（12.9%）、好中球減少症1例（3.3%）/3例（9.7%）、好中球数減少2例（6.7%）/1例（3.2%）及び肝機能異常0例/2例（6.5%）、DMARDs併用投与時では本剤150mg q2w群/200mg q2w群で好中球減少症5例（33.3%）/3例（20.0%）がみられた  。"@ja .
+pi:PI_17_1.item2 rdfs:title "国際共同第Ⅱ/Ⅲ相試験"@ja .
+pi:PI_17_1.item2 dct:description "日本人を含む治療歴のある12歳以上の小児及び成人の重症血友病A患者（FⅧ活性が1%未満）を対象とした試験 において、出血時投与が行われた21例（日本人3例を含む）に1204件の出血が認められた。主な出血は軽度又は中等度の自然出血であり、最も出血の多かった部位は関節であった。止血効果は評価可能であった1196件の出血のうち、834件（69.7%）が「非常に良好」又は「良好」であり、また、1204件の出血のうち1147件（95.3%）は本剤の2回以下の投与で止血した。 また、定期投与が行われた59例（日本人5例を含む）に293件の出血が認められた。主な出血は軽度又は中等度の自然出血であり、最も出血の多かった部位は関節であった。止血効果は評価可能であった279件の出血のうち、172件（61.6%）が「非常に良好」又は「良好」であり、また、293件の出血のうち282件（96.2%）は本剤の2回以下の投与で止血した。定期投与における一人あたりの推定年間出血率の中央値は1.98回/年であった。"@ja .
+pi:PI_17_1.item2 dct:description "1例に1件の大手術、及び14例に20件の小手術が行われた。評価不能であった1件の小手術を除くすべての手術において止血管理に対する評価は「非常に良好」又は「良好」であった。 安全性評価対象80例中3例（3.8%）に副作用が認められた。発現した副作用は、リンパ節症、注入部位そう痒感及びアレルギー性皮膚炎が各1例であった。"@ja .
 pi:PI_17_1 pio:table pi:PI_17_1.item2.table1 .
 pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row1 .
 pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column1 .
-pi:PI_17_1.item2.table1.row1.column1 rdf:value "24週時" .
+pi:PI_17_1.item2.table1.row1.column1 rdf:value "" .
 pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column2 .
-pi:PI_17_1.item2.table1.row1.column2 rdf:value "本剤" .
+pi:PI_17_1.item2.table1.row1.column2 rdf:value "総出血件数" .
 pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column3 .
-pi:PI_17_1.item2.table1.row1.column3 rdf:value "本剤" .
+pi:PI_17_1.item2.table1.row1.column3 rdf:value "止血効果評価可能件数" .
 pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column4 .
-pi:PI_17_1.item2.table1.row1.column4 rdf:value "本剤" .
+pi:PI_17_1.item2.table1.row1.column4 rdf:value "止血効果" .
 pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column5 .
-pi:PI_17_1.item2.table1.row1.column5 rdf:value "本剤" .
+pi:PI_17_1.item2.table1.row1.column5 rdf:value "止血効果" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column6 .
+pi:PI_17_1.item2.table1.row1.column6 rdf:value "止血効果" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column7 .
+pi:PI_17_1.item2.table1.row1.column7 rdf:value "止血効果" .
 pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row2 .
 pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column1 .
-pi:PI_17_1.item2.table1.row2.column1 rdf:value "24週時" .
+pi:PI_17_1.item2.table1.row2.column1 rdf:value "" .
 pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column2 .
-pi:PI_17_1.item2.table1.row2.column2 rdf:value "単剤投与" .
+pi:PI_17_1.item2.table1.row2.column2 rdf:value "総出血件数" .
 pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column3 .
-pi:PI_17_1.item2.table1.row2.column3 rdf:value "単剤投与" .
+pi:PI_17_1.item2.table1.row2.column3 rdf:value "止血効果評価可能件数" .
 pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column4 .
-pi:PI_17_1.item2.table1.row2.column4 rdf:value "DMARDs併用投与" .
+pi:PI_17_1.item2.table1.row2.column4 rdf:value "非常に 良好" .
 pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column5 .
-pi:PI_17_1.item2.table1.row2.column5 rdf:value "DMARDs併用投与" .
+pi:PI_17_1.item2.table1.row2.column5 rdf:value "良好" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column6 .
+pi:PI_17_1.item2.table1.row2.column6 rdf:value "やや良好" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column7 .
+pi:PI_17_1.item2.table1.row2.column7 rdf:value "不十分" .
 pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row3 .
 pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column1 .
-pi:PI_17_1.item2.table1.row3.column1 rdf:value "24週時" .
+pi:PI_17_1.item2.table1.row3.column1 rdf:value "定期投与 (59例)" .
 pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column2 .
-pi:PI_17_1.item2.table1.row3.column2 rdf:value "150mg q2w （30例）" .
+pi:PI_17_1.item2.table1.row3.column2 rdf:value "293" .
 pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column3 .
-pi:PI_17_1.item2.table1.row3.column3 rdf:value "200mg q2w （31例）" .
+pi:PI_17_1.item2.table1.row3.column3 rdf:value "279" .
 pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column4 .
-pi:PI_17_1.item2.table1.row3.column4 rdf:value "150mg q2w＋DMARDs （15例）" .
+pi:PI_17_1.item2.table1.row3.column4 rdf:value "48 (17.2%)" .
 pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column5 .
-pi:PI_17_1.item2.table1.row3.column5 rdf:value "200mg q2w＋DMARDs （15例）" .
+pi:PI_17_1.item2.table1.row3.column5 rdf:value "124 (44.4%)" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column6 .
+pi:PI_17_1.item2.table1.row3.column6 rdf:value "95 (34.1%)" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column7 .
+pi:PI_17_1.item2.table1.row3.column7 rdf:value "12 (4.3%)" .
 pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row4 .
 pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column1 .
-pi:PI_17_1.item2.table1.row4.column1 rdf:value "ACR20" .
+pi:PI_17_1.item2.table1.row4.column1 rdf:value "出血時投与 (21例)" .
 pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column2 .
-pi:PI_17_1.item2.table1.row4.column2 rdf:value "22（73.3%）" .
+pi:PI_17_1.item2.table1.row4.column2 rdf:value "1204" .
 pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column3 .
-pi:PI_17_1.item2.table1.row4.column3 rdf:value "20（64.5%）" .
+pi:PI_17_1.item2.table1.row4.column3 rdf:value "1196" .
 pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column4 .
-pi:PI_17_1.item2.table1.row4.column4 rdf:value "12（80.0%）" .
+pi:PI_17_1.item2.table1.row4.column4 rdf:value "335 (28.0%)" .
 pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column5 .
-pi:PI_17_1.item2.table1.row4.column5 rdf:value "11（73.3%）" .
-pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row5 .
-pi:PI_17_1.item2.table1.row5 pio:column pi:PI_17_1.item2.table1.row5.column1 .
-pi:PI_17_1.item2.table1.row5.column1 rdf:value "ACR50" .
-pi:PI_17_1.item2.table1.row5 pio:column pi:PI_17_1.item2.table1.row5.column2 .
-pi:PI_17_1.item2.table1.row5.column2 rdf:value "14（46.7%）" .
-pi:PI_17_1.item2.table1.row5 pio:column pi:PI_17_1.item2.table1.row5.column3 .
-pi:PI_17_1.item2.table1.row5.column3 rdf:value "14（45.2%）" .
-pi:PI_17_1.item2.table1.row5 pio:column pi:PI_17_1.item2.table1.row5.column4 .
-pi:PI_17_1.item2.table1.row5.column4 rdf:value "10（66.7%）" .
-pi:PI_17_1.item2.table1.row5 pio:column pi:PI_17_1.item2.table1.row5.column5 .
-pi:PI_17_1.item2.table1.row5.column5 rdf:value "8（53.3%）" .
-pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row6 .
-pi:PI_17_1.item2.table1.row6 pio:column pi:PI_17_1.item2.table1.row6.column1 .
-pi:PI_17_1.item2.table1.row6.column1 rdf:value "ACR70" .
-pi:PI_17_1.item2.table1.row6 pio:column pi:PI_17_1.item2.table1.row6.column2 .
-pi:PI_17_1.item2.table1.row6.column2 rdf:value "9（30.0%）" .
-pi:PI_17_1.item2.table1.row6 pio:column pi:PI_17_1.item2.table1.row6.column3 .
-pi:PI_17_1.item2.table1.row6.column3 rdf:value "8（25.8%）" .
-pi:PI_17_1.item2.table1.row6 pio:column pi:PI_17_1.item2.table1.row6.column4 .
-pi:PI_17_1.item2.table1.row6.column4 rdf:value "6（40.0%）" .
-pi:PI_17_1.item2.table1.row6 pio:column pi:PI_17_1.item2.table1.row6.column5 .
-pi:PI_17_1.item2.table1.row6.column5 rdf:value "5（33.3%）" .
+pi:PI_17_1.item2.table1.row4.column5 rdf:value "499 (41.7%)" .
+pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column6 .
+pi:PI_17_1.item2.table1.row4.column6 rdf:value "346 (28.9%)" .
+pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column7 .
+pi:PI_17_1.item2.table1.row4.column7 rdf:value "16 (1.3%)" .
 pi:PI_17_1 pio:section pi:PI_17_1.item3 .
-pi:PI_17_1.item3 rdfs:title "海外第3相プラセボ対照二重盲検比較試験（メトトレキサート併用試験）"@ja .
-pi:PI_17_1.item3 dct:description "メトトレキサートにより十分な効果が得られなかった関節リウマチ患者を対象にメトトレキサート併用下で実施したプラセボ対照二重盲検比較試験（MOBILITY）における24週時のACR改善率（ACR20、ACR50、ACR70）を以下に示す。24週時のACR20改善率は、プラセボ群33.4%に対し、本剤150mg q2w群58.0%及び200mg q2w群66.4%といずれも有意に高かった（P&lt;0.0001  ）  。"@ja .
-pi:PI_17_1.item3 dct:description "                                          "@ja .
-pi:PI_17_1.item3 dct:description "16週時のHAQ-DIのベースラインからの変化量は、プラセボ群-0.29±0.028（最小二乗平均値±SE  ）に対し、本剤150mg q2w群-0.53±0.029及び200mg q2w群-0.55±0.029といずれも有意に高かった（P&lt;0.0001  ）。"@ja .
-pi:PI_17_1.item3 dct:description "                           "@ja .
-pi:PI_17_1.item3 dct:description "投与52週間までの副作用は、本剤150mg q2w群431例中164例（38.1%）、本剤200mg q2w群424例中197例（46.5%）及びプラセボ群427例中102例（23.9%）にみられた。主な副作用として、本剤150mg q2w群、200mg q2w群に、それぞれ好中球減少症36例（8.4%）/52例（12.3%）、注射部位紅斑24例（5.6%）/27例（6.4%）、ALT増加24例（5.6%）/25例（5.9%）がみられた  。"@ja .
+pi:PI_17_1.item3 rdfs:title "海外第Ⅲ相試験"@ja .
+pi:PI_17_1.item3 dct:description "治療歴のある12歳以下の小児の重症血友病A患者（FⅧ活性が1%未満）を対象とした試験 において、定期投与が行われた51例に97件の出血が認められた。主な出血は軽度又は中等度の外傷性出血であり、最も出血の多かった部位は皮膚/粘膜であった。止血効果は評価可能であった81件の出血のうち、73件（90.1%）が「非常に良好」又は「良好」であり、また、97件の出血のうち87件（89.7%）は本剤の2回以下の投与で止血した。定期投与における一人あたりの推定年間出血率の中央値は1.90回/年であった。"@ja .
+pi:PI_17_1.item3 dct:description "1例に1件の大手術が行われ、止血管理に対する評価は「良好」であった。 安全性評価対象51例中1例（2.0%）に副作用が認められた。発現した副作用は、そう痒症であった。"@ja .
 pi:PI_17_1 pio:table pi:PI_17_1.item3.table1 .
 pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row1 .
 pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column1 .
-pi:PI_17_1.item3.table1.row1.column1 rdf:value "24週時" .
+pi:PI_17_1.item3.table1.row1.column1 rdf:value "" .
 pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column2 .
-pi:PI_17_1.item3.table1.row1.column2 rdf:value "プラセボ＋MTX （398例）" .
+pi:PI_17_1.item3.table1.row1.column2 rdf:value "総出血件数" .
 pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column3 .
-pi:PI_17_1.item3.table1.row1.column3 rdf:value "本剤＋MTX" .
+pi:PI_17_1.item3.table1.row1.column3 rdf:value "止血効果評価可能件数" .
 pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column4 .
-pi:PI_17_1.item3.table1.row1.column4 rdf:value "本剤＋MTX" .
+pi:PI_17_1.item3.table1.row1.column4 rdf:value "止血効果" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column5 .
+pi:PI_17_1.item3.table1.row1.column5 rdf:value "止血効果" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column6 .
+pi:PI_17_1.item3.table1.row1.column6 rdf:value "止血効果" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column7 .
+pi:PI_17_1.item3.table1.row1.column7 rdf:value "止血効果" .
 pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row2 .
 pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column1 .
-pi:PI_17_1.item3.table1.row2.column1 rdf:value "24週時" .
+pi:PI_17_1.item3.table1.row2.column1 rdf:value "" .
 pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column2 .
-pi:PI_17_1.item3.table1.row2.column2 rdf:value "プラセボ＋MTX （398例）" .
+pi:PI_17_1.item3.table1.row2.column2 rdf:value "総出血件数" .
 pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column3 .
-pi:PI_17_1.item3.table1.row2.column3 rdf:value "150mg q2w （400例）" .
+pi:PI_17_1.item3.table1.row2.column3 rdf:value "止血効果評価可能件数" .
 pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column4 .
-pi:PI_17_1.item3.table1.row2.column4 rdf:value "200mg q2w （399例）" .
+pi:PI_17_1.item3.table1.row2.column4 rdf:value "非常に 良好" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column5 .
+pi:PI_17_1.item3.table1.row2.column5 rdf:value "良好" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column6 .
+pi:PI_17_1.item3.table1.row2.column6 rdf:value "やや良好" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column7 .
+pi:PI_17_1.item3.table1.row2.column7 rdf:value "不十分" .
 pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row3 .
 pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column1 .
-pi:PI_17_1.item3.table1.row3.column1 rdf:value "ACR20" .
+pi:PI_17_1.item3.table1.row3.column1 rdf:value "定期投与 (51例)" .
 pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column2 .
-pi:PI_17_1.item3.table1.row3.column2 rdf:value "133（33.4%）" .
+pi:PI_17_1.item3.table1.row3.column2 rdf:value "97" .
 pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column3 .
-pi:PI_17_1.item3.table1.row3.column3 rdf:value "232（58.0%）" .
+pi:PI_17_1.item3.table1.row3.column3 rdf:value "81" .
 pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column4 .
-pi:PI_17_1.item3.table1.row3.column4 rdf:value "265（66.4%）" .
-pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row4 .
-pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column1 .
-pi:PI_17_1.item3.table1.row4.column1 rdf:value "プラセボ群との改善率の差 ［95%信頼区間］" .
-pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column2 .
-pi:PI_17_1.item3.table1.row4.column2 rdf:value "－" .
-pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column3 .
-pi:PI_17_1.item3.table1.row4.column3 rdf:value "24.6% ［18.0%, 31.3%］" .
-pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column4 .
-pi:PI_17_1.item3.table1.row4.column4 rdf:value "33.0% ［26.5%, 39.5%］" .
-pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row5 .
-pi:PI_17_1.item3.table1.row5 pio:column pi:PI_17_1.item3.table1.row5.column1 .
-pi:PI_17_1.item3.table1.row5.column1 rdf:value "P値" .
-pi:PI_17_1.item3.table1.row5 pio:column pi:PI_17_1.item3.table1.row5.column2 .
-pi:PI_17_1.item3.table1.row5.column2 rdf:value "－" .
-pi:PI_17_1.item3.table1.row5 pio:column pi:PI_17_1.item3.table1.row5.column3 .
-pi:PI_17_1.item3.table1.row5.column3 rdf:value "&lt;0.0001" .
-pi:PI_17_1.item3.table1.row5 pio:column pi:PI_17_1.item3.table1.row5.column4 .
-pi:PI_17_1.item3.table1.row5.column4 rdf:value "&lt;0.0001" .
-pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row6 .
-pi:PI_17_1.item3.table1.row6 pio:column pi:PI_17_1.item3.table1.row6.column1 .
-pi:PI_17_1.item3.table1.row6.column1 rdf:value "ACR50" .
-pi:PI_17_1.item3.table1.row6 pio:column pi:PI_17_1.item3.table1.row6.column2 .
-pi:PI_17_1.item3.table1.row6.column2 rdf:value "66（16.6%）" .
-pi:PI_17_1.item3.table1.row6 pio:column pi:PI_17_1.item3.table1.row6.column3 .
-pi:PI_17_1.item3.table1.row6.column3 rdf:value "148（37.0%）" .
-pi:PI_17_1.item3.table1.row6 pio:column pi:PI_17_1.item3.table1.row6.column4 .
-pi:PI_17_1.item3.table1.row6.column4 rdf:value "182（45.6%）" .
-pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row7 .
-pi:PI_17_1.item3.table1.row7 pio:column pi:PI_17_1.item3.table1.row7.column1 .
-pi:PI_17_1.item3.table1.row7.column1 rdf:value "ACR70" .
-pi:PI_17_1.item3.table1.row7 pio:column pi:PI_17_1.item3.table1.row7.column2 .
-pi:PI_17_1.item3.table1.row7.column2 rdf:value "29（7.3%）" .
-pi:PI_17_1.item3.table1.row7 pio:column pi:PI_17_1.item3.table1.row7.column3 .
-pi:PI_17_1.item3.table1.row7.column3 rdf:value "79（19.8%）" .
-pi:PI_17_1.item3.table1.row7 pio:column pi:PI_17_1.item3.table1.row7.column4 .
-pi:PI_17_1.item3.table1.row7.column4 rdf:value "99（24.8%）" .
+pi:PI_17_1.item3.table1.row3.column4 rdf:value "32 (39.5%)" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column5 .
+pi:PI_17_1.item3.table1.row3.column5 rdf:value "41 (50.6%)" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column6 .
+pi:PI_17_1.item3.table1.row3.column6 rdf:value "7 (8.6%)" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column7 .
+pi:PI_17_1.item3.table1.row3.column7 rdf:value "1 (1.2%)" .
 pi:PI_18 a pio:PI_18 .
-pi:PI_18_1 dct:description "IL-6高値は関節リウマチ患者の滑液にみられ、関節リウマチの特徴である病的炎症及び関節破壊の両方に重要な役割を果たしている。IL-6は、関節リウマチ患者の全身性炎症、滑膜炎及び骨びらんにつながるT細胞、B細胞、単核細胞及び破骨細胞の遊走や活性化などの多様な生理的プロセスに関与している。 本剤は可溶性及び膜結合型IL-6受容体αサブユニット（IL-6Rα）に特異的に結合し、IL-6を介するシグナル伝達を阻害する。"@ja .
+pi:PI_18_1 dct:description "血液凝固第Ⅷ因子欠乏患者に対し、血漿中の血液凝固第Ⅷ因子を補うことにより、出血傾向を改善する 。"@ja .
 pi:PI_18 pio:section pi:PI_18.item1 .
-pi:PI_18.item1 rdfs:label "薬理作用"@ja .
-pi:PI_18.item1 pio:section pi:PI_18.item1.item1 .
-pi:PI_18.item1.item1 rdfs:label "IL-6受容体に対する結合"@ja .
-pi:PI_18.item1 pio:section pi:PI_18.item1.item2 .
-pi:PI_18.item1 pio:section pi:PI_18.item1.item3 .
-pi:PI_18.item1.item3 rdfs:label "IL-6受容体を介したシグナル伝達阻害作用"@ja .
-pi:PI_18.item1 pio:section pi:PI_18.item1.item4 .
-pi:PI_18.item1 pio:section pi:PI_18.item1.item5 .
-pi:PI_18.item1.item5 rdfs:label "エフェクター活性に対する影響"@ja .
-pi:PI_18.item1 pio:section pi:PI_18.item1.item6 .
-pi:PI_18.item1 pio:section pi:PI_18.item1.item7 .
-pi:PI_18.item1.item7 rdfs:label "抗炎症作用"@ja .
-pi:PI_18.item1 pio:section pi:PI_18.item1.item8 .
+pi:PI_18.item1 rdfs:label "止血効果"@ja .
+pi:PI_18.item1 dct:description "血友病Aマウスを用いた出血モデルにおいて、本剤静脈内投与（出血5分前又は24時間前）により止血効果が認められた 。"@ja .
 pi:PI_19 a pio:PI_19 .
-pi:PI_19 pio:general_name "サリルマブ（遺伝子組換え） Sarilumab（Genetical Recombination）" .
-pi:PI_19 pio:nature "サリルマブは、ヒトインターロイキン-6受容体のαサブユニットに対する遺伝子組換えヒトIgG1モノクローナル抗体である。サリルマブは、チャイニーズハムスター卵巣細胞により産生される。サリルマブは、446個のアミノ酸残基からなるH鎖（γ1鎖）2本及び214個のアミノ酸残基からなるL鎖（κ鎖）2本で構成される糖タンパク質（分子量：約150,000）である。" .
+pi:PI_19 pio:general_name "オクトコグ　ベータ（遺伝子組換え） ［Octocog Beta（Genetical Recombination）］" .
+pi:PI_19 pio:nature "オクトコグ　ベータは、遺伝子組換えヒト血液凝固第Ⅷ因子であり、ベビーハムスター腎細胞で産生される。オクトコグ　ベータは、1648個のアミノ酸残基からなるH鎖及び684個のアミノ酸残基からなるL鎖で構成される糖タンパク質（分子量：約350,000）である。" .
 pi:PI_20 a pio:PI_20 .
-pi:PI_20 dct:description "外箱開封後は遮光して保存すること。"@ja .
+pi:PI_20 pio:section pi:PI_20.item1 .
+pi:PI_20.item1 dct:description "外箱開封後は遮光して保存すること。"@ja .
+pi:PI_20 pio:section pi:PI_20.item2 .
+pi:PI_20.item2 dct:description "本剤は特定生物由来製品ではないが血液製剤代替医薬品であることから、本剤を血液凝固第Ⅷ因子欠乏患者に投与（処方）した場合は、医薬品名及びその製造番号、投与（処方）した日、使用患者名、住所等を記録し、少なくとも20年間保存すること。"@ja .
 pi:PI_21 dct:description "医薬品リスク管理計画を策定の上、適切に実施すること。"@ja .
 pi:PI_22 pio:section pi:PI_22.item1 .
-pi:PI_22.item1 rdfs:label "〈 〉"@ja .
-pi:PI_22.item1 dct:description "1.14mL×1シリンジ"@ja .
+pi:PI_22.item1 rdfs:label "〈コバールトリイ静注用250〉"@ja .
+pi:PI_22.item1 dct:description "1バイアル［添付溶解液プレフィルドシリンジ （日本薬局方 注射用水2.5mL）×1シリンジ付き］"@ja .
 pi:PI_22 pio:section pi:PI_22.item2 .
-pi:PI_22.item2 rdfs:label "〈 〉"@ja .
-pi:PI_22.item2 dct:description "1.14mL×1シリンジ"@ja .
+pi:PI_22.item2 rdfs:label "〈コバールトリイ静注用500〉"@ja .
+pi:PI_22.item2 dct:description "1バイアル［添付溶解液プレフィルドシリンジ （日本薬局方 注射用水2.5mL）×1シリンジ付き］"@ja .
 pi:PI_22 pio:section pi:PI_22.item3 .
-pi:PI_22.item3 rdfs:label "〈 〉"@ja .
-pi:PI_22.item3 dct:description "1.14mL×1本"@ja .
+pi:PI_22.item3 rdfs:label "〈コバールトリイ静注用1000〉"@ja .
+pi:PI_22.item3 dct:description "1バイアル［添付溶解液プレフィルドシリンジ （日本薬局方 注射用水2.5mL）×1シリンジ付き］"@ja .
 pi:PI_22 pio:section pi:PI_22.item4 .
-pi:PI_22.item4 rdfs:label "〈 〉"@ja .
-pi:PI_22.item4 dct:description "1.14mL×1本"@ja .
+pi:PI_22.item4 rdfs:label "〈コバールトリイ静注用2000〉"@ja .
+pi:PI_22.item4 dct:description "1バイアル［添付溶解液プレフィルドシリンジ （日本薬局方 注射用水5mL）×1シリンジ付き］"@ja .
+pi:PI_22 pio:section pi:PI_22.item5 .
+pi:PI_22.item5 rdfs:label "〈コバールトリイ静注用3000〉"@ja .
+pi:PI_22.item5 dct:description "1バイアル［添付溶解液プレフィルドシリンジ （日本薬局方 注射用水5mL）×1シリンジ付き］"@ja .
 pi:PI_23 dct:references pi:PI_23.item1 .
 pi:PI_23.item1 a bibo:Document .
-pi:PI_23.item1 rdfs:label "社内資料：国内第1相単回投与試験（メトトレキサート併用試験）（2017年9月27日承認、CTD2.7.2.2）" .
+pi:PI_23.item1 rdfs:label "社内資料: 治療歴のある12歳以上の小児及び成人の重症血友病A患者を対象とした海外臨床試験（2016年3月28日承認、CTD2.7.6.1）" .
 pi:PI_23.item1 pio:id "DOC_01" .
 pi:PI_23 dct:references pi:PI_23.item2 .
 pi:PI_23.item2 a bibo:Document .
-pi:PI_23.item2 rdfs:label "社内資料：国内第1相単回投与試験（単剤投与試験）（2017年9月27日承認、CTD2.7.2.2）" .
+pi:PI_23.item2 rdfs:label "社内資料: 日本人を含む治療歴のある12歳以上の小児及び成人の重症血友病A患者を対象とした国際共同試験（2016年3月28日承認、CTD2.7.6.4）" .
 pi:PI_23.item2 pio:id "DOC_02" .
 pi:PI_23 dct:references pi:PI_23.item3 .
 pi:PI_23.item3 a bibo:Document .
-pi:PI_23.item3 rdfs:label "社内資料：国内第2/3相プラセボ対照二重盲検比較試験（メトトレキサート併用試験）（2017年9月27日承認、CTD2.7.2.2）" .
+pi:PI_23.item3 rdfs:label "社内資料: 治療歴のある12歳以下の小児の重症血友病A患者を対象とした海外臨床試験（2016年3月28日承認、CTD2.7.6.6）" .
 pi:PI_23.item3 pio:id "DOC_03" .
 pi:PI_23 dct:references pi:PI_23.item4 .
 pi:PI_23.item4 a bibo:Document .
-pi:PI_23.item4 rdfs:label "社内資料：海外第1相薬物相互作用試験（シンバスタチン）（2017年9月27日承認、CTD2.7.2.2）" .
+pi:PI_23.item4 rdfs:label "社内資料: 治療歴のある12歳以上の小児及び成人の重症血友病A患者を対象とした海外臨床試験及び日本人を含む国際共同試験の併合解析（2016年3月28日承認、CTD2.7.6.3）" .
 pi:PI_23.item4 pio:id "DOC_04" .
 pi:PI_23 dct:references pi:PI_23.item5 .
 pi:PI_23.item5 a bibo:Document .
-pi:PI_23.item5 rdfs:label "社内資料：国内第2/3相プラセボ対照二重盲検比較試験（メトトレキサート併用試験）（2017年9月27日承認、CTD2.7.3.2）" .
+pi:PI_23.item5 rdfs:label "Giles AR, et al.: Blood. 1988; 72: 335-339" .
 pi:PI_23.item5 pio:id "DOC_05" .
 pi:PI_23 dct:references pi:PI_23.item6 .
 pi:PI_23.item6 a bibo:Document .
-pi:PI_23.item6 rdfs:label "社内資料：国内第2/3相プラセボ対照二重盲検比較試験（メトトレキサート併用試験）（2017年9月27日承認、CTD2.7.6.2）" .
+pi:PI_23.item6 rdfs:label "社内資料: マウスにおける止血効果（2016年3月28日承認、CTD2.6.2.2）" .
 pi:PI_23.item6 pio:id "DOC_06" .
-pi:PI_23 dct:references pi:PI_23.item7 .
-pi:PI_23.item7 a bibo:Document .
-pi:PI_23.item7 rdfs:label "社内資料：国内第3相二重盲検試験（メトトレキサート以外のDMARDs併用又は単剤投与試験）（2017年9月27日承認、CTD2.7.3.2）" .
-pi:PI_23.item7 pio:id "DOC_07" .
-pi:PI_23 dct:references pi:PI_23.item8 .
-pi:PI_23.item8 a bibo:Document .
-pi:PI_23.item8 rdfs:label "社内資料：国内第3相二重盲検試験（メトトレキサート以外のDMARDs併用又は単剤投与試験）（2017年9月27日承認、CTD2.7.6.2）" .
-pi:PI_23.item8 pio:id "DOC_08" .
-pi:PI_23 dct:references pi:PI_23.item9 .
-pi:PI_23.item9 a bibo:Document .
-pi:PI_23.item9 rdfs:label "社内資料：海外第3相プラセボ対照二重盲検比較試験（メトトレキサート併用試験）（2017年9月27日承認、CTD2.7.3.2）" .
-pi:PI_23.item9 pio:id "DOC_09" .
-pi:PI_23 dct:references pi:PI_23.item10 .
-pi:PI_23.item10 a bibo:Document .
-pi:PI_23.item10 rdfs:label "社内資料：海外第3相プラセボ対照二重盲検比較試験（メトトレキサート併用試験）（2017年9月27日承認、CTD2.7.6.2）" .
-pi:PI_23.item10 pio:id "DOC_10" .
 pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
 pi:PI_24 pio:section pi:PI_24.item1 .
-pi:PI_24.item1 pio:addressee_of_inquiry "旭化成ファーマ株式会社　医薬情報部くすり相談窓口"@ja .
-pi:PI_24.item1 pio:address "〒100-0006　東京都千代田区有楽町一丁目1番2号"@ja .
-pi:PI_24.item1 pio:contact_information "ケブザラ専用ダイヤル　0120-764-221 （9:00～17:45/土日祝・休業日を除く）"@ja .
+pi:PI_24.item1 pio:addressee_of_inquiry "文献請求先 バイエル薬品株式会社・メディカルインフォメーション"@ja .
+pi:PI_24.item1 pio:address "〒530-0001大阪市北区梅田二丁目4番9号"@ja .
+pi:PI_24 pio:section pi:PI_24.item2 .
+pi:PI_24.item2 pio:addressee_of_inquiry "バイエル医療用医薬品のお問い合わせ先 電話0120-106-398"@ja .
 pi:PI_26 pio:id "HDR_NameAddressManufact" .
 pi:PI_26 pio:section pi:PI_26.item1 .
 pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
-pi:PI_26.item1 pio:name "サノフィ株式会社"@ja .
-pi:PI_26.item1 pio:address "〒163-1488　東京都新宿区西新宿三丁目20番2号"@ja .
-pi:PI_26 pio:section pi:PI_26.item2 .
-pi:PI_26.item2 pio:type_of_industry "発売元"@ja .
-pi:PI_26.item2 pio:name "旭化成ファーマ株式会社"@ja .
-pi:PI_26.item2 pio:address "〒100-0006　東京都千代田区有楽町一丁目1番2号"@ja .
+pi:PI_26.item1 pio:name "バイエル薬品株式会社"@ja .
+pi:PI_26.item1 pio:address "大阪市北区梅田二丁目4番9号"@ja .

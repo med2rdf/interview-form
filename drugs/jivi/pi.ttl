@@ -1,0 +1,497 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/630004_6343453D1020_1_03#> .
+
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_0 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_1 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_2 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_3 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_3_1 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_3_2 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_4 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_5 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_6 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_7 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_8 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_9 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_9_1 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_9_2 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_9_3 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_9_4 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_9_5 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_9_6 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_9_7 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_9_8 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_10 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_10_1 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_10_2 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_11 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_11_1 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_11_2 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_12 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_13 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_14 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_15 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_15_1 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_15_2 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_16 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_16_1 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_16_2 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_16_3 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_16_4 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_16_5 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_16_6 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_16_7 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_16_8 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_17 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_17_1 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_17_2 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_17_3 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_18 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_18_1 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_19 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_20 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_21 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_22 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_23 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_24 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_25 .
+pi_root:630004_6343453D1020_1_03 pio:section pi:PI_26 .
+pi_root:630004_6343453D1020_1_03 dct:identifier "630004_6343453D1020_1_03" .
+pi_root:630004_6343453D1020_1_03 pio:company_identifier "630004" .
+pi_root:630004_6343453D1020_1_03 pio:date_of_preparation_or_revision "2020-04"^^xsd:date .
+pi_root:630004_6343453D1020_1_03 pio:version "第1版" .
+pi_root:630004_6343453D1020_1_03 pio:sccj_no "876349" .
+pi_root:630004_6343453D1020_1_03 pio:therapeutic_classification "ペグ化遺伝子組換え型血液凝固第Ⅷ因子製剤" .
+pi_root:630004_6343453D1020_1_03 pio:approval_brand_name "ジビイ静注用500" .
+pi_root:630004_6343453D1020_1_03 pio:yj_code "6343453D1020" .
+pi_root:630004_6343453D1020_1_03 pio:trademark_name "Jivi for iv injection 500" .
+pi_root:630004_6343453D1020_1_03 pio:name_in_hiragana "じびいじょうちゅうよう500" .
+pi_root:630004_6343453D1020_1_03 pio:approval_no "23000AMX00827000" .
+pi_root:630004_6343453D1020_1_03 pio:starting_date_of_marketing "2019-02"^^xsd:date .
+pi_root:630004_6343453D1020_1_03 pio:storage_method "凍結を避け、2～8℃で保存" .
+pi_root:630004_6343453D1020_1_03 pio:shelf_life "24ヵ月" .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "ダモクトコグ　アルファ　ペゴル（遺伝子組換え）"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "500国際単位"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "精製白糖"@ja .
+pi:PI_3_1.item1.additive1 pio:value_and_unit "27mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "L－ヒスチジン"@ja .
+pi:PI_3_1.item1.additive2 pio:value_and_unit "8.4mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item1.additive3 pio:value_and_unit "59mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item1.additive4 pio:value_and_unit "4.7mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "塩化カルシウム水和物"@ja .
+pi:PI_3_1.item1.additive5 pio:value_and_unit "1.0mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
+pi:PI_3_1.item1.additive6 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item1.additive6 pio:value_and_unit "216μg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive7 .
+pi:PI_3_1.item1.additive7 pio:additive "pH調整剤"@ja .
+pi:PI_3_1.item1.additive7 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item2 pio:contained_amount pi:PI_3_1.item2.contained_amount .
+pi:PI_3_1.item2.contained_amount pio:active_ingredient_name "ダモクトコグ　アルファ　ペゴル（遺伝子組換え）"@ja .
+pi:PI_3_1.item2.contained_amount pio:value_and_unit "1000国際単位"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive1 .
+pi:PI_3_1.item2.additive1 pio:additive "精製白糖"@ja .
+pi:PI_3_1.item2.additive1 pio:value_and_unit "27mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive2 .
+pi:PI_3_1.item2.additive2 pio:additive "L－ヒスチジン"@ja .
+pi:PI_3_1.item2.additive2 pio:value_and_unit "8.4mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive3 .
+pi:PI_3_1.item2.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item2.additive3 pio:value_and_unit "59mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive4 .
+pi:PI_3_1.item2.additive4 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item2.additive4 pio:value_and_unit "4.7mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive5 .
+pi:PI_3_1.item2.additive5 pio:additive "塩化カルシウム水和物"@ja .
+pi:PI_3_1.item2.additive5 pio:value_and_unit "1.0mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive6 .
+pi:PI_3_1.item2.additive6 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item2.additive6 pio:value_and_unit "216μg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive7 .
+pi:PI_3_1.item2.additive7 pio:additive "pH調整剤"@ja .
+pi:PI_3_1.item2.additive7 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item3 pio:contained_amount pi:PI_3_1.item3.contained_amount .
+pi:PI_3_1.item3.contained_amount pio:active_ingredient_name "ダモクトコグ　アルファ　ペゴル（遺伝子組換え）"@ja .
+pi:PI_3_1.item3.contained_amount pio:value_and_unit "2000国際単位"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive1 .
+pi:PI_3_1.item3.additive1 pio:additive "精製白糖"@ja .
+pi:PI_3_1.item3.additive1 pio:value_and_unit "27mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive2 .
+pi:PI_3_1.item3.additive2 pio:additive "L－ヒスチジン"@ja .
+pi:PI_3_1.item3.additive2 pio:value_and_unit "8.4mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive3 .
+pi:PI_3_1.item3.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item3.additive3 pio:value_and_unit "59mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive4 .
+pi:PI_3_1.item3.additive4 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item3.additive4 pio:value_and_unit "4.7mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive5 .
+pi:PI_3_1.item3.additive5 pio:additive "塩化カルシウム水和物"@ja .
+pi:PI_3_1.item3.additive5 pio:value_and_unit "1.0mg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive6 .
+pi:PI_3_1.item3.additive6 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item3.additive6 pio:value_and_unit "216μg"@ja .
+pi:PI_3_1.item3 pio:info_individual_additives pi:PI_3_1.item3.additive7 .
+pi:PI_3_1.item3.additive7 pio:additive "pH調整剤"@ja .
+pi:PI_3_1.item3.additive7 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item4 pio:contained_amount pi:PI_3_1.item4.contained_amount .
+pi:PI_3_1.item4.contained_amount pio:active_ingredient_name "ダモクトコグ　アルファ　ペゴル（遺伝子組換え）"@ja .
+pi:PI_3_1.item4.contained_amount pio:value_and_unit "3000国際単位"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive1 .
+pi:PI_3_1.item4.additive1 pio:additive "精製白糖"@ja .
+pi:PI_3_1.item4.additive1 pio:value_and_unit "27mg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive2 .
+pi:PI_3_1.item4.additive2 pio:additive "L－ヒスチジン"@ja .
+pi:PI_3_1.item4.additive2 pio:value_and_unit "8.4mg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive3 .
+pi:PI_3_1.item4.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item4.additive3 pio:value_and_unit "59mg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive4 .
+pi:PI_3_1.item4.additive4 pio:additive "塩化ナトリウム"@ja .
+pi:PI_3_1.item4.additive4 pio:value_and_unit "4.7mg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive5 .
+pi:PI_3_1.item4.additive5 pio:additive "塩化カルシウム水和物"@ja .
+pi:PI_3_1.item4.additive5 pio:value_and_unit "1.0mg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive6 .
+pi:PI_3_1.item4.additive6 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item4.additive6 pio:value_and_unit "216μg"@ja .
+pi:PI_3_1.item4 pio:info_individual_additives pi:PI_3_1.item4.additive7 .
+pi:PI_3_1.item4.additive7 pio:additive "pH調整剤"@ja .
+pi:PI_3_1.item4.additive7 pio:value_and_unit "適量"@ja .
+pi:PI_3_1.item5 pio:composition_comments "本剤はベビーハムスター腎細胞を用いた遺伝子組換え技術により製造する。また、精製工程において、マウス由来ハイブリドーマ細胞を用いて製造されたモノクローナル抗体を使用している。"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:osmotic_ratio "1.3～1.5 （生理食塩液に対する比）" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item2 .
+pi:PI_3_2.item2 pio:osmotic_ratio "1.3～1.5 （生理食塩液に対する比）" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item3 .
+pi:PI_3_2.item3 pio:osmotic_ratio "1.3～1.5 （生理食塩液に対する比）" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item4 .
+pi:PI_3_2.item4 pio:osmotic_ratio "1.3～1.5 （生理食塩液に対する比）" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 dct:description "血液凝固第Ⅷ因子欠乏患者における出血傾向の抑制"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "本剤を添付の溶解液全量で溶解し、緩徐に静脈内注射する。なお、1分間に2.5mLを超える注射速度は避けること。 通常、12歳以上の患者には、1回体重1kg当たり10～30国際単位を投与するが、患者の状態に応じて適宜増減する。 定期的に投与する場合、通常、12歳以上の患者には、体重1kg当たり30～40国際単位を週2回投与するが、患者の状態に応じて、体重1kg当たり45～60国際単位を5日に1回投与、又は体重1kg当たり60国際単位を週1回投与することもできる。"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 pio:section pi:PI_7.item1 .
+pi:PI_7.item1 dct:description "体重1kg当たり1国際単位（IU）の本剤を投与することにより、血漿中の血液凝固第Ⅷ因子レベルが2%（2IU/dL）上昇することが見込まれる。必要量は以下の計算式に基づいて算出すること。 必要量（IU） ＝ 体重（kg）× 血液凝固第Ⅷ因子の目標上昇値（%又はIU/dL）  ×0.5［（IU/kg）/（IU/dL）］"@ja .
+pi:PI_7 pio:section pi:PI_7.item2 .
+pi:PI_7.item2 dct:description "出血時に使用する場合は、下表の目標第Ⅷ因子レベルを参考に、投与量及び投与間隔を調節すること。"@ja .
+pi:PI_7 pio:table pi:PI_7.item2.table1 .
+pi:PI_7.item2.table1 pio:row pi:PI_7.item2.table1.row1 .
+pi:PI_7.item2.table1.row1 pio:column pi:PI_7.item2.table1.row1.column1 .
+pi:PI_7.item2.table1.row1.column1 rdf:value "出血の程度" .
+pi:PI_7.item2.table1.row1 pio:column pi:PI_7.item2.table1.row1.column2 .
+pi:PI_7.item2.table1.row1.column2 rdf:value "必要な第Ⅷ因子レベル （%又はIU/dL）" .
+pi:PI_7.item2.table1.row1 pio:column pi:PI_7.item2.table1.row1.column3 .
+pi:PI_7.item2.table1.row1.column3 rdf:value "投与間隔（時間）" .
+pi:PI_7.item2.table1.row1 pio:column pi:PI_7.item2.table1.row1.column4 .
+pi:PI_7.item2.table1.row1.column4 rdf:value "投与期間" .
+pi:PI_7.item2.table1 pio:row pi:PI_7.item2.table1.row2 .
+pi:PI_7.item2.table1.row2 pio:column pi:PI_7.item2.table1.row2.column1 .
+pi:PI_7.item2.table1.row2.column1 rdf:value "軽度： 初期の関節内出血、軽度の筋肉内出血、軽度の口腔内出血等" .
+pi:PI_7.item2.table1.row2 pio:column pi:PI_7.item2.table1.row2.column2 .
+pi:PI_7.item2.table1.row2.column2 rdf:value "20-40" .
+pi:PI_7.item2.table1.row2 pio:column pi:PI_7.item2.table1.row2.column3 .
+pi:PI_7.item2.table1.row2.column3 rdf:value "24-48時間ごと" .
+pi:PI_7.item2.table1.row2 pio:column pi:PI_7.item2.table1.row2.column4 .
+pi:PI_7.item2.table1.row2.column4 rdf:value "出血症状消失まで" .
+pi:PI_7.item2.table1 pio:row pi:PI_7.item2.table1.row3 .
+pi:PI_7.item2.table1.row3 pio:column pi:PI_7.item2.table1.row3.column1 .
+pi:PI_7.item2.table1.row3.column1 rdf:value "中等度： より広範な関節内出血、筋肉内出血、血腫等" .
+pi:PI_7.item2.table1.row3 pio:column pi:PI_7.item2.table1.row3.column2 .
+pi:PI_7.item2.table1.row3.column2 rdf:value "30-60" .
+pi:PI_7.item2.table1.row3 pio:column pi:PI_7.item2.table1.row3.column3 .
+pi:PI_7.item2.table1.row3.column3 rdf:value "24-48時間ごと" .
+pi:PI_7.item2.table1.row3 pio:column pi:PI_7.item2.table1.row3.column4 .
+pi:PI_7.item2.table1.row3.column4 rdf:value "出血症状消失まで" .
+pi:PI_7.item2.table1 pio:row pi:PI_7.item2.table1.row4 .
+pi:PI_7.item2.table1.row4 pio:column pi:PI_7.item2.table1.row4.column1 .
+pi:PI_7.item2.table1.row4.column1 rdf:value "重度： 頭蓋内出血、腹腔内出血、胸腔内出血、消化管出血、中枢神経系の出血、咽頭後隙/後腹膜又は腸腰筋鞘の出血、生命を脅かす出血等" .
+pi:PI_7.item2.table1.row4 pio:column pi:PI_7.item2.table1.row4.column2 .
+pi:PI_7.item2.table1.row4.column2 rdf:value "60-100" .
+pi:PI_7.item2.table1.row4 pio:column pi:PI_7.item2.table1.row4.column3 .
+pi:PI_7.item2.table1.row4.column3 rdf:value "8-24時間ごと" .
+pi:PI_7.item2.table1.row4 pio:column pi:PI_7.item2.table1.row4.column4 .
+pi:PI_7.item2.table1.row4.column4 rdf:value "出血症状消失まで" .
+pi:PI_7 pio:section pi:PI_7.item3 .
+pi:PI_7.item3 dct:description "周術期に使用する場合は、下表の目標第Ⅷ因子レベルを参考に、投与量及び投与間隔を調節すること。"@ja .
+pi:PI_7 pio:table pi:PI_7.item3.table1 .
+pi:PI_7.item3.table1 pio:row pi:PI_7.item3.table1.row1 .
+pi:PI_7.item3.table1.row1 pio:column pi:PI_7.item3.table1.row1.column1 .
+pi:PI_7.item3.table1.row1.column1 rdf:value "手術の種類" .
+pi:PI_7.item3.table1.row1 pio:column pi:PI_7.item3.table1.row1.column2 .
+pi:PI_7.item3.table1.row1.column2 rdf:value "必要な第Ⅷ因子レベル （%又はIU/dL）" .
+pi:PI_7.item3.table1.row1 pio:column pi:PI_7.item3.table1.row1.column3 .
+pi:PI_7.item3.table1.row1.column3 rdf:value "投与間隔（時間）" .
+pi:PI_7.item3.table1.row1 pio:column pi:PI_7.item3.table1.row1.column4 .
+pi:PI_7.item3.table1.row1.column4 rdf:value "投与期間" .
+pi:PI_7.item3.table1 pio:row pi:PI_7.item3.table1.row2 .
+pi:PI_7.item3.table1.row2 pio:column pi:PI_7.item3.table1.row2.column1 .
+pi:PI_7.item3.table1.row2.column1 rdf:value "小手術： 抜歯等" .
+pi:PI_7.item3.table1.row2 pio:column pi:PI_7.item3.table1.row2.column2 .
+pi:PI_7.item3.table1.row2.column2 rdf:value "30-60 （術前術後）" .
+pi:PI_7.item3.table1.row2 pio:column pi:PI_7.item3.table1.row2.column3 .
+pi:PI_7.item3.table1.row2.column3 rdf:value "24時間ごと" .
+pi:PI_7.item3.table1.row2 pio:column pi:PI_7.item3.table1.row2.column4 .
+pi:PI_7.item3.table1.row2.column4 rdf:value "最低1日、必要に応じ治癒するまで" .
+pi:PI_7.item3.table1 pio:row pi:PI_7.item3.table1.row3 .
+pi:PI_7.item3.table1.row3 pio:column pi:PI_7.item3.table1.row3.column1 .
+pi:PI_7.item3.table1.row3.column1 rdf:value "大手術： 頭蓋内手術、腹腔内手術、胸腔内手術、人工関節置換術等" .
+pi:PI_7.item3.table1.row3 pio:column pi:PI_7.item3.table1.row3.column2 .
+pi:PI_7.item3.table1.row3.column2 rdf:value "80-100 （術前術後）" .
+pi:PI_7.item3.table1.row3 pio:column pi:PI_7.item3.table1.row3.column3 .
+pi:PI_7.item3.table1.row3.column3 rdf:value "12-24時間ごと" .
+pi:PI_7.item3.table1.row3 pio:column pi:PI_7.item3.table1.row3.column4 .
+pi:PI_7.item3.table1.row3.column4 rdf:value "十分な創傷治癒まで、その後、少なくともさらに7日間、第Ⅷ因子レベルを30-60%（IU/dL）に維持する" .
+pi:PI_7 pio:section pi:PI_7.item4 .
+pi:PI_7.item4 dct:description "定期的な投与の用法・用量は、直近の出血状況等、患者の状態を考慮して選択すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "本剤の投与は、血友病の治療経験をもつ医師のもとで開始すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "患者の血中に血液凝固第Ⅷ因子に対するインヒビターが発生するおそれがある。特に、血液凝固第Ⅷ因子製剤による補充療法開始後、投与回数が少ない時期（補充療法開始後の比較的早期）や短期間に集中して補充療法を受けた時期にインヒビターが発生しやすいことが知られている。本剤を投与しても予想した止血効果が得られない場合には、インヒビターの発生を疑い、回収率やインヒビターの検査を行うなど注意深く対応し、適切な処置を行うこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "目標とする血液凝固第Ⅷ因子レベルに達していることを確認するため、必要に応じ血液凝固第Ⅷ因子レベルをモニタリングすること。本剤投与後に血液凝固第Ⅷ因子活性を測定する場合は、最新の情報を参照し、適切な試薬を用いて測定を行うこと。測定試薬の種類により、測定結果が見かけ上、高値又は低値を示すことがある。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 dct:description "本剤の臨床試験において、抗ポリエチレングリコール（PEG）抗体との関連が疑われる過敏症又は有効性の欠如が報告されている。いずれも本剤投与開始初期に認められていることから、本剤投与開始初期には観察を十分に行うこと。本剤を投与しても予想した止血効果が得られない場合には、回収率やインヒビターの検査を行うなど注意深く対応し、有効性の欠如が疑われたときには、過去の治療で有効であった血液凝固第Ⅷ因子製剤に切り替えるなど、適切な処置を行うこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item5 .
+pi:PI_8.item5 dct:description "本剤の在宅自己注射は、医師がその妥当性を慎重に検討し、患者又はその家族が適切に使用可能と判断した場合のみに適用すること。本剤を処方する際には、使用方法等の患者教育を十分に実施した後、在宅にて適切な治療が行えることを確認した上で、医師の管理指導のもとで実施すること。また、患者又はその家族に対し、本剤の注射により発現する可能性のある副作用等についても十分説明し、在宅自己注射後何らかの異常が認められた場合や投与後の止血効果が不十分な場合には、速やかに医療機関へ連絡するよう指導すること。適用後、在宅自己注射の継続が困難な場合には、医師の管理下で慎重に観察するなど、適切な対応を行うこと。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "マウスモノクローナル抗体により精製した製剤又はハムスター腎細胞由来の製剤に過敏症の既往歴のある患者"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item2 .
+pi:PI_9_1.item2 rdfs:title "本剤の成分又は他の第Ⅷ因子製剤に対し過敏症の既往歴のある患者"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合のみ投与すること。生殖発生毒性試験は実施していない。"@ja .
+pi:PI_9_7 dct:description "治療歴のある12歳未満の重症血友病A患者73例を対象とした臨床試験において、10例で本剤投与開始初期（4曝露日以内）に抗PEG抗体との関連が疑われる過敏症又は有効性の欠如が報告されている 。"@ja .
+pi:PI_9_8 dct:description "患者の状態を観察しながら慎重に投与すること。一般に高齢者では生理機能が低下している。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "ショック、アナフィラキシー（頻度不明）"@ja .
+pi:PI_11_1.item1 dct:description "胸部圧迫感、めまい、低血圧、悪心等の症状が認められた場合には投与を中止し、適切な処置を行うこと。"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "腹痛" .
+pi:PI_11_2.item1.item1 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item1 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "悪心、嘔吐" .
+pi:PI_11_2.item1.item2 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item2 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "発熱" .
+pi:PI_11_2.item1.item3 pio:category "一般・全身障害" .
+pi:PI_11_2.item1.item3 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "そう痒感" .
+pi:PI_11_2.item1.item4 pio:category "注射部位反応" .
+pi:PI_11_2.item1.item4 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "知覚異常、潮紅、発疹、息切れ" .
+pi:PI_11_2.item1.item5 pio:category "過敏症" .
+pi:PI_11_2.item1.item5 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "頭痛、浮動性めまい" .
+pi:PI_11_2.item1.item6 pio:category "神経系障害" .
+pi:PI_11_2.item1.item6 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "味覚異常" .
+pi:PI_11_2.item1.item7 pio:category "神経系障害" .
+pi:PI_11_2.item1.item7 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "不眠症" .
+pi:PI_11_2.item1.item8 pio:category "精神障害" .
+pi:PI_11_2.item1.item8 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "咳嗽" .
+pi:PI_11_2.item1.item9 pio:category "呼吸器、胸郭および縦隔障害" .
+pi:PI_11_2.item1.item9 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "多形紅斑、そう痒症" .
+pi:PI_11_2.item1.item10 pio:category "皮膚および皮下組織障害" .
+pi:PI_11_2.item1.item10 pio:frequency "5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item11 .
+pi:PI_11_2.item1.item11 a pio:AdverseEvent .
+pi:PI_11_2.item1.item11 pio:adverse_reaction "紅斑、発疹、丘疹性皮疹" .
+pi:PI_11_2.item1.item11 pio:category "皮膚および皮下組織障害" .
+pi:PI_11_2.item1.item11 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item12 .
+pi:PI_11_2.item1.item12 a pio:AdverseEvent .
+pi:PI_11_2.item1.item12 pio:adverse_reaction "インヒビターの発現" .
+pi:PI_11_2.item1.item12 pio:category "その他" .
+pi:PI_11_2.item1.item12 pio:frequency "頻度不明" .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤調製時の注意"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item1 .
+pi:PI_14.item1.item1 dct:desctiption "本剤及び添付溶解液を冷所保存している場合、調製前に室温に戻しておくこと。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item2 .
+pi:PI_14.item1.item2 dct:desctiption "添付の溶解液以外は使用しないこと。本剤に溶解液全量を加えた後、泡立てないようバイアルを静かに円を描くように回して溶解すること（激しく振とうしないこと）。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item3 .
+pi:PI_14.item1.item3 dct:desctiption "他剤と混合しないこと。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item4 .
+pi:PI_14.item1.item4 dct:desctiption "溶解した液を使用する際には、フィルターのあるセットを用いること。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item5 .
+pi:PI_14.item1.item5 dct:desctiption "一度溶解したものは室温で3時間以内に使用すること。3時間以内に使用されない場合は、廃棄すること。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item6 .
+pi:PI_14.item1.item6 dct:desctiption "使用後の残液は細菌汚染のおそれがあるので使用しないこと。本剤は保存剤が含有されていない。"@ja .
+pi:PI_15_1 dct:description "本剤はvon Willebrand因子を含んでいない。"@ja .
+pi:PI_16_1 dct:description "12歳以上の日本人及び外国人の重症血友病A患者（FⅧ活性が1%未満）を対象に、本剤（60IU/kg） を単回静脈内投与した際の薬物動態パラメータは以下のとおりであった 。"@ja .
+pi:PI_16_1 dct:description "                   "@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:title "国際共同第Ⅱ/Ⅲ相試験"@ja .
+pi:PI_17_1.item1 dct:description "治療歴のある12～65歳の重症血友病A患者（FⅧ活性が1%未満）を対象に、定期的な投与時の有効性、急性出血時及び周術期の止血効果を検討する国際共同第Ⅱ/Ⅲ相試験を実施した。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item1 .
+pi:PI_17_1.item1 rdfs:title "定期的な投与（定期補充療法）"@ja .
+pi:PI_17_1.item1 dct:description "定期的に本剤を投与する群では、投与頻度の低い投与群への無作為割付けに適合する出血傾向が低い被験者を選択するため、25IU/kg の週2回投与を行う10週間の導入期が設定された。導入期において、0又は1回の出血がみられた場合には45～60IU/kgの5日ごと投与又は60IU/kgの7日ごと投与に無作為割付けされ、2回以上の出血がみられた場合には30～40IU/kgの週2回投与を行うこととした（コントロール不良群）。また、5日ごと及び7日ごと投与の割付例数達成後に10週投与を完了した場合は30～40IU/kgの週2回投与とした（強制群）。それぞれの投与群における推定年間出血率及び試験期間中の出血回数が0であった被験者の割合は以下のとおりであった 。"@ja .
+pi:PI_17_1.item1 dct:description "                                   "@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.item1.table1 .
+pi:PI_17_1.item1.item1.table1 pio:row pi:PI_17_1.item1.item1.table1.row1 .
+pi:PI_17_1.item1.item1.table1.row1 pio:column pi:PI_17_1.item1.item1.table1.row1.column1 .
+pi:PI_17_1.item1.item1.table1.row1.column1 rdf:value "10～36週" .
+pi:PI_17_1.item1.item1.table1.row1 pio:column pi:PI_17_1.item1.item1.table1.row1.column2 .
+pi:PI_17_1.item1.item1.table1.row1.column2 rdf:value "週2回投与" .
+pi:PI_17_1.item1.item1.table1.row1 pio:column pi:PI_17_1.item1.item1.table1.row1.column3 .
+pi:PI_17_1.item1.item1.table1.row1.column3 rdf:value "週2回投与" .
+pi:PI_17_1.item1.item1.table1.row1 pio:column pi:PI_17_1.item1.item1.table1.row1.column4 .
+pi:PI_17_1.item1.item1.table1.row1.column4 rdf:value "5日ごと 投与" .
+pi:PI_17_1.item1.item1.table1.row1 pio:column pi:PI_17_1.item1.item1.table1.row1.column5 .
+pi:PI_17_1.item1.item1.table1.row1.column5 rdf:value "7日ごと 投与" .
+pi:PI_17_1.item1.item1.table1 pio:row pi:PI_17_1.item1.item1.table1.row2 .
+pi:PI_17_1.item1.item1.table1.row2 pio:column pi:PI_17_1.item1.item1.table1.row2.column1 .
+pi:PI_17_1.item1.item1.table1.row2.column1 rdf:value "10～36週" .
+pi:PI_17_1.item1.item1.table1.row2 pio:column pi:PI_17_1.item1.item1.table1.row2.column2 .
+pi:PI_17_1.item1.item1.table1.row2.column2 rdf:value "コントロール不良群" .
+pi:PI_17_1.item1.item1.table1.row2 pio:column pi:PI_17_1.item1.item1.table1.row2.column3 .
+pi:PI_17_1.item1.item1.table1.row2.column3 rdf:value "強制群" .
+pi:PI_17_1.item1.item1.table1.row2 pio:column pi:PI_17_1.item1.item1.table1.row2.column4 .
+pi:PI_17_1.item1.item1.table1.row2.column4 rdf:value "5日ごと 投与" .
+pi:PI_17_1.item1.item1.table1.row2 pio:column pi:PI_17_1.item1.item1.table1.row2.column5 .
+pi:PI_17_1.item1.item1.table1.row2.column5 rdf:value "7日ごと 投与" .
+pi:PI_17_1.item1.item1.table1 pio:row pi:PI_17_1.item1.item1.table1.row3 .
+pi:PI_17_1.item1.item1.table1.row3 pio:column pi:PI_17_1.item1.item1.table1.row3.column1 .
+pi:PI_17_1.item1.item1.table1.row3.column1 rdf:value "10～36週" .
+pi:PI_17_1.item1.item1.table1.row3 pio:column pi:PI_17_1.item1.item1.table1.row3.column2 .
+pi:PI_17_1.item1.item1.table1.row3.column2 rdf:value "13例" .
+pi:PI_17_1.item1.item1.table1.row3 pio:column pi:PI_17_1.item1.item1.table1.row3.column3 .
+pi:PI_17_1.item1.item1.table1.row3.column3 rdf:value "11例" .
+pi:PI_17_1.item1.item1.table1.row3 pio:column pi:PI_17_1.item1.item1.table1.row3.column4 .
+pi:PI_17_1.item1.item1.table1.row3.column4 rdf:value "43例" .
+pi:PI_17_1.item1.item1.table1.row3 pio:column pi:PI_17_1.item1.item1.table1.row3.column5 .
+pi:PI_17_1.item1.item1.table1.row3.column5 rdf:value "43例" .
+pi:PI_17_1.item1.item1.table1 pio:row pi:PI_17_1.item1.item1.table1.row4 .
+pi:PI_17_1.item1.item1.table1.row4 pio:column pi:PI_17_1.item1.item1.table1.row4.column1 .
+pi:PI_17_1.item1.item1.table1.row4.column1 rdf:value "推定年間出血率 （中央値［範囲］）" .
+pi:PI_17_1.item1.item1.table1.row4 pio:column pi:PI_17_1.item1.item1.table1.row4.column2 .
+pi:PI_17_1.item1.item1.table1.row4.column2 rdf:value "4.1 ［0.0、26.1］" .
+pi:PI_17_1.item1.item1.table1.row4 pio:column pi:PI_17_1.item1.item1.table1.row4.column3 .
+pi:PI_17_1.item1.item1.table1.row4.column3 rdf:value "1.9 ［0.0、7.7］" .
+pi:PI_17_1.item1.item1.table1.row4 pio:column pi:PI_17_1.item1.item1.table1.row4.column4 .
+pi:PI_17_1.item1.item1.table1.row4.column4 rdf:value "1.9 ［0.0、16.1］" .
+pi:PI_17_1.item1.item1.table1.row4 pio:column pi:PI_17_1.item1.item1.table1.row4.column5 .
+pi:PI_17_1.item1.item1.table1.row4.column5 rdf:value "3.9 ［0.0、53.1］" .
+pi:PI_17_1.item1.item1.table1 pio:row pi:PI_17_1.item1.item1.table1.row5 .
+pi:PI_17_1.item1.item1.table1.row5 pio:column pi:PI_17_1.item1.item1.table1.row5.column1 .
+pi:PI_17_1.item1.item1.table1.row5.column1 rdf:value "出血回数0の割合 （ %（例数））" .
+pi:PI_17_1.item1.item1.table1.row5 pio:column pi:PI_17_1.item1.item1.table1.row5.column2 .
+pi:PI_17_1.item1.item1.table1.row5.column2 rdf:value "15.4 （2/13例）" .
+pi:PI_17_1.item1.item1.table1.row5 pio:column pi:PI_17_1.item1.item1.table1.row5.column3 .
+pi:PI_17_1.item1.item1.table1.row5.column3 rdf:value "45.5 （5/11例）" .
+pi:PI_17_1.item1.item1.table1.row5 pio:column pi:PI_17_1.item1.item1.table1.row5.column4 .
+pi:PI_17_1.item1.item1.table1.row5.column4 rdf:value "44.2 （19/43例）" .
+pi:PI_17_1.item1.item1.table1.row5 pio:column pi:PI_17_1.item1.item1.table1.row5.column5 .
+pi:PI_17_1.item1.item1.table1.row5.column5 rdf:value "37.2 （16/43例）" .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item2 .
+pi:PI_17_1.item1 rdfs:title "急性出血時の止血効果"@ja .
+pi:PI_17_1.item1 dct:description "止血治療が行われた702件の出血のうち、636件（90.6%）が本剤1回又は2回の投与により止血した。また、本剤の初回投与での止血効果は、評価可能であった693件の出血のうち、508件（73.3%）が「非常に良好」又は「良好」であった 。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item3 .
+pi:PI_17_1.item1 rdfs:title "周術期の止血効果"@ja .
+pi:PI_17_1.item1 dct:description "14例の患者において、17件の大手術が実施された。術中の止血管理はいずれも「非常に良好」又は「良好」であり、また、術後の止血管理は、評価可能であった16件中13件（81.3%）が「非常に良好」又は「良好」であった。 10例の患者において、14件の小手術が実施された。評価可能であった小手術における術中及び術後の止血管理は、いずれも「非常に良好」又は「良好」であった 。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item4 .
+pi:PI_17_1.item1 rdfs:title "副作用"@ja .
+pi:PI_17_1.item1 dct:description "安全性評価対象134例（日本人11例を含む）中15例（11.2%）に副作用が認められた。主な副作用は、頭痛2例（1.5%）、関節痛2例（1.5%）及びALT上昇2例（1.5%）等であった 。"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "本剤は、血液凝固第Ⅷ因子欠乏を一時的に補い、出血傾向を改善する。また部位特異的PEG化により、クリアランスが減少し、血液凝固第Ⅷ因子活性が長時間持続する。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "止血効果"@ja .
+pi:PI_18.item1 dct:description "血友病Aマウス及び血友病Aイヌを用いた出血モデルにおいて、本剤静脈内投与により止血効果が認められ、オクトコグ　アルファ（遺伝子組換え）と比較し、長時間効果が持続した。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "ダモクトコグ　アルファ　ペゴル（遺伝子組換え） ［Damoctocog Alfa Pegol（Genetical Recombination）］" .
+pi:PI_19 pio:nature "ダモクトコグ　アルファ　ペゴルは、遺伝子組換えヒト血液凝固第Ⅷ因子類縁体（分子量：約234,000）であり、タンパク質部分は、ヒト血液凝固第Ⅷ因子の1～754番目及び1649～2332番目のアミノ酸に相当する。ダモクトコグ　アルファ　ペゴルは、754個のアミノ酸残基からなるH鎖及び684個のアミノ酸残基からなるL鎖で構成され、Cysに置換されたL鎖の156番目のアミノ酸残基に、ポリエチレングリコール鎖（平均分子量：約60,000）がリンカーを介して結合している。糖タンパク質部分は、1438個のアミノ酸残基からなり、ベビーハムスター腎細胞から産生される。" .
+pi:PI_20 a pio:PI_20 .
+pi:PI_20 pio:section pi:PI_20.item1 .
+pi:PI_20.item1 dct:description "外箱開封後は遮光して保存すること。"@ja .
+pi:PI_20 pio:section pi:PI_20.item2 .
+pi:PI_20.item2 dct:description "本剤は特定生物由来製品ではないが血液製剤代替医薬品であることから、本剤を血液凝固第Ⅷ因子欠乏患者に投与（処方）した場合は、医薬品名及びその製造番号、投与（処方）した日、使用患者名、住所等を記録し、少なくとも20年間保存すること。"@ja .
+pi:PI_21 dct:description "医薬品リスク管理計画を策定の上、適切に実施すること。"@ja .
+pi:PI_22 pio:section pi:PI_22.item1 .
+pi:PI_22.item1 rdfs:label "〈ジビイ静注用500〉"@ja .
+pi:PI_22.item1 dct:description "1バイアル［添付溶解液プレフィルドシリンジ （日本薬局方 注射用水2.5mL）×1シリンジ付き］"@ja .
+pi:PI_22 pio:section pi:PI_22.item2 .
+pi:PI_22.item2 rdfs:label "〈ジビイ静注用1000〉"@ja .
+pi:PI_22.item2 dct:description "1バイアル［添付溶解液プレフィルドシリンジ （日本薬局方 注射用水2.5mL）×1シリンジ付き］"@ja .
+pi:PI_22 pio:section pi:PI_22.item3 .
+pi:PI_22.item3 rdfs:label "〈ジビイ静注用2000〉"@ja .
+pi:PI_22.item3 dct:description "1バイアル［添付溶解液プレフィルドシリンジ （日本薬局方 注射用水2.5mL）×1シリンジ付き］"@ja .
+pi:PI_22 pio:section pi:PI_22.item4 .
+pi:PI_22.item4 rdfs:label "〈ジビイ静注用3000〉"@ja .
+pi:PI_22.item4 dct:description "1バイアル［添付溶解液プレフィルドシリンジ （日本薬局方 注射用水2.5mL）×1シリンジ付き］"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "社内資料: その他の重要な有害事象（2018年9月21日承認、CTD2.5.5.3.3.3）" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "社内資料: 重症血友病A患者を対象とした非盲検第Ⅱ/Ⅲ相試験（2018年9月21日承認、CTD2.7.6.2、2.7.3.3.2.6）" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "社内資料: 重症血友病A患者を対象とした非盲検第Ⅱ/Ⅲ相試験（2018年9月21日承認、CTD2.7.6.2）" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "社内資料: 重症血友病A患者を対象とした非盲検第Ⅱ/Ⅲ相試験（2018年9月21日承認、CTD2.7.4.7）" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "文献請求先 バイエル薬品株式会社・メディカルインフォメーション"@ja .
+pi:PI_24.item1 pio:address "〒530-0001大阪市北区梅田二丁目4番9号"@ja .
+pi:PI_24 pio:section pi:PI_24.item2 .
+pi:PI_24.item2 pio:addressee_of_inquiry "バイエル医療用医薬品のお問い合わせ先"@ja .
+pi:PI_24.item2 pio:contact_information "電話0120-106-398"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "バイエル薬品株式会社"@ja .
+pi:PI_26.item1 pio:address "大阪市北区梅田二丁目4番9号"@ja .

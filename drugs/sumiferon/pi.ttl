@@ -1,0 +1,669 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/400093_6399404A5030_3_01#> .
+
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_0 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_1 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_2 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_3 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_3_1 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_3_2 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_4 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_5 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_6 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_7 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_8 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_9 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_9_1 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_9_2 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_9_3 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_9_4 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_9_5 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_9_6 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_9_7 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_9_8 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_10 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_10_1 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_10_2 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_11 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_11_1 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_11_2 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_12 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_13 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_14 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_15 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_15_1 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_15_2 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_16 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_16_1 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_16_2 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_16_3 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_16_4 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_16_5 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_16_6 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_16_7 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_16_8 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_17 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_17_1 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_17_2 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_17_3 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_18 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_18_1 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_19 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_20 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_21 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_22 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_23 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_24 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_25 .
+pi_root:400093_6399404A5030_3_01 pio:section pi:PI_26 .
+pi_root:400093_6399404A5030_3_01 dct:identifier "400093_6399404A5030_3_01" .
+pi_root:400093_6399404A5030_3_01 pio:company_identifier "400093" .
+pi_root:400093_6399404A5030_3_01 pio:date_of_preparation_or_revision "2019-11"^^xsd:date .
+pi_root:400093_6399404A5030_3_01 pio:version "第2版" .
+pi_root:400093_6399404A5030_3_01 pio:sccj_no "876399" .
+pi_root:400093_6399404A5030_3_01 pio:therapeutic_classification "天然型 インターフェロン-α製剤" .
+pi_root:400093_6399404A5030_3_01 pio:approval_brand_name "スミフェロン注DS300万IU" .
+pi_root:400093_6399404A5030_3_01 pio:yj_code "6399404A5030" .
+pi_root:400093_6399404A5030_3_01 pio:trademark_name "Sumiferon Injection" .
+pi_root:400093_6399404A5030_3_01 pio:approval_no "22100AMX01814" .
+pi_root:400093_6399404A5030_3_01 pio:starting_date_of_marketing "1997-09"^^xsd:date .
+pi_root:400093_6399404A5030_3_01 pio:storage_method "凍結を避け、10℃以下に保存する。" .
+pi_root:400093_6399404A5030_3_01 pio:shelf_life "21箇月" .
+pi:PI_1 a pio:PI_1 .
+pi:PI_1 dct:description "本剤の投与により間質性肺炎、自殺企図があらわれることがあるので、患者に対し副作用発現の可能性について十分説明すること。 ,"@ja .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "本剤の成分又は他のインターフェロン製剤に対し、過敏症の既往歴のある患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "ワクチン等生物学的製剤に対し、過敏症の既往歴のある患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "小柴胡湯を投与中の患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item4 .
+pi:PI_2.item4 dct:description "自己免疫性肝炎の患者"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "日局インターフェロン アルファ（NAMALWA）  1シリンジ（1mL）中"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "300万単位"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item1.additive1 pio:value_and_unit "0.1mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "トロメタモール"@ja .
+pi:PI_3_1.item1.additive2 pio:value_and_unit "1.22mg"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item1.additive3 pio:value_and_unit "0.76mg"@ja .
+pi:PI_3_1.item2 pio:contained_amount pi:PI_3_1.item2.contained_amount .
+pi:PI_3_1.item2.contained_amount pio:active_ingredient_name "日局インターフェロン アルファ（NAMALWA） 1シリンジ（1mL）中"@ja .
+pi:PI_3_1.item2.contained_amount pio:value_and_unit "600万単位"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive1 .
+pi:PI_3_1.item2.additive1 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item2.additive1 pio:value_and_unit "0.1mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive2 .
+pi:PI_3_1.item2.additive2 pio:additive "トロメタモール"@ja .
+pi:PI_3_1.item2.additive2 pio:value_and_unit "1.22mg"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive3 .
+pi:PI_3_1.item2.additive3 pio:additive "グリシン"@ja .
+pi:PI_3_1.item2.additive3 pio:value_and_unit "0.76mg"@ja .
+pi:PI_3_1.item3 pio:composition_comments "本剤は、製造工程でヒトリンパ芽球細胞樹立株ナマルバ細胞、鶏卵由来成分、マウスハイブリドーマ由来のモノクローナル抗体を、また、セルバンクにウシ乳由来成分、ウシ血清由来成分を使用している。"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:osmotic_ratio "1.0～1.4（生理食塩液に対する比）" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item2 .
+pi:PI_3_2.item2 pio:osmotic_ratio "1.0～1.4（生理食塩液に対する比）" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4.item0 dct:description "〈スミフェロン注DS300万IU〉"@ja .
+pi:PI_4.item0 dct:description "〈スミフェロン注DS600万IU〉"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5.item0 dct:description "本剤の使用にあたっては、以下を確認すること。"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 pio:section pi:PI_6.item1 .
+pi:PI_6.item1 rdfs:label "〈製剤共通〉"@ja .
+pi:PI_6 pio:section pi:PI_6.item2 .
+pi:PI_6.item2 rdfs:label "〈スミフェロン注DS300万IU〉"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 pio:section pi:PI_7.item1 .
+pi:PI_7.item1 rdfs:label "〈製剤共通〉"@ja .
+pi:PI_7 pio:section pi:PI_7.item2 .
+pi:PI_7.item2 rdfs:label "効能共通"@ja .
+pi:PI_7 pio:section pi:PI_7.item3 .
+pi:PI_7.item3 rdfs:label "HBe抗原陽性でかつDNAポリメラーゼ陽性のB型慢性活動性肝炎のウイルス血症の改善"@ja .
+pi:PI_7 pio:section pi:PI_7.item4 .
+pi:PI_7.item4 rdfs:label "C型慢性肝炎におけるウイルス血症の改善"@ja .
+pi:PI_7 pio:section pi:PI_7.item5 .
+pi:PI_7.item5 rdfs:label "C型代償性肝硬変におけるウイルス血症の改善"@ja .
+pi:PI_7 pio:section pi:PI_7.item6 .
+pi:PI_7.item6 rdfs:label "〈スミフェロン注DS300万IU〉"@ja .
+pi:PI_7 pio:section pi:PI_7.item7 .
+pi:PI_7.item7 rdfs:label "亜急性硬化性全脳炎におけるイノシン プラノベクスとの併用による臨床症状の進展抑制"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 rdfs:label "〈効能共通〉"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 rdfs:label "〈C型代償性肝硬変におけるウイルス血症の改善〉"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 rdfs:label "〈亜急性硬化性全脳炎におけるイノシン プラノベクスとの併用による臨床症状の進展抑制〉"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "アレルギー素因のある患者"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item2 .
+pi:PI_9_1.item2 rdfs:title "心疾患又はその既往歴のある患者"@ja .
+pi:PI_9_1.item2 dct:description "心疾患が増悪することがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item3 .
+pi:PI_9_1.item3 rdfs:title "高血圧症を有する患者"@ja .
+pi:PI_9_1.item3 dct:description "脳出血がみられたとの報告がある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item4 .
+pi:PI_9_1.item4 rdfs:title "高度の白血球減少又は血小板減少のある患者"@ja .
+pi:PI_9_1.item4 dct:description "白血球減少又は血小板減少がさらに増悪することがあり、感染症又は出血傾向をきたしやすい。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item5 .
+pi:PI_9_1.item5 rdfs:title "中枢・精神神経障害又はその既往歴のある患者"@ja .
+pi:PI_9_1.item5 dct:description "中枢・精神神経症状が増悪することがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item6 .
+pi:PI_9_1.item6 rdfs:title "糖尿病又はその既往歴、家族歴のある患者、耐糖能障害のある患者"@ja .
+pi:PI_9_1.item6 dct:description "糖尿病が増悪又は発症しやすい。 ,"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item7 .
+pi:PI_9_1.item7 rdfs:title "自己免疫疾患（ただし自己免疫性肝炎を除く）又はその素因のある患者"@ja .
+pi:PI_9_1.item7 dct:description "疾患が増悪又は発症することがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item8 .
+pi:PI_9_1.item8 rdfs:title "喘息又はその既往歴のある患者"@ja .
+pi:PI_9_1.item8 dct:description "喘息が増悪又は再発することがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item9 .
+pi:PI_9_1.item9 rdfs:title "間質性肺炎の既往歴のある患者"@ja .
+pi:PI_9_1.item9 dct:description "間質性肺炎が増悪又は再発することがある。 ,"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item1 .
+pi:PI_9_2.item1 rdfs:title "重篤な腎障害のある患者"@ja .
+pi:PI_9_2.item1 dct:description "腎障害を起こすことがあり、より重篤な障害に至ることがある。"@ja .
+pi:PI_9_3 pio:section pi:PI_9_3.item1 .
+pi:PI_9_3.item1 rdfs:title "重篤な肝障害のある患者"@ja .
+pi:PI_9_3.item1 dct:description "肝障害を起こすことがあり、より重篤な障害に至ることがある。"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には治療上の有益性が危険性を上まわると判断される場合にのみ投与すること。"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。動物実験で母乳中へ移行することが認められている。"@ja .
+pi:PI_9_7 pio:section pi:PI_9_7.item1 .
+pi:PI_9_7.item1 dct:description "小児（亜急性硬化性全脳炎患者を除く）を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_7 pio:section pi:PI_9_7.item2 .
+pi:PI_9_7.item2 dct:description "低出生体重児、新生児、乳児、幼児を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_8 pio:section pi:PI_9_8.item1 .
+pi:PI_9_8.item1 dct:description "患者の状態を観察しながら慎重に投与すること。認知症様症状があらわれるおそれがある。"@ja .
+pi:PI_9_8 pio:section pi:PI_9_8.item2 .
+pi:PI_9_8.item2 dct:description "患者の状態を観察しながら慎重に投与し、必要に応じて減量、休薬、投与中止等を行うこと。一般に生理機能が低下している。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_1.item1 pio:clin_symptoms_and_measures "間質性肺炎があらわれることがある。"@ja .
+pi:PI_10_1.item1 pio:mechanism_and_risk_factors "機序不明であるが、間質性肺炎の発現例には小柴胡湯との併用例が多い。"@ja .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "テオフィリン、アンチピリンの血中濃度を高めることが報告されている。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "肝臓で各種医薬品の代謝を抑制する。"@ja .
+pi:PI_10_2.item2 pio:clin_symptoms_and_measures "ワルファリンの血中濃度を高めるおそれがあるので、用量を調節するなど注意すること。"@ja .
+pi:PI_10_2.item2 pio:mechanism_and_risk_factors "肝臓で各種医薬品の代謝を抑制する。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には、減量、投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:label "〈効能共通〉"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:label "〈亜急性硬化性全脳炎におけるイノシン プラノベクスとの併用による臨床症状の進展抑制〉"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "発熱（10%以上）、全身倦怠感（10%以上）、インフルエンザ様症状（10%以上）" .
+pi:PI_11_2.item1.item1 pio:category "全身症状" .
+pi:PI_11_2.item1.item1 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "悪寒・戦慄" .
+pi:PI_11_2.item1.item2 pio:category "全身症状" .
+pi:PI_11_2.item1.item2 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "頭痛" .
+pi:PI_11_2.item1.item3 pio:category "精神神経系" .
+pi:PI_11_2.item1.item3 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "不眠、眠気、焦燥、めまい、知覚異常、冷感" .
+pi:PI_11_2.item1.item4 pio:category "精神神経系" .
+pi:PI_11_2.item1.item4 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "集中力障害、健忘、錐体外路症状（振戦、歩行障害等）、不安、神経症、脳波異常、構語障害" .
+pi:PI_11_2.item1.item5 pio:category "精神神経系" .
+pi:PI_11_2.item1.item5 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "発疹、じん麻疹、そう痒" .
+pi:PI_11_2.item1.item6 pio:category "過敏症" .
+pi:PI_11_2.item1.item6 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "顆粒球減少（10%以上）、血小板減少（10%以上）" .
+pi:PI_11_2.item1.item7 pio:category "血液" .
+pi:PI_11_2.item1.item7 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "赤血球減少、ヘモグロビン減少、貧血、好酸球増多、白血球増多" .
+pi:PI_11_2.item1.item8 pio:category "血液" .
+pi:PI_11_2.item1.item8 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "リンパ節症、リンパ球減少、白血球分画異常" .
+pi:PI_11_2.item1.item9 pio:category "血液" .
+pi:PI_11_2.item1.item9 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "出血傾向" .
+pi:PI_11_2.item1.item10 pio:category "血液" .
+pi:PI_11_2.item1.item10 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item11 .
+pi:PI_11_2.item1.item11 a pio:AdverseEvent .
+pi:PI_11_2.item1.item11 pio:adverse_reaction "AST、ALT、ALP、γ-GTP、LDHの上昇" .
+pi:PI_11_2.item1.item11 pio:category "肝臓" .
+pi:PI_11_2.item1.item11 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item12 .
+pi:PI_11_2.item1.item12 a pio:AdverseEvent .
+pi:PI_11_2.item1.item12 pio:adverse_reaction "黄疸、ビリルビンの上昇" .
+pi:PI_11_2.item1.item12 pio:category "肝臓" .
+pi:PI_11_2.item1.item12 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item13 .
+pi:PI_11_2.item1.item13 a pio:AdverseEvent .
+pi:PI_11_2.item1.item13 pio:adverse_reaction "蛋白尿、BUN・クレアチニン上昇、血尿、排尿困難" .
+pi:PI_11_2.item1.item13 pio:category "腎臓" .
+pi:PI_11_2.item1.item13 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item14 .
+pi:PI_11_2.item1.item14 a pio:AdverseEvent .
+pi:PI_11_2.item1.item14 pio:adverse_reaction "尿量減少、多尿、頻尿" .
+pi:PI_11_2.item1.item14 pio:category "腎臓" .
+pi:PI_11_2.item1.item14 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item15 .
+pi:PI_11_2.item1.item15 a pio:AdverseEvent .
+pi:PI_11_2.item1.item15 pio:adverse_reaction "胸痛、顔面潮紅、心電図異常（洞性頻脈、期外収縮、心房細動等の不整脈、STの低下等）等の心筋障害、四肢・顔面浮腫、動悸" .
+pi:PI_11_2.item1.item15 pio:category "循環器" .
+pi:PI_11_2.item1.item15 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item16 .
+pi:PI_11_2.item1.item16 a pio:AdverseEvent .
+pi:PI_11_2.item1.item16 pio:adverse_reaction "頻脈、血圧上昇、血圧下降" .
+pi:PI_11_2.item1.item16 pio:category "循環器" .
+pi:PI_11_2.item1.item16 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item17 .
+pi:PI_11_2.item1.item17 a pio:AdverseEvent .
+pi:PI_11_2.item1.item17 pio:adverse_reaction "徐脈、末梢性虚血" .
+pi:PI_11_2.item1.item17 pio:category "循環器" .
+pi:PI_11_2.item1.item17 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item18 .
+pi:PI_11_2.item1.item18 a pio:AdverseEvent .
+pi:PI_11_2.item1.item18 pio:adverse_reaction "咳嗽、呼吸困難" .
+pi:PI_11_2.item1.item18 pio:category "呼吸器" .
+pi:PI_11_2.item1.item18 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item19 .
+pi:PI_11_2.item1.item19 a pio:AdverseEvent .
+pi:PI_11_2.item1.item19 pio:adverse_reaction "喀痰増多、喘息" .
+pi:PI_11_2.item1.item19 pio:category "呼吸器" .
+pi:PI_11_2.item1.item19 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item20 .
+pi:PI_11_2.item1.item20 a pio:AdverseEvent .
+pi:PI_11_2.item1.item20 pio:adverse_reaction "血痰" .
+pi:PI_11_2.item1.item20 pio:category "呼吸器" .
+pi:PI_11_2.item1.item20 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item21 .
+pi:PI_11_2.item1.item21 a pio:AdverseEvent .
+pi:PI_11_2.item1.item21 pio:adverse_reaction "食欲不振" .
+pi:PI_11_2.item1.item21 pio:category "消化器" .
+pi:PI_11_2.item1.item21 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item22 .
+pi:PI_11_2.item1.item22 a pio:AdverseEvent .
+pi:PI_11_2.item1.item22 pio:adverse_reaction "悪心・嘔吐、下痢、腹痛、口内炎、味覚異常、便秘、口渇、舌炎" .
+pi:PI_11_2.item1.item22 pio:category "消化器" .
+pi:PI_11_2.item1.item22 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item23 .
+pi:PI_11_2.item1.item23 a pio:AdverseEvent .
+pi:PI_11_2.item1.item23 pio:adverse_reaction "消化不良、腹部膨満感、イレウス、口唇炎、味覚低下、胃炎" .
+pi:PI_11_2.item1.item23 pio:category "消化器" .
+pi:PI_11_2.item1.item23 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item24 .
+pi:PI_11_2.item1.item24 a pio:AdverseEvent .
+pi:PI_11_2.item1.item24 pio:adverse_reaction "急性膵炎" .
+pi:PI_11_2.item1.item24 pio:category "膵臓" .
+pi:PI_11_2.item1.item24 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item25 .
+pi:PI_11_2.item1.item25 a pio:AdverseEvent .
+pi:PI_11_2.item1.item25 pio:adverse_reaction "脱毛" .
+pi:PI_11_2.item1.item25 pio:category "皮膚" .
+pi:PI_11_2.item1.item25 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item26 .
+pi:PI_11_2.item1.item26 a pio:AdverseEvent .
+pi:PI_11_2.item1.item26 pio:adverse_reaction "湿疹、紅斑、皮膚炎、ヘルペス" .
+pi:PI_11_2.item1.item26 pio:category "皮膚" .
+pi:PI_11_2.item1.item26 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item27 .
+pi:PI_11_2.item1.item27 a pio:AdverseEvent .
+pi:PI_11_2.item1.item27 pio:adverse_reaction "乾癬、爪疾患、紫斑、ざ瘡" .
+pi:PI_11_2.item1.item27 pio:category "皮膚" .
+pi:PI_11_2.item1.item27 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item28 .
+pi:PI_11_2.item1.item28 a pio:AdverseEvent .
+pi:PI_11_2.item1.item28 pio:adverse_reaction "光線過敏症" .
+pi:PI_11_2.item1.item28 pio:category "皮膚" .
+pi:PI_11_2.item1.item28 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item29 .
+pi:PI_11_2.item1.item29 a pio:AdverseEvent .
+pi:PI_11_2.item1.item29 pio:adverse_reaction "四肢のしびれ、筋肉痛、背部痛、関節痛、腰痛、脱力感、肩こり、こわばり感、CKの上昇" .
+pi:PI_11_2.item1.item29 pio:category "神経・筋" .
+pi:PI_11_2.item1.item29 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item30 .
+pi:PI_11_2.item1.item30 a pio:AdverseEvent .
+pi:PI_11_2.item1.item30 pio:adverse_reaction "神経痛" .
+pi:PI_11_2.item1.item30 pio:category "神経・筋" .
+pi:PI_11_2.item1.item30 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item31 .
+pi:PI_11_2.item1.item31 a pio:AdverseEvent .
+pi:PI_11_2.item1.item31 pio:adverse_reaction "網膜出血、軟性白斑等の網膜の微小循環障害（10%以上）" .
+pi:PI_11_2.item1.item31 pio:category "眼" .
+pi:PI_11_2.item1.item31 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item32 .
+pi:PI_11_2.item1.item32 a pio:AdverseEvent .
+pi:PI_11_2.item1.item32 pio:adverse_reaction "眼痛、充血" .
+pi:PI_11_2.item1.item32 pio:category "眼" .
+pi:PI_11_2.item1.item32 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item33 .
+pi:PI_11_2.item1.item33 a pio:AdverseEvent .
+pi:PI_11_2.item1.item33 pio:adverse_reaction "視神経炎、眼球乾燥、視野狭窄、複視" .
+pi:PI_11_2.item1.item33 pio:category "眼" .
+pi:PI_11_2.item1.item33 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item34 .
+pi:PI_11_2.item1.item34 a pio:AdverseEvent .
+pi:PI_11_2.item1.item34 pio:adverse_reaction "網膜静脈血栓症" .
+pi:PI_11_2.item1.item34 pio:category "眼" .
+pi:PI_11_2.item1.item34 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item35 .
+pi:PI_11_2.item1.item35 a pio:AdverseEvent .
+pi:PI_11_2.item1.item35 pio:adverse_reaction "疼痛" .
+pi:PI_11_2.item1.item35 pio:category "投与部位（1）" .
+pi:PI_11_2.item1.item35 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item36 .
+pi:PI_11_2.item1.item36 a pio:AdverseEvent .
+pi:PI_11_2.item1.item36 pio:adverse_reaction "発赤、硬結、皮膚潰瘍" .
+pi:PI_11_2.item1.item36 pio:category "投与部位（1）" .
+pi:PI_11_2.item1.item36 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item37 .
+pi:PI_11_2.item1.item37 a pio:AdverseEvent .
+pi:PI_11_2.item1.item37 pio:adverse_reaction "蜂窩織炎" .
+pi:PI_11_2.item1.item37 pio:category "投与部位（1）" .
+pi:PI_11_2.item1.item37 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item38 .
+pi:PI_11_2.item1.item38 a pio:AdverseEvent .
+pi:PI_11_2.item1.item38 pio:adverse_reaction "髄液細胞増多（10%以上）、髄液蛋白量の増加又は減少（10%以上）" .
+pi:PI_11_2.item1.item38 pio:category "投与部位（2）" .
+pi:PI_11_2.item1.item38 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item39 .
+pi:PI_11_2.item1.item39 a pio:AdverseEvent .
+pi:PI_11_2.item1.item39 pio:adverse_reaction "髄液中組織球の出現" .
+pi:PI_11_2.item1.item39 pio:category "投与部位（2）" .
+pi:PI_11_2.item1.item39 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item40 .
+pi:PI_11_2.item1.item40 a pio:AdverseEvent .
+pi:PI_11_2.item1.item40 pio:adverse_reaction "体重減少、疲労、血清総蛋白量の増加又は減少、鼻出血、歯肉出血、アフタ性口内炎、咽頭炎、疼痛、尿糖陽性、耳鳴、感染症、カリウム・カルシウム・ナトリウム等の電解質異常、コレステロール値の異常、尿酸値上昇、血糖値上昇" .
+pi:PI_11_2.item1.item40 pio:category "その他" .
+pi:PI_11_2.item1.item40 pio:frequency "0.1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item41 .
+pi:PI_11_2.item1.item41 a pio:AdverseEvent .
+pi:PI_11_2.item1.item41 pio:adverse_reaction "嗄声、多汗、口腔内出血、不正出血、月経異常、腹水、インポテンス、トリグリセライド値の上昇、血清アミラーゼ上昇、各種自己抗体の陽性化、グロブリン上昇、CRP上昇" .
+pi:PI_11_2.item1.item41 pio:category "その他" .
+pi:PI_11_2.item1.item41 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item42 .
+pi:PI_11_2.item1.item42 a pio:AdverseEvent .
+pi:PI_11_2.item1.item42 pio:adverse_reaction "サルコイドーシス、移植後の拒絶反応又は移植片対宿主反応" .
+pi:PI_11_2.item1.item42 pio:category "その他" .
+pi:PI_11_2.item1.item42 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:explanatory_notes_for_other_adverse "発現頻度は使用成績調査を含む。 ※1）腹痛、血清アミラーゼ値の上昇等が認められた場合には投与を中止すること。 ※2）正確な発現頻度は不明。飛蚊視、視力低下感等を伴うことがある。 ※3）視力低下等を伴う場合には投与を中止すること。" .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤投与時の注意"@ja .
+pi:PI_15_1 dct:description "ときに本剤に対する中和抗体が出現するとの報告がある。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:title "筋肉内投与（癌患者において）"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1.item1 .
+pi:PI_16_1.item1 dct:description "1回投与したとき"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.item1.table1 .
+pi:PI_16_1.item1.item1.table1 pio:row pi:PI_16_1.item1.item1.table1.row1 .
+pi:PI_16_1.item1.item1.table1.row1 pio:column pi:PI_16_1.item1.item1.table1.row1.column1 .
+pi:PI_16_1.item1.item1.table1.row1.column1 rdf:value "パラメータ＼投与量" .
+pi:PI_16_1.item1.item1.table1.row1 pio:column pi:PI_16_1.item1.item1.table1.row1.column2 .
+pi:PI_16_1.item1.item1.table1.row1.column2 rdf:value "3×10 単位" .
+pi:PI_16_1.item1.item1.table1.row1 pio:column pi:PI_16_1.item1.item1.table1.row1.column3 .
+pi:PI_16_1.item1.item1.table1.row1.column3 rdf:value "6×10 単位" .
+pi:PI_16_1.item1.item1.table1 pio:row pi:PI_16_1.item1.item1.table1.row2 .
+pi:PI_16_1.item1.item1.table1.row2 pio:column pi:PI_16_1.item1.item1.table1.row2.column1 .
+pi:PI_16_1.item1.item1.table1.row2.column1 rdf:value "C  （単位/mL）" .
+pi:PI_16_1.item1.item1.table1.row2 pio:column pi:PI_16_1.item1.item1.table1.row2.column2 .
+pi:PI_16_1.item1.item1.table1.row2.column2 rdf:value "25" .
+pi:PI_16_1.item1.item1.table1.row2 pio:column pi:PI_16_1.item1.item1.table1.row2.column3 .
+pi:PI_16_1.item1.item1.table1.row2.column3 rdf:value "42" .
+pi:PI_16_1.item1.item1.table1 pio:row pi:PI_16_1.item1.item1.table1.row3 .
+pi:PI_16_1.item1.item1.table1.row3 pio:column pi:PI_16_1.item1.item1.table1.row3.column1 .
+pi:PI_16_1.item1.item1.table1.row3.column1 rdf:value "T  （hr）" .
+pi:PI_16_1.item1.item1.table1.row3 pio:column pi:PI_16_1.item1.item1.table1.row3.column2 .
+pi:PI_16_1.item1.item1.table1.row3.column2 rdf:value "6" .
+pi:PI_16_1.item1.item1.table1.row3 pio:column pi:PI_16_1.item1.item1.table1.row3.column3 .
+pi:PI_16_1.item1.item1.table1.row3.column3 rdf:value "9" .
+pi:PI_16_1.item1.item1.table1 pio:row pi:PI_16_1.item1.item1.table1.row4 .
+pi:PI_16_1.item1.item1.table1.row4 pio:column pi:PI_16_1.item1.item1.table1.row4.column1 .
+pi:PI_16_1.item1.item1.table1.row4.column1 rdf:value "T  （hr）" .
+pi:PI_16_1.item1.item1.table1.row4 pio:column pi:PI_16_1.item1.item1.table1.row4.column2 .
+pi:PI_16_1.item1.item1.table1.row4.column2 rdf:value "9.6" .
+pi:PI_16_1.item1.item1.table1.row4 pio:column pi:PI_16_1.item1.item1.table1.row4.column3 .
+pi:PI_16_1.item1.item1.table1.row4.column3 rdf:value "―" .
+pi:PI_16_1 pio:section pi:PI_16_1.item1.item2 .
+pi:PI_16_1.item1 dct:description "4週以上連続投与したとき"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.item2.table1 .
+pi:PI_16_1.item1.item2.table1 pio:row pi:PI_16_1.item1.item2.table1.row1 .
+pi:PI_16_1.item1.item2.table1.row1 pio:column pi:PI_16_1.item1.item2.table1.row1.column1 .
+pi:PI_16_1.item1.item2.table1.row1.column1 rdf:value "パラメータ＼投与量" .
+pi:PI_16_1.item1.item2.table1.row1 pio:column pi:PI_16_1.item1.item2.table1.row1.column2 .
+pi:PI_16_1.item1.item2.table1.row1.column2 rdf:value "3×10 単位" .
+pi:PI_16_1.item1.item2.table1.row1 pio:column pi:PI_16_1.item1.item2.table1.row1.column3 .
+pi:PI_16_1.item1.item2.table1.row1.column3 rdf:value "6×10 単位" .
+pi:PI_16_1.item1.item2.table1 pio:row pi:PI_16_1.item1.item2.table1.row2 .
+pi:PI_16_1.item1.item2.table1.row2 pio:column pi:PI_16_1.item1.item2.table1.row2.column1 .
+pi:PI_16_1.item1.item2.table1.row2.column1 rdf:value "C  （単位/mL）" .
+pi:PI_16_1.item1.item2.table1.row2 pio:column pi:PI_16_1.item1.item2.table1.row2.column2 .
+pi:PI_16_1.item1.item2.table1.row2.column2 rdf:value "110" .
+pi:PI_16_1.item1.item2.table1.row2 pio:column pi:PI_16_1.item1.item2.table1.row2.column3 .
+pi:PI_16_1.item1.item2.table1.row2.column3 rdf:value "150" .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 rdfs:title "皮下投与（慢性骨髄性白血病において）"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item2.table1 .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row1 .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column1 .
+pi:PI_16_1.item2.table1.row1.column1 rdf:value "パラメータ＼投与量" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column2 .
+pi:PI_16_1.item2.table1.row1.column2 rdf:value "3×10 単位 （n=3）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column3 .
+pi:PI_16_1.item2.table1.row1.column3 rdf:value "6×10 単位 （n=2）" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row2 .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column1 .
+pi:PI_16_1.item2.table1.row2.column1 rdf:value "C  （単位/mL）" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column2 .
+pi:PI_16_1.item2.table1.row2.column2 rdf:value "17.8 ± 3.1" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column3 .
+pi:PI_16_1.item2.table1.row2.column3 rdf:value "29.5 ± 4.7" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row3 .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column1 .
+pi:PI_16_1.item2.table1.row3.column1 rdf:value "T  （hr）" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column2 .
+pi:PI_16_1.item2.table1.row3.column2 rdf:value "8.0 ± 1.0" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column3 .
+pi:PI_16_1.item2.table1.row3.column3 rdf:value "6.0 ± 1.0" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row4 .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column1 .
+pi:PI_16_1.item2.table1.row4.column1 rdf:value "AUC  （単位・hr/mL）" .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column2 .
+pi:PI_16_1.item2.table1.row4.column2 rdf:value "203.5 ± 44.1" .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column3 .
+pi:PI_16_1.item2.table1.row4.column3 rdf:value "384.9 ± 38.0" .
+pi:PI_16_1 pio:section pi:PI_16_1.item3 .
+pi:PI_16_1.item3 rdfs:title "脳室内投与"@ja .
+pi:PI_16_1.item3 dct:description "亜急性硬化性全脳炎患者（3名）に1.5又は3.0×10 単位をオンマイヤ リザーバーから脳室内に単回投与した場合、髄液中濃度は投与3時間後に最大値6.3×10 ～1.0×10 単位/mLとなり、その後減少したが、投与48時間後も定量下限値（4.00単位/mL）以上であった 。"@ja .
+pi:PI_16_3 dct:description "SD系ラットに6×10 単位/kgを筋肉内投与した場合、組織内濃度は腎で最も高く、次いで血漿、肺、脾及び肝で高かった。また、リンパ系へ移行することが認められた。"@ja .
+pi:PI_16_5 dct:description "SD系ラットに6×10 単位/kgを筋肉内投与した場合、投与6時間目までの尿及び胆汁中排泄率は投与量の0.1%以下であった。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:label "〈腎癌〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:label "〈多発性骨髄腫〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item3 .
+pi:PI_17_1.item3 rdfs:label "〈ヘアリー細胞白血病〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item4 .
+pi:PI_17_1.item4 rdfs:label "〈慢性骨髄性白血病〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item5 .
+pi:PI_17_1.item5 rdfs:label "〈B型慢性活動性肝炎〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item6 .
+pi:PI_17_1.item6 rdfs:label "〈C型慢性肝炎〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item7 .
+pi:PI_17_1.item7 rdfs:label "〈C型代償性肝硬変〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item8 .
+pi:PI_17_1.item8 rdfs:label "〈亜急性硬化性全脳炎〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item9 .
+pi:PI_17_1.item9 rdfs:label "〈HTLV-Ⅰ脊髄症（HAM）〉"@ja .
+pi:PI_17_2 pio:section pi:PI_17_2.item1 .
+pi:PI_17_2.item1 rdfs:label "〈C型慢性肝炎〉"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "腫瘍細胞増殖抑制作用、BRM（Biological Response Modifiers）作用、及び抗ウイルス作用が認められている。 , ,"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "腫瘍細胞増殖抑制作用"@ja .
+pi:PI_18.item1 dct:description "ヒト腎癌由来細胞株に著明な細胞増殖抑制作用を示すこと、及び、健康成人及び慢性骨髄性白血病患者から分離した顆粒球系前駆細胞の増殖を抑制することが認められている （ ）。また、ヌードマウスに移植したヒト腎癌由来細胞株の増殖を抑制することが確認されている （ ）。"@ja .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "BRM作用"@ja .
+pi:PI_18.item2 dct:description "インターフェロンは生体を介したBRM作用を示し、腫瘍細胞に対する生体の応答力を高めることが知られている 。また、NK細胞、K細胞、単球・マクロファージを活性化させ、腫瘍細胞に対する細胞障害性を高めることが認められている 。 また、B型肝炎ウイルス感染肝細胞破壊の指標と考えられるHLA-class I抗原の肝細胞表面への表出を増強することが認められている（ ）。 HAM患者においては末梢血リンパ球の自己増殖反応が知られているが、インターフェロン-αがこの現象を抑制することが確認されている （ ）。"@ja .
+pi:PI_18 pio:section pi:PI_18.item3 .
+pi:PI_18.item3 rdfs:label "抗ウイルス作用"@ja .
+pi:PI_18.item3 dct:description "B型慢性活動性肝炎患者の末梢血単核球細胞を用いた実験で、2-5AS（2’-5’オリゴアデニル酸合成酵素）を誘導し （ ）、血中のウイルスマーカーであるDNA-p（DNAポリメラーゼ）活性を抑制することが確認されている （ ）。 C型慢性肝炎患者に投与した場合、血中HCV RNAの減少・陰性化が確認されている 。 亜急性硬化性全脳炎ウイルス（SSPEウイルス）の増殖を抑制することが認められている （ ）。 HTLV-Ⅰの増殖あるいは感染細胞の増殖に対する直接抑制効果が認められている （ ）。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "インターフェロン アルファ（NAMALWA）（Interferon Alfa（NAMALWA））" .
+pi:PI_19 pio:molecular_weight "17000～30000" .
+pi:PI_19 pio:description_of_active_ingredients "無色澄明の液である。" .
+pi:PI_19 pio:nature "ヒトインターフェロンαであり、ヒトリンパ芽球NAMALWA細胞をセンダイウイルスで誘発して得られた糖タンパク質である。" .
+pi:PI_20 a pio:PI_20 .
+pi:PI_20.item0 dct:description "遮光して保存すること。混濁しているものは投与しないこと。"@ja .
+pi:PI_20.item0 dct:description "取り扱い説明書を参照すること。"@ja .
+pi:PI_22 pio:section pi:PI_22.item1 .
+pi:PI_22.item1 rdfs:label "〈スミフェロン注DS300万IU〉"@ja .
+pi:PI_22.item1 dct:description "1mL ［1シリンジ］（26G注射針1個添付）"@ja .
+pi:PI_22 pio:section pi:PI_22.item2 .
+pi:PI_22.item2 rdfs:label "〈スミフェロン注DS600万IU〉"@ja .
+pi:PI_22.item2 dct:description "1mL ［1シリンジ］（26G注射針1個添付）"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "木村禧代二: 癌と化学療法. 1984; 11: 1324-1331" .
+pi:PI_23.item1 pio:id "DIC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "二瓶健次ほか: 臨床医薬. 2004; 20: 587-591" .
+pi:PI_23.item2 pio:id "DIC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "待井隆志ほか: 臨床血液. 1988; 29: 2029-2036" .
+pi:PI_23.item3 pio:id "DIC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "小山　覚ほか: 癌と化学療法. 1988; 15: 2959-2966" .
+pi:PI_23.item4 pio:id "DIC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "市田文弘ほか: 肝胆膵. 1987; 14: 655-668" .
+pi:PI_23.item5 pio:id "DIC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "林　紀夫ほか: 肝胆膵. 1992; 24: 663-673" .
+pi:PI_23.item6 pio:id "DIC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "市田文弘ほか: 肝胆膵. 1992; 24: 332-357" .
+pi:PI_23.item7 pio:id "DIC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "市田文弘ほか: 肝胆膵. 1996; 32: 253-270" .
+pi:PI_23.item8 pio:id "DIC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "長田達郎ほか: 日本臨床. 1994; 52: 1747-1753" .
+pi:PI_23.item9 pio:id "DIC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "松本晶博ほか: 医学と薬学. 1996; 35: 201-211" .
+pi:PI_23.item10 pio:id "DIC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "鴨下重彦ほか: 臨床医薬. 1997; 13: 121-140" .
+pi:PI_23.item11 pio:id "DIC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "納　光弘ほか: 基礎と臨床. 1994; 28: 4255-4271" .
+pi:PI_23.item12 pio:id "DIC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "早川正道ほか: 日本泌尿器科学会雑誌. 1985; 76: 734-743" .
+pi:PI_23.item13 pio:id "DIC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "小山　覚ほか: 医学のあゆみ. 1985; 132: 880-884" .
+pi:PI_23.item14 pio:id "DIC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "Yamaoka T., et al.: Cancer Chemother.Pharmacol. 1985; 14: 184-187" .
+pi:PI_23.item15 pio:id "DIC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "片岡達治: Oncologia. 1986; 18: 39-56" .
+pi:PI_23.item16 pio:id "DIC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "丸茂　健ほか: 日本泌尿器科学会雑誌. 1985; 76: 965-973" .
+pi:PI_23.item17 pio:id "DIC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "Koren H.S., et al.: J. Biol. Response Mod. 1983; 2: 151-165" .
+pi:PI_23.item18 pio:id "DIC_18" .
+pi:PI_23 dct:references pi:PI_23.item19 .
+pi:PI_23.item19 a bibo:Document .
+pi:PI_23.item19 rdfs:label "Ijichi S., et al.: J. Neuroimmunology.1989; 23: 175-178" .
+pi:PI_23.item19 pio:id "DIC_19" .
+pi:PI_23 dct:references pi:PI_23.item20 .
+pi:PI_23.item20 a bibo:Document .
+pi:PI_23.item20 rdfs:label "西口修平ほか: 肝胆膵. 1987; 14: 337-341" .
+pi:PI_23.item20 pio:id "DIC_20" .
+pi:PI_23 dct:references pi:PI_23.item21 .
+pi:PI_23.item21 a bibo:Document .
+pi:PI_23.item21 rdfs:label "松嶋　喬ほか: 診断と治療. 1986; 74: 2443-2446" .
+pi:PI_23.item21 pio:id "DIC_21" .
+pi:PI_23 dct:references pi:PI_23.item22 .
+pi:PI_23.item22 a bibo:Document .
+pi:PI_23.item22 rdfs:label "鈴木　宏ほか: 医学と薬学. 1991; 26: 393-398" .
+pi:PI_23.item22 pio:id "DIC_22" .
+pi:PI_23 dct:references pi:PI_23.item23 .
+pi:PI_23.item23 a bibo:Document .
+pi:PI_23.item23 rdfs:label "林　紀夫ほか: 基礎と臨床. 1991; 25: 3281-3288" .
+pi:PI_23.item23 pio:id "DIC_23" .
+pi:PI_23 dct:references pi:PI_23.item24 .
+pi:PI_23.item24 a bibo:Document .
+pi:PI_23.item24 rdfs:label "上田重晴: 厚生省特定疾患「遅発性ウイルス感染」調査研究班　平成6年度報告書. 1995; 39-44" .
+pi:PI_23.item24 pio:id "DIC_24" .
+pi:PI_23 dct:references pi:PI_23.item25 .
+pi:PI_23.item25 a bibo:Document .
+pi:PI_23.item25 rdfs:label "Ijichi S., et al.: J. Neuroimmunology.1995; 61: 213-221" .
+pi:PI_23.item25 pio:id "DIC_25" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "大日本住友製薬株式会社"@ja .
+pi:PI_24.item1 pio:address "〒541-0045　大阪市中央区道修町2-6-8"@ja .
+pi:PI_24.item1 pio:contact_information "くすり情報センター TEL 0120-034-389"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "大日本住友製薬株式会社"@ja .
+pi:PI_26.item1 pio:address "大阪市中央区道修町2-6-8"@ja .

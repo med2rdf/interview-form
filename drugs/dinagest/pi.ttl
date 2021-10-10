@@ -1,0 +1,822 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/790005_2499010F2020_1_06#> .
+
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_0 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_1 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_2 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_3 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_3_1 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_3_2 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_4 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_5 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_6 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_7 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_8 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_9 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_9_1 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_9_2 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_9_3 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_9_4 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_9_5 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_9_6 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_9_7 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_9_8 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_10 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_10_1 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_10_2 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_11 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_11_1 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_11_2 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_12 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_13 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_14 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_15 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_15_1 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_15_2 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_16 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_16_1 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_16_2 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_16_3 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_16_4 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_16_5 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_16_6 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_16_7 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_16_8 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_17 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_17_1 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_17_2 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_17_3 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_18 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_18_1 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_19 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_20 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_21 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_22 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_23 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_24 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_25 .
+pi_root:790005_2499010F2020_1_06 pio:section pi:PI_26 .
+pi_root:790005_2499010F2020_1_06 dct:identifier "790005_2499010F2020_1_06" .
+pi_root:790005_2499010F2020_1_06 pio:company_identifier "790005" .
+pi_root:790005_2499010F2020_1_06 pio:date_of_preparation_or_revision "2020-01"^^xsd:date .
+pi_root:790005_2499010F2020_1_06 pio:version "第2版" .
+pi_root:790005_2499010F2020_1_06 pio:sccj_no "872499" .
+pi_root:790005_2499010F2020_1_06 pio:therapeutic_classification "子宮内膜症治療剤・子宮腺筋症に伴う疼痛改善治療剤" .
+pi_root:790005_2499010F2020_1_06 pio:approval_brand_name "ディナゲストOD錠1mg" .
+pi_root:790005_2499010F2020_1_06 pio:yj_code "2499010F2020" .
+pi_root:790005_2499010F2020_1_06 pio:trademark_name "DINAGEST OD Tablets 1mg" .
+pi_root:790005_2499010F2020_1_06 pio:name_in_hiragana "でぃなげすとODじょう1mg" .
+pi_root:790005_2499010F2020_1_06 pio:approval_no "22600AMX01283000" .
+pi_root:790005_2499010F2020_1_06 pio:starting_date_of_marketing "2015-01"^^xsd:date .
+pi_root:790005_2499010F2020_1_06 pio:storage_method "室温保存" .
+pi_root:790005_2499010F2020_1_06 pio:shelf_life "3年" .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "診断のつかない異常性器出血のある患者［類似疾患（悪性腫瘍等）のおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "妊婦又は妊娠している可能性のある女性 ,"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item4 .
+pi:PI_2.item4 dct:description "高度の子宮腫大又は重度の貧血のある患者［出血症状が増悪し、大量出血を起こすおそれがある。］ , , ,"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "1錠中　ジエノゲスト"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "1mg"@ja .
+pi:PI_3_1.item1 pio:additives "D-マンニトール、結晶セルロース、ヒドロキシプロピルセルロース、クロスポビドン、タルク、ステアリン酸マグネシウム、トレハロース水和物、酸化チタン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "D-マンニトール"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "結晶セルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "ヒドロキシプロピルセルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "クロスポビドン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "タルク"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
+pi:PI_3_1.item1.additive6 pio:additive "ステアリン酸マグネシウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive7 .
+pi:PI_3_1.item1.additive7 pio:additive "トレハロース水和物"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive8 .
+pi:PI_3_1.item1.additive8 pio:additive "酸化チタン"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:id_code "MO236" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 pio:section pi:PI_4.item1 .
+pi:PI_4.item1 rdfs:title "子宮内膜症"@ja .
+pi:PI_4 pio:section pi:PI_4.item2 .
+pi:PI_4.item2 rdfs:title "子宮腺筋症に伴う疼痛の改善"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "通常、成人にはジエノゲストとして1日2mgを2回に分け、月経周期2～5日目より経口投与する。"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 dct:description "治療に際しては妊娠していないことを確認し、必ず月経周期2～5日目より投与を開始すること。また、治療期間中は非ホルモン性の避妊をさせること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "本剤の投与に際しては、類似疾患（悪性腫瘍等）との鑑別に留意し、投与中に腫瘤が増大したり、臨床症状の改善がみられない場合は投与を中止すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "卵巣チョコレート嚢胞は、頻度は低いものの自然経過において悪性化を示唆する報告があるので、定期的に画像診断や腫瘍マーカー等の検査を行い、患者の状態に十分注意すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "本剤投与中は経過を十分に観察し、期待する効果が得られない場合には漫然と投与を継続せず、他の適切な治療を考慮すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 dct:description "本剤投与後に不正出血があらわれ、重度の貧血に至ることがある。出血の程度には個人差があり、投与中に出血が持続する場合や一度に大量の出血が生じる場合もあるので、以下の点に注意すること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item5 .
+pi:PI_8.item5 dct:description "本剤を長期投与する場合には以下の点に注意すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item6 .
+pi:PI_8.item6 dct:description "本剤の投与により更年期障害様のうつ症状を起こすことが報告されているので、本剤の使用に際しては患者の状態等を十分に観察すること。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "子宮筋腫のある患者"@ja .
+pi:PI_9_1.item1 dct:description "出血症状が増悪し、まれに大量出血を起こすおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item2 .
+pi:PI_9_1.item2 rdfs:title "うつ病又はうつ状態の患者並びにそれらの既往歴のある患者"@ja .
+pi:PI_9_1.item2 dct:description "更年期障害様のうつ症状があらわれるおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item3 .
+pi:PI_9_1.item3 rdfs:title "最大骨塩量に達していない患者"@ja .
+pi:PI_9_1.item3 dct:description "本剤投与に際し、本剤投与による骨密度の減少の可能性や将来的な骨粗鬆症等の発症リスクを考慮した上で、本剤の投与の可否を慎重に判断すること。また、本剤投与中は、定期的に骨塩量検査を実施するなど患者の状態に十分注意し、治療上の有益性と骨密度減少のリスクを考慮した上で投与継続の可否を慎重に判断し、漫然と投与しないこと。12歳～18歳を対象とした海外臨床試験において、本剤52週間投与後の骨密度変化率は-1.2%であった 。"@ja .
+pi:PI_9_3 dct:description "代謝能の低下により、本剤の作用が増強することがある。重度の肝機能障害患者は臨床試験では除外されている。"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には投与しないこと。動物実験（ラット、ウサギ）において、受胎阻害、胚死亡率の増加及び流産等が認められている。 ,"@ja .
+pi:PI_9_6 dct:description "授乳しないことが望ましい。動物実験（ラット）において、乳汁中に移行することが報告されている。"@ja .
+pi:PI_9_7 dct:description "小児等を対象とした有効性及び安全性を指標とした臨床試験は実施していない。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2 pio:drug pi:PI_10_2.item1 .
+pi:PI_10_2.item1 a pio:PrecautionsForCombi .
+pi:PI_10_2.item1 pio:drug_name "CYP3A4阻害剤"@ja .
+pi:PI_10_2.item1 pio:drug_name ""@ja .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "本剤の血中濃度が上昇するおそれがある。（本剤とクラリスロマイシンの併用により、本剤のC 及びAUCはそれぞれ単独投与時の20%及び86%増加した。）"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "これらの薬剤が本剤の薬物代謝酵素であるCYP3A4を阻害することによると考えられる。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item2 .
+pi:PI_10_2.item2 a pio:PrecautionsForCombi .
+pi:PI_10_2.item2 pio:drug_name "CYP3A4誘導剤"@ja .
+pi:PI_10_2.item2 pio:clin_symptoms_and_measures "本剤の血中濃度が低下することにより本剤の有効性が減弱するおそれがある。"@ja .
+pi:PI_10_2.item2 pio:mechanism_and_risk_factors "これらの薬剤が本剤の薬物代謝酵素であるCYP3A4を誘導することによると考えられる。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item3 .
+pi:PI_10_2.item3 a pio:PrecautionsForCombi .
+pi:PI_10_2.item3 pio:drug_name "卵胞ホルモン含有製剤"@ja .
+pi:PI_10_2.item3 pio:clin_symptoms_and_measures "本剤の効果が減弱する可能性がある。"@ja .
+pi:PI_10_2.item3 pio:mechanism_and_risk_factors "子宮内膜症はエストロゲン依存性の疾患であることから、卵胞ホルモン含有製剤の投与により本剤の治療効果が減弱する可能性がある。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item4 .
+pi:PI_10_2.item4 a pio:PrecautionsForCombi .
+pi:PI_10_2.item4 pio:drug_name "黄体ホルモン含有製剤"@ja .
+pi:PI_10_2.item4 pio:clin_symptoms_and_measures "プロゲステロン作用が増強する可能性がある。"@ja .
+pi:PI_10_2.item4 pio:mechanism_and_risk_factors "ともにプロゲステロン受容体に対するアゴニスト活性を示すことから、プロゲステロン作用が相加的に増強する可能性がある。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "重篤な不正出血（頻度不明）、重度の貧血（頻度不明）"@ja .
+pi:PI_11_1.item1 dct:description "本剤投与後に不正出血があらわれ、重度の貧血に至ることがある。出血量が多く持続日数が長い場合や一度に大量の出血が認められた場合には、必要に応じて血液検査を実施し、観察を十分に行うこと。異常が認められた場合には、鉄剤の投与又は本剤の投与中止、輸血等の適切な処置を行うこと。 ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "アナフィラキシー（頻度不明）"@ja .
+pi:PI_11_1.item2 dct:description "アナフィラキシー（呼吸困難、血管浮腫、蕁麻疹、そう痒感等）があらわれることがあるので、このような症状があらわれた場合には投与を中止し、適切な処置を行うこと。"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "ほてり（20.6%）、頭痛" .
+pi:PI_11_2.item1.item1 pio:category "低エストロゲン症状" .
+pi:PI_11_2.item1.item1 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "めまい、動悸" .
+pi:PI_11_2.item1.item2 pio:category "低エストロゲン症状" .
+pi:PI_11_2.item1.item2 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "不眠、発汗、不安、抑うつ" .
+pi:PI_11_2.item1.item3 pio:category "低エストロゲン症状" .
+pi:PI_11_2.item1.item3 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "不正出血（88.3%）" .
+pi:PI_11_2.item1.item4 pio:category "子宮" .
+pi:PI_11_2.item1.item4 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "腹痛" .
+pi:PI_11_2.item1.item5 pio:category "子宮" .
+pi:PI_11_2.item1.item5 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "乳房緊満感、乳房痛" .
+pi:PI_11_2.item1.item6 pio:category "乳房" .
+pi:PI_11_2.item1.item6 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "乳汁分泌" .
+pi:PI_11_2.item1.item7 pio:category "乳房" .
+pi:PI_11_2.item1.item7 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "外陰部かぶれ・かゆみ" .
+pi:PI_11_2.item1.item8 pio:category "皮膚" .
+pi:PI_11_2.item1.item8 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "ざ瘡" .
+pi:PI_11_2.item1.item9 pio:category "皮膚" .
+pi:PI_11_2.item1.item9 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "脱毛、皮膚乾燥" .
+pi:PI_11_2.item1.item10 pio:category "皮膚" .
+pi:PI_11_2.item1.item10 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item11 .
+pi:PI_11_2.item1.item11 a pio:AdverseEvent .
+pi:PI_11_2.item1.item11 pio:adverse_reaction "傾眠" .
+pi:PI_11_2.item1.item11 pio:category "精神神経系" .
+pi:PI_11_2.item1.item11 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item12 .
+pi:PI_11_2.item1.item12 a pio:AdverseEvent .
+pi:PI_11_2.item1.item12 pio:adverse_reaction "いらいら感、片頭痛、しびれ感" .
+pi:PI_11_2.item1.item12 pio:category "精神神経系" .
+pi:PI_11_2.item1.item12 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item13 .
+pi:PI_11_2.item1.item13 a pio:AdverseEvent .
+pi:PI_11_2.item1.item13 pio:adverse_reaction "発疹等" .
+pi:PI_11_2.item1.item13 pio:category "過敏症" .
+pi:PI_11_2.item1.item13 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item14 .
+pi:PI_11_2.item1.item14 a pio:AdverseEvent .
+pi:PI_11_2.item1.item14 pio:adverse_reaction "そう痒感" .
+pi:PI_11_2.item1.item14 pio:category "過敏症" .
+pi:PI_11_2.item1.item14 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item15 .
+pi:PI_11_2.item1.item15 a pio:AdverseEvent .
+pi:PI_11_2.item1.item15 pio:adverse_reaction "AST・ALT・γ-GTP・ビリルビン上昇等の肝機能検査値異常" .
+pi:PI_11_2.item1.item15 pio:category "肝臓" .
+pi:PI_11_2.item1.item15 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item16 .
+pi:PI_11_2.item1.item16 a pio:AdverseEvent .
+pi:PI_11_2.item1.item16 pio:adverse_reaction "悪心" .
+pi:PI_11_2.item1.item16 pio:category "消化器" .
+pi:PI_11_2.item1.item16 pio:frequency "5%以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item17 .
+pi:PI_11_2.item1.item17 a pio:AdverseEvent .
+pi:PI_11_2.item1.item17 pio:adverse_reaction "腹痛、便秘、下痢、胃部不快感、腹部膨満感" .
+pi:PI_11_2.item1.item17 pio:category "消化器" .
+pi:PI_11_2.item1.item17 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item18 .
+pi:PI_11_2.item1.item18 a pio:AdverseEvent .
+pi:PI_11_2.item1.item18 pio:adverse_reaction "嘔吐、口内炎" .
+pi:PI_11_2.item1.item18 pio:category "消化器" .
+pi:PI_11_2.item1.item18 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item19 .
+pi:PI_11_2.item1.item19 a pio:AdverseEvent .
+pi:PI_11_2.item1.item19 pio:adverse_reaction "貧血" .
+pi:PI_11_2.item1.item19 pio:category "血液" .
+pi:PI_11_2.item1.item19 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item20 .
+pi:PI_11_2.item1.item20 a pio:AdverseEvent .
+pi:PI_11_2.item1.item20 pio:adverse_reaction "白血球減少" .
+pi:PI_11_2.item1.item20 pio:category "血液" .
+pi:PI_11_2.item1.item20 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item21 .
+pi:PI_11_2.item1.item21 a pio:AdverseEvent .
+pi:PI_11_2.item1.item21 pio:adverse_reaction "背部痛、骨塩量低下、肩こり" .
+pi:PI_11_2.item1.item21 pio:category "筋骨格系" .
+pi:PI_11_2.item1.item21 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item22 .
+pi:PI_11_2.item1.item22 a pio:AdverseEvent .
+pi:PI_11_2.item1.item22 pio:adverse_reaction "関節痛" .
+pi:PI_11_2.item1.item22 pio:category "筋骨格系" .
+pi:PI_11_2.item1.item22 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item23 .
+pi:PI_11_2.item1.item23 a pio:AdverseEvent .
+pi:PI_11_2.item1.item23 pio:adverse_reaction "倦怠感、体重増加、浮腫、疲労" .
+pi:PI_11_2.item1.item23 pio:category "その他" .
+pi:PI_11_2.item1.item23 pio:frequency "1～5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item24 .
+pi:PI_11_2.item1.item24 a pio:AdverseEvent .
+pi:PI_11_2.item1.item24 pio:adverse_reaction "発熱、コレステロール上昇、耳鳴、血糖値上昇" .
+pi:PI_11_2.item1.item24 pio:category "その他" .
+pi:PI_11_2.item1.item24 pio:frequency "1%未満" .
+pi:PI_11_2.item1 pio:explanatory_notes_for_other_adverse "" .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤交付時の注意"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item1 .
+pi:PI_14.item1.item1 dct:desctiption "PTP包装の薬剤はPTPシートから取り出して服用するよう指導すること。PTPシートの誤飲により、硬い鋭角部が食道粘膜へ刺入し、更には穿孔をおこして縦隔洞炎等の重篤な合併症を併発することがある。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item2 .
+pi:PI_14.item1.item2 dct:desctiption "本剤は高湿度で硬度が低下するため、服用直前にPTPシートから取り出すよう指導すること。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item3 .
+pi:PI_14.item1.item3 dct:desctiption "本剤は舌の上にのせて唾液を浸潤させると崩壊するため、水なしで服用可能である。また、水で服用することもできる。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item4 .
+pi:PI_14.item1.item4 dct:desctiption "本剤は寝たままの状態では、水なしで服用させないこと。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:title "単回投与"@ja .
+pi:PI_16_1.item1 dct:description "健康成人女性にジエノゲスト0.5mg、1mg、2mgを絶食単回経口投与 したときの薬物動態パラメータは以下のとおりであり、血漿中濃度は、投与後0.9～1.3時間で最高血漿中濃度に達した。C 及びAUC は用量に依存して増大し、半減期は6.65～7.66時間であった 。"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.table1 .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row1 .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column1 .
+pi:PI_16_1.item1.table1.row1.column1 rdf:value "投与量" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column2 .
+pi:PI_16_1.item1.table1.row1.column2 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column3 .
+pi:PI_16_1.item1.table1.row1.column3 rdf:value "t （hr）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column4 .
+pi:PI_16_1.item1.table1.row1.column4 rdf:value "t （hr）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column5 .
+pi:PI_16_1.item1.table1.row1.column5 rdf:value "t （hr）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column6 .
+pi:PI_16_1.item1.table1.row1.column6 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row2 .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column1 .
+pi:PI_16_1.item1.table1.row2.column1 rdf:value "0.5mg" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column2 .
+pi:PI_16_1.item1.table1.row2.column2 rdf:value "17.5±2.2" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column3 .
+pi:PI_16_1.item1.table1.row2.column3 rdf:value "0.9±0.2" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column4 .
+pi:PI_16_1.item1.table1.row2.column4 rdf:value "0.749±0.201" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column5 .
+pi:PI_16_1.item1.table1.row2.column5 rdf:value "7.06±1.00" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column6 .
+pi:PI_16_1.item1.table1.row2.column6 rdf:value "154.9±34.2" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row3 .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column1 .
+pi:PI_16_1.item1.table1.row3.column1 rdf:value "1mg" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column2 .
+pi:PI_16_1.item1.table1.row3.column2 rdf:value "34.7±3.1" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column3 .
+pi:PI_16_1.item1.table1.row3.column3 rdf:value "1.3±0.6" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column4 .
+pi:PI_16_1.item1.table1.row3.column4 rdf:value "0.772±0.364" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column5 .
+pi:PI_16_1.item1.table1.row3.column5 rdf:value "6.65±1.49" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column6 .
+pi:PI_16_1.item1.table1.row3.column6 rdf:value "320.4±56.7" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row4 .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column1 .
+pi:PI_16_1.item1.table1.row4.column1 rdf:value "2mg" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column2 .
+pi:PI_16_1.item1.table1.row4.column2 rdf:value "76.1±14.6" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column3 .
+pi:PI_16_1.item1.table1.row4.column3 rdf:value "1.2±0.4" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column4 .
+pi:PI_16_1.item1.table1.row4.column4 rdf:value "0.580±0.209" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column5 .
+pi:PI_16_1.item1.table1.row4.column5 rdf:value "7.66±1.22" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column6 .
+pi:PI_16_1.item1.table1.row4.column6 rdf:value "695.1±114.2" .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 rdfs:title "反復投与"@ja .
+pi:PI_16_1.item2 dct:description "健康成人女性にジエノゲスト0.5mg、1mg、2mgを1日2回12時間毎に11回（6日間）反復経口投与 したところ、血漿中濃度は投与回数に従い徐々に上昇し、いずれの用量においても投与回数6回でほぼ定常状態に達した 。ジエノゲスト1mgを1日2回反復経口投与したときの薬物動態パラメータは以下のとおりである 。"@ja .
+pi:PI_16_1.item2 dct:description "　"@ja .
+pi:PI_16_1.item2 dct:description "また、子宮内膜症患者134例にジエノゲスト1日2mgを2回に分け16週間又は24週間経口投与したときのC 及びAUC の推定値はそれぞれ42.3ng/mL、393.9ng・hr/mLであった 。"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item2.table1 .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row1 .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column1 .
+pi:PI_16_1.item2.table1.row1.column1 rdf:value "投与回数" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column2 .
+pi:PI_16_1.item2.table1.row1.column2 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column3 .
+pi:PI_16_1.item2.table1.row1.column3 rdf:value "t （hr）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column4 .
+pi:PI_16_1.item2.table1.row1.column4 rdf:value "t （hr）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column5 .
+pi:PI_16_1.item2.table1.row1.column5 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row2 .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column1 .
+pi:PI_16_1.item2.table1.row2.column1 rdf:value "1回目" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column2 .
+pi:PI_16_1.item2.table1.row2.column2 rdf:value "28.0±3.2" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column3 .
+pi:PI_16_1.item2.table1.row2.column3 rdf:value "2.1±0.9" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column4 .
+pi:PI_16_1.item2.table1.row2.column4 rdf:value "8.56±1.91" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column5 .
+pi:PI_16_1.item2.table1.row2.column5 rdf:value "313.5±29.2" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row3 .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column1 .
+pi:PI_16_1.item2.table1.row3.column1 rdf:value "11回目" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column2 .
+pi:PI_16_1.item2.table1.row3.column2 rdf:value "42.9±2.7" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column3 .
+pi:PI_16_1.item2.table1.row3.column3 rdf:value "2.7±0.5" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column4 .
+pi:PI_16_1.item2.table1.row3.column4 rdf:value "12.44±3.17" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column5 .
+pi:PI_16_1.item2.table1.row3.column5 rdf:value "341.2±31.5" .
+pi:PI_16_1 pio:section pi:PI_16_1.item3 .
+pi:PI_16_1.item3 rdfs:title "生物学的同等性"@ja .
+pi:PI_16_1.item3 dct:description "健康成人女性にディナゲストOD錠1mg（水なしで服用又は水で服用）及びディナゲスト錠1mg（普通錠）を空腹時に単回経口投与した場合の平均血漿中濃度の推移及び薬物動態パラメータは下記のとおりであり、生物学的に同等であることが確認された 。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item3.item1 .
+pi:PI_16_1.item3 rdfs:title "水なしで服用"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item3.item1.table1 .
+pi:PI_16_1.item3.item1.table1 pio:row pi:PI_16_1.item3.item1.table1.row1 .
+pi:PI_16_1.item3.item1.table1.row1 pio:column pi:PI_16_1.item3.item1.table1.row1.column1 .
+pi:PI_16_1.item3.item1.table1.row1.column1 rdf:value "" .
+pi:PI_16_1.item3.item1.table1.row1 pio:column pi:PI_16_1.item3.item1.table1.row1.column2 .
+pi:PI_16_1.item3.item1.table1.row1.column2 rdf:value "判定パラメータ" .
+pi:PI_16_1.item3.item1.table1.row1 pio:column pi:PI_16_1.item3.item1.table1.row1.column3 .
+pi:PI_16_1.item3.item1.table1.row1.column3 rdf:value "判定パラメータ" .
+pi:PI_16_1.item3.item1.table1.row1 pio:column pi:PI_16_1.item3.item1.table1.row1.column4 .
+pi:PI_16_1.item3.item1.table1.row1.column4 rdf:value "参考パラメータ" .
+pi:PI_16_1.item3.item1.table1.row1 pio:column pi:PI_16_1.item3.item1.table1.row1.column5 .
+pi:PI_16_1.item3.item1.table1.row1.column5 rdf:value "参考パラメータ" .
+pi:PI_16_1.item3.item1.table1 pio:row pi:PI_16_1.item3.item1.table1.row2 .
+pi:PI_16_1.item3.item1.table1.row2 pio:column pi:PI_16_1.item3.item1.table1.row2.column1 .
+pi:PI_16_1.item3.item1.table1.row2.column1 rdf:value "" .
+pi:PI_16_1.item3.item1.table1.row2 pio:column pi:PI_16_1.item3.item1.table1.row2.column2 .
+pi:PI_16_1.item3.item1.table1.row2.column2 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_1.item3.item1.table1.row2 pio:column pi:PI_16_1.item3.item1.table1.row2.column3 .
+pi:PI_16_1.item3.item1.table1.row2.column3 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item3.item1.table1.row2 pio:column pi:PI_16_1.item3.item1.table1.row2.column4 .
+pi:PI_16_1.item3.item1.table1.row2.column4 rdf:value "t （hr）" .
+pi:PI_16_1.item3.item1.table1.row2 pio:column pi:PI_16_1.item3.item1.table1.row2.column5 .
+pi:PI_16_1.item3.item1.table1.row2.column5 rdf:value "t （hr）" .
+pi:PI_16_1.item3.item1.table1 pio:row pi:PI_16_1.item3.item1.table1.row3 .
+pi:PI_16_1.item3.item1.table1.row3 pio:column pi:PI_16_1.item3.item1.table1.row3.column1 .
+pi:PI_16_1.item3.item1.table1.row3.column1 rdf:value "ディナゲストOD錠 1mg（水なしで服用）" .
+pi:PI_16_1.item3.item1.table1.row3 pio:column pi:PI_16_1.item3.item1.table1.row3.column2 .
+pi:PI_16_1.item3.item1.table1.row3.column2 rdf:value "282.80±66.37" .
+pi:PI_16_1.item3.item1.table1.row3 pio:column pi:PI_16_1.item3.item1.table1.row3.column3 .
+pi:PI_16_1.item3.item1.table1.row3.column3 rdf:value "25.81±4.87" .
+pi:PI_16_1.item3.item1.table1.row3 pio:column pi:PI_16_1.item3.item1.table1.row3.column4 .
+pi:PI_16_1.item3.item1.table1.row3.column4 rdf:value "1.25±0.94" .
+pi:PI_16_1.item3.item1.table1.row3 pio:column pi:PI_16_1.item3.item1.table1.row3.column5 .
+pi:PI_16_1.item3.item1.table1.row3.column5 rdf:value "7.98±1.85" .
+pi:PI_16_1.item3.item1.table1 pio:row pi:PI_16_1.item3.item1.table1.row4 .
+pi:PI_16_1.item3.item1.table1.row4 pio:column pi:PI_16_1.item3.item1.table1.row4.column1 .
+pi:PI_16_1.item3.item1.table1.row4.column1 rdf:value "ディナゲスト錠 1mg（水で服用）" .
+pi:PI_16_1.item3.item1.table1.row4 pio:column pi:PI_16_1.item3.item1.table1.row4.column2 .
+pi:PI_16_1.item3.item1.table1.row4.column2 rdf:value "275.16±65.27" .
+pi:PI_16_1.item3.item1.table1.row4 pio:column pi:PI_16_1.item3.item1.table1.row4.column3 .
+pi:PI_16_1.item3.item1.table1.row4.column3 rdf:value "28.95±7.69" .
+pi:PI_16_1.item3.item1.table1.row4 pio:column pi:PI_16_1.item3.item1.table1.row4.column4 .
+pi:PI_16_1.item3.item1.table1.row4.column4 rdf:value "1.25±0.89" .
+pi:PI_16_1.item3.item1.table1.row4 pio:column pi:PI_16_1.item3.item1.table1.row4.column5 .
+pi:PI_16_1.item3.item1.table1.row4.column5 rdf:value "7.92±1.92" .
+pi:PI_16_1 pio:section pi:PI_16_1.item3.item2 .
+pi:PI_16_1.item3 rdfs:title "水で服用"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item3.item2.table1 .
+pi:PI_16_1.item3.item2.table1 pio:row pi:PI_16_1.item3.item2.table1.row1 .
+pi:PI_16_1.item3.item2.table1.row1 pio:column pi:PI_16_1.item3.item2.table1.row1.column1 .
+pi:PI_16_1.item3.item2.table1.row1.column1 rdf:value "" .
+pi:PI_16_1.item3.item2.table1.row1 pio:column pi:PI_16_1.item3.item2.table1.row1.column2 .
+pi:PI_16_1.item3.item2.table1.row1.column2 rdf:value "判定パラメータ" .
+pi:PI_16_1.item3.item2.table1.row1 pio:column pi:PI_16_1.item3.item2.table1.row1.column3 .
+pi:PI_16_1.item3.item2.table1.row1.column3 rdf:value "判定パラメータ" .
+pi:PI_16_1.item3.item2.table1.row1 pio:column pi:PI_16_1.item3.item2.table1.row1.column4 .
+pi:PI_16_1.item3.item2.table1.row1.column4 rdf:value "参考パラメータ" .
+pi:PI_16_1.item3.item2.table1.row1 pio:column pi:PI_16_1.item3.item2.table1.row1.column5 .
+pi:PI_16_1.item3.item2.table1.row1.column5 rdf:value "参考パラメータ" .
+pi:PI_16_1.item3.item2.table1 pio:row pi:PI_16_1.item3.item2.table1.row2 .
+pi:PI_16_1.item3.item2.table1.row2 pio:column pi:PI_16_1.item3.item2.table1.row2.column1 .
+pi:PI_16_1.item3.item2.table1.row2.column1 rdf:value "" .
+pi:PI_16_1.item3.item2.table1.row2 pio:column pi:PI_16_1.item3.item2.table1.row2.column2 .
+pi:PI_16_1.item3.item2.table1.row2.column2 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_1.item3.item2.table1.row2 pio:column pi:PI_16_1.item3.item2.table1.row2.column3 .
+pi:PI_16_1.item3.item2.table1.row2.column3 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item3.item2.table1.row2 pio:column pi:PI_16_1.item3.item2.table1.row2.column4 .
+pi:PI_16_1.item3.item2.table1.row2.column4 rdf:value "t （hr）" .
+pi:PI_16_1.item3.item2.table1.row2 pio:column pi:PI_16_1.item3.item2.table1.row2.column5 .
+pi:PI_16_1.item3.item2.table1.row2.column5 rdf:value "t （hr）" .
+pi:PI_16_1.item3.item2.table1 pio:row pi:PI_16_1.item3.item2.table1.row3 .
+pi:PI_16_1.item3.item2.table1.row3 pio:column pi:PI_16_1.item3.item2.table1.row3.column1 .
+pi:PI_16_1.item3.item2.table1.row3.column1 rdf:value "ディナゲストOD錠 1mg（水で服用）" .
+pi:PI_16_1.item3.item2.table1.row3 pio:column pi:PI_16_1.item3.item2.table1.row3.column2 .
+pi:PI_16_1.item3.item2.table1.row3.column2 rdf:value "351.35±77.52" .
+pi:PI_16_1.item3.item2.table1.row3 pio:column pi:PI_16_1.item3.item2.table1.row3.column3 .
+pi:PI_16_1.item3.item2.table1.row3.column3 rdf:value "37.68±6.38" .
+pi:PI_16_1.item3.item2.table1.row3 pio:column pi:PI_16_1.item3.item2.table1.row3.column4 .
+pi:PI_16_1.item3.item2.table1.row3.column4 rdf:value "0.79±0.30" .
+pi:PI_16_1.item3.item2.table1.row3 pio:column pi:PI_16_1.item3.item2.table1.row3.column5 .
+pi:PI_16_1.item3.item2.table1.row3.column5 rdf:value "8.35±2.11" .
+pi:PI_16_1.item3.item2.table1 pio:row pi:PI_16_1.item3.item2.table1.row4 .
+pi:PI_16_1.item3.item2.table1.row4 pio:column pi:PI_16_1.item3.item2.table1.row4.column1 .
+pi:PI_16_1.item3.item2.table1.row4.column1 rdf:value "ディナゲスト錠 1mg（水で服用）" .
+pi:PI_16_1.item3.item2.table1.row4 pio:column pi:PI_16_1.item3.item2.table1.row4.column2 .
+pi:PI_16_1.item3.item2.table1.row4.column2 rdf:value "353.08±71.80" .
+pi:PI_16_1.item3.item2.table1.row4 pio:column pi:PI_16_1.item3.item2.table1.row4.column3 .
+pi:PI_16_1.item3.item2.table1.row4.column3 rdf:value "39.10±6.79" .
+pi:PI_16_1.item3.item2.table1.row4 pio:column pi:PI_16_1.item3.item2.table1.row4.column4 .
+pi:PI_16_1.item3.item2.table1.row4.column4 rdf:value "0.90±0.41" .
+pi:PI_16_1.item3.item2.table1.row4 pio:column pi:PI_16_1.item3.item2.table1.row4.column5 .
+pi:PI_16_1.item3.item2.table1.row4.column5 rdf:value "8.29±1.89" .
+pi:PI_16_2 pio:section pi:PI_16_2.item1 .
+pi:PI_16_2.item1 rdfs:title "食事の影響"@ja .
+pi:PI_16_2.item1 dct:description "健康成人女性にジエノゲスト0.5mg、1mg、2mgを単回経口投与 したとき、摂食による吸収の遅延は認められるものの、吸収率及び消失速度には影響せず、食事の影響は少ないと考えられた 。"@ja .
+pi:PI_16_2 pio:table pi:PI_16_2.item1.table1 .
+pi:PI_16_2.item1.table1 pio:row pi:PI_16_2.item1.table1.row1 .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column1 .
+pi:PI_16_2.item1.table1.row1.column1 rdf:value "投与量" .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column2 .
+pi:PI_16_2.item1.table1.row1.column2 rdf:value "投与条件" .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column3 .
+pi:PI_16_2.item1.table1.row1.column3 rdf:value "C （ng/mL）" .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column4 .
+pi:PI_16_2.item1.table1.row1.column4 rdf:value "t （hr）" .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column5 .
+pi:PI_16_2.item1.table1.row1.column5 rdf:value "t （hr）" .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column6 .
+pi:PI_16_2.item1.table1.row1.column6 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_2.item1.table1 pio:row pi:PI_16_2.item1.table1.row2 .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column1 .
+pi:PI_16_2.item1.table1.row2.column1 rdf:value "0.5mg" .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column2 .
+pi:PI_16_2.item1.table1.row2.column2 rdf:value "絶食下" .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column3 .
+pi:PI_16_2.item1.table1.row2.column3 rdf:value "17.5±2.2" .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column4 .
+pi:PI_16_2.item1.table1.row2.column4 rdf:value "0.9±0.2" .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column5 .
+pi:PI_16_2.item1.table1.row2.column5 rdf:value "7.06±1.00" .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column6 .
+pi:PI_16_2.item1.table1.row2.column6 rdf:value "154.9±34.2" .
+pi:PI_16_2.item1.table1 pio:row pi:PI_16_2.item1.table1.row3 .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column1 .
+pi:PI_16_2.item1.table1.row3.column1 rdf:value "0.5mg" .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column2 .
+pi:PI_16_2.item1.table1.row3.column2 rdf:value "非絶食下" .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column3 .
+pi:PI_16_2.item1.table1.row3.column3 rdf:value "12.4±0.4" .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column4 .
+pi:PI_16_2.item1.table1.row3.column4 rdf:value "2.3±1.0" .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column5 .
+pi:PI_16_2.item1.table1.row3.column5 rdf:value "8.82±1.48" .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column6 .
+pi:PI_16_2.item1.table1.row3.column6 rdf:value "166.5±39.5" .
+pi:PI_16_2.item1.table1 pio:row pi:PI_16_2.item1.table1.row4 .
+pi:PI_16_2.item1.table1.row4 pio:column pi:PI_16_2.item1.table1.row4.column1 .
+pi:PI_16_2.item1.table1.row4.column1 rdf:value "1mg" .
+pi:PI_16_2.item1.table1.row4 pio:column pi:PI_16_2.item1.table1.row4.column2 .
+pi:PI_16_2.item1.table1.row4.column2 rdf:value "絶食下" .
+pi:PI_16_2.item1.table1.row4 pio:column pi:PI_16_2.item1.table1.row4.column3 .
+pi:PI_16_2.item1.table1.row4.column3 rdf:value "34.7±3.1" .
+pi:PI_16_2.item1.table1.row4 pio:column pi:PI_16_2.item1.table1.row4.column4 .
+pi:PI_16_2.item1.table1.row4.column4 rdf:value "1.3±0.6" .
+pi:PI_16_2.item1.table1.row4 pio:column pi:PI_16_2.item1.table1.row4.column5 .
+pi:PI_16_2.item1.table1.row4.column5 rdf:value "6.65±1.49" .
+pi:PI_16_2.item1.table1.row4 pio:column pi:PI_16_2.item1.table1.row4.column6 .
+pi:PI_16_2.item1.table1.row4.column6 rdf:value "320.4±56.7" .
+pi:PI_16_2.item1.table1 pio:row pi:PI_16_2.item1.table1.row5 .
+pi:PI_16_2.item1.table1.row5 pio:column pi:PI_16_2.item1.table1.row5.column1 .
+pi:PI_16_2.item1.table1.row5.column1 rdf:value "1mg" .
+pi:PI_16_2.item1.table1.row5 pio:column pi:PI_16_2.item1.table1.row5.column2 .
+pi:PI_16_2.item1.table1.row5.column2 rdf:value "非絶食下" .
+pi:PI_16_2.item1.table1.row5 pio:column pi:PI_16_2.item1.table1.row5.column3 .
+pi:PI_16_2.item1.table1.row5.column3 rdf:value "28.0±3.2" .
+pi:PI_16_2.item1.table1.row5 pio:column pi:PI_16_2.item1.table1.row5.column4 .
+pi:PI_16_2.item1.table1.row5.column4 rdf:value "2.1±0.9" .
+pi:PI_16_2.item1.table1.row5 pio:column pi:PI_16_2.item1.table1.row5.column5 .
+pi:PI_16_2.item1.table1.row5.column5 rdf:value "8.56±1.91" .
+pi:PI_16_2.item1.table1.row5 pio:column pi:PI_16_2.item1.table1.row5.column6 .
+pi:PI_16_2.item1.table1.row5.column6 rdf:value "313.5±29.2" .
+pi:PI_16_2.item1.table1 pio:row pi:PI_16_2.item1.table1.row6 .
+pi:PI_16_2.item1.table1.row6 pio:column pi:PI_16_2.item1.table1.row6.column1 .
+pi:PI_16_2.item1.table1.row6.column1 rdf:value "2mg" .
+pi:PI_16_2.item1.table1.row6 pio:column pi:PI_16_2.item1.table1.row6.column2 .
+pi:PI_16_2.item1.table1.row6.column2 rdf:value "絶食下" .
+pi:PI_16_2.item1.table1.row6 pio:column pi:PI_16_2.item1.table1.row6.column3 .
+pi:PI_16_2.item1.table1.row6.column3 rdf:value "76.1±14.6" .
+pi:PI_16_2.item1.table1.row6 pio:column pi:PI_16_2.item1.table1.row6.column4 .
+pi:PI_16_2.item1.table1.row6.column4 rdf:value "1.2±0.4" .
+pi:PI_16_2.item1.table1.row6 pio:column pi:PI_16_2.item1.table1.row6.column5 .
+pi:PI_16_2.item1.table1.row6.column5 rdf:value "7.66±1.22" .
+pi:PI_16_2.item1.table1.row6 pio:column pi:PI_16_2.item1.table1.row6.column6 .
+pi:PI_16_2.item1.table1.row6.column6 rdf:value "695.1±114.2" .
+pi:PI_16_2.item1.table1 pio:row pi:PI_16_2.item1.table1.row7 .
+pi:PI_16_2.item1.table1.row7 pio:column pi:PI_16_2.item1.table1.row7.column1 .
+pi:PI_16_2.item1.table1.row7.column1 rdf:value "2mg" .
+pi:PI_16_2.item1.table1.row7 pio:column pi:PI_16_2.item1.table1.row7.column2 .
+pi:PI_16_2.item1.table1.row7.column2 rdf:value "非絶食下" .
+pi:PI_16_2.item1.table1.row7 pio:column pi:PI_16_2.item1.table1.row7.column3 .
+pi:PI_16_2.item1.table1.row7.column3 rdf:value "52.0±8.2" .
+pi:PI_16_2.item1.table1.row7 pio:column pi:PI_16_2.item1.table1.row7.column4 .
+pi:PI_16_2.item1.table1.row7.column4 rdf:value "3.5±0.5" .
+pi:PI_16_2.item1.table1.row7 pio:column pi:PI_16_2.item1.table1.row7.column5 .
+pi:PI_16_2.item1.table1.row7.column5 rdf:value "7.47±0.36" .
+pi:PI_16_2.item1.table1.row7 pio:column pi:PI_16_2.item1.table1.row7.column6 .
+pi:PI_16_2.item1.table1.row7.column6 rdf:value "625.4±73.9" .
+pi:PI_16_2 pio:section pi:PI_16_2.item2 .
+pi:PI_16_2.item2 rdfs:title "生物学的利用率"@ja .
+pi:PI_16_2.item2 dct:description "健康成人男性20例にジエノゲスト2mgを絶食単回経口投与（錠剤）及び静脈内投与 したとき、生物学的利用率は90.55%であった （外国人データ）。"@ja .
+pi:PI_16_3 pio:section pi:PI_16_3.item1 .
+pi:PI_16_3.item1 rdfs:title "分布容積"@ja .
+pi:PI_16_3.item1 dct:description "健康成人女性6例にジエノゲスト0.5mg及び1mgを絶食単回経口投与 したときのみかけの分布容積（V β/F）は、それぞれ33.79L及び30.04Lであった 。"@ja .
+pi:PI_16_3 pio:section pi:PI_16_3.item2 .
+pi:PI_16_3.item2 rdfs:title "血漿蛋白結合率"@ja .
+pi:PI_16_3.item2 dct:description "健康成人女性の血漿を用いた 試験におけるジエノゲスト（100ng/mL）の蛋白結合率は94.5%であった 。結合蛋白質は主にアルブミンと考えられた 。"@ja .
+pi:PI_16_4 dct:description "ヒト肝ミクロソームを用いた 試験の結果より、ジエノゲストの代謝には、主にCYP3A4が関与すると考えられた 。 また、健康成人女性6例にジエノゲスト2mgを1日2回、計11回（6日間）反復経口投与 したときの定常状態におけるC の368倍の濃度（100µmol/L）においても、ジエノゲストはCYP1A2、CYP2C9、CYP2C19、CYP2D6、CYP2E1、CYP3A4活性をほとんど阻害しなかった 。"@ja .
+pi:PI_16_5 dct:description "健康成人女性6例にジエノゲスト2mgを絶食単回経口投与 した場合、尿中に未変化体は検出されず、尿中の代謝物として主に水酸化体及びグルクロン酸抱合体が排泄された 。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item1 .
+pi:PI_16_7.item1 rdfs:title "クラリスロマイシン"@ja .
+pi:PI_16_7.item1 dct:description "健康成人女性10例にクラリスロマイシン200mgを1日2回、3日間経口投与し、翌日、ジエノゲスト1mgとクラリスロマイシン200mgを1回併用したとき、ジエノゲストのC 及びAUC はジエノゲスト1mg単独投与時に比し、それぞれ1.20倍、1.86倍に上昇した 。"@ja .
+pi:PI_16_7.item1 dct:description ""@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:label "〈子宮内膜症〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:label "〈子宮腺筋症に伴う疼痛の改善〉"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "ジエノゲストはプロゲステロン受容体に対する選択的なアゴニスト作用を示し、卵巣機能抑制及び子宮内膜細胞の増殖抑制により子宮内膜症に対する有効性及び子宮腺筋症に伴う疼痛の改善を示すと考えられる。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "ステロイドホルモン受容体に対する作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item1 .
+pi:PI_18.item1.item1 rdfs:label "受容体アゴニスト活性"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item2 .
+pi:PI_18.item1.item2 dct:desctiption "ヒトステロイドホルモン受容体遺伝子を導入した細胞を用いた 試験で、プロゲステロン受容体に対する選択的なアゴニスト活性を示した 。"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item3 .
+pi:PI_18.item1.item3 rdfs:label "プロゲステロン作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item4 .
+pi:PI_18.item1.item4 dct:desctiption "ラット及びウサギを用いた 試験において、子宮に対してプロゲステロン作用を示した 。一方、アンドロゲン作用 、グルココルチコイド作用 及びミネラルコルチコイド作用 は示さなかった。"@ja .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "卵巣機能抑制作用"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item1 .
+pi:PI_18.item2.item1 rdfs:label "健康成人女性"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item2 .
+pi:PI_18.item2.item2 dct:desctiption "健康成人女性にジエノゲスト1日2mgを2回に分け21日間経口投与したとき、通常の月経周期にみられる血清中エストラジオール及びプロゲステロン濃度の上昇の抑制、血清中LH及びFSH濃度の一過性の上昇の消失が認められた 。"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item3 .
+pi:PI_18.item2.item3 rdfs:label "子宮内膜症患者"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item4 .
+pi:PI_18.item2.item4 dct:desctiption "子宮内膜症患者にジエノゲスト1日1～4mgを2回に分け16～24週間経口投与 したとき、血清中エストラジオール濃度は用量の増量に伴い低値を示した。また、ジエノゲスト1日1～4mg で、血清中プロゲステロン濃度は全例で卵胞期の基準値以下であり、排卵抑制が示唆された 。"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item5 .
+pi:PI_18.item2.item5 rdfs:label "子宮腺筋症患者"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item6 .
+pi:PI_18.item2.item6 dct:desctiption "子宮腺筋症患者にジエノゲスト1日1mg、2mg又はプラセボを2回に分け16週間経口投与 したとき、血清中エストラジオール濃度は用量の増量に伴い低値を示した。また、ジエノゲスト1日2mgで血清中エストラジオール濃度はプラセボに比し低値であり、血清中エストラジオール濃度抑制作用が認められた 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item3 .
+pi:PI_18.item3 rdfs:label "子宮内膜への作用"@ja .
+pi:PI_18.item3 pio:section pi:PI_18.item3.item1 .
+pi:PI_18.item3.item1 rdfs:label "子宮内膜細胞の増殖抑制作用"@ja .
+pi:PI_18.item3 pio:section pi:PI_18.item3.item2 .
+pi:PI_18.item3.item2 dct:desctiption "ヒト子宮内膜間質細胞を用いた 試験で、細胞増殖の抑制が認められた 。"@ja .
+pi:PI_18.item3 pio:section pi:PI_18.item3.item3 .
+pi:PI_18.item3.item3 rdfs:label "子宮内膜の偽脱落膜化"@ja .
+pi:PI_18.item3 pio:section pi:PI_18.item3.item4 .
+pi:PI_18.item3.item4 dct:desctiption "子宮内膜症患者を対象とした臨床薬理試験で、ジエノゲスト1日2mgを2回に分け16週間経口投与したとき、ジエノゲストのプロゲステロン作用による子宮内膜の偽脱落膜化が認められた 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item4 .
+pi:PI_18.item4 rdfs:label "実験的子宮内膜症に対する効果"@ja .
+pi:PI_18.item4 dct:description ""@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "ジエノゲスト（Dienogest）" .
+pi:PI_19 pio:chemical_name "17-Hydroxy-3-oxo-19-nor-17α-pregna-4,9-diene-21-nitrile" .
+pi:PI_19 pio:molecular_formula "C H NO" .
+pi:PI_19 pio:molecular_weight "311.42" .
+pi:PI_19 pio:description_of_active_ingredients "白色～微黄白色の結晶性の粉末である。メタノールにやや溶けにくく、エタノール（99.5）に溶けにくく、水にはほとんど溶けない。" .
+pi:PI_19 pio:melting_point "210～218℃" .
+pi:PI_20 a pio:PI_20 .
+pi:PI_20 dct:description "アルミピロー包装開封後は、湿気を避けて遮光保存すること。なお、本剤は高湿度により硬度低下を生じる。"@ja .
+pi:PI_21 pio:section pi:PI_21.item1 .
+pi:PI_21.item1 rdfs:label "〈子宮腺筋症に伴う疼痛の改善〉"@ja .
+pi:PI_21.item1 dct:description "医薬品リスク管理計画を策定の上、適切に実施すること。"@ja .
+pi:PI_22 dct:description "PTP：100錠（10錠×10）"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "Ebert, A. D. et al.：J. Pediatr. Adolesc. Gynecol. 2017；30（5）：560-567" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "持田製薬社内資料：第Ⅰ相試験－単回投与試験－（2007年10月19日承認、CTD 2.7.6.3）" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "持田製薬社内資料：第Ⅰ相試験－反復投与試験－（2007年10月19日承認、CTD 2.7.6.3）" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "持田製薬社内資料：第Ⅰ相試験－反復投与追加試験－（2007年10月19日承認、CTD 2.7.6.3）" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "持田製薬社内資料：臨床薬物動態試験－子宮内膜症患者を対象とした母集団薬物動態解析－（2007年10月19日承認、CTD 2.7.2.2）" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "持田製薬社内資料：生物学的同等性試験" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "持田製薬社内資料：海外臨床薬物動態試験－健康成人男性における生物学的利用率の検討－（2007年10月19日承認、CTD 2.7.6.1）" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "持田製薬社内資料：薬物動態試験－ヒト血漿たん白結合（1）－（2007年10月19日承認、CTD 2.6.4.4）" .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "持田製薬社内資料：薬物動態試験－ヒト血漿たん白結合（2）－（2007年10月19日承認、CTD 2.7.2.2）" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "持田製薬社内資料：薬物動態試験－代謝に関与するCYP分子種の検討（1）－（2007年10月19日承認、CTD 2.6.4.5）" .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "持田製薬社内資料：薬物動態試験－代謝に関与するCYP分子種の検討（2）－（2007年10月19日承認、CTD 2.6.4.5）" .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "持田製薬社内資料：薬物動態試験－CYP分子種に対する阻害作用の検討（1）－（2007年10月19日承認、CTD 2.6.4.7）" .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "持田製薬社内資料：薬物動態試験－CYP分子種に対する阻害作用の検討（2）－（2007年10月19日承認、CTD 2.6.4.7）" .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "持田製薬社内資料：臨床薬物動態試験－クラリスロマイシン併用の薬物相互作用－（2007年10月19日承認、CTD 2.7.6.4）" .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "原田　省 他：薬理と治療. 2008；36（2）：129-140" .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "持田製薬社内資料：長期投与試験－子宮内膜症患者における長期投与の有効性および安全性の検討－（2007年10月19日承認、CTD 2.7.6.8）" .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "Osuga, Y. et al.：Fertil. Steril. 2017；108（4）：673-678" .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "Osuga, Y. et al.：J. Obstet. Gynaecol. Res. 2017；43（9）：1441-1448" .
+pi:PI_23.item18 pio:id "DOC_18" .
+pi:PI_23 dct:references pi:PI_23.item19 .
+pi:PI_23.item19 a bibo:Document .
+pi:PI_23.item19 rdfs:label "持田製薬社内資料：薬理試験－ヒトプロゲステロン・アンドロゲンおよびグルココルチコイド受容体に対するアゴニスト活性の検討－（2007年10月19日承認、CTD 2.6.2.2）" .
+pi:PI_23.item19 pio:id "DOC_19" .
+pi:PI_23 dct:references pi:PI_23.item20 .
+pi:PI_23.item20 a bibo:Document .
+pi:PI_23.item20 rdfs:label "持田製薬社内資料：薬理試験－ヒトエストロゲン受容体に対するアゴニスト活性の検討－（2007年10月19日承認、CTD 2.6.2.2）" .
+pi:PI_23.item20 pio:id "DOC_20" .
+pi:PI_23 dct:references pi:PI_23.item21 .
+pi:PI_23.item21 a bibo:Document .
+pi:PI_23.item21 rdfs:label "持田製薬社内資料：薬理試験－ヒトミネラルコルチコイド受容体に対するアゴニスト活性およびアンタゴニスト活性の検討－（2007年10月19日承認、CTD 2.6.2.2）" .
+pi:PI_23.item21 pio:id "DOC_21" .
+pi:PI_23 dct:references pi:PI_23.item22 .
+pi:PI_23.item22 a bibo:Document .
+pi:PI_23.item22 rdfs:label "持田製薬社内資料：薬理試験－ヒトアンドロゲンおよびグルココルチコイド受容体に対するアンタゴニスト活性の検討－（2007年10月19日承認、CTD 2.6.2.2）" .
+pi:PI_23.item22 pio:id "DOC_22" .
+pi:PI_23 dct:references pi:PI_23.item23 .
+pi:PI_23.item23 a bibo:Document .
+pi:PI_23.item23 rdfs:label "持田製薬社内資料：薬理試験－エストロゲンを投与したラットの子宮重量増加に及ぼす影響－（2007年10月19日承認、CTD 2.6.2.2）" .
+pi:PI_23.item23 pio:id "DOC_23" .
+pi:PI_23 dct:references pi:PI_23.item24 .
+pi:PI_23.item24 a bibo:Document .
+pi:PI_23.item24 rdfs:label "持田製薬社内資料：薬理試験－エストロゲンを投与したラットにおける子宮重量増加抑制作用の機序検討－（2007年10月19日承認、CTD 2.6.2.2）" .
+pi:PI_23.item24 pio:id "DOC_24" .
+pi:PI_23 dct:references pi:PI_23.item25 .
+pi:PI_23.item25 a bibo:Document .
+pi:PI_23.item25 rdfs:label "持田製薬社内資料：薬理試験－ウサギ子宮腺の発達に及ぼす影響（McPhail試験）－（2007年10月19日承認、CTD 2.6.2.2）" .
+pi:PI_23.item25 pio:id "DOC_25" .
+pi:PI_23 dct:references pi:PI_23.item26 .
+pi:PI_23.item26 a bibo:Document .
+pi:PI_23.item26 rdfs:label "持田製薬社内資料：薬理試験－ラットを用いたアンドロゲン作用の検討－（2007年10月19日承認、CTD 2.6.2.3）" .
+pi:PI_23.item26 pio:id "DOC_26" .
+pi:PI_23 dct:references pi:PI_23.item27 .
+pi:PI_23.item27 a bibo:Document .
+pi:PI_23.item27 rdfs:label "持田製薬社内資料：薬理試験－ラットを用いたグルココルチコイド作用の検討－（2007年10月19日承認、CTD 2.6.2.3）" .
+pi:PI_23.item27 pio:id "DOC_27" .
+pi:PI_23 dct:references pi:PI_23.item28 .
+pi:PI_23.item28 a bibo:Document .
+pi:PI_23.item28 rdfs:label "持田製薬社内資料：薬理試験－ラットを用いたミネラルコルチコイド作用の検討－（2007年10月19日承認、CTD 2.6.2.3）" .
+pi:PI_23.item28 pio:id "DOC_28" .
+pi:PI_23 dct:references pi:PI_23.item29 .
+pi:PI_23.item29 a bibo:Document .
+pi:PI_23.item29 rdfs:label "持田製薬社内資料：臨床薬理試験－健康成人女性におけるホルモン動態試験－（2007年10月19日承認、CTD 2.7.6.5）" .
+pi:PI_23.item29 pio:id "DOC_29" .
+pi:PI_23 dct:references pi:PI_23.item30 .
+pi:PI_23.item30 a bibo:Document .
+pi:PI_23.item30 rdfs:label "持田製薬社内資料：臨床薬理試験－子宮内膜症患者におけるホルモン動態試験－（2007年10月19日承認、CTD 2.7.2）" .
+pi:PI_23.item30 pio:id "DOC_30" .
+pi:PI_23 dct:references pi:PI_23.item31 .
+pi:PI_23.item31 a bibo:Document .
+pi:PI_23.item31 rdfs:label "大須賀　穣 他：薬理と治療. 2017；45（6）：907-920" .
+pi:PI_23.item31 pio:id "DOC_31" .
+pi:PI_23 dct:references pi:PI_23.item32 .
+pi:PI_23.item32 a bibo:Document .
+pi:PI_23.item32 rdfs:label "持田製薬社内資料：薬理試験－ヒト子宮内膜間質細胞の増殖に及ぼす影響－（2007年10月19日承認、CTD 2.6.2.2）" .
+pi:PI_23.item32 pio:id "DOC_32" .
+pi:PI_23 dct:references pi:PI_23.item33 .
+pi:PI_23.item33 a bibo:Document .
+pi:PI_23.item33 rdfs:label "Irahara, M. et al.：Reprod. Med. Biol. 2007；6（4）：223-228" .
+pi:PI_23.item33 pio:id "DOC_33" .
+pi:PI_23 dct:references pi:PI_23.item34 .
+pi:PI_23.item34 a bibo:Document .
+pi:PI_23.item34 rdfs:label "持田製薬社内資料：薬理試験－ラット子宮内膜自家移植モデルにおける有効性－（2007年10月19日承認、CTD 2.6.2.2）" .
+pi:PI_23.item34 pio:id "DOC_34" .
+pi:PI_23 dct:references pi:PI_23.item35 .
+pi:PI_23.item35 a bibo:Document .
+pi:PI_23.item35 rdfs:label "持田製薬社内資料：薬理試験－ウサギ子宮内膜自家移植モデルにおける有効性－（2007年10月19日承認、CTD 2.6.2.2）" .
+pi:PI_23.item35 pio:id "DOC_35" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "持田製薬株式会社　くすり相談窓口"@ja .
+pi:PI_24.item1 pio:address "東京都新宿区四谷1丁目7番地　〒160-8515"@ja .
+pi:PI_24.item1 pio:contact_information "TEL 03-5229-3906　 0120-189-522 FAX 03-5229-3955"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "持田製薬株式会社"@ja .
+pi:PI_26.item1 pio:address "東京都新宿区四谷1丁目7番地"@ja .

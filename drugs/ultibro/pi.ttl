@@ -94,6 +94,10 @@ pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1
 pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "グリコピロニウムとして"@ja .
 pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "50μg"@ja .
 pi:PI_3_1.item1 pio:additives "乳糖水和物、ステアリン酸マグネシウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "乳糖水和物"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "ステアリン酸マグネシウム"@ja .
 pi:PI_3_2 a pio:PI_3_2 .
 pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
 pi:PI_3_2.item1 pio:weight "約0.074g" .

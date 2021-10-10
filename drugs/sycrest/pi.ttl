@@ -98,13 +98,21 @@ pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1
 pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "アセナピンとして"@ja .
 pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "5.00mg"@ja .
 pi:PI_3_1.item1 pio:additives "ゼラチン、D－マンニトール"@ja .
-pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
-pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "（1錠中） アセナピンマレイン酸塩"@ja .
-pi:PI_3_1.item1.contained_amount pio:value_and_unit "14.06mg"@ja .
-pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
-pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "アセナピンとして"@ja .
-pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "10.00mg"@ja .
-pi:PI_3_1.item1 pio:additives "ゼラチン、D－マンニトール"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "ゼラチン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "D－マンニトール"@ja .
+pi:PI_3_1.item2 pio:contained_amount pi:PI_3_1.item2.contained_amount .
+pi:PI_3_1.item2.contained_amount pio:active_ingredient_name "（1錠中） アセナピンマレイン酸塩"@ja .
+pi:PI_3_1.item2.contained_amount pio:value_and_unit "14.06mg"@ja .
+pi:PI_3_1.item2.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item2.active_ingredient_additional_info .
+pi:PI_3_1.item2.active_ingredient_additional_info pio:active_ingredient_name "アセナピンとして"@ja .
+pi:PI_3_1.item2.active_ingredient_additional_info pio:value_and_unit "10.00mg"@ja .
+pi:PI_3_1.item2 pio:additives "ゼラチン、D－マンニトール"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive1 .
+pi:PI_3_1.item2.additive1 pio:additive "ゼラチン"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive2 .
+pi:PI_3_1.item2.additive2 pio:additive "D－マンニトール"@ja .
 pi:PI_3_2 a pio:PI_3_2 .
 pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
 pi:PI_3_2.item1 pio:formulation "円形錠（凍結乾燥品）" .

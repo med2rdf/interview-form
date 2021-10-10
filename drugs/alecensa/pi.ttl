@@ -96,6 +96,26 @@ pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1
 pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "アレクチニブとして"@ja .
 pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "150mg"@ja .
 pi:PI_3_1.item1 pio:additives "内容物：乳糖水和物、カルメロースカルシウム、ヒドロキシプロピルセルロース、ラウリル硫酸ナトリウム、ステアリン酸マグネシウム カプセル：ヒプロメロース、カラギーナン、塩化カリウム、酸化チタン、カルナウバロウ、トウモロコシデンプン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "内容物：乳糖水和物"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "カルメロースカルシウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "ヒドロキシプロピルセルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "ラウリル硫酸ナトリウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "ステアリン酸マグネシウム カプセル：ヒプロメロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
+pi:PI_3_1.item1.additive6 pio:additive "カラギーナン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive7 .
+pi:PI_3_1.item1.additive7 pio:additive "塩化カリウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive8 .
+pi:PI_3_1.item1.additive8 pio:additive "酸化チタン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive9 .
+pi:PI_3_1.item1.additive9 pio:additive "カルナウバロウ"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive10 .
+pi:PI_3_1.item1.additive10 pio:additive "トウモロコシデンプン"@ja .
 pi:PI_3_2 a pio:PI_3_2 .
 pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
 pi:PI_3_2.item1 pio:formulation "硬カプセル" .

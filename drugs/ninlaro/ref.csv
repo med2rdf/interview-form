@@ -1,0 +1,54 @@
+subject,predicate,object
+1,rdf:type,bibo:Document
+1,rdfs:label,イキサゾミブクエン酸エステルの薬物動態試験成績
+1,dct:dateAccepted,2017-03-30
+1,ifo:internal_reference_id,
+1,ifo:ctd_number,"CTD 2.7.6.1"
+2,rdf:type,bibo:Document
+2,rdfs:label,イキサゾミブクエン酸エステルの第Ⅲ相試験成績①
+2,dct:dateAccepted,2017-03-30
+2,ifo:internal_reference_id,
+2,ifo:ctd_number,"CTD 2.7.6.5"
+3,rdf:type,bibo:Document
+3,rdfs:label,イキサゾミブクエン酸エステルの第Ⅲ相試験成績②（社内資料）
+3,dct:dateAccepted,
+3,ifo:internal_reference_id,
+3,ifo:ctd_number,
+4,rdf:type,bibo:Document
+4,rdfs:label,イキサゾミブクエン酸エステルの非臨床薬理試験成績
+4,dct:dateAccepted,2017-03-30
+4,ifo:internal_reference_id,
+4,ifo:ctd_number,"CTD 2.6.2"
+5,rdf:type,bibo:Article
+5,dct:references,21724551
+5,ifo:internal_reference_id,
+6,rdf:type,bibo:Document
+6,rdfs:label,イキサゾミブクエン酸エステルの薬物動態試験成績②
+6,dct:dateAccepted,2017-03-30
+6,ifo:internal_reference_id,
+6,ifo:ctd_number,"CTD 2.7.6.7"
+7,rdf:type,bibo:Document
+7,rdfs:label,イキサゾミブクエン酸エステルの薬物動態試験成績③
+7,dct:dateAccepted,2017-03-30
+7,ifo:internal_reference_id,
+7,ifo:ctd_number,"CTD 2.7.2"
+8,rdf:type,bibo:Document
+8,rdfs:label,イキサゾミブクエン酸エステルの薬物動態試験成績④
+8,dct:dateAccepted,2017-03-30
+8,ifo:internal_reference_id,
+8,ifo:ctd_number,"CTD 2.7.6.9"
+9,rdf:type,bibo:Document
+9,rdfs:label,イキサゾミブクエン酸エステルの非臨床薬物動態試験成績
+9,dct:dateAccepted,2017-03-30
+9,ifo:internal_reference_id,
+9,ifo:ctd_number,"CTD 2.6.4.5"
+10,rdf:type,bibo:Document
+10,rdfs:label,イキサゾミブクエン酸エステルの薬物動態試験成績⑥
+10,dct:dateAccepted,2017-03-30
+10,ifo:internal_reference_id,
+10,ifo:ctd_number,"CTD 2.7.6.8"
+11,rdf:type,bibo:Document
+11,rdfs:label,イキサゾミブクエン酸エステルの薬物動態試験成績⑤
+11,dct:dateAccepted,2017-03-30
+11,ifo:internal_reference_id,
+11,ifo:ctd_number,"CTD 2.7.6.10"

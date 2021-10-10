@@ -84,6 +84,18 @@ pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
 pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "日局 トリメブチンマレイン酸塩"@ja .
 pi:PI_3_1.item1.contained_amount pio:value_and_unit "1錠中 100mg"@ja .
 pi:PI_3_1.item1 pio:additives "エチルセルロース、カルメロースカルシウム、ステアリン酸マグネシウム、セルロース、ヒプロメロース、マクロゴール6000"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "エチルセルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "カルメロースカルシウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "ステアリン酸マグネシウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "セルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "ヒプロメロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
+pi:PI_3_1.item1.additive6 pio:additive "マクロゴール6000"@ja .
 pi:PI_3_2 a pio:PI_3_2 .
 pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
 pi:PI_3_2.item1 pio:formulation "フィルムコーティング錠" .

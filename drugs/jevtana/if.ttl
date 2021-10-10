@@ -1,0 +1,1317 @@
+@prefix	if:	<http://med2rdf.org/if/780069_4240410A1020_1_007_1F#>	.
+@prefix	pi:	<http://med2rdf.org/pi/780069_4240410A1020_1_06#>	.
+
+@prefix yjc:   <http://med2rdf.org/if/yjcode/> .
+@prefix pio:   <http://med2rdf.org/ontology/pio/> .
+@prefix ifo:   <http://med2rdf.org/ontology/ifo/> .
+
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix pav:   <http://purl.org/pav/> .
+@prefix olo:   <http://purl.org/ontology/olo/core#> .
+@prefix bibo:  <http://purl.org/ontology/bibo/> .
+@prefix prism: <http://prismstandard.org/namespaces/1.2/basic/> .
+@prefix pmid:  <http://rdf.ncbi.nlm.nih.gov/pubmed/> .
+
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	rdf:type	ifo:InterviewForm	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_7	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_8	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_9	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_10	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_11	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_12	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_13	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_14	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_15	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_16	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_17	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_18	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_19	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_0_20	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_4_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_4_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_4_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_4_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_5_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_5_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_1_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_1_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_1_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_1_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_2_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_2_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_2_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_2_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3_1_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3_1_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3_1_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3_1_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3_1_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3_1_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3_1_7	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_3_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_1_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_1_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_1_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_1_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_1_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_2_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_2_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_2_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_7	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_8	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_9	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_10	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_10_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_10_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_10_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_10_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_11	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_4_12	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_3_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_3_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_4_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_4_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_6_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_6_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_5_5_7	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_6_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_6_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_6_2_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_6_2_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_6_2_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_1_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_1_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_1_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_1_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_2_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_2_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_2_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_2_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_2_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_2_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_3_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_3_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_5_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_5_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_5_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_5_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_5_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_5_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_6_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_6_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_6_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_6_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_7	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_8	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_9	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_10	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_7_11	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_6_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_6_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_6_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_6_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_6_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_6_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_6_7	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_6_8	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_7	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_7_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_7_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_8	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_8_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_8_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_9	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_10	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_11	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_12	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_12_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_8_12_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_1_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_1_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_1_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_2_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_2_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_2_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_2_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_2_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_2_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_9_2_7	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_3	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_4	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_5	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_6	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_7	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_8	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_9	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_10	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_11	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_12	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_13	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_10_14	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_11	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_11_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_11_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_12	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_12_1	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_12_2	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:section	if:IF_13	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:package_insert	<http://med2rdf.org/pi/780069_4240410A1020_1_06>	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	dct:identifier	"780069_4240410A1020_1_007_1F"	.
+<http://med2rdf.org/pi/780069_4240410A1020_1_06>	dct:identifier	"780069_4240410A1020_1_06"	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	rdfs:seeAlso	<https://www.info.pmda.go.jp/go/interview/1/780069_4240410A1020_1_007_1F>	.
+<http://med2rdf.org/pi/780069_4240410A1020_1_06>	rdfs:seeAlso	<https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/780069_4240410A1020_1_06>	.
+<http://med2rdf.org/if/780069_4240410A1020_1_007_1F>	ifo:drug	yjc:4240410A1020	.
+yjc:4240410A1020	rdf:type	ifo:Drug	.
+yjc:4240410A1020	ifo:if_0_8	"ジェブタナ点滴静注60mg"@ja	.
+yjc:4240410A1020	ifo:if_0_9	"注射剤"@ja	.
+yjc:4240410A1020	ifo:if_0_11	"1バイアル1.5mL中にカバジタキセル アセトン付加物\r\n64.14mg（カバジタキセルとして60mg）含有"@ja	.
+yjc:4240410A1020	ifo:if_0_13	"2014-07-04"^^xsd:date	.
+yjc:4240410A1020	ifo:if_0_14	"2014-09-02"^^xsd:date	.
+yjc:4240410A1020	ifo:if_0_15	"2014-09-04"^^xsd:date	.
+yjc:4240410A1020	ifo:if_10_8	"22600AMX00751000"	.
+yjc:4240410A1020	ifo:yakka_code	"4240410A1020"	.
+yjc:4240410A1020	ifo:yj_code	"4240410A1020"	.
+yjc:4240410A1020	ifo:hot_code	"123646001"	.
+yjc:4240410A1020	ifo:resept_code	"622364601"	.
+if:IF_0_3	rdf:type	ifo:IF_0_3	.
+if:IF_0_3	rdf:type	ifo:Section	.
+if:IF_0_3	dct:modified	"2020-01"^^xsd:gYearMonth	.
+if:IF_0_3	pav:version	"7"	.
+if:IF_0_4	rdf:type	ifo:IF_0_4	.
+if:IF_0_4	rdf:type	ifo:Section	.
+if:IF_0_4	ifo:package_insert	pi:PI_0_2	.
+if:IF_0_4	rdf:value	"87424"	.
+if:IF_0_6	rdf:type	ifo:IF_0_6	.
+if:IF_0_6	rdf:type	ifo:Section	.
+if:IF_0_6	rdf:value	"2018"^^xsd:gYear	.
+if:IF_0_7	rdf:type	ifo:IF_0_7	.
+if:IF_0_7	rdf:type	ifo:Section	.
+if:IF_0_7	ifo:package_insert	pi:PI_0_5	.
+if:IF_0_7	rdf:value	"抗悪性腫瘍剤"@ja	.
+if:IF_0_8	rdf:type	ifo:IF_0_8	.
+if:IF_0_8	rdf:type	ifo:Section	.
+if:IF_0_8	ifo:package_insert	pi:PI_0_7	.
+if:IF_0_8	rdf:value	"ジェブタナ点滴静注60mg"@ja	.
+if:IF_0_10	rdf:type	ifo:IF_0_10	.
+if:IF_0_10	rdf:type	ifo:Section	.
+if:IF_0_10	ifo:package_insert	pi:PI_0_6	.
+if:IF_0_10	rdf:value	"毒薬\r\n処方箋医薬品：注意－医師等の処方箋により使用すること"@ja	.
+if:IF_0_12	rdf:type	ifo:IF_0_12	.
+if:IF_0_12	rdf:type	ifo:Section	.
+if:IF_0_12	ifo:package_insert	pi:PI_0_7	.
+if:IF_0_12	rdf:value	"カバジタキセル アセトン付加物（JAN）"@ja	.
+if:IF_0_12	rdf:value	"Cabazitaxel Acetonate（JAN）"@ja	.
+if:IF_0_16	rdf:type	ifo:IF_0_16	.
+if:IF_0_16	rdf:type	ifo:Section	.
+if:IF_0_16	ifo:package_insert	pi:PI_26	.
+if:IF_0_16	rdf:value	"製造販売：サノフィ株式会社"@ja	.
+if:IF_0_18	rdf:type	ifo:IF_0_18	.
+if:IF_0_18	rdf:type	ifo:Section	.
+if:IF_0_18	ifo:package_insert	pi:PI_24	.
+if:IF_0_18	rdf:value	"サノフィ株式会社\r\n医薬品関連：くすり相談室(平日9:00～17:00)\r\nＴＥＬ：０１２０－１０９－９０５ ＦＡＸ：(０３)６３０１－３０１０\r\n医療関係者向け製品情報サイト：サノフィ e-MR\r\nhttp://e-mr.sanofi.co.jp/"@ja	.
+if:IF_0_19	rdf:type	ifo:IF_0_19	.
+if:IF_0_19	rdf:type	ifo:Section	.
+if:IF_0_19	ifo:package_insert	pi:PI_0_1	.
+if:IF_0_19	rdf:value	"2020-01"^^xsd:gYearMonth	.
+if:IF_1_1	rdf:type	ifo:IF_1_1	.
+if:IF_1_1	rdf:type	ifo:Section	.
+if:IF_1_1	rdf:value	"ジェブタナ®点滴静注60mg（一般名：カバジタキセル アセトン付加物、以下「カバジタキセル」）\r\nは、Rhone-Poulenc Rorer 社（現Sanofi 社）によりフランスで見出され、ヨーロッパイチイの針\r\n状葉から抽出した10-デアセチルバッカチンⅢから半合成されたタキサン系抗悪性腫瘍剤である。\r\nカバジタキセルは、チューブリン重合を促進し、微小管を安定化することによって細胞分裂を阻\r\n害し、細胞死を誘発、腫瘍増殖を抑制すると考えられている。\r\nカバジタキセルは、有効な治療法が存在しないドセタキセル治療後の前立腺癌患者に対して生存\r\n時間の延長を示した数少ない薬剤であり、NCCN（National Comprehensive Cancer Network）\r\n及びEAU（European Association of Urology）などのガイドラインにおいて、ドセタキセルを含\r\nむ前治療歴のある去勢抵抗性前立腺癌に用いることが推奨されている。\r\n本邦では、転移性前立腺癌の初期治療としてほとんどの患者にホルモン療法が実施されるが、一\r\n時的に有効なものの、ほとんどの症例がホルモン療法に対して抵抗性を獲得することが知られて\r\nおり、本邦においても海外と同様のカバジタキセルの臨床的位置付けが想定される。\r\nカバジタキセルは、非臨床試験において、前立腺癌由来DU-145 細胞株を含む各種ヒト由来腫瘍\r\n細胞株を皮下移植したヌードマウスにおいて強い抗腫瘍効果を示した。またドセタキセル抵抗性\r\n腫瘍細胞株に対するin vitro 腫瘍細胞増殖抑制作用、及びドセタキセルに対して非感受性もしく\r\nは低感受性を示す進行期マウス腫瘍移植モデルにおいて抗腫瘍効果を示した。これらの結果より\r\nカバジタキセルは前立腺癌及びドセタキセルに対して抵抗性を示す腫瘍に対しても有効性が期待\r\nされる薬剤であると考えられた。\r\n海外ではドセタキセル治療歴のある去勢抵抗性転移性前立腺癌患者を対象にした、第Ⅲ相臨床試\r\n験の結果に基づき、「ドセタキセルを含む前治療歴のある去勢抵抗性転移性前立腺癌」を効能・効\r\n果として承認され、現在、80を超える国と地域で承認されている。\r\n本邦では「医療上の必要性の高い未承認薬・適応外薬検討会議」にて、医療上の必要性が高い薬剤\r\nと評価され、2012年4月に厚生労働省より開発要請を受けた。また、去勢抵抗性前立腺癌患者を対\r\n象とした第Ⅰ相臨床試験を実施し、日本人患者において海外承認用法及び用量での忍容性及び有\r\n効性が認められたことから、国内第Ⅰ相臨床試験成績、海外第Ⅲ相国際共同臨床試験成績及びそ\r\nの他、海外臨床試験成績に基づいて承認申請を行った。\r\n本邦でジェブタナは2014年7月4日に「前立腺癌」*を効能又は効果として、製造販売承認を取得し\r\nた。\r\n*：＜効能又は効果に関連する使用上の注意＞\r\n5.1 本剤は外科的又は内科的去勢術を行い、進行又は再発が確認された患者を対象とすること。\r\n5.2 本剤の化学療法未治療の前立腺癌における有効性及び安全性は確立していない。\r\n5.3 「17.臨床成績」の項の内容を熟知し、本剤の有効性及び安全性を十分に理解した上で適応患者の選択を行う\r\nこと。"@ja	.
+if:IF_1_2	rdf:type	ifo:IF_1_2	.
+if:IF_1_2	rdf:type	ifo:Section	.
+if:IF_1_2	ifo:package_insert	pi:PI_11_1	.
+if:IF_1_2	rdf:value	"１．ヒト前立腺癌由来DU-145細胞株を移植したマウスにおいて、腫瘍増殖抑制作用が認められ\r\nた。（26頁参照）\r\n２．ドセタキセル抵抗性細胞株*1に対するin vitro 抗腫瘍効果、およびドセタキセル非感受性／低\r\n感受性細胞株を移植したマウス*2におけるin vivo 抗腫瘍効果が認められた。（25～28頁参\r\n照）\r\n*1 ：P388/TXT、Calc18/TXT 細胞\r\n*2 ：B16/TXT、UISO-BCA-1、HCT-8及びGXF-209細胞を移植したマウス\r\n３．ドセタキセルによる化学療法歴を有する去勢抵抗性前立腺癌患者を対象とした国内第Ⅰ相臨\r\n床試験において、腫瘍縮小効果奏効率は16.7％（2/12例）、PSA 奏効率*は29.3％（12/41例）\r\nであった。（19～20頁参照）\r\n*：PSA 値がベースラインから50％以上低下した患者の割合\r\n４．ドセタキセルによる化学療法歴を有する去勢抵抗性前立腺癌患者を対象とした海外第Ⅲ相国\r\n際共同臨床試験において、ジェブタナの全生存期間中央値は15.1ヵ月であった。（20～21頁\r\n参照）\r\n５．国内第Ⅰ相臨床試験でジェブタナ25mg/m2を投与された44例中44例（100％）に副作用が認め\r\nられた。主な副作用（全Grade）は好中球減少症44例（100％）、発熱性好中球減少症24例\r\n（54.5％）、疲労24例（54.5％）、悪心21例（47.7％）、下痢20例（45.5％）、食欲減退16\r\n例（36.4％）、貧血13例（29.5％）、味覚異常12例（27.3％）等であった。このうちGrade3\r\n以上の主な副作用は、好中球減少症44例（100％）、発熱性好中球減少症24例（54.5％）、貧\r\n血11例（25.0％）等であった。\r\n海外第Ⅲ相臨床試験におけるジェブタナ投与群の安全性評価対象371例中、313例（84.4％）\r\nに副作用が認められた。主な副作用（全Grade）は、下痢135例（36.4％）、疲労110例（29.6％）、\r\n悪心106例（28.6％）、好中球減少症81例（21.8％）、嘔吐57例（15.4％）、無力症57例（15.4％）、\r\n食欲減退46例（12.4％）、味覚異常38例（10.2％）等であった。このうちGrade3以上の主な\r\n副作用は好中球減少症79例（21.3％）、発熱性好中球減少症28例（7.5％）、下痢19例（5.1％）、\r\n白血球減少症14例（3.8％）、疲労14例（3.8％）等であった。（承認時）\r\nなお、重大な副作用として、骨髄抑制、腎不全、消化管出血、消化管穿孔、イレウス、重篤な\r\n腸炎、重篤な下痢、感染症、不整脈、心不全、アナフィラキシーショック、末梢神経障害、肝\r\n不全、肝機能障害、播種性血管内凝固症候群（DIC）、急性膵炎、皮膚粘膜眼症候群（Stevens-\r\nJohnson 症候群）、心タンポナーデ、浮腫、体液貯留、心筋梗塞、静脈血栓塞栓症、間質性\r\n肺疾患が報告されている。また、類薬による重大な副作用として、ドセタキセルを投与され\r\nた患者で、抗利尿ホルモン不適合分泌症候群（SIADH）、重篤な口内炎等の粘膜炎、血管炎\r\nが報告されている。"@ja	.
+if:IF_1_3	rdf:type	ifo:IF_1_3	.
+if:IF_1_3	rdf:type	ifo:Section	.
+if:IF_1_3	rdf:value	" 本剤は添付溶解液を同梱している。必ず11 頁に示す「調製方法」に従い調製を行うこと。"@ja	.
+if:IF_1_4_1	rdf:type	ifo:IF_1_4_1	.
+if:IF_1_4_1	rdf:type	ifo:Section	.
+if:IF_1_4_1	rdf:value	"有"@ja	.
+if:IF_1_4_1	rdfs:comment	" （「Ⅰ．６．ＲＭＰ」の項参照）"@ja	.
+if:IF_1_4_1	rdfs:seeAlso	if:IF_1_6	.
+if:IF_1_4_2	rdf:type	ifo:IF_1_4_2	.
+if:IF_1_4_2	rdf:type	ifo:Section	.
+if:IF_1_4_2	rdf:value	"有"@ja	.
+if:IF_1_4_2	rdfs:comment	" 適正使用ガイド（医療従事者向け資材）\r\n 適正使用情報―骨髄抑制、発熱性好中球減少症への\r\n対策について"@ja	.
+if:IF_1_4_3	rdf:type	ifo:IF_1_4_3	.
+if:IF_1_4_3	rdf:type	ifo:Section	.
+if:IF_1_4_3	rdf:value	"無"@ja	.
+if:IF_1_4_4	rdf:type	ifo:IF_1_4_4	.
+if:IF_1_4_4	rdf:type	ifo:Section	.
+if:IF_1_4_4	rdf:value	"有"@ja	.
+if:IF_1_4_4	rdfs:comment	"カバジタキセル アセトン付加物製剤の使用に当たっ\r\nての留意事項について （平成26 年7 月4 日 薬食審\r\n査発0704 第1 号）"@ja	.
+if:IF_1_5_1	rdf:type	ifo:IF_1_5_1	.
+if:IF_1_5_1	rdf:type	ifo:Section	.
+if:IF_1_5_1	ifo:package_insert	pi:PI_21	.
+if:IF_1_5_1	rdf:value	"国内での治験症例が極めて限られていることから、製造販売後、一定数の症例に係るデー\r\nタが集積されるまでの間は、全症例を対象に使用成績調査を実施することにより、本剤使\r\n用患者の背景情報を把握するとともに、本剤の安全性及び有効性に関するデータを早期に\r\n収集し、本剤の適正使用に必要な措置を講じること。\r\n「Ⅰ．６．ＲＭＰの概要」の項参照"@ja	.
+if:IF_1_5_1	rdfs:seeAlso	if:IF_1_6	.
+if:IF_1_5_2	rdf:type	ifo:IF_1_5_2	.
+if:IF_1_5_2	rdf:type	ifo:Section	.
+if:IF_1_5_2	ifo:package_insert	pi:PI_21	.
+if:IF_1_5_2	rdf:value	"特になし"@ja	.
+if:IF_1_6	rdf:type	ifo:IF_1_6	.
+if:IF_1_6	rdf:type	ifo:Section	.
+if:IF_1_6	ifo:package_insert	pi:PI_1	.
+if:IF_1_6	rdf:value	"最新の情報は、独立行政法人 医薬品医療機器総合機構の医薬品情報検索ページで確認してくだ\r\nさい。"@ja	.
+if:IF_2_1_1	rdf:type	ifo:IF_2_1_1	.
+if:IF_2_1_1	rdf:type	ifo:Section	.
+if:IF_2_1_1	ifo:package_insert	pi:PI_0_7	.
+if:IF_2_1_1	rdf:value	"ジェブタナ®点滴静注60mg"@ja	.
+if:IF_2_1_2	rdf:type	ifo:IF_2_1_2	.
+if:IF_2_1_2	rdf:type	ifo:Section	.
+if:IF_2_1_2	ifo:package_insert	pi:PI_0_7	.
+if:IF_2_1_2	rdf:value	"JEVTANA®60mg I.V. Infusion"@ja	.
+if:IF_2_1_3	rdf:type	ifo:IF_2_1_3	.
+if:IF_2_1_3	rdf:type	ifo:Section	.
+if:IF_2_1_3	rdf:value	"特になし"@ja	.
+if:IF_2_2_1	rdf:type	ifo:IF_2_2_1	.
+if:IF_2_2_1	rdf:type	ifo:Section	.
+if:IF_2_2_1	ifo:package_insert	pi:PI_19	.
+if:IF_2_2_1	rdf:value	"カバジタキセル アセトン付加物（JAN）"@ja	.
+if:IF_2_2_2	rdf:type	ifo:IF_2_2_2	.
+if:IF_2_2_2	rdf:type	ifo:Section	.
+if:IF_2_2_2	ifo:package_insert	pi:PI_19	.
+if:IF_2_2_2	rdf:value	"Cabazitaxel Acetonate（JAN）\r\ncabazitaxel（INN）"@ja	.
+if:IF_2_2_3	rdf:type	ifo:IF_2_2_3	.
+if:IF_2_2_3	rdf:type	ifo:Section	.
+if:IF_2_2_3	rdf:value	"タキサン系抗悪性腫瘍薬：-taxel"@ja	.
+if:IF_2_4	rdf:type	ifo:IF_2_4	.
+if:IF_2_4	rdf:type	ifo:Section	.
+if:IF_2_4	ifo:package_insert	pi:PI_19	.
+if:IF_2_4	rdf:value	"分子式：C45H57NO14・C3H6O\r\n分子量：894.01"@ja	.
+if:IF_2_5	rdf:type	ifo:IF_2_5	.
+if:IF_2_5	rdf:type	ifo:Section	.
+if:IF_2_5	ifo:package_insert	pi:PI_19	.
+if:IF_2_5	rdf:value	"日本名：\r\n(2R,3S)-3-(1,1-ジメチルエチル)オキシカルボニルアミノ-2-ヒドロキシ-3-フェニルプロパン酸\r\n(1S,2S,3R,4S,5R,7S,8S,10R,13S)-4-アセトキシ-2-ベンゾイルオキシ-5,20-エポキシ-1-ヒドロキシ\r\n-7,10-ジメトキシ-9-オキソタキス-11-エン-13-イル 一アセトン付加物（JAN）\r\n英 名：\r\n(1S,2S,3R,4S,5R,7S,8S,10R,13S)-4-Acetoxy-2-benzoyloxy-5,20-epoxy-1-hydroxy-7,10-\r\ndimethoxy-9-oxotax-11-ene-13-yl(2R,3S)-3-(1,1-dimethylethyl)oxycarbonylamino-2-hydroxy-\r\n3-phenylpropanoate monoacetonate（JAN）"@ja	.
+if:IF_2_6	rdf:type	ifo:IF_2_6	.
+if:IF_2_6	rdf:type	ifo:Section	.
+if:IF_2_6	ifo:package_insert	pi:PI_19	.
+if:IF_2_6	rdf:value	"XRP6258, RPR116258A"	.
+if:IF_3_1_1	rdf:type	ifo:IF_3_1_1	.
+if:IF_3_1_1	rdf:type	ifo:Section	.
+if:IF_3_1_1	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_1	rdf:value	"白色の粉末"@ja	.
+if:IF_3_1_2	rdf:type	ifo:IF_3_1_2	.
+if:IF_3_1_2	rdf:type	ifo:Section	.
+if:IF_3_1_2	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_2	rdf:value	"アセトン又はジクロロメタンに溶けやすく、無水エタノールにやや溶けやすく、水にほとんど溶\r\nけない。"@ja	.
+if:IF_3_1_3	rdf:type	ifo:IF_3_1_3	.
+if:IF_3_1_3	rdf:type	ifo:Section	.
+if:IF_3_1_3	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_3	rdf:value	"吸湿性を示さなかった（25℃/80%RH, 24時間）。"@ja	.
+if:IF_3_1_4	rdf:type	ifo:IF_3_1_4	.
+if:IF_3_1_4	rdf:type	ifo:Section	.
+if:IF_3_1_4	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_4	rdf:value	"融解範囲：140～175℃（その後分解）"@ja	.
+if:IF_3_1_5	rdf:type	ifo:IF_3_1_5	.
+if:IF_3_1_5	rdf:type	ifo:Section	.
+if:IF_3_1_5	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_5	rdf:value	"該当資料なし"@ja	.
+if:IF_3_1_6	rdf:type	ifo:IF_3_1_6	.
+if:IF_3_1_6	rdf:type	ifo:Section	.
+if:IF_3_1_6	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_6	rdf:value	"log P＝3.88 ± 0.03（24℃，pH 7，0.15mol/L 塩化カリウム溶液）"@ja	.
+if:IF_3_1_7	rdf:type	ifo:IF_3_1_7	.
+if:IF_3_1_7	rdf:type	ifo:Section	.
+if:IF_3_1_7	ifo:package_insert	pi:PI_19	.
+if:IF_3_1_7	rdf:value	"旋光度［α］20\r\nD：約-41°（0.5w/v%メタノール溶液）"@ja	.
+if:IF_3_3	rdf:type	ifo:IF_3_3	.
+if:IF_3_3	rdf:type	ifo:Section	.
+if:IF_3_3	rdf:value	"確認試験法\r\n赤外吸収スペクトル測定法、液体クロマトグラフィーにより確認する。\r\n定量法\r\n液体クロマトグラフィーにより定量する。"@ja	.
+if:IF_4_1_1	rdf:type	ifo:IF_4_1_1	.
+if:IF_4_1_1	rdf:type	ifo:Section	.
+if:IF_4_1_1	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_1	rdf:value	"確認試験法\r\n赤外吸収スペクトル測定法、液体クロマトグラフィーにより確認する。\r\n定量法\r\n液体クロマトグラフィーにより定量する。"@ja	.
+if:IF_4_1_3	rdf:type	ifo:IF_4_1_3	.
+if:IF_4_1_3	rdf:type	ifo:Section	.
+if:IF_4_1_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_3	rdf:value	"該当しない"@ja	.
+if:IF_4_1_4	rdf:type	ifo:IF_4_1_4	.
+if:IF_4_1_4	rdf:type	ifo:Section	.
+if:IF_4_1_4	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_4	rdf:value	"pH：3.0～4.0（本品の10％水溶液について測定したとき）\r\n浸透圧比（生理食塩液に対する比）：約1（添付溶解液で溶解後、本剤濃度が0.10又は0.25 mg/mL\r\nとなるよう5％ブドウ糖注射液又は生理食塩液で希釈したとき）"@ja	.
+if:IF_4_1_5	rdf:type	ifo:IF_4_1_5	.
+if:IF_4_1_5	rdf:type	ifo:Section	.
+if:IF_4_1_5	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_1_5	rdf:value	"バイアル内は窒素が充填されている"@ja	.
+if:IF_4_2_2	rdf:type	ifo:IF_4_2_2	.
+if:IF_4_2_2	rdf:type	ifo:Section	.
+if:IF_4_2_2	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_2_2	rdf:value	"該当資料なし"@ja	.
+if:IF_4_2_3	rdf:type	ifo:IF_4_2_3	.
+if:IF_4_2_3	rdf:type	ifo:Section	.
+if:IF_4_2_3	ifo:package_insert	pi:PI_3_2	.
+if:IF_4_2_3	rdf:value	"該当しない"@ja	.
+if:IF_4_4	rdf:type	ifo:IF_4_4	.
+if:IF_4_4	rdf:type	ifo:Section	.
+if:IF_4_4	ifo:package_insert	pi:PI_3_1	.
+if:IF_4_4	rdf:value	"該当しない"@ja	.
+if:IF_4_5	rdf:type	ifo:IF_4_5	.
+if:IF_4_5	rdf:type	ifo:Section	.
+if:IF_4_5	rdf:value	"特になし"@ja	.
+if:IF_4_7	rdf:type	ifo:IF_4_7	.
+if:IF_4_7	rdf:type	ifo:Section	.
+if:IF_4_7	rdf:value	"(1)注射剤の調製法\n1)調製時には手袋を着用することが望ましい。本剤が皮膚に付着した場合には、直ちに石鹸及\nび多量の流水で洗い流すこと。また、粘膜に付着した場合には、直ちに多量の流水で洗い流\nすこと。\n2)本剤は投与前に2段階の希釈を行う必要がある。必ず11頁に示す「調製方法」に従い調製\nを行うこと。ジェブタナ点滴静注60mg 及び添付溶解液バイアルは調製時の損失を考慮\nに入れ過量充填されている[「１．剤形、２．製剤の組成」の項参照] 。本剤全量に対し\n添付溶解液全量を使用して溶解することで、カバジタキセル濃度10mg/mL のプレミック\nス液（希釈の1段階目）を調製することができる。\n3)輸液と混和した後は速やかに使用すること。やむをえず保存する場合は、室温で8時間、\n冷蔵保存で48時間（いずれも点滴に要する1時間を含む）以内に使用すること。\n4)他剤との混注を行わないこと。\n(2)溶解後の安定性\n1)添付溶解液溶解後（プレミックス液※）の安定性\n※ジェブタナ点滴静注60mg と添付溶解液の混合液（カバジタキセル濃度10mg/mL）\nプレミックス液は過飽和の状態のため、調製後直ちに（1時間以内に）使用すること。\n2)輸液混和後の安定性\n本剤のプレミックス液を生理食塩液又はブドウ糖注射液に混和して投与液とし、安定性を検\n討した。輸液バッグ/輸液ボトルとの化学的な適合性及び物理的な適合性を①及び②に、輸液\nセットとの適合性を③に示す。\n①輸液バッグ（又は輸液ボトル）との化学的な適合性\n②輸液バッグ（又は輸液ボトル）との物理的な適合性\n③輸液セットとの適合性"@ja	.
+if:IF_4_7	dct:references	if:ref1	.
+if:IF_4_7	dct:references	if:ref2	.
+if:IF_4_7	dct:references	if:ref3	.
+if:IF_4_7	rdfs:seeAlso	if:IF_1_2	.
+if:IF_4_7	rdfs:seeAlso	if:IF_8_11	.
+if:IF_4_8	rdf:type	ifo:IF_4_8	.
+if:IF_4_8	rdf:type	ifo:Section	.
+if:IF_4_8	rdf:value	"該当資料なし"@ja	.
+if:IF_4_8	rdfs:seeAlso	if:IF_8_11	.
+if:IF_4_9	rdf:type	ifo:IF_4_9	.
+if:IF_4_9	rdf:type	ifo:Section	.
+if:IF_4_9	rdf:value	"該当しない"@ja	.
+if:IF_4_10_1	rdf:type	ifo:IF_4_10_1	.
+if:IF_4_10_1	rdf:type	ifo:Section	.
+if:IF_4_10_1	rdf:value	"ポリ塩化ビニル製の輸液バッグ及びポリウレタン製の輸液セットの使用は避けること。\r\n[ポリ塩化ビニル製の輸液バッグでは、カバジタキセル含量の低下及び可塑剤DEHP の溶出が認\r\nめられた。また、ポリウレタン製の輸液セットではカバジタキセルの吸着が認められた。]\r\n「７．調製法及び溶解後の安定性」の項参照。\r\n[「Ⅷ．安全性に関する項目 11.適用上の注意」の項参照]"@ja	.
+if:IF_4_10_1	rdfs:seeAlso	if:IF_7	.
+if:IF_4_10_1	rdfs:seeAlso	if:IF_8_11	.
+if:IF_4_10_2	rdf:type	ifo:IF_4_10_2	.
+if:IF_4_10_2	rdf:type	ifo:Section	.
+if:IF_4_10_2	ifo:package_insert	pi:PI_22	.
+if:IF_4_10_2	rdf:value	"ジェブタナ点滴静注60mg：1.5mL×1バイアル（溶解液添付）"@ja	.
+if:IF_4_10_3	rdf:type	ifo:IF_4_10_3	.
+if:IF_4_10_3	rdf:type	ifo:Section	.
+if:IF_4_10_3	rdf:value	"該当しない"@ja	.
+if:IF_4_10_4	rdf:type	ifo:IF_4_10_4	.
+if:IF_4_10_4	rdf:type	ifo:Section	.
+if:IF_4_10_4	rdf:value	"ジェブタナ点滴静注60mg バイアル、添付溶解液バイアル\r\nバイアル：無色ガラス\r\nゴム栓：クロロブチルゴム\r\nキャップ：アルミニウム、ポリプロピレン"@ja	.
+if:IF_4_11	rdf:type	ifo:IF_4_11	.
+if:IF_4_11	rdf:type	ifo:Section	.
+if:IF_4_11	rdf:value	"該当しない"@ja	.
+if:IF_4_12	rdf:type	ifo:IF_4_12	.
+if:IF_4_12	rdf:type	ifo:Section	.
+if:IF_4_12	rdf:value	"特になし"@ja	.
+if:IF_5_1	rdf:type	ifo:IF_5_1	.
+if:IF_5_1	rdf:type	ifo:Section	.
+if:IF_5_1	ifo:package_insert	pi:PI_4	.
+if:IF_5_1	rdf:value	"前立腺癌"@ja	.
+if:IF_5_2	rdf:type	ifo:IF_5_2	.
+if:IF_5_2	rdf:type	ifo:Section	.
+if:IF_5_2	ifo:package_insert	pi:PI_5	.
+if:IF_5_2	ifo:item	if:IF_5_2.item1	.
+if:IF_5_2	ifo:item	if:IF_5_2.item2	.
+if:IF_5_2.item1	rdf:type	ifo:Item	.
+if:IF_5_2.item1	ifo:package_insert	pi:PI_5.item1	.
+if:IF_5_2.item1	dct:identifier	"5.2.item1"	.
+if:IF_5_2.item1	rdf:value	"5.1、5.2 本剤の有効性及び安全性が確認された国内第Ⅰ相臨床試験及び海外第Ⅲ相臨床試験の対\r\n象患者は、外科的又は内科的去勢術を行い、ドセタキセルによる治療歴があり、進行又は再発\r\nが確認された前立腺癌患者であり、それ以外の患者での有効性及び安全性が確立されていない\r\nことから設定した。"@ja	.
+if:IF_5_2.item2	rdf:type	ifo:Item	.
+if:IF_5_2.item2	ifo:package_insert	pi:PI_5.item2	.
+if:IF_5_2.item2	dct:identifier	"5.2.item2"	.
+if:IF_5_2.item2	rdf:value	"5.3 本剤の添付文書の「17.臨床成績」の項に、国内第Ⅰ相臨床試験及び海外第Ⅲ相臨床試験の概\r\n要を記載している。本剤の投与を行うにあたっては、これらの内容を十分に理解した上で、患\r\n者を選択することが重要であるため設定した。\r\n「５．臨床成績 （3）用量反応探索試験 及び（4）検証的試験」の項参照。"@ja	.
+if:IF_5_2.item2	rdfs:seeAlso	if:IF_5_3_4	.
+if:IF_5_3_1	rdf:type	ifo:IF_5_3_1	.
+if:IF_5_3_1	rdf:type	ifo:Section	.
+if:IF_5_3_1	ifo:package_insert	pi:PI_6	.
+if:IF_5_3_1	rdf:value	"プレドニゾロンとの併用において、通常、成人に1日1回、カバジタキセルとして25mg/m2（体表\r\n面積）を1時間かけて3週間間隔で点滴静注する。なお、患者の状態により適宜減量すること。"@ja	.
+if:IF_5_3_1	rdf:value	"海外第I 相臨床試験は固形癌を対象に3 試験(TED6188、TED6189、TED6190)が実施され、そ\r\nのうち2 試験(TED6188 およびTED6190)はカバジタキセルの3 週間間隔投与であった。これ\r\nら2 試験では用量制限毒性(DLT)が30mg/m2 および25mg/m2 で確認されたことから、第Ⅱ相臨\r\n床試験以降の推奨用量は20mg/m2 もしくは25mg/m2 であると考えられた。その後、海外第Ⅲ相\r\n臨床試験(EFC6193)ではドセタキセル治療後の前立腺癌患者に対してカバジタキセル25mg/m2\r\nが用いられ、主要評価項目である全生存期間の延長を示した。\r\nこれら海外臨床試験成績を踏まえ、国内第I 相臨床試験は開始用量を20mg/m2 とし、海外で承\r\n認用量である25mg/m2 まで用量漸増ができる試験を計画した。また、25mg/m2 でDLT が確認\r\nできなかった場合はその用量を最大耐量(MTD)とし、それ以上の用量漸増は実施しないことと\r\nした。\r\n国内第I 相臨床試験(TED11576 試験)では、用量漸増コホー卜の20mg/m2 群、及び25mg/m2 群\r\nでは、DLT は観察されず、25mg/m2 がMTD と決定した。さらにその後、より多い被験者を対\r\n象に安全性を確認するために設けられた追加コホートには41 例が投与され、DLT 評価可能例\r\n40 名中2 名にDLT が認められた。25mg/m2 群では被験者の76.2%に延期が、61.9%に減量が\r\n認められたものの、相対用量強度の80%以上で、治験実施計画書で意図した投与が維持できて\r\nいた。また10 サイクル投与を継続できた被験者の割合はEFC6193 試験のカバジタキセル群で\r\n29.4%、TED11576 試験の25mg/m2 群で34.1%と同程度であった。カバジタキセル25mg/m2 群\r\nで投与は、日本人でも良好な忍容性が確認され、有効性を示すことが示唆された。\r\n上述の結果より、国内の推奨用法・用量をカバジタキセル25mg/m2 をl 時聞かけて3 週間間隔\r\nで点滴静注とした。\r\n"@ja	.
+if:IF_5_3_1.item1	rdf:type	ifo:Item	.
+if:IF_5_3_1.item1	ifo:package_insert	pi:PI_6.item1	.
+if:IF_5_3_1.item1	dct:identifier	"5.3.1.item1"	.
+if:IF_5_3_1.item1	rdf:value	"7.1 国内外の臨床試験では、本剤による治療期間中、プレドニゾロン又はプレドニゾン※を併用し\r\nている。※：国内未承認\r\n＜参考＞ 臨床試験におけるプレドニゾロン又はプレドニゾン※の用法及び用量\r\n国内第Ⅰ相臨床試験：プレドニゾロン10mg/日（5mg を2 回又は10mg を1 回）経口投与\r\n海外第Ⅲ相臨床試験：プレドニゾン※又はプレドニゾロン10mg/日（投与回数の規定なし）\r\n経口投与\r\n※：国内未承認"@ja	.
+if:IF_5_3_1.item2	rdf:type	ifo:Item	.
+if:IF_5_3_1.item2	ifo:package_insert	pi:PI_6.item2	.
+if:IF_5_3_1.item2	dct:identifier	"5.3.1.item2"	.
+if:IF_5_3_1.item2	rdf:value	"7.2 国内外の臨床試験では、過敏反応等を軽減させる目的で、これらの前投薬を実施している。\r\n＜参考＞ 国内第Ⅰ相臨床試験における前投与薬剤\r\n前投与として以下を本剤投与30分前までに静脈内投与で実施する：\r\n 抗ヒスタミン剤（クロルフェニラミンマレイン酸塩5mg、ジフェンヒドラミン25mg 又は\r\n他の抗ヒスタミン剤）\r\n 副腎皮質ホルモン剤（デキサメタゾン8 mg 又は同等の副腎皮質ホルモン剤）\r\n H2受容体拮抗剤（シメチジンを除く、ラニチジン塩酸塩や他のH2受容体拮抗剤）"@ja	.
+if:IF_5_3_1.item3	rdf:type	ifo:Item	.
+if:IF_5_3_1.item3	ifo:package_insert	pi:PI_6.item3	.
+if:IF_5_3_1.item3	dct:identifier	"5.3.1.item3"	.
+if:IF_5_3_1.item3	rdf:value	"7.3 本剤と他の抗悪性腫瘍剤を併用した試験での有効性及び安全性は確立していない。"@ja	.
+if:IF_5_3_1.item4	rdf:type	ifo:Item	.
+if:IF_5_3_1.item4	ifo:package_insert	pi:PI_6.item4	.
+if:IF_5_3_1.item4	dct:identifier	"5.3.1.item4"	.
+if:IF_5_3_1.item4	rdf:value	"7.4 海外第Ⅲ相臨床試験での規定を参考に本剤投与により副作用が発現した場合の減量・休薬・\n中止基準を設定した。これらの副作用が発現した場合には、本基準を参考に適切な処置を行う\nこと。"@ja	.
+if:IF_5_5_1	rdf:type	ifo:IF_5_5_1	.
+if:IF_5_5_1	rdf:type	ifo:Section	.
+if:IF_5_5_1	rdf:value	"有効性及び安全性に関する評価資料として、国内で実施された第Ⅰ相臨床試験 1試験、並びに海\r\n外で実施された第Ⅰ相臨床試験 4試験、第Ⅱ相臨床試験 1試験及び第Ⅲ相臨床試験 1試験の計\r\n7試験が提出された。また、参考資料として、海外で実施された第Ⅰ相臨床試験 2試験及び第Ⅰ\r\n/Ⅱ相臨床試験 1試験の計 3試験が提出された。"@ja	.
+if:IF_5_5_2	rdf:type	ifo:IF_5_5_2	.
+if:IF_5_5_2	rdf:type	ifo:Section	.
+if:IF_5_5_2	ifo:package_insert	pi:PI_17_3	.
+if:IF_5_5_2	rdf:value	"1) 忍容性試験\r\n①去勢抵抗性前立腺癌患者を対象とした国内第Ⅰ相臨床試験（TED11576）1,5,＊1)\r\n「(3) 用量反応探索試験」の項参照\r\n②進行性固形癌患者を対象とした海外第Ⅰ相臨床試験（TED6188）3,＊3)\r\n進行性固形癌患者を対象とし、3週間間隔で本剤を1時間点滴静脈内投与したときの忍容性\r\nについて検討した。投与は10mg/m2から開始し、用量漸増により30mg/m2まで計21例に投\r\n与したところ、30mg/m2の用量レベルで5例中3例が第1サイクルで血液学的用量制限毒性\r\n（DLT）（1例は発熱性好中球減少症、2例は6日間以上持続するGrade4の好中球減少症）を\r\n発現したため、本剤の最大耐量（MTD）は30mg/m2と判断した。以降のサイクルでは\r\n25mg/m2及び30mg/m2の用量でDLT が主に報告された。そのうち1例（30mg/m2 で報告\r\nされた好中球減少性感染）は死亡に至った。忍容性は全般的に良好であった。被験者に発\r\n現が認められたのは、主に好中球減少症及び関連する胃腸障害（下痢、悪心）であった。爪\r\nの障害及び重度の脱毛症は認められなかった。Grade2の体液貯留が1例（25mg/m2）のみ\r\nに報告された。神経毒性は軽度でまれであった。前投薬として抗ヒスタミン薬の投与のみ\r\nを受けた被験者集団において、Grade1の過敏症反応が1名のみに認められた。\r\n注）本剤の承認された用法及び用量は以下のとおりである。\r\nプレドニゾロンとの併用において、通常、成人に1日1回、カバジタキセルとして25mg/m2（体表面積）を\r\n1時間かけて3週間間隔で点滴静注する。なお、患者の状態により適宜減量すること\r\n2) QT/QTc 評価試験\r\n固形癌患者を対象としたQTc 間隔に対する影響を検討する海外第Ⅰ相臨床試験\r\n（TES10884）4,＊4)\r\n進行性固形癌患者95 例を対象とし、本剤25mg/m2 を1 時間点滴静脈内投与したときのQTc\r\n間隔（QTcF：Fridericia の式で補正したQT）に対する影響を検討した。QTcF のベースラ\r\nインからの平均の変化量は20msec*を下回っていた。また、臨床的に有意なQTc 延長の影響\r\nを示す所見は認められなかった。\r\n*20msec：FDA が抗腫瘍薬に対してQTc 延長の許容可能レベルとして示している最大値"@ja	.
+if:IF_5_5_2	dct:references	if:ref1	.
+if:IF_5_5_2	dct:references	if:ref5	.
+if:IF_5_5_2	dct:references	if:ref*1	.
+if:IF_5_5_2	dct:references	if:ref3	.
+if:IF_5_5_2	dct:references	if:ref*3	.
+if:IF_5_5_2	dct:references	if:ref4	.
+if:IF_5_5_2	dct:references	if:ref*4	.
+if:IF_5_5_2	rdfs:seeAlso	if:IF_5_5_3	.
+if:IF_5_5_3	rdf:type	ifo:IF_5_5_3	.
+if:IF_5_5_3	rdf:type	ifo:Section	.
+if:IF_5_5_3	rdf:value	"国内第Ⅰ相臨床試験（TED11576）1,5,＊1)\r\n試験デザイン： 多施設共同、非盲検、用量漸増、非ランダム化試験\r\n対象： 組織学的又は細胞学的に前立腺癌と診断され去勢抵抗性（外科的又は内\r\n科的去勢術を行い、進行又は再発が確認された）で、ドセタキセル既治\r\n療の患者。\r\n対象症例数： 用量漸増コホート：7例（20mg/m2：4例、25mg/m2：3例）\r\n追加コホート：41例\r\n有効性評価対象：41例、安全性評価対象：48例\r\n投与方法： 用量漸増コホート：開始用量を20mg/m2とし用量漸増規定に従い\r\n25mg/m2まで増量した。\r\n追加コホート：追加の41例に25mg/m2を投与した。\r\nいずれも3週間間隔で1時間かけて点滴静注し、プレドニゾロン10mg/\r\n日（5mg を2回又は10mg を1回）を経口投与で併用した。\r\n各カバジタキセル投与の30 分以上前に前投薬として以下の薬剤を点滴静注投\r\n与した。\r\n• 抗ヒスタミン剤（クロルフェニラミンマレイン酸塩 5 mg、ジフェンヒドラミ\r\nン 25mg 又は他の抗ヒスタミン剤）\r\n• ステロイド（デキサメタゾン 8 mg 又は同等のステロイド）\r\n• H2アンタゴニスト（シメチジンを除く、ラニチジン塩酸塩や他のH2 アンタゴ\r\nニスト）\r\n主要評価項目： 忍容性\r\n初回サイクル時の用量制限毒性（DLT）／最大耐量（MTD）\r\n副次評価項目： 有効性\r\n腫瘍縮小効果奏効率、PSA 無増悪期間、PSA 奏効率\r\n薬物動態\r\n安全性\r\n結 果：\r\nA. 忍容性\r\n用量漸増コホートではいずれの用量群でもDLT の発現は認められず、25mg/m2 をMTD\r\nとした。追加コホートにおけるDLT 評価可能例40例のうち2例でDLT が認められ、\r\n25mg/m2 群全体のDLT 評価可能例43例における、DLT 発現率は4.7％(90％信頼区間\r\n0.8％～13.9％)であった。認められたDLT は、1 例が壊死性筋膜炎（Grade4）と敗血症\r\n性ショック（Grade4）で、もう1例は慢性中耳炎（Grade3）と気管支肺炎（Grade3）で\r\nあった。\r\n用量漸増コホート及び追加コホートでのDLT 発現率及び安全性プロファイルにより、\r\n25mg/m2の用量での忍容性が確認された。\r\nB. 有効性\r\n有効性解析対象集団（追加コホート25mg/m2）41例を対象として、PSA 奏効率及びPSA\r\n無増悪期間の中央値を評価した。また、測定可能病変を有する12例を対象として、腫瘍\r\n縮小効果奏効率を評価した。\r\n41例中12例にPSA 奏効が認められたことから、PSA 奏効率は29.3％（95％信頼区間：\r\n16.1％～45.5％）で、PSA 無増悪期間の中央値は3.680ヵ月（95％信頼区間：1.3470～\r\n4.6324ヵ月）であった。腫瘍縮小効果の評価可能対象12例中2例に部分奏効が確認され、\r\n腫瘍縮小効果奏効率は16.7％（95％CI：2.1％～48.4％）であった。\r\nC. 安全性\r\n本剤25mg/m2を投与された44例中、44例（100％）に副作用が認められた。主な副作用（全\r\nGrade）は好中球減少症44例（100％）、発熱性好中球減少症24例（54.5％）、疲労24例\r\n（54.5％）、悪心21例（47.7％）、下痢20例（45.5％）、食欲減退16例（36.4％）、貧血\r\n13例（29.5％）、味覚異常12例（27.3％）等であった。このうちGrade3以上の主な副作\r\n用は、好中球減少症44例（100％）、発熱性好中球減少症24例（54.5％）、貧血11例（25.0％）\r\n等であった。\r\n本剤20mg/m2を投与された4例の副作用については、「Ⅷ．安全性に関する項目 8．副作\r\n用 副作用頻度一覧表」参照。\r\nD. 薬物動態\r\n「Ⅶ．薬物動態に関する項目 １．血中濃度の推移（2）臨床試験で確認された血中濃度」\r\nの項参照\r\n注）本剤の承認された用法及び用量は以下のとおりである。\r\nプレドニゾロンとの併用において、通常、成人に1 日1 回、カバジタキセルとして25mg/m2（体表面積）を\r\n1 時間かけて3 週間間隔で点滴静注する。なお、患者の状態により適宜減量すること。"@ja	.
+if:IF_5_5_3	dct:references	if:ref1	.
+if:IF_5_5_3	dct:references	if:ref5	.
+if:IF_5_5_3	dct:references	if:ref*1	.
+if:IF_5_5_3	rdfs:seeAlso	if:IF_8_8	.
+if:IF_5_5_3	rdfs:seeAlso	if:IF_7_1_2	.
+if:IF_5_5_4_1	rdf:type	ifo:IF_5_5_4_1	.
+if:IF_5_5_4_1	rdf:type	ifo:Section	.
+if:IF_5_5_4_1	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_4_1	rdf:value	"海外第Ⅲ相臨床試験（EFC6193）2,＊2)\r\n試験デザイン： 多施設共同、国際共同、非盲検、ランダム化、比較試験\r\n対象： ドセタキセル治療歴のある去勢抵抗性転移性前立腺癌患者\r\n<選択基準>\r\n・前立腺癌（adenocarcinoma）であることが組織診又は細胞診により\r\n確認された去勢抵抗性の患者で、ドセタキセル治療歴のある患者。な\r\nおかつ、過去のホルモン療法中又は療法後6ヵ月以内に病勢の増悪が確\r\n認され、ドセタキセルによる治療中又は治療後6ヵ月以内に病勢の増悪\r\nが確認された患者。\r\n・測定可能病変又は測定不能病変を有する患者。\r\n・精巣摘除術及び／又は黄体形成ホルモン放出ホルモン（LH-RH）ア\r\nゴニストの投与（単独又は抗アンドロゲン剤との併用）、抗アンドロゲ\r\nン剤中止療法、エストラムスチン単独療法又は他のホルモン剤投与に\r\nよる去勢術の治療歴がある患者。\r\n・2ヵ月を超えて生存すると予想される患者。\r\n・ECOG PS*1が0～2（歩行可能で自分の身の回りのことはすべて可能\r\nであり、日中の50%以上はベッド外で過ごす）の患者。\r\n*1：ECOG PS（Eastern Cooperative Oncology Group Performance Status）\r\n・年齢18歳以上の患者。\r\n<主な除外基準>\r\n・総ビリルビンが各施設基準値上限以上の患者。\r\n・ALT/AST が各施設基準値上限の1.5倍以上の患者。\r\n対象症例数： 755例（カバジタキセル群:378例、ミトキサントロン*2群:377例）\r\n有効性評価対象：ITT（Intent to Treat）755例\r\n（カバジタキセル群:378例、ミトキサントロン群:377例）\r\n安全性評価対象：742例\r\n（カバジタキセル群:371例、ミトキサントロン群:371例）\r\n*2：前立腺癌の適応は国内未承認\r\n投与方法： カバジタキセル\r\n25 mg/m2（Day1）を1時間かけて点滴静注する。\r\n対照薬（ミトキサントロン）\r\n12mg/m2（Day1）を15～30分かけて点滴静注する。\r\nいずれの薬剤も3週間間隔で投与し、プレドニゾンあるいはプレドニゾ\r\nロン10mg/日（投与回数の規定なし）経口投与にて併用する。\r\n投与期間： 病勢の増悪、死亡、許容できない毒性が見られるまで、あるいは最大10\r\nサイクル（3週間／サイクル、30週間）\r\n主要評価項目： 有効性\r\n全生存期間\r\n副次評価項目： 有効性\r\n無増悪生存期間、腫瘍無増悪期間、腫瘍縮小効果奏効率、PSA 無増\r\n悪期間、PSA 奏効率、疼痛無増悪期間、疼痛奏効率\r\n薬物動態\r\n安全性\r\n有害事象、バイタルサイン、身体所見、ECG、臨床検査値 等\r\n結 果：有効性\r\nA. 主要評価項目：全生存期間\r\n全生存期間の中央値はカバジタキセル群15.1ヵ月（95％信頼区間：14.1～16.3）、ミトキ\r\nサントロン群12.7ヵ月（95％信頼区間：11.6～13.7）であった。全生存期間の群間差は統\r\n計学的に有意であった（ハザード比は0.70（95％信頼区間：0.59～0.83、p 値<0.0001、\r\n層別ログランク検定）。ミトキサントロン群に対してカバジタキセル群は死亡のリスクを\r\n30％低減した。また、12ヵ月後の全生存率はカバジタキセル群64％、ミトキサントロン\r\n群53％であった。\r\nB. 副次評価項目\r\n無増悪生存期間中央値：カバジタキセル群2.8ヵ月、ミトキサントロン群1.4ヵ月であった。カ\r\nバジタキセル群では、ミトキサントロン群と比較して統計学的に有意な無増悪生存期間の延長\r\nが認められた（p<0.0001）。\r\n腫瘍無増悪期間の中央値：カバジタキセル群8.8ヵ月、ミトキサントロン群5.4ヵ月であり、カ\r\nバジタキセル群の方が長かった（p<0.0001）。\r\n腫瘍縮小効果奏効率：カバジタキセル群14.4％、ミトキサントロン群4.4％であり、カバジタキ\r\nセル群の方が高かった（p=0.0005）。奏効はすべて部分奏効であった。\r\nPSA 無増悪期間の中央値：カバジタキセル群6.4ヵ月、ミトキサントロン群3.1ヵ月であり、カ\r\nバジタキセル群の方が長かった（p=0.0010）。\r\nPSA 奏効率：カバジタキセル群39.2％、ミトキサントロン群17.8％で、カバジタキセル群の方\r\nが高かった（p = 0.0002）。\r\n疼痛無増悪期間の中央値：カバジタキセル群11.1ヵ月、ミトキサントロン群では未到達であり、\r\n群間差は認められなかった（p=0.5192）。\r\n疼痛奏効率：両群間に群間差は認められなかった（カバジタキセル群9.2％、ミトキサントロン\r\n群7.7％、p=0.6286）。\r\n結 果：安全性\r\nカバジタキセル投与群の安全性評価対象371例中、313例（84.4％）に副作用が認められた。主\r\nな副作用（全Grade）は、下痢135例（36.4％）、疲労110例（29.6％）、悪心106例（28.6％）、\r\n好中球減少症81例（21.8％）、嘔吐57例（15.4％）、無力症57例（15.4％）、食欲減退46例（12.4％）、\r\n味覚異常38例（10.2％）等であった。 このうちGrade3以上の主な副作用は好中球減少症79例\r\n（21.3％）、発熱性好中球減少症28例（7.5％）、下痢19例（5.1％）、白血球減少症14例（3.8％）、\r\n疲労14例（3.8％）等であった。\r\nミトキサントロン群の副作用については、「Ⅷ．安全性に関する項目 8．副作用 副作用頻度\r\n一覧表」参照。\r"@ja	.
+if:IF_5_5_4_1	dct:references	if:ref2	.
+if:IF_5_5_4_1	dct:references	if:ref*2	.
+if:IF_5_5_4_1	rdfs:seeAlso	if:IF_8_8	.
+if:IF_5_5_4_2	rdf:type	ifo:IF_5_5_4_2	.
+if:IF_5_5_4_2	rdf:type	ifo:Section	.
+if:IF_5_5_4_2	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_4_2	rdf:value	"該当資料なし"@ja	.
+if:IF_5_5_5	rdf:type	ifo:IF_5_5_5	.
+if:IF_5_5_5	rdf:type	ifo:Section	.
+if:IF_5_5_5	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_5	rdf:value	"該当資料なし"@ja	.
+if:IF_5_5_6_1	rdf:type	ifo:IF_5_5_6_1	.
+if:IF_5_5_6_1	rdf:type	ifo:Section	.
+if:IF_5_5_6_1	ifo:package_insert	pi:PI_17_2	.
+if:IF_5_5_6_1	rdf:value	"【承認条件】\r\n国内での治験症例が極めて限られていることから、製造販売後、一定数の症例に係るデータが\r\n集積されるまでの間は、全症例を対象に使用成績調査を実施することにより、本剤使用患者の\r\n背景情報を把握するとともに、本剤の安全性及び有効性に関するデータを早期に収集し、本剤\r\nの適正使用に必要な措置を講じること。\r\n【安全性】8)\r\n安全性解析対象症例660例のうち、副作用は511例において1113件発現し、副作用発現症例率は\r\n77.4%であった。5％以上の患者に発現した副作用は、好中球減少(症)* 324例（49.1%)、発熱\r\n性好中球減少症* 119例（18.0%)、貧血* 99例（15.0%)、血小板減少症 77例（11.7%)、白血球\r\n数減少 74例（11.2%)、下痢* 66例（10.0%)、食欲減退 49例（7.4%)、倦怠感 40例（6.1%)、\r\n敗血症* 4例（0.6%)、敗血性ショック* 3例（0.5%)、末梢神経障害* 10例（1.5%）であった。\r\nまた、Grade3以上の副作用は409例において644件発現した。主なGrade3以上の副作用は好中\r\n球減少(症)* 263例（39.8%)、発熱性好中球減少症* 113例（17.1%)、貧血* 58例（8.8%)、白血\r\n球数減少 48例（7.3%)、血小板減少症 36例（5.5%)、下痢* 21例（3.2%)、食欲減退 11例（1.7%)、\r\n間質性肺疾患 7例（1.1%)、敗血症* 4例 (0.6%)、敗血性ショック* 3例（0.5%)、末梢神経障害\r\n* 2例（0.3%)であった。\r\n治療関連死は15例（2.3%）に認められ、この内7例においてG-CSF が予防的に投与された。治\r\n療関連死の主な原因は発熱性好中球減少症 8件、間質性肺疾患4件であった。\r\n* ：重点調査項目\r\n【有効性】8)\r\n治療開始時のPSA レベルが20 ng/mL 以上であった531例中148例 （27.9%）においてPSA30%\r\n以上の減少、91例（17.1%）においてPSA50%以上の減少が認められた。"@ja	.
+if:IF_5_5_6_1	dct:references	if:ref8	.
+if:IF_5_5_6_2	rdf:type	ifo:IF_5_5_6_2	.
+if:IF_5_5_6_2	rdf:type	ifo:Section	.
+if:IF_5_5_6_2	ifo:package_insert	pi:PI_21	.
+if:IF_5_5_6_2	rdf:value	"該当しない"@ja	.
+if:IF_5_5_7	rdf:type	ifo:IF_5_5_7	.
+if:IF_5_5_7	rdf:type	ifo:Section	.
+if:IF_5_5_7	ifo:package_insert	pi:PI_17_1	.
+if:IF_5_5_7	rdf:value	"該当しない"@ja	.
+if:IF_6_1	rdf:type	ifo:IF_6_1	.
+if:IF_6_1	rdf:type	ifo:Section	.
+if:IF_6_1	rdf:value	"ドセタキセル、パクリタキセルなど"@ja	.
+if:IF_6_2_1	rdf:type	ifo:IF_6_2_1	.
+if:IF_6_2_1	rdf:type	ifo:Section	.
+if:IF_6_2_1	ifo:package_insert	pi:PI_18_1	.
+if:IF_6_2_1	rdf:value	"カバジタキセルはチューブリンの重合を促進し、微小管を安定化することにより細胞分裂を阻害\r\nする＊5)。"@ja	.
+if:IF_6_2_1	dct:references	if:ref*5	.
+if:IF_6_2_2	rdf:type	ifo:IF_6_2_2	.
+if:IF_6_2_2	rdf:type	ifo:Section	.
+if:IF_6_2_2	ifo:package_insert	pi:PI_18	.
+if:IF_6_2_2	rdf:value	"1)チューブリン重合促進及び微小管安定化作用（in vitro）＊5)\nブタ脳から精製した純粋チューブリンを用いて、カバジタキセルのチューブリン重合に対する作\n用及び微小管の低温誘発性脱重合に対する作用について、ドセタキセル、パクリタキセルと比較\n検討した。重合試験及び脱重合試験は、それぞれ37℃及び8℃で分光測光法（350 nm）により測\n定した。チューブリンをタキサンとインキュベートし、重合及び脱重合への作用を記録した。チ\nューブリン重合開始までの時間（lag time）を測定し、タキサンが重合のlag time を50％短縮\nさせる濃度（LT50）を算出した。また、微小管の低温誘発性脱重合の速度を測定し、速度を50％\n低下させる薬物濃度（dIC50）を算出した。\nカバジタキセルは、ドセタキセル及びパクリタキセルと同様に、化学量論的濃度以下の濃度でチ\nューブリン重合を促進、すなわちlag time を短縮し、重合速度を増加させた。カバジタキセル\nのLT50は0.05μmol/L であり、ドセタキセルと同じであった。パクリタキセルも同程度の作用を\n示し、LT50は0.085μmol/L であった。また、カバジタキセルは微小管を安定化した。すなわち、\nカバジタキセルは微小管の低温誘発性脱重合速度を低下させ、dIC50 は 0.12μmol/L であった。\nこれは、ドセタキセル、パクリタキセルと同程度であった。\n以上、カバジタキセルの純粋チューブリン重合及び微小管脱重合に対する作用はドセタキセル及\nびパクリタキセルと同程度であり、カバジタキセルがタキサン類特有の作用機序を有することを\n示している。\n2)in vitro における細胞増殖阻害作用\n①ヒト前立腺癌細胞株に対する増殖阻害作用（in vitro）＊6)\n3種類のヒト前立腺癌細胞株を用い、カバジタキセル、ドセタキセルのIC50値（生細胞数を50%\n減少させるために要する濃度）を測定した。\nカバジタキセル及びドセタキセルは、ヒト前立腺癌細胞株に対して細胞増殖阻害作用を示し、\nその絶対IC50の幾何平均は0.00042～0.00279μmol/L であった。\n②薬剤耐性腫瘍細胞株に対する増殖阻害作用（in vitro）＊7)\n多剤耐性遺伝子（mdr-1）発現細胞株を用い、カバジタキセル、ドセタキセルの細胞増殖阻害\n作用を比較検討した。耐性係数は、耐性株に対するIC50値を感受性株に対するIC50値で除す\nることにより算出した。\nカバジタキセルは、いずれの多剤耐性細胞株に対してもドセタキセルよりも強い増殖阻害作\n用を示した。また、カバジタキセルの耐性係数は、ドセタキセルの耐性係数よりも小さかった。\n3)in vivo 抗腫瘍効果 6)\r\n①ドセタキセル感受性腫瘍に対する効果：進行期ヒト前立腺癌株に対する抗腫瘍効果（in\r\nvivo ）＊8)\r\n雌性ヌードマウスにDU-145ヒト前立腺癌細胞株を移植した後、その進行期におけるカバジタ\r\nキセルの効果を検討した。カバジタキセル投与開始時の各群の腫瘍重量の中央値は210 mg で\r\nあった。カバジタキセルは移植後24、30、36及び42日に投与した。\r\nその結果、カバジタキセルの4.6、7.4及び12.0mg/kg/回で抗腫瘍効果が認められた。HNTD （最\r\n大無毒性用量）である12mg/kg/回群における腫瘍消失生存例は83%、HNTD 未満の7.4 mg/kg/\r\n回群では50%であった。\n②ドセタキセル低感受性又は非感受性腫瘍に対する効果（in vivo）＊9)\r\n1.B16/TXT 黒色腫に対する効果\r\nIn vivo でドセタキセル耐性を獲得した腫瘍モデル（B16/TXT 黒色腫）に対するカバジタ\r\nキセルの抗腫瘍効果を検討した。雌性マウスに、ドセタキセル耐性B16/TXT 黒色腫を移植\r\nし、カバジタキセル及びドセタキセルを移植後3、5 及び7 日目に静脈内投与した。ドセタ\r\nキセル耐性腫瘍に対して、カバジタキセルは効果を示したが（T/C は11%、log cell kill 値\r\nは1）、ドセタキセルは効果を示さなかった（T/C は62%）。\n2.ヒト進行期HCT-8 結腸腺癌に対する効果\r\nドセタキセル低感受性ヒトHCT-8結腸腺癌細胞を皮下移植したマウスを用いて、カバジタ\r\nキセルの抗腫瘍効果を検討した。雌性ヌードマウスに腫瘍を移植後、進行期（各群の腫瘍\r\n重量の中央値が250mg の時）から、カバジタキセル又はドセタキセルの投与を開始した。\r\nカバジタキセルはHCT-8に対して効果を示した（14mg/kg/回のHNTD でlog cell kill 値\r\nは1.9）が、ドセタキセルで認められた抗腫瘍効果は軽度であった（25mg/kg/回のHNTD\r\nでlog cell kill 値は0.8）。\n3.ヒト進行期GXF-209胃癌に対する効果\r\nドセタキセル非感受性のGXF-209胃癌細胞を皮下移植したマウスを用いて、カバジタキセ\r\nルの抗腫瘍効果を検討した。雌性ヌードマウスに腫瘍を移植後、進行期（各群の腫瘍重量\r\nの中央値が130mg の時）に、カバジタキセル又はドセタキセルの投与を開始した。\r\nカバジタキセルは、12.4mg/kg/回（HNTD）及び7.7mg/kg/回で抗腫瘍効果を示し、log cell\r\nkill 値は12.4 mg/kg/回で1.4、7.7 mg/kg/回で1.2であった。GXF-209担癌マウスにおける\r\nドセタキセルの忍容性は低く、HNTD は低かった（7.7mg/kg/回）。ドセタキセルはHNTD\r\nでも効果を示さず、そのlog cell kill 値は0.5であった。\n4.ヒトUISO-BCA-1乳癌に対する効果\r\nドセタキセル非感受性の高分化型浸潤性乳管癌患者悪性胸水由来UISO-BCA-1 乳房腫瘍を\r\n皮下移植したマウスを用いて、カバジタキセルの抗腫瘍効果を検討した。SCID マウスに腫\r\n瘍を移植し、腫瘍重量の中央値が70mg になった移植後13日及び、16日、19日にカバジタキ\r\nセル、ドセタキセルを静脈内投与した。カバジタキセルはHNTD（15.0mg/kg/回）で高い効\r\n果を示した（log cell kill 値は6を超える）。HNTD 未満の用量（9.3mg/kg/回）でも高い抗\r\n腫瘍効果は維持され、そのlog cell kill 値は4.4であり、試験最低用量でも軽度な効果が維持\r\nされた（log cell kill 値は0.8）。ドセタキセルはHNTD（15.0mg/kg/回）で効果を示さなか\r\nった（log cell kill 値は0.6）。"@ja	.
+if:IF_6_2_2	dct:references	if:ref*5	.
+if:IF_6_2_2	dct:references	if:ref*6	.
+if:IF_6_2_2	dct:references	if:ref*7	.
+if:IF_6_2_2	dct:references	if:ref6	.
+if:IF_6_2_2	dct:references	if:ref*8	.
+if:IF_6_2_2	dct:references	if:ref*9	.
+if:IF_6_2_3	rdf:type	ifo:IF_6_2_3	.
+if:IF_6_2_3	rdf:type	ifo:Section	.
+if:IF_6_2_3	ifo:package_insert	pi:PI_18_1	.
+if:IF_6_2_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_1_1	rdf:type	ifo:IF_7_1_1	.
+if:IF_7_1_1	rdf:type	ifo:Section	.
+if:IF_7_1_1	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_1_1	rdf:value	"該当資料なし"@ja	.
+if:IF_7_1_2	rdf:type	ifo:IF_7_1_2	.
+if:IF_7_1_2	rdf:type	ifo:Section	.
+if:IF_7_1_2	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_1_2	ifo:item	if:IF_7_1_2.item1	.
+if:IF_7_1_2	ifo:item	if:IF_7_1_2.item2	.
+if:IF_7_1_2.item1	rdf:type	ifo:Item	.
+if:IF_7_1_2.item1	ifo:package_insert	pi:PI_16_1.item1	.
+if:IF_7_1_2.item1	dct:identifier	"7.1.2.item1"	.
+if:IF_7_1_2.item1	rdf:value	"1)去勢抵抗性前立腺癌患者を対象とした国内第Ⅰ相臨床試験（TED11576） 5,＊1, ＊10)\r\n日本人前立腺癌患者にカバジタキセル20mg/m2あるいは25mg/m2を1時間で点滴静脈内投与し\r\nたとき、カバジタキセルの血漿中濃度プロファイルは三相性を示したため、3-コンパートメント\r\nモデルにより薬物動態解析を行った。"@ja	.
+if:IF_7_1_2.item1	dct:references	if:ref5	.
+if:IF_7_1_2.item1	dct:references	if:ref*1	.
+if:IF_7_1_2.item1	dct:references	if:ref*10	.
+if:IF_7_1_2.item2	rdf:type	ifo:Item	.
+if:IF_7_1_2.item2	ifo:package_insert	pi:PI_16_1.item2	.
+if:IF_7_1_2.item2	dct:identifier	"7.1.2.item2"	.
+if:IF_7_1_2.item2	rdf:value	"2)進行性固形癌患者を対象とした海外第Ⅰ相臨床試験（TED6188）3,＊3)\r\n外国人固形癌（前立腺癌を含む）患者に3 週間間隔で、カバジタキセル10～30mg/m²を1 時間か\r\nけて点滴静脈内投与したときの第1 サイクルにおける薬物動態パラメータは以下のとおりである。\r\nカバジタキセルの血漿中濃度プロファイルは三相性であり、短い初期相及び中間相（平均半減期\r\nはそれぞれ3.1 分及び1.0 時間）、及び長い終末相（平均半減期は62.0 時間）を特徴とした。\r\nカバジタキセルの曝露量は10～30mg/m2 の範囲でほぼ用量に比例して増加した。また、薬物動\r\n態は、連続3 サイクルまではサイクルに依存せず、変化しなかった。"@ja	.
+if:IF_7_1_2.item2	dct:references	if:ref3	.
+if:IF_7_1_2.item2	dct:references	if:ref*3	.
+if:IF_7_1_3	rdf:type	ifo:IF_7_1_3	.
+if:IF_7_1_3	rdf:type	ifo:Section	.
+if:IF_7_1_3	rdf:value	"該当資料なし"@ja	.
+if:IF_7_1_4	rdf:type	ifo:IF_7_1_4	.
+if:IF_7_1_4	rdf:type	ifo:Section	.
+if:IF_7_1_4	ifo:package_insert	pi:PI_16_7	.
+if:IF_7_1_4	ifo:item	if:IF_7_1_4.item1	.
+if:IF_7_1_4	ifo:item	if:IF_7_1_4.item2	.
+if:IF_7_1_4.item1	rdf:type	ifo:Item	.
+if:IF_7_1_4.item1	ifo:package_insert	pi:PI_16_7.item1	.
+if:IF_7_1_4.item1	dct:identifier	"7.1.4.item1"	.
+if:IF_7_1_4.item1	rdf:value	"1)食事の影響\r\n該当資料なし"@ja	.
+if:IF_7_1_4.item2	rdf:type	ifo:Item	.
+if:IF_7_1_4.item2	ifo:package_insert	pi:PI_16_7.item2	.
+if:IF_7_1_4.item2	dct:identifier	"7.1.4.item2"	.
+if:IF_7_1_4.item2	rdf:value	"2)併用薬の影響（外国人データ）\n1．CYP3A を強く阻害する薬剤との併用＊12)\n「Ⅷ．安全性（使用上の注意等）に関する項目 ７．相互作用」の項を参照。\n2．CYP3A を強く誘導する薬剤＊12)\n「Ⅷ．安全性（使用上の注意等）に関する項目 ７．相互作用」の項を参照。\n3．ミダゾラムとの併用\nCYP3A の基質であるミダゾラムと本剤（25mg/m2を1時間で単回点滴静脈内投与）を併用し\nた臨床試験において、本剤はミダゾラムの薬物動態に影響を及ぼさなかった＊13)。\n4．プレドニゾン／プレドニゾロンとの併用\n母集団薬物動態解析において、弱いCYP3A 誘導剤であるプレドニゾン／プレドニゾロンは、\nカバジタキセルの血漿クリアランス（CL）に対しての影響は認められなかった＊14)。"@ja	.
+if:IF_7_1_4.item2	dct:references	if:ref*12	.
+if:IF_7_1_4.item2	dct:references	if:ref*13	.
+if:IF_7_1_4.item2	dct:references	if:ref*14	.
+if:IF_7_1_4.item2	rdfs:seeAlso	if:IF_8_7	.
+if:IF_7_2_1	rdf:type	ifo:IF_7_2_1	.
+if:IF_7_2_1	rdf:type	ifo:Section	.
+if:IF_7_2_1	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_1	rdf:value	"カバジタキセルを1時間点滴静注したときの薬物動態プロファイルは、3-コンパートメント薬物\r\n動態モデルに一致した。国内第Ⅰ相臨床試験（TED11576）における薬物動態解析はノンコンパ\r\nートメント解析、及び一次消失速度過程を有する3-コンパートメントモデル解析により各薬物動\r\n態パラメータを算出した5,＊1,＊10)。"@ja	.
+if:IF_7_2_1	dct:references	if:ref*5	.
+if:IF_7_2_1	dct:references	if:ref*1	.
+if:IF_7_2_1	dct:references	if:ref*10	.
+if:IF_7_2_2	rdf:type	ifo:IF_7_2_2	.
+if:IF_7_2_2	rdf:type	ifo:Section	.
+if:IF_7_2_2	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_2	rdf:value	"該当しない"@ja	.
+if:IF_7_2_3	rdf:type	ifo:IF_7_2_3	.
+if:IF_7_2_3	rdf:type	ifo:Section	.
+if:IF_7_2_3	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_3	rdf:value	"母集団薬物動態解析により推定した消失速度定数は1.87/hr であった＊14)。"@ja	.
+if:IF_7_2_3	dct:references	if:ref*14	.
+if:IF_7_2_4	rdf:type	ifo:IF_7_2_4	.
+if:IF_7_2_4	rdf:type	ifo:Section	.
+if:IF_7_2_4	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_4	rdf:value	"「Ⅶ－１－(2)臨床試験で確認された血中濃度 1)去勢抵抗性前立腺癌患者を対象とした国内第\r\nⅠ相臨床試験（TED11576）」の項参照。"@ja	.
+if:IF_7_2_4	rdfs:seeAlso	if:IF_7_1_2	.
+if:IF_7_2_5	rdf:type	ifo:IF_7_2_5	.
+if:IF_7_2_5	rdf:type	ifo:Section	.
+if:IF_7_2_5	ifo:package_insert	pi:PI_16_1	.
+if:IF_7_2_5	rdf:value	"去勢抵抗性日本人前立腺癌患者にカバジタキセル20及び25mg/m2を1時間で点滴静脈内投与し\r\nたときの定常状態におけるVss は2220及び3410L/m2であった*10)。"@ja	.
+if:IF_7_2_5	dct:references	if:ref*10	.
+if:IF_7_2_6	rdf:type	ifo:IF_7_2_6	.
+if:IF_7_2_6	rdf:type	ifo:Section	.
+if:IF_7_2_6	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_2_6	rdf:value	"該当しない"@ja	.
+if:IF_7_3_1	rdf:type	ifo:IF_7_3_1	.
+if:IF_7_3_1	rdf:type	ifo:Section	.
+if:IF_7_3_1	rdf:value	"解析には、患者間薬物動態変動、時期間薬物動態変動(サイクル間の変動)の推定、母集団薬物動\r\n態パラメータの推定、並びに血漿CL 及び中央コンパートメントの分布容積(V1)に対する病態生\r\n理学的共変量の影響の評価を含めた。副次的に、最終モデルから個々の薬物動態パラメータ(第l\r\nサイクルのAUC、Cmax 及びCL)を推定した。"@ja	.
+if:IF_7_3_2	rdf:type	ifo:IF_7_3_2	.
+if:IF_7_3_2	rdf:type	ifo:Section	.
+if:IF_7_3_2	rdf:value	"母集団薬物動態解析において、カバジタキセルの薬物動態に及ぼす内因性及び外因性の要因は体\r\n表面積（BSA）のみであり、カバジタキセルの血漿CL はBSA と相関していた。BSA が大きい\r\n患者ほどカバジタキセルの血漿CL が高くなり、BSA の5及び95パーセンタイル間の血漿CL の\r\n変化率は39.2%であった＊14)。"@ja	.
+if:IF_7_3_2	dct:references	if:ref*14	.
+if:IF_7_4	rdf:type	ifo:IF_7_4	.
+if:IF_7_4	rdf:type	ifo:Section	.
+if:IF_7_4	ifo:package_insert	pi:PI_16_2	.
+if:IF_7_4	ifo:item	if:IF_7_4.item1	.
+if:IF_7_4.item1	rdf:type	ifo:Item	.
+if:IF_7_4.item1	ifo:package_insert	pi:PI_16_2.item1	.
+if:IF_7_4.item1	dct:identifier	"7.4.item1"	.
+if:IF_7_4.item1	rdf:value	"該当しない"@ja	.
+if:IF_7_5_1	rdf:type	ifo:IF_7_5_1	.
+if:IF_7_5_1	rdf:type	ifo:Section	.
+if:IF_7_5_1	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_1	rdf:value	"該当資料なし\r\n＜参考：マウス、ラット、イヌ＞\r\n1．単回投与 7,＊16)\r\n雌マウス、雌ラット及び雌イヌにおいて、14C-カバジタキセルを投与したときの脳内分布試験を\r\n実施した。マウスでは、カバジタキセル5, 10, 15, 30mg/kg（15, 30, 45, 90mg/m2）を45秒間か\r\nけて、又は10, 30mg/kg（30, 90mg/m2）を1時間かけて静脈内持続投与した。ラットでは、2.5,\r\n10mg/kg（15, 60mg/m2）を2.3分間かけて、イヌでは、0.75mg/kg（15mg/m2）を80～84分間か\r\nけて静脈内持続投与した。マウス及びラットでは投与後0～168時間、イヌでは投与後0～24時間\r\nの、血液、血漿及び脳試料を採取した。脳内放射能濃度は静脈内持続投与終了後2分～1時間に最\r\n高値に達した。その後、総放射能濃度は徐々に低下し、ラット脳で少なくとも168時間後、マウ\r\nス脳で少なくとも3週間後まで放射能が検出された（10mg/kg）。\r\nオートラジオグラフィーにより放射能の脳内分布を調べたとき、マウス、ラット及びイヌにおけ\r\nる脳内分布は不均一であり、脳室系（すなわち、側脳室、第3脳室及び第4脳室）に高い放射能濃\r\n度が認められた。さらに、髄膜又は髄膜血管に中等度の放射能が認められ、残りの脳領域で認め\r\nられた放射能濃度は低かったことから、脳実質又は血管へのカバジタキセルの分布は多くないこ\r\nとが示された。3種の動物のいずれにおいても、血漿及び脳内総放射能濃度に占めるカバジタキ\r\nセルの割合はそれぞれ65%及び72%以上であり、マウス及びラット脳内での代謝物の割合は類似\r\nしていた。総放射能濃度データから、脳／血液中曝露量比はいずれの動物種においても類似して\r\nいると考えられた。\r\n2．反復投与＊17)\r\n雌マウスにカバジタキセルを5, 10, 15mg/kg（15, 30, 45mg/m2）の用量で1時間静脈内持続投与\r\nにより3週間毎に5サイクル連続して投与し、サイクル1及びサイクル5において、3週間後まで血\r\n漿及び脳試料を採取した。脳内濃度は静脈内持続投与開始後45分～1時間に最高値に達した。サ\r\nイクル5の15mg/kg 投与群では、投与前の脳内に76.9ng/g のカバジタキセルが検出されたが、投\r\n与後3週間における脳内にも同等の測定値が得られた。Cmax は用量に比例して上昇したが、同用\r\n量で比較したとき、サイクル1とサイクル5の間で著しい差は認められなかった。一方AUC0-t は、\r\n用量増加及び反復投与に伴って顕著に増加した。"@ja	.
+if:IF_7_5_1	dct:references	if:ref7	.
+if:IF_7_5_1	dct:references	if:ref*16	.
+if:IF_7_5_1	dct:references	if:ref*17	.
+if:IF_7_5_2	rdf:type	ifo:IF_7_5_2	.
+if:IF_7_5_2	rdf:type	ifo:Section	.
+if:IF_7_5_2	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_2	rdf:value	"該当資料なし\r\n＜参考：ラット＞＊18)\r\n妊娠ラットに14C-カバジタキセル0.08mg/kg（0.48mg/m2）を妊娠17日に2分間静脈内投与したと\r\nきのカバジタキセル及び代謝物の胎盤通過について、全身ラジオルミノグラフィー及びラジオク\r\nロマト分析により評価した。投与後24時間において、胎児肝臓中に未変化体（総放射能の66％）\r\n及びtert-ブチル基が水酸化された代謝物M01（総放射能の34％）が検出されたことから、少量の\r\n放射能が胎盤関門を介して胎児に移行することが示された。胎児肝臓の代謝物プロファイルは、\r\n成熟ラットの血漿及び肝臓試料で得られた結果と質的に類似していた。"@ja	.
+if:IF_7_5_2	dct:references	if:ref*18	.
+if:IF_7_5_3	rdf:type	ifo:IF_7_5_3	.
+if:IF_7_5_3	rdf:type	ifo:Section	.
+if:IF_7_5_3	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_3	rdf:value	"該当資料なし\r\n＜参考：ラット＞＊19)\r\n授乳11日目のラットに14C-カバジタキセル0.08mg/kg（0.48mg/m2）を2分間静脈内投与して、投\r\n与後2、6及び24時間に胎児血液を採取するとともに、全身オートラジオルミノグラフィーによ\r\nり組織分布を調べた。乳汁を介して排泄された放射能量は、投与量の0.23%から1.51%の範囲で\r\nあると推定された。"@ja	.
+if:IF_7_5_3	dct:references	if:ref*19	.
+if:IF_7_5_4	rdf:type	ifo:IF_7_5_4	.
+if:IF_7_5_4	rdf:type	ifo:Section	.
+if:IF_7_5_4	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_4	rdf:value	"1週間間隔でカバジタキセル3及び6mg/m²を1時間点滴静脈内投与した外国人進行性固形癌患者3\r\n例に腰椎穿刺を行い、脳脊髄液を採取した。点滴静注終了後35分以内に採取した脳脊髄液検体に\r\nおいて、いずれもカバジタキセルは検出されなかった。しかし、同じ時点で採取した血漿中濃度が\r\n低く（≦14.4ng/mL）、また遊離体の割合が低い（8%～11%）ことを考慮すると、腰椎穿刺は陰\r\n性であったが、脳脊髄液中にカバジタキセルが移行するかどうか明確な結論は得られなかった。"@ja	.
+if:IF_7_5_4	dct:references	if:ref*20	.
+if:IF_7_5_5	rdf:type	ifo:IF_7_5_5	.
+if:IF_7_5_5	rdf:type	ifo:Section	.
+if:IF_7_5_5	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_5	rdf:value	"該当資料なし\r\n＜参考：in vitro ＞＊21)\r\nIn vitro のヒト血液の血液／血漿濃度比は0.90～0.99 であった。\r\n＜参考：マウス＞＊22)\r\nC3H/HeN 担癌雌マウスに14C-カバジタキセル40mg/kg（120mg/m2）を45秒間で単回静脈内投\r\n与し、168時間後まで各時点において、各3例から血漿及び組織（脳、腫瘍、肝臓）試料を採取し\r\nた。カバジタキセルは肝臓、腫瘍及び脳組織に速やかに取り込まれた（tmax：投与後2～15分）。\r\nその後、脳及び腫瘍内カバジタキセル濃度は血漿中に比べて徐々に低下し、投与後48時間では血\r\n漿中濃度に比べて100倍及び40倍高かった。肝臓内カバジタキセル濃度は投与後最初の1時間で\r\n速やかに低下した。カバジタキセル濃度は肝臓で投与後24時間まで、腫瘍で96時間まで、脳及び\r\n血漿で168時間まで定量可能であった。0～24時間（肝臓）又は0～48時間（脳及び腫瘍）におけ\r\nるカバジタキセルの組織／血漿曝露量比は1.6（腫瘍）～3.7（脳）の範囲であり、カバジタキセ\r\nルがこれらの組織に高く分布することが示された。代謝物であるドセタキセルは、マウス脳内で\r\nは検出されなかった。ドセタキセルの血漿、腫瘍及び肝臓における曝露量はそれぞれ、カバジタ\r\nキセルの3.6%、6.6%及び18%であった。"@ja	.
+if:IF_7_5_5	dct:references	if:ref*21	.
+if:IF_7_5_5	dct:references	if:ref*22	.
+if:IF_7_5_6	rdf:type	ifo:IF_7_5_6	.
+if:IF_7_5_6	rdf:type	ifo:Section	.
+if:IF_7_5_6	ifo:package_insert	pi:PI_16_3	.
+if:IF_7_5_6	rdf:value	"＜in vitro＞\r\nIn vitro におけるヒト血漿中の蛋白結合率は89％～92％であり、50,000ng/mL まで飽和しな\r\nかった。カバジタキセルは主にヒト血清アルブミン（82.0％）及びリポ蛋白（HDL：87.9％、\r\nLDL：69.8％、VLDL：55.8％）に結合した*15)。α1-酸性糖蛋白への結合は17.8%であった＊15)。\r\nIn vitro のヒト血液の血液/血漿濃度比は0.90～0.99であった*21)。\r\n＜ex-vivo＞\r\n進行性固形癌患者を対象とした海外第Ⅰ相臨床試験（TED6188）において、カバジタキセル投\r\n与終了5分前の試料を用いて、平衡透析により血漿蛋白結合率を検討したところ、ex-vivo での血\r\n漿蛋白結合率の平均値は91.6%であった＊3)。"@ja	.
+if:IF_7_5_6	dct:references	if:ref*15	.
+if:IF_7_5_6	dct:references	if:ref*21	.
+if:IF_7_5_6	dct:references	if:ref*3	.
+if:IF_7_6_1	rdf:type	ifo:IF_7_6_1	.
+if:IF_7_6_1	rdf:type	ifo:Section	.
+if:IF_7_6_1	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_1	rdf:value	"カバジタキセルは肝臓で広範に代謝される。ヒト血漿中には大部分がカバジタキセルとして存在\r\nした。ヒト血漿中ではカバジタキセル以外に7種の代謝物（3種の活性代謝物含む）が検出された\r\nが、最も多い代謝物でも未変化体の5%程度であった。ヒトの尿中及び糞中には約20種の代謝物\r\nが排泄された。\r\nヒトにおける主な代謝経路は以下の通りである。\r\n●10-O-脱メチル化によりRPR123142（10-O-脱メチル-カバジタキセル）が生成する経路（A）\r\n●7-O-脱メチル化によりRPR112698（7-O-脱メチル-カバジタキセル）が生成する経路（B）\r\n●側鎖のtert-ブチル基が水酸化された後、側鎖が環化することにより、オキサゾリジン型化合物\r\nが生成する経路（C）\r\n●開裂により、タキサン環が消失する経路（D）\r"@ja	.
+if:IF_7_6_1	dct:references	if:ref*23	.
+if:IF_7_6_2	rdf:type	ifo:IF_7_6_2	.
+if:IF_7_6_2	rdf:type	ifo:Section	.
+if:IF_7_6_2	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_2	rdf:value	"カバジタキセルは肝臓で広範に代謝され、主にCYP3A の寄与率は80～90%であった。CYP2C8\r\nによる代謝は少なかった。(in vitro)\r\nヒト肝細胞を用いたin vitro 試験において、カバジタキセルのCYP3A 酵素阻害作用が認められ\r\nたが、その他のCYP に対する阻害作用は認められなかった。また、カバジタキセルによるCYP1A、\r\nCYP2C9 及びCYP3A の誘導作用は認められなかった。"@ja	.
+if:IF_7_6_2	dct:references	if:ref*23	.
+if:IF_7_6_3	rdf:type	ifo:IF_7_6_3	.
+if:IF_7_6_3	rdf:type	ifo:Section	.
+if:IF_7_6_3	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_3	rdf:value	"該当しない"@ja	.
+if:IF_7_6_4	rdf:type	ifo:IF_7_6_4	.
+if:IF_7_6_4	rdf:type	ifo:Section	.
+if:IF_7_6_4	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_6_4	rdf:value	"外国人固形腫瘍患者4例に14C-カバジタキセル25mg/m2を1時間で点滴静脈内投与した。ヒト血漿\r\n中には大部分がカバジタキセルとして存在した。ヒト血漿中ではカバジタキセル以外に7種の代\r\n謝物（3種の活性代謝物含む）が検出されたが、最も多い代謝物でも未変化体の5％程度であった。\r\nドセタキセルを含む3種のカバジタキセル活性代謝物のin vitro 腫瘍細胞増殖阻害作用はカバジ\r\nタキセルと同程度であった。しかし、これらの代謝物は、カバジタキセルと比較して血漿中濃度\r\nが低いことを考慮すると、カバジタキセルのin vivo 効果への寄与はわずかであると考えられた。"@ja	.
+if:IF_7_6_4	dct:references	if:ref*24	.
+if:IF_7_7	rdf:type	ifo:IF_7_7	.
+if:IF_7_7	rdf:type	ifo:Section	.
+if:IF_7_7	ifo:package_insert	pi:PI_16_5	.
+if:IF_7_7	rdf:value	"外国人固形腫瘍患者4 例に14C-カバジタキセル25mg/m2 を1 時間で点滴静脈内投与したとき、\r\n投与量の約80％が2 週間以内に排泄された。カバジタキセルは主に代謝物として糞中に排泄さ\r\nれた（投与量の76％）。一方、尿中排泄は3.7％以下であり、2.3％が未変化体であった＊25)。"@ja	.
+if:IF_7_7	dct:references	if:ref*25	.
+if:IF_7_8	rdf:type	ifo:IF_7_8	.
+if:IF_7_8	rdf:type	ifo:Section	.
+if:IF_7_8	ifo:package_insert	pi:PI_16_4	.
+if:IF_7_8	rdf:value	"カバジタキセルはげっ歯類の血液脳関門における輸送体蛋白質であるP-糖蛋白質（P-gp）の基質\r\nであり、OATP1B1の阻害作用を示した*27)。\r\nIn vitro 試験において、カバジタキセルはP-gp、BCRP 又はMRP を介した輸送を阻害しなかった\r\nが、臨床試験のCmax よりはるかに高い濃度でP-gp を介する輸送を強力に阻害することが示され\r\nた。しかし、in vivo 試験においてカバジタキセルを25mg/m2の用量で投与したとき、P-gp、BCRP、\r\nMRP の基質との相互作用は起こる可能性は低いことが示唆された。\r\nカバジタキセルはBCRP の基質ではないが、ヒトMRP2の弱い基質であることが示された。また、\r\nカバジタキセルはMRP1又はMRP2の阻害剤ではないが、BCRP を介するメトトレキサートの輸\r\n送を臨床試験のCmax よりはるかに高い濃度で阻害した＊26)。\r\nIn vitro 試験において、カバジタキセルはOCT1に対して阻害を示さず、OATP1B3及びOATP1B1\r\nに対しては、それぞれ臨床でみられた最高濃度の15倍及び5倍の濃度で輸送阻害作用が認められた。\r\nしたがってカバジタキセルは、臨床使用においてOCT1及びOATP1B3を介した輸送を阻害しない\r\nと推定された。しかし併用投与したOATP1B1の基質とは、カバジタキセルのCmax 付近である点滴\r\n静注中（1時間）及び点滴静注終了後20分までは相互作用が生じる可能性があると考えられた＊27)。"@ja	.
+if:IF_7_8	dct:references	if:ref*27	.
+if:IF_7_8	dct:references	if:ref*26	.
+if:IF_7_9	rdf:type	ifo:IF_7_9	.
+if:IF_7_9	rdf:type	ifo:Section	.
+if:IF_7_9	ifo:package_insert	pi:PI_16_6	.
+if:IF_7_9	rdf:value	"該当資料なし"@ja	.
+if:IF_7_10	rdf:type	ifo:IF_7_10	.
+if:IF_7_10	rdf:type	ifo:Section	.
+if:IF_7_10	ifo:package_insert	pi:PI_16_6	.
+if:IF_7_10	rdf:value	"カバジタキセルの腎臓からの排泄は少ない（投与量の2.3%）。外国人進行性固形癌（前立腺癌を\r\n含む）患者における母集団薬物動態解析（170例）で、軽度の腎障害患者（CLcr：50～80mL/min、\r\n59例）から中等度の腎障害患者（CLcr：30～50mL/min、14例）では腎機能正常患者と比べ薬物\r\n動態に大きな影響はみられなかった*11）。\r\nまた、程度の異なる腎障害を有する外国人固形腫瘍患者（腎機能正常患者（CLcr：>80\r\nmL/min/1.73m2、8例）、中等度の腎障害患者（CLcr：30～50mL/min/1.73m2、8例）ならびに重\r\n度の腎障害患者（CLcr：<30mL/min/1.73m2、8例））を対象に、本剤を25mg/m2まで複数サイク\r\nル投与した薬物動態試験における本剤のクリアランスはそれぞれ33.5L/h/m2、28.9L/h/m2及び\r\n29.6L/h/m2であった。なお、末期腎障害患者（CLcr：<15mL/min/1.73m2）における十分なデー\r\nタは得られていない。"@ja	.
+if:IF_7_10	dct:references	if:ref*11	.
+if:IF_7_11	rdf:type	ifo:IF_7_11	.
+if:IF_7_11	rdf:type	ifo:Section	.
+if:IF_7_11	ifo:package_insert	pi:PI_16_8	.
+if:IF_7_11	rdf:value	"該当しない"@ja	.
+if:IF_8_1	rdf:type	ifo:IF_8_1	.
+if:IF_8_1	rdf:type	ifo:Section	.
+if:IF_8_1	ifo:package_insert	pi:PI_1	.
+if:IF_8_1	ifo:item	if:IF_8_1.item1	.
+if:IF_8_1.item1	rdf:type	ifo:Item	.
+if:IF_8_1.item1	ifo:package_insert	pi:PI_1.item1	.
+if:IF_8_1.item1	dct:identifier	"8.1.item1"	.
+if:IF_8_1.item1	rdf:value	"本剤の使用により、好中球減少症、発熱性好中球減少症、貧血等の骨髄抑制が高頻度で認めら\r\nれている。（骨髄抑制の発現状況については「重要な基本的注意」の解説を参照）。\r\n国内第Ⅰ相臨床試験では、投与期間中又は本剤最終投与後30日以内の死亡例の報告はなかった。\r\n海外第Ⅲ相臨床試験では、371例中18例の死亡例が報告されており、そのうち以下の事象による\r\n死亡は本剤との因果関係が否定されなかった。\r\n腎不全及び好中球減少性敗血症：各2例\r\n心停止、真菌性敗血症、敗血症、敗血症性ショック、血小板減少症、好中球減少症、発熱性好\r\n中球減少症、貧血、呼吸不全、腸炎、腹痛及び急性腎不全：各1例\r\nまた、本項に示した患者を含め、本剤には投与禁忌となる患者が設定されている（本頁「禁忌」\r\nの項参照）。本剤投与にあたっては、「禁忌」及び「使用上の注意」を熟読し、適応患者の選択\r\nを行うこと。\r\nまた、本剤による治療に先立ち、患者又はその家族に本剤の有効性及び危険性について十分に\r\n説明し、同意を得た上で、投与を開始すること。"@ja	.
+if:IF_8_2	rdf:type	ifo:IF_8_2	.
+if:IF_8_2	rdf:type	ifo:Section	.
+if:IF_8_2	ifo:package_insert	pi:PI_2	.
+if:IF_8_2	ifo:item	if:IF_8_2.item1	.
+if:IF_8_2	ifo:item	if:IF_8_2.item2	.
+if:IF_8_2	ifo:item	if:IF_8_2.item3	.
+if:IF_8_2	ifo:item	if:IF_8_2.item4	.
+if:IF_8_2	ifo:item	if:IF_8_2.item5	.
+if:IF_8_2.item1	rdf:type	ifo:Item	.
+if:IF_8_2.item1	ifo:package_insert	pi:PI_2.item1	.
+if:IF_8_2.item1	dct:identifier	"8.2.item1"	.
+if:IF_8_2.item1	rdf:value	"2.1 このような患者では、本剤投与により骨髄抑制が増悪し、それに伴い重症感染症等を併発す\nるおそれがある。\n＜参考＞\r\n臨床試験における除外基準を以下に示す。\r\n国内第Ⅰ相臨床試験：好中球数2000/mm3 未満、血小板数＜100×109/L\r\n海外第Ⅲ相臨床試験：好中球数1500/mm3 未満、血小板数＜100×109/L"@ja	.
+if:IF_8_2.item2	rdf:type	ifo:Item	.
+if:IF_8_2.item2	ifo:package_insert	pi:PI_2.item2	.
+if:IF_8_2.item2	dct:identifier	"8.2.item2"	.
+if:IF_8_2.item2	rdf:value	"2.2 このような患者では本剤投与による骨髄抑制に伴い、感染症が増悪するおそれがある。"@ja	.
+if:IF_8_2.item3	rdf:type	ifo:Item	.
+if:IF_8_2.item3	ifo:package_insert	pi:PI_2.item3	.
+if:IF_8_2.item3	dct:identifier	"8.2.item3"	.
+if:IF_8_2.item3	rdf:value	"2.3 このような患者では本剤投与による骨髄抑制に伴い、症状が悪化するおそれがある。"@ja	.
+if:IF_8_2.item4	rdf:type	ifo:Item	.
+if:IF_8_2.item4	ifo:package_insert	pi:PI_2.item4	.
+if:IF_8_2.item4	dct:identifier	"8.2.item4"	.
+if:IF_8_2.item4	rdf:value	"2.4 本剤は主に肝臓で代謝されるため、このような患者では本剤の血中濃度が上昇し副作用が強\r\nくあらわれるおそれがある。なお、国内第Ⅰ相臨床試験及び海外第Ⅲ相臨床試験において肝機\r\n能障害のある患者は除外されていたため、このような患者での使用経験は限られているが、海\r\n外では、このような患者で好中球減少症、敗血症等による死亡例を含む重篤な副作用の発現や\r\n副作用の増悪が報告されている。\n＜参考＞\r\n海外第Ⅲ相臨床試験における除外基準を以下に示す。\r\n・総ビリルビンが各施設基準値上限以上\r\n・ALT/AST が各施設基準値上限の1.5 倍以上"@ja	.
+if:IF_8_2.item5	rdf:type	ifo:Item	.
+if:IF_8_2.item5	ifo:package_insert	pi:PI_2.item5	.
+if:IF_8_2.item5	dct:identifier	"8.2.item5"	.
+if:IF_8_2.item5	rdf:value	"2.5 このような患者では、本剤投与により重篤な過敏症があらわれるおそれがある。\r\nなお、本剤は添加物として1バイアルあたり1.56g のポリソルベート80を含有している。"@ja	.
+if:IF_8_3	rdf:type	ifo:IF_8_3	.
+if:IF_8_3	rdf:type	ifo:Section	.
+if:IF_8_3	rdf:value	"「Ⅴ．治療に関する項目」を参照すること。"@ja	.
+if:IF_8_3	rdfs:seeAlso	if:IF_5	.
+if:IF_8_4	rdf:type	ifo:IF_8_4	.
+if:IF_8_4	rdf:type	ifo:Section	.
+if:IF_8_4	rdf:value	"「Ⅴ．治療に関する項目」を参照すること。"@ja	.
+if:IF_8_4	rdfs:seeAlso	if:IF_5	.
+if:IF_8_5	rdf:type	ifo:IF_8_5	.
+if:IF_8_5	rdf:type	ifo:Section	.
+if:IF_8_5	ifo:package_insert	pi:PI_8	.
+if:IF_8_5	ifo:item	if:IF_8_5.item1	.
+if:IF_8_5	ifo:item	if:IF_8_5.item2	.
+if:IF_8_5	ifo:item	if:IF_8_5.item3	.
+if:IF_8_5	ifo:item	if:IF_8_5.item4	.
+if:IF_8_5	ifo:item	if:IF_8_5.item5	.
+if:IF_8_5.item1	rdf:type	ifo:Item	.
+if:IF_8_5.item1	ifo:package_insert	pi:PI_8.item1	.
+if:IF_8_5.item1	dct:identifier	"8.5.item1"	.
+if:IF_8_5.item1	rdf:value	"8.1 本剤投与により、好中球減少症、発熱性好中球減少症、貧血等の骨髄抑制が高頻度で認めら\r\nれている。国内第Ⅰ相臨床試験及び海外第Ⅲ相臨床試験における関連する副作用の発現状況は\r\n以下のとおりであった。\r\n国内第Ⅰ相臨床試験での本剤25mg/m2 投与群（44 例）における好中球減少症の発現時期\r\nは以下のとおりであった。\r\nこれらを踏まえ、本剤投与中は定期的に血液検査等を行うとともに、患者の状態を十分に観\r\n察し、異常が認められた場合には、減量、休薬又は投与を中止するなど、適切な処置を行う\r\nこと。\r\nまた、本剤は、市販後（平成26年9月4日販売開始から平成26年12月17日時点）208例に投与\r\nされ、発熱性好中球減少症（以下、「FN」）の国内症例が35例（うち重篤28例）報告されてお\r\nり、FN の発現頻度は16.8%（35/208例）であった。その中に、5例の死亡例が含まれていた。\r\nFN で死亡に至った5例は、いずれもFN のリスク因子を有する症例に対し本剤が使用され\r\nた症例であり、また、FN に対する適切な抗生剤投与が直ちに行われていない症例等も含ま\r\nれていたことから、本剤の投与にあたっては最新のガイドライン等を参考にFN に対する適\r\n切な管理を行う必要があるため設定した。\r\n＜参考：主な国内のガイドライン＞\r\n・「G-CSF 適正使用ガイドライン（日本癌治療学会編）」\r\n・「発熱性好中球減少症（FN）診療ガイドライン（日本臨床腫瘍学会編）」"@ja	.
+if:IF_8_5.item2	rdf:type	ifo:Item	.
+if:IF_8_5.item2	ifo:package_insert	pi:PI_8.item2	.
+if:IF_8_5.item2	dct:identifier	"8.5.item2"	.
+if:IF_8_5.item2	rdf:value	"8.2 本剤投与により過敏反応があらわれるおそれがあることから、前投薬を規定している（〈用\r\n法及び用量に関連する使用上の注意〉の項参照）。\r\nなお、海外第Ⅲ相臨床試験及び国内第Ⅰ相臨床試験でアナフィラキシーショック等重篤な過敏\r\n反応の副作用の報告はないが、海外第Ⅲ相臨床試験で過敏症（Grade1-2）が4例報告されてい\r\nる。"@ja	.
+if:IF_8_5.item2	rdfs:seeAlso	if:IF_8_4	.
+if:IF_8_5.item3	rdf:type	ifo:Item	.
+if:IF_8_5.item3	ifo:package_insert	pi:PI_8.item3	.
+if:IF_8_5.item3	dct:identifier	"8.5.item3"	.
+if:IF_8_5.item3	rdf:value	"8.3 海外第Ⅲ相臨床試験で腎不全及び急性腎不全が各2例報告されている。"@ja	.
+if:IF_8_5.item4	rdf:type	ifo:Item	.
+if:IF_8_5.item4	ifo:package_insert	pi:PI_8.item4	.
+if:IF_8_5.item4	dct:identifier	"8.5.item4"	.
+if:IF_8_5.item4	rdf:value	"8.4 海外第Ⅲ相臨床試験で心房細動、心停止、頻脈が各1例、国内第Ⅰ相臨床試験で心房細動が1\r\n例報告されている。"@ja	.
+if:IF_8_5.item5	rdf:type	ifo:Item	.
+if:IF_8_5.item5	ifo:package_insert	pi:PI_8.item5	.
+if:IF_8_5.item5	dct:identifier	"8.5.item5"	.
+if:IF_8_5.item5	rdf:value	"8.5 海外第Ⅲ相臨床試験及び国内第Ⅰ相臨床試験では報告はないが、海外市販後に本剤と因果関\r\n係が否定できない症例が報告されている。"@ja	.
+if:IF_8_6_1	rdf:type	ifo:IF_8_6_1	.
+if:IF_8_6_1	rdf:type	ifo:Section	.
+if:IF_8_6_1	ifo:package_insert	pi:PI_9_1	.
+if:IF_8_6_1	ifo:item	if:IF_8_6_1.item1	.
+if:IF_8_6_1	ifo:item	if:IF_8_6_1.item2	.
+if:IF_8_6_1	ifo:item	if:IF_8_6_1.item3	.
+if:IF_8_6_1	ifo:item	if:IF_8_6_1.item4	.
+if:IF_8_6_1.item1	rdf:type	ifo:Item	.
+if:IF_8_6_1.item1	ifo:package_insert	pi:PI_9_1.item1	.
+if:IF_8_6_1.item1	dct:identifier	"8.6.1.item1"	.
+if:IF_8_6_1.item1	rdf:value	"9.1.1 重篤な骨髄抑制のある患者には本剤の投与は禁忌である。（「２．禁忌内容とその理由」\r\nの項参照）\r\n骨髄抑制のある患者では、本剤投与により症状が悪化し重症感染症等を併発するおそれがあ\r\nるので、慎重に投与すること。（「５．重要な基本的注意とその理由」の項参照）"@ja	.
+if:IF_8_6_1.item1	rdfs:seeAlso	if:IF_8_2	.
+if:IF_8_6_1.item1	rdfs:seeAlso	if:IF_8_5	.
+if:IF_8_6_1.item2	rdf:type	ifo:Item	.
+if:IF_8_6_1.item2	ifo:package_insert	pi:PI_9_1.item2	.
+if:IF_8_6_1.item2	dct:identifier	"8.6.1.item2"	.
+if:IF_8_6_1.item2	rdf:value	"9.1.3 本剤投与により間質性肺疾患があらわれることがあり、罹患している又は既往歴のある\r\n患者では、本剤投与により症状を悪化させるおそれがある。"@ja	.
+if:IF_8_6_1.item3	rdf:type	ifo:Item	.
+if:IF_8_6_1.item3	ifo:package_insert	pi:PI_9_1.item3	.
+if:IF_8_6_1.item3	dct:identifier	"8.6.1.item3"	.
+if:IF_8_6_1.item3	rdf:value	"9.1.4 本剤投与により浮腫があらわれることがあり、浮腫を認める患者では、本剤投与により\r\n症状を悪化させるおそれがある。"@ja	.
+if:IF_8_6_1.item4	rdf:type	ifo:Item	.
+if:IF_8_6_1.item4	ifo:package_insert	pi:PI_9_1.item4	.
+if:IF_8_6_1.item4	dct:identifier	"8.6.1.item4"	.
+if:IF_8_6_1.item4	rdf:value	"9.1.5 本剤の添付溶解液は１バイアル（4.5mL）中、日局エタノールを573.3mg 含有している。\r\nアルコールに過敏な患者に投与した場合、アルコールの中枢神経系への影響が強くあらわれ\r\nるおそれがある。投与前に問診等によりアルコール過敏の有無を確認し、本剤の適用を慎重\r\nに判断すること。アルコールに過敏な患者に投与する場合は、点滴中も患者の状態をよく観\r\n察し、点滴終了後はしばらく安静にする等の対応を行うこと。"@ja	.
+if:IF_8_6_2	rdf:type	ifo:IF_8_6_2	.
+if:IF_8_6_2	rdf:type	ifo:Section	.
+if:IF_8_6_2	ifo:package_insert	pi:PI_9_2	.
+if:IF_8_6_2	ifo:item	if:IF_8_6_2.item1	.
+if:IF_8_6_2.item1	rdf:type	ifo:Item	.
+if:IF_8_6_2.item1	ifo:package_insert	pi:PI_9_2.item1	.
+if:IF_8_6_2.item1	dct:identifier	"8.6.2.item1"	.
+if:IF_8_6_2.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_6_5	rdf:type	ifo:IF_8_6_5	.
+if:IF_8_6_5	rdf:type	ifo:Section	.
+if:IF_8_6_5	ifo:package_insert	pi:PI_9_5	.
+if:IF_8_6_5	ifo:item	if:IF_8_6_5.item1	.
+if:IF_8_6_5.item1	rdf:type	ifo:Item	.
+if:IF_8_6_5.item1	ifo:package_insert	pi:PI_9_5.item1	.
+if:IF_8_6_5.item1	dct:identifier	"8.6.5.item1"	.
+if:IF_8_6_5.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_6_6	rdf:type	ifo:IF_8_6_6	.
+if:IF_8_6_6	rdf:type	ifo:Section	.
+if:IF_8_6_6	ifo:package_insert	pi:PI_9_6	.
+if:IF_8_6_6	ifo:item	if:IF_8_6_6.item1	.
+if:IF_8_6_6.item1	rdf:type	ifo:Item	.
+if:IF_8_6_6.item1	ifo:package_insert	pi:PI_9_6.item1	.
+if:IF_8_6_6.item1	dct:identifier	"8.6.6.item1"	.
+if:IF_8_6_6.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_6_6.item1	rdf:value	"9.8 国内外の臨床試験において、65 歳未満の患者に比べて65 歳以上の患者で多く認められた副\r\n作用を記載した。高齢者に本剤を投与する際は、特にこれらの副作用の発現に注意すること。"@ja	.
+if:IF_8_7_1	rdf:type	ifo:IF_8_7_1	.
+if:IF_8_7_1	rdf:type	ifo:Section	.
+if:IF_8_7_1	ifo:package_insert	pi:PI_10_1	.
+if:IF_8_7_1	ifo:item	if:IF_8_7_1.item1	.
+if:IF_8_7_1.item1	rdf:type	ifo:Item	.
+if:IF_8_7_1.item1	ifo:package_insert	pi:PI_10_1.item1	.
+if:IF_8_7_1.item1	dct:identifier	"8.7.1.item1"	.
+if:IF_8_7_1.item1	rdf:value	"設定されていない"@ja	.
+if:IF_8_7_2	rdf:type	ifo:IF_8_7_2	.
+if:IF_8_7_2	rdf:type	ifo:Section	.
+if:IF_8_7_2	ifo:package_insert	pi:PI_10_2	.
+if:IF_8_7_2	ifo:item	if:IF_8_7_2.item1	.
+if:IF_8_7_2.item1	rdf:type	ifo:Item	.
+if:IF_8_7_2.item1	ifo:package_insert	pi:PI_10_2.item1	.
+if:IF_8_7_2.item1	dct:identifier	"8.7.2.item1"	.
+if:IF_8_7_2.item1	rdf:value	"10.2 カバジタキセルは肝臓で広範に代謝され、代謝酵素として主にCYP3A が寄与している\r\n（80～90％）。\r\nまた、in vitro 試験で、本剤はP-糖蛋白の基質であること、またOATP1B1を阻害することが\r\n示されている＊27)。\r\n(1)CYP3A を強く阻害する薬剤＊12)\r\nカバジタキセルは主にCYP3A で代謝されるため、併用により本剤の血中濃度が上昇し、\r\n副作用が強くあらわれるおそれがある。外国人進行性固形癌患者に、強力なCYP3A 阻害\r\n剤であるケトコナゾール（400mg 1日1回）を反復併用投与したとき、カバジタキセルのク\r\nリアランスが20％低下した。この低下はAUC の25％の増加に相当する。なお、中等度の\r\nCYP3A 阻害剤であるアプレピタントと併用したとき、カバジタキセルのクリアランス及\r\nび曝露量に影響は認められなかった。強力なCYP3A 阻害剤と本剤との併用は避け、代替\r\n薬への変更を考慮すること。やむを得ず併用する場合は上述の試験結果等を参考に、本剤\r\nの減量を考慮すること。\r\n(2)CYP3A を強く誘導する薬剤＊12)\r\nカバジタキセルは主にCYP3A で代謝されるため、併用により本剤の血中濃度が低下し、\r\n本剤の効果が減弱するおそれがある。強力なCYP3A 誘導剤であるリファンピシン（600mg\r\n1日1回）を外国人進行性固形癌患者に反復併用投与したとき、カバジタキセルのクリアラ\r\nンスが21％増加した。この増加はAUC の17％の減少に相当する。これら薬剤との併用は\r\n避け、代替の治療薬への変更を考慮すること。"@ja	.
+if:IF_8_7_2.item1	dct:references	if:ref*27	.
+if:IF_8_7_2.item1	dct:references	if:ref*12	.
+if:IF_8_8_1	rdf:type	ifo:IF_8_8_1	.
+if:IF_8_8_1	rdf:type	ifo:Section	.
+if:IF_8_8_1	ifo:package_insert	pi:PI_11_1	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item1	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item2	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item3	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item4	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item5	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item6	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item7	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item8	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item9	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item10	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item11	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item12	.
+if:IF_8_8_1	ifo:item	if:IF_8_8_1.item13	.
+if:IF_8_8_1.item1	rdf:type	ifo:Item	.
+if:IF_8_8_1.item1	ifo:package_insert	pi:PI_11_1.item1	.
+if:IF_8_8_1.item1	dct:identifier	"8.8.1.item1"	.
+if:IF_8_8_1.item1	rdf:value	"11.1.1 海外第Ⅲ相臨床試験及び国内第Ⅰ相臨床試験において、これらの副作用が報告されてい\r\nる（「重要な基本的注意」の解説参照）。本剤投与中は定期的に検査を行い、異常が認められ\r\nた場合には適切な処置を行うこと。（本剤の用量調節については〈用法及び用量に関連する使\r\n用上の注意〉の項参照）"@ja	.
+if:IF_8_8_1.item1	rdfs:seeAlso	if:IF_8_4	.
+if:IF_8_8_1.item2	rdf:type	ifo:Item	.
+if:IF_8_8_1.item2	ifo:package_insert	pi:PI_11_1.item2	.
+if:IF_8_8_1.item2	dct:identifier	"8.8.1.item2"	.
+if:IF_8_8_1.item2	rdf:value	"11.1.2 海外第Ⅲ相臨床試験で腎不全及び急性腎不全が各2例報告されている。"@ja	.
+if:IF_8_8_1.item3	rdf:type	ifo:Item	.
+if:IF_8_8_1.item3	ifo:package_insert	pi:PI_11_1.item3	.
+if:IF_8_8_1.item3	dct:identifier	"8.8.1.item3"	.
+if:IF_8_8_1.item3	rdf:value	"11.1.3 消化管出血については、海外第Ⅲ相臨床試験で直腸出血が2例、肛門出血が1例、国内第\r\nⅠ相臨床試験で痔出血が1例報告されている。また、海外第Ⅲ相臨床試験でイレウスが1例、腸\r\n炎及び盲腸炎（Grade3以上）が各1例報告されている。"@ja	.
+if:IF_8_8_1.item4	rdf:type	ifo:Item	.
+if:IF_8_8_1.item4	ifo:package_insert	pi:PI_11_1.item4	.
+if:IF_8_8_1.item4	dct:identifier	"8.8.1.item4"	.
+if:IF_8_8_1.item4	rdf:value	"11.1.4 Grade3以上の下痢が、海外第Ⅲ相臨床試験で19例、国内第Ⅰ相臨床試験で2例報告され\r\nている。本剤投与中は観察を十分に行い、異常が認められた場合には適切な処置を行うこと。\r\n（本剤の用量調節については〈用法及び用量に関連する使用上の注意〉の項参照）"@ja	.
+if:IF_8_8_1.item4	rdfs:seeAlso	if:IF_8_4	.
+if:IF_8_8_1.item5	rdf:type	ifo:Item	.
+if:IF_8_8_1.item5	ifo:package_insert	pi:PI_11_1.item5	.
+if:IF_8_8_1.item5	dct:identifier	"8.8.1.item5"	.
+if:IF_8_8_1.item5	rdf:value	"11.1.5 敗血症、肺炎等の感染症が、海外第Ⅲ相臨床試験で43例、国内第Ⅰ相臨床試験で11例報\r\n告されている。"@ja	.
+if:IF_8_8_1.item6	rdf:type	ifo:Item	.
+if:IF_8_8_1.item6	ifo:package_insert	pi:PI_11_1.item6	.
+if:IF_8_8_1.item6	dct:identifier	"8.8.1.item6"	.
+if:IF_8_8_1.item6	rdf:value	"11.1.6 海外第Ⅲ相臨床試験で心房細動、心停止、頻脈が各1例、国内第Ⅰ相臨床試験で心房細動\r\nが1例報告されている。"@ja	.
+if:IF_8_8_1.item7	rdf:type	ifo:Item	.
+if:IF_8_8_1.item7	ifo:package_insert	pi:PI_11_1.item7	.
+if:IF_8_8_1.item7	dct:identifier	"8.8.1.item7"	.
+if:IF_8_8_1.item7	rdf:value	"11.1.7、11.1.8 海外第Ⅲ相臨床試験及び国内第Ⅰ相臨床試験では報告はないが、海外市販後に\r\n本剤と因果関係が否定できない症例が報告されている。"@ja	.
+if:IF_8_8_1.item8	rdf:type	ifo:Item	.
+if:IF_8_8_1.item8	ifo:package_insert	pi:PI_11_1.item8	.
+if:IF_8_8_1.item8	dct:identifier	"8.8.1.item8"	.
+if:IF_8_8_1.item8	rdf:value	"11.1.9 海外第Ⅲ相臨床試験で末梢性ニューロパチー、末梢性感覚ニューロパチー、多発ニュー\r\nロパチーがそれぞれ26例、16例及び1例、国内第Ⅰ相臨床試験で末梢性ニューロパチー、末梢\r\n性感覚ニューロパチー、末梢性運動ニューロパチーがそれぞれ1例、10例及び1例報告されて\r\nいる。本剤投与中は観察を十分に行い、異常が認められた場合には適切な処置を行うこと。（本\r\n剤の用量調節については〈用法及び用量に関連する使用上の注意〉の項参照）"@ja	.
+if:IF_8_8_1.item8	rdfs:seeAlso	if:IF_8_4	.
+if:IF_8_8_1.item9	rdf:type	ifo:Item	.
+if:IF_8_8_1.item9	ifo:package_insert	pi:PI_11_1.item9	.
+if:IF_8_8_1.item9	dct:identifier	"8.8.1.item9"	.
+if:IF_8_8_1.item9	rdf:value	"11.1.10～11.1.13 海外第Ⅲ相臨床試験及び国内第Ⅰ相臨床試験では報告はないが、海外市販後\r\nに本剤と因果関係が否定できない症例が報告されている。"@ja	.
+if:IF_8_8_1.item10	rdf:type	ifo:Item	.
+if:IF_8_8_1.item10	ifo:package_insert	pi:PI_11_1.item10	.
+if:IF_8_8_1.item10	dct:identifier	"8.8.1.item10"	.
+if:IF_8_8_1.item10	rdf:value	"11.1.14 浮腫については、海外第Ⅲ相臨床試験で末梢性浮腫、浮腫、顔面浮腫がそれぞれ5例、\r\n2例及び2例、国内第Ⅰ相臨床試験で末梢性浮腫、浮腫がそれぞれ6例及び1例報告されている。\r\n心タンポナーデ及び体液貯留については海外第Ⅲ相臨床試験及び国内第Ⅰ相臨床試験では報\r\n告はないが、海外市販後に本剤と因果関係が否定できない症例が報告されている。"@ja	.
+if:IF_8_8_1.item11	rdf:type	ifo:Item	.
+if:IF_8_8_1.item11	ifo:package_insert	pi:PI_11_1.item11	.
+if:IF_8_8_1.item11	dct:identifier	"8.8.1.item11"	.
+if:IF_8_8_1.item11	rdf:value	"11.1.15 海外第Ⅲ相臨床試験で深部静脈血栓症、頚静脈血栓症、肺塞栓症が各1例、国内第Ⅰ相\r\n臨床試験で深部静脈血栓症、肺塞栓症が各1例報告されている。心筋梗塞については海外第Ⅲ\r\n相臨床試験及び国内第Ⅰ相臨床試験では報告はないが、海外市販後に本剤と因果関係が否定で\r\nきない症例が報告されている。"@ja	.
+if:IF_8_8_1.item12	rdf:type	ifo:Item	.
+if:IF_8_8_1.item12	ifo:package_insert	pi:PI_11_1.item12	.
+if:IF_8_8_1.item12	dct:identifier	"8.8.1.item12"	.
+if:IF_8_8_1.item12	rdf:value	"11.1.16 肺臓炎及び急性呼吸窮迫症候群については海外第Ⅲ相臨床試験及び国内第Ⅰ相臨床試\r\n験では報告はないが、海外市販後に本剤と因果関係が否定できない症例が報告されている。な\r\nお、国内第Ⅰ相臨床試験で、間質性肺疾患が1例報告されている。"@ja	.
+if:IF_8_8_1.item13	rdf:type	ifo:Item	.
+if:IF_8_8_1.item13	ifo:package_insert	pi:PI_11_1.item13	.
+if:IF_8_8_1.item13	dct:identifier	"8.8.1.item13"	.
+if:IF_8_8_1.item13	rdf:value	"11.1.17～11.1.19 類薬（ドセタキセル）で知られている重大な副作用として記載されていた事\r\n象（抗利尿ホルモン不適合分泌症候群）(SIADH)、重篤な口内炎等の粘膜炎、血管炎につい\r\nて、国内で市販後に本剤との関連性が否定できない症例が認められたことから、本剤における\r\n重大な副作用として注意喚起を行うこととした。"@ja	.
+if:IF_8_8_2	rdf:type	ifo:IF_8_8_2	.
+if:IF_8_8_2	rdf:type	ifo:Section	.
+if:IF_8_8_2	ifo:package_insert	pi:PI_11_2	.
+if:IF_8_8_2	ifo:item	if:IF_8_8_2.item1	.
+if:IF_8_8_2.item1	rdf:type	ifo:Item	.
+if:IF_8_8_2.item1	ifo:package_insert	pi:PI_11_2.item1	.
+if:IF_8_8_2.item1	dct:identifier	"8.8.2.item1"	.
+if:IF_8_8_2.item1	rdf:value	"11.2 発現頻度は海外第Ⅲ相臨床試験及び国内第Ⅰ相臨床試験における副作用（全Grade）の集\r\n計に基づく。なお、これら国内外試験で共に認められておらず、海外市販後でのみ認められて\r\nいる場合は頻度不明とした。"@ja	.
+if:IF_8_9	rdf:type	ifo:IF_8_9	.
+if:IF_8_9	rdf:type	ifo:Section	.
+if:IF_8_9	ifo:package_insert	pi:PI_12	.
+if:IF_8_9	rdf:value	"設定されていない"@ja	.
+if:IF_8_10	rdf:type	ifo:IF_8_10	.
+if:IF_8_10	rdf:type	ifo:Section	.
+if:IF_8_10	ifo:package_insert	pi:PI_13_2	.
+if:IF_8_10	rdf:value	"本剤を体外に除去する方法は知られていない。過量投与により、骨髄抑制及び胃腸障害等の副作\r\n用が増強したことが報告されている。"@ja	.
+if:IF_8_11	rdf:type	ifo:IF_8_11	.
+if:IF_8_11	rdf:type	ifo:Section	.
+if:IF_8_11	ifo:package_insert	pi:PI_14	.
+if:IF_8_11	ifo:item	if:IF_8_11.item1	.
+if:IF_8_11	ifo:item	if:IF_8_11.item2	.
+if:IF_8_11	ifo:item	if:IF_8_11.item3	.
+if:IF_8_11	ifo:item	if:IF_8_11.item4	.
+if:IF_8_11	ifo:item	if:IF_8_11.item5	.
+if:IF_8_11	ifo:item	if:IF_8_11.item6	.
+if:IF_8_11	ifo:item	if:IF_8_11.item7	.
+if:IF_8_11	ifo:item	if:IF_8_11.item8	.
+if:IF_8_11.item1	rdf:type	ifo:Item	.
+if:IF_8_11.item1	ifo:package_insert	pi:PI_14.item1	.
+if:IF_8_11.item1	dct:identifier	"8.11.item1"	.
+if:IF_8_11.item1	rdf:value	"14.1.1 本剤は細胞毒性を有することから、このような抗悪性腫瘍剤に共通の注意事項として設定\r\nした。"@ja	.
+if:IF_8_11.item2	rdf:type	ifo:Item	.
+if:IF_8_11.item2	ifo:package_insert	pi:PI_14.item2	.
+if:IF_8_11.item2	dct:identifier	"8.11.item2"	.
+if:IF_8_11.item2	rdf:value	"14.1.2 本剤の投与液と容器／用具との適合性試験にてポリ塩化ビニル製の輸液バッグでは、カバ\r\nジタキセル含量の低下及び可塑剤DEHP の溶出が認められた。また、ポリウレタン製の輸液セ\r\nットではカバジタキセルの吸着が認められたことから設定した。"@ja	.
+if:IF_8_11.item3	rdf:type	ifo:Item	.
+if:IF_8_11.item3	ifo:package_insert	pi:PI_14.item3	.
+if:IF_8_11.item3	dct:identifier	"8.11.item3"	.
+if:IF_8_11.item3	rdf:value	"14.2.1 本剤の調製方法について記載した。本剤の調製に際しては、11頁に掲載した「調製方法」\r\nに従うこと。"@ja	.
+if:IF_8_11.item4	rdf:type	ifo:Item	.
+if:IF_8_11.item4	ifo:package_insert	pi:PI_14.item4	.
+if:IF_8_11.item4	dct:identifier	"8.11.item4"	.
+if:IF_8_11.item4	rdf:value	"14.2.3 本剤は無菌製剤であることから、輸液と混和した後は速やかに使用すること。"@ja	.
+if:IF_8_11.item5	rdf:type	ifo:Item	.
+if:IF_8_11.item5	ifo:package_insert	pi:PI_14.item5	.
+if:IF_8_11.item5	dct:identifier	"8.11.item5"	.
+if:IF_8_11.item5	rdf:value	"14.2.4 他剤と混和した際の配合変化については検討を行っていないことから設定した。"@ja	.
+if:IF_8_11.item6	rdf:type	ifo:Item	.
+if:IF_8_11.item6	ifo:package_insert	pi:PI_14.item6	.
+if:IF_8_11.item6	dct:identifier	"8.11.item6"	.
+if:IF_8_11.item6	rdf:value	"14.3.1 本剤投与中に、過飽和となった投与液が結晶化する可能性があることから設定した。"@ja	.
+if:IF_8_11.item7	rdf:type	ifo:Item	.
+if:IF_8_11.item7	ifo:package_insert	pi:PI_14.item7	.
+if:IF_8_11.item7	dct:identifier	"8.11.item7"	.
+if:IF_8_11.item7	rdf:value	"14.3.2 結晶が析出する可能性があることから設定した。"@ja	.
+if:IF_8_11.item8	rdf:type	ifo:Item	.
+if:IF_8_11.item8	ifo:package_insert	pi:PI_14.item8	.
+if:IF_8_11.item8	dct:identifier	"8.11.item8"	.
+if:IF_8_11.item8	rdf:value	"14.3.3 本剤は細胞毒性を有することから、このような抗悪性腫瘍剤に共通の注意事項として設定\r\nした。"@ja	.
+if:IF_8_12_1	rdf:type	ifo:IF_8_12_1	.
+if:IF_8_12_1	rdf:type	ifo:Section	.
+if:IF_8_12_1	ifo:package_insert	pi:PI_15_1	.
+if:IF_8_12_1	rdf:value	"設定されていない"@ja	.
+if:IF_8_12_2	rdf:type	ifo:IF_8_12_2	.
+if:IF_8_12_2	rdf:type	ifo:Section	.
+if:IF_8_12_2	ifo:package_insert	pi:PI_15_2	.
+if:IF_8_12_2	rdf:value	"15.2.1 ヒトでの影響は不明だが、非臨床毒性試験で水晶体への影響がみられたことから記載\r\nした＊28)。\r\n15.2.2 ヒトでの影響は不明だが、非臨床毒性試験で影響がみられたことから記載した＊29)。\r\n15.2.3 ヒトでの影響は不明だが、非臨床毒性試験で影響がみられたことから記載した＊30)。"@ja	.
+if:IF_8_12_2	dct:references	if:ref*28	.
+if:IF_8_12_2	dct:references	if:ref*29	.
+if:IF_8_12_2	dct:references	if:ref*30	.
+if:IF_9_1_1	rdf:type	ifo:IF_9_1_1	.
+if:IF_9_1_1	rdf:type	ifo:Section	.
+if:IF_9_1_1	rdf:value	"「Ⅵ．薬効薬理に関する項目」の項参照"@ja	.
+if:IF_9_1_1	rdfs:seeAlso	if:IF_6	.
+if:IF_9_1_3	rdf:type	ifo:IF_9_1_3	.
+if:IF_9_1_3	rdf:type	ifo:Section	.
+if:IF_9_1_3	rdf:value	"副次的薬理試験\r\n25種のリガンド結合部位に対するカバジタキセル10μmol/L（8360ng/mL）までの親和性を検討\r\nしたところ、多数の生理機能の調節に関与する神経伝達物質受容体（α1-、α2-及びβ-アドレナ\r\nリン受容体、D2ドパミン受容体、H1ヒスタミン受容体、5-HT1A 及び5-HT2セロトニン受容体、\r\nムスカリン受容体、ニコチン受容体）、オピオイド受容体、ステロイドホルモン（グルココルチ\r\nコイド、エストロゲン、プロゲステロン、テストステロン）受容体、取り込み過程（ノルエピネ\r\nフリン、ドパミン、γ-アミノ酪酸［GABA］、5-ヒドロキシトリプタミン）、一部の中枢神経系\r\n調節過程（中枢ベンゾジアゼピン、シグマ、ストリキニーネ感受性グリシン、フェンシクリジン）、\r\n2種のイオンチャネル（ベラパミル感受性カルシウム、テトロドトキシン感受性ナトリウム及び\r\nバトラコトキシン感受性ナトリウム）の結合部位に対して親和性が低い、あるいは親和性を示さ\r\nなかった。"@ja	.
+if:IF_9_2_1	rdf:type	ifo:IF_9_2_1	.
+if:IF_9_2_1	rdf:type	ifo:Section	.
+if:IF_9_2_1	dct:references	if:ref*31	.
+if:IF_9_2_2	rdf:type	ifo:IF_9_2_2	.
+if:IF_9_2_2	rdf:type	ifo:Section	.
+if:IF_9_2_2	dct:references	if:ref*32	.
+if:IF_9_2_3	rdf:type	ifo:IF_9_2_3	.
+if:IF_9_2_3	rdf:type	ifo:Section	.
+if:IF_9_2_3	rdf:value	"カバジタキセルは、細菌を用いる復帰突然変異試験（Ames 試験）において陰性であった。\r\nヒトリンパ球を用いたin vitro 染色体異常試験で、倍数体細胞数の増加がみられたが染色体の構\r\n造異常はみられなかった。また、in vivo ラット骨髄小核試験で0.5mg/kg 以上の用量で有小核細\r\n胞の増加がみられた。"@ja	.
+if:IF_9_2_3	dct:references	if:ref*29	.
+if:IF_9_2_4	rdf:type	ifo:IF_9_2_4	.
+if:IF_9_2_4	rdf:type	ifo:Section	.
+if:IF_9_2_4	rdf:value	"進行性前立腺癌患者の治療を目的とした抗悪性腫瘍剤であることから、がん原性試験は実施して\r\nいない。"@ja	.
+if:IF_9_2_5	rdf:type	ifo:IF_9_2_5	.
+if:IF_9_2_5	rdf:type	ifo:Section	.
+if:IF_9_2_5	rdf:value	"1) ラット受胎能及び着床までの初期胚発生に関する試験\r\n＜雄＞\r\n雄ラットに、カバジタキセル（0.05、0.1又は0.3/0.2mg/kg/日）を交配前70日間、無処置雌との\r\n交配期間中（最長で10日間）及び交尾成立後12週目まで静脈内投与した。\r\n交配成績、交配所要期間及び妊娠率はいずれの群においても同程度で、黄体数、着床前死亡率、\r\n総吸収胚数、着床後死亡率、胎児生存率、胎児体重及び胎児外表所見の種類及び発現頻度には、\r\nいずれの用量においても被験物質関連の変化は認めらなかった。\r\n以上の結果、雄親動物に関する無毒性量は0.1mg/kg/日（0.6mg/m2/日）、交尾能及び受胎能に関\r\nする無毒性量は0.2 mg/kg/日（1.2 mg/m2/日）と考えられた。\r\n＜雌＞\r\n雌ラットに、カバジタキセル（0.05、0.1又は0.2mg/kg/日）を交配前15日間、無処置雄との交配\r\n期間中（最長12日間）及び妊娠6日まで1日1回静脈内投与した。\r\n交尾能及び受胎能には被験物質関連の影響は認められなかった。0.2mg/kg/日群で黄体数及び着\r\n床数の有意な減少並びに着床前死亡率の増加が、0.1及び0.2mg/kg/日群で着床後死亡率（早期吸\r\n収胚）の有意かつ用量に相関した増加がみられた。また、0.2mg/kg/日群で総生存胎児数の有意\r\nな減少が認められた。\r\n以上の結果、母動物の無毒性量は0.1mg/kg/日（0.6mg/m2/日）、受胎能に関する無毒性量は\r\n0.2mg/kg/日（1.2mg/m2/日）であり、発生に関する無毒性量は0.05mg/kg/日（0.3mg/m2/日）と\r\n考えられた。\r\n2) ラット胚・胎児発生に関する試験\r\n交尾が確認された雌ラットにカバジタキセル（0.04、0.08又は0.16mg/kg/日）を妊娠6日から17\r\n日まで、1日1回、12日間静脈内投与した。\r\n0.16mg/kg/日群で母動物の死亡、平均体重増加量減少及び摂餌量減少が認められ、それに伴う胎\r\n児毒性として、死亡（着床後死亡率増加）、平均胎児体重減少並びにそれに伴う骨化遅延及び骨\r\n格変異（胸骨配列異常及び過剰肋骨）発現頻度の軽度の増加が認められた。\r\n0.08mg/kg/日群では、ごく軽度の平均胎児体重減少並びにそれに伴うごく軽度の骨化遅延及び骨\r\n格変異（胸骨配列異常及び過剰肋骨）発現頻度の軽度の増加が認められた。\r\n以上の結果、本試験における母動物の無毒性量は0.08mg/kg/日（0.48mg/m2/日）であり、発生に\r\n関する無毒性量は0.04 mg/kg/日（0.24 mg/m2/日）と考えられた。\r\n3) ウサギ胚・胎児発生に関する試験\r\n交尾が確認された雌ウサギにカバジタキセル（0.01、0.02又は0.03mg/kg/日）を妊娠6日から18\r\n日まで、1日1回、13日間静脈内投与した。いずれの用量においても被験物質関連の死亡、一般状\r\n態の変化又は体重及び摂餌量に変化は認められなかった。また、同腹児データ、胚・胎児生存率、\r\n胎児体重又は胎児の外表、内臓若しくは骨格所見の種類及び発現頻度において、被験物質関連の\r\n変化は認められなかった。\r\n以上の結果、母動物及び発生に関する無毒性量は0.03mg/kg/日（0.36mg/m2/日）を上回ると考え\r\nられた。"@ja	.
+if:IF_9_2_5	dct:references	if:ref*33	.
+if:IF_9_2_6	rdf:type	ifo:IF_9_2_6	.
+if:IF_9_2_6	rdf:type	ifo:Section	.
+if:IF_9_2_6	rdf:value	"雄ウサギの耳にポリソルベート80及びエタノールを含む5%グルコース水溶液を用いたカバジタ\r\nキセル溶液を1.0又は2.0mg/mL の濃度で静脈内又は動脈内投与したとき、刺激性は認められな\r\nかった。しかしながら、カバジタキセル溶液の静脈周囲投与により皮膚刺激性の病理組織学的エ\r\nビデンスが認められた。これは溶媒に関連するものと考えられるが、カバジタキセルにより悪化\r\nした可能性がある。なお、これらの濃度は、ヒトに投与される濃度（臨床濃度範囲：0.10～\r\n0.26mg/mL）より高いものである。"@ja	.
+if:IF_9_2_6	dct:references	if:ref*34	.
+if:IF_9_2_7	rdf:type	ifo:IF_9_2_7	.
+if:IF_9_2_7	rdf:type	ifo:Section	.
+if:IF_9_2_7	rdf:value	"1) 光毒性試験\r\nカバジタキセルの紫外線吸収スペクトル（290～700nm の範囲内で吸収なし）を考慮し、光毒性\r\n試験は実施していない。\r\n2) ヒトの全血、血清及び血漿とのin vitro 適合性試験＊35)\r\nカバジタキセルのin vitro 溶血性の有無を、ヒト全血を用いて検討した。ポリソルベート80、\r\nエタノール及びグルコースを含む溶媒を用いたカバジタキセルの溶液を、0.5、1.0及び2.0\r\nmg/mL の濃度で評価した結果、カバジタキセルは、ヒトの血清及び血漿とは1.0mg/mL までの\r\n最終濃度で、全血とは0.5mg/mL までの最終濃度で、適合性が認められた。"@ja	.
+if:IF_9_2_7	dct:references	if:ref*35	.
+if:IF_10_1	rdf:type	ifo:IF_10_1	.
+if:IF_10_1	rdf:type	ifo:Section	.
+if:IF_10_1	ifo:package_insert	pi:PI_0_6	.
+if:IF_10_1	rdf:value	"製 剤： ジェブタナ点滴静注60mg\r\n毒薬、処方箋医薬品注）\r\n注）注意－医師等の処方箋により使用すること\r\n有効成分： カバジタキセル アセトン付加物\r\n毒薬"@ja	.
+if:IF_10_2	rdf:type	ifo:IF_10_2	.
+if:IF_10_2	rdf:type	ifo:Section	.
+if:IF_10_2	ifo:package_insert	pi:PI_0_4	.
+if:IF_10_2	rdf:value	"有効期間 ジェブタナ点滴静注60mg：3年\r\n添付溶解液：3年"@ja	.
+if:IF_10_3	rdf:type	ifo:IF_10_3	.
+if:IF_10_3	rdf:type	ifo:Section	.
+if:IF_10_3	ifo:package_insert	pi:PI_0_4	.
+if:IF_10_3	rdf:value	"冷蔵庫内に保存せず、15～30℃で保存すること"@ja	.
+if:IF_10_4	rdf:type	ifo:IF_10_4	.
+if:IF_10_4	rdf:type	ifo:Section	.
+if:IF_10_4	ifo:package_insert	pi:PI_20	.
+if:IF_10_4	rdf:value	"調製時には手袋を着用することが望ましい。本剤が皮膚に付着した場合には、直ちに石鹸及び多\r\n量の流水で洗い流すこと。また、粘膜に付着した場合には、直ちに多量の流水で洗い流すこと。"@ja	.
+if:IF_10_5	rdf:type	ifo:IF_10_5	.
+if:IF_10_5	rdf:type	ifo:Section	.
+if:IF_10_5	rdf:value	"患者向医薬品ガイド：有り"@ja	.
+if:IF_10_6	rdf:type	ifo:IF_10_6	.
+if:IF_10_6	rdf:type	ifo:Section	.
+if:IF_10_6	rdf:value	"同一成分薬：なし\r\n同効薬：ドセタキセル など"@ja	.
+if:IF_10_7	rdf:type	ifo:IF_10_7	.
+if:IF_10_7	rdf:type	ifo:Section	.
+if:IF_10_7	rdf:value	"2010年6月17日（アメリカ）"@ja	.
+if:IF_10_7	dct:date	"2010-06-17"^^xsd:date	.
+if:IF_10_9	rdf:type	ifo:IF_10_9	.
+if:IF_10_9	rdf:type	ifo:Section	.
+if:IF_10_9	rdf:value	"該当しない"@ja	.
+if:IF_10_10	rdf:type	ifo:IF_10_10	.
+if:IF_10_10	rdf:type	ifo:Section	.
+if:IF_10_10	rdf:value	"該当しない"@ja	.
+if:IF_10_11	rdf:type	ifo:IF_10_11	.
+if:IF_10_11	rdf:type	ifo:Section	.
+if:IF_10_11	ifo:item	if:IF_10_11.item1	.
+if:IF_10_11.item1	rdf:value	"8年：2014年（平成26年）7月4日 ～2022年（令和4年）7月3日"@ja	.
+if:IF_10_12	rdf:type	ifo:IF_10_12	.
+if:IF_10_12	rdf:type	ifo:Section	.
+if:IF_10_12	ifo:package_insert	pi:PI_25	.
+if:IF_10_12	rdf:value	"該当しない"@ja	.
+if:IF_10_14	rdf:type	ifo:IF_10_14	.
+if:IF_10_14	rdf:type	ifo:Section	.
+if:IF_10_14	ifo:package_insert	pi:PI_25	.
+if:IF_10_14	rdf:value	"該当しない"@ja	.
+if:IF_11_2	rdf:type	ifo:IF_11_2	.
+if:IF_11_2	rdf:type	ifo:Section	.
+if:IF_11_2	rdf:value	"特になし"@ja	.
+if:IF_12_1	rdf:type	ifo:IF_12_1	.
+if:IF_12_1	rdf:type	ifo:Section	.
+if:IF_12_1	ifo:package_insert	pi:PI_6	.
+if:IF_12_1	rdf:value	"本剤は、ドセタキセルを含む前治療歴のある去勢抵抗性転移性前立腺癌を効能・効果として米国\r\nでは2010年6月に、欧州では2011年3月に承認された。前立腺癌に係る適応症にて、カナダ、ブラ\r\nジル、オーストラリア、韓国、台湾などを含む80以上の国と地域で承認されている（2014年1月現\r\n在）。外国における承認状況を以下に示す。"@ja	.
+if:IF_12_2	rdf:type	ifo:IF_12_2	.
+if:IF_12_2	rdf:type	ifo:Section	.
+if:IF_12_2	ifo:package_insert	pi:PI_9_7	.
+if:IF_12_2	ifo:item	if:IF_12_2.item1	.
+if:IF_12_2	ifo:item	if:IF_12_2.item2	.
+if:IF_12_2.item1	rdf:type	ifo:Item	.
+if:IF_12_2.item1	ifo:package_insert	pi:PI_9_7.item1	.
+if:IF_12_2.item1	dct:identifier	"12.2.item1"	.
+if:IF_12_2.item1	rdf:value	"(1) 妊婦への投与に関する情報\r\n妊婦に関する海外情報（オーストラリア分類）\r\nオーストラリア分類：\r\nAn Australian categorisation of risk of drug use\r\nin pregnancy\r\nD（2018 年5 月 添付文書）\r\n＜参考＞\r\nオーストラリア分類：(An Australian categorisation of risk of drug use in pregnancy)\r\nD：Drugs which have caused, are suspected to have caused or may be expected to cause, an\r\nincreased incidence of human fetal malformations or irreversible damage.These drugs\r\nmay also have adverse pharmacological effects. Accompanying texts should be consulted\r\nfor further details.\r\n米国及び欧州の添付文書における妊婦への投与に関する内容は以下のとおりである。\r\n米国添付文書（2018 年1 月）\r\nRisk Summary\r\nJEVTANA is contraindicated for use in pregnant women because the drug can cause\r\nfetal harm and potential loss of pregnancy. JEVTANA is not indicated for use in female\r\npatients. There are no human data on the use of cabazitaxel injection in pregnant\r\nwomen. In animal reproduction studies, intravenous administration of cabazitaxel in\r\npregnant rats during organogenesis caused embryonic and fetal death at doses lower\r\nthan the maximum recommended human dose.\r\n欧州添付文書（2017 年4 月）\r\nPregnancy\r\nThere are no data from the use of cabazitaxel in pregnant women. Studies in animals\r\nhave shown reproductive toxicity at maternotoxic doses (see section 5.3) and that\r\ncabazitaxel crosses the placenta barrier (see section 5.3). As with other cytotoxic\r\nmedicinal products, cabazitaxel may cause foetal harm in exposed pregnant women.\r\nCabazitaxel is not recommended during pregnancy and in women of childbearing\r\npotential not using contraception.\r\n本邦における特定の背景を有する患者に関する注意「9.4 生殖能を有する者、9.5 妊婦、\r\n9.6 授乳婦」の項の記載は以下のとおりである。\r\n9.4 生殖能を有する者\r\n生殖可能な年齢の患者に投与する必要がある場合には性腺に対する影響を考慮すること。\r\n動物実験（マウス、ラット、イヌ）において精巣毒性が認められている。\r\n9.5 妊婦\r\n設定されていない\r\n9.6 授乳婦\r\n設定されていない"@ja	.
+if:IF_12_2.item2	rdf:type	ifo:Item	.
+if:IF_12_2.item2	ifo:package_insert	pi:PI_9_7.item2	.
+if:IF_12_2.item2	dct:identifier	"12.2.item2"	.
+if:IF_12_2.item2	rdf:value	"(2) 小児等への投与に関する情報\r\n米国の添付文書及び英国のSPC における小児等への投与に関する内容は以下のとおりであ\r\nる。\r\n出典 記載内容\r\n米国の添付文書\r\n（2018年1月）\r\nPediatric Use\r\nThe safety and effectiveness of JEVTANA in pediatric patients have\r\nnot been established.\r\nJEVTANA was evaluated in 39 pediatric patients (ages 3 to 18 years)\r\nreceiving prophylactic G-CSF. The maximum tolerated dose (MTD)\r\nwas 30 mg/m2 intravenously over 1 hour on Day 1 of a 21 day cycle in\r\npediatric patients with solid tumors based on the dose-limiting\r\ntoxicity (DLT) of febrile neutropenia. No objective responses were\r\nobserved in 11 patients with refractory high grade glioma (HGG) or\r\ndiffuse intrinsic pontine glioma (DIPG). One patient had a partial\r\nresponse among the 9 patients with ependymoma.\r\nInfusion related/hypersensitivity reactions were seen in 10 patients\r\n(26%). Three patients experienced serious adverse events of\r\nanaphylactic reaction. The incidence of infusion\r\nrelated/hypersensitivity reactions decreased with steroid premedication.\r\nThe most frequent treatment-emergent adverse events\r\nwere similar to those reported in adults.\r\nBased on the population pharmacokinetics analysis conducted with\r\ndata from 31 pediatric patients with cancer (ages 3 to 18 years), the\r\nclearances by body surface area were comparable to those in adults.\r\n英国のSPC\r\n（2017年4月）\r\nPosology and method of administration\r\nPosology\r\nSpecial populations\r\nPaediatric population\r\nThere is no relevant use of JEVTANA in the paediatric population.\r\nThe safety and the efficacy of JEVTANA in children and adolescents\r\nbelow 18 years of age have not been established.\r\n本邦における特定の背景を有する患者に関する注意「9.7 小児等」の項の記載は以下の\r\nとおりである。\r\n【特定の背景を有する患者に関する注意】\r\n9.7 小児等\r\n小児等を対象として臨床試験は実施していない。\r"@ja	.
+if:IF_13	rdf:type	ifo:IF_13	.
+if:IF_13	rdf:type	ifo:Section	.
+if:IF_13	rdf:value	"その他の関連資料\r\n追加のリスク最小化活動\r\n 適正使用ガイド（医療従事者向け資材）\r\nhttps://e-mr.sanofi.co.jp/-/media/EMS/Conditions/eMR/products/jevtana/downloads/jet_appropriation.pdf?la=ja-JP\r\n 適正使用情報―骨髄抑制、発熱性好中球減少症への対策について\r\nhttps://www.pmda.go.jp/files/000198356.pdf"@ja	.
+if:ref1	rdf:type	bibo:Article	.
+if:ref1	dct:references	pmid:25809824	.
+if:ref1	ifo:internal_reference_id	"TXT8177"	.
+if:ref2	rdf:type	bibo:Article	.
+if:ref2	dct:references	pmid:20888992	.
+if:ref2	ifo:internal_reference_id	"TXT6714"	.
+if:ref3	rdf:type	bibo:Article	.
+if:ref3	dct:references	pmid:22975213	.
+if:ref3	ifo:internal_reference_id	"TXT7892"	.
+if:ref4	rdf:type	bibo:Article	.
+if:ref4	dct:references	pmid:24718982	.
+if:ref4	ifo:internal_reference_id	"TXT7937"	.
+if:ref5	rdf:type	bibo:Article	.
+if:ref5	dct:references	pmid:24488323	.
+if:ref5	ifo:internal_reference_id	"TXT7735"	.
+if:ref6	rdf:type	bibo:Article	.
+if:ref6	dct:references	pmid:23589177	.
+if:ref6	ifo:internal_reference_id	"TXT7894"	.
+if:ref7	rdf:type	bibo:Article	.
+if:ref7	dct:references	pmid:12711638	.
+if:ref7	ifo:internal_reference_id	"TXT7911"	.
+if:ref8	rdf:type	bibo:Article	.
+if:ref8	dct:references	pmid:31361807	.
+"*1"	rdf:type	bibo:Document	.
+"*1"	rdfs:label	"国内第Ⅰ相臨床試験（TED11576試験）"@ja	.
+"*1"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*1"	ifo:internal_reference_id	"JET－14"@ja	.
+"*1"	ifo:ctd_number	"CTD2.7.6.2, 2.7.4.2"	.
+"*2"	rdf:type	bibo:Document	.
+"*2"	rdfs:label	"海外第Ⅲ相臨床試験（EFC6193試験）"@ja	.
+"*2"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*2"	ifo:internal_reference_id	"JET－18"@ja	.
+"*2"	ifo:ctd_number	"CTD2.7.4.2"	.
+"*3"	rdf:type	bibo:Document	.
+"*3"	rdfs:label	"薬物動態（用量比例性）"@ja	.
+"*3"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*3"	ifo:internal_reference_id	"JET－05"@ja	.
+"*3"	ifo:ctd_number	"CTD 2.7.2.3"	.
+"*4"	rdf:type	bibo:Document	.
+"*4"	rdfs:label	"QT/QTc 評価試験"@ja	.
+"*4"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*4"	ifo:internal_reference_id	"JET－19"@ja	.
+"*4"	ifo:ctd_number	"CTD 2.7.6.2"	.
+"*5"	rdf:type	bibo:Document	.
+"*5"	rdfs:label	"カバジタキセル作用機序に関する検討"@ja	.
+"*5"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*5"	ifo:internal_reference_id	"JET－15"@ja	.
+"*5"	ifo:ctd_number	"CTD 2.6.2.2"	.
+"*6"	rdf:type	bibo:Document	.
+"*6"	rdfs:label	"ヒト前立腺癌細胞株に対する増殖阻害作用（in vitro）"@ja	.
+"*6"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*6"	ifo:internal_reference_id	"JET－20"@ja	.
+"*6"	ifo:ctd_number	"CTD 2.6.2.2"	.
+"*7"	rdf:type	bibo:Document	.
+"*7"	rdfs:label	"薬剤耐性腫瘍細胞株に対する増殖阻害作用（in vitro）"@ja	.
+"*7"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*7"	ifo:internal_reference_id	"JET－21"@ja	.
+"*7"	ifo:ctd_number	"CTD 2.6.2.2"	.
+"*8"	rdf:type	bibo:Document	.
+"*8"	rdfs:label	"ヒト前立腺癌由来細胞株移植マウスモデルにおける抗腫瘍効果"@ja	.
+"*8"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*8"	ifo:internal_reference_id	"JET－16"@ja	.
+"*8"	ifo:ctd_number	"CTD 2.6.2.2"	.
+"*9"	rdf:type	bibo:Document	.
+"*9"	rdfs:label	"ドセタキセル耐性腫瘍細胞株移植マウスモデルにおける抗腫瘍効果"@ja	.
+"*9"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*9"	ifo:internal_reference_id	"JET－17"@ja	.
+"*9"	ifo:ctd_number	"CTD 2.6.2.2"	.
+"*10"	rdf:type	bibo:Document	.
+"*10"	rdfs:label	"日本人前立腺癌患者における薬物動態"@ja	.
+"*10"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*10"	ifo:internal_reference_id	"JET－04"@ja	.
+"*10"	ifo:ctd_number	"CTD 2.7.2.2"	.
+"*11"	rdf:type	bibo:Document	.
+"*11"	rdfs:label	"母集団薬物動態解析（腎障害患者）"@ja	.
+"*11"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*11"	ifo:internal_reference_id	"JET－13"@ja	.
+"*11"	ifo:ctd_number	"CTD 2.7.2.3"	.
+"*12"	rdf:type	bibo:Document	.
+"*12"	rdfs:label	"薬物相互作用（CYP3A 阻害剤及び誘導剤の影響））"@ja	.
+"*12"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*12"	ifo:internal_reference_id	"JET－10"@ja	.
+"*13"	rdf:type	bibo:Document	.
+"*13"	rdfs:label	"薬物相互作用（ミダゾラムの影響）"@ja	.
+"*13"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*13"	ifo:internal_reference_id	"JET－11"@ja	.
+"*13"	ifo:ctd_number	"CTD 2.7.2.2"	.
+"*14"	rdf:type	bibo:Document	.
+"*14"	rdfs:label	"母集団薬物動態解析"@ja	.
+"*14"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*14"	ifo:internal_reference_id	"JET－22"@ja	.
+"*14"	ifo:ctd_number	"CTD2.7.2.3"	.
+"*15"	rdf:type	bibo:Document	.
+"*15"	rdfs:label	"薬物動態（分布）"@ja	.
+"*15"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*15"	ifo:internal_reference_id	"JET－06"@ja	.
+"*15"	ifo:ctd_number	"CTD 2.7.2.2"	.
+"*16"	rdf:type	bibo:Document	.
+"*16"	rdfs:label	"血液-脳関門通過性（単回投与：マウス、ラット、イヌ）"@ja	.
+"*16"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*16"	ifo:internal_reference_id	"JET－23"@ja	.
+"*16"	ifo:ctd_number	"CTD 2.6.4.5, 2.4.3.2"	.
+"*17"	rdf:type	bibo:Document	.
+"*17"	rdfs:label	"血液-脳関門通過性（反復投与：マウス）"@ja	.
+"*17"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*17"	ifo:internal_reference_id	"JET－24"@ja	.
+"*17"	ifo:ctd_number	"CTD 2.6.4.5"	.
+"*18"	rdf:type	bibo:Document	.
+"*18"	rdfs:label	"血液-胎盤関門通過性（ラット）"@ja	.
+"*18"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*18"	ifo:internal_reference_id	"JET－25"@ja	.
+"*18"	ifo:ctd_number	"CTD 2.6.4.5"	.
+"*19"	rdf:type	bibo:Document	.
+"*19"	rdfs:label	"乳汁への移行性（ラット）"@ja	.
+"*19"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*19"	ifo:internal_reference_id	"JET－26"@ja	.
+"*19"	ifo:ctd_number	"CTD 2.6.4.7"	.
+"*20"	rdf:type	bibo:Document	.
+"*20"	rdfs:label	"髄液への移行性"@ja	.
+"*20"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*20"	ifo:internal_reference_id	"JET－27"@ja	.
+"*20"	ifo:ctd_number	"CTD 2.7.2.3, 2.7.6.2"	.
+"*21"	rdf:type	bibo:Document	.
+"*21"	rdfs:label	"薬物動態（血液/血漿分配）"@ja	.
+"*21"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*21"	ifo:internal_reference_id	"JET－07"@ja	.
+"*21"	ifo:ctd_number	"CTD 2.7.2.2"	.
+"*22"	rdf:type	bibo:Document	.
+"*22"	rdfs:label	"組織への移行性（マウス）"@ja	.
+"*22"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*22"	ifo:internal_reference_id	"JET－28"@ja	.
+"*22"	ifo:ctd_number	"CTD 2.6.4.5, 2.4.3.2"	.
+"*23"	rdf:type	bibo:Document	.
+"*23"	rdfs:label	"薬物動態（代謝）"@ja	.
+"*23"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*23"	ifo:internal_reference_id	"JET－08"@ja	.
+"*23"	ifo:ctd_number	"CTD2.7.2.2"	.
+"*24"	rdf:type	bibo:Document	.
+"*24"	rdfs:label	"薬物動態（代謝物の活性）"@ja	.
+"*24"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*24"	ifo:internal_reference_id	"JET－29"@ja	.
+"*24"	ifo:ctd_number	"CTD 2.6.2.2"	.
+"*25"	rdf:type	bibo:Document	.
+"*25"	rdfs:label	"薬物動態（排泄）"@ja	.
+"*25"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*25"	ifo:internal_reference_id	"JET－09"@ja	.
+"*25"	ifo:ctd_number	"CTD 2.7.2.2"	.
+"*26"	rdf:type	bibo:Document	.
+"*26"	rdfs:label	"トランスポーターに対する影響"@ja	.
+"*26"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*26"	ifo:internal_reference_id	"JET－30"@ja	.
+"*26"	ifo:ctd_number	"CTD 2.5.3.1, 2.7.2.2, 2.7.2.3"	.
+"*27"	rdf:type	bibo:Document	.
+"*27"	rdfs:label	"OATP1B1の基質に対するカバジタキセルの影響"@ja	.
+"*27"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*27"	ifo:internal_reference_id	"JET－12"@ja	.
+"*27"	ifo:ctd_number	"CTD 2.7.2.2"	.
+"*28"	rdf:type	bibo:Document	.
+"*28"	rdfs:label	"ラットを用いた反復投与毒性試験"@ja	.
+"*28"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*28"	ifo:internal_reference_id	"JET－01"@ja	.
+"*28"	ifo:ctd_number	"CTD 2.6.6.3, 2.6.6.9"	.
+"*29"	rdf:type	bibo:Document	.
+"*29"	rdfs:label	"遺伝毒性試験"@ja	.
+"*29"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*29"	ifo:internal_reference_id	"JET－02"@ja	.
+"*29"	ifo:ctd_number	"CTD 2.6.6.4"	.
+"*30"	rdf:type	bibo:Document	.
+"*30"	rdfs:label	"マウスを用いた神経毒性試験"@ja	.
+"*30"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*30"	ifo:internal_reference_id	"JET－03"@ja	.
+"*30"	ifo:ctd_number	"CTD 2.6.6.2"	.
+"*31"	rdf:type	bibo:Document	.
+"*31"	rdfs:label	"単回投与毒性試験"@ja	.
+"*31"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*31"	ifo:internal_reference_id	"JET－31"@ja	.
+"*31"	ifo:ctd_number	"CTD 2.6.6.2"	.
+"*32"	rdf:type	bibo:Document	.
+"*32"	rdfs:label	"反復投与毒性試験"@ja	.
+"*32"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*32"	ifo:internal_reference_id	"JET－32"@ja	.
+"*32"	ifo:ctd_number	"CTD 2.6.6.3"	.
+"*33"	rdf:type	bibo:Document	.
+"*33"	rdfs:label	"生殖発生毒性試験"@ja	.
+"*33"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*33"	ifo:internal_reference_id	"JET－33"@ja	.
+"*33"	ifo:ctd_number	"CTD 2.6.6.6"	.
+"*34"	rdf:type	bibo:Document	.
+"*34"	rdfs:label	"局所刺激性試験"@ja	.
+"*34"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*34"	ifo:internal_reference_id	"JET－34"@ja	.
+"*34"	ifo:ctd_number	"CTD 2.6.6.7"	.
+"*35"	rdf:type	bibo:Document	.
+"*35"	rdfs:label	"ヒトの全血、血清及び血漿とのin vitro 適合性試験"@ja	.
+"*35"	dct:dateAccepted	"2014-07-04"^^xsd:date	.
+"*35"	ifo:internal_reference_id	"JET－35"@ja	.
+"*35"	ifo:ctd_number	"CTD 2.6.6.8"	.
+if:IF_11_1	dct:references	if:ref1	.
+if:IF_11_1	dct:references	if:ref2	.
+if:IF_11_1	dct:references	if:ref3	.
+if:IF_11_1	dct:references	if:ref4	.
+if:IF_11_1	dct:references	if:ref5	.
+if:IF_11_1	dct:references	if:ref6	.
+if:IF_11_1	dct:references	if:ref7	.
+if:IF_11_1	dct:references	if:ref8	.

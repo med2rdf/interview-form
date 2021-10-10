@@ -1,6 +1,6 @@
 subject,predicate,object
-https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590014F1021_1_12,dct:identifier,
-https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf,dct:identifier,
+https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590014F1021_1_12,ifo:pi_id,800126_3969018F1022_1_13
+https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf,ifo:if_id,800126_3969018F1022_1_011_1F
 800126_2590014F1021_1_015_1F,ifo:yjcode,"3969018F1022, 3969018F2029"
 ,,
 3969018F1022,ifo:if_0_8,スーグラ錠25mg：

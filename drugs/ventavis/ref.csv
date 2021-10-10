@@ -1,0 +1,332 @@
+subject,predicate,object
+1,rdf:type,bibo:Article
+1,rdfs:label,"承認時評価資料：バイエル薬品社内資料［（試験 15503）肺動脈性肺高血圧症患者における国内第Ⅲ相試験（IBUKI試験）］"
+1,dct:dateAccepted,2015-09-28
+1,ifo:internal_reference_id,B104369
+1,ifo:ctd_number,CTD2.7.6.20
+2,rdf:type,bibo:Article
+2,dct:references,27001191
+2,ifo:internal_reference_id,B107853
+3,rdf:type,bibo:Article
+3,rdfs:label,"承認時評価資料：バイエル薬品社内資料［（試験 ME97218：AIR 試験）原発性肺高血圧症または二次性肺高血圧症患者における国外第Ⅲ相試験（AIR試験）］"
+3,dct:dateAccepted,2015-09-28
+3,ifo:internal_reference_id,B104371
+3,ifo:ctd_number,CTD2.7.6.17
+4,rdf:type,bibo:Article
+4,dct:references,12151469
+4,ifo:internal_reference_id,B104372
+5,rdf:type,bibo:Article
+5,rdfs:label,"承認時評価資料：バイエル薬品社内資料［（試験 15266）日本人または白人健康被験者における第Ⅰ相試験］"
+5,dct:dateAccepted,2015-09-28
+5,ifo:internal_reference_id,B104373
+5,ifo:ctd_number,CTD2.7.6.3
+6,rdf:type,bibo:Article
+6,rdfs:label,"承認時評価資料：バイエル薬品社内資料［（試験 ME98051）外国人肺高血圧症患者におけるネブライザ比較試験］"
+6,dct:dateAccepted,2015-09-28
+6,ifo:internal_reference_id,B104375
+6,ifo:ctd_number,CTD2.7.6.1
+7,rdf:type,bibo:Article
+7,rdfs:label,"承認時参考資料：バイエル薬品社内資料［（試験 87015）外国人腎機能障害患者における単回静脈内投与試験］"
+7,dct:dateAccepted,2015-09-28
+7,ifo:internal_reference_id,B104406
+7,ifo:ctd_number,CTD2.7.6.7
+8,rdf:type,bibo:Article
+8,rdfs:label,"承認時参考資料：バイエル薬品社内資料［（試験 83250）外国人健康被験者における第Ⅰ相試験］"
+8,dct:dateAccepted,2015-09-28
+8,ifo:internal_reference_id,B104405
+8,ifo:ctd_number,"CTD2.7.6.4, 2.7.6.13"
+9,rdf:type,bibo:Article
+9,rdfs:label,"承認時参考資料：バイエル薬品社内資料［（試験 88038）外国人肝機能障害患者における単回静脈内投与試験］"
+9,dct:dateAccepted,2015-09-28
+9,ifo:internal_reference_id,B104404
+9,ifo:ctd_number,CTD2.7.6.6
+10,rdf:type,bibo:Article
+10,rdfs:label,"承認時参考資料：バイエル薬品社内資料［（試験 C200-004）外国人健康被験者における臨床薬理試験（QTc評価試験）］ "
+10,dct:dateAccepted,2015-09-28
+10,ifo:internal_reference_id,B104376
+10,ifo:ctd_number,CTD2.7.6.12
+11,rdf:type,bibo:Article
+11,rdfs:label,"承認時評価資料：バイエル薬品社内資料［（試験 ME98008）原発性肺高血圧症または二次性肺高血圧症患者における国外第Ⅱ相試験］"
+11,dct:dateAccepted,2015-09-28
+11,ifo:internal_reference_id,B104377
+11,ifo:ctd_number,CTD2.7.6.16
+12,rdf:type,bibo:Article
+12,rdfs:label,"承認時評価資料：バイエル薬品社内資料［（試験 303045）原発性肺高血圧症または二次性肺高血圧症患者における国外第Ⅲ相長期継続投与試験（AIR長期継続試験）］"
+12,dct:dateAccepted,2015-09-28
+12,ifo:internal_reference_id,B104378
+12,ifo:ctd_number,CTD2.7.6.21
+13,rdf:type,bibo:Article
+13,dct:references,20956167
+13,ifo:internal_reference_id,B104379
+14,rdf:type,bibo:Article
+14,dct:references,10634944
+14,ifo:internal_reference_id,B104380
+15,rdf:type,bibo:Article
+15,dct:references,22480736
+15,ifo:internal_reference_id,B104381
+16,rdf:type,bibo:Article
+16,rdfs:label,"承認時参考資料：バイエル薬品社内資料［In vitro 各種プロスタノイド受容体に対する結合性］"
+16,dct:dateAccepted,2015-09-28
+16,ifo:internal_reference_id,B104382
+16,ifo:ctd_number,CTD2.6.2.2.1.1
+17,rdf:type,bibo:Article
+17,dct:references,1648215
+17,ifo:internal_reference_id,B104383
+18,rdf:type,bibo:Article
+18,rdfs:label,"承認時参考資料：バイエル薬品社内資料［In vitro アデニル酸シクラーゼ活性化及びcAMP産生作用］"
+18,dct:dateAccepted,2015-09-28
+18,ifo:internal_reference_id,B104384
+18,ifo:ctd_number,CTD2.6.2.2.1.2
+19,rdf:type,bibo:Article
+19,dct:references,11804870
+19,ifo:internal_reference_id,B104385
+20,rdf:type,bibo:Article
+20,dct:references,2445003
+20,ifo:internal_reference_id,B104386
+21,rdf:type,bibo:Article
+21,dct:references,10193765
+21,ifo:internal_reference_id,B104387
+22,rdf:type,bibo:Article
+22,rdfs:label,"承認時参考資料：バイエル薬品社内資料［In vitro 肺血管拡張作用］"
+22,dct:dateAccepted,2015-09-28
+22,ifo:internal_reference_id,B104388
+22,ifo:ctd_number,CTD2.6.2.2.1.3.1
+23,rdf:type,bibo:Article
+23,dct:references,9031743
+23,ifo:internal_reference_id,B104389
+24,rdf:type,bibo:Article
+24,rdfs:label,"承認時参考資料：バイエル薬品社内資料［In vitro 血小板凝集抑制作用］"
+24,dct:dateAccepted,2015-09-28
+24,ifo:internal_reference_id,B104390
+24,ifo:ctd_number,CTD2.6.2.2.1.4
+25,rdf:type,bibo:Article
+25,rdfs:label,"承認時参考資料：バイエル薬品社内資料［In vitro 平滑筋細胞増殖抑制作用］"
+25,dct:dateAccepted,2015-09-28
+25,ifo:internal_reference_id,B104391
+25,ifo:ctd_number,CTD2.6.2.2.1.5
+26,rdf:type,bibo:Article
+26,dct:references,11120706
+26,ifo:internal_reference_id,B104392
+27,rdf:type,bibo:Article
+27,dct:references,7507098
+27,ifo:internal_reference_id,B104393
+28,rdf:type,bibo:Article
+28,rdfs:label,"承認時参考資料：バイエル薬品社内資料［In vitro 炎症性サイトカイン産生抑制作用"
+28,dct:dateAccepted,2015-09-28
+28,ifo:internal_reference_id,B104394
+28,ifo:ctd_number,CTD2.6.2.2.1.6
+29,rdf:type,bibo:Article
+29,rdfs:label,承認時評価資料：バイエル薬品社内資料［ウサギにおける肺及び全身血行動態作用］
+29,dct:dateAccepted,2015-09-28
+29,ifo:internal_reference_id,B104395
+29,ifo:ctd_number,CTD2.6.2.2.2.1
+30,rdf:type,bibo:Article
+30,rdfs:label,承認時評価資料：バイエル薬品社内資料［ブタにおける肺及び全身血行動態作用］
+30,dct:dateAccepted,2015-09-28
+30,ifo:internal_reference_id,B104396
+30,ifo:ctd_number,CTD2.6.2.2.2.1
+31,rdf:type,bibo:Article
+31,rdfs:label,承認時評価資料：バイエル薬品社内資料［ラットにおける全身血行動態作用］
+31,dct:dateAccepted,2015-09-28
+31,ifo:internal_reference_id,B104397
+31,ifo:ctd_number,CTD2.6.2.2.2.1
+32,rdf:type,bibo:Article
+32,dct:references,11719312
+32,ifo:internal_reference_id,B104398
+33,rdf:type,bibo:Article
+33,rdfs:label,承認時参考資料：バイエル薬品社内資料［U46619誘発ウサギ/ブタ肺高血圧症モデルにおける血行動態作用］
+33,dct:dateAccepted,2015-09-28
+33,ifo:internal_reference_id,B104399
+33,ifo:ctd_number,CTD2.6.2.2.2.2
+34,rdf:type,bibo:Article
+34,dct:references,8881631
+34,ifo:internal_reference_id,B104400
+35,rdf:type,bibo:Article
+35,dct:references,2428854
+35,ifo:internal_reference_id,B104401
+36,rdf:type,bibo:Article
+36,rdfs:label,承認時参考資料：バイエル薬品社内資料［低酸素誘発イヌ肺高血圧症モデルにおける血行動態作用］
+36,dct:dateAccepted,2015-09-28
+36,ifo:internal_reference_id,B104402
+36,ifo:ctd_number,CTD2.6.2.2.2.2.2
+37,rdf:type,bibo:Article
+37,rdfs:label,"承認時参考資料：バイエル薬品社内資料［In vitro /ウサギ・ラットにおける血管拡張作用］"
+37,dct:dateAccepted,2015-09-28
+37,ifo:internal_reference_id,B104403
+37,ifo:ctd_number,CTD2.6.2.2.3.1
+38,rdf:type,bibo:Article
+38,rdfs:label,"承認時参考資料：バイエル薬品社内資料［（試験 ME91029）外国人健康被験者におけるアセチルサリチル酸との薬物相互作用試験］（2015年9月28日承認"
+38,dct:dateAccepted,2015-09-28
+38,ifo:internal_reference_id,B104407
+38,ifo:ctd_number,CTD2.7.6.11
+39,rdf:type,bibo:Article
+39,rdfs:label,"承認時参考資料：バイエル薬品社内資料［（試験 89206）外国人末梢動脈閉塞性疾患患者におけるジゴキシンとの薬物相互作用試験］"
+39,dct:dateAccepted,2015-09-28
+39,ifo:internal_reference_id,B104408
+39,ifo:ctd_number,CTD2.7.6.8
+40,rdf:type,bibo:Article
+40,rdfs:label,"承認時参考資料：バイエル薬品社内資料［（試験 87123）外国人健康被験者におけるニフェジピン、硫酸メピンドロール及びペントキシフィリンとの薬物相互作用試験］"
+40,dct:dateAccepted,2015-09-28
+40,ifo:internal_reference_id,B104409
+40,ifo:ctd_number,CTD2.7.6.9
+41,rdf:type,bibo:Article
+41,rdfs:label,"承認時参考資料：バイエル薬品社内資料［（試験 88004）外国人健康被験者におけるカプトプリルとの薬物相互作用試験］"
+41,dct:dateAccepted,2015-09-28
+41,ifo:internal_reference_id,B104410
+41,ifo:ctd_number,CTD2.7.6.10
+42,rdf:type,bibo:Article
+42,rdfs:label,"承認時参考資料：バイエル薬品社内資料［（試験 104-06A）外国人肺高血圧症患者におけるカルシウム拮抗薬との薬力学的相互作用試験］"
+42,dct:dateAccepted,2015-09-28
+42,ifo:internal_reference_id,B104411
+42,ifo:ctd_number,CTD2.7.6.15
+43,rdf:type,bibo:Article
+43,rdfs:label,承認時評価資料：バイエル薬品社内資料［ラットにおける薬物動態（胆汁排泄及び腸肝循環）に関する試験］
+43,dct:dateAccepted,2015-09-28
+43,ifo:internal_reference_id,B104413
+43,ifo:ctd_number,CTD2.6.4.6.2
+44,rdf:type,bibo:Article
+44,rdfs:label,承認時評価資料：バイエル薬品社内資料［ラットにおける薬物動態（血液‐脳関門通過性）に関する試験］
+44,dct:dateAccepted,2015-09-28
+44,ifo:internal_reference_id,B104414
+44,ifo:ctd_number,CTD2.6.4.4.2.2
+45,rdf:type,bibo:Article
+45,rdfs:label,"承認時評価資料：バイエル薬品社内資料［ラット、ウサギにおける薬物動態（ 血液‐ 胎盤関門通過性） に関する試験］"
+45,dct:dateAccepted,2015-09-28
+45,ifo:internal_reference_id,B104415
+45,ifo:ctd_number,CTD2.6.4.4.2.2
+46,rdf:type,bibo:Article
+46,rdfs:label,承認時評価資料：バイエル薬品社内資料［ラットにおける薬物動態（分布：乳汁分泌）に関する試験］
+46,dct:dateAccepted,2015-09-28
+46,ifo:internal_reference_id,
+46,ifo:ctd_number,CTD2.6.4.6.6
+47,rdf:type,bibo:Article
+47,dct:references,3612304
+47,ifo:internal_reference_id,B104417
+48,rdf:type,bibo:Article
+48,rdfs:label,承認時評価資料：バイエル薬品社内資料［ラットにおける薬物動態（単回静脈内投与後の臓器・組織中濃度）に関する試験］
+48,dct:dateAccepted,2015-09-28
+48,ifo:internal_reference_id,B104418
+48,ifo:ctd_number,CTD2.6.4.4.2.2
+49,rdf:type,bibo:Article
+49,rdfs:label,"承認時評価資料：バイエル薬品社内資料［In vitro 血漿蛋白結合試験］"
+49,dct:dateAccepted,2015-09-28
+49,ifo:internal_reference_id,B104412
+49,ifo:ctd_number,CTD2.6.4.4.1
+50,rdf:type,bibo:Article
+50,rdfs:label,承認時評価資料：バイエル薬品社内資料［薬物動態（代謝）試験①］
+50,dct:dateAccepted,2015-09-28
+50,ifo:internal_reference_id,B104419
+50,ifo:ctd_number,CTD2.6.4.5.1.1
+51,rdf:type,bibo:Article
+51,rdfs:label,承認時評価資料：バイエル薬品社内資料［薬物動態（代謝）試験②］
+51,dct:dateAccepted,2015-09-28
+51,ifo:internal_reference_id,B104420
+51,ifo:ctd_number,CTD2.6.4.5.1.1
+52,rdf:type,bibo:Article
+52,rdfs:label,"承認時参考資料：バイエル薬品社内資料［（試験 82076）外国人健康被験者におけるマスバランス試験］"
+52,dct:dateAccepted,2015-09-28
+52,ifo:internal_reference_id,B104421
+52,ifo:ctd_number,CTD2.7.6.5
+53,rdf:type,bibo:Article
+53,rdfs:label,"承認時参考資料：バイエル薬品社内資料［In vitro ウサギ摘出潅流肺における薬物動態（代謝）に関する試験］"
+53,dct:dateAccepted,2015-09-28
+53,ifo:internal_reference_id,B104422
+53,ifo:ctd_number,CTD2.6.4.5.1.2
+54,rdf:type,bibo:Article
+54,dct:references,12388660
+54,ifo:internal_reference_id,B104423
+55,rdf:type,bibo:Book
+55,dct:creator,日本循環器学会
+55,bibo:editor,
+55,dct:publisher,
+55,prism:publicationName,肺高血圧症治療ガイドライン（2017年改訂版）
+55,prism:startingPage,
+55,prism:endingPage,
+55,dct:issued,2017
+55,ifo:internal_reference_id,B137147
+56,rdf:type,bibo:Document
+56,rdfs:label,"バイエル薬品社内資料：Schmidt-Ott U: Postmarketing Experience Ventavis(through 14 March 2014) ［海外市販後副作用報告］ (2014年)"
+56,dct:dateAccepted,
+56,ifo:internal_reference_id,
+56,ifo:ctd_number,
+57,rdf:type,bibo:Article
+57,rdfs:label,承認時評価資料：バイエル薬品社内資料［ラット胚・胎児発生に関する試験］
+57,dct:dateAccepted,2015-09-28
+57,ifo:internal_reference_id,B104425
+57,ifo:ctd_number,CTD2.6.6.6.2.1
+58,rdf:type,bibo:Article
+58,rdfs:label,承認時評価資料：バイエル薬品社内資料［ラット出生前及び出生後の発生及び母体の機能に関する試験］
+58,dct:dateAccepted,2015-09-28
+58,ifo:internal_reference_id,B104426
+58,ifo:ctd_number,CTD2.6.6.6.3
+59,rdf:type,bibo:Article
+59,rdfs:label,承認時評価資料：バイエル薬品社内資料［ラット受胎能・胎児発生並びに出生前後の発育併合試験］
+59,dct:dateAccepted,2015-09-28
+59,ifo:internal_reference_id,B104427
+59,ifo:ctd_number,CTD2.6.6.6.4
+60,rdf:type,bibo:Article
+60,rdfs:label,承認時評価/参考資料：バイエル薬品社内資料［ウサギ胚・胎児発生に関する試験（経口投与）］
+60,dct:dateAccepted,2015-09-28
+60,ifo:internal_reference_id,B104434
+60,ifo:ctd_number,CTD2.6.6.6.2.2.1
+61,rdf:type,bibo:Article
+61,rdfs:label,承認時評価資料：バイエル薬品社内資料［ウサギ胚・胎児発生に関する試験(静脈内投与)］
+61,dct:dateAccepted,2015-09-28
+61,ifo:internal_reference_id,B137148
+61,ifo:ctd_number,CTD2.6.6.6.2.2
+62,rdf:type,bibo:Article
+62,rdfs:label,承認時評価資料：バイエル薬品社内資料［サル胚・胎児発生に関する試験］
+62,dct:dateAccepted,2015-09-28
+62,ifo:internal_reference_id,B104435
+62,ifo:ctd_number,CTD2.6.6.6.2.3
+63,rdf:type,bibo:Article
+63,dct:references,4807126
+63,ifo:internal_reference_id,B104428
+64,rdf:type,bibo:Article
+64,dct:references,4852039
+64,ifo:internal_reference_id,B104429
+65,rdf:type,bibo:Article
+65,rdfs:label,承認時参考資料：バイエル薬品社内資料［安全性薬理試験］
+65,dct:dateAccepted,2015-09-28
+65,ifo:internal_reference_id,B104430
+65,ifo:ctd_number,CTD2.6.2.4
+66,rdf:type,bibo:Article
+66,rdfs:label,承認時評価/参考資料：バイエル薬品社内資料［単回投与毒性試験］
+66,dct:dateAccepted,2015-09-28
+66,ifo:internal_reference_id,B104431
+66,ifo:ctd_number,"CTD2.4.4.1, 2.6.6.2"
+67,rdf:type,bibo:Article
+67,rdfs:label,承認時評価資料：バイエル薬品社内資料［反復投与毒性試験］
+67,dct:dateAccepted,2015-09-28
+67,ifo:internal_reference_id,B104432
+67,ifo:ctd_number,"CTD2.4.4.2, 2.6.6.3"
+68,rdf:type,bibo:Article
+68,rdfs:label,承認時評価/参考資料：バイエル薬品社内資料［遺伝毒性試験］
+68,dct:dateAccepted,2015-09-28
+68,ifo:internal_reference_id,B104436
+68,ifo:ctd_number,"CTD2.4.4.4, 2.6.6.4"
+69,rdf:type,bibo:Article
+69,rdfs:label,承認時評価資料：バイエル薬品社内資料［がん原性試験］
+69,dct:dateAccepted,2015-09-28
+69,ifo:internal_reference_id,B104437
+69,ifo:ctd_number,"CTD2.4.4.5, 2.6.6.5"
+70,rdf:type,bibo:Article
+70,rdfs:label,承認時評価資料：バイエル薬品社内資料［ラット受胎能及び初期胚発生に関する試験］
+70,dct:dateAccepted,2015-09-28
+70,ifo:internal_reference_id,B104433
+70,ifo:ctd_number,CTD2.6.6.6.1
+71,rdf:type,bibo:Article
+71,rdfs:label,承認時評価資料：バイエル薬品社内資料［局所刺激性試験］
+71,dct:dateAccepted,2015-09-28
+71,ifo:internal_reference_id,B104438
+71,ifo:ctd_number,CTD2.6.6.7
+72,rdf:type,bibo:Article
+72,rdfs:label,承認時評価資料：バイエル薬品社内資料［皮膚感作性試験］
+72,dct:dateAccepted,2015-09-28
+72,ifo:internal_reference_id,B104439
+72,ifo:ctd_number,CTD2.6.6.8.1
+73,rdf:type,bibo:Article
+73,rdfs:label,承認時評価資料：バイエル薬品社内資料［抗原性試験］
+73,dct:dateAccepted,2015-09-28
+73,ifo:internal_reference_id,B104440
+73,ifo:ctd_number,CTD2.6.6.8.2

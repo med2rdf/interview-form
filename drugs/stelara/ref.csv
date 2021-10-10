@@ -1,0 +1,162 @@
+subject,predicate,object
+1,rdf:type,bibo:Document
+1,rdfs:label,"社内資料 : 国内第Ⅰ相臨床試験成績（JNS009-JPN-01）"
+1,dct:dateAccepted,2011-01-21
+1,ifo:internal_reference_id,J900508
+1,ifo:ctd_number,CTD2.5.3.2
+2,rdf:type,bibo:Document
+2,rdfs:label,"社内資料 : 国内第Ⅱ/Ⅲ相臨床試験成績（JNS009-JPN-02）（承認時評価資料）"
+2,dct:dateAccepted,2011-01-21
+2,ifo:internal_reference_id,J900509
+2,ifo:ctd_number,CTD2.7.6.7
+3,rdf:type,bibo:Article
+3,dct:references,21955098
+3,ifo:internal_reference_id,J091152
+4,rdf:type,bibo:Article
+4,dct:references,15610511
+4,ifo:internal_reference_id,J054203
+5,rdf:type,bibo:Article
+5,dct:references,17519075
+5,ifo:internal_reference_id,J082522
+6,rdf:type,bibo:Article
+6,dct:references,17287478
+6,ifo:internal_reference_id,J059783
+7,rdf:type,bibo:Article
+7,dct:references,19217154
+7,ifo:internal_reference_id,J072675
+8,rdf:type,bibo:Article
+8,dct:references,18486739
+8,ifo:internal_reference_id,J068181
+9,rdf:type,bibo:Article
+9,dct:references,19903183
+9,ifo:internal_reference_id,J078594
+10,rdf:type,bibo:Document
+10,rdfs:label,"社内資料 : 海外第Ⅲ相臨床試験成績（PHOENIX 1）−長期継続期間（承認時評価資料）"
+10,dct:dateAccepted,2011-01-21
+10,ifo:internal_reference_id,J900516
+10,ifo:ctd_number,CTD2.5.3.3
+11,rdf:type,bibo:Document
+11,rdfs:label,"社内資料 : 海外第Ⅲ相臨床試験成績（PHOENIX 1.2）－臨床有効性のまとめ（承認時評価資料）"
+11,dct:dateAccepted,2011-01-21
+11,ifo:internal_reference_id,J900527
+11,ifo:ctd_number,CTD2.7.3
+12,rdf:type,bibo:Article
+12,dct:references,23279003
+12,ifo:internal_reference_id,J097591
+13,rdf:type,bibo:Article
+13,dct:references,18486740
+13,ifo:internal_reference_id,J068182
+14,rdf:type,bibo:Article
+14,dct:references,20462664
+14,ifo:internal_reference_id,J083820
+15,rdf:type,bibo:Document
+15,rdfs:label,"社内資料 : 海外第Ⅲ相臨床試験成績（PHOENIX 2）−長期継続期間（承認時評価資料）"
+15,dct:dateAccepted,2011-01-21
+15,ifo:internal_reference_id,J900517
+15,ifo:ctd_number,CTD2.7.6.9
+16,rdf:type,bibo:Article
+16,dct:references,25307931
+16,ifo:internal_reference_id,J102942
+17,rdf:type,bibo:Article
+17,dct:references,20071701
+17,ifo:internal_reference_id,J078494
+18,rdf:type,bibo:Document
+18,rdfs:label,"社内資料 : 海外第Ⅲ相臨床試験成績（ACCEPT）（承認時評価資料）"
+18,dct:dateAccepted,2011-01-21
+18,ifo:internal_reference_id,J900526
+18,ifo:ctd_number,CTD2.7.6.10
+19,rdf:type,bibo:Document
+19,rdfs:label,"社内資料 : 国際共同第Ⅲ相臨床試験成績（CRD3001）（承認時評価資料）"
+19,dct:dateAccepted,2017-03-30
+19,ifo:internal_reference_id,J901068
+19,ifo:ctd_number,CTD2.7.6.2
+20,rdf:type,bibo:Document
+20,rdfs:label,"社内資料 : 国際共同第Ⅲ相臨床試験成績（CRD3002）（承認時評価資料）"
+20,dct:dateAccepted,2017-03-30
+20,ifo:internal_reference_id,J901069
+20,ifo:ctd_number,CTD2.7.6.3
+21,rdf:type,bibo:Document
+21,rdfs:label,"社内資料 : 国際共同第Ⅲ相臨床試験成績（CRD3003）（承認時評価資料）"
+21,dct:dateAccepted,2017-03-30
+21,ifo:internal_reference_id,J901070
+21,ifo:ctd_number,CTD2.7.6.4
+22,rdf:type,bibo:Document
+22,rdfs:label,"社内資料 ： 国際共同第Ⅲ相臨床試験成績（UCO3001 寛解導入試験）（承認時評価資料）"
+22,dct:dateAccepted,2020-03-25
+22,ifo:internal_reference_id,J901267
+22,ifo:ctd_number,CTD2.7.6.1
+23,rdf:type,bibo:Article
+23,dct:references,31553833
+23,ifo:internal_reference_id,J111709
+24,rdf:type,bibo:Document
+24,rdfs:label,"社内資料 ： 国際共同第Ⅲ相臨床試験成績（UCO3001 寛解維持試験）（承認時評価資料）"
+24,dct:dateAccepted,2020-03-25
+24,ifo:internal_reference_id,J901268
+24,ifo:ctd_number,CTD2.7.6.2
+25,rdf:type,bibo:Article
+25,dct:references,16990136
+25,ifo:internal_reference_id,J085717
+26,rdf:type,bibo:Article
+26,dct:creator,"Granlund, A.v.B., et al."
+26,prism:publicationName,"PLoS. One"
+26,prism:volume,8
+26,prism:number,e56818
+26,prism:startingPage,
+26,prism:endingPage,
+26,dct:issued,2013
+26,ifo:internal_reference_id,J107057
+27,rdf:type,bibo:Article
+27,dct:references,9098000
+27,ifo:internal_reference_id,J107046
+28,rdf:type,bibo:Article
+28,dct:references,21227898
+28,ifo:internal_reference_id,J107057
+29,rdf:type,bibo:Document
+29,rdfs:label,"社内資料 : ウステキヌマブ非臨床試験－薬理試験"
+29,dct:dateAccepted,2011-01-21
+29,ifo:internal_reference_id,J900518
+29,ifo:ctd_number,CTD2.6.2
+30,rdf:type,bibo:Document
+30,rdfs:label,"社内資料 : 海外第Ⅰ相試験（NAP1002）（承認時評価資料）"
+30,dct:dateAccepted,2017-03-30
+30,ifo:internal_reference_id,J901071
+30,ifo:ctd_number,CTD2.7.1.2
+31,rdf:type,bibo:Document
+31,rdfs:label,"社内資料 : 海外第Ⅲ相臨床試験成績（PHOENIX 1）"
+31,dct:dateAccepted,
+31,ifo:internal_reference_id,J900510
+31,ifo:ctd_number,
+32,rdf:type,bibo:Document
+32,rdfs:label,"社内資料 : ウステキヌマブ臨床薬理試験－クリアランス"
+32,dct:dateAccepted,2011-01-21
+32,ifo:internal_reference_id,J900520
+32,ifo:ctd_number,CTD2.7.6.3
+33,rdf:type,bibo:Document
+33,rdfs:label,"社内資料 : ウステキヌマブ臨床薬理試験－分布"
+33,dct:dateAccepted,2011-01-21
+33,ifo:internal_reference_id,J900521
+33,ifo:ctd_number,CTD2.7.6.3
+34,rdf:type,bibo:Document
+34,rdfs:label,"社内資料 : 海外第Ⅱb相臨床試験成績（C0743T26）"
+34,dct:dateAccepted,2017-03-30
+34,ifo:internal_reference_id,J901072
+34,ifo:ctd_number,CTD2.7.6.6
+35,rdf:type,bibo:Document
+35,rdfs:label,"社内資料 : ウステキヌマブ臨床薬理試験－バイオアベイラビリティ"
+35,dct:dateAccepted,2011-01-21
+35,ifo:internal_reference_id,J900519
+35,ifo:ctd_number,CTD2.7.6.3
+36,rdf:type,bibo:Document
+36,rdfs:label,"社内資料 : ウステキヌマブ非臨床試験－毒性試験"
+36,dct:dateAccepted,2011-01-21
+36,ifo:internal_reference_id,J900522
+36,ifo:ctd_number,CTD2.4.4
+37,rdf:type,bibo:Article
+37,dct:references,16478695
+37,ifo:internal_reference_id,J083472
+38,rdf:type,bibo:Article
+38,dct:references,16688182
+38,ifo:internal_reference_id,J085533
+39,rdf:type,bibo:Article
+39,dct:references,16540644
+39,ifo:internal_reference_id,J085532

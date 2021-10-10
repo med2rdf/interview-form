@@ -1,0 +1,917 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/800155_1149117F1020_1_21#> .
+
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_0 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_1 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_2 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_3 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_3_1 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_3_2 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_4 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_5 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_6 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_7 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_8 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_9 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_9_1 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_9_2 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_9_3 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_9_4 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_9_5 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_9_6 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_9_7 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_9_8 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_10 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_10_1 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_10_2 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_11 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_11_1 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_11_2 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_12 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_13 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_14 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_15 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_15_1 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_15_2 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_16 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_16_1 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_16_2 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_16_3 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_16_4 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_16_5 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_16_6 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_16_7 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_16_8 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_17 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_17_1 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_17_2 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_17_3 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_18 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_18_1 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_19 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_20 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_21 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_22 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_23 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_24 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_25 .
+pi_root:800155_1149117F1020_1_21 pio:section pi:PI_26 .
+pi_root:800155_1149117F1020_1_21 dct:identifier "800155_1149117F1020_1_21" .
+pi_root:800155_1149117F1020_1_21 pio:company_identifier "800155" .
+pi_root:800155_1149117F1020_1_21 pio:date_of_preparation_or_revision "2019-07"^^xsd:date .
+pi_root:800155_1149117F1020_1_21 pio:version "第3版" .
+pi_root:800155_1149117F1020_1_21 pio:sccj_no "871149" .
+pi_root:800155_1149117F1020_1_21 pio:therapeutic_classification "慢性疼痛/抜歯後疼痛治療剤" .
+pi_root:800155_1149117F1020_1_21 pio:approval_brand_name "トラムセット配合錠" .
+pi_root:800155_1149117F1020_1_21 pio:yj_code "1149117F1020" .
+pi_root:800155_1149117F1020_1_21 pio:trademark_name "TRAMCET Combination Tablets" .
+pi_root:800155_1149117F1020_1_21 pio:name_in_hiragana "とらむせっとはいごうじょう" .
+pi_root:800155_1149117F1020_1_21 pio:approval_no "22300AMX00552000" .
+pi_root:800155_1149117F1020_1_21 pio:starting_date_of_marketing "2011-07"^^xsd:date .
+pi_root:800155_1149117F1020_1_21 pio:storage_method "室温保存" .
+pi_root:800155_1149117F1020_1_21 pio:shelf_life "36ヵ月" .
+pi:PI_1 a pio:PI_1 .
+pi:PI_1 pio:section pi:PI_1.item1 .
+pi:PI_1.item1 dct:description "本剤により重篤な肝障害が発現するおそれがあることに注意し、アセトアミノフェンの1日総量が1500mg（本剤4錠）を超す高用量で長期投与する場合には、定期的に肝機能等を確認するなど、慎重に投与すること。"@ja .
+pi:PI_1 pio:section pi:PI_1.item2 .
+pi:PI_1.item2 dct:description "本剤とトラマドール又はアセトアミノフェンを含む他の薬剤（一般用医薬品を含む）との併用により、過量投与に至るおそれがあることから、これらの薬剤との併用を避けること。"@ja .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "12歳未満の小児"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "アルコール、睡眠剤、鎮痛剤、オピオイド鎮痛剤又は向精神薬による急性中毒患者［中枢神経抑制及び呼吸抑制を悪化させるおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "モノアミン酸化酵素（MAO）阻害剤（セレギリン塩酸塩、ラサギリンメシル酸塩、サフィナミドメシル酸塩）を投与中の患者、又は投与中止後14日以内の患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item4 .
+pi:PI_2.item4 dct:description "ナルメフェン塩酸塩を投与中の患者又は投与中止後1週間以内の患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item5 .
+pi:PI_2.item5 dct:description "治療により十分な管理がされていないてんかん患者［症状が悪化するおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item6 .
+pi:PI_2.item6 dct:description "消化性潰瘍のある患者［症状が悪化するおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item7 .
+pi:PI_2.item7 dct:description "重篤な血液の異常のある患者［重篤な転帰をとるおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item8 .
+pi:PI_2.item8 dct:description "重篤な肝障害のある患者［重篤な転帰をとるおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item9 .
+pi:PI_2.item9 dct:description "重篤な腎障害のある患者［重篤な転帰をとるおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item10 .
+pi:PI_2.item10 dct:description "重篤な心機能不全のある患者［循環系のバランスが損なわれ、心不全が増悪するおそれがある。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item11 .
+pi:PI_2.item11 dct:description "アスピリン喘息（非ステロイド製剤による喘息発作の誘発）又はその既往歴のある患者［アスピリン喘息の発症にプロスタグランジン合成阻害作用が関与していると考えられる。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item12 .
+pi:PI_2.item12 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "（1錠中） 日局トラマドール塩酸塩　37.5mg 日局アセトアミノフェン　325mg"@ja .
+pi:PI_3_1.item1 pio:additives "粉末セルロース、アルファー化デンプン、デンプングリコール酸ナトリウム、トウモロコシデンプン、ステアリン酸マグネシウム、ヒプロメロース、酸化チタン、マクロゴール400、黄色三二酸化鉄、ポリソルベート80、カルナウバロウ"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "粉末セルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "アルファー化デンプン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "デンプングリコール酸ナトリウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "トウモロコシデンプン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "ステアリン酸マグネシウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
+pi:PI_3_1.item1.additive6 pio:additive "ヒプロメロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive7 .
+pi:PI_3_1.item1.additive7 pio:additive "酸化チタン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive8 .
+pi:PI_3_1.item1.additive8 pio:additive "マクロゴール400"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive9 .
+pi:PI_3_1.item1.additive9 pio:additive "黄色三二酸化鉄"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive10 .
+pi:PI_3_1.item1.additive10 pio:additive "ポリソルベート80"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive11 .
+pi:PI_3_1.item1.additive11 pio:additive "カルナウバロウ"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:id_code "J-C T/P" .
+pi:PI_3_2.item1 pio:shape_front "800155_1149117F1020_1_21_fig01.gif" .
+pi:PI_3_2.item1 pio:shape_back "800155_1149117F1020_1_21_fig02.gif" .
+pi:PI_3_2.item1 pio:shape_side "800155_1149117F1020_1_21_fig03.gif" .
+pi:PI_3_2.item1 pio:size_long_diameter "15.5mm" .
+pi:PI_3_2.item1 pio:size_short_diameter "6.3mm" .
+pi:PI_3_2.item1 pio:size_thickness "5.5mm" .
+pi:PI_3_2.item1 pio:other_size pi:PI_3_2.item1.other_size .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 dct:description "非オピオイド鎮痛剤で治療困難な下記疾患における鎮痛"@ja .
+pi:PI_4 pio:section pi:PI_4.item1 .
+pi:PI_4.item1 dct:description "非がん性慢性疼痛"@ja .
+pi:PI_4 pio:section pi:PI_4.item2 .
+pi:PI_4.item2 dct:description "抜歯後の疼痛"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 pio:section pi:PI_5.item1 .
+pi:PI_5.item1 rdfs:label "〈非がん性慢性疼痛〉"@ja .
+pi:PI_5.item1 dct:description "原因となる器質的病変、心理的・社会的要因、依存リスクを含めた包括的な診断を行い、本剤の投与の適否を慎重に判断すること。"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 pio:section pi:PI_6.item1 .
+pi:PI_6.item1 rdfs:label "〈非がん性慢性疼痛〉"@ja .
+pi:PI_6.item1 dct:description "通常、成人には、1回1錠、1日4回経口投与する。投与間隔は4時間以上空けること。 なお、症状に応じて適宜増減するが、1回2錠、1日8錠を超えて投与しないこと。また、空腹時の投与は避けることが望ましい。"@ja .
+pi:PI_6 pio:section pi:PI_6.item2 .
+pi:PI_6.item2 rdfs:label "〈抜歯後の疼痛〉"@ja .
+pi:PI_6.item2 dct:description "通常、成人には、1回2錠を経口投与する。 なお、追加投与する場合には、投与間隔を4時間以上空け、1回2錠、1日8錠を超えて投与しないこと。また、空腹時の投与は避けることが望ましい。"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 pio:section pi:PI_7.item1 .
+pi:PI_7.item1 rdfs:label "〈非がん性慢性疼痛〉"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "本剤は、1錠中にトラマドール塩酸塩（37.5mg）及びアセトアミノフェン（325mg）を含む配合剤であり、トラマドールとアセトアミノフェン双方の副作用が発現するおそれがあるため、適切に本剤の使用を検討すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "連用により薬物依存を生じることがあるので、観察を十分に行い、慎重に投与すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "悪心、嘔吐、便秘等の症状があらわれることがあるので、観察を十分に行い、悪心・嘔吐に対する対策として制吐剤の併用を、便秘に対する対策として緩下剤の併用を考慮するなど、適切な処置を行うこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 dct:description "眠気、めまい、意識消失が起こることがあるので、本剤投与中の患者には自動車の運転等危険を伴う機械の操作に従事させないよう注意すること。なお、意識消失により自動車事故に至った例も報告されている。"@ja .
+pi:PI_8 pio:section pi:PI_8.item5 .
+pi:PI_8.item5 dct:description "感染症を不顕性化するおそれがあるので、観察を十分に行うこと。"@ja .
+pi:PI_8 pio:section pi:PI_8.item6 .
+pi:PI_8.item6 dct:description "重篤な肝障害が発現するおそれがあるので注意すること。アセトアミノフェンの1日総量が1500mg（本剤4錠）を超す高用量で長期投与する場合には定期的に肝機能検査を行い、患者の状態を十分に観察すること。高用量でなくとも長期投与する場合にあっては定期的に肝機能検査を行うことが望ましい。また、高用量で投与する場合などは特に患者の状態を十分に観察すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item7 .
+pi:PI_8.item7 dct:description "鎮痛剤による治療は原因療法ではなく、対症療法であることに留意すること。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "てんかん等の痙攣性疾患又はこれらの既往歴のある患者、あるいは痙攣発作の危険因子（頭部外傷、代謝異常、アルコール又は薬物の離脱症状、中枢性感染症等）を有する患者（治療により十分な管理がされていないてんかん患者を除く）"@ja .
+pi:PI_9_1.item1 dct:description "本剤投与中は観察を十分に行うこと。痙攣発作を誘発することがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item2 .
+pi:PI_9_1.item2 rdfs:title "呼吸抑制状態にある患者"@ja .
+pi:PI_9_1.item2 dct:description "呼吸抑制を増強するおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item3 .
+pi:PI_9_1.item3 rdfs:title "脳に器質的障害のある患者"@ja .
+pi:PI_9_1.item3 dct:description "呼吸抑制や頭蓋内圧の上昇を来すおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item4 .
+pi:PI_9_1.item4 rdfs:title "薬物の乱用又は薬物依存傾向のある患者"@ja .
+pi:PI_9_1.item4 dct:description "厳重な医師の管理下に、短期間に限って投与すること。依存性を生じやすい。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item5 .
+pi:PI_9_1.item5 rdfs:title "オピオイド鎮痛剤に対し過敏症の既往歴のある患者（本剤の成分に対し過敏症の既往歴のある患者を除く）"@ja .
+pi:PI_9_1.item5 dct:description "                           "@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item6 .
+pi:PI_9_1.item6 rdfs:title "ショック状態にある患者"@ja .
+pi:PI_9_1.item6 dct:description "循環不全や呼吸抑制を増強するおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item7 .
+pi:PI_9_1.item7 rdfs:title "消化性潰瘍の既往歴のある患者"@ja .
+pi:PI_9_1.item7 dct:description "消化性潰瘍の再発を促進するおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item8 .
+pi:PI_9_1.item8 rdfs:title "血液の異常又はその既往歴のある患者（重篤な血液の異常のある患者を除く）"@ja .
+pi:PI_9_1.item8 dct:description "血液障害を起こすおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item9 .
+pi:PI_9_1.item9 rdfs:title "出血傾向のある患者"@ja .
+pi:PI_9_1.item9 dct:description "血小板機能異常が起こることがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item10 .
+pi:PI_9_1.item10 rdfs:title "心機能異常のある患者（重篤な心機能不全のある患者を除く）"@ja .
+pi:PI_9_1.item10 dct:description "症状が悪化するおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item11 .
+pi:PI_9_1.item11 rdfs:title "気管支喘息のある患者"@ja .
+pi:PI_9_1.item11 dct:description "症状が悪化するおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item12 .
+pi:PI_9_1.item12 rdfs:title "アルコール多量常飲者"@ja .
+pi:PI_9_1.item12 dct:description "肝障害があらわれやすくなる。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item13 .
+pi:PI_9_1.item13 rdfs:title "絶食・低栄養状態・摂食障害等によるグルタチオン欠乏、脱水症状のある患者"@ja .
+pi:PI_9_1.item13 dct:description "肝障害があらわれやすくなる。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item14 .
+pi:PI_9_1.item14 rdfs:title "18歳未満の肥満、閉塞性睡眠時無呼吸症候群又は重篤な肺疾患を有する患者"@ja .
+pi:PI_9_1.item14 dct:description "投与しないこと。重篤な呼吸抑制のリスクが増加するおそれがある。"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item1 .
+pi:PI_9_2.item1 rdfs:title "重篤な腎障害のある患者"@ja .
+pi:PI_9_2.item1 dct:description "投与しないこと。重篤な転帰をとるおそれがある。"@ja .
+pi:PI_9_2 pio:section pi:PI_9_2.item2 .
+pi:PI_9_2.item2 rdfs:title "腎障害のある患者あるいはその既往歴のある患者（重篤な腎障害のある患者を除く）"@ja .
+pi:PI_9_2.item2 dct:description "腎機能が悪化するおそれがある。また、高い血中濃度が持続し、作用及び副作用が増強するおそれがある。"@ja .
+pi:PI_9_3 pio:section pi:PI_9_3.item1 .
+pi:PI_9_3.item1 rdfs:title "重篤な肝障害のある患者"@ja .
+pi:PI_9_3.item1 dct:description "投与しないこと。重篤な転帰をとるおそれがある。"@ja .
+pi:PI_9_3 pio:section pi:PI_9_3.item2 .
+pi:PI_9_3.item2 rdfs:title "肝障害のある患者あるいはその既往歴のある患者（重篤な肝障害のある患者を除く）"@ja .
+pi:PI_9_3.item2 dct:description "肝機能が悪化するおそれがある。また、高い血中濃度が持続し、作用及び副作用が増強するおそれがある。"@ja .
+pi:PI_9_5 pio:section pi:PI_9_5.item1 .
+pi:PI_9_5.item1 dct:description "妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。 トラマドールは胎盤関門を通過し、新生児に痙攣発作、身体的依存及び退薬症候、並びに胎児死亡及び死産が報告されている。また、動物実験で、トラマドールは器官形成、骨化及び出生児の生存に影響を及ぼすことが報告されている。"@ja .
+pi:PI_9_5 pio:section pi:PI_9_5.item2 .
+pi:PI_9_5.item2 dct:description "妊娠後期の女性へのアセトアミノフェンの投与により胎児に動脈管収縮を起こすことがある。"@ja .
+pi:PI_9_5 pio:section pi:PI_9_5.item3 .
+pi:PI_9_5.item3 dct:description "アセトアミノフェンは妊娠後期のラットで胎児に軽度の動脈管収縮を起こすことが報告されている。"@ja .
+pi:PI_9_6 dct:description "授乳を避けさせること。トラマドールは、乳汁中へ移行することが報告されている。"@ja .
+pi:PI_9_7 pio:section pi:PI_9_7.item1 .
+pi:PI_9_7.item1 rdfs:title "12歳未満の小児"@ja .
+pi:PI_9_7.item1 dct:description "投与しないこと。海外において、12歳未満の小児で死亡を含む重篤な呼吸抑制のリスクが高いとの報告がある。"@ja .
+pi:PI_9_7 pio:section pi:PI_9_7.item2 .
+pi:PI_9_7.item2 rdfs:title "12歳以上の小児"@ja .
+pi:PI_9_7.item2 dct:description "12歳以上の小児に対する有効性及び安全性を指標とした臨床試験は実施していない。"@ja .
+pi:PI_9_7 pio:section pi:PI_9_7.item3 .
+pi:PI_9_7.item3 rdfs:title "肥満、閉塞性睡眠時無呼吸症候群又は重篤な肺疾患を有する小児"@ja .
+pi:PI_9_7.item3 dct:description "投与しないこと。重篤な呼吸抑制のリスクが増加するおそれがある。"@ja .
+pi:PI_9_8 dct:description "患者の状態を観察しながら慎重に投与すること。生理機能が低下していることが多く、代謝・排泄が遅延し副作用があらわれやすい。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_1 pio:drug pi:PI_10_1.item1 .
+pi:PI_10_1.item1 a pio:ContraIndication .
+pi:PI_10_1.item1 pio:drug_name "（エフピー）"@ja .
+pi:PI_10_1.item1 pio:clin_symptoms_and_measures "外国において、セロトニン症候群（錯乱、激越、発熱、発汗、運動失調、反射異常亢進、ミオクローヌス、下痢等）を含む中枢神経系（攻撃的行動、固縮、痙攣、昏睡、頭痛）、呼吸器系（呼吸抑制）及び心血管系（低血圧、高血圧）の重篤な副作用が報告されている。MAO阻害剤を投与中の患者又は投与中止後14日以内の患者には投与しないこと。また、本剤投与中止後にMAO阻害剤の投与を開始する場合には、2～3日間の間隔を空けることが望ましい。"@ja .
+pi:PI_10_1.item1 pio:mechanism_and_risk_factors "相加的に作用が増強され、また、中枢神経のセロトニンが蓄積すると考えられる。"@ja .
+pi:PI_10_1.item2 pio:clin_symptoms_and_measures "離脱症状を起こすおそれがある。また、鎮痛作用が減弱するおそれがある。 ナルメフェン塩酸塩を投与中の患者又は投与中止後1週間以内の患者には投与しないこと。"@ja .
+pi:PI_10_1.item2 pio:mechanism_and_risk_factors "μオピオイド受容体への競合的阻害による。"@ja .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2 pio:drug pi:PI_10_2.item1 .
+pi:PI_10_2.item1 a pio:PrecautionsForCombi .
+pi:PI_10_2.item1 pio:drug_name "フェノチアジン系薬剤 催眠鎮静剤等"@ja .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "痙攣閾値の低下や呼吸抑制の増強を来すおそれがある。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "中枢神経抑制作用が相加的に増強されると考えられる。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item2 .
+pi:PI_10_2.item2 a pio:PrecautionsForCombi .
+pi:PI_10_2.item2 pio:drug_name "選択的セロトニン再取り込み阻害剤（SSRI）等"@ja .
+pi:PI_10_2.item2 pio:clin_symptoms_and_measures "セロトニン症候群（錯乱、激越、発熱、発汗、運動失調、反射異常亢進、ミオクローヌス、下痢等）があらわれるおそれがある。また、痙攣発作の危険性を増大させるおそれがある。"@ja .
+pi:PI_10_2.item2 pio:mechanism_and_risk_factors "相加的に作用が増強され、また、中枢神経のセロトニンが蓄積すると考えられる。"@ja .
+pi:PI_10_2.item3 pio:clin_symptoms_and_measures "セロトニン症候群（錯乱、激越、発熱、発汗、運動失調、反射異常亢進、ミオクローヌス、下痢等）があらわれるおそれがある。また、痙攣発作の危険性を増大させるおそれがある。"@ja .
+pi:PI_10_2.item3 pio:mechanism_and_risk_factors "リネゾリドの非選択的、可逆的MAO阻害作用により、相加的に作用が増強され、また、中枢神経のセロトニンが蓄積すると考えられる。"@ja .
+pi:PI_10_2.item4 pio:clin_symptoms_and_measures "トラマドールの血中濃度が低下し作用が減弱する可能性がある。 また、これらの薬剤の長期連用者では肝代謝酵素が誘導され、アセトアミノフェン代謝物による肝障害を生じやすくなるとの報告がある。"@ja .
+pi:PI_10_2.item4 pio:mechanism_and_risk_factors "これらの薬剤の肝代謝酵素誘導作用により、トラマドールの代謝が促進される。また、アセトアミノフェンから肝毒性を持つ  -アセチル-   -ベンゾキノンイミンへの代謝が促進される。"@ja .
+pi:PI_10_2.item5 pio:clin_symptoms_and_measures "呼吸抑制が生じるおそれがある。 また、アルコール多量常飲者がアセトアミノフェンを服用したところ肝不全を起こしたとの報告がある。"@ja .
+pi:PI_10_2.item5 pio:mechanism_and_risk_factors "相加的に作用が増強されると考えられる。 アルコール常飲によるCYP2E1の誘導により、アセトアミノフェンから肝毒性を持つ  -アセチル-   -ベンゾキノンイミンへの代謝が促進される。"@ja .
+pi:PI_10_2.item6 pio:clin_symptoms_and_measures "相互に作用が増強するおそれがある。"@ja .
+pi:PI_10_2.item6 pio:mechanism_and_risk_factors "機序不明"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item7 .
+pi:PI_10_2.item7 a pio:PrecautionsForCombi .
+pi:PI_10_2.item7 pio:drug_name "ワルファリン"@ja .
+pi:PI_10_2.item7 pio:clin_symptoms_and_measures "出血を伴うプロトロンビン時間の延長等のクマリン系抗凝血剤の作用を増強することがある。"@ja .
+pi:PI_10_2.item7 pio:mechanism_and_risk_factors "機序不明"@ja .
+pi:PI_10_2.item8 pio:clin_symptoms_and_measures "ジゴキシン中毒が発現したとの報告がある。"@ja .
+pi:PI_10_2.item8 pio:mechanism_and_risk_factors "機序不明"@ja .
+pi:PI_10_2.item9 pio:clin_symptoms_and_measures "本剤の鎮痛作用を減弱させるおそれがある。"@ja .
+pi:PI_10_2.item9 pio:mechanism_and_risk_factors "本剤の中枢におけるセロトニン作用が抑制されると考えられる。"@ja .
+pi:PI_10_2.item10 pio:clin_symptoms_and_measures "本剤の鎮痛作用を減弱させるおそれがある。また、退薬症候を起こすおそれがある。"@ja .
+pi:PI_10_2.item10 pio:mechanism_and_risk_factors "本剤が作用するμ-オピオイド受容体の部分アゴニストであるため。"@ja .
+pi:PI_10_2.item11 pio:clin_symptoms_and_measures "アセトアミノフェンの血中濃度が低下するおそれがある。"@ja .
+pi:PI_10_2.item11 pio:mechanism_and_risk_factors "エチニルエストラジオールは肝におけるアセトアミノフェンのグルクロン酸抱合を促進すると考えられる。"@ja .
+pi:PI_10_2.item12 pio:clin_symptoms_and_measures "エチニルエストラジオールの血中濃度が上昇するおそれがある。"@ja .
+pi:PI_10_2.item12 pio:mechanism_and_risk_factors "アセトアミノフェンはエチニルエストラジオールの硫酸抱合を阻害すると考えられる。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止し、適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "ショック、アナフィラキシー（頻度不明）"@ja .
+pi:PI_11_1.item1 dct:description "呼吸困難、喘鳴、血管浮腫、蕁麻疹等があらわれることがある。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "痙攣（0.2%）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item3 .
+pi:PI_11_1.item3 rdfs:title "意識消失（0.2%）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item4 .
+pi:PI_11_1.item4 rdfs:title "依存性（頻度不明）"@ja .
+pi:PI_11_1.item4 dct:description "長期使用時に、耐性、精神的依存及び身体的依存が生じることがある。本剤の中止又は減量時において、激越、不安、神経過敏、不眠症、運動過多、振戦、胃腸症状、パニック発作、幻覚、錯感覚、耳鳴等の退薬症候が生じることがある。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item5 .
+pi:PI_11_1.item5 rdfs:title "中毒性表皮壊死融解症（Toxic Epidermal Necrolysis：TEN）、皮膚粘膜眼症候群（Stevens-Johnson症候群）、急性汎発性発疹性膿疱症（頻度不明）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item6 .
+pi:PI_11_1.item6 rdfs:title "間質性肺炎（頻度不明）"@ja .
+pi:PI_11_1.item6 dct:description "咳嗽、呼吸困難、発熱、肺音の異常等が認められた場合には、速やかに胸部X線、胸部CT、血清マーカー等の検査を実施すること。異常が認められた場合には投与を中止し、副腎皮質ホルモン剤の投与等の適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item7 .
+pi:PI_11_1.item7 rdfs:title "間質性腎炎、急性腎障害（頻度不明）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item8 .
+pi:PI_11_1.item8 rdfs:title "喘息発作の誘発（頻度不明）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item9 .
+pi:PI_11_1.item9 rdfs:title "劇症肝炎、肝機能障害、黄疸（頻度不明）"@ja .
+pi:PI_11_1.item9 dct:description "劇症肝炎、AST、ALT、γ-GTPの上昇等を伴う肝機能障害、黄疸があらわれることがある。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item10 .
+pi:PI_11_1.item10 rdfs:title "顆粒球減少症（頻度不明）"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item11 .
+pi:PI_11_1.item11 rdfs:title "呼吸抑制（頻度不明）"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "腎盂腎炎" .
+pi:PI_11_2.item1.item1 pio:category "感染症及び寄生虫症" .
+pi:PI_11_2.item1.item1 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "貧血" .
+pi:PI_11_2.item1.item2 pio:category "血液及びリンパ系障害" .
+pi:PI_11_2.item1.item2 pio:frequency "1％以上 5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "食欲不振" .
+pi:PI_11_2.item1.item3 pio:category "代謝及び栄養障害" .
+pi:PI_11_2.item1.item3 pio:frequency "1％以上 5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "高脂血症、低血糖症" .
+pi:PI_11_2.item1.item4 pio:category "代謝及び栄養障害" .
+pi:PI_11_2.item1.item4 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "不眠症" .
+pi:PI_11_2.item1.item5 pio:category "精神障害" .
+pi:PI_11_2.item1.item5 pio:frequency "1％以上 5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "不安、幻覚" .
+pi:PI_11_2.item1.item6 pio:category "精神障害" .
+pi:PI_11_2.item1.item6 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "錯乱、多幸症、神経過敏、健忘、離人症、うつ病、薬物乱用、インポテンス、悪夢、異常思考、せん妄" .
+pi:PI_11_2.item1.item7 pio:category "精神障害" .
+pi:PI_11_2.item1.item7 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "傾眠（25.9％）、浮動性めまい（18.9％）、頭痛" .
+pi:PI_11_2.item1.item8 pio:category "神経系障害" .
+pi:PI_11_2.item1.item8 pio:frequency "5％以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "味覚異常" .
+pi:PI_11_2.item1.item9 pio:category "神経系障害" .
+pi:PI_11_2.item1.item9 pio:frequency "1％以上 5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item10 .
+pi:PI_11_2.item1.item10 a pio:AdverseEvent .
+pi:PI_11_2.item1.item10 pio:adverse_reaction "筋緊張亢進、感覚鈍麻、錯感覚、注意力障害、振戦、筋不随意運動、第4脳神経麻痺、片頭痛" .
+pi:PI_11_2.item1.item10 pio:category "神経系障害" .
+pi:PI_11_2.item1.item10 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item11 .
+pi:PI_11_2.item1.item11 a pio:AdverseEvent .
+pi:PI_11_2.item1.item11 pio:adverse_reaction "運動失調、昏迷、会話障害、運動障害" .
+pi:PI_11_2.item1.item11 pio:category "神経系障害" .
+pi:PI_11_2.item1.item11 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item12 .
+pi:PI_11_2.item1.item12 a pio:AdverseEvent .
+pi:PI_11_2.item1.item12 pio:adverse_reaction "視覚異常" .
+pi:PI_11_2.item1.item12 pio:category "眼障害" .
+pi:PI_11_2.item1.item12 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item13 .
+pi:PI_11_2.item1.item13 a pio:AdverseEvent .
+pi:PI_11_2.item1.item13 pio:adverse_reaction "縮瞳、散瞳" .
+pi:PI_11_2.item1.item13 pio:category "眼障害" .
+pi:PI_11_2.item1.item13 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item14 .
+pi:PI_11_2.item1.item14 a pio:AdverseEvent .
+pi:PI_11_2.item1.item14 pio:adverse_reaction "耳不快感、耳鳴、回転性めまい" .
+pi:PI_11_2.item1.item14 pio:category "耳及び迷路障害" .
+pi:PI_11_2.item1.item14 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item15 .
+pi:PI_11_2.item1.item15 a pio:AdverseEvent .
+pi:PI_11_2.item1.item15 pio:adverse_reaction "動悸" .
+pi:PI_11_2.item1.item15 pio:category "心臓障害" .
+pi:PI_11_2.item1.item15 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item16 .
+pi:PI_11_2.item1.item16 a pio:AdverseEvent .
+pi:PI_11_2.item1.item16 pio:adverse_reaction "不整脈、頻脈" .
+pi:PI_11_2.item1.item16 pio:category "心臓障害" .
+pi:PI_11_2.item1.item16 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item17 .
+pi:PI_11_2.item1.item17 a pio:AdverseEvent .
+pi:PI_11_2.item1.item17 pio:adverse_reaction "高血圧、ほてり" .
+pi:PI_11_2.item1.item17 pio:category "血管障害" .
+pi:PI_11_2.item1.item17 pio:frequency "1％以上 5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item18 .
+pi:PI_11_2.item1.item18 a pio:AdverseEvent .
+pi:PI_11_2.item1.item18 pio:adverse_reaction "低血圧、起立性低血圧" .
+pi:PI_11_2.item1.item18 pio:category "血管障害" .
+pi:PI_11_2.item1.item18 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item19 .
+pi:PI_11_2.item1.item19 a pio:AdverseEvent .
+pi:PI_11_2.item1.item19 pio:adverse_reaction "呼吸困難、嗄声" .
+pi:PI_11_2.item1.item19 pio:category "呼吸器、胸郭及び縦隔障害" .
+pi:PI_11_2.item1.item19 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item20 .
+pi:PI_11_2.item1.item20 a pio:AdverseEvent .
+pi:PI_11_2.item1.item20 pio:adverse_reaction "悪心（41.4％）、嘔吐（26.2％）、便秘（21.2％）、胃不快感" .
+pi:PI_11_2.item1.item20 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item20 pio:frequency "5％以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item21 .
+pi:PI_11_2.item1.item21 a pio:AdverseEvent .
+pi:PI_11_2.item1.item21 pio:adverse_reaction "腹痛、下痢、口内炎、口内乾燥、消化不良、胃炎" .
+pi:PI_11_2.item1.item21 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item21 pio:frequency "1％以上 5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item22 .
+pi:PI_11_2.item1.item22 a pio:AdverseEvent .
+pi:PI_11_2.item1.item22 pio:adverse_reaction "逆流性食道炎、口唇炎、胃腸障害、腹部膨満、胃潰瘍、鼓腸、メレナ、上部消化管出血" .
+pi:PI_11_2.item1.item22 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item22 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item23 .
+pi:PI_11_2.item1.item23 a pio:AdverseEvent .
+pi:PI_11_2.item1.item23 pio:adverse_reaction "嚥下障害、舌浮腫" .
+pi:PI_11_2.item1.item23 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item23 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item24 .
+pi:PI_11_2.item1.item24 a pio:AdverseEvent .
+pi:PI_11_2.item1.item24 pio:adverse_reaction "肝機能検査異常" .
+pi:PI_11_2.item1.item24 pio:category "肝胆道系障害" .
+pi:PI_11_2.item1.item24 pio:frequency "5％以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item25 .
+pi:PI_11_2.item1.item25 a pio:AdverseEvent .
+pi:PI_11_2.item1.item25 pio:adverse_reaction "そう痒症" .
+pi:PI_11_2.item1.item25 pio:category "皮膚及び皮下組織障害" .
+pi:PI_11_2.item1.item25 pio:frequency "5％以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item26 .
+pi:PI_11_2.item1.item26 a pio:AdverseEvent .
+pi:PI_11_2.item1.item26 pio:adverse_reaction "発疹、多汗症、冷汗" .
+pi:PI_11_2.item1.item26 pio:category "皮膚及び皮下組織障害" .
+pi:PI_11_2.item1.item26 pio:frequency "1％以上 5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item27 .
+pi:PI_11_2.item1.item27 a pio:AdverseEvent .
+pi:PI_11_2.item1.item27 pio:adverse_reaction "排尿困難" .
+pi:PI_11_2.item1.item27 pio:category "腎及び尿路障害" .
+pi:PI_11_2.item1.item27 pio:frequency "1％以上 5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item28 .
+pi:PI_11_2.item1.item28 a pio:AdverseEvent .
+pi:PI_11_2.item1.item28 pio:adverse_reaction "アルブミン尿、尿閉" .
+pi:PI_11_2.item1.item28 pio:category "腎及び尿路障害" .
+pi:PI_11_2.item1.item28 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item29 .
+pi:PI_11_2.item1.item29 a pio:AdverseEvent .
+pi:PI_11_2.item1.item29 pio:adverse_reaction "乏尿" .
+pi:PI_11_2.item1.item29 pio:category "腎及び尿路障害" .
+pi:PI_11_2.item1.item29 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item30 .
+pi:PI_11_2.item1.item30 a pio:AdverseEvent .
+pi:PI_11_2.item1.item30 pio:adverse_reaction "異常感" .
+pi:PI_11_2.item1.item30 pio:category "全身障害及び投与局所様態" .
+pi:PI_11_2.item1.item30 pio:frequency "5％以上" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item31 .
+pi:PI_11_2.item1.item31 a pio:AdverseEvent .
+pi:PI_11_2.item1.item31 pio:adverse_reaction "口渇、倦怠感、発熱、浮腫" .
+pi:PI_11_2.item1.item31 pio:category "全身障害及び投与局所様態" .
+pi:PI_11_2.item1.item31 pio:frequency "1％以上 5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item32 .
+pi:PI_11_2.item1.item32 a pio:AdverseEvent .
+pi:PI_11_2.item1.item32 pio:adverse_reaction "胸部不快感、無力症、悪寒" .
+pi:PI_11_2.item1.item32 pio:category "全身障害及び投与局所様態" .
+pi:PI_11_2.item1.item32 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item33 .
+pi:PI_11_2.item1.item33 a pio:AdverseEvent .
+pi:PI_11_2.item1.item33 pio:adverse_reaction "疲労、胸痛、失神、離脱症候群" .
+pi:PI_11_2.item1.item33 pio:category "全身障害及び投与局所様態" .
+pi:PI_11_2.item1.item33 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item34 .
+pi:PI_11_2.item1.item34 a pio:AdverseEvent .
+pi:PI_11_2.item1.item34 pio:adverse_reaction "体重減少、血中CPK増加、血中尿素増加、血中トリグリセリド増加、血中ビリルビン増加、尿中血陽性、尿中ブドウ糖陽性" .
+pi:PI_11_2.item1.item34 pio:category "臨床検査" .
+pi:PI_11_2.item1.item34 pio:frequency "1％以上 5％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item35 .
+pi:PI_11_2.item1.item35 a pio:AdverseEvent .
+pi:PI_11_2.item1.item35 pio:adverse_reaction "好酸球数増加、白血球数増加、ヘモグロビン減少、尿中蛋白陽性、血中クレアチニン増加、血中ブドウ糖増加、血小板数増加、血中クレアチニン減少、血中尿酸増加、好中球百分率増加" .
+pi:PI_11_2.item1.item35 pio:category "臨床検査" .
+pi:PI_11_2.item1.item35 pio:frequency "1％未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item36 .
+pi:PI_11_2.item1.item36 a pio:AdverseEvent .
+pi:PI_11_2.item1.item36 pio:adverse_reaction "転倒・転落" .
+pi:PI_11_2.item1.item36 pio:category "傷害、中毒及び処置合併症" .
+pi:PI_11_2.item1.item36 pio:frequency "1％未満" .
+pi:PI_13 pio:section pi:PI_13.item1 .
+pi:PI_13.item1 rdfs:title "症状"@ja .
+pi:PI_13.item1 dct:description "トラマドールの過量投与による重篤な症状は、呼吸抑制、嗜眠、昏睡、痙攣発作、心停止である。 アセトアミノフェンの大量投与により、肝毒性のおそれがある。また、アセトアミノフェンの過量投与時に肝臓・腎臓・心筋の壊死が起こったとの報告がある。過量投与による主な症状は、胃腸過敏症、食欲不振、悪心、嘔吐、倦怠感、蒼白、発汗等である。"@ja .
+pi:PI_13 pio:section pi:PI_13.item2 .
+pi:PI_13.item2 rdfs:title "処置"@ja .
+pi:PI_13.item2 dct:description "緊急処置として、気道を確保し、症状に応じた呼吸管理と循環の管理を行うこと。 トラマドールの過量投与による呼吸抑制等の症状が疑われる場合には、ナロキソンが有効な場合があるが、痙攣発作を誘発するおそれがある。また、トラマドールは透析によりほとんど除去されない。 アセトアミノフェンの過量投与による症状が疑われる場合には、アセチルシステインの投与を考慮すること。"@ja .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤交付時の注意"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item1 .
+pi:PI_14.item1.item1 dct:desctiption "PTP包装の薬剤はPTPシートから取り出して服用するよう指導すること。PTPシートの誤飲により、硬い鋭角部が食道粘膜へ刺入し、更には穿孔をおこして縦隔洞炎等の重篤な合併症を併発することがある。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item2 .
+pi:PI_14.item1.item2 dct:desctiption "小児の手の届かない所に保管するよう指導すること。"@ja .
+pi:PI_15_1 pio:section pi:PI_15_1.item1 .
+pi:PI_15_1.item1 dct:description "アセトアミノフェンの類似化合物（フェナセチン）の長期投与により、血色素異常を起こすことがある。"@ja .
+pi:PI_15_1 pio:section pi:PI_15_1.item2 .
+pi:PI_15_1.item2 dct:description "腎盂及び膀胱腫瘍の患者を調査したところ、類似化合物（フェナセチン）製剤を長期・大量に使用（例：総服用量1.5～27kg、服用期間4～30年）していた人が多いとの報告がある。"@ja .
+pi:PI_15_1 pio:section pi:PI_15_1.item3 .
+pi:PI_15_1.item3 dct:description "非ステロイド性消炎鎮痛剤を長期投与されている女性において、一時的な不妊が認められたとの報告がある。"@ja .
+pi:PI_15_1 pio:section pi:PI_15_1.item4 .
+pi:PI_15_1.item4 dct:description "遺伝的にCYP2D6の活性が過剰であることが判明している患者（Ultra-rapid Metabolizer）では、トラマドールの活性代謝物の血中濃度が上昇し、呼吸抑制等の副作用が発現しやすくなるおそれがある。"@ja .
+pi:PI_15_2 pio:section pi:PI_15_2.item1 .
+pi:PI_15_2.item1 dct:description "類似化合物（フェナセチン）の長期・大量投与した動物実験で、腫瘍発生が認められたとの報告がある。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:title "単回投与"@ja .
+pi:PI_16_1.item1 dct:description "健康成人男性に本剤1～3錠 （トラマドール塩酸塩として37.5、75及び112.5mg、アセトアミノフェン（APAP）として325、650及び975mg）を単回経口投与したとき、投与量にかかわらず、トラマドール【（±）-TRAM】及びAPAPは速やかに吸収され、（±）-TRAM及びAPAPの血漿中濃度はそれぞれ投与後約1～2時間及び約1時間にC に達した後、それぞれ約5～5.5時間及び約3時間のt で低下した。両薬物の薬物動態は用量比例性を示した。また、（±）-TRAMは速やかに活性代謝物 -脱メチルトラマドール【（±）-M1】に代謝され、（±）-M1の血漿中濃度は投与後約2時間にC に達した後、約6.5時間のt で低下した。血漿中（±）-TRAM及び（±）-M1の各鏡像異性体【（+）-体及び（－）-体】の血漿中濃度推移及び薬物動態パラメータは類似していた 。"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.table1 .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row1 .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column1 .
+pi:PI_16_1.item1.table1.row1.column1 rdf:value "対象" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column2 .
+pi:PI_16_1.item1.table1.row1.column2 rdf:value "本剤" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column3 .
+pi:PI_16_1.item1.table1.row1.column3 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column4 .
+pi:PI_16_1.item1.table1.row1.column4 rdf:value "t （h）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column5 .
+pi:PI_16_1.item1.table1.row1.column5 rdf:value "AUC （ng・h/mL）" .
+pi:PI_16_1.item1.table1.row1 pio:column pi:PI_16_1.item1.table1.row1.column6 .
+pi:PI_16_1.item1.table1.row1.column6 rdf:value "t （h）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row2 .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column1 .
+pi:PI_16_1.item1.table1.row2.column1 rdf:value "（±）- TRAM" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column2 .
+pi:PI_16_1.item1.table1.row2.column2 rdf:value "1錠" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column3 .
+pi:PI_16_1.item1.table1.row2.column3 rdf:value "119.8 （34.3）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column4 .
+pi:PI_16_1.item1.table1.row2.column4 rdf:value "1.8 （0.5~3.0）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column5 .
+pi:PI_16_1.item1.table1.row2.column5 rdf:value "938.2 （360.7）" .
+pi:PI_16_1.item1.table1.row2 pio:column pi:PI_16_1.item1.table1.row2.column6 .
+pi:PI_16_1.item1.table1.row2.column6 rdf:value "5.1 （0.8）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row3 .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column1 .
+pi:PI_16_1.item1.table1.row3.column1 rdf:value "（±）- TRAM" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column2 .
+pi:PI_16_1.item1.table1.row3.column2 rdf:value "2錠" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column3 .
+pi:PI_16_1.item1.table1.row3.column3 rdf:value "263.8 （45.6）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column4 .
+pi:PI_16_1.item1.table1.row3.column4 rdf:value "1.0 （0.5~1.5）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column5 .
+pi:PI_16_1.item1.table1.row3.column5 rdf:value "2004.3 （580.5）" .
+pi:PI_16_1.item1.table1.row3 pio:column pi:PI_16_1.item1.table1.row3.column6 .
+pi:PI_16_1.item1.table1.row3.column6 rdf:value "5.6 （1.0）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row4 .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column1 .
+pi:PI_16_1.item1.table1.row4.column1 rdf:value "（±）- TRAM" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column2 .
+pi:PI_16_1.item1.table1.row4.column2 rdf:value "3錠" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column3 .
+pi:PI_16_1.item1.table1.row4.column3 rdf:value "424.5 （146.1）" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column4 .
+pi:PI_16_1.item1.table1.row4.column4 rdf:value "1.3 （1.0~3.0）" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column5 .
+pi:PI_16_1.item1.table1.row4.column5 rdf:value "3274.3 （1070.4）" .
+pi:PI_16_1.item1.table1.row4 pio:column pi:PI_16_1.item1.table1.row4.column6 .
+pi:PI_16_1.item1.table1.row4.column6 rdf:value "5.6 （1.1）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row5 .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column1 .
+pi:PI_16_1.item1.table1.row5.column1 rdf:value "（±）- M1" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column2 .
+pi:PI_16_1.item1.table1.row5.column2 rdf:value "1錠" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column3 .
+pi:PI_16_1.item1.table1.row5.column3 rdf:value "34.2 （10.6）" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column4 .
+pi:PI_16_1.item1.table1.row5.column4 rdf:value "1.8 （0.5~3.0）" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column5 .
+pi:PI_16_1.item1.table1.row5.column5 rdf:value "359.4 （63.7）" .
+pi:PI_16_1.item1.table1.row5 pio:column pi:PI_16_1.item1.table1.row5.column6 .
+pi:PI_16_1.item1.table1.row5.column6 rdf:value "6.4 （0.9）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row6 .
+pi:PI_16_1.item1.table1.row6 pio:column pi:PI_16_1.item1.table1.row6.column1 .
+pi:PI_16_1.item1.table1.row6.column1 rdf:value "（±）- M1" .
+pi:PI_16_1.item1.table1.row6 pio:column pi:PI_16_1.item1.table1.row6.column2 .
+pi:PI_16_1.item1.table1.row6.column2 rdf:value "2錠" .
+pi:PI_16_1.item1.table1.row6 pio:column pi:PI_16_1.item1.table1.row6.column3 .
+pi:PI_16_1.item1.table1.row6.column3 rdf:value "65.6 （24.4）" .
+pi:PI_16_1.item1.table1.row6 pio:column pi:PI_16_1.item1.table1.row6.column4 .
+pi:PI_16_1.item1.table1.row6.column4 rdf:value "1.8 （1.0~4.0）" .
+pi:PI_16_1.item1.table1.row6 pio:column pi:PI_16_1.item1.table1.row6.column5 .
+pi:PI_16_1.item1.table1.row6.column5 rdf:value "680.9 （142.2）" .
+pi:PI_16_1.item1.table1.row6 pio:column pi:PI_16_1.item1.table1.row6.column6 .
+pi:PI_16_1.item1.table1.row6.column6 rdf:value "6.3 （0.9）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row7 .
+pi:PI_16_1.item1.table1.row7 pio:column pi:PI_16_1.item1.table1.row7.column1 .
+pi:PI_16_1.item1.table1.row7.column1 rdf:value "（±）- M1" .
+pi:PI_16_1.item1.table1.row7 pio:column pi:PI_16_1.item1.table1.row7.column2 .
+pi:PI_16_1.item1.table1.row7.column2 rdf:value "3錠" .
+pi:PI_16_1.item1.table1.row7 pio:column pi:PI_16_1.item1.table1.row7.column3 .
+pi:PI_16_1.item1.table1.row7.column3 rdf:value "95.7 （26.3）" .
+pi:PI_16_1.item1.table1.row7 pio:column pi:PI_16_1.item1.table1.row7.column4 .
+pi:PI_16_1.item1.table1.row7.column4 rdf:value "1.8 （1.0~3.0）" .
+pi:PI_16_1.item1.table1.row7 pio:column pi:PI_16_1.item1.table1.row7.column5 .
+pi:PI_16_1.item1.table1.row7.column5 rdf:value "1083.8 （224.3）" .
+pi:PI_16_1.item1.table1.row7 pio:column pi:PI_16_1.item1.table1.row7.column6 .
+pi:PI_16_1.item1.table1.row7.column6 rdf:value "6.3 （0.9）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row8 .
+pi:PI_16_1.item1.table1.row8 pio:column pi:PI_16_1.item1.table1.row8.column1 .
+pi:PI_16_1.item1.table1.row8.column1 rdf:value "APAP" .
+pi:PI_16_1.item1.table1.row8 pio:column pi:PI_16_1.item1.table1.row8.column2 .
+pi:PI_16_1.item1.table1.row8.column2 rdf:value "1錠" .
+pi:PI_16_1.item1.table1.row8 pio:column pi:PI_16_1.item1.table1.row8.column3 .
+pi:PI_16_1.item1.table1.row8.column3 rdf:value "5.0 （2.0）" .
+pi:PI_16_1.item1.table1.row8 pio:column pi:PI_16_1.item1.table1.row8.column4 .
+pi:PI_16_1.item1.table1.row8.column4 rdf:value "0.8 （0.5~1.5）" .
+pi:PI_16_1.item1.table1.row8 pio:column pi:PI_16_1.item1.table1.row8.column5 .
+pi:PI_16_1.item1.table1.row8.column5 rdf:value "17.1 （4.8）" .
+pi:PI_16_1.item1.table1.row8 pio:column pi:PI_16_1.item1.table1.row8.column6 .
+pi:PI_16_1.item1.table1.row8.column6 rdf:value "2.8 （0.6）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row9 .
+pi:PI_16_1.item1.table1.row9 pio:column pi:PI_16_1.item1.table1.row9.column1 .
+pi:PI_16_1.item1.table1.row9.column1 rdf:value "APAP" .
+pi:PI_16_1.item1.table1.row9 pio:column pi:PI_16_1.item1.table1.row9.column2 .
+pi:PI_16_1.item1.table1.row9.column2 rdf:value "2錠" .
+pi:PI_16_1.item1.table1.row9 pio:column pi:PI_16_1.item1.table1.row9.column3 .
+pi:PI_16_1.item1.table1.row9.column3 rdf:value "9.2 （2.3）" .
+pi:PI_16_1.item1.table1.row9 pio:column pi:PI_16_1.item1.table1.row9.column4 .
+pi:PI_16_1.item1.table1.row9.column4 rdf:value "1.0 （0.5~1.5）" .
+pi:PI_16_1.item1.table1.row9 pio:column pi:PI_16_1.item1.table1.row9.column5 .
+pi:PI_16_1.item1.table1.row9.column5 rdf:value "38.9 （12.4）" .
+pi:PI_16_1.item1.table1.row9 pio:column pi:PI_16_1.item1.table1.row9.column6 .
+pi:PI_16_1.item1.table1.row9.column6 rdf:value "3.3 （0.9）" .
+pi:PI_16_1.item1.table1 pio:row pi:PI_16_1.item1.table1.row10 .
+pi:PI_16_1.item1.table1.row10 pio:column pi:PI_16_1.item1.table1.row10.column1 .
+pi:PI_16_1.item1.table1.row10.column1 rdf:value "APAP" .
+pi:PI_16_1.item1.table1.row10 pio:column pi:PI_16_1.item1.table1.row10.column2 .
+pi:PI_16_1.item1.table1.row10.column2 rdf:value "3錠" .
+pi:PI_16_1.item1.table1.row10 pio:column pi:PI_16_1.item1.table1.row10.column3 .
+pi:PI_16_1.item1.table1.row10.column3 rdf:value "15.1 （4.3）" .
+pi:PI_16_1.item1.table1.row10 pio:column pi:PI_16_1.item1.table1.row10.column4 .
+pi:PI_16_1.item1.table1.row10.column4 rdf:value "0.8 （0.5~1.5）" .
+pi:PI_16_1.item1.table1.row10 pio:column pi:PI_16_1.item1.table1.row10.column5 .
+pi:PI_16_1.item1.table1.row10.column5 rdf:value "62.3 （18.1）" .
+pi:PI_16_1.item1.table1.row10 pio:column pi:PI_16_1.item1.table1.row10.column6 .
+pi:PI_16_1.item1.table1.row10.column6 rdf:value "3.3 （1.0）" .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 rdfs:title "反復投与"@ja .
+pi:PI_16_1.item2 dct:description "健康成人男性に本剤1回1又は2錠（トラマドール塩酸塩として37.5又は75mg、APAPとして325又は650mg）を1日4回（6時間ごと）反復経口投与（本剤1錠：5日間、本剤2錠：3日間）したとき、血漿中（±）-TRAM及び（±）-M1濃度は反復経口投与開始後48時間までに、また血漿中APAP濃度は反復経口投与開始後24時間までに定常状態に達しており、蓄積性は認められなかった 。"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item2.table1 .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row1 .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column1 .
+pi:PI_16_1.item2.table1.row1.column1 rdf:value "対象" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column2 .
+pi:PI_16_1.item2.table1.row1.column2 rdf:value "本剤" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column3 .
+pi:PI_16_1.item2.table1.row1.column3 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column4 .
+pi:PI_16_1.item2.table1.row1.column4 rdf:value "t （h）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column5 .
+pi:PI_16_1.item2.table1.row1.column5 rdf:value "AUC （ng・h/mL）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column6 .
+pi:PI_16_1.item2.table1.row1.column6 rdf:value "R" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column7 .
+pi:PI_16_1.item2.table1.row1.column7 rdf:value "t （h）" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row2 .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column1 .
+pi:PI_16_1.item2.table1.row2.column1 rdf:value "（±）- TRAM" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column2 .
+pi:PI_16_1.item2.table1.row2.column2 rdf:value "1錠" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column3 .
+pi:PI_16_1.item2.table1.row2.column3 rdf:value "290.6 （72.9）" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column4 .
+pi:PI_16_1.item2.table1.row2.column4 rdf:value "1.0 （0.5~1.5）" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column5 .
+pi:PI_16_1.item2.table1.row2.column5 rdf:value "1141.2 （265.8）" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column6 .
+pi:PI_16_1.item2.table1.row2.column6 rdf:value "1.3 （0.5）" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column7 .
+pi:PI_16_1.item2.table1.row2.column7 rdf:value "6.6 （1.0）" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row3 .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column1 .
+pi:PI_16_1.item2.table1.row3.column1 rdf:value "（±）- TRAM" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column2 .
+pi:PI_16_1.item2.table1.row3.column2 rdf:value "2錠" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column3 .
+pi:PI_16_1.item2.table1.row3.column3 rdf:value "542.6 （114.4）" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column4 .
+pi:PI_16_1.item2.table1.row3.column4 rdf:value "1.3 （1.0~2.0）" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column5 .
+pi:PI_16_1.item2.table1.row3.column5 rdf:value "2355.8 （533.3）" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column6 .
+pi:PI_16_1.item2.table1.row3.column6 rdf:value "1.3 （0.3）" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column7 .
+pi:PI_16_1.item2.table1.row3.column7 rdf:value "6.5 （0.6）" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row4 .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column1 .
+pi:PI_16_1.item2.table1.row4.column1 rdf:value "（±）- M1" .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column2 .
+pi:PI_16_1.item2.table1.row4.column2 rdf:value "1錠" .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column3 .
+pi:PI_16_1.item2.table1.row4.column3 rdf:value "78.5 （18.7）" .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column4 .
+pi:PI_16_1.item2.table1.row4.column4 rdf:value "1.3 （0.5~6.0）" .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column5 .
+pi:PI_16_1.item2.table1.row4.column5 rdf:value "325.2 （88.0）" .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column6 .
+pi:PI_16_1.item2.table1.row4.column6 rdf:value "0.9 （0.1）" .
+pi:PI_16_1.item2.table1.row4 pio:column pi:PI_16_1.item2.table1.row4.column7 .
+pi:PI_16_1.item2.table1.row4.column7 rdf:value "7.4 （1.4）" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row5 .
+pi:PI_16_1.item2.table1.row5 pio:column pi:PI_16_1.item2.table1.row5.column1 .
+pi:PI_16_1.item2.table1.row5.column1 rdf:value "（±）- M1" .
+pi:PI_16_1.item2.table1.row5 pio:column pi:PI_16_1.item2.table1.row5.column2 .
+pi:PI_16_1.item2.table1.row5.column2 rdf:value "2錠" .
+pi:PI_16_1.item2.table1.row5 pio:column pi:PI_16_1.item2.table1.row5.column3 .
+pi:PI_16_1.item2.table1.row5.column3 rdf:value "142.0 （29.3）" .
+pi:PI_16_1.item2.table1.row5 pio:column pi:PI_16_1.item2.table1.row5.column4 .
+pi:PI_16_1.item2.table1.row5.column4 rdf:value "1.3 （0.5~2.0）" .
+pi:PI_16_1.item2.table1.row5 pio:column pi:PI_16_1.item2.table1.row5.column5 .
+pi:PI_16_1.item2.table1.row5.column5 rdf:value "666.6 （103.8）" .
+pi:PI_16_1.item2.table1.row5 pio:column pi:PI_16_1.item2.table1.row5.column6 .
+pi:PI_16_1.item2.table1.row5.column6 rdf:value "0.9 （0.2）" .
+pi:PI_16_1.item2.table1.row5 pio:column pi:PI_16_1.item2.table1.row5.column7 .
+pi:PI_16_1.item2.table1.row5.column7 rdf:value "6.7 （0.9）" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row6 .
+pi:PI_16_1.item2.table1.row6 pio:column pi:PI_16_1.item2.table1.row6.column1 .
+pi:PI_16_1.item2.table1.row6.column1 rdf:value "APAP" .
+pi:PI_16_1.item2.table1.row6 pio:column pi:PI_16_1.item2.table1.row6.column2 .
+pi:PI_16_1.item2.table1.row6.column2 rdf:value "1錠" .
+pi:PI_16_1.item2.table1.row6 pio:column pi:PI_16_1.item2.table1.row6.column3 .
+pi:PI_16_1.item2.table1.row6.column3 rdf:value "6.7 （1.6）" .
+pi:PI_16_1.item2.table1.row6 pio:column pi:PI_16_1.item2.table1.row6.column4 .
+pi:PI_16_1.item2.table1.row6.column4 rdf:value " 0.5 （0.5~1.0）" .
+pi:PI_16_1.item2.table1.row6 pio:column pi:PI_16_1.item2.table1.row6.column5 .
+pi:PI_16_1.item2.table1.row6.column5 rdf:value "17.4 （2.8）" .
+pi:PI_16_1.item2.table1.row6 pio:column pi:PI_16_1.item2.table1.row6.column6 .
+pi:PI_16_1.item2.table1.row6.column6 rdf:value "1.0 （0.1）" .
+pi:PI_16_1.item2.table1.row6 pio:column pi:PI_16_1.item2.table1.row6.column7 .
+pi:PI_16_1.item2.table1.row6.column7 rdf:value "4.3 （2.7）" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row7 .
+pi:PI_16_1.item2.table1.row7 pio:column pi:PI_16_1.item2.table1.row7.column1 .
+pi:PI_16_1.item2.table1.row7.column1 rdf:value "APAP" .
+pi:PI_16_1.item2.table1.row7 pio:column pi:PI_16_1.item2.table1.row7.column2 .
+pi:PI_16_1.item2.table1.row7.column2 rdf:value "2錠" .
+pi:PI_16_1.item2.table1.row7 pio:column pi:PI_16_1.item2.table1.row7.column3 .
+pi:PI_16_1.item2.table1.row7.column3 rdf:value "11.0 （2.9）" .
+pi:PI_16_1.item2.table1.row7 pio:column pi:PI_16_1.item2.table1.row7.column4 .
+pi:PI_16_1.item2.table1.row7.column4 rdf:value "0.8 （0.5~1.5）" .
+pi:PI_16_1.item2.table1.row7 pio:column pi:PI_16_1.item2.table1.row7.column5 .
+pi:PI_16_1.item2.table1.row7.column5 rdf:value "30.4 （4.9）" .
+pi:PI_16_1.item2.table1.row7 pio:column pi:PI_16_1.item2.table1.row7.column6 .
+pi:PI_16_1.item2.table1.row7.column6 rdf:value "0.9 （0.1）" .
+pi:PI_16_1.item2.table1.row7 pio:column pi:PI_16_1.item2.table1.row7.column7 .
+pi:PI_16_1.item2.table1.row7.column7 rdf:value "3.3 （1.1）" .
+pi:PI_16_1 pio:section pi:PI_16_1.item3 .
+pi:PI_16_1.item3 rdfs:title "配合による影響"@ja .
+pi:PI_16_1.item3 dct:description "健康成人男性に本剤2錠（トラマドール塩酸塩として75mg、APAPとして650mg）、トラマドール塩酸塩2カプセル（75mg）又はAPAP 2カプセル（650mg）をそれぞれ単回経口投与したとき、本剤を投与したときの（±）-TRAM、（±）-M1及びAPAPの薬物動態パラメータは、トラマドール塩酸塩及びAPAPをそれぞれ単独で投与したときと同様の値を示し、（±）-TRAM、（±）-M1及びAPAPの薬物動態にトラマドール塩酸塩及びAPAPの配合による影響は認められなかった 。"@ja .
+pi:PI_16_2 pio:section pi:PI_16_2.item1 .
+pi:PI_16_2.item1 rdfs:title "食事による影響"@ja .
+pi:PI_16_2.item1 dct:description "健康成人に本剤3錠 （トラマドール塩酸塩として112.5mg、APAPとして975mg）を高脂肪食後及び空腹時にそれぞれ単回経口投与したとき、（±）-TRAM、（±）-M1及びAPAPの薬物動態に食事による顕著な影響は認められなかった （外国人データ）。"@ja .
+pi:PI_16_3 dct:description "ヒト血漿蛋白結合率：（±）-TRAM（0.2～10µg/mL）及びAPAP（280µg/mL）約20％（ ）"@ja .
+pi:PI_16_4 dct:description "（±）-TRAMは主に肝臓でCYP2D6により活性代謝物（±）-M1に代謝される。また、その他の主な代謝経路は、肝臓でのCYP3A4による -脱メチル化、グルクロン酸抱合及び硫酸抱合である。APAPの主な代謝経路は、肝臓でのグルクロン酸抱合、硫酸抱合並びにCYP1A2、CYP2E1及びCYP3A4による -アセチル- -ベンゾキノンイミンへの酸化及びそのグルタチオン抱合である 。"@ja .
+pi:PI_16_5 dct:description "健康成人男性に本剤1～3錠 を単回経口投与及び本剤1回1又は2錠を1日4回（6時間ごと）反復経口投与したとき、（±）-TRAM、（±）-M1及びAPAPの累積尿中排泄率（単回：投与後48時間、反復：最終投与後48時間）は、それぞれ投与量の18.2～20.3％、9.4～14.8％及び2.5～3.3％であり、投与量及び反復投与による影響は認められなかった 。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item1 .
+pi:PI_16_6.item1 rdfs:title "肝機能障害"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item1.item1 .
+pi:PI_16_6.item1 rdfs:title "トラマドール"@ja .
+pi:PI_16_6.item1 dct:description "肝硬変患者12例にトラマドール塩酸塩カプセル50mgを経口投与したとき、健康成人と比較して血清中トラマドールのC 及びAUC は顕著に増加し、t は約2.6倍に延長した（外国人データ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item1.item2 .
+pi:PI_16_6.item1 rdfs:title "アセトアミノフェン"@ja .
+pi:PI_16_6.item1 dct:description "肝機能障害患者（軽度～中等度：9例、高度：5例）にアセトアミノフェン1000mgを経口投与したとき、健康成人と比較して血漿中アセトアミノフェンのAUC は約1.7倍増加し、t は約2時間延長した （外国人データ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item2 .
+pi:PI_16_6.item2 rdfs:title "腎機能障害"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item2.item1 .
+pi:PI_16_6.item2 rdfs:title "トラマドール"@ja .
+pi:PI_16_6.item2 dct:description "腎機能障害患者（クレアチニンクリアランス：80mL/min以下）21例にトラマドール塩酸塩100mgを静脈内投与したとき、血清中トラマドールのt 及びAUC は健康成人のそれぞれ最大で1.5倍及び2倍であった（外国人データ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item2.item2 .
+pi:PI_16_6.item2 rdfs:title "アセトアミノフェン"@ja .
+pi:PI_16_6.item2 dct:description "腎機能障害患者（クレアチニンクリアランス：30mL/min以下）13例にアセトアミノフェン1000mgを経口投与したとき、投与8～24時間後の血漿中アセトアミノフェンのt は健康成人（4.9時間）と比較して11.7時間に延長し、AUC も約1.9倍増加した （外国人データ）。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:label "〈非がん性慢性疼痛〉"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:label "〈抜歯後の疼痛〉"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 pio:section pi:PI_18_1.item1 .
+pi:PI_18_1.item1 rdfs:title "トラマドール"@ja .
+pi:PI_18_1.item1 dct:description "ラット脳を用いた 試験の結果から、トラマドールは中枢神経系で作用し、トラマドール及び活性代謝物M1のμ-オピオイド受容体への結合、並びにトラマドールによるノルアドレナリン及びセロトニンの再取り込み阻害作用が、鎮痛作用に関与すると考えられる 。"@ja .
+pi:PI_18_1 pio:section pi:PI_18_1.item2 .
+pi:PI_18_1.item2 rdfs:title "アセトアミノフェン"@ja .
+pi:PI_18_1.item2 dct:description "ラットを用いた 試験の結果から、アセトアミノフェンは主に中枢神経系で作用し、 -メチル-D-アスパラギン酸受容体及びサブスタンスP受容体を介した一酸化窒素経路の阻害作用、脊髄のセロトニン受容体を介した間接的な作用などが、鎮痛作用に関与すると考えられる 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "鎮痛作用"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item1 .
+pi:PI_18.item1.item1 dct:desctiption "マウスのアセチルコリン誘発ライジングにおいて、トラマドール塩酸塩とアセトアミノフェンの併用経口投与は、アイソボログラムによる解析の結果、相乗的にライジング反応を抑制することが示唆された 。ただし、ヒトにおいては本剤の相乗的な鎮痛作用は確認されていない。"@ja .
+pi:PI_18.item1 pio:section pi:PI_18.item1.item2 .
+pi:PI_18.item1.item2 dct:desctiption "アジュバント関節炎ラットにおいて、トラマドール塩酸塩（10mg/kg）とアセトアミノフェン（86.7mg/kg）の併用経口投与では、同用量の各薬物単独投与に比べて、温熱性及び機械刺激性痛覚過敏、並びに機械刺激性アロディニアを強く抑制した 。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:physchem_of_act_ingredients_section_title "〈トラマドール塩酸塩〉" .
+pi:PI_19 pio:general_name "トラマドール塩酸塩（Tramadol Hydrochloride）" .
+pi:PI_19 pio:chemical_name "（1 ,2 ）-2-[（Dimethylamino）methyl]-1-（3-methoxyphenyl）cyclohexanol monohydrochloride" .
+pi:PI_19 pio:molecular_formula "C H NO ・HCl" .
+pi:PI_19 pio:molecular_weight "299.84" .
+pi:PI_19 pio:description_of_active_ingredients "白色の結晶性の粉末である。" .
+pi:PI_19 pio:melting_point "180～184℃" .
+pi:PI_22.item0 dct:description "100錠［10錠（PTP）×10］ 500錠［10錠（PTP）×50］ 500錠［ボトル、バラ］"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "社内資料：トラムセット配合錠の国内第Ⅰ臨床試験（2011年4月22日承認、CTD2.7.6.3）" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "社内資料：トラムセット配合錠の海外第Ⅰ相臨床試験（2011年4月22日承認、CTD2.7.6.2）" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "社内資料：トラマドールの蛋白結合率の検討（2011年4月22日承認、CTD2.7.2.2.1）" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "Gazzard BG, et al.：J Pharm Pharmacol. 1973；25：964-967" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "社内資料：トラマドールの代謝の検討（2011年4月22日承認、CTD2.7.2.2.1）" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "社内資料：トラマドールの代謝酵素の検討（2011年4月22日承認、CTD2.7.2.2.1）" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "Thummel KE, et al.：Biochem Pharmacol. 1993；45：1563-1569" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "Raucy JL, et al.：Arch Biochem Biophys. 1989；271：270-283" .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "Goodman &amp; Gilman's the pharmacological basis of therapeutics. 11th ed., The McGraw-Hill Companies, 2006；693-695" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "Zapater P, et al.：Ailment Pharmacol Ther. 2004；20：29-36" .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "Prescott LF, et al.：Eur J Clin Pharmacol. 1989；36：291-297" .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "社内資料：トラムセット配合錠の国内第Ⅲ相試験（2011年4月22日承認、CTD2.7.6.6）" .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "社内資料：トラムセット配合錠の国内第Ⅲ相試験（2011年4月22日承認、CTD2.7.6.17）" .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "社内資料：トラムセット配合錠の国内第Ⅱ/Ⅲ相試験（2011年4月22日承認、CTD2.7.6.19）" .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "Raffa RB, et al.：J Pharmacol Exp Ther. 1992；260：275-285" .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "Raffa RB：Am J Med. 1996；101（suppl 1A）：40S-46S" .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "Björkman R, et al.：Pain. 1994；57：259-264" .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "Pelissier T, et al.：J Pharmacol Exp Ther. 1996；278：8-14" .
+pi:PI_23.item18 pio:id "DOC_18" .
+pi:PI_23 dct:references pi:PI_23.item19 .
+pi:PI_23.item19 a bibo:Document .
+pi:PI_23.item19 rdfs:label "Tallarida RJ, et al.：Life Sciences. 1996；58：PL-23-PL-28" .
+pi:PI_23.item19 pio:id "DOC_19" .
+pi:PI_23 dct:references pi:PI_23.item20 .
+pi:PI_23.item20 a bibo:Document .
+pi:PI_23.item20 rdfs:label "社内資料：アジュバント関節炎ラットにおけるトラマドール塩酸塩及びアセトアミノフェン併用投与による鎮痛作用（2011年4月22日承認、CTD2.6.2.2.3.2）" .
+pi:PI_23.item20 pio:id "DOC_20" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "持田製薬株式会社　くすり相談窓口"@ja .
+pi:PI_24.item1 pio:address "〒160-8515  東京都新宿区四谷1丁目7番地"@ja .
+pi:PI_24.item1 pio:contact_information "電話 03-5229-3906　0120-189-522 FAX 03-5229-3955"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "ヤンセンファーマ株式会社"@ja .
+pi:PI_26.item1 pio:address "〒101-0065  東京都千代田区西神田3-5-2"@ja .
+pi:PI_26 pio:section pi:PI_26.item2 .
+pi:PI_26.item2 pio:type_of_industry "販売"@ja .
+pi:PI_26.item2 pio:name "持田製薬株式会社"@ja .
+pi:PI_26.item2 pio:address "〒160-8515  東京都新宿区四谷1丁目7番地"@ja .

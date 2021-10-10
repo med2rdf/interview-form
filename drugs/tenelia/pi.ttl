@@ -1,0 +1,1032 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/400315_3969015F3021_1_02#> .
+
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_0 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_1 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_2 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_3 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_3_1 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_3_2 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_4 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_5 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_6 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_7 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_8 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_9 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_9_1 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_9_2 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_9_3 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_9_4 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_9_5 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_9_6 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_9_7 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_9_8 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_10 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_10_1 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_10_2 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_11 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_11_1 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_11_2 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_12 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_13 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_14 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_15 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_15_1 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_15_2 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_16 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_16_1 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_16_2 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_16_3 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_16_4 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_16_5 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_16_6 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_16_7 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_16_8 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_17 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_17_1 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_17_2 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_17_3 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_18 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_18_1 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_19 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_20 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_21 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_22 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_23 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_24 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_25 .
+pi_root:400315_3969015F3021_1_02 pio:section pi:PI_26 .
+pi_root:400315_3969015F3021_1_02 dct:identifier "400315_3969015F3021_1_02" .
+pi_root:400315_3969015F3021_1_02 pio:company_identifier "400315" .
+pi_root:400315_3969015F3021_1_02 pio:date_of_preparation_or_revision "2021-07"^^xsd:date .
+pi_root:400315_3969015F3021_1_02 pio:version "第4版" .
+pi_root:400315_3969015F3021_1_02 pio:sccj_no "873969" .
+pi_root:400315_3969015F3021_1_02 pio:therapeutic_classification "選択的DPP-4阻害剤" .
+pi_root:400315_3969015F3021_1_02 pio:approval_brand_name "テネリアOD錠20mg" .
+pi_root:400315_3969015F3021_1_02 pio:yj_code "3969015F3021" .
+pi_root:400315_3969015F3021_1_02 pio:trademark_name "TENELIA OD TABLETS" .
+pi_root:400315_3969015F3021_1_02 pio:name_in_hiragana "てねりあODじょう" .
+pi_root:400315_3969015F3021_1_02 pio:approval_no "30300AMX00034" .
+pi_root:400315_3969015F3021_1_02 pio:starting_date_of_marketing "2021-06"^^xsd:date .
+pi_root:400315_3969015F3021_1_02 pio:storage_method "室温保存" .
+pi_root:400315_3969015F3021_1_02 pio:shelf_life "30ヵ月" .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "重症ケトーシス、糖尿病性昏睡又は前昏睡、1型糖尿病の患者［輸液及びインスリンによる速やかな高血糖の是正が必須となるので本剤の投与は適さない。］"@ja .
+pi:PI_2 pio:section pi:PI_2.item3 .
+pi:PI_2.item3 dct:description "重症感染症、手術前後、重篤な外傷のある患者［インスリン注射による血糖管理が望まれるので本剤の投与は適さない。］"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "（1錠中） テネリグリプチン臭化水素酸塩水和物"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "31mg"@ja .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item1.active_ingredient_additional_info .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:active_ingredient_name "テネリグリプチンとして"@ja .
+pi:PI_3_1.item1.active_ingredient_additional_info pio:value_and_unit "20mg"@ja .
+pi:PI_3_1.item1 pio:additives "軽質無水ケイ酸、ポリビニルアルコール（部分けん化物）、エチルセルロース、セタノール、ラウリル硫酸ナトリウム、クエン酸トリエチル、D-マンニトール、低置換度ヒドロキシプロピルセルロース、ポリビニルアルコール（完全けん化物）、クロスカルメロースナトリウム、フマル酸ステアリルナトリウム、スクラロース、香料、黄色三二酸化鉄、トコフェロール"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "軽質無水ケイ酸"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "ポリビニルアルコール（部分けん化物）"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "エチルセルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "セタノール"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "ラウリル硫酸ナトリウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
+pi:PI_3_1.item1.additive6 pio:additive "クエン酸トリエチル"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive7 .
+pi:PI_3_1.item1.additive7 pio:additive "D-マンニトール"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive8 .
+pi:PI_3_1.item1.additive8 pio:additive "低置換度ヒドロキシプロピルセルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive9 .
+pi:PI_3_1.item1.additive9 pio:additive "ポリビニルアルコール（完全けん化物）"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive10 .
+pi:PI_3_1.item1.additive10 pio:additive "クロスカルメロースナトリウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive11 .
+pi:PI_3_1.item1.additive11 pio:additive "フマル酸ステアリルナトリウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive12 .
+pi:PI_3_1.item1.additive12 pio:additive "スクラロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive13 .
+pi:PI_3_1.item1.additive13 pio:additive "香料"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive14 .
+pi:PI_3_1.item1.additive14 pio:additive "黄色三二酸化鉄"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive15 .
+pi:PI_3_1.item1.additive15 pio:additive "トコフェロール"@ja .
+pi:PI_3_1.item2 pio:contained_amount pi:PI_3_1.item2.contained_amount .
+pi:PI_3_1.item2.contained_amount pio:active_ingredient_name "（1錠中） テネリグリプチン臭化水素酸塩水和物"@ja .
+pi:PI_3_1.item2.contained_amount pio:value_and_unit "62mg"@ja .
+pi:PI_3_1.item2.contained_amount pio:active_ingredient_additional_info pi:PI_3_1.item2.active_ingredient_additional_info .
+pi:PI_3_1.item2.active_ingredient_additional_info pio:active_ingredient_name "テネリグリプチンとして"@ja .
+pi:PI_3_1.item2.active_ingredient_additional_info pio:value_and_unit "40mg"@ja .
+pi:PI_3_1.item2 pio:additives "軽質無水ケイ酸、ポリビニルアルコール（部分けん化物）、エチルセルロース、セタノール、ラウリル硫酸ナトリウム、クエン酸トリエチル、D-マンニトール、低置換度ヒドロキシプロピルセルロース、ポリビニルアルコール（完全けん化物）、クロスカルメロースナトリウム、フマル酸ステアリルナトリウム、スクラロース、香料、黄色三二酸化鉄、トコフェロール"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive1 .
+pi:PI_3_1.item2.additive1 pio:additive "軽質無水ケイ酸"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive2 .
+pi:PI_3_1.item2.additive2 pio:additive "ポリビニルアルコール（部分けん化物）"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive3 .
+pi:PI_3_1.item2.additive3 pio:additive "エチルセルロース"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive4 .
+pi:PI_3_1.item2.additive4 pio:additive "セタノール"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive5 .
+pi:PI_3_1.item2.additive5 pio:additive "ラウリル硫酸ナトリウム"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive6 .
+pi:PI_3_1.item2.additive6 pio:additive "クエン酸トリエチル"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive7 .
+pi:PI_3_1.item2.additive7 pio:additive "D-マンニトール"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive8 .
+pi:PI_3_1.item2.additive8 pio:additive "低置換度ヒドロキシプロピルセルロース"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive9 .
+pi:PI_3_1.item2.additive9 pio:additive "ポリビニルアルコール（完全けん化物）"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive10 .
+pi:PI_3_1.item2.additive10 pio:additive "クロスカルメロースナトリウム"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive11 .
+pi:PI_3_1.item2.additive11 pio:additive "フマル酸ステアリルナトリウム"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive12 .
+pi:PI_3_1.item2.additive12 pio:additive "スクラロース"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive13 .
+pi:PI_3_1.item2.additive13 pio:additive "香料"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive14 .
+pi:PI_3_1.item2.additive14 pio:additive "黄色三二酸化鉄"@ja .
+pi:PI_3_1.item2 pio:info_individual_additives pi:PI_3_1.item2.additive15 .
+pi:PI_3_1.item2.additive15 pio:additive "トコフェロール"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:formulation "素錠 （口腔内崩壊錠）" .
+pi:PI_3_2.item1 pio:color_tone "帯黄白色" .
+pi:PI_3_2.item1 pio:weight "140mg" .
+pi:PI_3_2.item1 pio:id_code "テネリアOD20" .
+pi:PI_3_2.item1 pio:shape_front "400315_3969015F3021_1_02_fig01.gif" .
+pi:PI_3_2.item1 pio:shape_back "400315_3969015F3021_1_02_fig02.gif" .
+pi:PI_3_2.item1 pio:shape_side "400315_3969015F3021_1_02_fig03.gif" .
+pi:PI_3_2.item1 pio:size_diameter "7.5mm" .
+pi:PI_3_2.item1 pio:size_thickness "3.1mm" .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item2 .
+pi:PI_3_2.item2 pio:formulation "素錠 （口腔内崩壊錠）" .
+pi:PI_3_2.item2 pio:color_tone "微黄色" .
+pi:PI_3_2.item2 pio:weight "280mg" .
+pi:PI_3_2.item2 pio:id_code "テネリアOD40" .
+pi:PI_3_2.item2 pio:shape_front "400315_3969015F3021_1_02_fig04.gif" .
+pi:PI_3_2.item2 pio:shape_back "400315_3969015F3021_1_02_fig05.gif" .
+pi:PI_3_2.item2 pio:shape_side "400315_3969015F3021_1_02_fig06.gif" .
+pi:PI_3_2.item2 pio:size_diameter "9.0mm" .
+pi:PI_3_2.item2 pio:size_thickness "4.4mm" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 dct:description "2型糖尿病"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 dct:description "本剤の適用はあらかじめ糖尿病治療の基本である食事療法、運動療法を十分に行ったうえで効果が不十分な場合に限り考慮すること。"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "通常、成人にはテネリグリプチンとして20mgを1日1回経口投与する。なお、効果不十分な場合には、経過を十分に観察しながら40mg1日1回に増量することができる。"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "本剤の使用にあたっては、患者に対し低血糖症状及びその対処方法について十分説明すること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "本剤投与中は、血糖を定期的に検査し、薬剤の効果を確かめ、本剤を3ヵ月投与しても効果が不十分な場合には他の治療法への変更を考慮すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item3 .
+pi:PI_8.item3 dct:description "低血糖症状を起こすことがあるので、高所作業、自動車の運転等に従事している患者に投与するときには注意すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item4 .
+pi:PI_8.item4 dct:description "本剤とGLP-1受容体作動薬はいずれもGLP-1受容体を介した血糖降下作用を有している。両剤を併用した際の臨床試験成績はなく、有効性及び安全性は確立されていない。"@ja .
+pi:PI_8 pio:section pi:PI_8.item5 .
+pi:PI_8.item5 dct:description "急性膵炎があらわれることがあるので、持続的な激しい腹痛、嘔吐等の初期症状があらわれた場合には、速やかに医師の診察を受けるよう患者に指導すること。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item1 .
+pi:PI_9_1.item1 rdfs:title "心不全（NYHA分類Ⅲ～Ⅳ）のある患者"@ja .
+pi:PI_9_1.item1 dct:description "使用経験がなく、安全性が確立していない。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item2 .
+pi:PI_9_1.item2 rdfs:title "次に掲げる患者又は状態"@ja .
+pi:PI_9_1.item2 dct:description "低血糖を起こすおそれがある。"@ja .
+pi:PI_9_1.item2 dct:description "               ,"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item3 .
+pi:PI_9_1.item3 rdfs:title "腹部手術の既往又は腸閉塞の既往のある患者"@ja .
+pi:PI_9_1.item3 dct:description "腸閉塞を起こすおそれがある。"@ja .
+pi:PI_9_1 pio:section pi:PI_9_1.item4 .
+pi:PI_9_1.item4 rdfs:title "QT延長を起こしやすい患者（先天性QT延長症候群等QT延長の既往歴又はTorsades de pointesの既往歴のある患者、重度の徐脈等の不整脈又はその既往歴のある患者、うっ血性心不全等の心疾患のある患者、低カリウム血症の患者等）"@ja .
+pi:PI_9_1.item4 dct:description "QT延長を起こすおそれがある。海外臨床試験において本剤160mgを1日1回投与したときにQT延長が報告されている。 本剤の承認用量は通常、20mg/日であり、最大用量は40mg/日である。"@ja .
+pi:PI_9_3 pio:section pi:PI_9_3.item1 .
+pi:PI_9_3.item1 rdfs:title "高度の肝機能障害のある患者"@ja .
+pi:PI_9_3.item1 dct:description "これらの患者（Child-Pugh分類で合計スコア9超）を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には、治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。動物実験（ラット）で胎児への移行が報告されている。"@ja .
+pi:PI_9_6 dct:description "治療上の有益性及び母乳栄養の有益性を考慮し、授乳の継続又は中止を検討すること。動物実験（ラット）で乳汁中への移行が報告されている。"@ja .
+pi:PI_9_7 dct:description "小児等を対象とした臨床試験は実施していない。"@ja .
+pi:PI_9_8 dct:description "患者の状態を観察しながら投与すること。一般に生理機能が低下していることが多い。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2 pio:drug pi:PI_10_2.item1 .
+pi:PI_10_2.item1 a pio:PrecautionsForCombi .
+pi:PI_10_2.item1 pio:drug_name "スルホニルウレア系薬剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "速効型インスリン分泌促進剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "α-グルコシダーゼ阻害剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "ビグアナイド系薬剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "チアゾリジン系薬剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "GLP-1受容体作動薬"@ja .
+pi:PI_10_2.item1 pio:drug_name "SGLT2阻害剤"@ja .
+pi:PI_10_2.item1 pio:drug_name "インスリン製剤等"@ja .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "低血糖症状が起こるおそれがあるので、患者の状態を十分観察しながら投与すること。特に、スルホニルウレア系薬剤又はインスリン製剤と併用する場合、低血糖のリスクが増加するため、これらの薬剤の減量を検討すること。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "血糖降下作用が増強される。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item2 .
+pi:PI_10_2.item2 a pio:PrecautionsForCombi .
+pi:PI_10_2.item2 pio:drug_name "β-遮断剤"@ja .
+pi:PI_10_2.item2 pio:drug_name "サリチル酸剤"@ja .
+pi:PI_10_2.item2 pio:drug_name "モノアミン酸化酵素阻害剤等"@ja .
+pi:PI_10_2.item2 pio:clin_symptoms_and_measures "更に血糖が低下する可能性があるため、血糖値その他患者の状態を十分観察しながら投与すること。"@ja .
+pi:PI_10_2.item2 pio:mechanism_and_risk_factors "血糖降下作用が増強される。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item3 .
+pi:PI_10_2.item3 a pio:PrecautionsForCombi .
+pi:PI_10_2.item3 pio:drug_name "アドレナリン"@ja .
+pi:PI_10_2.item3 pio:drug_name "副腎皮質ホルモン"@ja .
+pi:PI_10_2.item3 pio:drug_name "甲状腺ホルモン等"@ja .
+pi:PI_10_2.item3 pio:clin_symptoms_and_measures "血糖が上昇する可能性があるため、血糖値その他患者の状態を十分観察しながら投与すること。"@ja .
+pi:PI_10_2.item3 pio:mechanism_and_risk_factors "血糖降下作用が減弱される。"@ja .
+pi:PI_10_2 pio:drug pi:PI_10_2.item4 .
+pi:PI_10_2.item4 a pio:PrecautionsForCombi .
+pi:PI_10_2.item4 pio:drug_name "クラスⅠA抗不整脈薬"@ja .
+pi:PI_10_2.item4 pio:clin_symptoms_and_measures "QT延長等が起こるおそれがある。"@ja .
+pi:PI_10_2.item4 pio:mechanism_and_risk_factors "これらの薬剤では単独投与でもQT延長がみられている。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_1 pio:section pi:PI_11_1.item1 .
+pi:PI_11_1.item1 rdfs:title "低血糖（1.1～8.9%）"@ja .
+pi:PI_11_1.item1 dct:description "低血糖があらわれることがある。特に、インスリン製剤又はスルホニルウレア剤との併用で重篤な低血糖症状があらわれ、意識消失を来たす例も報告されている。低血糖症状が認められた場合には、糖質を含む食品を摂取するなど適切な処置を行うこと。ただし、α-グルコシダーゼ阻害剤との併用時にはブドウ糖を投与すること。 , , , , , ,"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item2 .
+pi:PI_11_1.item2 rdfs:title "腸閉塞（0.1%）"@ja .
+pi:PI_11_1.item2 dct:description "高度の便秘、腹部膨満、持続する腹痛、嘔吐等の異常が認められた場合には投与を中止し、適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item3 .
+pi:PI_11_1.item3 rdfs:title "肝機能障害（頻度不明）"@ja .
+pi:PI_11_1.item3 dct:description "AST、ALTの上昇等を伴う肝機能障害があらわれることがある。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item4 .
+pi:PI_11_1.item4 rdfs:title "間質性肺炎（頻度不明）"@ja .
+pi:PI_11_1.item4 dct:description "咳嗽、呼吸困難、発熱、肺音の異常（捻髪音）等が認められた場合には、速やかに胸部X線、胸部CT、血清マーカー等の検査を実施すること。間質性肺炎が疑われた場合には投与を中止し、副腎皮質ホルモン剤の投与等の適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item5 .
+pi:PI_11_1.item5 rdfs:title "類天疱瘡（頻度不明）"@ja .
+pi:PI_11_1.item5 dct:description "水疱、びらん等があらわれた場合には、皮膚科医と相談し、投与を中止するなど適切な処置を行うこと。"@ja .
+pi:PI_11_1 pio:section pi:PI_11_1.item6 .
+pi:PI_11_1.item6 rdfs:title "急性膵炎（頻度不明）"@ja .
+pi:PI_11_1.item6 dct:description "持続的な激しい腹痛、嘔吐等の異常が認められた場合には投与を中止し、適切な処置を行うこと。"@ja .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "浮動性めまい" .
+pi:PI_11_2.item1.item1 pio:category "精神・神経系" .
+pi:PI_11_2.item1.item1 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "便秘、腹部膨満、腹部不快感、悪心、腹痛、鼓腸、口内炎、胃ポリープ、結腸ポリープ、十二指腸潰瘍、逆流性食道炎、下痢、食欲減退、アミラーゼ上昇、リパーゼ上昇" .
+pi:PI_11_2.item1.item2 pio:category "消化器" .
+pi:PI_11_2.item1.item2 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "AST上昇、ALT上昇、γ-GTP上昇" .
+pi:PI_11_2.item1.item3 pio:category "肝臓" .
+pi:PI_11_2.item1.item3 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "ALP上昇" .
+pi:PI_11_2.item1.item4 pio:category "肝臓" .
+pi:PI_11_2.item1.item4 pio:frequency "0.1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item5 .
+pi:PI_11_2.item1.item5 a pio:AdverseEvent .
+pi:PI_11_2.item1.item5 pio:adverse_reaction "蛋白尿、尿ケトン体陽性、尿潜血" .
+pi:PI_11_2.item1.item5 pio:category "腎臓・泌尿器系" .
+pi:PI_11_2.item1.item5 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item6 .
+pi:PI_11_2.item1.item6 a pio:AdverseEvent .
+pi:PI_11_2.item1.item6 pio:adverse_reaction "湿疹、発疹、そう痒、アレルギー性皮膚炎" .
+pi:PI_11_2.item1.item6 pio:category "皮膚" .
+pi:PI_11_2.item1.item6 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item7 .
+pi:PI_11_2.item1.item7 a pio:AdverseEvent .
+pi:PI_11_2.item1.item7 pio:adverse_reaction "関節痛" .
+pi:PI_11_2.item1.item7 pio:category "筋骨格系" .
+pi:PI_11_2.item1.item7 pio:frequency "頻度不明" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item8 .
+pi:PI_11_2.item1.item8 a pio:AdverseEvent .
+pi:PI_11_2.item1.item8 pio:adverse_reaction "CK上昇、血清カリウム上昇、倦怠感、アレルギー性鼻炎、血清尿酸上昇" .
+pi:PI_11_2.item1.item8 pio:category "その他" .
+pi:PI_11_2.item1.item8 pio:frequency "0.1～1%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item9 .
+pi:PI_11_2.item1.item9 a pio:AdverseEvent .
+pi:PI_11_2.item1.item9 pio:adverse_reaction "末梢性浮腫" .
+pi:PI_11_2.item1.item9 pio:category "その他" .
+pi:PI_11_2.item1.item9 pio:frequency "頻度不明" .
+pi:PI_13 pio:section pi:PI_13.item1 .
+pi:PI_13.item1 rdfs:title "処置"@ja .
+pi:PI_13.item1 dct:description "末期腎不全患者では、血液透析によってテネリグリプチンは投与量の15.6%が除去されたとの報告がある。"@ja .
+pi:PI_14 pio:section pi:PI_14.item1 .
+pi:PI_14.item1 rdfs:label "薬剤交付時の注意"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item1 .
+pi:PI_14.item1.item1 dct:desctiption "PTP包装の薬剤はPTPシートから取り出して服用するよう指導すること。PTPシートの誤飲により、硬い鋭角部が食道粘膜へ刺入し、更には穿孔をおこして縦隔洞炎等の重篤な合併症を併発することがある。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item2 .
+pi:PI_14.item1.item2 dct:desctiption "本剤は舌の上にのせて唾液を浸潤させると崩壊するため、水なしで服用可能である。また、水で服用することもできる。"@ja .
+pi:PI_14.item1 pio:section pi:PI_14.item1.item3 .
+pi:PI_14.item1.item3 dct:desctiption "本剤は寝たままの状態では、水なしで服用させないこと。"@ja .
+pi:PI_15_2 dct:description "カニクイザルを用いた52週間反復経口投与毒性試験において、75mg/kg/日投与で尾、四肢及び耳介等に表皮剥脱・痂皮・潰瘍等の皮膚症状が認められた。このときのAUC は、1日40mgをヒトに投与したときの約45倍に達していた。なお、同様の毒性所見は、他の動物種（ラット、マウス及びウサギ）及びヒトでは報告されていない。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1 .
+pi:PI_16_1.item1 rdfs:title "生物学的同等性試験"@ja .
+pi:PI_16_1.item1 dct:description "健康成人に、テネリアOD錠40mg（水なし及び水ありで服用）とテネリア錠40mg〔普通錠〕を絶食単回経口投与したときのテネリグリプチンの血漿中濃度推移及び薬物動態パラメータは以下のとおりであり、両製剤の生物学的同等性が確認された 。 テネリアOD錠20mgは、「含量が異なる経口固形製剤の生物学的同等性試験ガイドライン（令和2年3月19日付　薬生薬審発0319第1号）」に基づき、テネリアOD錠40mgを標準製剤としたとき、溶出挙動が同等性の判断基準に適合し、生物学的に同等とみなされた 。"@ja .
+pi:PI_16_1 pio:section pi:PI_16_1.item1.item1 .
+pi:PI_16_1.item1 rdfs:title "水なしで服用（普通錠：水で服用）"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.item1.table1 .
+pi:PI_16_1.item1.item1.table1 pio:row pi:PI_16_1.item1.item1.table1.row1 .
+pi:PI_16_1.item1.item1.table1.row1 pio:column pi:PI_16_1.item1.item1.table1.row1.column1 .
+pi:PI_16_1.item1.item1.table1.row1.column1 rdf:value "" .
+pi:PI_16_1.item1.item1.table1.row1 pio:column pi:PI_16_1.item1.item1.table1.row1.column2 .
+pi:PI_16_1.item1.item1.table1.row1.column2 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item1.item1.table1.row1 pio:column pi:PI_16_1.item1.item1.table1.row1.column3 .
+pi:PI_16_1.item1.item1.table1.row1.column3 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_1.item1.item1.table1.row1 pio:column pi:PI_16_1.item1.item1.table1.row1.column4 .
+pi:PI_16_1.item1.item1.table1.row1.column4 rdf:value "t （hr）" .
+pi:PI_16_1.item1.item1.table1.row1 pio:column pi:PI_16_1.item1.item1.table1.row1.column5 .
+pi:PI_16_1.item1.item1.table1.row1.column5 rdf:value "t （hr）" .
+pi:PI_16_1.item1.item1.table1 pio:row pi:PI_16_1.item1.item1.table1.row2 .
+pi:PI_16_1.item1.item1.table1.row2 pio:column pi:PI_16_1.item1.item1.table1.row2.column1 .
+pi:PI_16_1.item1.item1.table1.row2.column1 rdf:value "テネリアOD錠40mg" .
+pi:PI_16_1.item1.item1.table1.row2 pio:column pi:PI_16_1.item1.item1.table1.row2.column2 .
+pi:PI_16_1.item1.item1.table1.row2.column2 rdf:value "497.7±133.1" .
+pi:PI_16_1.item1.item1.table1.row2 pio:column pi:PI_16_1.item1.item1.table1.row2.column3 .
+pi:PI_16_1.item1.item1.table1.row2.column3 rdf:value "3705.7±671.7" .
+pi:PI_16_1.item1.item1.table1.row2 pio:column pi:PI_16_1.item1.item1.table1.row2.column4 .
+pi:PI_16_1.item1.item1.table1.row2.column4 rdf:value "1.50 （0.50-3.00）" .
+pi:PI_16_1.item1.item1.table1.row2 pio:column pi:PI_16_1.item1.item1.table1.row2.column5 .
+pi:PI_16_1.item1.item1.table1.row2.column5 rdf:value "20.2±5.1" .
+pi:PI_16_1.item1.item1.table1 pio:row pi:PI_16_1.item1.item1.table1.row3 .
+pi:PI_16_1.item1.item1.table1.row3 pio:column pi:PI_16_1.item1.item1.table1.row3.column1 .
+pi:PI_16_1.item1.item1.table1.row3.column1 rdf:value "テネリア錠40mg 〔普通錠〕" .
+pi:PI_16_1.item1.item1.table1.row3 pio:column pi:PI_16_1.item1.item1.table1.row3.column2 .
+pi:PI_16_1.item1.item1.table1.row3.column2 rdf:value "560.8±145.3" .
+pi:PI_16_1.item1.item1.table1.row3 pio:column pi:PI_16_1.item1.item1.table1.row3.column3 .
+pi:PI_16_1.item1.item1.table1.row3.column3 rdf:value "3742.1±685.7" .
+pi:PI_16_1.item1.item1.table1.row3 pio:column pi:PI_16_1.item1.item1.table1.row3.column4 .
+pi:PI_16_1.item1.item1.table1.row3.column4 rdf:value "1.00 （0.50-2.00）" .
+pi:PI_16_1.item1.item1.table1.row3 pio:column pi:PI_16_1.item1.item1.table1.row3.column5 .
+pi:PI_16_1.item1.item1.table1.row3.column5 rdf:value "19.9±4.2" .
+pi:PI_16_1 pio:section pi:PI_16_1.item1.item2 .
+pi:PI_16_1.item1 rdfs:title "水で服用"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item1.item2.table1 .
+pi:PI_16_1.item1.item2.table1 pio:row pi:PI_16_1.item1.item2.table1.row1 .
+pi:PI_16_1.item1.item2.table1.row1 pio:column pi:PI_16_1.item1.item2.table1.row1.column1 .
+pi:PI_16_1.item1.item2.table1.row1.column1 rdf:value "" .
+pi:PI_16_1.item1.item2.table1.row1 pio:column pi:PI_16_1.item1.item2.table1.row1.column2 .
+pi:PI_16_1.item1.item2.table1.row1.column2 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item1.item2.table1.row1 pio:column pi:PI_16_1.item1.item2.table1.row1.column3 .
+pi:PI_16_1.item1.item2.table1.row1.column3 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_1.item1.item2.table1.row1 pio:column pi:PI_16_1.item1.item2.table1.row1.column4 .
+pi:PI_16_1.item1.item2.table1.row1.column4 rdf:value "t （hr）" .
+pi:PI_16_1.item1.item2.table1.row1 pio:column pi:PI_16_1.item1.item2.table1.row1.column5 .
+pi:PI_16_1.item1.item2.table1.row1.column5 rdf:value "t （hr）" .
+pi:PI_16_1.item1.item2.table1 pio:row pi:PI_16_1.item1.item2.table1.row2 .
+pi:PI_16_1.item1.item2.table1.row2 pio:column pi:PI_16_1.item1.item2.table1.row2.column1 .
+pi:PI_16_1.item1.item2.table1.row2.column1 rdf:value "テネリアOD錠40mg" .
+pi:PI_16_1.item1.item2.table1.row2 pio:column pi:PI_16_1.item1.item2.table1.row2.column2 .
+pi:PI_16_1.item1.item2.table1.row2.column2 rdf:value "490.9±104.3" .
+pi:PI_16_1.item1.item2.table1.row2 pio:column pi:PI_16_1.item1.item2.table1.row2.column3 .
+pi:PI_16_1.item1.item2.table1.row2.column3 rdf:value "3990.3±808.9" .
+pi:PI_16_1.item1.item2.table1.row2 pio:column pi:PI_16_1.item1.item2.table1.row2.column4 .
+pi:PI_16_1.item1.item2.table1.row2.column4 rdf:value "1.00 （0.50-2.00）" .
+pi:PI_16_1.item1.item2.table1.row2 pio:column pi:PI_16_1.item1.item2.table1.row2.column5 .
+pi:PI_16_1.item1.item2.table1.row2.column5 rdf:value "19.3±2.9" .
+pi:PI_16_1.item1.item2.table1 pio:row pi:PI_16_1.item1.item2.table1.row3 .
+pi:PI_16_1.item1.item2.table1.row3 pio:column pi:PI_16_1.item1.item2.table1.row3.column1 .
+pi:PI_16_1.item1.item2.table1.row3.column1 rdf:value "テネリア錠40mg 〔普通錠〕" .
+pi:PI_16_1.item1.item2.table1.row3 pio:column pi:PI_16_1.item1.item2.table1.row3.column2 .
+pi:PI_16_1.item1.item2.table1.row3.column2 rdf:value "516.2±159.6" .
+pi:PI_16_1.item1.item2.table1.row3 pio:column pi:PI_16_1.item1.item2.table1.row3.column3 .
+pi:PI_16_1.item1.item2.table1.row3.column3 rdf:value "4048.7±757.8" .
+pi:PI_16_1.item1.item2.table1.row3 pio:column pi:PI_16_1.item1.item2.table1.row3.column4 .
+pi:PI_16_1.item1.item2.table1.row3.column4 rdf:value "1.00 （0.50-4.00）" .
+pi:PI_16_1.item1.item2.table1.row3 pio:column pi:PI_16_1.item1.item2.table1.row3.column5 .
+pi:PI_16_1.item1.item2.table1.row3.column5 rdf:value "19.5±3.5" .
+pi:PI_16_1 pio:section pi:PI_16_1.item2 .
+pi:PI_16_1.item2 rdfs:title "反復投与"@ja .
+pi:PI_16_1.item2 dct:description "健康成人に、テネリグリプチンとして20mgを1日1回7日間朝食開始30分前に反復経口投与したときのテネリグリプチンの薬物動態パラメータは以下のとおりであり、7日間以内に定常状態に達するものと考えられた 。（普通錠のデータ）"@ja .
+pi:PI_16_1 pio:table pi:PI_16_1.item2.table1 .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row1 .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column1 .
+pi:PI_16_1.item2.table1.row1.column1 rdf:value "" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column2 .
+pi:PI_16_1.item2.table1.row1.column2 rdf:value "C （ng/mL）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column3 .
+pi:PI_16_1.item2.table1.row1.column3 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column4 .
+pi:PI_16_1.item2.table1.row1.column4 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column5 .
+pi:PI_16_1.item2.table1.row1.column5 rdf:value "t （hr）" .
+pi:PI_16_1.item2.table1.row1 pio:column pi:PI_16_1.item2.table1.row1.column6 .
+pi:PI_16_1.item2.table1.row1.column6 rdf:value "t （hr）" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row2 .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column1 .
+pi:PI_16_1.item2.table1.row2.column1 rdf:value "初回投与後" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column2 .
+pi:PI_16_1.item2.table1.row2.column2 rdf:value "160.60±47.26" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column3 .
+pi:PI_16_1.item2.table1.row2.column3 rdf:value "1057.2±283.9" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column4 .
+pi:PI_16_1.item2.table1.row2.column4 rdf:value "1627.9±427.8" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column5 .
+pi:PI_16_1.item2.table1.row2.column5 rdf:value "1.0 （0.4-2.0）" .
+pi:PI_16_1.item2.table1.row2 pio:column pi:PI_16_1.item2.table1.row2.column6 .
+pi:PI_16_1.item2.table1.row2.column6 rdf:value "25.8±4.9" .
+pi:PI_16_1.item2.table1 pio:row pi:PI_16_1.item2.table1.row3 .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column1 .
+pi:PI_16_1.item2.table1.row3.column1 rdf:value "7日間投与後" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column2 .
+pi:PI_16_1.item2.table1.row3.column2 rdf:value "220.14±59.86" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column3 .
+pi:PI_16_1.item2.table1.row3.column3 rdf:value "1514.6±370.5" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column4 .
+pi:PI_16_1.item2.table1.row3.column4 rdf:value "2641.4±594.7" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column5 .
+pi:PI_16_1.item2.table1.row3.column5 rdf:value "1.0 （1.0-1.0）" .
+pi:PI_16_1.item2.table1.row3 pio:column pi:PI_16_1.item2.table1.row3.column6 .
+pi:PI_16_1.item2.table1.row3.column6 rdf:value "30.2±6.9" .
+pi:PI_16_2 pio:section pi:PI_16_2.item1 .
+pi:PI_16_2.item1 rdfs:title "食事の影響"@ja .
+pi:PI_16_2.item1 dct:description "健康成人に、テネリグリプチンとして20mgを食後に単回経口投与した場合、空腹時に比べてC は20%低下し、t は1.1時間から2.6時間に延長したが、AUCに差は認められなかった 。（普通錠のデータ）"@ja .
+pi:PI_16_2 pio:table pi:PI_16_2.item1.table1 .
+pi:PI_16_2.item1.table1 pio:row pi:PI_16_2.item1.table1.row1 .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column1 .
+pi:PI_16_2.item1.table1.row1.column1 rdf:value "" .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column2 .
+pi:PI_16_2.item1.table1.row1.column2 rdf:value "C （ng/mL）" .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column3 .
+pi:PI_16_2.item1.table1.row1.column3 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column4 .
+pi:PI_16_2.item1.table1.row1.column4 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column5 .
+pi:PI_16_2.item1.table1.row1.column5 rdf:value "t （hr）" .
+pi:PI_16_2.item1.table1.row1 pio:column pi:PI_16_2.item1.table1.row1.column6 .
+pi:PI_16_2.item1.table1.row1.column6 rdf:value "t （hr）" .
+pi:PI_16_2.item1.table1 pio:row pi:PI_16_2.item1.table1.row2 .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column1 .
+pi:PI_16_2.item1.table1.row2.column1 rdf:value "空腹時" .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column2 .
+pi:PI_16_2.item1.table1.row2.column2 rdf:value "232.2 （236.2±43.77）" .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column3 .
+pi:PI_16_2.item1.table1.row2.column3 rdf:value "1855.5 （1861.1±148.1）" .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column4 .
+pi:PI_16_2.item1.table1.row2.column4 rdf:value "2090.3 （2094.6±138.5）" .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column5 .
+pi:PI_16_2.item1.table1.row2.column5 rdf:value "1.1±0.4" .
+pi:PI_16_2.item1.table1.row2 pio:column pi:PI_16_2.item1.table1.row2.column6 .
+pi:PI_16_2.item1.table1.row2.column6 rdf:value "26.5 （27.8±9.3）" .
+pi:PI_16_2.item1.table1 pio:row pi:PI_16_2.item1.table1.row3 .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column1 .
+pi:PI_16_2.item1.table1.row3.column1 rdf:value "食後" .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column2 .
+pi:PI_16_2.item1.table1.row3.column2 rdf:value "184.9 （187.5±33.55）" .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column3 .
+pi:PI_16_2.item1.table1.row3.column3 rdf:value "1806.6 （1814.6±183.3）" .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column4 .
+pi:PI_16_2.item1.table1.row3.column4 rdf:value "2044.0 （2056.1±230.9）" .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column5 .
+pi:PI_16_2.item1.table1.row3.column5 rdf:value "2.6±1.1" .
+pi:PI_16_2.item1.table1.row3 pio:column pi:PI_16_2.item1.table1.row3.column6 .
+pi:PI_16_2.item1.table1.row3.column6 rdf:value "26.9 （28.3±9.5）" .
+pi:PI_16_3 dct:description "テネリグリプチンのヒト血漿蛋白結合率は77.6～82.2%であった （in vitro）。"@ja .
+pi:PI_16_4 pio:section pi:PI_16_4.item1 .
+pi:PI_16_4.item1 dct:description "健康成人（外国人、6例）に、［ C］標識テネリグリプチン20mgを単回経口投与したとき、血漿中に未変化体、及び代謝物M1、M2、M3、M4及びM5が認められた。 また、投与後72時間までの血漿中放射能濃度から算出したAUC に対するテネリグリプチン、M1、M2、M3、M4及びM5のAUC の割合はそれぞれ71.1%、14.7%、1.3%、1.3%、0.3%及び1.1%であった 。"@ja .
+pi:PI_16_4 pio:section pi:PI_16_4.item2 .
+pi:PI_16_4.item2 dct:description "テネリグリプチンの代謝には主にCYP3A4、フラビン含有モノオキシゲナーゼ（FMO1及びFMO3）が関与する。また、テネリグリプチンはCYP2D6、CYP3A4及びFMOに対して弱い阻害作用を示したが（IC 値：489.4、197.5及び467.2μmol/L）、CYP1A2、CYP2A6、CYP2B6、CYP2C8、CYP2C8/9、CYP2C19、CYP2E1に対して阻害作用を示さず、CYP1A2及びCYP3A4を誘導しなかった （in vitro）。"@ja .
+pi:PI_16_5 pio:section pi:PI_16_5.item1 .
+pi:PI_16_5.item1 dct:description "健康成人に、テネリグリプチンとして20及び40mgを空腹時に単回経口投与したとき（各6例）、投与量の21.0～22.1%が尿中に未変化体として排泄され、腎クリアランスは37～39mL/hr/kgであった 。（普通錠のデータ）"@ja .
+pi:PI_16_5 pio:section pi:PI_16_5.item2 .
+pi:PI_16_5.item2 dct:description "健康成人（外国人、6例）に、［ C］標識テネリグリプチン20mgを単回経口投与したとき、投与後216時間までに投与放射能の45.4%が尿中に、46.5%が糞中に排泄された。また、投与後120時間までの投与量に対する未変化体、M1、M2及びM3の累積尿中排泄率は、それぞれ14.8%、17.7%、1.4%、1.9%であり、未変化体、M1、M3、M4及びM5の累積糞中排泄率は、それぞれ26.1%、4.0%、1.6%、0.3%及び1.3%であった 。"@ja .
+pi:PI_16_5 pio:section pi:PI_16_5.item3 .
+pi:PI_16_5.item3 dct:description "テネリグリプチンはP-糖蛋白質の基質であり、99μmol/Lの濃度でP-糖蛋白質を介するジゴキシンの輸送を42.5%まで阻害した 。また、テネリグリプチンは、腎臓に発現している有機アニオントランスポーターOAT3に対して弱い阻害作用を示した（IC 値：99.2μmol/L）が、OAT1及び有機カチオントランスポーターOCT2に対し阻害作用を示さなかった （in vitro）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item1 .
+pi:PI_16_6.item1 rdfs:title "腎機能障害者"@ja .
+pi:PI_16_6.item1 dct:description "腎機能障害者に、テネリグリプチンとして20mgを単回経口投与したとき、テネリグリプチンのC 及びt は腎機能障害の程度に応じた顕著な変化は認められなかった。一方、AUC は健康成人と比較して、軽度腎機能障害者（50≦Ccr≦80mL/min）、中等度腎機能障害者（30≦Ccr＜50mL/min）及び高度腎機能障害者（Ccr＜30mL/min）でそれぞれ約1.25倍、約1.68倍及び約1.49倍であり、末期腎不全患者のAUC は健康成人と比較して、約1.16倍であった。また、血液透析によってテネリグリプチンは投与量の15.6%が除去された （外国人及び普通錠のデータ）。"@ja .
+pi:PI_16_6 pio:table pi:PI_16_6.item1.table1 .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row1 .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column1 .
+pi:PI_16_6.item1.table1.row1.column1 rdf:value "腎機能障害の程度" .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column2 .
+pi:PI_16_6.item1.table1.row1.column2 rdf:value "腎機能障害の程度" .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column3 .
+pi:PI_16_6.item1.table1.row1.column3 rdf:value "C （ng/mL）" .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column4 .
+pi:PI_16_6.item1.table1.row1.column4 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_6.item1.table1.row1 pio:column pi:PI_16_6.item1.table1.row1.column5 .
+pi:PI_16_6.item1.table1.row1.column5 rdf:value "t （hr）" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row2 .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column1 .
+pi:PI_16_6.item1.table1.row2.column1 rdf:value "健康成人 n=8" .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column2 .
+pi:PI_16_6.item1.table1.row2.column2 rdf:value "健康成人 n=8" .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column3 .
+pi:PI_16_6.item1.table1.row2.column3 rdf:value "178.93 （176.50±38.42）" .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column4 .
+pi:PI_16_6.item1.table1.row2.column4 rdf:value "1748.39 （1772.7±657.3）" .
+pi:PI_16_6.item1.table1.row2 pio:column pi:PI_16_6.item1.table1.row2.column5 .
+pi:PI_16_6.item1.table1.row2.column5 rdf:value "25.64 （26.1±5.0）" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row3 .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column1 .
+pi:PI_16_6.item1.table1.row3.column1 rdf:value "軽度 n=8" .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column2 .
+pi:PI_16_6.item1.table1.row3.column2 rdf:value "軽度 n=8" .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column3 .
+pi:PI_16_6.item1.table1.row3.column3 rdf:value "193.15 （207.96±53.31）" .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column4 .
+pi:PI_16_6.item1.table1.row3.column4 rdf:value "2178.90 （2234.2±278.6）" .
+pi:PI_16_6.item1.table1.row3 pio:column pi:PI_16_6.item1.table1.row3.column5 .
+pi:PI_16_6.item1.table1.row3.column5 rdf:value "25.60 （27.7±7.9）" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row4 .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column1 .
+pi:PI_16_6.item1.table1.row4.column1 rdf:value "" .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column2 .
+pi:PI_16_6.item1.table1.row4.column2 rdf:value "健康成人との比（%） ［90%信頼区間］" .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column3 .
+pi:PI_16_6.item1.table1.row4.column3 rdf:value "107.95 ［86.24-135.12］" .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column4 .
+pi:PI_16_6.item1.table1.row4.column4 rdf:value "124.62 ［100.97-153.82］" .
+pi:PI_16_6.item1.table1.row4 pio:column pi:PI_16_6.item1.table1.row4.column5 .
+pi:PI_16_6.item1.table1.row4.column5 rdf:value "99.84 ［75.94-131.27］" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row5 .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column1 .
+pi:PI_16_6.item1.table1.row5.column1 rdf:value "中等度 n=8" .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column2 .
+pi:PI_16_6.item1.table1.row5.column2 rdf:value "中等度 n=8" .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column3 .
+pi:PI_16_6.item1.table1.row5.column3 rdf:value "199.55 （203.63±42.33）" .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column4 .
+pi:PI_16_6.item1.table1.row5.column4 rdf:value "2930.17 （3090.3±868.6）" .
+pi:PI_16_6.item1.table1.row5 pio:column pi:PI_16_6.item1.table1.row5.column5 .
+pi:PI_16_6.item1.table1.row5.column5 rdf:value "34.93 （36.0±11.0）" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row6 .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column1 .
+pi:PI_16_6.item1.table1.row6.column1 rdf:value "" .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column2 .
+pi:PI_16_6.item1.table1.row6.column2 rdf:value "健康成人との比（%） ［90%信頼区間］" .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column3 .
+pi:PI_16_6.item1.table1.row6.column3 rdf:value "111.53 ［89.10-139.60］" .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column4 .
+pi:PI_16_6.item1.table1.row6.column4 rdf:value "167.59 ［135.78-206.86］" .
+pi:PI_16_6.item1.table1.row6 pio:column pi:PI_16_6.item1.table1.row6.column5 .
+pi:PI_16_6.item1.table1.row6.column5 rdf:value "136.19 ［103.59-179.06］" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row7 .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column1 .
+pi:PI_16_6.item1.table1.row7.column1 rdf:value "高度 n=8" .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column2 .
+pi:PI_16_6.item1.table1.row7.column2 rdf:value "高度 n=8" .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column3 .
+pi:PI_16_6.item1.table1.row7.column3 rdf:value "186.39 （191.63±49.07）" .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column4 .
+pi:PI_16_6.item1.table1.row7.column4 rdf:value "2603.17 （2833.3±652.3）" .
+pi:PI_16_6.item1.table1.row7 pio:column pi:PI_16_6.item1.table1.row7.column5 .
+pi:PI_16_6.item1.table1.row7.column5 rdf:value "26.26 （29.8±11.0）" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row8 .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column1 .
+pi:PI_16_6.item1.table1.row8.column1 rdf:value "" .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column2 .
+pi:PI_16_6.item1.table1.row8.column2 rdf:value "健康成人との比（%） ［90%信頼区間］" .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column3 .
+pi:PI_16_6.item1.table1.row8.column3 rdf:value "104.17 ［82.10-132.18］" .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column4 .
+pi:PI_16_6.item1.table1.row8.column4 rdf:value "148.89 ［119.10-186.13］" .
+pi:PI_16_6.item1.table1.row8 pio:column pi:PI_16_6.item1.table1.row8.column5 .
+pi:PI_16_6.item1.table1.row8.column5 rdf:value "102.41 ［76.61-136.89］" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row9 .
+pi:PI_16_6.item1.table1.row9 pio:column pi:PI_16_6.item1.table1.row9.column1 .
+pi:PI_16_6.item1.table1.row9.column1 rdf:value "健康成人 n=8" .
+pi:PI_16_6.item1.table1.row9 pio:column pi:PI_16_6.item1.table1.row9.column2 .
+pi:PI_16_6.item1.table1.row9.column2 rdf:value "健康成人 n=8" .
+pi:PI_16_6.item1.table1.row9 pio:column pi:PI_16_6.item1.table1.row9.column3 .
+pi:PI_16_6.item1.table1.row9.column3 rdf:value "192.69 （195.75±43.28）" .
+pi:PI_16_6.item1.table1.row9 pio:column pi:PI_16_6.item1.table1.row9.column4 .
+pi:PI_16_6.item1.table1.row9.column4 rdf:value "1568.38 （1569.5±345.5）" .
+pi:PI_16_6.item1.table1.row9 pio:column pi:PI_16_6.item1.table1.row9.column5 .
+pi:PI_16_6.item1.table1.row9.column5 rdf:value "17.41 （18.3±5.7）" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row10 .
+pi:PI_16_6.item1.table1.row10 pio:column pi:PI_16_6.item1.table1.row10.column1 .
+pi:PI_16_6.item1.table1.row10.column1 rdf:value "末期腎不全患者 n=8" .
+pi:PI_16_6.item1.table1.row10 pio:column pi:PI_16_6.item1.table1.row10.column2 .
+pi:PI_16_6.item1.table1.row10.column2 rdf:value "末期腎不全患者 n=8" .
+pi:PI_16_6.item1.table1.row10 pio:column pi:PI_16_6.item1.table1.row10.column3 .
+pi:PI_16_6.item1.table1.row10.column3 rdf:value "211.26 （219.00±118.91）" .
+pi:PI_16_6.item1.table1.row10 pio:column pi:PI_16_6.item1.table1.row10.column4 .
+pi:PI_16_6.item1.table1.row10.column4 rdf:value "1826.06 （1820.9±285.4）" .
+pi:PI_16_6.item1.table1.row10 pio:column pi:PI_16_6.item1.table1.row10.column5 .
+pi:PI_16_6.item1.table1.row10.column5 rdf:value "22.85 （23.6±5.8）" .
+pi:PI_16_6.item1.table1 pio:row pi:PI_16_6.item1.table1.row11 .
+pi:PI_16_6.item1.table1.row11 pio:column pi:PI_16_6.item1.table1.row11.column1 .
+pi:PI_16_6.item1.table1.row11.column1 rdf:value "" .
+pi:PI_16_6.item1.table1.row11 pio:column pi:PI_16_6.item1.table1.row11.column2 .
+pi:PI_16_6.item1.table1.row11.column2 rdf:value "健康成人との比（%） ［90%信頼区間］" .
+pi:PI_16_6.item1.table1.row11 pio:column pi:PI_16_6.item1.table1.row11.column3 .
+pi:PI_16_6.item1.table1.row11.column3 rdf:value "109.64 ［82.30-146.06］" .
+pi:PI_16_6.item1.table1.row11 pio:column pi:PI_16_6.item1.table1.row11.column4 .
+pi:PI_16_6.item1.table1.row11.column4 rdf:value "116.43 ［98.10-138.19］" .
+pi:PI_16_6.item1.table1.row11 pio:column pi:PI_16_6.item1.table1.row11.column5 .
+pi:PI_16_6.item1.table1.row11.column5 rdf:value "131.20 ［98.26-175.18］" .
+pi:PI_16_6 pio:section pi:PI_16_6.item2 .
+pi:PI_16_6.item2 rdfs:title "肝機能障害者"@ja .
+pi:PI_16_6.item2 dct:description "肝機能障害者に、テネリグリプチンとして20mgを単回経口投与したとき、テネリグリプチンのC は健康成人と比較して、軽度肝機能障害者（Child-Pugh分類で合計スコア5～6）及び中等度肝機能障害者（Child-Pugh分類で合計スコア7～9）でそれぞれ約1.25倍及び約1.38倍であり、AUC はそれぞれ約1.46倍及び約1.59倍であった （外国人及び普通錠のデータ）。なお、高度肝機能障害者（Child-Pugh分類で合計スコア9超）での臨床経験はない。"@ja .
+pi:PI_16_6 pio:table pi:PI_16_6.item2.table1 .
+pi:PI_16_6.item2.table1 pio:row pi:PI_16_6.item2.table1.row1 .
+pi:PI_16_6.item2.table1.row1 pio:column pi:PI_16_6.item2.table1.row1.column1 .
+pi:PI_16_6.item2.table1.row1.column1 rdf:value "肝機能障害の程度" .
+pi:PI_16_6.item2.table1.row1 pio:column pi:PI_16_6.item2.table1.row1.column2 .
+pi:PI_16_6.item2.table1.row1.column2 rdf:value "肝機能障害の程度" .
+pi:PI_16_6.item2.table1.row1 pio:column pi:PI_16_6.item2.table1.row1.column3 .
+pi:PI_16_6.item2.table1.row1.column3 rdf:value "C （ng/mL）" .
+pi:PI_16_6.item2.table1.row1 pio:column pi:PI_16_6.item2.table1.row1.column4 .
+pi:PI_16_6.item2.table1.row1.column4 rdf:value "AUC （ng・hr/mL）" .
+pi:PI_16_6.item2.table1.row1 pio:column pi:PI_16_6.item2.table1.row1.column5 .
+pi:PI_16_6.item2.table1.row1.column5 rdf:value "t （hr）" .
+pi:PI_16_6.item2.table1 pio:row pi:PI_16_6.item2.table1.row2 .
+pi:PI_16_6.item2.table1.row2 pio:column pi:PI_16_6.item2.table1.row2.column1 .
+pi:PI_16_6.item2.table1.row2.column1 rdf:value "健康成人 n=8" .
+pi:PI_16_6.item2.table1.row2 pio:column pi:PI_16_6.item2.table1.row2.column2 .
+pi:PI_16_6.item2.table1.row2.column2 rdf:value "健康成人 n=8" .
+pi:PI_16_6.item2.table1.row2 pio:column pi:PI_16_6.item2.table1.row2.column3 .
+pi:PI_16_6.item2.table1.row2.column3 rdf:value "200.58 （185.88±84.65）" .
+pi:PI_16_6.item2.table1.row2 pio:column pi:PI_16_6.item2.table1.row2.column4 .
+pi:PI_16_6.item2.table1.row2.column4 rdf:value "1610.10 （1548.8±209.1）" .
+pi:PI_16_6.item2.table1.row2 pio:column pi:PI_16_6.item2.table1.row2.column5 .
+pi:PI_16_6.item2.table1.row2.column5 rdf:value "21.95 （24.8±6.4）" .
+pi:PI_16_6.item2.table1 pio:row pi:PI_16_6.item2.table1.row3 .
+pi:PI_16_6.item2.table1.row3 pio:column pi:PI_16_6.item2.table1.row3.column1 .
+pi:PI_16_6.item2.table1.row3.column1 rdf:value "軽度 n=8" .
+pi:PI_16_6.item2.table1.row3 pio:column pi:PI_16_6.item2.table1.row3.column2 .
+pi:PI_16_6.item2.table1.row3.column2 rdf:value "軽度 n=8" .
+pi:PI_16_6.item2.table1.row3 pio:column pi:PI_16_6.item2.table1.row3.column3 .
+pi:PI_16_6.item2.table1.row3.column3 rdf:value "251.64 （229.25±86.16）" .
+pi:PI_16_6.item2.table1.row3 pio:column pi:PI_16_6.item2.table1.row3.column4 .
+pi:PI_16_6.item2.table1.row3.column4 rdf:value "2348.28 （2207.9±790.0）" .
+pi:PI_16_6.item2.table1.row3 pio:column pi:PI_16_6.item2.table1.row3.column5 .
+pi:PI_16_6.item2.table1.row3.column5 rdf:value "26.69 （27.9±7.1）" .
+pi:PI_16_6.item2.table1 pio:row pi:PI_16_6.item2.table1.row4 .
+pi:PI_16_6.item2.table1.row4 pio:column pi:PI_16_6.item2.table1.row4.column1 .
+pi:PI_16_6.item2.table1.row4.column1 rdf:value "" .
+pi:PI_16_6.item2.table1.row4 pio:column pi:PI_16_6.item2.table1.row4.column2 .
+pi:PI_16_6.item2.table1.row4.column2 rdf:value "健康成人との比（%） ［90%信頼区間］" .
+pi:PI_16_6.item2.table1.row4 pio:column pi:PI_16_6.item2.table1.row4.column3 .
+pi:PI_16_6.item2.table1.row4.column3 rdf:value "125.45 ［97.07-162.14］" .
+pi:PI_16_6.item2.table1.row4 pio:column pi:PI_16_6.item2.table1.row4.column4 .
+pi:PI_16_6.item2.table1.row4.column4 rdf:value "145.85 ［122.13-174.17］" .
+pi:PI_16_6.item2.table1.row4 pio:column pi:PI_16_6.item2.table1.row4.column5 .
+pi:PI_16_6.item2.table1.row4.column5 rdf:value "121.56 ［94.13-156.99］" .
+pi:PI_16_6.item2.table1 pio:row pi:PI_16_6.item2.table1.row5 .
+pi:PI_16_6.item2.table1.row5 pio:column pi:PI_16_6.item2.table1.row5.column1 .
+pi:PI_16_6.item2.table1.row5.column1 rdf:value "中等度 n=8" .
+pi:PI_16_6.item2.table1.row5 pio:column pi:PI_16_6.item2.table1.row5.column2 .
+pi:PI_16_6.item2.table1.row5.column2 rdf:value "中等度 n=8" .
+pi:PI_16_6.item2.table1.row5 pio:column pi:PI_16_6.item2.table1.row5.column3 .
+pi:PI_16_6.item2.table1.row5.column3 rdf:value "276.24 （247.63±112.95）" .
+pi:PI_16_6.item2.table1.row5 pio:column pi:PI_16_6.item2.table1.row5.column4 .
+pi:PI_16_6.item2.table1.row5.column4 rdf:value "2566.69 （2418.9±505.8）" .
+pi:PI_16_6.item2.table1.row5 pio:column pi:PI_16_6.item2.table1.row5.column5 .
+pi:PI_16_6.item2.table1.row5.column5 rdf:value "30.21 （30.9±6.6）" .
+pi:PI_16_6.item2.table1 pio:row pi:PI_16_6.item2.table1.row6 .
+pi:PI_16_6.item2.table1.row6 pio:column pi:PI_16_6.item2.table1.row6.column1 .
+pi:PI_16_6.item2.table1.row6.column1 rdf:value "" .
+pi:PI_16_6.item2.table1.row6 pio:column pi:PI_16_6.item2.table1.row6.column2 .
+pi:PI_16_6.item2.table1.row6.column2 rdf:value "健康成人との比（%） ［90%信頼区間］" .
+pi:PI_16_6.item2.table1.row6 pio:column pi:PI_16_6.item2.table1.row6.column3 .
+pi:PI_16_6.item2.table1.row6.column3 rdf:value "137.72 ［106.56-177.99］" .
+pi:PI_16_6.item2.table1.row6 pio:column pi:PI_16_6.item2.table1.row6.column4 .
+pi:PI_16_6.item2.table1.row6.column4 rdf:value "159.41 ［133.49-190.37］" .
+pi:PI_16_6.item2.table1.row6 pio:column pi:PI_16_6.item2.table1.row6.column5 .
+pi:PI_16_6.item2.table1.row6.column5 rdf:value "137.59 ［106.54-177.68］" .
+pi:PI_16_6 pio:section pi:PI_16_6.item3 .
+pi:PI_16_6.item3 rdfs:title "高齢者における薬物動態"@ja .
+pi:PI_16_6.item3 dct:description "健康な高齢者（65歳以上75歳以下、12例）と非高齢者（45歳以上65歳未満、12例）に、テネリグリプチンとして20mgを空腹時に単回経口投与したとき、C 、AUC 及びt の非高齢者に対する高齢者の幾何最小二乗平均値の比（90%信頼区間）は、それぞれ1.006（0.871-1.163）、1.090（0.975-1.218）及び1.054（0.911-1.219）であり、ほぼ同様であった （外国人及び普通錠のデータ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item1 .
+pi:PI_16_7.item1 rdfs:title "ケトコナゾールとの併用"@ja .
+pi:PI_16_7.item1 dct:description "ケトコナゾールを併用したとき、テネリグリプチンの薬物動態への影響は次表のとおりであった （外国人及び普通錠のデータ）。"@ja .
+pi:PI_16_7 pio:table pi:PI_16_7.item1.table1 .
+pi:PI_16_7.item1.table1 pio:row pi:PI_16_7.item1.table1.row1 .
+pi:PI_16_7.item1.table1.row1 pio:column pi:PI_16_7.item1.table1.row1.column1 .
+pi:PI_16_7.item1.table1.row1.column1 rdf:value "併用薬" .
+pi:PI_16_7.item1.table1.row1 pio:column pi:PI_16_7.item1.table1.row1.column2 .
+pi:PI_16_7.item1.table1.row1.column2 rdf:value "併用薬用量" .
+pi:PI_16_7.item1.table1.row1 pio:column pi:PI_16_7.item1.table1.row1.column3 .
+pi:PI_16_7.item1.table1.row1.column3 rdf:value "テネリグリプチン用量" .
+pi:PI_16_7.item1.table1.row1 pio:column pi:PI_16_7.item1.table1.row1.column4 .
+pi:PI_16_7.item1.table1.row1.column4 rdf:value "テネリグリプチンの薬物動態パラメータ幾何平均値の比［90%信頼区間］ 併用/単独" .
+pi:PI_16_7.item1.table1.row1 pio:column pi:PI_16_7.item1.table1.row1.column5 .
+pi:PI_16_7.item1.table1.row1.column5 rdf:value "テネリグリプチンの薬物動態パラメータ幾何平均値の比［90%信頼区間］ 併用/単独" .
+pi:PI_16_7.item1.table1 pio:row pi:PI_16_7.item1.table1.row2 .
+pi:PI_16_7.item1.table1.row2 pio:column pi:PI_16_7.item1.table1.row2.column1 .
+pi:PI_16_7.item1.table1.row2.column1 rdf:value "併用薬" .
+pi:PI_16_7.item1.table1.row2 pio:column pi:PI_16_7.item1.table1.row2.column2 .
+pi:PI_16_7.item1.table1.row2.column2 rdf:value "併用薬用量" .
+pi:PI_16_7.item1.table1.row2 pio:column pi:PI_16_7.item1.table1.row2.column3 .
+pi:PI_16_7.item1.table1.row2.column3 rdf:value "テネリグリプチン用量" .
+pi:PI_16_7.item1.table1.row2 pio:column pi:PI_16_7.item1.table1.row2.column4 .
+pi:PI_16_7.item1.table1.row2.column4 rdf:value "C" .
+pi:PI_16_7.item1.table1.row2 pio:column pi:PI_16_7.item1.table1.row2.column5 .
+pi:PI_16_7.item1.table1.row2.column5 rdf:value "AUC" .
+pi:PI_16_7.item1.table1 pio:row pi:PI_16_7.item1.table1.row3 .
+pi:PI_16_7.item1.table1.row3 pio:column pi:PI_16_7.item1.table1.row3.column1 .
+pi:PI_16_7.item1.table1.row3.column1 rdf:value "ケトコナゾール" .
+pi:PI_16_7.item1.table1.row3 pio:column pi:PI_16_7.item1.table1.row3.column2 .
+pi:PI_16_7.item1.table1.row3.column2 rdf:value "400mg" .
+pi:PI_16_7.item1.table1.row3 pio:column pi:PI_16_7.item1.table1.row3.column3 .
+pi:PI_16_7.item1.table1.row3.column3 rdf:value "20mg" .
+pi:PI_16_7.item1.table1.row3 pio:column pi:PI_16_7.item1.table1.row3.column4 .
+pi:PI_16_7.item1.table1.row3.column4 rdf:value "1.37 ［1.25-1.50］" .
+pi:PI_16_7.item1.table1.row3 pio:column pi:PI_16_7.item1.table1.row3.column5 .
+pi:PI_16_7.item1.table1.row3.column5 rdf:value "1.49 ［1.39-1.60］" .
+pi:PI_16_7 pio:section pi:PI_16_7.item2 .
+pi:PI_16_7.item2 rdfs:title "他の糖尿病用薬との併用"@ja .
+pi:PI_16_7.item2 dct:description "テネリグリプチンとカナグリフロジン 、ピオグリタゾン 、グリメピリド 又はメトホルミンを併用したとき、テネリグリプチン及びこれらの薬剤の薬物動態に併用投与による明らかな影響は認められなかった（外国人及び普通錠のデータ）。"@ja .
+pi:PI_16_7.item2 dct:description "                           "@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:title "単独療法"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item1 .
+pi:PI_17_1.item1 rdfs:title "国内第Ⅱ相試験（プラセボ対照二重盲検比較試験：用量設定試験）"@ja .
+pi:PI_17_1.item1 dct:description "食事療法及び運動療法で血糖コントロールが不十分な2型糖尿病患者を対象に、テネリグリプチンとして10mg、20mg、40mg又はプラセボを1日1回12週間投与した。12週時における投与開始からのHbA1c（NGSP値）の変化量のプラセボ群との差（最小二乗平均値［95%信頼区間］）は、20mg投与群（79例）で-0.90［-1.06,-0.75］%、40mg投与群（81例）で-1.01［-1.16,-0.86］%であった。 低血糖の副作用発現割合は、20mg投与群で0%（0例/79例）、40mg投与群で3.7%（3例/81例）であった 。（普通錠のデータ）"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1.item2 .
+pi:PI_17_1.item1 rdfs:title "国内第Ⅲ相試験（プラセボ対照二重盲検比較試験：検証的試験）"@ja .
+pi:PI_17_1.item1 dct:description "食事療法及び運動療法で血糖コントロールが不十分な2型糖尿病患者（203例）を対象に、テネリグリプチンとして20mg又はプラセボを1日1回12週間投与した。結果は次表のとおりであった。 低血糖の副作用はテネリグリプチン投与群に認められなかった 。（普通錠のデータ）"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.item2.table1 .
+pi:PI_17_1.item1.item2.table1 pio:row pi:PI_17_1.item1.item2.table1.row1 .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column1 .
+pi:PI_17_1.item1.item2.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column2 .
+pi:PI_17_1.item1.item2.table1.row1.column2 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column3 .
+pi:PI_17_1.item1.item2.table1.row1.column3 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item1.item2.table1.row1 pio:column pi:PI_17_1.item1.item2.table1.row1.column4 .
+pi:PI_17_1.item1.item2.table1.row1.column4 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item1.item2.table1 pio:row pi:PI_17_1.item1.item2.table1.row2 .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column1 .
+pi:PI_17_1.item1.item2.table1.row2.column1 rdf:value "" .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column2 .
+pi:PI_17_1.item1.item2.table1.row2.column2 rdf:value "プラセボ群 n=104" .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column3 .
+pi:PI_17_1.item1.item2.table1.row2.column3 rdf:value "テネリグリプチン20mg群 n=99" .
+pi:PI_17_1.item1.item2.table1.row2 pio:column pi:PI_17_1.item1.item2.table1.row2.column4 .
+pi:PI_17_1.item1.item2.table1.row2.column4 rdf:value "両群の差" .
+pi:PI_17_1.item1.item2.table1 pio:row pi:PI_17_1.item1.item2.table1.row3 .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column1 .
+pi:PI_17_1.item1.item2.table1.row3.column1 rdf:value "HbA1c（NGSP値） （%）" .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column2 .
+pi:PI_17_1.item1.item2.table1.row3.column2 rdf:value "0.17±0.05" .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column3 .
+pi:PI_17_1.item1.item2.table1.row3.column3 rdf:value "-0.62±0.05" .
+pi:PI_17_1.item1.item2.table1.row3 pio:column pi:PI_17_1.item1.item2.table1.row3.column4 .
+pi:PI_17_1.item1.item2.table1.row3.column4 rdf:value "-0.79 ［-0.94,-0.64］" .
+pi:PI_17_1.item1.item2.table1 pio:row pi:PI_17_1.item1.item2.table1.row4 .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column1 .
+pi:PI_17_1.item1.item2.table1.row4.column1 rdf:value "空腹時血糖 （mg/dL）" .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column2 .
+pi:PI_17_1.item1.item2.table1.row4.column2 rdf:value "-0.2±1.8" .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column3 .
+pi:PI_17_1.item1.item2.table1.row4.column3 rdf:value "-19.2±1.8" .
+pi:PI_17_1.item1.item2.table1.row4 pio:column pi:PI_17_1.item1.item2.table1.row4.column4 .
+pi:PI_17_1.item1.item2.table1.row4.column4 rdf:value "-19.0 ［-24.0,-13.9］" .
+pi:PI_17_1.item1.item2.table1 pio:row pi:PI_17_1.item1.item2.table1.row5 .
+pi:PI_17_1.item1.item2.table1.row5 pio:column pi:PI_17_1.item1.item2.table1.row5.column1 .
+pi:PI_17_1.item1.item2.table1.row5.column1 rdf:value "食後2時間血糖 （mg/dL）" .
+pi:PI_17_1.item1.item2.table1.row5 pio:column pi:PI_17_1.item1.item2.table1.row5.column2 .
+pi:PI_17_1.item1.item2.table1.row5.column2 rdf:value "-3.2±3.6" .
+pi:PI_17_1.item1.item2.table1.row5 pio:column pi:PI_17_1.item1.item2.table1.row5.column3 .
+pi:PI_17_1.item1.item2.table1.row5.column3 rdf:value "-47.9±3.5" .
+pi:PI_17_1.item1.item2.table1.row5 pio:column pi:PI_17_1.item1.item2.table1.row5.column4 .
+pi:PI_17_1.item1.item2.table1.row5.column4 rdf:value "-44.7 ［-54.6,-34.8］" .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:title "他の血糖降下薬との併用療法"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item2.item1 .
+pi:PI_17_1.item2 rdfs:title "国内第Ⅲ相試験（スルホニルウレア系薬剤との併用療法）"@ja .
+pi:PI_17_1.item2 dct:description "食事療法及び運動療法に加えてグリメピリドで血糖コントロールが不十分な2型糖尿病患者（194例）を対象に、テネリグリプチンとして20mg又はプラセボを1日1回12週間投与した。結果は次表のとおりであった。"@ja .
+pi:PI_17_1.item2 dct:description "12週以降、テネリグリプチンとして20mg又は40mg（増量時）を1日1回グリメピリドと併用し52週まで継続投与したとき、52週時における投与開始からのHbA1c（NGSP値）の変化量（平均値±標準偏差）は、-0.56±0.87%（96例）であった。 52週までの低血糖の副作用発現割合は、7.3%（7例/96例）であった 。（普通錠のデータ）"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item2.item1.table1 .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row1 .
+pi:PI_17_1.item2.item1.table1.row1 pio:column pi:PI_17_1.item2.item1.table1.row1.column1 .
+pi:PI_17_1.item2.item1.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item2.item1.table1.row1 pio:column pi:PI_17_1.item2.item1.table1.row1.column2 .
+pi:PI_17_1.item2.item1.table1.row1.column2 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item2.item1.table1.row1 pio:column pi:PI_17_1.item2.item1.table1.row1.column3 .
+pi:PI_17_1.item2.item1.table1.row1.column3 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item2.item1.table1.row1 pio:column pi:PI_17_1.item2.item1.table1.row1.column4 .
+pi:PI_17_1.item2.item1.table1.row1.column4 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row2 .
+pi:PI_17_1.item2.item1.table1.row2 pio:column pi:PI_17_1.item2.item1.table1.row2.column1 .
+pi:PI_17_1.item2.item1.table1.row2.column1 rdf:value "" .
+pi:PI_17_1.item2.item1.table1.row2 pio:column pi:PI_17_1.item2.item1.table1.row2.column2 .
+pi:PI_17_1.item2.item1.table1.row2.column2 rdf:value "プラセボ群 （グリメピリド単独投与群） n=98" .
+pi:PI_17_1.item2.item1.table1.row2 pio:column pi:PI_17_1.item2.item1.table1.row2.column3 .
+pi:PI_17_1.item2.item1.table1.row2.column3 rdf:value "テネリグリプチン20mg群 （グリメピリド併用投与群） n=96" .
+pi:PI_17_1.item2.item1.table1.row2 pio:column pi:PI_17_1.item2.item1.table1.row2.column4 .
+pi:PI_17_1.item2.item1.table1.row2.column4 rdf:value "両群の差" .
+pi:PI_17_1.item2.item1.table1 pio:row pi:PI_17_1.item2.item1.table1.row3 .
+pi:PI_17_1.item2.item1.table1.row3 pio:column pi:PI_17_1.item2.item1.table1.row3.column1 .
+pi:PI_17_1.item2.item1.table1.row3.column1 rdf:value "HbA1c（NGSP値） （%）" .
+pi:PI_17_1.item2.item1.table1.row3 pio:column pi:PI_17_1.item2.item1.table1.row3.column2 .
+pi:PI_17_1.item2.item1.table1.row3.column2 rdf:value "0.29±0.06" .
+pi:PI_17_1.item2.item1.table1.row3 pio:column pi:PI_17_1.item2.item1.table1.row3.column3 .
+pi:PI_17_1.item2.item1.table1.row3.column3 rdf:value "-0.71±0.06" .
+pi:PI_17_1.item2.item1.table1.row3 pio:column pi:PI_17_1.item2.item1.table1.row3.column4 .
+pi:PI_17_1.item2.item1.table1.row3.column4 rdf:value "-1.00 ［-1.16,-0.84］" .
+pi:PI_17_1 pio:section pi:PI_17_1.item2.item2 .
+pi:PI_17_1.item2 rdfs:title "国内第Ⅲ相試験（チアゾリジン系薬剤との併用療法）"@ja .
+pi:PI_17_1.item2 dct:description "食事療法及び運動療法に加えてピオグリタゾンで血糖コントロールが不十分な2型糖尿病患者（204例）を対象に、テネリグリプチンとして20mg又はプラセボを1日1回12週間投与した。結果は次表のとおりであった。"@ja .
+pi:PI_17_1.item2 dct:description "12週以降、テネリグリプチンとして20mg又は40mg（増量時）を1日1回ピオグリタゾンと併用し52週まで継続投与したとき、52週時における投与開始からのHbA1c（NGSP値）の変化量（平均値±標準偏差）は、-0.86±0.66%（103例）であった。 52週までの低血糖の副作用発現割合は、1.9%（2例/103例）であった 。（普通錠のデータ）"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item2.item2.table1 .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row1 .
+pi:PI_17_1.item2.item2.table1.row1 pio:column pi:PI_17_1.item2.item2.table1.row1.column1 .
+pi:PI_17_1.item2.item2.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item2.item2.table1.row1 pio:column pi:PI_17_1.item2.item2.table1.row1.column2 .
+pi:PI_17_1.item2.item2.table1.row1.column2 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item2.item2.table1.row1 pio:column pi:PI_17_1.item2.item2.table1.row1.column3 .
+pi:PI_17_1.item2.item2.table1.row1.column3 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item2.item2.table1.row1 pio:column pi:PI_17_1.item2.item2.table1.row1.column4 .
+pi:PI_17_1.item2.item2.table1.row1.column4 rdf:value "投与前からの変化量" .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row2 .
+pi:PI_17_1.item2.item2.table1.row2 pio:column pi:PI_17_1.item2.item2.table1.row2.column1 .
+pi:PI_17_1.item2.item2.table1.row2.column1 rdf:value "" .
+pi:PI_17_1.item2.item2.table1.row2 pio:column pi:PI_17_1.item2.item2.table1.row2.column2 .
+pi:PI_17_1.item2.item2.table1.row2.column2 rdf:value "プラセボ群 （ピオグリタゾン単独投与群） n=101" .
+pi:PI_17_1.item2.item2.table1.row2 pio:column pi:PI_17_1.item2.item2.table1.row2.column3 .
+pi:PI_17_1.item2.item2.table1.row2.column3 rdf:value "テネリグリプチン20mg群 （ピオグリタゾン併用投与群） n=103" .
+pi:PI_17_1.item2.item2.table1.row2 pio:column pi:PI_17_1.item2.item2.table1.row2.column4 .
+pi:PI_17_1.item2.item2.table1.row2.column4 rdf:value "両群の差" .
+pi:PI_17_1.item2.item2.table1 pio:row pi:PI_17_1.item2.item2.table1.row3 .
+pi:PI_17_1.item2.item2.table1.row3 pio:column pi:PI_17_1.item2.item2.table1.row3.column1 .
+pi:PI_17_1.item2.item2.table1.row3.column1 rdf:value "HbA1c（NGSP値） （%）" .
+pi:PI_17_1.item2.item2.table1.row3 pio:column pi:PI_17_1.item2.item2.table1.row3.column2 .
+pi:PI_17_1.item2.item2.table1.row3.column2 rdf:value "-0.20±0.05" .
+pi:PI_17_1.item2.item2.table1.row3 pio:column pi:PI_17_1.item2.item2.table1.row3.column3 .
+pi:PI_17_1.item2.item2.table1.row3.column3 rdf:value "-0.94±0.04" .
+pi:PI_17_1.item2.item2.table1.row3 pio:column pi:PI_17_1.item2.item2.table1.row3.column4 .
+pi:PI_17_1.item2.item2.table1.row3.column4 rdf:value "-0.74 ［-0.87,-0.62］" .
+pi:PI_17_1 pio:section pi:PI_17_1.item3 .
+pi:PI_17_1.item3 rdfs:title "国内第Ⅲ相試験（長期投与試験） （単独及びグリニド系薬剤、ビグアナイド系薬剤又はα-グルコシダーゼ阻害剤との併用）"@ja .
+pi:PI_17_1.item3 dct:description "食事療法及び運動療法、又は食事療法及び運動療法に加えてグリニド系薬剤、ビグアナイド系薬剤あるいはα-グルコシダーゼ阻害剤で血糖コントロールが不十分な2型糖尿病患者（462例）を対象に、テネリグリプチンとして20mg又は40mg（増量時）を1日1回52週間投与した。52週時における投与開始からのHbA1c（NGSP値）の変化量（平均値±標準偏差）は、単独療法で-0.63±0.64%（212例）、グリニド系薬剤併用で-0.76±0.70%（80例）、ビグアナイド系薬剤併用で-0.78±0.75%（95例）、α-グルコシダーゼ阻害剤併用で-0.89±0.64%（75例）であった。 52週までの低血糖の副作用発現割合は、単独療法で1.4%（3例/212例）、グリニド系薬剤併用で3.8%（3例/80例）、ビグアナイド系薬剤併用で1.1%（1例/95例）、α-グルコシダーゼ阻害剤併用で1.3%（1例/75例）であった 。（普通錠のデータ）"@ja .
+pi:PI_17_2 pio:section pi:PI_17_2.item1 .
+pi:PI_17_2.item1 rdfs:title "製造販売後臨床試験（インスリン製剤との併用療法）"@ja .
+pi:PI_17_2.item1 dct:description "食事療法及び運動療法に加えてインスリン製剤単剤治療（混合型（速効型又は超速効型のインスリンの含有率が25%又は30%）、中間型又は持効型溶解のいずれかを単剤で使用、1日投与量は8単位以上40単位以下）で血糖コントロールが不十分な2型糖尿病患者（148例）を対象に、テネリグリプチンとして20mg又はプラセボを1日1回16週間投与した。結果は次表のとおりであった。"@ja .
+pi:PI_17_2.item1 dct:description "16週以降、テネリグリプチンとして20mg又は40mg（増量時）を1日1回インスリン製剤と併用し52週まで継続投与したとき、52週時における投与開始からのHbA1c（NGSP値）の変化量（平均値±標準偏差）は、-0.81±0.93%（77例）であった。 52週までの低血糖の副作用発現割合は、15.6%（12例/77例）であった 。（普通錠のデータ）"@ja .
+pi:PI_17_2 pio:table pi:PI_17_2.item1.table1 .
+pi:PI_17_2.item1.table1 pio:row pi:PI_17_2.item1.table1.row1 .
+pi:PI_17_2.item1.table1.row1 pio:column pi:PI_17_2.item1.table1.row1.column1 .
+pi:PI_17_2.item1.table1.row1.column1 rdf:value "" .
+pi:PI_17_2.item1.table1.row1 pio:column pi:PI_17_2.item1.table1.row1.column2 .
+pi:PI_17_2.item1.table1.row1.column2 rdf:value "投与前からの変化量" .
+pi:PI_17_2.item1.table1.row1 pio:column pi:PI_17_2.item1.table1.row1.column3 .
+pi:PI_17_2.item1.table1.row1.column3 rdf:value "投与前からの変化量" .
+pi:PI_17_2.item1.table1.row1 pio:column pi:PI_17_2.item1.table1.row1.column4 .
+pi:PI_17_2.item1.table1.row1.column4 rdf:value "投与前からの変化量" .
+pi:PI_17_2.item1.table1 pio:row pi:PI_17_2.item1.table1.row2 .
+pi:PI_17_2.item1.table1.row2 pio:column pi:PI_17_2.item1.table1.row2.column1 .
+pi:PI_17_2.item1.table1.row2.column1 rdf:value "" .
+pi:PI_17_2.item1.table1.row2 pio:column pi:PI_17_2.item1.table1.row2.column2 .
+pi:PI_17_2.item1.table1.row2.column2 rdf:value "プラセボ群 （インスリン単独投与群） n=71" .
+pi:PI_17_2.item1.table1.row2 pio:column pi:PI_17_2.item1.table1.row2.column3 .
+pi:PI_17_2.item1.table1.row2.column3 rdf:value "テネリグリプチン20mg群 （インスリン併用投与群） n=77" .
+pi:PI_17_2.item1.table1.row2 pio:column pi:PI_17_2.item1.table1.row2.column4 .
+pi:PI_17_2.item1.table1.row2.column4 rdf:value "両群の差" .
+pi:PI_17_2.item1.table1 pio:row pi:PI_17_2.item1.table1.row3 .
+pi:PI_17_2.item1.table1.row3 pio:column pi:PI_17_2.item1.table1.row3.column1 .
+pi:PI_17_2.item1.table1.row3.column1 rdf:value "HbA1c（NGSP値） （%）" .
+pi:PI_17_2.item1.table1.row3 pio:column pi:PI_17_2.item1.table1.row3.column2 .
+pi:PI_17_2.item1.table1.row3.column2 rdf:value "-0.07±0.08" .
+pi:PI_17_2.item1.table1.row3 pio:column pi:PI_17_2.item1.table1.row3.column3 .
+pi:PI_17_2.item1.table1.row3.column3 rdf:value "-0.87±0.08" .
+pi:PI_17_2.item1.table1.row3 pio:column pi:PI_17_2.item1.table1.row3.column4 .
+pi:PI_17_2.item1.table1.row3.column4 rdf:value "-0.80 ［-1.02,-0.58］" .
+pi:PI_17_3 pio:section pi:PI_17_3.item1 .
+pi:PI_17_3.item1 rdfs:title "心電図に対する影響"@ja .
+pi:PI_17_3.item1 dct:description "健康成人にテネリグリプチンとして40mg又は160mgを1日1回4日間、反復経口投与したときのプラセボ補正したQTcI（個人ごとに補正したQTc）間隔変化の最大平均値（及び90%信頼区間上限値）は、40mg群の投与終了後3時間で3.9（7.6）msec、160mg群の投与終了後1.5時間で9.3（13.0）msecであった （外国人及び普通錠のデータ）。 本剤の承認用量は通常、20mg/日であり、最大用量は40mg/日である。"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "グルカゴン様ペプチド-1（GLP-1）は、食事に応答して消化管から分泌され、膵臓からのインスリン分泌を促進し、グルカゴン分泌を抑制することで、食後血糖を調節している 。テネリグリプチンは、ジペプチジルペプチダーゼ-4（DPP-4）活性の阻害によりGLP-1の分解を抑制し、活性型GLP-1の血中濃度を増加させることにより、血糖低下作用を発揮する 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "DPP-4阻害作用及びGLP-1分解抑制作用"@ja .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "耐糖能改善作用"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "テネリグリプチン臭化水素酸塩水和物 （Teneligliptin Hydrobromide Hydrate）" .
+pi:PI_19 pio:chemical_name "{(2 ,4 )-4-[4-(3-Methyl-1-phenyl-1  -pyrazol-5-yl)piperazin-1-yl]pyrrolidin-2-yl}(1,3-thiazolidin-3-yl)methanone hemipentahydrobromide hydrate" .
+pi:PI_19 pio:molecular_formula "C H N OS・2 1/2HBr・χH O" .
+pi:PI_19 pio:molecular_weight "628.86（無水物）" .
+pi:PI_19 pio:description_of_active_ingredients "白色の粉末である。水に溶けやすく、メタノールにやや溶けやすく、エタノール（99.5）にやや溶けにくい。" .
+pi:PI_19 pio:melting_point "約201℃（分解）" .
+pi:PI_22 pio:section pi:PI_22.item1 .
+pi:PI_22.item1 rdfs:label "〈 〉"@ja .
+pi:PI_22.item1 dct:description "100錠［10錠（PTP）×10、乾燥剤入り］"@ja .
+pi:PI_22 pio:section pi:PI_22.item2 .
+pi:PI_22.item2 rdfs:label "〈 〉"@ja .
+pi:PI_22.item2 dct:description "100錠［10錠（PTP）×10、乾燥剤入り］"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "田辺三菱製薬（株）：健康成人を対象としたOD錠及び普通錠の生物学的同等性試験（社内資料）" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "田辺三菱製薬（株）：OD錠及び普通錠の生物学的同等性試験（溶出試験）（社内資料）" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "田辺三菱製薬（株）：健康成人を対象とした反復投与試験（社内資料）（テネリア錠　2012年6月29日承認、CTD2.7.6.4）" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "田辺三菱製薬（株）：健康成人を対象とした食事の影響試験（社内資料）（テネリア錠　2012年6月29日承認、CTD2.7.6.1）" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "田辺三菱製薬（株）：蛋白結合に関する検討（社内資料）（テネリア錠　2012年6月29日承認、CTD2.6.4.4.2）" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "Nakamaru Y, et al.：Xenobiotica. 2014；44（3）：242-253" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "田辺三菱製薬（株）：代謝に関する検討（社内資料）（テネリア錠　2012年6月29日承認、CTD2.6.4.5.6、2.6.4.7.1、2.6.4.7.2）" .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "田辺三菱製薬（株）：健康成人を対象とした単回投与試験（社内資料）（テネリア錠　2012年6月29日承認、CTD2.7.6.3）" .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "田辺三菱製薬（株）：P-糖蛋白に関する検討（社内資料）（テネリア錠　2012年6月29日承認、CTD2.6.4.7.3、2.6.4.7.4）" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "田辺三菱製薬（株）：トランスポーターに関する検討（社内資料）（テネリア錠　2012年6月29日承認、CTD2.6.4.7.5）" .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "田辺三菱製薬（株）：腎機能障害者における薬物動態試験（社内資料）（テネリア錠　2012年6月29日承認、CTD2.7.6.9）" .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "田辺三菱製薬（株）：肝機能障害者における薬物動態試験（社内資料）（テネリア錠　2012年6月29日承認、CTD2.7.6.10）" .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "田辺三菱製薬（株）：高齢者における薬物動態試験（社内資料）（テネリア錠　2012年6月29日承認、CTD2.7.6.8）" .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "Nakamaru Y, et al.：Clin Ther. 2014；36（5）：760-769" .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "Kadowaki T, et al.：Diabetes obes metab. 2013；15（9）：810-818" .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "田辺三菱製薬（株）：検証的試験（社内資料）（テネリア錠　2012年6月29日承認、CTD2.7.6.20）" .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "田辺三菱製薬（株）：スルホニルウレア系薬剤併用試験（社内資料）（テネリア錠　2012年6月29日承認、CTD2.7.6.21）" .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_23 dct:references pi:PI_23.item18 .
+pi:PI_23.item18 a bibo:Document .
+pi:PI_23.item18 rdfs:label "田辺三菱製薬（株）：チアゾリジン系薬剤併用試験（社内資料）（テネリア錠　2012年6月29日承認、CTD2.7.6.22）" .
+pi:PI_23.item18 pio:id "DOC_18" .
+pi:PI_23 dct:references pi:PI_23.item19 .
+pi:PI_23.item19 a bibo:Document .
+pi:PI_23.item19 rdfs:label "田辺三菱製薬（株）：単独及び併用療法長期投与試験（社内資料）" .
+pi:PI_23.item19 pio:id "DOC_19" .
+pi:PI_23 dct:references pi:PI_23.item20 .
+pi:PI_23.item20 a bibo:Document .
+pi:PI_23.item20 rdfs:label "田辺三菱製薬（株）：インスリン製剤併用試験（社内資料）" .
+pi:PI_23.item20 pio:id "DOC_20" .
+pi:PI_23 dct:references pi:PI_23.item21 .
+pi:PI_23.item21 a bibo:Document .
+pi:PI_23.item21 rdfs:label "田辺三菱製薬（株）：QTc間隔への影響試験（社内資料）（テネリア錠　2012年6月29日承認、CTD2.7.6.15）" .
+pi:PI_23.item21 pio:id "DOC_21" .
+pi:PI_23 dct:references pi:PI_23.item22 .
+pi:PI_23.item22 a bibo:Document .
+pi:PI_23.item22 rdfs:label "Kreymann B, et al.：Lancet. 1987；2（8571）：1300-1304" .
+pi:PI_23.item22 pio:id "DOC_22" .
+pi:PI_23 dct:references pi:PI_23.item23 .
+pi:PI_23.item23 a bibo:Document .
+pi:PI_23.item23 rdfs:label "Fukuda-Tsuru S, et al.：Eur J Pharmacol. 2012；696（1-3）：194-202" .
+pi:PI_23.item23 pio:id "DOC_23" .
+pi:PI_23 dct:references pi:PI_23.item24 .
+pi:PI_23.item24 a bibo:Document .
+pi:PI_23.item24 rdfs:label "Eto T, et al.：Diabetes obes metab. 2012；14（11）：1040-1046" .
+pi:PI_23.item24 pio:id "DOC_24" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "第一三共株式会社　製品情報センター"@ja .
+pi:PI_24.item1 pio:address "〒103-8426 東京都中央区日本橋本町3-5-1"@ja .
+pi:PI_24.item1 pio:contact_information "TEL：0120-189-132"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "田辺三菱製薬株式会社"@ja .
+pi:PI_26.item1 pio:address "大阪市中央区道修町3-2-10"@ja .
+pi:PI_26 pio:section pi:PI_26.item2 .
+pi:PI_26.item2 pio:type_of_industry "販売元"@ja .
+pi:PI_26.item2 pio:name "第一三共株式会社"@ja .
+pi:PI_26.item2 pio:address "東京都中央区日本橋本町3-5-1"@ja .

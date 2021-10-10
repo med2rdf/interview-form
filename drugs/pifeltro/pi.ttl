@@ -1,0 +1,1429 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pi_root: <http://med2rdf.org/pi/> .
+@prefix pio: <http://med2rdf.org/ontology/pio/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix pi: <http://med2rdf.org/pi/170050_6250049F1021_1_02#> .
+
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_0 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_1 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_2 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_3 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_3_1 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_3_2 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_4 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_5 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_6 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_7 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_8 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_9 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_9_1 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_9_2 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_9_3 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_9_4 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_9_5 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_9_6 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_9_7 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_9_8 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_10 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_10_1 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_10_2 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_11 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_11_1 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_11_2 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_12 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_13 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_14 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_15 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_15_1 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_15_2 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_16 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_16_1 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_16_2 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_16_3 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_16_4 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_16_5 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_16_6 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_16_7 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_16_8 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_17 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_17_1 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_17_2 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_17_3 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_18 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_18_1 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_19 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_20 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_21 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_22 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_23 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_24 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_25 .
+pi_root:170050_6250049F1021_1_02 pio:section pi:PI_26 .
+pi_root:170050_6250049F1021_1_02 dct:identifier "170050_6250049F1021_1_02" .
+pi_root:170050_6250049F1021_1_02 pio:company_identifier "170050" .
+pi_root:170050_6250049F1021_1_02 pio:date_of_preparation_or_revision "2021-05"^^xsd:date .
+pi_root:170050_6250049F1021_1_02 pio:version "第2版" .
+pi_root:170050_6250049F1021_1_02 pio:sccj_no "87625" .
+pi_root:170050_6250049F1021_1_02 pio:therapeutic_classification "抗ウイルス化学療法剤" .
+pi_root:170050_6250049F1021_1_02 pio:approval_brand_name "ピフェルトロ錠100mg" .
+pi_root:170050_6250049F1021_1_02 pio:yj_code "6250049F1021" .
+pi_root:170050_6250049F1021_1_02 pio:trademark_name "PIFELTRO Tablets 100mg" .
+pi_root:170050_6250049F1021_1_02 pio:name_in_hiragana "ぴふぇるとろ" .
+pi_root:170050_6250049F1021_1_02 pio:approval_no "30200AMX00002000" .
+pi_root:170050_6250049F1021_1_02 pio:starting_date_of_marketing "2020-02"^^xsd:date .
+pi_root:170050_6250049F1021_1_02 pio:storage_method "室温保存" .
+pi_root:170050_6250049F1021_1_02 pio:shelf_life "3年" .
+pi:PI_2 a pio:PI_2 .
+pi:PI_2 pio:section pi:PI_2.item1 .
+pi:PI_2.item1 dct:description "カルバマゼピン、フェノバルビタール、フェニトイン、ホスフェニトイン、エンザルタミド、リファンピシン、ミトタン、セイヨウオトギリソウ（St. John’s Wort：セント・ジョーンズ・ワート）含有食品を投与中の患者 ,"@ja .
+pi:PI_2 pio:section pi:PI_2.item2 .
+pi:PI_2.item2 dct:description "本剤の成分に対し過敏症の既往歴のある患者"@ja .
+pi:PI_3 a pio:PI_3 .
+pi:PI_3_1 pio:composition_for_brand pi:PI_3_1.item1 .
+pi:PI_3_1.item1 pio:contained_amount pi:PI_3_1.item1.contained_amount .
+pi:PI_3_1.item1.contained_amount pio:active_ingredient_name "ドラビリン"@ja .
+pi:PI_3_1.item1.contained_amount pio:value_and_unit "100mg"@ja .
+pi:PI_3_1.item1 pio:additives "ヒプロメロース酢酸エステルコハク酸エステル、乳糖水和物、結晶セルロース、クロスカルメロースナトリウム、軽質無水ケイ酸、ステアリン酸マグネシウム、ヒプロメロース、酸化チタン、トリアセチン、カルナウバロウ"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive1 .
+pi:PI_3_1.item1.additive1 pio:additive "ヒプロメロース酢酸エステルコハク酸エステル"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive2 .
+pi:PI_3_1.item1.additive2 pio:additive "乳糖水和物"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive3 .
+pi:PI_3_1.item1.additive3 pio:additive "結晶セルロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive4 .
+pi:PI_3_1.item1.additive4 pio:additive "クロスカルメロースナトリウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive5 .
+pi:PI_3_1.item1.additive5 pio:additive "軽質無水ケイ酸"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive6 .
+pi:PI_3_1.item1.additive6 pio:additive "ステアリン酸マグネシウム"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive7 .
+pi:PI_3_1.item1.additive7 pio:additive "ヒプロメロース"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive8 .
+pi:PI_3_1.item1.additive8 pio:additive "酸化チタン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive9 .
+pi:PI_3_1.item1.additive9 pio:additive "トリアセチン"@ja .
+pi:PI_3_1.item1 pio:info_individual_additives pi:PI_3_1.item1.additive10 .
+pi:PI_3_1.item1.additive10 pio:additive "カルナウバロウ"@ja .
+pi:PI_3_2 a pio:PI_3_2 .
+pi:PI_3_2 pio:property_for_brand pi:PI_3_2.item1 .
+pi:PI_3_2.item1 pio:formulation "楕円形・フィルムコーティング錠" .
+pi:PI_3_2.item1 pio:color_tone "白色" .
+pi:PI_3_2.item1 pio:id_code "700" .
+pi:PI_3_2.item1 pio:shape_front "170050_6250049F1021_1_02_fig01.gif" .
+pi:PI_3_2.item1 pio:shape_back "170050_6250049F1021_1_02_fig02.gif" .
+pi:PI_3_2.item1 pio:shape_side "170050_6250049F1021_1_02_fig03.gif" .
+pi:PI_3_2.item1 pio:size_long_diameter "19.0mm" .
+pi:PI_3_2.item1 pio:size_short_diameter "9.5mm" .
+pi:PI_3_2.item1 pio:size_thickness "7.1mm" .
+pi:PI_4 a pio:PI_4 .
+pi:PI_4 dct:title "効能又は効果"@ja .
+pi:PI_4 dct:description "HIV-1感染症"@ja .
+pi:PI_5 a pio:PI_5 .
+pi:PI_5 dct:title "効能又は効果に関連する注意"@ja .
+pi:PI_5 pio:section pi:PI_5.item1 .
+pi:PI_5.item1 dct:description "以下のいずれかのHIV-1感染症患者に使用すること。"@ja .
+pi:PI_5 pio:section pi:PI_5.item2 .
+pi:PI_5.item2 dct:description "本剤による治療にあたっては、患者の治療歴及び可能な場合には薬剤耐性検査（遺伝子型解析あるいは表現型解析）を参考にすること。"@ja .
+pi:PI_6 a pio:PI_6 .
+pi:PI_6 dct:title "用法及び用量"@ja .
+pi:PI_6 dct:description "通常、成人にはドラビリンとして100mgを1日1回経口投与する。本剤は、食事の有無にかかわらず投与できる。投与に際しては、必ず他の抗HIV薬と併用すること。"@ja .
+pi:PI_7 a pio:PI_7 .
+pi:PI_7 dct:title "用法及び用量に関連する注意"@ja .
+pi:PI_7 dct:description "本剤とリファブチンを併用投与する場合は、本剤100mgを約12時間の間隔を空けて1日2回に増量すること。なお、リファブチンの併用を中止した場合は、本剤100mgを1日1回に減量すること。 ,"@ja .
+pi:PI_8 pio:section pi:PI_8.item1 .
+pi:PI_8.item1 dct:description "本剤の使用に際しては、国内外のガイドライン等の最新の情報を参考に、患者又はそれに代わる適切な者に、次の事項についてよく説明し同意を得た後、使用すること。"@ja .
+pi:PI_8 pio:section pi:PI_8.item2 .
+pi:PI_8.item2 dct:description "本剤を含む抗HIV薬の多剤併用療法を行った患者で、免疫再構築症候群が報告されている。投与開始後、免疫機能が回復し、症候性のみならず無症候性日和見感染（マイコバクテリウムアビウムコンプレックス、サイトメガロウイルス、ニューモシスチス等によるもの）等に対する炎症反応が発現することがある。また、免疫機能の回復に伴い自己免疫疾患（甲状腺機能亢進症、多発性筋炎、ギラン・バレー症候群、ブドウ膜炎等）が発現するとの報告があるので、これらの症状を評価し、必要時には適切な治療を考慮すること。"@ja .
+pi:PI_9_5 dct:description "妊婦又は妊娠している可能性のある女性には治療上の有益性が危険性を上回ると判断される場合にのみ投与すること。 ラット及びウサギにおいて胎盤移行が認められた 。なお、臨床推奨用量の最大約9倍（ラット）及び約8倍（ウサギ）の曝露量で実施した生殖発生毒性試験において、妊娠及び胚胎児発生への有害な影響はなかった。"@ja .
+pi:PI_9_6 dct:description "授乳を避けさせること。HIV母児感染の可能性がある。動物実験（ラット）において経口投与後にドラビリンの乳汁中への移行が認められている 。本剤がヒトの乳汁中に移行するか否かは不明である。"@ja .
+pi:PI_9_7 dct:description "小児等を対象とした臨床試験は実施していない。"@ja .
+pi:PI_10_1 a pio:PI_10_1 .
+pi:PI_10_1.item1 pio:clin_symptoms_and_measures "本剤の血漿中濃度が低下し、治療効果が減弱するおそれがある。"@ja .
+pi:PI_10_1.item1 pio:mechanism_and_risk_factors "これらの薬剤及び食品の強力なCYP3A4誘導作用により、本剤の代謝が促進されると予測される。"@ja .
+pi:PI_10_2 a pio:PI_10_2 .
+pi:PI_10_2.item1 pio:clin_symptoms_and_measures "本剤の血漿中濃度が低下し、治療効果が減弱するおそれがある。"@ja .
+pi:PI_10_2.item1 pio:mechanism_and_risk_factors "リファブチンのCYP3A4誘導作用により、本剤の代謝が促進される。"@ja .
+pi:PI_11 pio:common_precautions_for_adverse "次の副作用があらわれることがあるので、観察を十分に行い、異常が認められた場合には投与を中止するなど適切な処置を行うこと。" .
+pi:PI_11_2 a pio:PI_11_2 .
+pi:PI_11_2 pio:section pi:PI_11_2.item1 .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item1 .
+pi:PI_11_2.item1.item1 a pio:AdverseEvent .
+pi:PI_11_2.item1.item1 pio:adverse_reaction "悪心、下痢" .
+pi:PI_11_2.item1.item1 pio:category "胃腸障害" .
+pi:PI_11_2.item1.item1 pio:frequency "2%以上5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item2 .
+pi:PI_11_2.item1.item2 a pio:AdverseEvent .
+pi:PI_11_2.item1.item2 pio:adverse_reaction "疲労" .
+pi:PI_11_2.item1.item2 pio:category "一般・全身障害および投与部位の状態" .
+pi:PI_11_2.item1.item2 pio:frequency "2%以上5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item3 .
+pi:PI_11_2.item1.item3 a pio:AdverseEvent .
+pi:PI_11_2.item1.item3 pio:adverse_reaction "頭痛、浮動性めまい" .
+pi:PI_11_2.item1.item3 pio:category "神経系障害" .
+pi:PI_11_2.item1.item3 pio:frequency "2%以上5%未満" .
+pi:PI_11_2.item1 pio:other_adverse_event pi:PI_11_2.item1.item4 .
+pi:PI_11_2.item1.item4 a pio:AdverseEvent .
+pi:PI_11_2.item1.item4 pio:adverse_reaction "異常な夢" .
+pi:PI_11_2.item1.item4 pio:category "精神障害" .
+pi:PI_11_2.item1.item4 pio:frequency "2%以上5%未満" .
+pi:PI_16_1 dct:description "健康被験者に本剤を単回経口投与した際のドラビリンの血漿中薬物動態パラメータを表1に示す （外国人データ）。"@ja .
+pi:PI_16_1 dct:description "ドラビリンを1日1回反復経口投与したところ、2日目までに概して定常状態に到達し、単回投与時に比べAUC 、C 及びC は1.2～1.4倍に増加した （外国人データ）。 母集団薬物動態解析で得られたドラビリン100mg 1日1回反復経口投与時の定常状態でのHIV-1感染患者の薬物動態パラメータを表2に示す （外国人データ）。"@ja .
+pi:PI_16_2 pio:section pi:PI_16_2.item1 .
+pi:PI_16_2.item1 rdfs:title "バイオアベイラビリティ"@ja .
+pi:PI_16_2.item1 dct:description "本剤の絶対バイオアベイラビリティは約64%であった （外国人データ）。"@ja .
+pi:PI_16_2 pio:section pi:PI_16_2.item2 .
+pi:PI_16_2.item2 rdfs:title "食事の影響"@ja .
+pi:PI_16_2.item2 dct:description "高脂肪食を摂取した健康被験者に本剤1錠を投与したところ、ドラビリンのAUC及びC はそれぞれ16%及び36%上昇したが、C に有意な影響は認められなかった （外国人データ）。"@ja .
+pi:PI_16_3 dct:description "ドラビリンはヒト血漿蛋白に約76%結合した （ データ）。"@ja .
+pi:PI_16_4 dct:description "ドラビリンは主に酸化代謝により消失し、主としてCYP3A4によって代謝された （ データ）。"@ja .
+pi:PI_16_5 dct:description "ドラビリンの腎排泄量は少なく、投与量の約6%が未変化体として尿中に排泄された （外国人データ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item1 .
+pi:PI_16_6.item1 rdfs:title "腎機能障害患者"@ja .
+pi:PI_16_6.item1 dct:description "重度腎機能障害を有する被験者8例と腎機能正常被験者8例を比較した試験において、ドラビリン100mg単回経口投与時の血漿中曝露量（AUC）は重度腎機能障害を有する被験者の方が43%高かった （外国人データ）。母集団薬物動態解析では、ドラビリン100mgを1日1回投与した際の定常状態における血漿中曝露量（AUC）の幾何平均は、軽度及び中等度腎機能障害を有する患者では腎機能正常患者よりそれぞれ5%及び20%高いと予測された （外国人データ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item2 .
+pi:PI_16_6.item2 rdfs:title "肝機能障害患者"@ja .
+pi:PI_16_6.item2 dct:description "中等度（Child-Pugh分類B）肝機能障害を有する被験者8例と肝機能正常被験者8例を比較した試験において、ドラビリン100mg単回経口投与時の血漿中曝露量（AUC）の幾何平均比（中等度肝機能障害／肝機能正常）は0.99であった （外国人データ）。"@ja .
+pi:PI_16_6 pio:section pi:PI_16_6.item3 .
+pi:PI_16_6.item3 rdfs:title "高齢者"@ja .
+pi:PI_16_6.item3 dct:description "第Ⅰ相試験において、ドラビリン100mg単回経口投与時の血漿中曝露量（AUC）の幾何平均比（65歳以上／65歳未満）は0.85～0.97であった （外国人データ）。母集団薬物動態解析では、ドラビリン100mgを1日1回投与した際の定常状態における血漿中曝露量（AUC）の幾何平均は、65歳以上の患者で65歳未満の患者より30%高いと予測された （外国人データ）。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item1 .
+pi:PI_16_7.item1 rdfs:title "非臨床薬物相互作用試験"@ja .
+pi:PI_16_7.item1 dct:description "ドラビリンはP-gpの基質であり、OATP1B1、OATP1B3、BCRP、P-gp、OAT1、OAT3、OCT2、MATE1及びMATE2Kに対し阻害作用を示した（IC 値はそれぞれ39、31、51、＞300、＞75、16、67、＞50及び＞50μM） 。"@ja .
+pi:PI_16_7 pio:section pi:PI_16_7.item2 .
+pi:PI_16_7.item2 rdfs:title "臨床薬物相互作用試験"@ja .
+pi:PI_16_7.item2 dct:description "臨床薬物相互作用試験の結果を表3及び表4に示す。 , , ,"@ja .
+pi:PI_16_7 pio:table pi:PI_16_7.item2.table1 .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row1 .
+pi:PI_16_7.item2.table1.row1 pio:column pi:PI_16_7.item2.table1.row1.column1 .
+pi:PI_16_7.item2.table1.row1.column1 rdf:value "併用薬" .
+pi:PI_16_7.item2.table1.row1 pio:column pi:PI_16_7.item2.table1.row1.column2 .
+pi:PI_16_7.item2.table1.row1.column2 rdf:value "併用薬の1回用量及び用法" .
+pi:PI_16_7.item2.table1.row1 pio:column pi:PI_16_7.item2.table1.row1.column3 .
+pi:PI_16_7.item2.table1.row1.column3 rdf:value "ドラビリンの1回用量及び用法" .
+pi:PI_16_7.item2.table1.row1 pio:column pi:PI_16_7.item2.table1.row1.column4 .
+pi:PI_16_7.item2.table1.row1.column4 rdf:value "例数" .
+pi:PI_16_7.item2.table1.row1 pio:column pi:PI_16_7.item2.table1.row1.column5 .
+pi:PI_16_7.item2.table1.row1.column5 rdf:value "ドラビリンの血漿中薬物動態パラメータの最小二乗幾何平均比 併用時／非併用時（90%信頼区間） （影響なし=1.00）" .
+pi:PI_16_7.item2.table1.row1 pio:column pi:PI_16_7.item2.table1.row1.column6 .
+pi:PI_16_7.item2.table1.row1.column6 rdf:value "ドラビリンの血漿中薬物動態パラメータの最小二乗幾何平均比 併用時／非併用時（90%信頼区間） （影響なし=1.00）" .
+pi:PI_16_7.item2.table1.row1 pio:column pi:PI_16_7.item2.table1.row1.column7 .
+pi:PI_16_7.item2.table1.row1.column7 rdf:value "ドラビリンの血漿中薬物動態パラメータの最小二乗幾何平均比 併用時／非併用時（90%信頼区間） （影響なし=1.00）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row2 .
+pi:PI_16_7.item2.table1.row2 pio:column pi:PI_16_7.item2.table1.row2.column1 .
+pi:PI_16_7.item2.table1.row2.column1 rdf:value "併用薬" .
+pi:PI_16_7.item2.table1.row2 pio:column pi:PI_16_7.item2.table1.row2.column2 .
+pi:PI_16_7.item2.table1.row2.column2 rdf:value "併用薬の1回用量及び用法" .
+pi:PI_16_7.item2.table1.row2 pio:column pi:PI_16_7.item2.table1.row2.column3 .
+pi:PI_16_7.item2.table1.row2.column3 rdf:value "ドラビリンの1回用量及び用法" .
+pi:PI_16_7.item2.table1.row2 pio:column pi:PI_16_7.item2.table1.row2.column4 .
+pi:PI_16_7.item2.table1.row2.column4 rdf:value "例数" .
+pi:PI_16_7.item2.table1.row2 pio:column pi:PI_16_7.item2.table1.row2.column5 .
+pi:PI_16_7.item2.table1.row2.column5 rdf:value "AUC" .
+pi:PI_16_7.item2.table1.row2 pio:column pi:PI_16_7.item2.table1.row2.column6 .
+pi:PI_16_7.item2.table1.row2.column6 rdf:value "C" .
+pi:PI_16_7.item2.table1.row2 pio:column pi:PI_16_7.item2.table1.row2.column7 .
+pi:PI_16_7.item2.table1.row2.column7 rdf:value "C" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row3 .
+pi:PI_16_7.item2.table1.row3 pio:column pi:PI_16_7.item2.table1.row3.column1 .
+pi:PI_16_7.item2.table1.row3.column1 rdf:value "抗真菌薬" .
+pi:PI_16_7.item2.table1.row3 pio:column pi:PI_16_7.item2.table1.row3.column2 .
+pi:PI_16_7.item2.table1.row3.column2 rdf:value "抗真菌薬" .
+pi:PI_16_7.item2.table1.row3 pio:column pi:PI_16_7.item2.table1.row3.column3 .
+pi:PI_16_7.item2.table1.row3.column3 rdf:value "抗真菌薬" .
+pi:PI_16_7.item2.table1.row3 pio:column pi:PI_16_7.item2.table1.row3.column4 .
+pi:PI_16_7.item2.table1.row3.column4 rdf:value "抗真菌薬" .
+pi:PI_16_7.item2.table1.row3 pio:column pi:PI_16_7.item2.table1.row3.column5 .
+pi:PI_16_7.item2.table1.row3.column5 rdf:value "抗真菌薬" .
+pi:PI_16_7.item2.table1.row3 pio:column pi:PI_16_7.item2.table1.row3.column6 .
+pi:PI_16_7.item2.table1.row3.column6 rdf:value "抗真菌薬" .
+pi:PI_16_7.item2.table1.row3 pio:column pi:PI_16_7.item2.table1.row3.column7 .
+pi:PI_16_7.item2.table1.row3.column7 rdf:value "抗真菌薬" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row4 .
+pi:PI_16_7.item2.table1.row4 pio:column pi:PI_16_7.item2.table1.row4.column1 .
+pi:PI_16_7.item2.table1.row4.column1 rdf:value "ケトコナゾール" .
+pi:PI_16_7.item2.table1.row4 pio:column pi:PI_16_7.item2.table1.row4.column2 .
+pi:PI_16_7.item2.table1.row4.column2 rdf:value "400mg QD反復" .
+pi:PI_16_7.item2.table1.row4 pio:column pi:PI_16_7.item2.table1.row4.column3 .
+pi:PI_16_7.item2.table1.row4.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table1.row4 pio:column pi:PI_16_7.item2.table1.row4.column4 .
+pi:PI_16_7.item2.table1.row4.column4 rdf:value "10" .
+pi:PI_16_7.item2.table1.row4 pio:column pi:PI_16_7.item2.table1.row4.column5 .
+pi:PI_16_7.item2.table1.row4.column5 rdf:value "3.06 （2.85, 3.29）" .
+pi:PI_16_7.item2.table1.row4 pio:column pi:PI_16_7.item2.table1.row4.column6 .
+pi:PI_16_7.item2.table1.row4.column6 rdf:value "1.25 （1.05, 1.49）" .
+pi:PI_16_7.item2.table1.row4 pio:column pi:PI_16_7.item2.table1.row4.column7 .
+pi:PI_16_7.item2.table1.row4.column7 rdf:value "2.75 （2.54, 2.98）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row5 .
+pi:PI_16_7.item2.table1.row5 pio:column pi:PI_16_7.item2.table1.row5.column1 .
+pi:PI_16_7.item2.table1.row5.column1 rdf:value "抗抗酸菌薬" .
+pi:PI_16_7.item2.table1.row5 pio:column pi:PI_16_7.item2.table1.row5.column2 .
+pi:PI_16_7.item2.table1.row5.column2 rdf:value "抗抗酸菌薬" .
+pi:PI_16_7.item2.table1.row5 pio:column pi:PI_16_7.item2.table1.row5.column3 .
+pi:PI_16_7.item2.table1.row5.column3 rdf:value "抗抗酸菌薬" .
+pi:PI_16_7.item2.table1.row5 pio:column pi:PI_16_7.item2.table1.row5.column4 .
+pi:PI_16_7.item2.table1.row5.column4 rdf:value "抗抗酸菌薬" .
+pi:PI_16_7.item2.table1.row5 pio:column pi:PI_16_7.item2.table1.row5.column5 .
+pi:PI_16_7.item2.table1.row5.column5 rdf:value "抗抗酸菌薬" .
+pi:PI_16_7.item2.table1.row5 pio:column pi:PI_16_7.item2.table1.row5.column6 .
+pi:PI_16_7.item2.table1.row5.column6 rdf:value "抗抗酸菌薬" .
+pi:PI_16_7.item2.table1.row5 pio:column pi:PI_16_7.item2.table1.row5.column7 .
+pi:PI_16_7.item2.table1.row5.column7 rdf:value "抗抗酸菌薬" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row6 .
+pi:PI_16_7.item2.table1.row6 pio:column pi:PI_16_7.item2.table1.row6.column1 .
+pi:PI_16_7.item2.table1.row6.column1 rdf:value "リファンピシン" .
+pi:PI_16_7.item2.table1.row6 pio:column pi:PI_16_7.item2.table1.row6.column2 .
+pi:PI_16_7.item2.table1.row6.column2 rdf:value "600mg 単回" .
+pi:PI_16_7.item2.table1.row6 pio:column pi:PI_16_7.item2.table1.row6.column3 .
+pi:PI_16_7.item2.table1.row6.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table1.row6 pio:column pi:PI_16_7.item2.table1.row6.column4 .
+pi:PI_16_7.item2.table1.row6.column4 rdf:value "11" .
+pi:PI_16_7.item2.table1.row6 pio:column pi:PI_16_7.item2.table1.row6.column5 .
+pi:PI_16_7.item2.table1.row6.column5 rdf:value "0.91 （0.78, 1.06）" .
+pi:PI_16_7.item2.table1.row6 pio:column pi:PI_16_7.item2.table1.row6.column6 .
+pi:PI_16_7.item2.table1.row6.column6 rdf:value "1.40 （1.21, 1.63）" .
+pi:PI_16_7.item2.table1.row6 pio:column pi:PI_16_7.item2.table1.row6.column7 .
+pi:PI_16_7.item2.table1.row6.column7 rdf:value "0.90 （0.80, 1.01）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row7 .
+pi:PI_16_7.item2.table1.row7 pio:column pi:PI_16_7.item2.table1.row7.column1 .
+pi:PI_16_7.item2.table1.row7.column1 rdf:value "リファンピシン" .
+pi:PI_16_7.item2.table1.row7 pio:column pi:PI_16_7.item2.table1.row7.column2 .
+pi:PI_16_7.item2.table1.row7.column2 rdf:value "600mg QD反復" .
+pi:PI_16_7.item2.table1.row7 pio:column pi:PI_16_7.item2.table1.row7.column3 .
+pi:PI_16_7.item2.table1.row7.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table1.row7 pio:column pi:PI_16_7.item2.table1.row7.column4 .
+pi:PI_16_7.item2.table1.row7.column4 rdf:value "10" .
+pi:PI_16_7.item2.table1.row7 pio:column pi:PI_16_7.item2.table1.row7.column5 .
+pi:PI_16_7.item2.table1.row7.column5 rdf:value "0.12 （0.10, 0.15）" .
+pi:PI_16_7.item2.table1.row7 pio:column pi:PI_16_7.item2.table1.row7.column6 .
+pi:PI_16_7.item2.table1.row7.column6 rdf:value "0.43 （0.35, 0.52）" .
+pi:PI_16_7.item2.table1.row7 pio:column pi:PI_16_7.item2.table1.row7.column7 .
+pi:PI_16_7.item2.table1.row7.column7 rdf:value "0.03 （0.02, 0.04）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row8 .
+pi:PI_16_7.item2.table1.row8 pio:column pi:PI_16_7.item2.table1.row8.column1 .
+pi:PI_16_7.item2.table1.row8.column1 rdf:value "リファブチン" .
+pi:PI_16_7.item2.table1.row8 pio:column pi:PI_16_7.item2.table1.row8.column2 .
+pi:PI_16_7.item2.table1.row8.column2 rdf:value "300mg QD反復" .
+pi:PI_16_7.item2.table1.row8 pio:column pi:PI_16_7.item2.table1.row8.column3 .
+pi:PI_16_7.item2.table1.row8.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table1.row8 pio:column pi:PI_16_7.item2.table1.row8.column4 .
+pi:PI_16_7.item2.table1.row8.column4 rdf:value "12" .
+pi:PI_16_7.item2.table1.row8 pio:column pi:PI_16_7.item2.table1.row8.column5 .
+pi:PI_16_7.item2.table1.row8.column5 rdf:value "0.50 （0.45, 0.55）" .
+pi:PI_16_7.item2.table1.row8 pio:column pi:PI_16_7.item2.table1.row8.column6 .
+pi:PI_16_7.item2.table1.row8.column6 rdf:value "0.99 （0.85, 1.15）" .
+pi:PI_16_7.item2.table1.row8 pio:column pi:PI_16_7.item2.table1.row8.column7 .
+pi:PI_16_7.item2.table1.row8.column7 rdf:value "0.32 （0.28, 0.35）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row9 .
+pi:PI_16_7.item2.table1.row9 pio:column pi:PI_16_7.item2.table1.row9.column1 .
+pi:PI_16_7.item2.table1.row9.column1 rdf:value "リファブチン" .
+pi:PI_16_7.item2.table1.row9 pio:column pi:PI_16_7.item2.table1.row9.column2 .
+pi:PI_16_7.item2.table1.row9.column2 rdf:value "300mg QD反復" .
+pi:PI_16_7.item2.table1.row9 pio:column pi:PI_16_7.item2.table1.row9.column3 .
+pi:PI_16_7.item2.table1.row9.column3 rdf:value "100mg BID反復" .
+pi:PI_16_7.item2.table1.row9 pio:column pi:PI_16_7.item2.table1.row9.column4 .
+pi:PI_16_7.item2.table1.row9.column4 rdf:value "15" .
+pi:PI_16_7.item2.table1.row9 pio:column pi:PI_16_7.item2.table1.row9.column5 .
+pi:PI_16_7.item2.table1.row9.column5 rdf:value "1.03 （0.94, 1.14）" .
+pi:PI_16_7.item2.table1.row9 pio:column pi:PI_16_7.item2.table1.row9.column6 .
+pi:PI_16_7.item2.table1.row9.column6 rdf:value "0.97 （0.87, 1.08）" .
+pi:PI_16_7.item2.table1.row9 pio:column pi:PI_16_7.item2.table1.row9.column7 .
+pi:PI_16_7.item2.table1.row9.column7 rdf:value "0.98 （0.88, 1.10）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row10 .
+pi:PI_16_7.item2.table1.row10 pio:column pi:PI_16_7.item2.table1.row10.column1 .
+pi:PI_16_7.item2.table1.row10.column1 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table1.row10 pio:column pi:PI_16_7.item2.table1.row10.column2 .
+pi:PI_16_7.item2.table1.row10.column2 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table1.row10 pio:column pi:PI_16_7.item2.table1.row10.column3 .
+pi:PI_16_7.item2.table1.row10.column3 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table1.row10 pio:column pi:PI_16_7.item2.table1.row10.column4 .
+pi:PI_16_7.item2.table1.row10.column4 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table1.row10 pio:column pi:PI_16_7.item2.table1.row10.column5 .
+pi:PI_16_7.item2.table1.row10.column5 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table1.row10 pio:column pi:PI_16_7.item2.table1.row10.column6 .
+pi:PI_16_7.item2.table1.row10.column6 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table1.row10 pio:column pi:PI_16_7.item2.table1.row10.column7 .
+pi:PI_16_7.item2.table1.row10.column7 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row11 .
+pi:PI_16_7.item2.table1.row11 pio:column pi:PI_16_7.item2.table1.row11.column1 .
+pi:PI_16_7.item2.table1.row11.column1 rdf:value "リトナビル" .
+pi:PI_16_7.item2.table1.row11 pio:column pi:PI_16_7.item2.table1.row11.column2 .
+pi:PI_16_7.item2.table1.row11.column2 rdf:value "100mg BID反復" .
+pi:PI_16_7.item2.table1.row11 pio:column pi:PI_16_7.item2.table1.row11.column3 .
+pi:PI_16_7.item2.table1.row11.column3 rdf:value "50mg 単回" .
+pi:PI_16_7.item2.table1.row11 pio:column pi:PI_16_7.item2.table1.row11.column4 .
+pi:PI_16_7.item2.table1.row11.column4 rdf:value "8" .
+pi:PI_16_7.item2.table1.row11 pio:column pi:PI_16_7.item2.table1.row11.column5 .
+pi:PI_16_7.item2.table1.row11.column5 rdf:value "3.54 （3.04, 4.11）" .
+pi:PI_16_7.item2.table1.row11 pio:column pi:PI_16_7.item2.table1.row11.column6 .
+pi:PI_16_7.item2.table1.row11.column6 rdf:value "1.31 （1.17, 1.46）" .
+pi:PI_16_7.item2.table1.row11 pio:column pi:PI_16_7.item2.table1.row11.column7 .
+pi:PI_16_7.item2.table1.row11.column7 rdf:value "2.91 （2.33, 3.62）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row12 .
+pi:PI_16_7.item2.table1.row12 pio:column pi:PI_16_7.item2.table1.row12.column1 .
+pi:PI_16_7.item2.table1.row12.column1 rdf:value "ドルテグラビル" .
+pi:PI_16_7.item2.table1.row12 pio:column pi:PI_16_7.item2.table1.row12.column2 .
+pi:PI_16_7.item2.table1.row12.column2 rdf:value "50mg QD反復" .
+pi:PI_16_7.item2.table1.row12 pio:column pi:PI_16_7.item2.table1.row12.column3 .
+pi:PI_16_7.item2.table1.row12.column3 rdf:value "200mg QD反復" .
+pi:PI_16_7.item2.table1.row12 pio:column pi:PI_16_7.item2.table1.row12.column4 .
+pi:PI_16_7.item2.table1.row12.column4 rdf:value "11" .
+pi:PI_16_7.item2.table1.row12 pio:column pi:PI_16_7.item2.table1.row12.column5 .
+pi:PI_16_7.item2.table1.row12.column5 rdf:value "1.00 （0.89, 1.12）" .
+pi:PI_16_7.item2.table1.row12 pio:column pi:PI_16_7.item2.table1.row12.column6 .
+pi:PI_16_7.item2.table1.row12.column6 rdf:value "1.06 （0.88, 1.28）" .
+pi:PI_16_7.item2.table1.row12 pio:column pi:PI_16_7.item2.table1.row12.column7 .
+pi:PI_16_7.item2.table1.row12.column7 rdf:value "0.98 （0.88, 1.09）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row13 .
+pi:PI_16_7.item2.table1.row13 pio:column pi:PI_16_7.item2.table1.row13.column1 .
+pi:PI_16_7.item2.table1.row13.column1 rdf:value "エファビレンツ" .
+pi:PI_16_7.item2.table1.row13 pio:column pi:PI_16_7.item2.table1.row13.column2 .
+pi:PI_16_7.item2.table1.row13.column2 rdf:value "600mg QD反復" .
+pi:PI_16_7.item2.table1.row13 pio:column pi:PI_16_7.item2.table1.row13.column3 .
+pi:PI_16_7.item2.table1.row13.column3 rdf:value "100mg QD 1日目" .
+pi:PI_16_7.item2.table1.row13 pio:column pi:PI_16_7.item2.table1.row13.column4 .
+pi:PI_16_7.item2.table1.row13.column4 rdf:value "17" .
+pi:PI_16_7.item2.table1.row13 pio:column pi:PI_16_7.item2.table1.row13.column5 .
+pi:PI_16_7.item2.table1.row13.column5 rdf:value "0.38 （0.33, 0.45）" .
+pi:PI_16_7.item2.table1.row13 pio:column pi:PI_16_7.item2.table1.row13.column6 .
+pi:PI_16_7.item2.table1.row13.column6 rdf:value "0.65 （0.58, 0.73）" .
+pi:PI_16_7.item2.table1.row13 pio:column pi:PI_16_7.item2.table1.row13.column7 .
+pi:PI_16_7.item2.table1.row13.column7 rdf:value "0.15 （0.10, 0.23）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row14 .
+pi:PI_16_7.item2.table1.row14 pio:column pi:PI_16_7.item2.table1.row14.column1 .
+pi:PI_16_7.item2.table1.row14.column1 rdf:value "エファビレンツ" .
+pi:PI_16_7.item2.table1.row14 pio:column pi:PI_16_7.item2.table1.row14.column2 .
+pi:PI_16_7.item2.table1.row14.column2 rdf:value "600mg QD反復" .
+pi:PI_16_7.item2.table1.row14 pio:column pi:PI_16_7.item2.table1.row14.column3 .
+pi:PI_16_7.item2.table1.row14.column3 rdf:value "100mg QD14日目" .
+pi:PI_16_7.item2.table1.row14 pio:column pi:PI_16_7.item2.table1.row14.column4 .
+pi:PI_16_7.item2.table1.row14.column4 rdf:value "17" .
+pi:PI_16_7.item2.table1.row14 pio:column pi:PI_16_7.item2.table1.row14.column5 .
+pi:PI_16_7.item2.table1.row14.column5 rdf:value "0.68 （0.58, 0.80）" .
+pi:PI_16_7.item2.table1.row14 pio:column pi:PI_16_7.item2.table1.row14.column6 .
+pi:PI_16_7.item2.table1.row14.column6 rdf:value "0.86 （0.77, 0.97）" .
+pi:PI_16_7.item2.table1.row14 pio:column pi:PI_16_7.item2.table1.row14.column7 .
+pi:PI_16_7.item2.table1.row14.column7 rdf:value "0.50 （0.39, 0.64）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row15 .
+pi:PI_16_7.item2.table1.row15 pio:column pi:PI_16_7.item2.table1.row15.column1 .
+pi:PI_16_7.item2.table1.row15.column1 rdf:value "テノホビル ジソプロキシルフマル酸塩" .
+pi:PI_16_7.item2.table1.row15 pio:column pi:PI_16_7.item2.table1.row15.column2 .
+pi:PI_16_7.item2.table1.row15.column2 rdf:value "300mg QD反復" .
+pi:PI_16_7.item2.table1.row15 pio:column pi:PI_16_7.item2.table1.row15.column3 .
+pi:PI_16_7.item2.table1.row15.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table1.row15 pio:column pi:PI_16_7.item2.table1.row15.column4 .
+pi:PI_16_7.item2.table1.row15.column4 rdf:value "7" .
+pi:PI_16_7.item2.table1.row15 pio:column pi:PI_16_7.item2.table1.row15.column5 .
+pi:PI_16_7.item2.table1.row15.column5 rdf:value "0.95 （0.80, 1.12）" .
+pi:PI_16_7.item2.table1.row15 pio:column pi:PI_16_7.item2.table1.row15.column6 .
+pi:PI_16_7.item2.table1.row15.column6 rdf:value "0.80 （0.64, 1.01）" .
+pi:PI_16_7.item2.table1.row15 pio:column pi:PI_16_7.item2.table1.row15.column7 .
+pi:PI_16_7.item2.table1.row15.column7 rdf:value "0.94 （0.78, 1.12）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row16 .
+pi:PI_16_7.item2.table1.row16 pio:column pi:PI_16_7.item2.table1.row16.column1 .
+pi:PI_16_7.item2.table1.row16.column1 rdf:value "ラミブジン・テノホビル ジソプロキシルフマル酸塩" .
+pi:PI_16_7.item2.table1.row16 pio:column pi:PI_16_7.item2.table1.row16.column2 .
+pi:PI_16_7.item2.table1.row16.column2 rdf:value "300/300mg 単回" .
+pi:PI_16_7.item2.table1.row16 pio:column pi:PI_16_7.item2.table1.row16.column3 .
+pi:PI_16_7.item2.table1.row16.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table1.row16 pio:column pi:PI_16_7.item2.table1.row16.column4 .
+pi:PI_16_7.item2.table1.row16.column4 rdf:value "15" .
+pi:PI_16_7.item2.table1.row16 pio:column pi:PI_16_7.item2.table1.row16.column5 .
+pi:PI_16_7.item2.table1.row16.column5 rdf:value "0.96 （0.87, 1.06）" .
+pi:PI_16_7.item2.table1.row16 pio:column pi:PI_16_7.item2.table1.row16.column6 .
+pi:PI_16_7.item2.table1.row16.column6 rdf:value "0.97 （0.88, 1.07）" .
+pi:PI_16_7.item2.table1.row16 pio:column pi:PI_16_7.item2.table1.row16.column7 .
+pi:PI_16_7.item2.table1.row16.column7 rdf:value "0.94 （0.83, 1.06）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row17 .
+pi:PI_16_7.item2.table1.row17 pio:column pi:PI_16_7.item2.table1.row17.column1 .
+pi:PI_16_7.item2.table1.row17.column1 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table1.row17 pio:column pi:PI_16_7.item2.table1.row17.column2 .
+pi:PI_16_7.item2.table1.row17.column2 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table1.row17 pio:column pi:PI_16_7.item2.table1.row17.column3 .
+pi:PI_16_7.item2.table1.row17.column3 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table1.row17 pio:column pi:PI_16_7.item2.table1.row17.column4 .
+pi:PI_16_7.item2.table1.row17.column4 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table1.row17 pio:column pi:PI_16_7.item2.table1.row17.column5 .
+pi:PI_16_7.item2.table1.row17.column5 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table1.row17 pio:column pi:PI_16_7.item2.table1.row17.column6 .
+pi:PI_16_7.item2.table1.row17.column6 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table1.row17 pio:column pi:PI_16_7.item2.table1.row17.column7 .
+pi:PI_16_7.item2.table1.row17.column7 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row18 .
+pi:PI_16_7.item2.table1.row18 pio:column pi:PI_16_7.item2.table1.row18.column1 .
+pi:PI_16_7.item2.table1.row18.column1 rdf:value "エルバスビル及びグラゾプレビル" .
+pi:PI_16_7.item2.table1.row18 pio:column pi:PI_16_7.item2.table1.row18.column2 .
+pi:PI_16_7.item2.table1.row18.column2 rdf:value "50及び200mg QD反復" .
+pi:PI_16_7.item2.table1.row18 pio:column pi:PI_16_7.item2.table1.row18.column3 .
+pi:PI_16_7.item2.table1.row18.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table1.row18 pio:column pi:PI_16_7.item2.table1.row18.column4 .
+pi:PI_16_7.item2.table1.row18.column4 rdf:value "12" .
+pi:PI_16_7.item2.table1.row18 pio:column pi:PI_16_7.item2.table1.row18.column5 .
+pi:PI_16_7.item2.table1.row18.column5 rdf:value "1.56 （1.45, 1.68）" .
+pi:PI_16_7.item2.table1.row18 pio:column pi:PI_16_7.item2.table1.row18.column6 .
+pi:PI_16_7.item2.table1.row18.column6 rdf:value "1.41 （1.25, 1.58）" .
+pi:PI_16_7.item2.table1.row18 pio:column pi:PI_16_7.item2.table1.row18.column7 .
+pi:PI_16_7.item2.table1.row18.column7 rdf:value "1.61 （1.45, 1.79）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row19 .
+pi:PI_16_7.item2.table1.row19 pio:column pi:PI_16_7.item2.table1.row19.column1 .
+pi:PI_16_7.item2.table1.row19.column1 rdf:value "レジパスビル・ソホスブビル" .
+pi:PI_16_7.item2.table1.row19 pio:column pi:PI_16_7.item2.table1.row19.column2 .
+pi:PI_16_7.item2.table1.row19.column2 rdf:value "90/400mg 単回" .
+pi:PI_16_7.item2.table1.row19 pio:column pi:PI_16_7.item2.table1.row19.column3 .
+pi:PI_16_7.item2.table1.row19.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table1.row19 pio:column pi:PI_16_7.item2.table1.row19.column4 .
+pi:PI_16_7.item2.table1.row19.column4 rdf:value "14" .
+pi:PI_16_7.item2.table1.row19 pio:column pi:PI_16_7.item2.table1.row19.column5 .
+pi:PI_16_7.item2.table1.row19.column5 rdf:value "1.15 （1.07, 1.24）" .
+pi:PI_16_7.item2.table1.row19 pio:column pi:PI_16_7.item2.table1.row19.column6 .
+pi:PI_16_7.item2.table1.row19.column6 rdf:value "1.11 （0.97, 1.27）" .
+pi:PI_16_7.item2.table1.row19 pio:column pi:PI_16_7.item2.table1.row19.column7 .
+pi:PI_16_7.item2.table1.row19.column7 rdf:value "1.24 （1.13, 1.36）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row20 .
+pi:PI_16_7.item2.table1.row20 pio:column pi:PI_16_7.item2.table1.row20.column1 .
+pi:PI_16_7.item2.table1.row20.column1 rdf:value "制酸薬" .
+pi:PI_16_7.item2.table1.row20 pio:column pi:PI_16_7.item2.table1.row20.column2 .
+pi:PI_16_7.item2.table1.row20.column2 rdf:value "制酸薬" .
+pi:PI_16_7.item2.table1.row20 pio:column pi:PI_16_7.item2.table1.row20.column3 .
+pi:PI_16_7.item2.table1.row20.column3 rdf:value "制酸薬" .
+pi:PI_16_7.item2.table1.row20 pio:column pi:PI_16_7.item2.table1.row20.column4 .
+pi:PI_16_7.item2.table1.row20.column4 rdf:value "制酸薬" .
+pi:PI_16_7.item2.table1.row20 pio:column pi:PI_16_7.item2.table1.row20.column5 .
+pi:PI_16_7.item2.table1.row20.column5 rdf:value "制酸薬" .
+pi:PI_16_7.item2.table1.row20 pio:column pi:PI_16_7.item2.table1.row20.column6 .
+pi:PI_16_7.item2.table1.row20.column6 rdf:value "制酸薬" .
+pi:PI_16_7.item2.table1.row20 pio:column pi:PI_16_7.item2.table1.row20.column7 .
+pi:PI_16_7.item2.table1.row20.column7 rdf:value "制酸薬" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row21 .
+pi:PI_16_7.item2.table1.row21 pio:column pi:PI_16_7.item2.table1.row21.column1 .
+pi:PI_16_7.item2.table1.row21.column1 rdf:value "水酸化アルミニウム・水酸化マグネシウム" .
+pi:PI_16_7.item2.table1.row21 pio:column pi:PI_16_7.item2.table1.row21.column2 .
+pi:PI_16_7.item2.table1.row21.column2 rdf:value "1600/1600mg 単回" .
+pi:PI_16_7.item2.table1.row21 pio:column pi:PI_16_7.item2.table1.row21.column3 .
+pi:PI_16_7.item2.table1.row21.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table1.row21 pio:column pi:PI_16_7.item2.table1.row21.column4 .
+pi:PI_16_7.item2.table1.row21.column4 rdf:value "14" .
+pi:PI_16_7.item2.table1.row21 pio:column pi:PI_16_7.item2.table1.row21.column5 .
+pi:PI_16_7.item2.table1.row21.column5 rdf:value "1.01 （0.92, 1.11）" .
+pi:PI_16_7.item2.table1.row21 pio:column pi:PI_16_7.item2.table1.row21.column6 .
+pi:PI_16_7.item2.table1.row21.column6 rdf:value "0.86 （0.74, 1.01）" .
+pi:PI_16_7.item2.table1.row21 pio:column pi:PI_16_7.item2.table1.row21.column7 .
+pi:PI_16_7.item2.table1.row21.column7 rdf:value "1.03 （0.94, 1.12）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row22 .
+pi:PI_16_7.item2.table1.row22 pio:column pi:PI_16_7.item2.table1.row22.column1 .
+pi:PI_16_7.item2.table1.row22.column1 rdf:value "パントプラゾール" .
+pi:PI_16_7.item2.table1.row22 pio:column pi:PI_16_7.item2.table1.row22.column2 .
+pi:PI_16_7.item2.table1.row22.column2 rdf:value "40mg QD反復" .
+pi:PI_16_7.item2.table1.row22 pio:column pi:PI_16_7.item2.table1.row22.column3 .
+pi:PI_16_7.item2.table1.row22.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table1.row22 pio:column pi:PI_16_7.item2.table1.row22.column4 .
+pi:PI_16_7.item2.table1.row22.column4 rdf:value "13" .
+pi:PI_16_7.item2.table1.row22 pio:column pi:PI_16_7.item2.table1.row22.column5 .
+pi:PI_16_7.item2.table1.row22.column5 rdf:value "0.83 （0.76, 0.91）" .
+pi:PI_16_7.item2.table1.row22 pio:column pi:PI_16_7.item2.table1.row22.column6 .
+pi:PI_16_7.item2.table1.row22.column6 rdf:value "0.88 （0.76, 1.01）" .
+pi:PI_16_7.item2.table1.row22 pio:column pi:PI_16_7.item2.table1.row22.column7 .
+pi:PI_16_7.item2.table1.row22.column7 rdf:value "0.84 （0.77, 0.92）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row23 .
+pi:PI_16_7.item2.table1.row23 pio:column pi:PI_16_7.item2.table1.row23.column1 .
+pi:PI_16_7.item2.table1.row23.column1 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table1.row23 pio:column pi:PI_16_7.item2.table1.row23.column2 .
+pi:PI_16_7.item2.table1.row23.column2 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table1.row23 pio:column pi:PI_16_7.item2.table1.row23.column3 .
+pi:PI_16_7.item2.table1.row23.column3 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table1.row23 pio:column pi:PI_16_7.item2.table1.row23.column4 .
+pi:PI_16_7.item2.table1.row23.column4 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table1.row23 pio:column pi:PI_16_7.item2.table1.row23.column5 .
+pi:PI_16_7.item2.table1.row23.column5 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table1.row23 pio:column pi:PI_16_7.item2.table1.row23.column6 .
+pi:PI_16_7.item2.table1.row23.column6 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table1.row23 pio:column pi:PI_16_7.item2.table1.row23.column7 .
+pi:PI_16_7.item2.table1.row23.column7 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row24 .
+pi:PI_16_7.item2.table1.row24 pio:column pi:PI_16_7.item2.table1.row24.column1 .
+pi:PI_16_7.item2.table1.row24.column1 rdf:value "メサドン" .
+pi:PI_16_7.item2.table1.row24 pio:column pi:PI_16_7.item2.table1.row24.column2 .
+pi:PI_16_7.item2.table1.row24.column2 rdf:value "20～200mg QD反復" .
+pi:PI_16_7.item2.table1.row24 pio:column pi:PI_16_7.item2.table1.row24.column3 .
+pi:PI_16_7.item2.table1.row24.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table1.row24 pio:column pi:PI_16_7.item2.table1.row24.column4 .
+pi:PI_16_7.item2.table1.row24.column4 rdf:value "14" .
+pi:PI_16_7.item2.table1.row24 pio:column pi:PI_16_7.item2.table1.row24.column5 .
+pi:PI_16_7.item2.table1.row24.column5 rdf:value "0.74 （0.61, 0.90）" .
+pi:PI_16_7.item2.table1.row24 pio:column pi:PI_16_7.item2.table1.row24.column6 .
+pi:PI_16_7.item2.table1.row24.column6 rdf:value "0.76 （0.63, 0.91）" .
+pi:PI_16_7.item2.table1.row24 pio:column pi:PI_16_7.item2.table1.row24.column7 .
+pi:PI_16_7.item2.table1.row24.column7 rdf:value "0.80 （0.63, 1.03）" .
+pi:PI_16_7.item2.table1 pio:row pi:PI_16_7.item2.table1.row25 .
+pi:PI_16_7.item2.table1.row25 pio:column pi:PI_16_7.item2.table1.row25.column1 .
+pi:PI_16_7.item2.table1.row25.column1 rdf:value "QD：1日1回投与、BID：1日2回投与、AUC：ドラビリンが単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table1.row25 pio:column pi:PI_16_7.item2.table1.row25.column2 .
+pi:PI_16_7.item2.table1.row25.column2 rdf:value "QD：1日1回投与、BID：1日2回投与、AUC：ドラビリンが単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table1.row25 pio:column pi:PI_16_7.item2.table1.row25.column3 .
+pi:PI_16_7.item2.table1.row25.column3 rdf:value "QD：1日1回投与、BID：1日2回投与、AUC：ドラビリンが単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table1.row25 pio:column pi:PI_16_7.item2.table1.row25.column4 .
+pi:PI_16_7.item2.table1.row25.column4 rdf:value "QD：1日1回投与、BID：1日2回投与、AUC：ドラビリンが単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table1.row25 pio:column pi:PI_16_7.item2.table1.row25.column5 .
+pi:PI_16_7.item2.table1.row25.column5 rdf:value "QD：1日1回投与、BID：1日2回投与、AUC：ドラビリンが単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table1.row25 pio:column pi:PI_16_7.item2.table1.row25.column6 .
+pi:PI_16_7.item2.table1.row25.column6 rdf:value "QD：1日1回投与、BID：1日2回投与、AUC：ドラビリンが単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table1.row25 pio:column pi:PI_16_7.item2.table1.row25.column7 .
+pi:PI_16_7.item2.table1.row25.column7 rdf:value "QD：1日1回投与、BID：1日2回投与、AUC：ドラビリンが単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7 pio:table pi:PI_16_7.item2.table2 .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row1 .
+pi:PI_16_7.item2.table2.row1 pio:column pi:PI_16_7.item2.table2.row1.column1 .
+pi:PI_16_7.item2.table2.row1.column1 rdf:value "併用薬" .
+pi:PI_16_7.item2.table2.row1 pio:column pi:PI_16_7.item2.table2.row1.column2 .
+pi:PI_16_7.item2.table2.row1.column2 rdf:value "併用薬の1回用量及び用法" .
+pi:PI_16_7.item2.table2.row1 pio:column pi:PI_16_7.item2.table2.row1.column3 .
+pi:PI_16_7.item2.table2.row1.column3 rdf:value "ドラビリンの1回用量及び用法" .
+pi:PI_16_7.item2.table2.row1 pio:column pi:PI_16_7.item2.table2.row1.column4 .
+pi:PI_16_7.item2.table2.row1.column4 rdf:value "例数" .
+pi:PI_16_7.item2.table2.row1 pio:column pi:PI_16_7.item2.table2.row1.column5 .
+pi:PI_16_7.item2.table2.row1.column5 rdf:value "併用薬の血漿中薬物動態パラメータの最小二乗幾何平均比 併用時／非併用時（90%信頼区間） （影響なし=1.00）" .
+pi:PI_16_7.item2.table2.row1 pio:column pi:PI_16_7.item2.table2.row1.column6 .
+pi:PI_16_7.item2.table2.row1.column6 rdf:value "併用薬の血漿中薬物動態パラメータの最小二乗幾何平均比 併用時／非併用時（90%信頼区間） （影響なし=1.00）" .
+pi:PI_16_7.item2.table2.row1 pio:column pi:PI_16_7.item2.table2.row1.column7 .
+pi:PI_16_7.item2.table2.row1.column7 rdf:value "併用薬の血漿中薬物動態パラメータの最小二乗幾何平均比 併用時／非併用時（90%信頼区間） （影響なし=1.00）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row2 .
+pi:PI_16_7.item2.table2.row2 pio:column pi:PI_16_7.item2.table2.row2.column1 .
+pi:PI_16_7.item2.table2.row2.column1 rdf:value "併用薬" .
+pi:PI_16_7.item2.table2.row2 pio:column pi:PI_16_7.item2.table2.row2.column2 .
+pi:PI_16_7.item2.table2.row2.column2 rdf:value "併用薬の1回用量及び用法" .
+pi:PI_16_7.item2.table2.row2 pio:column pi:PI_16_7.item2.table2.row2.column3 .
+pi:PI_16_7.item2.table2.row2.column3 rdf:value "ドラビリンの1回用量及び用法" .
+pi:PI_16_7.item2.table2.row2 pio:column pi:PI_16_7.item2.table2.row2.column4 .
+pi:PI_16_7.item2.table2.row2.column4 rdf:value "例数" .
+pi:PI_16_7.item2.table2.row2 pio:column pi:PI_16_7.item2.table2.row2.column5 .
+pi:PI_16_7.item2.table2.row2.column5 rdf:value "AUC" .
+pi:PI_16_7.item2.table2.row2 pio:column pi:PI_16_7.item2.table2.row2.column6 .
+pi:PI_16_7.item2.table2.row2.column6 rdf:value "C" .
+pi:PI_16_7.item2.table2.row2 pio:column pi:PI_16_7.item2.table2.row2.column7 .
+pi:PI_16_7.item2.table2.row2.column7 rdf:value "C" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row3 .
+pi:PI_16_7.item2.table2.row3 pio:column pi:PI_16_7.item2.table2.row3.column1 .
+pi:PI_16_7.item2.table2.row3.column1 rdf:value "CYP3A4基質" .
+pi:PI_16_7.item2.table2.row3 pio:column pi:PI_16_7.item2.table2.row3.column2 .
+pi:PI_16_7.item2.table2.row3.column2 rdf:value "CYP3A4基質" .
+pi:PI_16_7.item2.table2.row3 pio:column pi:PI_16_7.item2.table2.row3.column3 .
+pi:PI_16_7.item2.table2.row3.column3 rdf:value "CYP3A4基質" .
+pi:PI_16_7.item2.table2.row3 pio:column pi:PI_16_7.item2.table2.row3.column4 .
+pi:PI_16_7.item2.table2.row3.column4 rdf:value "CYP3A4基質" .
+pi:PI_16_7.item2.table2.row3 pio:column pi:PI_16_7.item2.table2.row3.column5 .
+pi:PI_16_7.item2.table2.row3.column5 rdf:value "CYP3A4基質" .
+pi:PI_16_7.item2.table2.row3 pio:column pi:PI_16_7.item2.table2.row3.column6 .
+pi:PI_16_7.item2.table2.row3.column6 rdf:value "CYP3A4基質" .
+pi:PI_16_7.item2.table2.row3 pio:column pi:PI_16_7.item2.table2.row3.column7 .
+pi:PI_16_7.item2.table2.row3.column7 rdf:value "CYP3A4基質" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row4 .
+pi:PI_16_7.item2.table2.row4 pio:column pi:PI_16_7.item2.table2.row4.column1 .
+pi:PI_16_7.item2.table2.row4.column1 rdf:value "ミダゾラム" .
+pi:PI_16_7.item2.table2.row4 pio:column pi:PI_16_7.item2.table2.row4.column2 .
+pi:PI_16_7.item2.table2.row4.column2 rdf:value "2mg 単回" .
+pi:PI_16_7.item2.table2.row4 pio:column pi:PI_16_7.item2.table2.row4.column3 .
+pi:PI_16_7.item2.table2.row4.column3 rdf:value "120mg QD反復" .
+pi:PI_16_7.item2.table2.row4 pio:column pi:PI_16_7.item2.table2.row4.column4 .
+pi:PI_16_7.item2.table2.row4.column4 rdf:value "7" .
+pi:PI_16_7.item2.table2.row4 pio:column pi:PI_16_7.item2.table2.row4.column5 .
+pi:PI_16_7.item2.table2.row4.column5 rdf:value "0.82 （0.70, 0.97）" .
+pi:PI_16_7.item2.table2.row4 pio:column pi:PI_16_7.item2.table2.row4.column6 .
+pi:PI_16_7.item2.table2.row4.column6 rdf:value "1.02 （0.81, 1.28）" .
+pi:PI_16_7.item2.table2.row4 pio:column pi:PI_16_7.item2.table2.row4.column7 .
+pi:PI_16_7.item2.table2.row4.column7 rdf:value "－ （－, －）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row5 .
+pi:PI_16_7.item2.table2.row5 pio:column pi:PI_16_7.item2.table2.row5.column1 .
+pi:PI_16_7.item2.table2.row5.column1 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table2.row5 pio:column pi:PI_16_7.item2.table2.row5.column2 .
+pi:PI_16_7.item2.table2.row5.column2 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table2.row5 pio:column pi:PI_16_7.item2.table2.row5.column3 .
+pi:PI_16_7.item2.table2.row5.column3 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table2.row5 pio:column pi:PI_16_7.item2.table2.row5.column4 .
+pi:PI_16_7.item2.table2.row5.column4 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table2.row5 pio:column pi:PI_16_7.item2.table2.row5.column5 .
+pi:PI_16_7.item2.table2.row5.column5 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table2.row5 pio:column pi:PI_16_7.item2.table2.row5.column6 .
+pi:PI_16_7.item2.table2.row5.column6 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table2.row5 pio:column pi:PI_16_7.item2.table2.row5.column7 .
+pi:PI_16_7.item2.table2.row5.column7 rdf:value "抗HIV薬" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row6 .
+pi:PI_16_7.item2.table2.row6 pio:column pi:PI_16_7.item2.table2.row6.column1 .
+pi:PI_16_7.item2.table2.row6.column1 rdf:value "ドルテグラビル" .
+pi:PI_16_7.item2.table2.row6 pio:column pi:PI_16_7.item2.table2.row6.column2 .
+pi:PI_16_7.item2.table2.row6.column2 rdf:value "50mg QD反復" .
+pi:PI_16_7.item2.table2.row6 pio:column pi:PI_16_7.item2.table2.row6.column3 .
+pi:PI_16_7.item2.table2.row6.column3 rdf:value "200mg QD反復" .
+pi:PI_16_7.item2.table2.row6 pio:column pi:PI_16_7.item2.table2.row6.column4 .
+pi:PI_16_7.item2.table2.row6.column4 rdf:value "11" .
+pi:PI_16_7.item2.table2.row6 pio:column pi:PI_16_7.item2.table2.row6.column5 .
+pi:PI_16_7.item2.table2.row6.column5 rdf:value "1.36 （1.15, 1.62）" .
+pi:PI_16_7.item2.table2.row6 pio:column pi:PI_16_7.item2.table2.row6.column6 .
+pi:PI_16_7.item2.table2.row6.column6 rdf:value "1.43 （1.20, 1.71）" .
+pi:PI_16_7.item2.table2.row6 pio:column pi:PI_16_7.item2.table2.row6.column7 .
+pi:PI_16_7.item2.table2.row6.column7 rdf:value "1.27 （1.06, 1.53）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row7 .
+pi:PI_16_7.item2.table2.row7 pio:column pi:PI_16_7.item2.table2.row7.column1 .
+pi:PI_16_7.item2.table2.row7.column1 rdf:value "ラミブジン・テノホビル ジソプロキシルフマル酸塩" .
+pi:PI_16_7.item2.table2.row7 pio:column pi:PI_16_7.item2.table2.row7.column2 .
+pi:PI_16_7.item2.table2.row7.column2 rdf:value "300/300mg 単回" .
+pi:PI_16_7.item2.table2.row7 pio:column pi:PI_16_7.item2.table2.row7.column3 .
+pi:PI_16_7.item2.table2.row7.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table2.row7 pio:column pi:PI_16_7.item2.table2.row7.column4 .
+pi:PI_16_7.item2.table2.row7.column4 rdf:value "15" .
+pi:PI_16_7.item2.table2.row7 pio:column pi:PI_16_7.item2.table2.row7.column5 .
+pi:PI_16_7.item2.table2.row7.column5 rdf:value "ラミブジン" .
+pi:PI_16_7.item2.table2.row7 pio:column pi:PI_16_7.item2.table2.row7.column6 .
+pi:PI_16_7.item2.table2.row7.column6 rdf:value "ラミブジン" .
+pi:PI_16_7.item2.table2.row7 pio:column pi:PI_16_7.item2.table2.row7.column7 .
+pi:PI_16_7.item2.table2.row7.column7 rdf:value "ラミブジン" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row8 .
+pi:PI_16_7.item2.table2.row8 pio:column pi:PI_16_7.item2.table2.row8.column1 .
+pi:PI_16_7.item2.table2.row8.column1 rdf:value "ラミブジン・テノホビル ジソプロキシルフマル酸塩" .
+pi:PI_16_7.item2.table2.row8 pio:column pi:PI_16_7.item2.table2.row8.column2 .
+pi:PI_16_7.item2.table2.row8.column2 rdf:value "300/300mg 単回" .
+pi:PI_16_7.item2.table2.row8 pio:column pi:PI_16_7.item2.table2.row8.column3 .
+pi:PI_16_7.item2.table2.row8.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table2.row8 pio:column pi:PI_16_7.item2.table2.row8.column4 .
+pi:PI_16_7.item2.table2.row8.column4 rdf:value "15" .
+pi:PI_16_7.item2.table2.row8 pio:column pi:PI_16_7.item2.table2.row8.column5 .
+pi:PI_16_7.item2.table2.row8.column5 rdf:value "0.94 （0.88, 1.00）" .
+pi:PI_16_7.item2.table2.row8 pio:column pi:PI_16_7.item2.table2.row8.column6 .
+pi:PI_16_7.item2.table2.row8.column6 rdf:value "0.92 （0.81, 1.05）" .
+pi:PI_16_7.item2.table2.row8 pio:column pi:PI_16_7.item2.table2.row8.column7 .
+pi:PI_16_7.item2.table2.row8.column7 rdf:value "－ （－, －）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row9 .
+pi:PI_16_7.item2.table2.row9 pio:column pi:PI_16_7.item2.table2.row9.column1 .
+pi:PI_16_7.item2.table2.row9.column1 rdf:value "ラミブジン・テノホビル ジソプロキシルフマル酸塩" .
+pi:PI_16_7.item2.table2.row9 pio:column pi:PI_16_7.item2.table2.row9.column2 .
+pi:PI_16_7.item2.table2.row9.column2 rdf:value "300/300mg 単回" .
+pi:PI_16_7.item2.table2.row9 pio:column pi:PI_16_7.item2.table2.row9.column3 .
+pi:PI_16_7.item2.table2.row9.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table2.row9 pio:column pi:PI_16_7.item2.table2.row9.column4 .
+pi:PI_16_7.item2.table2.row9.column4 rdf:value "15" .
+pi:PI_16_7.item2.table2.row9 pio:column pi:PI_16_7.item2.table2.row9.column5 .
+pi:PI_16_7.item2.table2.row9.column5 rdf:value "テノホビル" .
+pi:PI_16_7.item2.table2.row9 pio:column pi:PI_16_7.item2.table2.row9.column6 .
+pi:PI_16_7.item2.table2.row9.column6 rdf:value "テノホビル" .
+pi:PI_16_7.item2.table2.row9 pio:column pi:PI_16_7.item2.table2.row9.column7 .
+pi:PI_16_7.item2.table2.row9.column7 rdf:value "テノホビル" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row10 .
+pi:PI_16_7.item2.table2.row10 pio:column pi:PI_16_7.item2.table2.row10.column1 .
+pi:PI_16_7.item2.table2.row10.column1 rdf:value "ラミブジン・テノホビル ジソプロキシルフマル酸塩" .
+pi:PI_16_7.item2.table2.row10 pio:column pi:PI_16_7.item2.table2.row10.column2 .
+pi:PI_16_7.item2.table2.row10.column2 rdf:value "300/300mg 単回" .
+pi:PI_16_7.item2.table2.row10 pio:column pi:PI_16_7.item2.table2.row10.column3 .
+pi:PI_16_7.item2.table2.row10.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table2.row10 pio:column pi:PI_16_7.item2.table2.row10.column4 .
+pi:PI_16_7.item2.table2.row10.column4 rdf:value "15" .
+pi:PI_16_7.item2.table2.row10 pio:column pi:PI_16_7.item2.table2.row10.column5 .
+pi:PI_16_7.item2.table2.row10.column5 rdf:value "1.11 （0.97, 1.28）" .
+pi:PI_16_7.item2.table2.row10 pio:column pi:PI_16_7.item2.table2.row10.column6 .
+pi:PI_16_7.item2.table2.row10.column6 rdf:value "1.17 （0.96, 1.42）" .
+pi:PI_16_7.item2.table2.row10 pio:column pi:PI_16_7.item2.table2.row10.column7 .
+pi:PI_16_7.item2.table2.row10.column7 rdf:value "－ （－, －）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row11 .
+pi:PI_16_7.item2.table2.row11 pio:column pi:PI_16_7.item2.table2.row11.column1 .
+pi:PI_16_7.item2.table2.row11.column1 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table2.row11 pio:column pi:PI_16_7.item2.table2.row11.column2 .
+pi:PI_16_7.item2.table2.row11.column2 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table2.row11 pio:column pi:PI_16_7.item2.table2.row11.column3 .
+pi:PI_16_7.item2.table2.row11.column3 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table2.row11 pio:column pi:PI_16_7.item2.table2.row11.column4 .
+pi:PI_16_7.item2.table2.row11.column4 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table2.row11 pio:column pi:PI_16_7.item2.table2.row11.column5 .
+pi:PI_16_7.item2.table2.row11.column5 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table2.row11 pio:column pi:PI_16_7.item2.table2.row11.column6 .
+pi:PI_16_7.item2.table2.row11.column6 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table2.row11 pio:column pi:PI_16_7.item2.table2.row11.column7 .
+pi:PI_16_7.item2.table2.row11.column7 rdf:value "抗HCV薬" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row12 .
+pi:PI_16_7.item2.table2.row12 pio:column pi:PI_16_7.item2.table2.row12.column1 .
+pi:PI_16_7.item2.table2.row12.column1 rdf:value "エルバスビル及びグラゾプレビル" .
+pi:PI_16_7.item2.table2.row12 pio:column pi:PI_16_7.item2.table2.row12.column2 .
+pi:PI_16_7.item2.table2.row12.column2 rdf:value "50及び200mg QD反復" .
+pi:PI_16_7.item2.table2.row12 pio:column pi:PI_16_7.item2.table2.row12.column3 .
+pi:PI_16_7.item2.table2.row12.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row12 pio:column pi:PI_16_7.item2.table2.row12.column4 .
+pi:PI_16_7.item2.table2.row12.column4 rdf:value "12" .
+pi:PI_16_7.item2.table2.row12 pio:column pi:PI_16_7.item2.table2.row12.column5 .
+pi:PI_16_7.item2.table2.row12.column5 rdf:value "エルバスビル" .
+pi:PI_16_7.item2.table2.row12 pio:column pi:PI_16_7.item2.table2.row12.column6 .
+pi:PI_16_7.item2.table2.row12.column6 rdf:value "エルバスビル" .
+pi:PI_16_7.item2.table2.row12 pio:column pi:PI_16_7.item2.table2.row12.column7 .
+pi:PI_16_7.item2.table2.row12.column7 rdf:value "エルバスビル" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row13 .
+pi:PI_16_7.item2.table2.row13 pio:column pi:PI_16_7.item2.table2.row13.column1 .
+pi:PI_16_7.item2.table2.row13.column1 rdf:value "エルバスビル及びグラゾプレビル" .
+pi:PI_16_7.item2.table2.row13 pio:column pi:PI_16_7.item2.table2.row13.column2 .
+pi:PI_16_7.item2.table2.row13.column2 rdf:value "50及び200mg QD反復" .
+pi:PI_16_7.item2.table2.row13 pio:column pi:PI_16_7.item2.table2.row13.column3 .
+pi:PI_16_7.item2.table2.row13.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row13 pio:column pi:PI_16_7.item2.table2.row13.column4 .
+pi:PI_16_7.item2.table2.row13.column4 rdf:value "12" .
+pi:PI_16_7.item2.table2.row13 pio:column pi:PI_16_7.item2.table2.row13.column5 .
+pi:PI_16_7.item2.table2.row13.column5 rdf:value "0.96 （0.90, 1.02）" .
+pi:PI_16_7.item2.table2.row13 pio:column pi:PI_16_7.item2.table2.row13.column6 .
+pi:PI_16_7.item2.table2.row13.column6 rdf:value "0.96 （0.91, 1.01）" .
+pi:PI_16_7.item2.table2.row13 pio:column pi:PI_16_7.item2.table2.row13.column7 .
+pi:PI_16_7.item2.table2.row13.column7 rdf:value "0.96 （0.89, 1.04）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row14 .
+pi:PI_16_7.item2.table2.row14 pio:column pi:PI_16_7.item2.table2.row14.column1 .
+pi:PI_16_7.item2.table2.row14.column1 rdf:value "エルバスビル及びグラゾプレビル" .
+pi:PI_16_7.item2.table2.row14 pio:column pi:PI_16_7.item2.table2.row14.column2 .
+pi:PI_16_7.item2.table2.row14.column2 rdf:value "50及び200mg QD反復" .
+pi:PI_16_7.item2.table2.row14 pio:column pi:PI_16_7.item2.table2.row14.column3 .
+pi:PI_16_7.item2.table2.row14.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row14 pio:column pi:PI_16_7.item2.table2.row14.column4 .
+pi:PI_16_7.item2.table2.row14.column4 rdf:value "12" .
+pi:PI_16_7.item2.table2.row14 pio:column pi:PI_16_7.item2.table2.row14.column5 .
+pi:PI_16_7.item2.table2.row14.column5 rdf:value "グラゾプレビル" .
+pi:PI_16_7.item2.table2.row14 pio:column pi:PI_16_7.item2.table2.row14.column6 .
+pi:PI_16_7.item2.table2.row14.column6 rdf:value "グラゾプレビル" .
+pi:PI_16_7.item2.table2.row14 pio:column pi:PI_16_7.item2.table2.row14.column7 .
+pi:PI_16_7.item2.table2.row14.column7 rdf:value "グラゾプレビル" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row15 .
+pi:PI_16_7.item2.table2.row15 pio:column pi:PI_16_7.item2.table2.row15.column1 .
+pi:PI_16_7.item2.table2.row15.column1 rdf:value "エルバスビル及びグラゾプレビル" .
+pi:PI_16_7.item2.table2.row15 pio:column pi:PI_16_7.item2.table2.row15.column2 .
+pi:PI_16_7.item2.table2.row15.column2 rdf:value "50及び200mg QD反復" .
+pi:PI_16_7.item2.table2.row15 pio:column pi:PI_16_7.item2.table2.row15.column3 .
+pi:PI_16_7.item2.table2.row15.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row15 pio:column pi:PI_16_7.item2.table2.row15.column4 .
+pi:PI_16_7.item2.table2.row15.column4 rdf:value "12" .
+pi:PI_16_7.item2.table2.row15 pio:column pi:PI_16_7.item2.table2.row15.column5 .
+pi:PI_16_7.item2.table2.row15.column5 rdf:value "1.07 （0.94, 1.23）" .
+pi:PI_16_7.item2.table2.row15 pio:column pi:PI_16_7.item2.table2.row15.column6 .
+pi:PI_16_7.item2.table2.row15.column6 rdf:value "1.22 （1.01, 1.47）" .
+pi:PI_16_7.item2.table2.row15 pio:column pi:PI_16_7.item2.table2.row15.column7 .
+pi:PI_16_7.item2.table2.row15.column7 rdf:value "0.90 （0.83, 0.96）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row16 .
+pi:PI_16_7.item2.table2.row16 pio:column pi:PI_16_7.item2.table2.row16.column1 .
+pi:PI_16_7.item2.table2.row16.column1 rdf:value "レジパスビル・ソホスブビル" .
+pi:PI_16_7.item2.table2.row16 pio:column pi:PI_16_7.item2.table2.row16.column2 .
+pi:PI_16_7.item2.table2.row16.column2 rdf:value "90/400mg 単回" .
+pi:PI_16_7.item2.table2.row16 pio:column pi:PI_16_7.item2.table2.row16.column3 .
+pi:PI_16_7.item2.table2.row16.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table2.row16 pio:column pi:PI_16_7.item2.table2.row16.column4 .
+pi:PI_16_7.item2.table2.row16.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row16 pio:column pi:PI_16_7.item2.table2.row16.column5 .
+pi:PI_16_7.item2.table2.row16.column5 rdf:value "レジパスビル" .
+pi:PI_16_7.item2.table2.row16 pio:column pi:PI_16_7.item2.table2.row16.column6 .
+pi:PI_16_7.item2.table2.row16.column6 rdf:value "レジパスビル" .
+pi:PI_16_7.item2.table2.row16 pio:column pi:PI_16_7.item2.table2.row16.column7 .
+pi:PI_16_7.item2.table2.row16.column7 rdf:value "レジパスビル" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row17 .
+pi:PI_16_7.item2.table2.row17 pio:column pi:PI_16_7.item2.table2.row17.column1 .
+pi:PI_16_7.item2.table2.row17.column1 rdf:value "レジパスビル・ソホスブビル" .
+pi:PI_16_7.item2.table2.row17 pio:column pi:PI_16_7.item2.table2.row17.column2 .
+pi:PI_16_7.item2.table2.row17.column2 rdf:value "90/400mg 単回" .
+pi:PI_16_7.item2.table2.row17 pio:column pi:PI_16_7.item2.table2.row17.column3 .
+pi:PI_16_7.item2.table2.row17.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table2.row17 pio:column pi:PI_16_7.item2.table2.row17.column4 .
+pi:PI_16_7.item2.table2.row17.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row17 pio:column pi:PI_16_7.item2.table2.row17.column5 .
+pi:PI_16_7.item2.table2.row17.column5 rdf:value "0.92 （0.80, 1.06）" .
+pi:PI_16_7.item2.table2.row17 pio:column pi:PI_16_7.item2.table2.row17.column6 .
+pi:PI_16_7.item2.table2.row17.column6 rdf:value "0.91 （0.80, 1.02）" .
+pi:PI_16_7.item2.table2.row17 pio:column pi:PI_16_7.item2.table2.row17.column7 .
+pi:PI_16_7.item2.table2.row17.column7 rdf:value "－ （－, －）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row18 .
+pi:PI_16_7.item2.table2.row18 pio:column pi:PI_16_7.item2.table2.row18.column1 .
+pi:PI_16_7.item2.table2.row18.column1 rdf:value "レジパスビル・ソホスブビル" .
+pi:PI_16_7.item2.table2.row18 pio:column pi:PI_16_7.item2.table2.row18.column2 .
+pi:PI_16_7.item2.table2.row18.column2 rdf:value "90/400mg 単回" .
+pi:PI_16_7.item2.table2.row18 pio:column pi:PI_16_7.item2.table2.row18.column3 .
+pi:PI_16_7.item2.table2.row18.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table2.row18 pio:column pi:PI_16_7.item2.table2.row18.column4 .
+pi:PI_16_7.item2.table2.row18.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row18 pio:column pi:PI_16_7.item2.table2.row18.column5 .
+pi:PI_16_7.item2.table2.row18.column5 rdf:value "ソホスブビル" .
+pi:PI_16_7.item2.table2.row18 pio:column pi:PI_16_7.item2.table2.row18.column6 .
+pi:PI_16_7.item2.table2.row18.column6 rdf:value "ソホスブビル" .
+pi:PI_16_7.item2.table2.row18 pio:column pi:PI_16_7.item2.table2.row18.column7 .
+pi:PI_16_7.item2.table2.row18.column7 rdf:value "ソホスブビル" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row19 .
+pi:PI_16_7.item2.table2.row19 pio:column pi:PI_16_7.item2.table2.row19.column1 .
+pi:PI_16_7.item2.table2.row19.column1 rdf:value "レジパスビル・ソホスブビル" .
+pi:PI_16_7.item2.table2.row19 pio:column pi:PI_16_7.item2.table2.row19.column2 .
+pi:PI_16_7.item2.table2.row19.column2 rdf:value "90/400mg 単回" .
+pi:PI_16_7.item2.table2.row19 pio:column pi:PI_16_7.item2.table2.row19.column3 .
+pi:PI_16_7.item2.table2.row19.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table2.row19 pio:column pi:PI_16_7.item2.table2.row19.column4 .
+pi:PI_16_7.item2.table2.row19.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row19 pio:column pi:PI_16_7.item2.table2.row19.column5 .
+pi:PI_16_7.item2.table2.row19.column5 rdf:value "1.04 （0.91, 1.18）" .
+pi:PI_16_7.item2.table2.row19 pio:column pi:PI_16_7.item2.table2.row19.column6 .
+pi:PI_16_7.item2.table2.row19.column6 rdf:value "0.89 （0.79, 1.00）" .
+pi:PI_16_7.item2.table2.row19 pio:column pi:PI_16_7.item2.table2.row19.column7 .
+pi:PI_16_7.item2.table2.row19.column7 rdf:value "－ （－, －）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row20 .
+pi:PI_16_7.item2.table2.row20 pio:column pi:PI_16_7.item2.table2.row20.column1 .
+pi:PI_16_7.item2.table2.row20.column1 rdf:value "レジパスビル・ソホスブビル" .
+pi:PI_16_7.item2.table2.row20 pio:column pi:PI_16_7.item2.table2.row20.column2 .
+pi:PI_16_7.item2.table2.row20.column2 rdf:value "90/400mg 単回" .
+pi:PI_16_7.item2.table2.row20 pio:column pi:PI_16_7.item2.table2.row20.column3 .
+pi:PI_16_7.item2.table2.row20.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table2.row20 pio:column pi:PI_16_7.item2.table2.row20.column4 .
+pi:PI_16_7.item2.table2.row20.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row20 pio:column pi:PI_16_7.item2.table2.row20.column5 .
+pi:PI_16_7.item2.table2.row20.column5 rdf:value "GS-331007（ソホスブビル代謝物）" .
+pi:PI_16_7.item2.table2.row20 pio:column pi:PI_16_7.item2.table2.row20.column6 .
+pi:PI_16_7.item2.table2.row20.column6 rdf:value "GS-331007（ソホスブビル代謝物）" .
+pi:PI_16_7.item2.table2.row20 pio:column pi:PI_16_7.item2.table2.row20.column7 .
+pi:PI_16_7.item2.table2.row20.column7 rdf:value "GS-331007（ソホスブビル代謝物）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row21 .
+pi:PI_16_7.item2.table2.row21 pio:column pi:PI_16_7.item2.table2.row21.column1 .
+pi:PI_16_7.item2.table2.row21.column1 rdf:value "レジパスビル・ソホスブビル" .
+pi:PI_16_7.item2.table2.row21 pio:column pi:PI_16_7.item2.table2.row21.column2 .
+pi:PI_16_7.item2.table2.row21.column2 rdf:value "90/400mg 単回" .
+pi:PI_16_7.item2.table2.row21 pio:column pi:PI_16_7.item2.table2.row21.column3 .
+pi:PI_16_7.item2.table2.row21.column3 rdf:value "100mg 単回" .
+pi:PI_16_7.item2.table2.row21 pio:column pi:PI_16_7.item2.table2.row21.column4 .
+pi:PI_16_7.item2.table2.row21.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row21 pio:column pi:PI_16_7.item2.table2.row21.column5 .
+pi:PI_16_7.item2.table2.row21.column5 rdf:value "1.03 （0.98, 1.09）" .
+pi:PI_16_7.item2.table2.row21 pio:column pi:PI_16_7.item2.table2.row21.column6 .
+pi:PI_16_7.item2.table2.row21.column6 rdf:value "1.03 （0.97, 1.09）" .
+pi:PI_16_7.item2.table2.row21 pio:column pi:PI_16_7.item2.table2.row21.column7 .
+pi:PI_16_7.item2.table2.row21.column7 rdf:value "－ （－, －）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row22 .
+pi:PI_16_7.item2.table2.row22 pio:column pi:PI_16_7.item2.table2.row22.column1 .
+pi:PI_16_7.item2.table2.row22.column1 rdf:value "経口避妊薬" .
+pi:PI_16_7.item2.table2.row22 pio:column pi:PI_16_7.item2.table2.row22.column2 .
+pi:PI_16_7.item2.table2.row22.column2 rdf:value "経口避妊薬" .
+pi:PI_16_7.item2.table2.row22 pio:column pi:PI_16_7.item2.table2.row22.column3 .
+pi:PI_16_7.item2.table2.row22.column3 rdf:value "経口避妊薬" .
+pi:PI_16_7.item2.table2.row22 pio:column pi:PI_16_7.item2.table2.row22.column4 .
+pi:PI_16_7.item2.table2.row22.column4 rdf:value "経口避妊薬" .
+pi:PI_16_7.item2.table2.row22 pio:column pi:PI_16_7.item2.table2.row22.column5 .
+pi:PI_16_7.item2.table2.row22.column5 rdf:value "経口避妊薬" .
+pi:PI_16_7.item2.table2.row22 pio:column pi:PI_16_7.item2.table2.row22.column6 .
+pi:PI_16_7.item2.table2.row22.column6 rdf:value "経口避妊薬" .
+pi:PI_16_7.item2.table2.row22 pio:column pi:PI_16_7.item2.table2.row22.column7 .
+pi:PI_16_7.item2.table2.row22.column7 rdf:value "経口避妊薬" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row23 .
+pi:PI_16_7.item2.table2.row23 pio:column pi:PI_16_7.item2.table2.row23.column1 .
+pi:PI_16_7.item2.table2.row23.column1 rdf:value "エチニルエストラジオール・レボノルゲストレル" .
+pi:PI_16_7.item2.table2.row23 pio:column pi:PI_16_7.item2.table2.row23.column2 .
+pi:PI_16_7.item2.table2.row23.column2 rdf:value "0.03/0.15mg 単回" .
+pi:PI_16_7.item2.table2.row23 pio:column pi:PI_16_7.item2.table2.row23.column3 .
+pi:PI_16_7.item2.table2.row23.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row23 pio:column pi:PI_16_7.item2.table2.row23.column4 .
+pi:PI_16_7.item2.table2.row23.column4 rdf:value "19" .
+pi:PI_16_7.item2.table2.row23 pio:column pi:PI_16_7.item2.table2.row23.column5 .
+pi:PI_16_7.item2.table2.row23.column5 rdf:value "エチニルエストラジオール" .
+pi:PI_16_7.item2.table2.row23 pio:column pi:PI_16_7.item2.table2.row23.column6 .
+pi:PI_16_7.item2.table2.row23.column6 rdf:value "エチニルエストラジオール" .
+pi:PI_16_7.item2.table2.row23 pio:column pi:PI_16_7.item2.table2.row23.column7 .
+pi:PI_16_7.item2.table2.row23.column7 rdf:value "エチニルエストラジオール" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row24 .
+pi:PI_16_7.item2.table2.row24 pio:column pi:PI_16_7.item2.table2.row24.column1 .
+pi:PI_16_7.item2.table2.row24.column1 rdf:value "エチニルエストラジオール・レボノルゲストレル" .
+pi:PI_16_7.item2.table2.row24 pio:column pi:PI_16_7.item2.table2.row24.column2 .
+pi:PI_16_7.item2.table2.row24.column2 rdf:value "0.03/0.15mg 単回" .
+pi:PI_16_7.item2.table2.row24 pio:column pi:PI_16_7.item2.table2.row24.column3 .
+pi:PI_16_7.item2.table2.row24.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row24 pio:column pi:PI_16_7.item2.table2.row24.column4 .
+pi:PI_16_7.item2.table2.row24.column4 rdf:value "19" .
+pi:PI_16_7.item2.table2.row24 pio:column pi:PI_16_7.item2.table2.row24.column5 .
+pi:PI_16_7.item2.table2.row24.column5 rdf:value "0.98 （0.94, 1.03）" .
+pi:PI_16_7.item2.table2.row24 pio:column pi:PI_16_7.item2.table2.row24.column6 .
+pi:PI_16_7.item2.table2.row24.column6 rdf:value "0.83 （0.80, 0.87）" .
+pi:PI_16_7.item2.table2.row24 pio:column pi:PI_16_7.item2.table2.row24.column7 .
+pi:PI_16_7.item2.table2.row24.column7 rdf:value "－ （－, －）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row25 .
+pi:PI_16_7.item2.table2.row25 pio:column pi:PI_16_7.item2.table2.row25.column1 .
+pi:PI_16_7.item2.table2.row25.column1 rdf:value "エチニルエストラジオール・レボノルゲストレル" .
+pi:PI_16_7.item2.table2.row25 pio:column pi:PI_16_7.item2.table2.row25.column2 .
+pi:PI_16_7.item2.table2.row25.column2 rdf:value "0.03/0.15mg 単回" .
+pi:PI_16_7.item2.table2.row25 pio:column pi:PI_16_7.item2.table2.row25.column3 .
+pi:PI_16_7.item2.table2.row25.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row25 pio:column pi:PI_16_7.item2.table2.row25.column4 .
+pi:PI_16_7.item2.table2.row25.column4 rdf:value "19" .
+pi:PI_16_7.item2.table2.row25 pio:column pi:PI_16_7.item2.table2.row25.column5 .
+pi:PI_16_7.item2.table2.row25.column5 rdf:value "レボノルゲストレル" .
+pi:PI_16_7.item2.table2.row25 pio:column pi:PI_16_7.item2.table2.row25.column6 .
+pi:PI_16_7.item2.table2.row25.column6 rdf:value "レボノルゲストレル" .
+pi:PI_16_7.item2.table2.row25 pio:column pi:PI_16_7.item2.table2.row25.column7 .
+pi:PI_16_7.item2.table2.row25.column7 rdf:value "レボノルゲストレル" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row26 .
+pi:PI_16_7.item2.table2.row26 pio:column pi:PI_16_7.item2.table2.row26.column1 .
+pi:PI_16_7.item2.table2.row26.column1 rdf:value "エチニルエストラジオール・レボノルゲストレル" .
+pi:PI_16_7.item2.table2.row26 pio:column pi:PI_16_7.item2.table2.row26.column2 .
+pi:PI_16_7.item2.table2.row26.column2 rdf:value "0.03/0.15mg 単回" .
+pi:PI_16_7.item2.table2.row26 pio:column pi:PI_16_7.item2.table2.row26.column3 .
+pi:PI_16_7.item2.table2.row26.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row26 pio:column pi:PI_16_7.item2.table2.row26.column4 .
+pi:PI_16_7.item2.table2.row26.column4 rdf:value "19" .
+pi:PI_16_7.item2.table2.row26 pio:column pi:PI_16_7.item2.table2.row26.column5 .
+pi:PI_16_7.item2.table2.row26.column5 rdf:value "1.21 （1.14, 1.28）" .
+pi:PI_16_7.item2.table2.row26 pio:column pi:PI_16_7.item2.table2.row26.column6 .
+pi:PI_16_7.item2.table2.row26.column6 rdf:value "0.96 （0.88, 1.05）" .
+pi:PI_16_7.item2.table2.row26 pio:column pi:PI_16_7.item2.table2.row26.column7 .
+pi:PI_16_7.item2.table2.row26.column7 rdf:value "－ （－, －）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row27 .
+pi:PI_16_7.item2.table2.row27 pio:column pi:PI_16_7.item2.table2.row27.column1 .
+pi:PI_16_7.item2.table2.row27.column1 rdf:value "スタチン薬" .
+pi:PI_16_7.item2.table2.row27 pio:column pi:PI_16_7.item2.table2.row27.column2 .
+pi:PI_16_7.item2.table2.row27.column2 rdf:value "スタチン薬" .
+pi:PI_16_7.item2.table2.row27 pio:column pi:PI_16_7.item2.table2.row27.column3 .
+pi:PI_16_7.item2.table2.row27.column3 rdf:value "スタチン薬" .
+pi:PI_16_7.item2.table2.row27 pio:column pi:PI_16_7.item2.table2.row27.column4 .
+pi:PI_16_7.item2.table2.row27.column4 rdf:value "スタチン薬" .
+pi:PI_16_7.item2.table2.row27 pio:column pi:PI_16_7.item2.table2.row27.column5 .
+pi:PI_16_7.item2.table2.row27.column5 rdf:value "スタチン薬" .
+pi:PI_16_7.item2.table2.row27 pio:column pi:PI_16_7.item2.table2.row27.column6 .
+pi:PI_16_7.item2.table2.row27.column6 rdf:value "スタチン薬" .
+pi:PI_16_7.item2.table2.row27 pio:column pi:PI_16_7.item2.table2.row27.column7 .
+pi:PI_16_7.item2.table2.row27.column7 rdf:value "スタチン薬" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row28 .
+pi:PI_16_7.item2.table2.row28 pio:column pi:PI_16_7.item2.table2.row28.column1 .
+pi:PI_16_7.item2.table2.row28.column1 rdf:value "アトルバスタチン" .
+pi:PI_16_7.item2.table2.row28 pio:column pi:PI_16_7.item2.table2.row28.column2 .
+pi:PI_16_7.item2.table2.row28.column2 rdf:value "20mg 単回" .
+pi:PI_16_7.item2.table2.row28 pio:column pi:PI_16_7.item2.table2.row28.column3 .
+pi:PI_16_7.item2.table2.row28.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row28 pio:column pi:PI_16_7.item2.table2.row28.column4 .
+pi:PI_16_7.item2.table2.row28.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row28 pio:column pi:PI_16_7.item2.table2.row28.column5 .
+pi:PI_16_7.item2.table2.row28.column5 rdf:value "0.98 （0.90, 1.06）" .
+pi:PI_16_7.item2.table2.row28 pio:column pi:PI_16_7.item2.table2.row28.column6 .
+pi:PI_16_7.item2.table2.row28.column6 rdf:value "0.67 （0.52, 0.85）" .
+pi:PI_16_7.item2.table2.row28 pio:column pi:PI_16_7.item2.table2.row28.column7 .
+pi:PI_16_7.item2.table2.row28.column7 rdf:value "－ （－, －）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row29 .
+pi:PI_16_7.item2.table2.row29 pio:column pi:PI_16_7.item2.table2.row29.column1 .
+pi:PI_16_7.item2.table2.row29.column1 rdf:value "糖尿病治療薬" .
+pi:PI_16_7.item2.table2.row29 pio:column pi:PI_16_7.item2.table2.row29.column2 .
+pi:PI_16_7.item2.table2.row29.column2 rdf:value "糖尿病治療薬" .
+pi:PI_16_7.item2.table2.row29 pio:column pi:PI_16_7.item2.table2.row29.column3 .
+pi:PI_16_7.item2.table2.row29.column3 rdf:value "糖尿病治療薬" .
+pi:PI_16_7.item2.table2.row29 pio:column pi:PI_16_7.item2.table2.row29.column4 .
+pi:PI_16_7.item2.table2.row29.column4 rdf:value "糖尿病治療薬" .
+pi:PI_16_7.item2.table2.row29 pio:column pi:PI_16_7.item2.table2.row29.column5 .
+pi:PI_16_7.item2.table2.row29.column5 rdf:value "糖尿病治療薬" .
+pi:PI_16_7.item2.table2.row29 pio:column pi:PI_16_7.item2.table2.row29.column6 .
+pi:PI_16_7.item2.table2.row29.column6 rdf:value "糖尿病治療薬" .
+pi:PI_16_7.item2.table2.row29 pio:column pi:PI_16_7.item2.table2.row29.column7 .
+pi:PI_16_7.item2.table2.row29.column7 rdf:value "糖尿病治療薬" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row30 .
+pi:PI_16_7.item2.table2.row30 pio:column pi:PI_16_7.item2.table2.row30.column1 .
+pi:PI_16_7.item2.table2.row30.column1 rdf:value "メトホルミン" .
+pi:PI_16_7.item2.table2.row30 pio:column pi:PI_16_7.item2.table2.row30.column2 .
+pi:PI_16_7.item2.table2.row30.column2 rdf:value "1000mg 単回" .
+pi:PI_16_7.item2.table2.row30 pio:column pi:PI_16_7.item2.table2.row30.column3 .
+pi:PI_16_7.item2.table2.row30.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row30 pio:column pi:PI_16_7.item2.table2.row30.column4 .
+pi:PI_16_7.item2.table2.row30.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row30 pio:column pi:PI_16_7.item2.table2.row30.column5 .
+pi:PI_16_7.item2.table2.row30.column5 rdf:value "0.94 （0.88, 1.00）" .
+pi:PI_16_7.item2.table2.row30 pio:column pi:PI_16_7.item2.table2.row30.column6 .
+pi:PI_16_7.item2.table2.row30.column6 rdf:value "0.94 （0.86, 1.03）" .
+pi:PI_16_7.item2.table2.row30 pio:column pi:PI_16_7.item2.table2.row30.column7 .
+pi:PI_16_7.item2.table2.row30.column7 rdf:value "－ （－, －）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row31 .
+pi:PI_16_7.item2.table2.row31 pio:column pi:PI_16_7.item2.table2.row31.column1 .
+pi:PI_16_7.item2.table2.row31.column1 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table2.row31 pio:column pi:PI_16_7.item2.table2.row31.column2 .
+pi:PI_16_7.item2.table2.row31.column2 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table2.row31 pio:column pi:PI_16_7.item2.table2.row31.column3 .
+pi:PI_16_7.item2.table2.row31.column3 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table2.row31 pio:column pi:PI_16_7.item2.table2.row31.column4 .
+pi:PI_16_7.item2.table2.row31.column4 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table2.row31 pio:column pi:PI_16_7.item2.table2.row31.column5 .
+pi:PI_16_7.item2.table2.row31.column5 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table2.row31 pio:column pi:PI_16_7.item2.table2.row31.column6 .
+pi:PI_16_7.item2.table2.row31.column6 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table2.row31 pio:column pi:PI_16_7.item2.table2.row31.column7 .
+pi:PI_16_7.item2.table2.row31.column7 rdf:value "オピオイド系鎮痛薬" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row32 .
+pi:PI_16_7.item2.table2.row32 pio:column pi:PI_16_7.item2.table2.row32.column1 .
+pi:PI_16_7.item2.table2.row32.column1 rdf:value "メサドン" .
+pi:PI_16_7.item2.table2.row32 pio:column pi:PI_16_7.item2.table2.row32.column2 .
+pi:PI_16_7.item2.table2.row32.column2 rdf:value "20～200mg QD反復" .
+pi:PI_16_7.item2.table2.row32 pio:column pi:PI_16_7.item2.table2.row32.column3 .
+pi:PI_16_7.item2.table2.row32.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row32 pio:column pi:PI_16_7.item2.table2.row32.column4 .
+pi:PI_16_7.item2.table2.row32.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row32 pio:column pi:PI_16_7.item2.table2.row32.column5 .
+pi:PI_16_7.item2.table2.row32.column5 rdf:value "R-メサドン" .
+pi:PI_16_7.item2.table2.row32 pio:column pi:PI_16_7.item2.table2.row32.column6 .
+pi:PI_16_7.item2.table2.row32.column6 rdf:value "R-メサドン" .
+pi:PI_16_7.item2.table2.row32 pio:column pi:PI_16_7.item2.table2.row32.column7 .
+pi:PI_16_7.item2.table2.row32.column7 rdf:value "R-メサドン" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row33 .
+pi:PI_16_7.item2.table2.row33 pio:column pi:PI_16_7.item2.table2.row33.column1 .
+pi:PI_16_7.item2.table2.row33.column1 rdf:value "メサドン" .
+pi:PI_16_7.item2.table2.row33 pio:column pi:PI_16_7.item2.table2.row33.column2 .
+pi:PI_16_7.item2.table2.row33.column2 rdf:value "20～200mg QD反復" .
+pi:PI_16_7.item2.table2.row33 pio:column pi:PI_16_7.item2.table2.row33.column3 .
+pi:PI_16_7.item2.table2.row33.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row33 pio:column pi:PI_16_7.item2.table2.row33.column4 .
+pi:PI_16_7.item2.table2.row33.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row33 pio:column pi:PI_16_7.item2.table2.row33.column5 .
+pi:PI_16_7.item2.table2.row33.column5 rdf:value "0.95 （0.90, 1.01）" .
+pi:PI_16_7.item2.table2.row33 pio:column pi:PI_16_7.item2.table2.row33.column6 .
+pi:PI_16_7.item2.table2.row33.column6 rdf:value "0.98 （0.93, 1.03）" .
+pi:PI_16_7.item2.table2.row33 pio:column pi:PI_16_7.item2.table2.row33.column7 .
+pi:PI_16_7.item2.table2.row33.column7 rdf:value "0.95 （0.88, 1.03）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row34 .
+pi:PI_16_7.item2.table2.row34 pio:column pi:PI_16_7.item2.table2.row34.column1 .
+pi:PI_16_7.item2.table2.row34.column1 rdf:value "メサドン" .
+pi:PI_16_7.item2.table2.row34 pio:column pi:PI_16_7.item2.table2.row34.column2 .
+pi:PI_16_7.item2.table2.row34.column2 rdf:value "20～200mg QD反復" .
+pi:PI_16_7.item2.table2.row34 pio:column pi:PI_16_7.item2.table2.row34.column3 .
+pi:PI_16_7.item2.table2.row34.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row34 pio:column pi:PI_16_7.item2.table2.row34.column4 .
+pi:PI_16_7.item2.table2.row34.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row34 pio:column pi:PI_16_7.item2.table2.row34.column5 .
+pi:PI_16_7.item2.table2.row34.column5 rdf:value "S-メサドン" .
+pi:PI_16_7.item2.table2.row34 pio:column pi:PI_16_7.item2.table2.row34.column6 .
+pi:PI_16_7.item2.table2.row34.column6 rdf:value "S-メサドン" .
+pi:PI_16_7.item2.table2.row34 pio:column pi:PI_16_7.item2.table2.row34.column7 .
+pi:PI_16_7.item2.table2.row34.column7 rdf:value "S-メサドン" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row35 .
+pi:PI_16_7.item2.table2.row35 pio:column pi:PI_16_7.item2.table2.row35.column1 .
+pi:PI_16_7.item2.table2.row35.column1 rdf:value "メサドン" .
+pi:PI_16_7.item2.table2.row35 pio:column pi:PI_16_7.item2.table2.row35.column2 .
+pi:PI_16_7.item2.table2.row35.column2 rdf:value "20～200mg QD反復" .
+pi:PI_16_7.item2.table2.row35 pio:column pi:PI_16_7.item2.table2.row35.column3 .
+pi:PI_16_7.item2.table2.row35.column3 rdf:value "100mg QD反復" .
+pi:PI_16_7.item2.table2.row35 pio:column pi:PI_16_7.item2.table2.row35.column4 .
+pi:PI_16_7.item2.table2.row35.column4 rdf:value "14" .
+pi:PI_16_7.item2.table2.row35 pio:column pi:PI_16_7.item2.table2.row35.column5 .
+pi:PI_16_7.item2.table2.row35.column5 rdf:value "0.98 （0.90, 1.06）" .
+pi:PI_16_7.item2.table2.row35 pio:column pi:PI_16_7.item2.table2.row35.column6 .
+pi:PI_16_7.item2.table2.row35.column6 rdf:value "0.97 （0.91, 1.04）" .
+pi:PI_16_7.item2.table2.row35 pio:column pi:PI_16_7.item2.table2.row35.column7 .
+pi:PI_16_7.item2.table2.row35.column7 rdf:value "0.97 （0.86, 1.10）" .
+pi:PI_16_7.item2.table2 pio:row pi:PI_16_7.item2.table2.row36 .
+pi:PI_16_7.item2.table2.row36 pio:column pi:PI_16_7.item2.table2.row36.column1 .
+pi:PI_16_7.item2.table2.row36.column1 rdf:value "QD：1日1回投与、－：該当データなし AUC：併用薬が単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table2.row36 pio:column pi:PI_16_7.item2.table2.row36.column2 .
+pi:PI_16_7.item2.table2.row36.column2 rdf:value "QD：1日1回投与、－：該当データなし AUC：併用薬が単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table2.row36 pio:column pi:PI_16_7.item2.table2.row36.column3 .
+pi:PI_16_7.item2.table2.row36.column3 rdf:value "QD：1日1回投与、－：該当データなし AUC：併用薬が単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table2.row36 pio:column pi:PI_16_7.item2.table2.row36.column4 .
+pi:PI_16_7.item2.table2.row36.column4 rdf:value "QD：1日1回投与、－：該当データなし AUC：併用薬が単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table2.row36 pio:column pi:PI_16_7.item2.table2.row36.column5 .
+pi:PI_16_7.item2.table2.row36.column5 rdf:value "QD：1日1回投与、－：該当データなし AUC：併用薬が単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table2.row36 pio:column pi:PI_16_7.item2.table2.row36.column6 .
+pi:PI_16_7.item2.table2.row36.column6 rdf:value "QD：1日1回投与、－：該当データなし AUC：併用薬が単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7.item2.table2.row36 pio:column pi:PI_16_7.item2.table2.row36.column7 .
+pi:PI_16_7.item2.table2.row36.column7 rdf:value "QD：1日1回投与、－：該当データなし AUC：併用薬が単回投与の場合はAUC 、反復投与の場合はAUC" .
+pi:PI_16_7 dct:description "注）本剤の承認された用量は1日1回100mgである。"@ja .
+pi:PI_17_1 pio:section pi:PI_17_1.item1 .
+pi:PI_17_1.item1 rdfs:title "海外第Ⅲ相試験［DRIVE-FORWARD（018）試験］"@ja .
+pi:PI_17_1.item1 dct:description "抗HIV薬による治療経験のないHIV-1 RNA量≧1,000copies/mLのHIV-1感染症患者766例を対象に、ドラビリン（DOR）100mg 1日1回投与又はダルナビル及びリトナビル（DRV+r）800/100mg 1日1回投与した無作為化二重盲検比較試験を実施した。両群ともに背景治療としてエムトリシタビン（FTC）・テノホビル ジソプロキシルフマル酸塩（TDF）又はアバカビル（ABC）・ラミブジン（3TC）のいずれかを投与した。48週時 及び96週時の有効性の概要を表1に示す。本試験のDOR 100mg 1日1回投与群において、96週時点で383例中123例（32.1%）に副作用が認められた。主な副作用は、悪心27例（7.0%）、頭痛23例（6.0%）及び下痢22例（5.7%）であった。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item1.table1 .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row1 .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column1 .
+pi:PI_17_1.item1.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column2 .
+pi:PI_17_1.item1.table1.row1.column2 rdf:value "DOR+2 NRTIs 1日1回" .
+pi:PI_17_1.item1.table1.row1 pio:column pi:PI_17_1.item1.table1.row1.column3 .
+pi:PI_17_1.item1.table1.row1.column3 rdf:value "DRV+r+2 NRTIs 1日1回" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row2 .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column1 .
+pi:PI_17_1.item1.table1.row2.column1 rdf:value "48週時" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column2 .
+pi:PI_17_1.item1.table1.row2.column2 rdf:value "48週時" .
+pi:PI_17_1.item1.table1.row2 pio:column pi:PI_17_1.item1.table1.row2.column3 .
+pi:PI_17_1.item1.table1.row2.column3 rdf:value "48週時" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row3 .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column1 .
+pi:PI_17_1.item1.table1.row3.column1 rdf:value "主要評価項目： HIV-1 RNA量50copies/mL未満の患者" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column2 .
+pi:PI_17_1.item1.table1.row3.column2 rdf:value "83.8%（321/383例）" .
+pi:PI_17_1.item1.table1.row3 pio:column pi:PI_17_1.item1.table1.row3.column3 .
+pi:PI_17_1.item1.table1.row3.column3 rdf:value "79.9%（306/383例）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row4 .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column1 .
+pi:PI_17_1.item1.table1.row4.column1 rdf:value "群間差（95%信頼区間）" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column2 .
+pi:PI_17_1.item1.table1.row4.column2 rdf:value "3.9%（-1.6%, 9.4%）" .
+pi:PI_17_1.item1.table1.row4 pio:column pi:PI_17_1.item1.table1.row4.column3 .
+pi:PI_17_1.item1.table1.row4.column3 rdf:value "3.9%（-1.6%, 9.4%）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row5 .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column1 .
+pi:PI_17_1.item1.table1.row5.column1 rdf:value "ウイルス学的失敗例" .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column2 .
+pi:PI_17_1.item1.table1.row5.column2 rdf:value "4.9%（19/383例）" .
+pi:PI_17_1.item1.table1.row5 pio:column pi:PI_17_1.item1.table1.row5.column3 .
+pi:PI_17_1.item1.table1.row5.column3 rdf:value "6.3%（24/383例）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row6 .
+pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column1 .
+pi:PI_17_1.item1.table1.row6.column1 rdf:value "96週時" .
+pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column2 .
+pi:PI_17_1.item1.table1.row6.column2 rdf:value "96週時" .
+pi:PI_17_1.item1.table1.row6 pio:column pi:PI_17_1.item1.table1.row6.column3 .
+pi:PI_17_1.item1.table1.row6.column3 rdf:value "96週時" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row7 .
+pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column1 .
+pi:PI_17_1.item1.table1.row7.column1 rdf:value "HIV-1 RNA量50copies/mL未満の患者" .
+pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column2 .
+pi:PI_17_1.item1.table1.row7.column2 rdf:value "73.1%（277/379例）" .
+pi:PI_17_1.item1.table1.row7 pio:column pi:PI_17_1.item1.table1.row7.column3 .
+pi:PI_17_1.item1.table1.row7.column3 rdf:value "66.0%（248/376例）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row8 .
+pi:PI_17_1.item1.table1.row8 pio:column pi:PI_17_1.item1.table1.row8.column1 .
+pi:PI_17_1.item1.table1.row8.column1 rdf:value "群間差（95%信頼区間）" .
+pi:PI_17_1.item1.table1.row8 pio:column pi:PI_17_1.item1.table1.row8.column2 .
+pi:PI_17_1.item1.table1.row8.column2 rdf:value "7.1%（0.5%, 13.7%）" .
+pi:PI_17_1.item1.table1.row8 pio:column pi:PI_17_1.item1.table1.row8.column3 .
+pi:PI_17_1.item1.table1.row8.column3 rdf:value "7.1%（0.5%, 13.7%）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row9 .
+pi:PI_17_1.item1.table1.row9 pio:column pi:PI_17_1.item1.table1.row9.column1 .
+pi:PI_17_1.item1.table1.row9.column1 rdf:value "ウイルス学的失敗例" .
+pi:PI_17_1.item1.table1.row9 pio:column pi:PI_17_1.item1.table1.row9.column2 .
+pi:PI_17_1.item1.table1.row9.column2 rdf:value "8.9%（34/383例）" .
+pi:PI_17_1.item1.table1.row9 pio:column pi:PI_17_1.item1.table1.row9.column3 .
+pi:PI_17_1.item1.table1.row9.column3 rdf:value "11.2%（43/383例）" .
+pi:PI_17_1.item1.table1 pio:row pi:PI_17_1.item1.table1.row10 .
+pi:PI_17_1.item1.table1.row10 pio:column pi:PI_17_1.item1.table1.row10.column1 .
+pi:PI_17_1.item1.table1.row10.column1 rdf:value "2）ノンレスポンダー：24週時又は36週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量200copies/mL以上となった患者、若しくは48週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量50copies/mL以上となった患者" .
+pi:PI_17_1.item1.table1.row10 pio:column pi:PI_17_1.item1.table1.row10.column2 .
+pi:PI_17_1.item1.table1.row10.column2 rdf:value "2）ノンレスポンダー：24週時又は36週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量200copies/mL以上となった患者、若しくは48週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量50copies/mL以上となった患者" .
+pi:PI_17_1.item1.table1.row10 pio:column pi:PI_17_1.item1.table1.row10.column3 .
+pi:PI_17_1.item1.table1.row10.column3 rdf:value "2）ノンレスポンダー：24週時又は36週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量200copies/mL以上となった患者、若しくは48週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量50copies/mL以上となった患者" .
+pi:PI_17_1 pio:section pi:PI_17_1.item2 .
+pi:PI_17_1.item2 rdfs:title "海外第Ⅲ相試験［DRIVE-AHEAD（021）試験］"@ja .
+pi:PI_17_1.item2 dct:description "抗HIV薬による治療経験のないHIV-1 RNA量≧1,000copies/mLのHIV-1感染症患者728例を対象に、DOR（100mg）・3TC・TDF 1日1回投与又はエファビレンツ（EFV）（600mg）・FTC・TDF 1日1回投与した無作為化二重盲検比較試験を実施した。48週時 及び96週時の有効性の概要を表2に示す。本試験のDOR（100mg）・3TC・TDF 1日1回投与群において、96週時点で364例中116例（31.9%）に副作用が認められた。主な副作用は、浮動性めまい25例（6.9%）、悪心18例（4.9%）及び異常な夢18例（4.9%）であった。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item2.table1 .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row1 .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column1 .
+pi:PI_17_1.item2.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column2 .
+pi:PI_17_1.item2.table1.row1.column2 rdf:value "DOR・3TC・TDF 1日1回" .
+pi:PI_17_1.item2.table1.row1 pio:column pi:PI_17_1.item2.table1.row1.column3 .
+pi:PI_17_1.item2.table1.row1.column3 rdf:value "EFV・FTC・TDF 1日1回" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row2 .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column1 .
+pi:PI_17_1.item2.table1.row2.column1 rdf:value "48週時" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column2 .
+pi:PI_17_1.item2.table1.row2.column2 rdf:value "48週時" .
+pi:PI_17_1.item2.table1.row2 pio:column pi:PI_17_1.item2.table1.row2.column3 .
+pi:PI_17_1.item2.table1.row2.column3 rdf:value "48週時" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row3 .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column1 .
+pi:PI_17_1.item2.table1.row3.column1 rdf:value "主要評価項目： HIV-1 RNA量50copies/mL未満の患者" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column2 .
+pi:PI_17_1.item2.table1.row3.column2 rdf:value "84.3%（307/364例）" .
+pi:PI_17_1.item2.table1.row3 pio:column pi:PI_17_1.item2.table1.row3.column3 .
+pi:PI_17_1.item2.table1.row3.column3 rdf:value "80.8%（294/364例）" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row4 .
+pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column1 .
+pi:PI_17_1.item2.table1.row4.column1 rdf:value "群間差（95%信頼区間）" .
+pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column2 .
+pi:PI_17_1.item2.table1.row4.column2 rdf:value "3.5%（-2.0%, 9.0%）" .
+pi:PI_17_1.item2.table1.row4 pio:column pi:PI_17_1.item2.table1.row4.column3 .
+pi:PI_17_1.item2.table1.row4.column3 rdf:value "3.5%（-2.0%, 9.0%）" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row5 .
+pi:PI_17_1.item2.table1.row5 pio:column pi:PI_17_1.item2.table1.row5.column1 .
+pi:PI_17_1.item2.table1.row5.column1 rdf:value "ウイルス学的失敗例" .
+pi:PI_17_1.item2.table1.row5 pio:column pi:PI_17_1.item2.table1.row5.column2 .
+pi:PI_17_1.item2.table1.row5.column2 rdf:value "6.0%（22/364例）" .
+pi:PI_17_1.item2.table1.row5 pio:column pi:PI_17_1.item2.table1.row5.column3 .
+pi:PI_17_1.item2.table1.row5.column3 rdf:value "3.8%（14/364例）" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row6 .
+pi:PI_17_1.item2.table1.row6 pio:column pi:PI_17_1.item2.table1.row6.column1 .
+pi:PI_17_1.item2.table1.row6.column1 rdf:value "96週時" .
+pi:PI_17_1.item2.table1.row6 pio:column pi:PI_17_1.item2.table1.row6.column2 .
+pi:PI_17_1.item2.table1.row6.column2 rdf:value "96週時" .
+pi:PI_17_1.item2.table1.row6 pio:column pi:PI_17_1.item2.table1.row6.column3 .
+pi:PI_17_1.item2.table1.row6.column3 rdf:value "96週時" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row7 .
+pi:PI_17_1.item2.table1.row7 pio:column pi:PI_17_1.item2.table1.row7.column1 .
+pi:PI_17_1.item2.table1.row7.column1 rdf:value "HIV-1 RNA量50copies/mL未満の患者" .
+pi:PI_17_1.item2.table1.row7 pio:column pi:PI_17_1.item2.table1.row7.column2 .
+pi:PI_17_1.item2.table1.row7.column2 rdf:value "77.5%（282/364例）" .
+pi:PI_17_1.item2.table1.row7 pio:column pi:PI_17_1.item2.table1.row7.column3 .
+pi:PI_17_1.item2.table1.row7.column3 rdf:value "73.6%（268/364例）" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row8 .
+pi:PI_17_1.item2.table1.row8 pio:column pi:PI_17_1.item2.table1.row8.column1 .
+pi:PI_17_1.item2.table1.row8.column1 rdf:value "群間差（95%信頼区間）" .
+pi:PI_17_1.item2.table1.row8 pio:column pi:PI_17_1.item2.table1.row8.column2 .
+pi:PI_17_1.item2.table1.row8.column2 rdf:value "3.8%（-2.4%, 10.0%）" .
+pi:PI_17_1.item2.table1.row8 pio:column pi:PI_17_1.item2.table1.row8.column3 .
+pi:PI_17_1.item2.table1.row8.column3 rdf:value "3.8%（-2.4%, 10.0%）" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row9 .
+pi:PI_17_1.item2.table1.row9 pio:column pi:PI_17_1.item2.table1.row9.column1 .
+pi:PI_17_1.item2.table1.row9.column1 rdf:value "ウイルス学的失敗例" .
+pi:PI_17_1.item2.table1.row9 pio:column pi:PI_17_1.item2.table1.row9.column2 .
+pi:PI_17_1.item2.table1.row9.column2 rdf:value "9.3%（34/364例）" .
+pi:PI_17_1.item2.table1.row9 pio:column pi:PI_17_1.item2.table1.row9.column3 .
+pi:PI_17_1.item2.table1.row9.column3 rdf:value "7.7%（28/364例）" .
+pi:PI_17_1.item2.table1 pio:row pi:PI_17_1.item2.table1.row10 .
+pi:PI_17_1.item2.table1.row10 pio:column pi:PI_17_1.item2.table1.row10.column1 .
+pi:PI_17_1.item2.table1.row10.column1 rdf:value "2）ノンレスポンダー：24週時又は36週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量200copies/mL以上となった患者、若しくは48週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量50copies/mL以上となった患者" .
+pi:PI_17_1.item2.table1.row10 pio:column pi:PI_17_1.item2.table1.row10.column2 .
+pi:PI_17_1.item2.table1.row10.column2 rdf:value "2）ノンレスポンダー：24週時又は36週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量200copies/mL以上となった患者、若しくは48週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量50copies/mL以上となった患者" .
+pi:PI_17_1.item2.table1.row10 pio:column pi:PI_17_1.item2.table1.row10.column3 .
+pi:PI_17_1.item2.table1.row10.column3 rdf:value "2）ノンレスポンダー：24週時又は36週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量200copies/mL以上となった患者、若しくは48週時までに、1週間以上間隔を空けて2回連続してHIV-1 RNA量50copies/mL以上となった患者" .
+pi:PI_17_1 pio:section pi:PI_17_1.item3 .
+pi:PI_17_1.item3 rdfs:title "海外第Ⅲ相試験［DRIVE-SHIFT（024）試験］"@ja .
+pi:PI_17_1.item3 dct:description "リトナビル又はコビシスタットを併用したPI、コビシスタットを併用したエルビテグラビル又はNNRTIにNRTI 2剤を併用し、6ヵ月間以上ウイルス学的抑制が得られているHIV-1感染症患者を対象に、DOR・3TC・TDFに切り替える無作為化非盲検試験を実施した。Immediate Switch群［ISG（Day 1からDOR・3TC・TDFを投与）］又はDelayed Switch群［DSG（24週時にDOR・3TC・TDFに切り替えるまでベースラインレジメンを継続）］のいずれかに無作為に患者を割り付けた。 ISGの48週時及びDSGの24週時の有効性の概要を表3に示す 。本試験のISGでは48週時点で447例中100例（22.4%）に副作用が認められた。主な副作用は、ALT増加10例（2.2%）及び頭痛7例（1.6%）であった。"@ja .
+pi:PI_17_1 pio:table pi:PI_17_1.item3.table1 .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row1 .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column1 .
+pi:PI_17_1.item3.table1.row1.column1 rdf:value "" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column2 .
+pi:PI_17_1.item3.table1.row1.column2 rdf:value "ISG（48週時）" .
+pi:PI_17_1.item3.table1.row1 pio:column pi:PI_17_1.item3.table1.row1.column3 .
+pi:PI_17_1.item3.table1.row1.column3 rdf:value "DSG（24週時）" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row2 .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column1 .
+pi:PI_17_1.item3.table1.row2.column1 rdf:value "主要評価項目： HIV-1 RNA量50copies/mL未満の患者" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column2 .
+pi:PI_17_1.item3.table1.row2.column2 rdf:value "90.8%（406/447例）" .
+pi:PI_17_1.item3.table1.row2 pio:column pi:PI_17_1.item3.table1.row2.column3 .
+pi:PI_17_1.item3.table1.row2.column3 rdf:value "94.6%（211/223例）" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row3 .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column1 .
+pi:PI_17_1.item3.table1.row3.column1 rdf:value "群間差（95%信頼区間）" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column2 .
+pi:PI_17_1.item3.table1.row3.column2 rdf:value "-3.8%（-7.9%, 0.3%）" .
+pi:PI_17_1.item3.table1.row3 pio:column pi:PI_17_1.item3.table1.row3.column3 .
+pi:PI_17_1.item3.table1.row3.column3 rdf:value "-3.8%（-7.9%, 0.3%）" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row4 .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column1 .
+pi:PI_17_1.item3.table1.row4.column1 rdf:value "HIV-1 RNA量50copies/mL以上の患者" .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column2 .
+pi:PI_17_1.item3.table1.row4.column2 rdf:value "1.6%（7/447例）" .
+pi:PI_17_1.item3.table1.row4 pio:column pi:PI_17_1.item3.table1.row4.column3 .
+pi:PI_17_1.item3.table1.row4.column3 rdf:value "1.8%（4/223例）" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row5 .
+pi:PI_17_1.item3.table1.row5 pio:column pi:PI_17_1.item3.table1.row5.column1 .
+pi:PI_17_1.item3.table1.row5.column1 rdf:value "群間差（95%信頼区間）" .
+pi:PI_17_1.item3.table1.row5 pio:column pi:PI_17_1.item3.table1.row5.column2 .
+pi:PI_17_1.item3.table1.row5.column2 rdf:value "-0.2%（-2.5%, 2.1%）" .
+pi:PI_17_1.item3.table1.row5 pio:column pi:PI_17_1.item3.table1.row5.column3 .
+pi:PI_17_1.item3.table1.row5.column3 rdf:value "-0.2%（-2.5%, 2.1%）" .
+pi:PI_17_1.item3.table1 pio:row pi:PI_17_1.item3.table1.row6 .
+pi:PI_17_1.item3.table1.row6 pio:column pi:PI_17_1.item3.table1.row6.column1 .
+pi:PI_17_1.item3.table1.row6.column1 rdf:value "                                           " .
+pi:PI_17_1.item3.table1.row6 pio:column pi:PI_17_1.item3.table1.row6.column2 .
+pi:PI_17_1.item3.table1.row6.column2 rdf:value "                                           " .
+pi:PI_17_1.item3.table1.row6 pio:column pi:PI_17_1.item3.table1.row6.column3 .
+pi:PI_17_1.item3.table1.row6.column3 rdf:value "                                           " .
+pi:PI_17_3 pio:section pi:PI_17_3.item1 .
+pi:PI_17_3.item1 rdfs:title "心電図に及ぼす影響"@ja .
+pi:PI_17_3.item1 dct:description "健康成人を対象にドラビリン1200mgの単回投与が心電図に及ぼす影響を評価した結果、QTc間隔に臨床的に有意な変化はなかった。"@ja .
+pi:PI_17_3 dct:description "注）本剤の承認された用量は1日1回100mgである。"@ja .
+pi:PI_18 a pio:PI_18 .
+pi:PI_18_1 dct:description "ドラビリンは、ピリジノン型の非ヌクレオシド系逆転写酵素阻害剤（NNRTI）であり、HIV-1逆転写酵素を非競合的に阻害することにより、HIV-1の複製を阻害する。ドラビリンは、ヒト細胞DNAポリメラーゼα、β及びミトコンドリアDNAポリメラーゼγを阻害しない 。"@ja .
+pi:PI_18 pio:section pi:PI_18.item1 .
+pi:PI_18.item1 rdfs:label "抗ウイルス作用"@ja .
+pi:PI_18.item1 dct:description "GFPレポーター遺伝子導入MT4細胞に野生型HIV-1実験室株を感染させた試験系において、100%正常ヒト血清存在下でのドラビリンのEC 値は12±4.4nmol/Lであった。HIV-1分離株（A、A1、AE、AG、B、BF、C、D、G及びH）に対するドラビリンのEC 値は1.2～10nmol/Lの範囲であった。"@ja .
+pi:PI_18 pio:section pi:PI_18.item2 .
+pi:PI_18.item2 rdfs:label "薬剤耐性"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item1 .
+pi:PI_18.item2.item1 rdfs:label "試験"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item2 .
+pi:PI_18.item2.item2 dct:desctiption "由来及びサブタイプの異なる野生型HIV-1及びNNRTI耐性HIV-1を細胞に感染させ、培養してドラビリン耐性株を選択した結果、HIV-1逆転写酵素のV106A、V106M、V106I、V108I、F227L、F227C、F227V、H221Y、M230I、L234I、P236L及びY318F変異が認められた。"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item3 .
+pi:PI_18.item2.item3 rdfs:label "臨床試験"@ja .
+pi:PI_18.item2 pio:section pi:PI_18.item2.item4 .
+pi:PI_18 pio:section pi:PI_18.item3 .
+pi:PI_18.item3 rdfs:label "交差耐性"@ja .
+pi:PI_18.item3 dct:description "K103N、Y181C又はK103N/Y181C変異を有するHIV-1実験室株では、100%正常ヒト血清存在下で評価した結果、ドラビリンに対する感受性が3倍未満に低下した。NNRTI耐性関連変異（K103N、Y181C、G190A及びE138K）に対して、ドラビリンは臨床での血漿中濃度に相当する濃度で抑制した。 Y188L、K103N/Y188L、V106I/Y188L、V106A/G190A/F227L及びE138K/Y181C/M230L変異を有する臨床分離株では、ドラビリンに対する感受性が100倍を超えて低下した。 治療により発現するドラビリン耐性変異は、エファビレンツ、リルピビリン、ネビラピン及びエトラビリンに対して交差耐性をもたらす可能性がある。表現型解析による耐性検査の結果、ドラビリンに耐性を示した8例のうち、8例はネビラピンに、6例はエファビレンツに、4例はリルピビリンに耐性を示し、3例はエトラビリンに部分的な耐性を示した。"@ja .
+pi:PI_19 a pio:PI_19 .
+pi:PI_19 pio:general_name "ドラビリン（Doravirine）" .
+pi:PI_19 pio:chemical_name "3-Chloro-5-({1-[(4-methyl-5-oxo-4,5-dihydro-1 -1,2,4-triazol-3-yl)methyl]-2-oxo-4-(trifluoromethyl)-1,2-dihydropyridin-3-yl}oxy)benzonitrile" .
+pi:PI_19 pio:molecular_formula "C H ClF N O" .
+pi:PI_19 pio:molecular_weight "425.75" .
+pi:PI_19 pio:description_of_active_ingredients "白色の粉末である。" .
+pi:PI_20 a pio:PI_20 .
+pi:PI_20 dct:description "湿気を避けるため、瓶のまま密栓して保存し、常時乾燥剤を入れておくこと。"@ja .
+pi:PI_21 pio:section pi:PI_21.item1 .
+pi:PI_21.item1 dct:description "医薬品リスク管理計画を策定の上、適切に実施すること。"@ja .
+pi:PI_21 pio:section pi:PI_21.item2 .
+pi:PI_21.item2 dct:description "本剤の使用に当たっては、患者に対して本剤に関して更なる有効性・安全性のデータを引き続き収集中であること等を十分に説明し、インフォームドコンセントを得るよう、医師に要請すること。"@ja .
+pi:PI_21 pio:section pi:PI_21.item3 .
+pi:PI_21.item3 dct:description "海外において現在実施中又は計画中の臨床試験については、終了後速やかに試験成績及び解析結果を提出すること。"@ja .
+pi:PI_21 pio:section pi:PI_21.item4 .
+pi:PI_21.item4 dct:description "日本人を対象とした薬物動態試験を実施し、その進捗状況を定期的に報告するとともに、終了後速やかに臨床試験成績及び解析結果を提出すること。"@ja .
+pi:PI_21 pio:section pi:PI_21.item5 .
+pi:PI_21.item5 dct:description "再審査期間が終了するまでの間、原則として国内の全投与症例を対象とした製造販売後調査を実施し、本剤の使用実態に関する情報（患者背景、有効性・安全性（他剤併用時の有効性・安全性を含む）及び薬物相互作用のデータ等）を収集して定期的に報告するとともに、調査の結果を再審査申請時に提出すること。"@ja .
+pi:PI_22 dct:description "30錠［瓶、バラ、乾燥剤入り］"@ja .
+pi:PI_23 dct:references pi:PI_23.item1 .
+pi:PI_23.item1 a bibo:Document .
+pi:PI_23.item1 rdfs:label "社内資料：ドラビリンの胎盤移行に関する検討（2020年1月14日承認、CTD2.6.4.4）" .
+pi:PI_23.item1 pio:id "DOC_01" .
+pi:PI_23 dct:references pi:PI_23.item2 .
+pi:PI_23.item2 a bibo:Document .
+pi:PI_23.item2 rdfs:label "社内資料：ドラビリンの乳汁移行に関する検討（2020年1月14日承認、CTD2.6.4.6）" .
+pi:PI_23.item2 pio:id "DOC_02" .
+pi:PI_23 dct:references pi:PI_23.item3 .
+pi:PI_23.item3 a bibo:Document .
+pi:PI_23.item3 rdfs:label "社内資料：本剤単回経口投与時の薬物動態に関する検討（2020年1月14日承認、CTD2.7.1.2）" .
+pi:PI_23.item3 pio:id "DOC_03" .
+pi:PI_23 dct:references pi:PI_23.item4 .
+pi:PI_23.item4 a bibo:Document .
+pi:PI_23.item4 rdfs:label "社内資料：ドラビリン反復経口投与時の薬物動態に関する検討（2020年1月14日承認、CTD2.7.2.2）" .
+pi:PI_23.item4 pio:id "DOC_04" .
+pi:PI_23 dct:references pi:PI_23.item5 .
+pi:PI_23.item5 a bibo:Document .
+pi:PI_23.item5 rdfs:label "社内資料：ドラビリンの母集団薬物動態解析（2020年1月14日承認、CTD2.7.2.2、CTD2.7.2.6）" .
+pi:PI_23.item5 pio:id "DOC_05" .
+pi:PI_23 dct:references pi:PI_23.item6 .
+pi:PI_23.item6 a bibo:Document .
+pi:PI_23.item6 rdfs:label "社内資料：本剤の絶対的バイオアベイラビリティに関する検討（2020年1月14日承認、CTD2.7.1.3）" .
+pi:PI_23.item6 pio:id "DOC_06" .
+pi:PI_23 dct:references pi:PI_23.item7 .
+pi:PI_23.item7 a bibo:Document .
+pi:PI_23.item7 rdfs:label "Behm MO, et al. Clin Drug Investig. 2017；37：571-9." .
+pi:PI_23.item7 pio:id "DOC_07" .
+pi:PI_23 dct:references pi:PI_23.item8 .
+pi:PI_23.item8 a bibo:Document .
+pi:PI_23.item8 rdfs:label "Sanchez RI, et al. Xenobiotica. 2019；49：422-32." .
+pi:PI_23.item8 pio:id "DOC_08" .
+pi:PI_23 dct:references pi:PI_23.item9 .
+pi:PI_23.item9 a bibo:Document .
+pi:PI_23.item9 rdfs:label "社内資料：ドラビリンの代謝及び輸送並びにそれらの阻害に関する検討（2020年1月14日承認、CTD2.6.4.7）" .
+pi:PI_23.item9 pio:id "DOC_09" .
+pi:PI_23 dct:references pi:PI_23.item10 .
+pi:PI_23.item10 a bibo:Document .
+pi:PI_23.item10 rdfs:label "Ankrom W, et al. Antimicrob Agents Chemother. 2018；62：e00326-18." .
+pi:PI_23.item10 pio:id "DOC_10" .
+pi:PI_23 dct:references pi:PI_23.item11 .
+pi:PI_23.item11 a bibo:Document .
+pi:PI_23.item11 rdfs:label "Khalilieh S, et al. J Clin Pharmacol. 2017；57：777-83." .
+pi:PI_23.item11 pio:id "DOC_11" .
+pi:PI_23 dct:references pi:PI_23.item12 .
+pi:PI_23.item12 a bibo:Document .
+pi:PI_23.item12 rdfs:label "Behm MO, et al. Antivir Ther. 2017；22：337-44." .
+pi:PI_23.item12 pio:id "DOC_12" .
+pi:PI_23 dct:references pi:PI_23.item13 .
+pi:PI_23.item13 a bibo:Document .
+pi:PI_23.item13 rdfs:label "Molina JM, et al. Lancet HIV. 2018；5：e211-20." .
+pi:PI_23.item13 pio:id "DOC_13" .
+pi:PI_23 dct:references pi:PI_23.item14 .
+pi:PI_23.item14 a bibo:Document .
+pi:PI_23.item14 rdfs:label "Orkin C, et al. Clin Infect Dis. 2019；68：535-44." .
+pi:PI_23.item14 pio:id "DOC_14" .
+pi:PI_23 dct:references pi:PI_23.item15 .
+pi:PI_23.item15 a bibo:Document .
+pi:PI_23.item15 rdfs:label "Johnson M, et al. J Acquir Immune Defic Syndr. 2019；81：463-72." .
+pi:PI_23.item15 pio:id "DOC_15" .
+pi:PI_23 dct:references pi:PI_23.item16 .
+pi:PI_23.item16 a bibo:Document .
+pi:PI_23.item16 rdfs:label "Lai MT, et al. Antimicrob Agents Chemother. 2014；58：1652-63." .
+pi:PI_23.item16 pio:id "DOC_16" .
+pi:PI_23 dct:references pi:PI_23.item17 .
+pi:PI_23.item17 a bibo:Document .
+pi:PI_23.item17 rdfs:label "Wong A, et al. J Acquir Immune Defic Syndr. 2019；82：e47-9." .
+pi:PI_23.item17 pio:id "DOC_17" .
+pi:PI_24 pio:id "HDR_AddresseeOfLiteratureRequest"@ja .
+pi:PI_24 pio:section pi:PI_24.item1 .
+pi:PI_24.item1 pio:addressee_of_inquiry "MSD株式会社　MSDカスタマーサポートセンター"@ja .
+pi:PI_24.item1 pio:address "東京都千代田区九段北1-13-12"@ja .
+pi:PI_24.item1 pio:contact_information "医療関係者の方：フリーダイヤル 0120-024-961"@ja .
+pi:PI_26 pio:id "HDR_NameAddressManufact" .
+pi:PI_26 pio:section pi:PI_26.item1 .
+pi:PI_26.item1 pio:type_of_industry "製造販売元"@ja .
+pi:PI_26.item1 pio:name "MSD株式会社"@ja .
+pi:PI_26.item1 pio:address "東京都千代田区九段北1-13-12"@ja .

@@ -1,0 +1,273 @@
+subject,predicate,object
+1,rdf:type,bibo:Document
+1,rdfs:label,"承認時評価資料：日本人原発性骨粗鬆症患者での単回投与試験（AK156-I-1 試験）"
+1,dct:dateAccepted,2016-09-28
+1,ifo:internal_reference_id,
+1,ifo:ctd_number,CTD2.7.6.1
+2,rdf:type,bibo:Document
+2,rdfs:label,"承認時評価資料：日本人原発性骨粗鬆症患者での第Ⅲ相臨床試験（AK156-Ⅲ-1 試験：ZONE Study）"
+2,dct:dateAccepted,2016-09-28
+2,ifo:internal_reference_id,
+2,ifo:ctd_number,CTD2.7.6.2
+3,rdf:type,bibo:Article
+3,dct:references,27631091
+3,ifo:internal_reference_id,
+4,rdf:type,bibo:Document
+4,rdfs:label,"社内資料：閉経後骨減少症/骨粗鬆症患者での用量反応試験（0041 試験）"
+4,dct:dateAccepted,2016-09-28
+4,ifo:internal_reference_id,
+4,ifo:ctd_number,CTD2.7.6.6
+5,rdf:type,bibo:Article
+5,dct:references,11870242
+5,ifo:internal_reference_id,
+6,rdf:type,bibo:Document
+6,rdfs:label,"承認時評価資料：閉経後骨粗鬆症患者での海外第Ⅲ相臨床試験（H2301 試験：HORIZON-PFT）"
+6,dct:dateAccepted,2016-09-28
+6,ifo:internal_reference_id,
+6,ifo:ctd_number,CTD2.7.6.3
+7,rdf:type,bibo:Article
+7,dct:references,17476007
+7,ifo:internal_reference_id,
+8,rdf:type,bibo:Document
+8,rdfs:label,"社内資料：アレンドロン酸使用歴のある閉経後骨減少症/骨粗鬆症患者での第Ⅲb 相臨床試験（H2313 試験）"
+8,dct:dateAccepted,2016-09-28
+8,ifo:internal_reference_id,
+8,ifo:ctd_number,CTD2.7.6.7
+9,rdf:type,bibo:Article
+9,dct:references,17468062
+9,ifo:internal_reference_id,
+10,rdf:type,bibo:Document
+10,rdfs:label,"社内資料：ビスホスホネート製剤使用歴のない閉経後骨減少症/骨粗鬆症患者での第Ⅲb相臨床試験（H2315 試験）"
+10,dct:dateAccepted,2016-09-28
+10,ifo:internal_reference_id,
+10,ifo:ctd_number,CTD2.7.6.８
+11,rdf:type,bibo:Article
+11,dct:references,17347063
+11,ifo:internal_reference_id,
+12,rdf:type,bibo:Document
+12,rdfs:label,"社内資料：閉経後骨粗鬆症患者でのテリパラチドとの第Ⅲb 相臨床試験（H2409 試験）"
+12,dct:dateAccepted,2016-09-28
+12,ifo:internal_reference_id,
+12,ifo:ctd_number,CTD2.7.6.10
+13,rdf:type,bibo:Article
+13,dct:references,20814967
+13,ifo:internal_reference_id,
+14,rdf:type,bibo:Document
+14,rdfs:label,"社内資料：男性骨粗鬆症患者での第Ⅲ相臨床試験（アレンドロン酸対照：M2308 試験）"
+14,dct:dateAccepted,2016-09-28
+14,ifo:internal_reference_id,
+14,ifo:ctd_number,CTD2.7.6.13
+15,rdf:type,bibo:Article
+15,dct:references,20499357
+15,ifo:internal_reference_id,
+16,rdf:type,bibo:Document
+16,rdfs:label,"社内資料：閉経後骨減少症患者での第Ⅲ相臨床試験（N2312 試験）"
+16,dct:dateAccepted,2016-09-28
+16,ifo:internal_reference_id,
+16,ifo:ctd_number,CTD2.7.6.15
+17,rdf:type,bibo:Article
+17,dct:references,20168099
+17,ifo:internal_reference_id,
+18,rdf:type,bibo:Document
+18,rdfs:label,"社内資料：閉経後骨粗鬆症患者での第Ⅲa 相長期投与試験（H2301E1 試験：3+3 年継続試験）"
+18,dct:dateAccepted,2016-09-28
+18,ifo:internal_reference_id,
+18,ifo:ctd_number,CTD2.7.6.4
+19,rdf:type,bibo:Article
+19,dct:references,22161728
+19,ifo:internal_reference_id,
+20,rdf:type,bibo:Document
+20,rdfs:label,"社内資料：閉経後骨粗鬆症患者での第Ⅲb 相長期投与試験（H2301E2 試験：6+3 年継続試験）"
+20,dct:dateAccepted,2016-09-28
+20,ifo:internal_reference_id,
+20,ifo:ctd_number,CTD2.7.6.5
+21,rdf:type,bibo:Article
+21,dct:references,25545380
+21,ifo:internal_reference_id,
+22,rdf:type,bibo:Document
+22,rdfs:label,"社内資料：男性骨粗鬆症患者での第Ⅲ相臨床試験（M2309 試験）"
+22,dct:dateAccepted,2016-09-28
+22,ifo:internal_reference_id,
+22,ifo:ctd_number,CTD2.7.6.12
+23,rdf:type,bibo:Article
+23,dct:references,23113482
+23,ifo:internal_reference_id,
+24,rdf:type,bibo:Document
+24,rdfs:label,"社内資料：ステロイド性骨粗鬆症患者での第Ⅲ相臨床試験（O2306 試験）"
+24,dct:dateAccepted,2016-09-28
+24,ifo:internal_reference_id,
+24,ifo:ctd_number,CTD2.7.6.11
+25,rdf:type,bibo:Article
+25,dct:references,19362675
+25,ifo:internal_reference_id,
+26,rdf:type,bibo:Document
+26,rdfs:label,"社内資料：大腿骨近位部骨折の手術後90 日以内の患者での第Ⅲ相臨床試験（L2310 試験）"
+26,dct:dateAccepted,2016-09-28
+26,ifo:internal_reference_id,
+26,ifo:ctd_number,CTD2.7.6.14
+27,rdf:type,bibo:Article
+27,dct:references,17878149
+27,ifo:internal_reference_id,
+28,rdf:type,bibo:Article
+28,dct:references,21153021
+28,ifo:internal_reference_id,
+29,rdf:type,bibo:BookSection
+29,dct:creator,高橋俊二
+29,bibo:editor,医薬ジャーナル社
+29,dct:publisher,
+29,prism:publicationName,"ビスホスホネート製剤による acute phase reaction；宗圓聰他 編: ビスホスホネートエビデンスブック"
+29,prism:startingPage,243
+29,prism:endingPage,246
+29,dct:issued,2013
+29,ifo:internal_reference_id,
+30,rdf:type,bibo:Document
+30,rdfs:label,"社内資料　閉経後骨減少症患者での第Ⅲb/IV 相臨床試験（H2407 試験）"
+30,dct:dateAccepted,2016-09-28
+30,ifo:internal_reference_id,
+30,ifo:ctd_number,CTD2.7.6.16
+31,rdf:type,bibo:Article
+31,dct:references,21331467
+31,ifo:internal_reference_id,
+32,rdf:type,bibo:Document
+32,rdfs:label,"社内資料：閉経後骨減少症/骨粗鬆患者での第Ⅲb/IV 相臨床試験（HUS136 試験）"
+32,dct:dateAccepted,2016-09-28
+32,ifo:internal_reference_id,
+32,ifo:ctd_number,CTD2.7.6.17
+33,rdf:type,bibo:Article
+33,dct:references,21116816
+33,ifo:internal_reference_id,
+34,rdf:type,bibo:Article
+34,dct:creator,"Green JR."
+34,prism:publicationName,"Zoledronic acid: pharmacologic profile of a potent bisphosphonate. JOrganomet Chem"
+34,prism:volume,690
+34,prism:number,10
+34,prism:startingPage,2439
+34,prism:endingPage,2448
+34,dct:issued,2005
+34,ifo:internal_reference_id,
+35,rdf:type,bibo:Document
+35,rdfs:label,社内資料：破骨細胞におけるアポトーシス誘導作用
+35,dct:dateAccepted,2016-09-28
+35,ifo:internal_reference_id,
+35,ifo:ctd_number,CTD2.6.2.2
+36,rdf:type,bibo:Article
+36,dct:references,10934645
+36,ifo:internal_reference_id,
+37,rdf:type,bibo:Document
+37,rdfs:label,"社内資料：In vitro における破骨細胞形成阻害作用"
+37,dct:dateAccepted,2016-09-28
+37,ifo:internal_reference_id,
+37,ifo:ctd_number,CTD2.6.2.2
+38,rdf:type,bibo:Article
+38,dct:references,11160603
+38,ifo:internal_reference_id,
+39,rdf:type,bibo:Article
+39,dct:references,11855844
+39,ifo:internal_reference_id,
+40,rdf:type,bibo:Article
+40,dct:references,8053405
+40,ifo:internal_reference_id,
+41,rdf:type,bibo:Document
+41,rdfs:label,"社内資料：In vitro マウス頭蓋冠カルシウム遊離阻害作用"
+41,dct:dateAccepted,2016-09-28
+41,ifo:internal_reference_id,
+41,ifo:ctd_number,CTD2.6.2.2
+42,rdf:type,bibo:Document
+42,rdfs:label,社内資料：ラット閉経後骨粗鬆症モデルにおける単回静脈内投与の作用
+42,dct:dateAccepted,2016-09-28
+42,ifo:internal_reference_id,
+42,ifo:ctd_number,CTD2.6.2.2
+43,rdf:type,bibo:Article
+43,dct:references,18072878
+43,ifo:internal_reference_id,
+44,rdf:type,bibo:Document
+44,rdfs:label,社内資料：ラット閉経後骨粗鬆症モデルにおける長期反復皮下投与の作用
+44,dct:dateAccepted,2016-09-28
+44,ifo:internal_reference_id,
+44,ifo:ctd_number,CTD2.6.2.2
+45,rdf:type,bibo:Document
+45,rdfs:label,社内資料：サル閉経後骨粗鬆症モデルにおける長期反復皮下投与の作用
+45,dct:dateAccepted,2016-09-28
+45,ifo:internal_reference_id,
+45,ifo:ctd_number,CTD2.6.2.2
+46,rdf:type,bibo:Article
+46,dct:references,17371160
+46,ifo:internal_reference_id,
+47,rdf:type,bibo:Article
+47,dct:references,12854841
+47,ifo:internal_reference_id,
+48,rdf:type,bibo:Article
+48,dct:references,15355565
+48,ifo:internal_reference_id,
+49,rdf:type,bibo:Document
+49,rdfs:label,社内資料：母集団薬物動態（PPK）解析
+49,dct:dateAccepted,2016-09-28
+49,ifo:internal_reference_id,
+49,ifo:ctd_number,CTD2.7.2.3
+50,rdf:type,bibo:Document
+50,rdfs:label,社内資料：臓器・組織への移行性（ラット）
+50,dct:dateAccepted,
+50,ifo:internal_reference_id,
+50,ifo:ctd_number,
+51,rdf:type,bibo:Document
+51,rdfs:label,"社内資料：血漿蛋白結合率（in vitro）"
+51,dct:dateAccepted,2016-09-28
+51,ifo:internal_reference_id,
+51,ifo:ctd_number,CTD2.5.3.1
+52,rdf:type,bibo:Article
+52,dct:references,12616668
+52,ifo:internal_reference_id,
+53,rdf:type,bibo:Document
+53,rdfs:label,"社内資料： In vitro 代謝"
+53,dct:dateAccepted,2016-09-28
+53,ifo:internal_reference_id,
+53,ifo:ctd_number,CTD2.5.3.1
+54,rdf:type,bibo:Document
+54,rdfs:label,社内資料：ゾレドロン酸の生殖発生毒性試験
+54,dct:dateAccepted,2016-09-28
+54,ifo:internal_reference_id,
+54,ifo:ctd_number,CTD2.6.6.6
+55,rdf:type,bibo:Article
+55,dct:creator,"望月勉, 他."
+55,prism:publicationName,"4-Amino-l-hydroxybutylidene-l、l-bisphosphonate(alendronate)の体内動態研究(第2 報):反復投与時の7 週齢ラット、単回投与時の30 週齢ラットにおける血中濃度、分布、排泄、および雌性ラットにおける胎仔移行性、乳汁移行性. 薬物動態"
+55,prism:volume,10
+55,prism:number,2
+55,prism:startingPage,174
+55,prism:endingPage,189
+55,dct:issued,1995
+55,ifo:internal_reference_id,
+56,rdf:type,bibo:BookSection
+56,dct:creator,"Zoledronic Acid for Osteoporosis (Marketed as Reclast): "
+56,prism:publicationName,"Renal Impairment and Acute Renal Failure. FDA Drug Safety Newsletter"
+56,prism:volume,2
+56,prism:number,2
+56,prism:startingPage,
+56,prism:endingPage,
+56,dct:issued,2009
+56,ifo:internal_reference_id,
+57,rdf:type,bibo:Document
+57,rdfs:label,社内資料：ゾレドロン酸の一般薬理試験
+57,dct:dateAccepted,
+57,ifo:internal_reference_id,
+57,ifo:ctd_number,
+58,rdf:type,bibo:Article
+58,dct:references,14969398
+58,ifo:internal_reference_id,
+59,rdf:type,bibo:Article
+59,dct:references,10068336
+59,ifo:internal_reference_id,
+60,rdf:type,bibo:Document
+60,rdfs:label,社内資料：ゾレドロン酸の単回投与毒性試験
+60,dct:dateAccepted,2016-09-28
+60,ifo:internal_reference_id,
+60,ifo:ctd_number,CTD2.6.6.2
+61,rdf:type,bibo:Document
+61,rdfs:label,社内資料：ゾレドロン酸の反復投与毒性試験
+61,dct:dateAccepted,2016-09-28
+61,ifo:internal_reference_id,
+61,ifo:ctd_number,CTD2.6.6.3
+62,rdf:type,bibo:Document
+62,rdfs:label,社内資料：ゾレドロン酸の特殊毒性試験
+62,dct:dateAccepted,2016-09-28
+62,ifo:internal_reference_id,
+62,ifo:ctd_number,CTD2.6.6.4、2.6.6.5、2.6.6.7、2.6.6.8
