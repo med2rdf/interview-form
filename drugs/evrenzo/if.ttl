@@ -1,5 +1,5 @@
 @prefix	if:	<http://med2rdf.org/if/800126_3999047F1028_1_004_2F#>	.
-@prefix	pi:	<http://med2rdf.org/pi/800126_3999047F1028_1_01#>	.
+@prefix	pi:	<http://med2rdf.org/pi/800126_3999047F1028_1_02#>	.
 
 @prefix yjc:   <http://med2rdf.org/if/yjcode/> .
 @prefix pio:   <http://med2rdf.org/ontology/pio/> .
