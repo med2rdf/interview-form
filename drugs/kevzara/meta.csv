@@ -1,6 +1,6 @@
 subject,predicate,object
-https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590014F1021_1_12,dct:identifier,780069_3999444G1022_1_07
-https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf,dct:identifier,780069_3999444G1022_1_007_1F
+https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/800126_2590014F1021_1_12,ifo:pi_id,780069_3999444G1022_1_07
+https://www.info.pmda.go.jp/go/interview/1/800126_2590014F1021_1_015_1F.pdf,ifo:if_id,780069_3999444G1022_1_007_1F
 800126_2590014F1021_1_015_1F,ifo:yjcode,"3999444G1022, 3999444G2029, 3999444G3025, 3999444G4021"
 ,,
 3999444G1022,ifo:if_0_8,"ケブザラ皮下注150mg シリンジ"
