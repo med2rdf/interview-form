@@ -808,48 +808,61 @@ if:IF_7_11	rdf:type	ifo:IF_7_11	.
 if:IF_7_11	rdf:type	ifo:Section	.
 if:IF_7_11	ifo:package_insert	pi:PI_16_8	.
 if:IF_7_11	rdf:value	"該当資料なし"@ja	.
-if:IF_7_11.item1	rdf:type	ifo:Item	.
-if:IF_7_11.item1	ifo:package_insert	pi:PI_16_8.item1	.
-if:IF_7_11.item1	dct:identifier	"7.11.item1"	.
-if:IF_7_11.item1	rdf:value	"≪皮下注製剤≫\r\n1.1 本剤はIL-12/23の作用を選択的に抑制する薬剤であるため、免疫抑制作用により感染のリスクを増大させた\r\nり、また結核の既感染者では結核を活動化させる可能性がある。また、本剤との因果関係は明らかではないが、\r\n悪性腫瘍の発現が報告されている。本剤が疾病を完治させる薬剤ではないことを含め、これらの情報を患者\r\nに十分に説明し、理解したことを確認し、治療上の有益性が危険性を上回ると判断される場合にのみ投与す\r\nること。また、本剤投与により感染症、悪性腫瘍や重篤なアレルギー反応等が発現する可能性があることから、\r\n本剤は、本剤のリスクを熟知した専門医の下で使用し、本剤投与後に副作用が発現した場合には、主治医に\r\n連絡するよう患者に注意喚起すること。"@ja	.
-if:IF_7_11.item2	rdf:type	ifo:Item	.
-if:IF_7_11.item2	ifo:package_insert	pi:PI_16_8.item2	.
-if:IF_7_11.item2	dct:identifier	"7.11.item2"	.
-if:IF_7_11.item2	rdf:value	"1.2 本剤において、ウイルス、細菌及び真菌による重篤な感染症が報告されている。本剤はIL-12/23の作用を選\r\n択的に抑制する薬剤であるため、免疫抑制作用により感染のリスクを増大させる可能性があることを患者に説\r\n明すること。感染を示唆する徴候又は症状が生じた場合には、主治医に連絡するように患者に指導すること。\r\n重篤な感染症が生じた場合には、注意深いモニタリングを行い、感染が消失するまで本剤を投与しないこと。"@ja	.
-if:IF_7_11.item3	rdf:type	ifo:Item	.
-if:IF_7_11.item3	ifo:package_insert	pi:PI_16_8.item3	.
-if:IF_7_11.item3	dct:identifier	"7.11.item3"	.
-if:IF_7_11.item3	rdf:value	"1.3 本剤は、結核等の感染症について診療経験を有する内科等の医師が治療に対して十分な連携下で使用す\r\nること。"@ja	.
-if:IF_7_11.item4	rdf:type	ifo:Item	.
-if:IF_7_11.item4	ifo:package_insert	pi:PI_16_8.item4	.
-if:IF_7_11.item4	dct:identifier	"7.11.item4"	.
-if:IF_7_11.item4	rdf:value	"1.4 尋常性乾癬及び関節症性乾癬患者では、本剤は紫外線療法を含む既存の全身療法（生物製剤を除く）で十\r\n分な効果が得られない場合に、使用すること。（「Ⅴ.2. 効能又は効果に関連する注意」参照）\r\nクローン病患者では、過去の治療において、栄養療法、他の薬物療法（5-アミノサリチル酸製剤、ステロイド、ア\r\nザチオプリン等）等による適切な治療を行っても、疾患に起因する明らかな臨床症状が残る場合に投与を行う\r\nこと。（「Ⅴ.2. 効能又は効果に関連する注意」参照）\r\n潰瘍性大腸炎患者では、過去の治療において、他の薬物療法（ステロイド、アザチオプリン等）等による適切\r\nな治療を行っても、疾患に起因する明らかな臨床症状が残る場合に投与を行うこと。（「Ⅴ.2. 効能又は効果に\r\n関連する注意」参照）"@ja	.
-if:IF_7_11.item4	rdfs:seeAlso	if:IF_5_2	.
-if:IF_7_11.item5	rdf:type	ifo:Item	.
-if:IF_7_11.item5	ifo:package_insert	pi:PI_16_8.item5	.
-if:IF_7_11.item5	dct:identifier	"7.11.item5"	.
-if:IF_7_11.item5	rdf:value	"1.5 安全性確保のために、本剤についての十分な知識と適応疾患の治療の知識・経験をもつ医師が使用するこ\r\nと。"@ja	.
-if:IF_7_11.item6	rdf:type	ifo:Item	.
-if:IF_7_11.item6	ifo:package_insert	pi:PI_16_8.item6	.
-if:IF_7_11.item6	dct:identifier	"7.11.item6"	.
-if:IF_7_11.item6	rdf:value	"≪点滴静注製剤≫\r\n1.1 本剤はIL-12/23の作用を選択的に抑制する薬剤であるため、免疫抑制作用により感染のリスクを増大させた\r\nり、また結核の既感染者では結核を活動化させる可能性がある。また、本剤との因果関係は明らかではないが、\r\n悪性腫瘍の発現が報告されている。本剤が疾病を完治させる薬剤ではないことを含め、これらの情報を患者\r\nに十分に説明し、理解したことを確認し、治療上の有益性が危険性を上回ると判断される場合にのみ投与す\r\nること。また、本剤投与により感染症、悪性腫瘍や重篤なアレルギー反応等が発現する可能性があることから、\r\n本剤は、本剤のリスクを熟知した専門医の下で使用し、本剤投与後に副作用が発現した場合には、主治医に\r\n連絡するよう患者に注意喚起すること。"@ja	.
-if:IF_7_11.item7	rdf:type	ifo:Item	.
-if:IF_7_11.item7	ifo:package_insert	pi:PI_16_8.item7	.
-if:IF_7_11.item7	dct:identifier	"7.11.item7"	.
-if:IF_7_11.item7	rdf:value	"1.2 本剤において、ウイルス、細菌及び真菌による重篤な感染症が報告されている。本剤はIL-12/23の作用を選\r\n択的に抑制する薬剤であるため、免疫抑制作用により感染のリスクを増大させる可能性があることを患者に説\r\n明すること。感染を示唆する徴候又は症状が生じた場合には、主治医に連絡するように患者に指導すること。\r\n重篤な感染症が生じた場合には、注意深いモニタリングを行い、感染が消失するまで本剤を投与しないこと。"@ja	.
-if:IF_7_11.item8	rdf:type	ifo:Item	.
-if:IF_7_11.item8	ifo:package_insert	pi:PI_16_8.item8	.
-if:IF_7_11.item8	dct:identifier	"7.11.item8"	.
-if:IF_7_11.item8	rdf:value	"1.3 本剤は、結核等の感染症について診療経験を有する内科等の医師が治療に対して十分な連携下で使用す\r\nること。"@ja	.
-if:IF_7_11.item9	rdf:type	ifo:Item	.
-if:IF_7_11.item9	ifo:package_insert	pi:PI_16_8.item9	.
-if:IF_7_11.item9	dct:identifier	"7.11.item9"	.
-if:IF_7_11.item9	rdf:value	"1.4 クローン病患者では、過去の治療において、栄養療法、他の薬物療法（5-アミノサリチル酸製剤、ステロイド、ア\r\nザチオプリン等）等による適切な治療を行っても、疾患に起因する明らかな臨床症状が残る場合に投与を行う\r\nこと。（「Ⅴ.2. 効能又は効果に関連する注意」参照）\r\n潰瘍性大腸炎患者では、過去の治療において、他の薬物療法（ステロイド、アザチオプリン等）等による適切\r\nな治療を行っても、疾患に起因する明らかな臨床症状が残る場合に投与を行うこと。（「Ⅴ.2. 効能又は効果に\r\n関連する注意」参照）"@ja	.
-if:IF_7_11.item9	rdfs:seeAlso	if:IF_5_2	.
-if:IF_7_11.item10	rdf:type	ifo:Item	.
-if:IF_7_11.item10	ifo:package_insert	pi:PI_16_8.item10	.
-if:IF_7_11.item10	dct:identifier	"7.11.item10"	.
-if:IF_7_11.item10	rdf:value	"1.5 安全性確保のために、本剤についての十分な知識と適応疾患の治療の知識・経験をもつ医師が使用するこ\r\nと。"@ja	.
+if:IF_8_1	rdf:type	ifo:IF_8_1	.
+if:IF_8_1	rdf:type	ifo:Section	.
+if:IF_8_1	ifo:package_insert	pi:PI_1	.
+if:IF_8_1	ifo:item	if:IF_8_1.item1	.
+if:IF_8_1	ifo:item	if:IF_8_1.item2	.
+if:IF_8_1	ifo:item	if:IF_8_1.item3	.
+if:IF_8_1	ifo:item	if:IF_8_1.item4	.
+if:IF_8_1	ifo:item	if:IF_8_1.item5	.
+if:IF_8_1	ifo:item	if:IF_8_1.item6	.
+if:IF_8_1	ifo:item	if:IF_8_1.item7	.
+if:IF_8_1	ifo:item	if:IF_8_1.item8	.
+if:IF_8_1	ifo:item	if:IF_8_1.item9	.
+if:IF_8_1	ifo:item	if:IF_8_1.item10	.
+if:IF_8_1.item1	rdf:type	ifo:Item	.
+if:IF_8_1.item1	ifo:package_insert	pi:PI_1.item1	.
+if:IF_8_1.item1	dct:identifier	"8.1.item1"	.
+if:IF_8_1.item1	rdf:value	"≪皮下注製剤≫\r\n1.1 本剤はIL-12/23の作用を選択的に抑制する薬剤であるため、免疫抑制作用により感染のリスクを増大させた\r\nり、また結核の既感染者では結核を活動化させる可能性がある。また、本剤との因果関係は明らかではないが、\r\n悪性腫瘍の発現が報告されている。本剤が疾病を完治させる薬剤ではないことを含め、これらの情報を患者\r\nに十分に説明し、理解したことを確認し、治療上の有益性が危険性を上回ると判断される場合にのみ投与す\r\nること。また、本剤投与により感染症、悪性腫瘍や重篤なアレルギー反応等が発現する可能性があることから、\r\n本剤は、本剤のリスクを熟知した専門医の下で使用し、本剤投与後に副作用が発現した場合には、主治医に\r\n連絡するよう患者に注意喚起すること。"@ja	.
+if:IF_8_1.item2	rdf:type	ifo:Item	.
+if:IF_8_1.item2	ifo:package_insert	pi:PI_1.item2	.
+if:IF_8_1.item2	dct:identifier	"8.1.item2"	.
+if:IF_8_1.item2	rdf:value	"1.2 本剤において、ウイルス、細菌及び真菌による重篤な感染症が報告されている。本剤はIL-12/23の作用を選\n択的に抑制する薬剤であるため、免疫抑制作用により感染のリスクを増大させる可能性があることを患者に説\n明すること。感染を示唆する徴候又は症状が生じた場合には、主治医に連絡するように患者に指導すること。\n重篤な感染症が生じた場合には、注意深いモニタリングを行い、感染が消失するまで本剤を投与しないこと。"@ja	.
+if:IF_8_1.item3	rdf:type	ifo:Item	.
+if:IF_8_1.item3	ifo:package_insert	pi:PI_1.item3	.
+if:IF_8_1.item3	dct:identifier	"8.1.item3"	.
+if:IF_8_1.item3	rdf:value	"1.3 本剤は、結核等の感染症について診療経験を有する内科等の医師が治療に対して十分な連携下で使用す\nること。"@ja	.
+if:IF_8_1.item4	rdf:type	ifo:Item	.
+if:IF_8_1.item4	ifo:package_insert	pi:PI_1.item4	.
+if:IF_8_1.item4	dct:identifier	"8.1.item4"	.
+if:IF_8_1.item4	rdf:value	"1.4 尋常性乾癬及び関節症性乾癬患者では、本剤は紫外線療法を含む既存の全身療法（生物製剤を除く）で十\r\n分な効果が得られない場合に、使用すること。（「Ⅴ.2. 効能又は効果に関連する注意」参照）\r\nクローン病患者では、過去の治療において、栄養療法、他の薬物療法（5-アミノサリチル酸製剤、ステロイド、ア\r\nザチオプリン等）等による適切な治療を行っても、疾患に起因する明らかな臨床症状が残る場合に投与を行う\r\nこと。（「Ⅴ.2. 効能又は効果に関連する注意」参照）\r\n潰瘍性大腸炎患者では、過去の治療において、他の薬物療法（ステロイド、アザチオプリン等）等による適切\r\nな治療を行っても、疾患に起因する明らかな臨床症状が残る場合に投与を行うこと。（「Ⅴ.2. 効能又は効果に\r\n関連する注意」参照）"@ja	.
+if:IF_8_1.item4	rdfs:seeAlso	if:IF_5_2	.
+if:IF_8_1.item5	rdf:type	ifo:Item	.
+if:IF_8_1.item5	ifo:package_insert	pi:PI_1.item5	.
+if:IF_8_1.item5	dct:identifier	"8.1.item5"	.
+if:IF_8_1.item5	rdf:value	"1.5 安全性確保のために、本剤についての十分な知識と適応疾患の治療の知識・経験をもつ医師が使用するこ\r\nと。"@ja	.
+if:IF_8_1.item6	rdf:type	ifo:Item	.
+if:IF_8_1.item6	ifo:package_insert	pi:PI_1.item6	.
+if:IF_8_1.item6	dct:identifier	"8.1.item6"	.
+if:IF_8_1.item6	rdf:value	"≪点滴静注製剤≫\r\n1.1 本剤はIL-12/23の作用を選択的に抑制する薬剤であるため、免疫抑制作用により感染のリスクを増大させた\r\nり、また結核の既感染者では結核を活動化させる可能性がある。また、本剤との因果関係は明らかではないが、\r\n悪性腫瘍の発現が報告されている。本剤が疾病を完治させる薬剤ではないことを含め、これらの情報を患者\r\nに十分に説明し、理解したことを確認し、治療上の有益性が危険性を上回ると判断される場合にのみ投与す\r\nること。また、本剤投与により感染症、悪性腫瘍や重篤なアレルギー反応等が発現する可能性があることから、\r\n本剤は、本剤のリスクを熟知した専門医の下で使用し、本剤投与後に副作用が発現した場合には、主治医に\r\n連絡するよう患者に注意喚起すること。"@ja	.
+if:IF_8_1.item7	rdf:type	ifo:Item	.
+if:IF_8_1.item7	ifo:package_insert	pi:PI_1.item7	.
+if:IF_8_1.item7	dct:identifier	"8.1.item7"	.
+if:IF_8_1.item7	rdf:value	"1.2 本剤において、ウイルス、細菌及び真菌による重篤な感染症が報告されている。本剤はIL-12/23の作用を選\r\n択的に抑制する薬剤であるため、免疫抑制作用により感染のリスクを増大させる可能性があることを患者に説\r\n明すること。感染を示唆する徴候又は症状が生じた場合には、主治医に連絡するように患者に指導すること。\r\n重篤な感染症が生じた場合には、注意深いモニタリングを行い、感染が消失するまで本剤を投与しないこと。"@ja	.
+if:IF_8_1.item8	rdf:type	ifo:Item	.
+if:IF_8_1.item8	ifo:package_insert	pi:PI_1.item8	.
+if:IF_8_1.item8	dct:identifier	"8.1.item8"	.
+if:IF_8_1.item8	rdf:value	"1.3 本剤は、結核等の感染症について診療経験を有する内科等の医師が治療に対して十分な連携下で使用す\r\nること。"@ja	.
+if:IF_8_1.item9	rdf:type	ifo:Item	.
+if:IF_8_1.item9	ifo:package_insert	pi:PI_1.item9	.
+if:IF_8_1.item9	dct:identifier	"8.1.item9"	.
+if:IF_8_1.item9	rdf:value	"1.4 クローン病患者では、過去の治療において、栄養療法、他の薬物療法（5-アミノサリチル酸製剤、ステロイド、ア\r\nザチオプリン等）等による適切な治療を行っても、疾患に起因する明らかな臨床症状が残る場合に投与を行う\r\nこと。（「Ⅴ.2. 効能又は効果に関連する注意」参照）\r\n潰瘍性大腸炎患者では、過去の治療において、他の薬物療法（ステロイド、アザチオプリン等）等による適切\r\nな治療を行っても、疾患に起因する明らかな臨床症状が残る場合に投与を行うこと。（「Ⅴ.2. 効能又は効果に\r\n関連する注意」参照）"@ja	.
+if:IF_8_1.item9	rdfs:seeAlso	if:IF_5_2	.
+if:IF_8_1.item10	rdf:type	ifo:Item	.
+if:IF_8_1.item10	ifo:package_insert	pi:PI_1.item10	.
+if:IF_8_1.item10	dct:identifier	"8.1.item10"	.
+if:IF_8_1.item10	rdf:value	"1.5 安全性確保のために、本剤についての十分な知識と適応疾患の治療の知識・経験をもつ医師が使用するこ\r\nと。"@ja	.
 if:IF_8_2	rdf:type	ifo:IF_8_2	.
 if:IF_8_2	rdf:type	ifo:Section	.
 if:IF_8_2	ifo:package_insert	pi:PI_2	.
