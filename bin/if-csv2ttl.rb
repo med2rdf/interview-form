@@ -30,14 +30,14 @@ end
 
 class InterviewFormCSV2RDF
 
-  def initialize(meta_file, if_file, ref_file, ifo_file = "ontology/ifo.ttl")
+  def initialize(meta_file, if_file = false, ref_file = false, ifo_file = "ontology/ifo.ttl")
     @ifo = IFO.new(ifo_file)
     meta_csv = CSV.parse(File.read(meta_file), headers: true)
-    if_csv   = CSV.parse(File.read(if_file), headers: true)
-    ref_csv  = CSV.parse(File.read(ref_file), headers: true)
+    if_csv   = CSV.parse(File.read(if_file), headers: true) if if_file
+    ref_csv  = CSV.parse(File.read(ref_file), headers: true) if ref_file
     parse_meta(meta_csv)
-    parse(if_csv)
-    parse(ref_csv)
+    parse(if_csv) if if_file
+    parse(ref_csv) if ref_file
   end
 
   def encode(str)
@@ -90,10 +90,14 @@ class InterviewFormCSV2RDF
       subject, predicate, object = *parse_row(row)
 
       case predicate
-      when /ifo:if_id/
-        if_id = object
-      when /ifo:pi_id/
-        pi_id = object
+      when /dct:identifier/
+        if subject[/www.pmda.go.jp/]
+          if_id = object
+          subject = "https://www.pmda.go.jp/PmdaSearch/iyakuDetail/ResultDataSetPDF/" + if_id
+        elsif subject[/www.info.pmda.go.jp/]
+          pi_id = object
+          subject = "https://www.info.pmda.go.jp/go/interview/1/" + pi_id + ".pdf"
+        end
       when /ifo:yjcode/
         yjcodes = object.strip.split(/,\s*/)
       else
