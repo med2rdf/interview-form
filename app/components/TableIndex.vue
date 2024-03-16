@@ -44,7 +44,30 @@ const getContent = async (sectionId) => {
   try {
     const data = await fetch(`${config.public.API_URL}/interview_form_${activeTab.value}_section?${activeTab.value}_id=${drugId.value}&section_id=${sectionId}`)
     const targetData = await data.json()
-    const targetContent = targetData.value_list.length > 0 ? targetData.value_list.map(val => val.value).join(',') : "データがありません"
+    if (targetData.value_list.length < 1) return 'データがありません'
+    let targetContent = ''
+    targetData.value_list.forEach(val => {
+      switch (val.type) {
+        case 'label':
+          targetContent += `<span class="tableIndex_label">${val.value}</span>`
+          break;
+        case 'text':
+          targetContent += val.value
+          break;
+        case 'table':
+          targetContent += '<table class="tableIndex_table"><tr>'
+          val.value.forEach(cell => {
+            if (cell.pos.column === 1 && cell.pos.row !== 1) {
+              targetContent += `</tr><tr>`
+            }
+            targetContent += `<td>${cell.value}</td>`
+          })
+          targetContent += '</tr></table>'
+          break;
+        default:
+          break;
+      }
+    })
     return targetContent
   } catch (error) {
     console.error(error);
@@ -82,24 +105,18 @@ const toggleContent = async (content) => {
               class="tableIndex_childIndex" :class="{ 'tableIndex_childIndex-open': grandChildContent.open }"
               @click.stop="toggleContent(grandChildContent)">
               {{ grandChildContent.content_no }} {{ grandChildContent.content_label }}
-              <div v-if="grandChildContent.open" class="tableIndex_body">
-                {{ grandChildContent.targetContent }}
-              </div>
+              <div v-if="grandChildContent.open" class="tableIndex_body" v-html="grandChildContent.targetContent"></div>
             </li>
           </ul>
-          <div v-else-if="childContent.open" class="tableIndex_body">
-            {{ childContent.targetContent }}
-          </div>
+          <div v-else-if="childContent.open" class="tableIndex_body" v-html="childContent.targetContent"></div>
         </li>
       </ul>
-      <div v-else-if="content.open" class="tableIndex_body">
-        {{ content.targetContent }}
-      </div>
+      <div v-else-if="content.open" class="tableIndex_body" v-html="content.targetContent"></div>
     </li>
   </ul>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .tableIndex {
   &_index {
     font-size: 14px;
@@ -145,6 +162,25 @@ const toggleContent = async (content) => {
     margin-top: 8px;
     font-weight: normal;
     line-height: 1.5;
+  }
+
+  &_label {
+    background-color: #2e4d66;
+    color: #ffffff;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 11px;
+    margin-right: 4px;
+  }
+
+  &_table {
+    margin: 10px 0;
+
+    th,
+    td {
+      border: 1px solid #000000;
+      padding: 4px 8px;
+    }
   }
 }
 </style>

@@ -99,7 +99,7 @@ const filterDisplayedDrug = () => {
           <span class="selectedDrugsSummary_close" @click="clickDrugName(selectedDrug)">×</span>
         </p>
       </div>
-      <div class="lettersIndex">
+      <div v-if="selectedDrugs.length < 1" class="lettersIndex">
         <template v-for="(letter, index) in letters">
           <a :href="`#${letter}`" class="lettersIndex_letter">{{ letter }}</a>
           <span v-if="index !== letters.length - 1" class="lettersIndex_point">・</span>

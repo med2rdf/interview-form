@@ -42,7 +42,7 @@ const activeTab = ref(TABS.pi)
         </div>
       </div>
       <div v-show="activeTab === TABS.pi" class="docsSection_content">
-        <TableIndex :table-contents="PITableContents" :active-tab="activeTab" :drug-id="drug.if_id" />
+        <TableIndex :table-contents="PITableContents" :active-tab="activeTab" :drug-id="drug.pi_id" />
       </div>
       <div v-show="activeTab === TABS.if" class="docsSection_content">
         <TableIndex :table-contents="IFTableContents" :active-tab="activeTab" :drug-id="drug.if_id" />
