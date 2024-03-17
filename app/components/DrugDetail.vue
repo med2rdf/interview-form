@@ -17,6 +17,28 @@ const props = defineProps({
 })
 const { drug } = toRefs(props)
 const activeTab = ref(TABS.pi)
+const piTableIndex = ref(null)
+const ifTableIndex = ref(null)
+const moveToTargetSection = (sectionId) => {
+  const tab = sectionId.slice(0, 2).toLowerCase()
+  activeTab.value = TABS[tab]
+  if (activeTab.value === TABS.pi) {
+    piTableIndex.value?.moveToTargetSection()
+  } else if (activeTab.value === TABS.if) {
+    ifTableIndex.value?.moveToTargetSection()
+  }
+}
+const route = useRoute()
+watch(
+  () => route.query,
+  (newQuery) => {
+    const anotherTab = newQuery.type === TABS.pi ? TABS.if : TABS.pi
+    if (newQuery.drugId === drug.value[`${anotherTab}_id`] || newQuery.drugId === drug.value[`${anotherTab}_id`]) {
+      moveToTargetSection(newQuery.sectionId)
+    }
+  },
+  { immediate: true }
+)
 </script>
 
 <template>
@@ -44,10 +66,12 @@ const activeTab = ref(TABS.pi)
         </div>
       </div>
       <div v-show="activeTab === TABS.pi" class="docsSection_content">
-        <TableIndex :table-contents="PITableContents" :active-tab="activeTab" :drug-id="drug.pi_id" />
+        <TableIndex :key="`pi_${drug.pi_id}`" :table-contents="PITableContents" :active-tab="activeTab" :type="TABS.pi"
+          :drug-id="drug.pi_id" ref="piTableIndex" />
       </div>
       <div v-show="activeTab === TABS.if" class="docsSection_content">
-        <TableIndex :table-contents="IFTableContents" :active-tab="activeTab" :drug-id="drug.if_id" />
+        <TableIndex :key="`if_${drug.if_id}`" :table-contents="IFTableContents" :active-tab="activeTab" :type="TABS.if"
+          :drug-id="drug.if_id" ref="ifTableIndex" />
       </div>
     </div>
   </div>
@@ -118,7 +142,7 @@ const activeTab = ref(TABS.pi)
   }
 
   &_content {
-    padding: 0 22px;
+    padding: 10px 22px 0;
     background-color: #ffffff;
     border-radius: 0 0 5px 5px;
     height: calc(100vh - 282px);

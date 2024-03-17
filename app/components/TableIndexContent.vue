@@ -10,9 +10,13 @@ const props = defineProps({
   anotherTab: {
     type: String,
     required: true,
+  },
+  drugId: {
+    type: String,
+    required: true,
   }
 })
-const { childContent, anotherTab } = toRefs(props)
+const { childContent, anotherTab, drugId } = toRefs(props)
 
 const config = useRuntimeConfig()
 
@@ -23,11 +27,16 @@ const toggleRefData = (ref) => {
   }
 }
 
-const getRefData = async (ref) => {
-  const data = await fetch(`${config.public.API_URL}/interview_form_${anotherTab.value}_section?${anotherTab.value}_id=${ref[`${anotherTab.value}_id`]}&section_id=${ref[`${anotherTab.value}_section_id`]}`)
+const getRefData = async (reference) => {
+  const data = await fetch(`${config.public.API_URL}/interview_form_${anotherTab.value}_section?${anotherTab.value}_id=${reference[`${anotherTab.value}_id`]}&section_id=${reference[`${anotherTab.value}_section_id`]}`)
   const refData = await data.json()
-  ref[`${anotherTab.value}_section_body`] = refData.value_list.length > 0 ? formatContent(refData.value_list) : 'データがありません'
-  ref.isOpen = ref(true)
+  reference[`${anotherTab.value}_section_body`] = refData.value_list.length > 0 ? formatContent(refData.value_list) : 'データがありません'
+  reference.isOpen = ref(true)
+}
+
+const router = useRouter()
+const moveToRef = (ref) => {
+  router.push({ query: { type: anotherTab.value, drugId: drugId.value, sectionId: ref[`${anotherTab.value}_section_id`] } })
 }
 </script>
 
@@ -36,7 +45,10 @@ const getRefData = async (ref) => {
   <div v-if="childContent.refData" @click.stop>
     <div v-for="ref in childContent.refData" class="tableIndex_ref" :class="`tableIndex_ref-${anotherTab}`">
       <p class="tableIndex_refTitle" :class="{ 'tableIndex_refTitle-open': ref.isOpen }" @click="toggleRefData(ref)">
-        {{ ref[`${anotherTab}_section_no`] }} {{ ref[`${anotherTab}_section_name`] }}</p>
+        <span @click.stop="moveToRef(ref)">
+          {{ ref[`${anotherTab}_section_no`] }} {{ ref[`${anotherTab}_section_name`] }}
+        </span>
+      </p>
       <div v-show="ref.isOpen" v-html="ref[`${anotherTab}_section_body`]" class="tableIndex_refBody"
         :class="{ 'tableIndex_refBody-open': ref.isOpen }"></div>
     </div>

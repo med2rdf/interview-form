@@ -37,12 +37,16 @@ const props = defineProps({
     type: String,
     required: true,
   },
+  type: {
+    type: String,
+    required: true,
+  },
   drugId: {
     type: String,
     required: true,
   }
 })
-const { tableContents, activeTab, drugId } = toRefs(props)
+const { tableContents, activeTab, type, drugId } = toRefs(props)
 const anotherTab = computed(() => activeTab.value === TABS.pi ? TABS.if : TABS.pi)
 
 // 親子関係を構築したデータ構造に変換する関数
@@ -73,7 +77,7 @@ const config = useRuntimeConfig()
 
 const getContent = async (sectionId) => {
   try {
-    const data = await fetch(`${config.public.API_URL}/interview_form_${activeTab.value}_section?${activeTab.value}_id=${drugId.value}&section_id=${sectionId}`)
+    const data = await fetch(`${config.public.API_URL}/interview_form_${type.value}_section?${type.value}_id=${drugId.value}&section_id=${sectionId}`)
     const targetData = await data.json()
     const targetContent = targetData.value_list.length > 0 ? formatContent(targetData.value_list) : 'データがありません'
     return { targetContent, refData: targetData[`${anotherTab.value}_link_list`] }
@@ -91,12 +95,48 @@ const updateContent = async (content) => {
 }
 
 // コンテンツの開閉状態を切り替える
-const toggleContent = async (content) => {
-  content.open = !content.open;
+const toggleContent = async (content, isOpen) => {
+  content.open = isOpen ?? !content.open;
   if (content.open && !content.targetContent) {
     await updateContent(content);
   }
 }
+
+const route = useRoute()
+
+const moveToTargetSection = () => {
+  const sectionId = route.query.sectionId
+  if (!sectionId) return
+  openTargetSection(hierarchizedTableContents.value, sectionId)
+  nextTick(() => {
+    const targetEl = document.getElementById(sectionId);
+    targetEl?.scrollIntoView({ behavior: 'smooth' }, true);
+  })
+}
+
+const openTargetSection = (contents, sectionId) => {
+  const content = findChildContentById(contents, sectionId)
+  if (!content) return
+  toggleContent(content, true)
+  if (content.children.length > 0) {
+    openTargetSection(content.children, sectionId)
+  }
+}
+
+const findChildContentById = (contents, id) => {
+  const idParts = id.split('_');
+  for (let i = 0; i < contents.length; i++) {
+    const parts = contents[i].content_id.split('_');
+    if (parts.every((part, idx) => idParts[idx] === part)) {
+      return contents[i];
+    }
+  }
+  return null;
+}
+
+defineExpose({
+  moveToTargetSection
+})
 </script>
 
 <template>
@@ -105,23 +145,27 @@ const toggleContent = async (content) => {
       @click.stop="toggleContent(content)">
       {{ content.content_no }}　{{ content.content_label }}
       <ul v-if="content.children.length > 0 && content.open" class="tableIndex_childIndexWrapper" @click.stop>
-        <li v-for="childContent in content.children" :key="childContent.content_id" class="tableIndex_childIndex"
-          :class="{ 'tableIndex_childIndex-open': childContent.open }" @click.stop="toggleContent(childContent)">
+        <li v-for="childContent in content.children" :key="childContent.content_id" :id="childContent.content_id"
+          class="tableIndex_childIndex" :class="{ 'tableIndex_childIndex-open': childContent.open }"
+          @click.stop="toggleContent(childContent)">
           {{ childContent.content_no }} {{ childContent.content_label }}
           <ul v-if="childContent.children.length > 0 && childContent.open" class="tableIndex_childIndexWrapper"
             @click.stop>
             <li v-for="grandChildContent in childContent.children" :key="grandChildContent.content_id"
-              class="tableIndex_childIndex" :class="{ 'tableIndex_childIndex-open': grandChildContent.open }"
+              :id="grandChildContent.content_id" class="tableIndex_childIndex"
+              :class="{ 'tableIndex_childIndex-open': grandChildContent.open }"
               @click.stop="toggleContent(grandChildContent)">
               {{ grandChildContent.content_no }} {{ grandChildContent.content_label }}
-              <TableIndexContent v-if="grandChildContent.open" :child-content="grandChildContent"
+              <TableIndexContent v-if="grandChildContent.open" :drug-id="drugId" :child-content="grandChildContent"
                 :another-tab="anotherTab" />
             </li>
           </ul>
-          <TableIndexContent v-else-if="childContent.open" :child-content="childContent" :another-tab="anotherTab" />
+          <TableIndexContent v-else-if="childContent.open" :drug-id="drugId" :child-content="childContent"
+            :another-tab="anotherTab" />
         </li>
       </ul>
-      <TableIndexContent v-else-if="content.open" :child-content="content" :another-tab="anotherTab" />
+      <TableIndexContent v-else-if="content.open" :drug-id="drugId" :child-content="content"
+        :another-tab="anotherTab" />
     </li>
   </ul>
 </template>
