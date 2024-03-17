@@ -32,8 +32,7 @@ const route = useRoute()
 watch(
   () => route.query,
   (newQuery) => {
-    const anotherTab = newQuery.type === TABS.pi ? TABS.if : TABS.pi
-    if (newQuery.drugId === drug.value[`${anotherTab}_id`] || newQuery.drugId === drug.value[`${anotherTab}_id`]) {
+    if (newQuery.drugId === drug.value.pi_id || newQuery.drugId === drug.value.if_id) {
       moveToTargetSection(newQuery.sectionId)
     }
   },
