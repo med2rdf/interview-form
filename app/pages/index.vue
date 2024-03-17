@@ -66,6 +66,8 @@ const filterDisplayedDrug = () => {
     }
   })
 }
+
+const isSummaryOpen = ref(false)
 </script>
 
 <template>
@@ -91,13 +93,26 @@ const filterDisplayedDrug = () => {
         <DrugDetail v-for="drug in selectedDrugs" :key="drug.if_id" :drug="drug" class="drugDetailList_card"
           :class="{ 'drugDetailList_card-single': selectedDrugs.length === 1 }" />
       </div>
-      <div class="selectedDrugsSummary">
-        <p v-for="selectedDrug in selectedDrugs" :key="selectedDrug.if_id" class="selectedDrugsSummary_name">
-          {{ selectedDrug.drug_name }}
-          <span class="selectedDrugsSummary_close" @click="clickDrugName(selectedDrug)">×</span>
-        </p>
+      <div v-if="selectedDrugs.length > 0" class="selectedDrugsSummary">
+        <div class="selectedDrugsSummary_nameList">
+          <p v-for="selectedDrug in selectedDrugs" :key="selectedDrug.if_id" class="selectedDrugsSummary_name">
+            {{ selectedDrug.drug_name }}
+            <span class="selectedDrugsSummary_close" @click="clickDrugName(selectedDrug)">×</span>
+          </p>
+        </div>
+        <div class="selectedDrugsSummary_menu" @click="isSummaryOpen = !isSummaryOpen">
+          <span class="selectedDrugsSummary_menuLine"></span>
+          <span class="selectedDrugsSummary_menuLine"></span>
+          <span class="selectedDrugsSummary_menuLine"></span>
+        </div>
+        <div v-if="isSummaryOpen" class="selectedDrugsSummary_window">
+          <p v-for="selectedDrug in selectedDrugs" :key="selectedDrug.if_id" class="selectedDrugsSummary_windowName">
+            {{ selectedDrug.drug_name }}
+            <span class="selectedDrugsSummary_windowNameClose" @click="clickDrugName(selectedDrug)">×</span>
+          </p>
+        </div>
       </div>
-      <div v-if="selectedDrugs.length < 1" class="lettersIndex">
+      <div v-else class="lettersIndex">
         <template v-for="(letter, index) in letters">
           <a :href="`#${letter}`" class="lettersIndex_letter">{{ letter }}</a>
           <span v-if="index !== letters.length - 1" class="lettersIndex_point">・</span>
@@ -254,7 +269,7 @@ const filterDisplayedDrug = () => {
     left: 40%;
     width: 6px;
     height: 6px;
-    display: inline-blockck;
+    display: inline-block;
     border-top: 3px solid $main_color;
     border-left: 3px solid $main_color;
     transform: rotate(-45deg);
@@ -271,14 +286,21 @@ const filterDisplayedDrug = () => {
 }
 
 .selectedDrugsSummary {
-  display: flex;
   height: 40px;
-  align-items: center;
   position: absolute;
   bottom: 0;
 
+  &_nameList {
+    width: calc(100vw - 310px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   &_name {
     font-size: 12px;
+    display: inline-block;
+    padding: 15px 0;
 
     &+& {
       &::before {
@@ -291,6 +313,51 @@ const filterDisplayedDrug = () => {
   &_close {
     font-size: 14px;
     margin-left: 8px;
+    cursor: pointer;
+  }
+
+  &_menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    bottom: 11px;
+  }
+
+  &_menuLine {
+    width: 15px;
+    border-top: 1px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+
+    &+& {
+      margin-top: 5px;
+    }
+  }
+
+  &_window {
+    position: absolute;
+    bottom: calc(100% - 6px);
+    right: -10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
+    padding: 14px 22px;
+    box-sizing: border-box;
+    z-index: 10;
+  }
+
+  &_windowName {
+    color: #333;
+    font-size: 12px;
+    line-height: 2.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 240px;
+  }
+
+  &_windowNameClose {
     cursor: pointer;
   }
 }
