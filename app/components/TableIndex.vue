@@ -57,7 +57,7 @@ const buildTree = (items) => {
   // マップを使って親子関係を構築
   items.forEach(item => {
     if (!map[item.content_id]) {
-      map[item.content_id] = { ...item, open: false, children: [], targetContent: null };
+      map[item.content_id] = { ...item, open: false, isHistoryBackShown: false, children: [], targetContent: null };
     }
     if (item.parent_content_id && !map[item.parent_content_id]) {
       map[item.parent_content_id] = { children: [] };
@@ -103,6 +103,7 @@ const toggleContent = async (content, isOpen) => {
 }
 
 const route = useRoute()
+const router = useRouter()
 
 const moveToTargetSection = () => {
   const sectionId = route.query.sectionId
@@ -114,12 +115,16 @@ const moveToTargetSection = () => {
   })
 }
 
+const emits = defineEmits()
 const openTargetSection = (contents, sectionId) => {
   const content = findChildContentById(contents, sectionId)
   if (!content) return
   toggleContent(content, true)
   if (content.children.length > 0) {
     openTargetSection(content.children, sectionId)
+  } else {
+    content.isHistoryBackShown = true
+    setTimeout(() => content.isHistoryBackShown = false, 10000)
   }
 }
 
@@ -137,6 +142,12 @@ const findChildContentById = (contents, id) => {
 defineExpose({
   moveToTargetSection
 })
+
+const backToPrev = () => {
+  // TODO: 参照元に戻る
+  // console.log(route)
+  // router.back()
+}
 </script>
 
 <template>
@@ -157,15 +168,15 @@ defineExpose({
               @click.stop="toggleContent(grandChildContent)">
               {{ grandChildContent.content_no }} {{ grandChildContent.content_label }}
               <TableIndexContent v-if="grandChildContent.open" :drug-id="drugId" :child-content="grandChildContent"
-                :another-tab="anotherTab" />
+                :another-tab="anotherTab" @back-to-prev="backToPrev" />
             </li>
           </ul>
           <TableIndexContent v-else-if="childContent.open" :drug-id="drugId" :child-content="childContent"
-            :another-tab="anotherTab" />
+            :another-tab="anotherTab" @back-to-prev="backToPrev" />
         </li>
       </ul>
-      <TableIndexContent v-else-if="content.open" :drug-id="drugId" :child-content="content"
-        :another-tab="anotherTab" />
+      <TableIndexContent v-else-if="content.open" :drug-id="drugId" :child-content="content" :another-tab="anotherTab"
+        @back-to-prev="backToPrev" />
     </li>
   </ul>
 </template>
@@ -198,7 +209,6 @@ defineExpose({
       border-top: 1px solid #333;
       transform: rotate(-135deg);
       display: block;
-      margin-right: 10px;
       position: absolute;
       top: 10px;
       left: 2px;

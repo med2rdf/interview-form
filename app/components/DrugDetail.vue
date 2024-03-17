@@ -35,8 +35,7 @@ watch(
     if (newQuery.drugId === drug.value.pi_id || newQuery.drugId === drug.value.if_id) {
       moveToTargetSection(newQuery.sectionId)
     }
-  },
-  { immediate: true }
+  }
 )
 </script>
 
