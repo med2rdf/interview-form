@@ -1,3 +1,9 @@
+<script>
+export const TABS = {
+  pi: "pi",
+  if: "if"
+}
+</script>
 <script setup>
 const config = useRuntimeConfig()
 const { data: PITableContents } = await useFetch(`${config.public.API_URL}/interview_form_table_contents?mode=PI`)
@@ -10,10 +16,6 @@ const props = defineProps({
   }
 })
 const { drug } = toRefs(props)
-const TABS = {
-  pi: "pi",
-  if: "if"
-}
 const activeTab = ref(TABS.pi)
 </script>
 

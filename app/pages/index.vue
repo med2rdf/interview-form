@@ -1,5 +1,3 @@
-<script>
-</script>
 <script setup>
 import DrugDetail from '~/components/DrugDetail.vue';
 
