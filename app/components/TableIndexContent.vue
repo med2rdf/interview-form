@@ -44,6 +44,7 @@ const moveToRef = (ref) => {
   <div v-if="childContent.isHistoryBackShown" class="tableIndex_back">
     <span @click.stop="$emit('back-to-prev')">参照元にもどる</span>
   </div>
+  <LoadingIcon v-if="!childContent.targetContent" />
   <div class="tableIndex_body" v-html="childContent.targetContent" @click.stop></div>
   <div v-if="childContent.refData" @click.stop>
     <div v-for="ref in childContent.refData" class="tableIndex_ref" :class="`tableIndex_ref-${anotherTab}`">
@@ -52,6 +53,7 @@ const moveToRef = (ref) => {
           {{ ref[`${anotherTab}_section_no`] }} {{ ref[`${anotherTab}_section_name`] }}
         </span>
       </div>
+      <LoadingIcon v-if="ref.isOpen && !ref[`${anotherTab}_section_body`]" />
       <div v-show="ref.isOpen" v-html="ref[`${anotherTab}_section_body`]" class="tableIndex_refBody"
         :class="{ 'tableIndex_refBody-open': ref.isOpen }"></div>
     </div>
