@@ -65,11 +65,11 @@ watch(
       </div>
       <div v-show="activeTab === TABS.pi" class="docsSection_content">
         <TableIndex :key="`pi_${drug.pi_id}`" :table-contents="PITableContents" :active-tab="activeTab" :type="TABS.pi"
-          :drug-id="drug.pi_id" ref="piTableIndex" />
+          :drug-id="drug.pi_id" ref="piTableIndex" @move-to-target-section="moveToTargetSection" />
       </div>
       <div v-show="activeTab === TABS.if" class="docsSection_content">
         <TableIndex :key="`if_${drug.if_id}`" :table-contents="IFTableContents" :active-tab="activeTab" :type="TABS.if"
-          :drug-id="drug.if_id" ref="ifTableIndex" />
+          :drug-id="drug.if_id" ref="ifTableIndex" @move-to-target-section="moveToTargetSection" />
       </div>
     </div>
   </div>

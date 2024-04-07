@@ -34,9 +34,20 @@ const getRefData = async (reference) => {
   reference.isOpen = ref(true)
 }
 
+const route = useRoute()
 const router = useRouter()
+const emits = defineEmits()
 const moveToRef = (ref) => {
-  router.push({ query: { type: anotherTab.value, drugId: drugId.value, sectionId: ref[`${anotherTab.value}_section_id`] } })
+  // すでに該当のクエリの場合は親のメソッドを直接呼び出す
+  if (
+    route.query.type === anotherTab.value &&
+    route.query.drugId === drugId.value &&
+    route.query.sectionId === ref[`${anotherTab.value}_section_id`]
+  ) {
+    emits('move-to-target-section', route.query.sectionId)
+  } else {
+    router.push({ query: { type: anotherTab.value, drugId: drugId.value, sectionId: ref[`${anotherTab.value}_section_id`] } })
+  }
 }
 </script>
 

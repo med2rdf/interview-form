@@ -115,7 +115,6 @@ const moveToTargetSection = () => {
   })
 }
 
-const emits = defineEmits()
 const openTargetSection = (contents, sectionId) => {
   const content = findChildContentById(contents, sectionId)
   if (!content) return
@@ -168,15 +167,17 @@ const backToPrev = () => {
               @click.stop="toggleContent(grandChildContent)">
               {{ grandChildContent.content_no }} {{ grandChildContent.content_label }}
               <TableIndexContent v-if="grandChildContent.open" :drug-id="drugId" :child-content="grandChildContent"
-                :another-tab="anotherTab" @back-to-prev="backToPrev" />
+                :another-tab="anotherTab" @back-to-prev="backToPrev"
+                @move-to-target-section="$emit('move-to-target-section', $event)" />
             </li>
           </ul>
           <TableIndexContent v-else-if="childContent.open" :drug-id="drugId" :child-content="childContent"
-            :another-tab="anotherTab" @back-to-prev="backToPrev" />
+            :another-tab="anotherTab" @back-to-prev="backToPrev"
+            @move-to-target-section="$emit('move-to-target-section', $event)" />
         </li>
       </ul>
       <TableIndexContent v-else-if="content.open" :drug-id="drugId" :child-content="content" :another-tab="anotherTab"
-        @back-to-prev="backToPrev" />
+        @back-to-prev="backToPrev" @move-to-target-section="$emit('move-to-target-section', $event)" />
     </li>
   </ul>
 </template>
