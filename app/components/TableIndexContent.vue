@@ -1,5 +1,8 @@
 <script>
 import { formatContent } from './TableIndex.vue';
+export default defineNuxtComponent({
+  emits: ['move-to-target-section', 'back-to-prev']
+})
 </script>
 <script setup>
 const props = defineProps({
