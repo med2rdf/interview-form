@@ -1,7 +1,7 @@
 <script>
 import { formatContent } from './TableIndex.vue';
 export default defineNuxtComponent({
-  emits: ['move-to-target-section', 'back-to-prev']
+  emits: ['move-to-target-section']
 })
 </script>
 <script setup>
@@ -55,9 +55,6 @@ const moveToRef = (ref) => {
 </script>
 
 <template>
-  <div v-if="childContent.isHistoryBackShown" class="tableIndex_back">
-    <span @click.stop="$emit('back-to-prev')">参照元にもどる</span>
-  </div>
   <LoadingIcon v-if="!childContent.targetContent" />
   <div class="tableIndex_body" v-html="childContent.targetContent" @click.stop></div>
   <div v-if="childContent.refData" @click.stop>

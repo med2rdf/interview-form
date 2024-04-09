@@ -57,7 +57,7 @@ const buildTree = (items) => {
   // マップを使って親子関係を構築
   items.forEach(item => {
     if (!map[item.content_id]) {
-      map[item.content_id] = { ...item, open: false, isHistoryBackShown: false, children: [], targetContent: null };
+      map[item.content_id] = { ...item, open: false, children: [], targetContent: null };
     }
     if (item.parent_content_id && !map[item.parent_content_id]) {
       map[item.parent_content_id] = { children: [] };
@@ -121,9 +121,6 @@ const openTargetSection = (contents, sectionId) => {
   toggleContent(content, true)
   if (content.children.length > 0) {
     openTargetSection(content.children, sectionId)
-  } else {
-    content.isHistoryBackShown = true
-    setTimeout(() => content.isHistoryBackShown = false, 10000)
   }
 }
 
@@ -141,12 +138,6 @@ const findChildContentById = (contents, id) => {
 defineExpose({
   moveToTargetSection
 })
-
-const backToPrev = () => {
-  // TODO: 参照元に戻る
-  // console.log(route)
-  // router.back()
-}
 </script>
 
 <template>
@@ -167,17 +158,15 @@ const backToPrev = () => {
               @click.stop="toggleContent(grandChildContent)">
               {{ grandChildContent.content_no }} {{ grandChildContent.content_label }}
               <TableIndexContent v-if="grandChildContent.open" :drug-id="drugId" :child-content="grandChildContent"
-                :another-tab="anotherTab" @back-to-prev="backToPrev"
-                @move-to-target-section="$emit('move-to-target-section', $event)" />
+                :another-tab="anotherTab" @move-to-target-section="$emit('move-to-target-section', $event)" />
             </li>
           </ul>
           <TableIndexContent v-else-if="childContent.open" :drug-id="drugId" :child-content="childContent"
-            :another-tab="anotherTab" @back-to-prev="backToPrev"
-            @move-to-target-section="$emit('move-to-target-section', $event)" />
+            :another-tab="anotherTab" @move-to-target-section="$emit('move-to-target-section', $event)" />
         </li>
       </ul>
       <TableIndexContent v-else-if="content.open" :drug-id="drugId" :child-content="content" :another-tab="anotherTab"
-        @back-to-prev="backToPrev" @move-to-target-section="$emit('move-to-target-section', $event)" />
+        @move-to-target-section="$emit('move-to-target-section', $event)" />
     </li>
   </ul>
 </template>
