@@ -103,7 +103,6 @@ const toggleContent = async (content, isOpen) => {
 }
 
 const route = useRoute()
-const router = useRouter()
 
 const moveToTargetSection = () => {
   const sectionId = route.query.sectionId
@@ -165,8 +164,10 @@ defineExpose({
             :another-tab="anotherTab" @move-to-target-section="$emit('move-to-target-section', $event)" />
         </li>
       </ul>
-      <TableIndexContent v-else-if="content.open" :drug-id="drugId" :child-content="content" :another-tab="anotherTab"
-        @move-to-target-section="$emit('move-to-target-section', $event)" />
+      <div v-else-if="content.open" :id="content.content_id">
+        <TableIndexContent :drug-id="drugId" :child-content="content" :another-tab="anotherTab"
+          @move-to-target-section="$emit('move-to-target-section', $event)" />
+      </div>
     </li>
   </ul>
 </template>
