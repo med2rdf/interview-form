@@ -5,15 +5,6 @@ const config = useRuntimeConfig()
 const { data } = await useFetch(`${config.public.API_URL}/interview_form_drug_names`)
 const drugList = ref(data)
 const letters = ['ア', 'カ', 'サ', 'タ', 'ナ', 'ハ', 'マ', 'ヤ', 'ラ', 'ワ']
-const usedIds = new Set();
-drugList.value = drugList.value.map(drug => {
-  const firstChar = drug.drug_name.charAt(0);
-  if (letters.includes(firstChar) && !usedIds.has(firstChar)) {
-    usedIds.add(firstChar);
-    drug.id = firstChar
-  }
-  return drug
-})
 const originalDrugList = ref([...drugList.value])
 
 const selectedDrugs = ref([])
@@ -114,7 +105,7 @@ const isSummaryOpen = ref(false)
       </div>
       <div v-else class="lettersIndex">
         <template v-for="(letter, index) in letters">
-          <a :href="`#${letter}`" class="lettersIndex_letter">{{ letter }}</a>
+          <span :href="`#${letter}`" class="lettersIndex_letter">{{ letter }}</span>
           <span v-if="index !== letters.length - 1" class="lettersIndex_point">・</span>
         </template>
       </div>
@@ -369,10 +360,10 @@ const isSummaryOpen = ref(false)
   top: 50%;
   transform: translateY(-50%);
   white-space: nowrap;
+  cursor: pointer;
 
   &_letter {
     color: #ffffff;
-    text-decoration: none;
   }
 
   &_point {
