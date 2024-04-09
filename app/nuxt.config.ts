@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['reset-css'],
+  app: {
+    baseURL: '/ifv/',
+  },
   vite: {
     css: {
       preprocessorOptions: {
