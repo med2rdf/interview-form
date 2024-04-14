@@ -5,6 +5,15 @@ const config = useRuntimeConfig()
 const { data } = await useFetch(`${config.public.API_URL}/interview_form_drug_names`)
 const drugList = ref(data)
 const letters = ['ア', 'カ', 'サ', 'タ', 'ナ', 'ハ', 'マ', 'ヤ', 'ラ', 'ワ']
+const usedIds = new Set();
+drugList.value = drugList.value.map(drug => {
+  const firstChar = drug.drug_name.charAt(0);
+  if (letters.includes(firstChar) && !usedIds.has(firstChar)) {
+    usedIds.add(firstChar);
+    drug.id = firstChar
+  }
+  return drug
+})
 const originalDrugList = ref([...drugList.value])
 
 const selectedDrugs = ref([])
@@ -59,6 +68,14 @@ const filterDisplayedDrug = () => {
 }
 
 const isSummaryOpen = ref(false)
+
+const isDragging = ref(false)
+const onDrag = letter => {
+  if (!isDragging.value) return
+  const targetEl = document.querySelector(`#${letter}`)
+  targetEl.scrollIntoView({ behavior: "smooth" });
+
+}
 </script>
 
 <template>
@@ -103,9 +120,9 @@ const isSummaryOpen = ref(false)
           </p>
         </div>
       </div>
-      <div v-else class="lettersIndex">
+      <div v-else class="lettersIndex" @touchstart="isDragging = true" @touchend="isDragging = false">
         <template v-for="(letter, index) in letters">
-          <span :href="`#${letter}`" class="lettersIndex_letter">{{ letter }}</span>
+          <span :href="`#${letter}`" class="lettersIndex_letter" @touchmove="onDrag(letter)">{{ letter }}</span>
           <span v-if="index !== letters.length - 1" class="lettersIndex_point">・</span>
         </template>
       </div>

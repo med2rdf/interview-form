@@ -15,7 +15,7 @@ const { drugList, selectedDrugs } = toRefs(props)
 <template>
   <div>
     <ul class="drugList">
-      <li v-for="drug in drugList" class="drugList_drug" @click="$emit('clickDrugName', drug)">
+      <li v-for="drug in drugList" :id="drug.id" class="drugList_drug" @click="$emit('clickDrugName', drug)">
         <span class="drugList_checkbox"
           :class="{ 'drugList_checkbox-selected': selectedDrugs.some(selectedDrug => selectedDrug.if_id === drug.if_id) }"></span>
         <div>
