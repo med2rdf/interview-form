@@ -5,6 +5,11 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/ifv/',
   },
+  nitro: {
+    output: {
+      publicDir: 'ifv'
+    }
+  },
   vite: {
     css: {
       preprocessorOptions: {
