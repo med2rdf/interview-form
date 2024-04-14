@@ -5,8 +5,11 @@
 </template>
 
 <style lang="scss">
-.appWrapper {
+html {
   background-color: $main_color;
+}
+
+.appWrapper {
   width: 100vw;
   color: #ffffff;
   box-sizing: border-box;
