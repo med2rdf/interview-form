@@ -1,16 +1,15 @@
 ## HTMLの書き出し
 ※　v18以上のNode.jsがインストールされている環境で行ってください
-１. 本レポジトリをクローンする
+
+#### １. 本レポジトリをクローンする
 ```
 $ git clone https://github.com/med2rdf/interview-form.git
 ```
-
-2. `/app` に移動
+#### 2. `/app` に移動
 ```
 $ cd app
 ```
-
-3. 依存パッケージ `node_mudules` のインストール
+#### 3. 依存パッケージ `node_mudules` のインストール
 ```
 $ npm install
 ```
@@ -18,8 +17,7 @@ or
 ```
 $ yarn install
 ```
-
-4. 静的ファイルの生成
+#### 4. 静的ファイルの生成
 ```
 $ npm run generate
 ```
@@ -28,6 +26,7 @@ or
 $ yarn generate
 ```
 app/配下に `ifv` ディレクトリが生成され、その中に静的ファイルが書き出されます。
+
 
 ## Nuxt 3 Minimal Starter
 
