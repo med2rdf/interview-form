@@ -80,7 +80,8 @@ const getContent = async (sectionId) => {
     const data = await fetch(`${config.public.API_URL}/interview_form_${type.value}_section?${type.value}_id=${drugId.value}&section_id=${sectionId}`)
     const targetData = await data.json()
     const targetContent = targetData.value_list.length > 0 ? formatContent(targetData.value_list) : 'データがありません'
-    return { targetContent, refData: targetData[`${anotherTab.value}_link_list`] }
+    const pubmedList = targetData.reference_list.filter(ref => ref.xref?.includes('/pubmed/'))
+    return { targetContent, refData: targetData[`${anotherTab.value}_link_list`], pubmedList }
   } catch (error) {
     console.error(error);
     return null;
@@ -92,6 +93,7 @@ const updateContent = async (content) => {
   const data = await getContent(content.content_id);
   content.targetContent = data.targetContent
   content.refData = data.refData
+  content.pubmedList = data.pubmedList
 }
 
 // コンテンツの開閉状態を切り替える

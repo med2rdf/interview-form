@@ -30,11 +30,28 @@ const toggleRefData = (ref) => {
   }
 }
 
+const togglePubmedData = (pubmed) => {
+  pubmed.isOpen = !pubmed.isOpen
+  if (pubmed.isOpen && !pubmed.abstract) {
+    getPubmedData(pubmed)
+  }
+}
+
 const getRefData = async (reference) => {
   const data = await fetch(`${config.public.API_URL}/interview_form_${anotherTab.value}_section?${anotherTab.value}_id=${reference[`${anotherTab.value}_id`]}&section_id=${reference[`${anotherTab.value}_section_id`]}`)
   const refData = await data.json()
   reference[`${anotherTab.value}_section_body`] = refData.value_list.length > 0 ? formatContent(refData.value_list) : 'データがありません'
   reference.isOpen = ref(true)
+}
+
+const getPubmedData = async (pubmed) => {
+  const match = pubmed.xref.match(/\/pubmed\/(\d+)$/)
+  const pubmedId = match ? match[1] : null
+  if (!pubmedId) return
+  const data = await fetch(`${config.public.API_URL}/interview_form_pubmed_info?pubmed_ids=${pubmedId}`)
+  const pubmedData = await data.json()
+  pubmed.abstract = pubmedData[pubmedId]?.abstract ?? 'データがありません'
+  pubmed.isOpen = ref(true)
 }
 
 const route = useRoute()
@@ -67,6 +84,17 @@ const moveToRef = (ref) => {
       <LoadingIcon v-if="ref.isOpen && !ref[`${anotherTab}_section_body`]" />
       <div v-show="ref.isOpen" v-html="ref[`${anotherTab}_section_body`]" class="tableIndex_refBody"
         :class="{ 'tableIndex_refBody-open': ref.isOpen }"></div>
+    </div>
+  </div>
+  <div v-if="childContent.pubmedList">
+    <div v-for="pubmed in childContent.pubmedList" class="tableIndex_pubmed tableIndex_pubmed" @click.stop>
+      <div class="tableIndex_pubmedTitle" :class="{ 'tableIndex_pubmedTitle-open': pubmed.isOpen }"
+        @click.stop="togglePubmedData(pubmed)">
+        <img src="~assets/images/logo-pubmed.png" alt="PubMed" class="tableIndex_pubmedLogo">
+      </div>
+      <LoadingIcon v-if="pubmed.isOpen && !pubmed.abstract" />
+      <div v-show="pubmed.isOpen" v-html="pubmed.abstract" class="tableIndex_pubmedBody"
+        :class="{ 'tableIndex_pubmedBody-open': pubmed.isOpen }"></div>
     </div>
   </div>
 </template>
@@ -140,25 +168,18 @@ const moveToRef = (ref) => {
     }
   }
 
-  &_ref {
+  &_ref,
+  &_pubmed {
     border-radius: 5px;
     padding: 12px 18px;
     margin: 8px 0;
     font-weight: normal;
 
-    .tableIndex_refTitle {
+    .tableIndex_refTitle,
+    .tableIndex_pubmedTitle {
       text-decoration: underline;
       display: flex;
       align-items: center;
-
-      &:before {
-        content: '';
-        width: 16px;
-        height: 16px;
-        margin-right: 8px;
-        background-size: contain;
-        display: block;
-      }
 
       &::after {
         content: "";
@@ -175,6 +196,17 @@ const moveToRef = (ref) => {
 
       &-open:after {
         transform: rotate(45deg);
+      }
+    }
+
+    .tableIndex_refTitle {
+      &:before {
+        content: '';
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+        background-size: contain;
+        display: block;
       }
     }
 
@@ -195,7 +227,16 @@ const moveToRef = (ref) => {
     }
   }
 
-  &_refBody {
+  &_pubmed {
+    background-color: $pubmed_pale_color;
+  }
+
+  &_pubmedLogo {
+    width: 60px;
+  }
+
+  &_refBody,
+  &_pubmedBody {
     font-size: 13px;
     line-height: 1.2;
 
