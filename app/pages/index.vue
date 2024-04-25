@@ -3,6 +3,7 @@ import DrugDetail from '~/components/DrugDetail.vue';
 
 const config = useRuntimeConfig()
 const drugList = ref(null)
+const originalDrugList = ref(null)
 onMounted(async () => {
   const data = await fetch(`${config.public.API_URL}/interview_form_drug_names`)
   drugList.value = await data.json()
@@ -16,7 +17,7 @@ onMounted(async () => {
     }
     return drug
   })
-  const originalDrugList = ref([...drugList.value])
+  originalDrugList.value = [...drugList.value]
 })
 
 
@@ -83,7 +84,7 @@ const onDrag = letter => {
 </script>
 
 <template>
-  <div class="wholeWrapper">
+  <div v-if="drugList" class="wholeWrapper">
     <div v-if="selectedDrugs.length > 0" class="toggleButton" :class="{ 'toggleButton-close': !isSideBarOpen }"
       @click="isSideBarOpen = !isSideBarOpen">
     </div>
@@ -97,7 +98,7 @@ const onDrag = letter => {
           }}</div>
         <div v-if="isPulldownShown" class="formWrapper_searchTargetPulldown">
           <p v-for="target in searchTargets" :key="target.key" class="formWrapper_searchTargetLabel" @click="
-      selectTarget(target.key)">{{ target.label }}</p>
+    selectTarget(target.key)">{{ target.label }}</p>
         </div>
         <input type="text" class="formWrapper_input" v-model="textSearchInput" @input="filterDisplayedDrug">
       </form>
