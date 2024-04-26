@@ -2,14 +2,6 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['reset-css'],
-  app: {
-    baseURL: '/ifv/',
-  },
-  nitro: {
-    output: {
-      publicDir: 'ifv'
-    }
-  },
   vite: {
     css: {
       preprocessorOptions: {
