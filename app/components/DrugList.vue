@@ -31,7 +31,7 @@ const { drugList, selectedDrugs } = toRefs(props)
 <style lang="scss" scoped>
 .drugList {
   margin-top: 30px;
-  height: calc(100vh - 87px);
+  height: calc(100vh - 90px);
   overflow: auto;
   min-width: 244px;
 

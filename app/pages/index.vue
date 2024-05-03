@@ -75,12 +75,9 @@ const filterDisplayedDrug = () => {
 
 const isSummaryOpen = ref(false)
 
-const isDragging = ref(false)
-const onDrag = letter => {
-  if (!isDragging.value) return
+const jumpToTargetIndex = letter => {
   const targetEl = document.querySelector(`#${letter}`)
-  targetEl.scrollIntoView({ behavior: "smooth" });
-
+  targetEl?.scrollIntoView({ behavior: "smooth" });
 }
 </script>
 
@@ -93,7 +90,8 @@ const onDrag = letter => {
       <img src="~assets/images/logo.png" alt="Interview Form Viewer" class="sideBar_logo">
       <DrugList :drug-list="drugList" :selected-drugs="selectedDrugs" @clickDrugName="clickDrugName" />
     </aside>
-    <main class="mainContent" :class="{ 'mainContent-full': !isSideBarOpen }">
+    <main class="mainContent"
+      :class="{ 'mainContent-full': !isSideBarOpen, 'mainContent-hide': selectedDrugs.length < 1 }">
       <form class="formWrapper" :class="{ 'formWrapper-full': selectedDrugs.length < 1 }">
         <div class="formWrapper_searchTarget" @click="isPulldownShown = !isPulldownShown">{{ selectedSearchTarget.label
           }}</div>
@@ -108,7 +106,7 @@ const onDrag = letter => {
           :class="{ 'drugDetailList_card-single': selectedDrugs.length === 1 }" />
       </div>
       <div v-if="selectedDrugs.length > 0" class="selectedDrugsSummary">
-        <div class="selectedDrugsSummary_nameList">
+        <div class="selectedDrugsSummary_nameList" :class="{ 'selectedDrugsSummary_nameList-full': !isSideBarOpen }">
           <p v-for="selectedDrug in selectedDrugs" :key="selectedDrug.if_id" class="selectedDrugsSummary_name">
             {{ selectedDrug.drug_name }}
             <span class="selectedDrugsSummary_close" @click="clickDrugName(selectedDrug)">×</span>
@@ -126,9 +124,9 @@ const onDrag = letter => {
           </p>
         </div>
       </div>
-      <div v-else class="lettersIndex" @touchstart="isDragging = true" @touchend="isDragging = false">
+      <div v-else class="lettersIndex">
         <template v-for="(letter, index) in letters">
-          <span :href="`#${letter}`" class="lettersIndex_letter" @touchmove="onDrag(letter)">{{ letter }}</span>
+          <span :href="`#${letter}`" class="lettersIndex_letter" @click="jumpToTargetIndex(letter)">{{ letter }}</span>
           <span v-if="index !== letters.length - 1" class="lettersIndex_point">・</span>
         </template>
       </div>
@@ -174,6 +172,12 @@ const onDrag = letter => {
 
   &-full {
     width: calc(100vw - 20px);
+  }
+
+  &-hide {
+    padding-right: 0;
+    padding-left: 0;
+    width: 0;
   }
 }
 
@@ -309,6 +313,11 @@ const onDrag = letter => {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+
+    &-full {
+      width: calc(100vw - 66px);
+
+    }
   }
 
   &_name {
