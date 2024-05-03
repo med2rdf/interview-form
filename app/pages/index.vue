@@ -4,14 +4,15 @@ import DrugDetail from '~/components/DrugDetail.vue';
 const config = useRuntimeConfig()
 const drugList = ref(null)
 const originalDrugList = ref(null)
+const letters = ref([])
 onMounted(async () => {
   const data = await fetch(`${config.public.API_URL}/interview_form_drug_names`)
   drugList.value = await data.json()
-  const letters = ['ア', 'カ', 'サ', 'タ', 'ナ', 'ハ', 'マ', 'ヤ', 'ラ', 'ワ']
+  letters.value = ['ア', 'カ', 'サ', 'タ', 'ナ', 'ハ', 'マ', 'ヤ', 'ラ', 'ワ']
   const usedIds = new Set();
   drugList.value = drugList.value.map(drug => {
     const firstChar = drug.drug_name.charAt(0);
-    if (letters.includes(firstChar) && !usedIds.has(firstChar)) {
+    if (letters.value.includes(firstChar) && !usedIds.has(firstChar)) {
       usedIds.add(firstChar);
       drug.id = firstChar
     }
