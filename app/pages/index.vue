@@ -9,18 +9,17 @@ onMounted(async () => {
   const data = await fetch(`${config.public.API_URL}/interview_form_drug_names`)
   drugList.value = await data.json()
   letters.value = ['ア', 'カ', 'サ', 'タ', 'ナ', 'ハ', 'マ', 'ヤ', 'ラ', 'ワ']
-  const usedIds = new Set();
+  const usedIds = new Set()
   drugList.value = drugList.value.map(drug => {
-    const firstChar = drug.drug_name.charAt(0);
+    const firstChar = drug.drug_name.charAt(0)
     if (letters.value.includes(firstChar) && !usedIds.has(firstChar)) {
-      usedIds.add(firstChar);
+      usedIds.add(firstChar)
       drug.id = firstChar
     }
     return drug
   })
   originalDrugList.value = [...drugList.value]
 })
-
 
 const selectedDrugs = ref([])
 const toggleDisplayedDrug = drug => {
@@ -127,7 +126,6 @@ const jumpToTargetIndex = letter => {
       <div v-else class="lettersIndex">
         <template v-for="(letter, index) in letters">
           <span :href="`#${letter}`" class="lettersIndex_letter" @click="jumpToTargetIndex(letter)">{{ letter }}</span>
-          <span v-if="index !== letters.length - 1" class="lettersIndex_point">・</span>
         </template>
       </div>
     </main>
@@ -155,7 +153,7 @@ const jumpToTargetIndex = letter => {
   }
 
   &-full {
-    width: 100%;
+    width: calc(100% - 80px);
     border-right: 0;
   }
 
@@ -392,14 +390,22 @@ const jumpToTargetIndex = letter => {
   top: 50%;
   transform: translateY(-50%);
   white-space: nowrap;
-  cursor: pointer;
 
   &_letter {
     color: #ffffff;
-  }
+    padding: 6px;
+    border-radius: 20px;
+    cursor: pointer;
 
-  &_point {
-    margin: 10px 0;
+    &:hover {
+      background-color: #ffffff;
+      color: $main_color;
+      font-weight: bold;
+    }
+
+    &+& {
+      margin-top: 14px;
+    }
   }
 }
 </style>
