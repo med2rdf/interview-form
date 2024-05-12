@@ -348,13 +348,13 @@ const jumpToTargetIndex = letter => {
   }
 
   &_menuLine {
-    width: 15px;
-    border-top: 1px solid #ffffff;
+    width: 16px;
+    border-top: 2px solid #ffffff;
     display: inline-block;
     cursor: pointer;
 
     &+& {
-      margin-top: 5px;
+      margin-top: 3px;
     }
   }
 
