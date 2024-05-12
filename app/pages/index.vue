@@ -28,7 +28,7 @@ const toggleDisplayedDrug = drug => {
     selectedDrugs.value = selectedDrugs.value.filter(selectedDrug => selectedDrug.if_id !== drug.if_id)
     return
   }
-  selectedDrugs.value.push(drug)
+  selectedDrugs.value.unshift(drug)
 }
 
 const isSideBarOpen = ref(true)
