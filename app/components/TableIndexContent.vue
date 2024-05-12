@@ -50,7 +50,13 @@ const getPubmedData = async (pubmed) => {
   if (!pubmedId) return
   const data = await fetch(`${config.public.API_URL}/interview_form_pubmed_info?pubmed_ids=${pubmedId}`)
   const pubmedData = await data.json()
-  pubmed.abstract = pubmedData[pubmedId]?.abstract ?? 'データがありません'
+  pubmed.id = pubmedData[pubmedId]?.id
+  pubmed.link = pubmedData[pubmedId]?.link
+  pubmed.title = pubmedData[pubmedId]?.title
+  pubmed.source = pubmedData[pubmedId]?.source
+  pubmed.doi = pubmedData[pubmedId]?.doi
+  pubmed.abstract = pubmedData[pubmedId]?.abstract
+  pubmed.authors = pubmedData[pubmedId]?.authors
   pubmed.isOpen = ref(true)
 }
 
@@ -88,13 +94,22 @@ const moveToRef = (ref) => {
   </div>
   <div v-if="childContent.pubmedList">
     <div v-for="pubmed in childContent.pubmedList" class="tableIndex_pubmed tableIndex_pubmed" @click.stop>
-      <div class="tableIndex_pubmedTitle" :class="{ 'tableIndex_pubmedTitle-open': pubmed.isOpen }"
+      <div class="tableIndex_pubmedHeader" :class="{ 'tableIndex_pubmedHeader-open': pubmed.isOpen }"
         @click.stop="togglePubmedData(pubmed)">
         <img src="~assets/images/logo-pubmed.png" alt="PubMed" class="tableIndex_pubmedLogo">
       </div>
-      <LoadingIcon v-if="pubmed.isOpen && !pubmed.abstract" />
-      <div v-show="pubmed.isOpen" v-html="pubmed.abstract" class="tableIndex_pubmedBody"
-        :class="{ 'tableIndex_pubmedBody-open': pubmed.isOpen }"></div>
+      <LoadingIcon v-if="pubmed.isOpen && !pubmed.id" />
+      <div v-show="pubmed.isOpen" class="tableIndex_pubmedBody"
+        :class="{ 'tableIndex_pubmedBody-open': pubmed.isOpen }">
+        <p class="tableIndex_pubmedMeta">{{ `${pubmed.source} doi: ${pubmed.doi}` }}</p>
+        <a :href="pubmed.link" target="_blank" class="tableIndex_pubmedTitle">{{ pubmed.title }}</a>
+        <p class="tableIndex_pubmedAuthors">{{ pubmed.authors }}</p>
+        <p class="tableIndex_pubmedLink">
+          <span>PMID: {{ pubmed.id }}</span>
+          <a :href="`https://doi.org/${pubmed.doi}`" target="_blank">DOI: {{ pubmed.doi }}</a>
+        </p>
+        <p class="tableIndex_pubmedAbstract" v-html="pubmed.abstract"></p>
+      </div>
     </div>
   </div>
 </template>
@@ -176,7 +191,7 @@ const moveToRef = (ref) => {
     font-weight: normal;
 
     .tableIndex_refTitle,
-    .tableIndex_pubmedTitle {
+    .tableIndex_pubmedHeader {
       text-decoration: underline;
       display: flex;
       align-items: center;
@@ -243,6 +258,25 @@ const moveToRef = (ref) => {
     &-open {
       margin-top: 8px;
     }
+  }
+
+  &_pubmedMeta {
+    font-size: 12px;
+    color: #666666;
+  }
+
+  &_pubmedTitle {
+    margin-top: 6px;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  &_pubmedAuthors,
+  &_pubmedLink,
+  &_pubmedAbstract {
+    margin-top: 10px;
   }
 }
 </style>
