@@ -41,6 +41,7 @@ watch(
 
 <template>
   <div class="drugDetail">
+    <span class="drugDetail_close" @click="$emit('closeDrug', drug)">×</span>
     <div class="drugDetail_titleSection">
       <p class="drugDetail_title">{{ drug.drug_name }}</p>
       <p class="drugDetail_subSection">
@@ -81,6 +82,15 @@ watch(
   color: #333333;
   padding: 24px 8px;
   border-radius: 14px;
+  position: relative;
+
+  &_close {
+    position: absolute;
+    font-size: 24px;
+    right: 16px;
+    top: 10px;
+    cursor: pointer;
+  }
 
   &_titleSection {
     padding: 0 22px;

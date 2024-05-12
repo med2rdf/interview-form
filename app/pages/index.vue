@@ -23,7 +23,7 @@ onMounted(async () => {
 
 
 const selectedDrugs = ref([])
-const clickDrugName = drug => {
+const toggleDisplayedDrug = drug => {
   if (selectedDrugs.value.some(selectedDrug => selectedDrug.if_id === drug.if_id)) {
     selectedDrugs.value = selectedDrugs.value.filter(selectedDrug => selectedDrug.if_id !== drug.if_id)
     return
@@ -88,7 +88,7 @@ const jumpToTargetIndex = letter => {
     </div>
     <aside class="sideBar" :class="{ 'sideBar-close': !isSideBarOpen, 'sideBar-full': selectedDrugs.length < 1 }">
       <img src="~assets/images/logo.png" alt="Interview Form Viewer" class="sideBar_logo">
-      <DrugList :drug-list="drugList" :selected-drugs="selectedDrugs" @clickDrugName="clickDrugName" />
+      <DrugList :drug-list="drugList" :selected-drugs="selectedDrugs" @clickDrugName="toggleDisplayedDrug" />
     </aside>
     <main class="mainContent"
       :class="{ 'mainContent-full': !isSideBarOpen, 'mainContent-hide': selectedDrugs.length < 1 }">
@@ -103,13 +103,13 @@ const jumpToTargetIndex = letter => {
       </form>
       <div class="drugDetailList">
         <DrugDetail v-for="drug in selectedDrugs" :key="drug.if_id" :drug="drug" class="drugDetailList_card"
-          :class="{ 'drugDetailList_card-single': selectedDrugs.length === 1 }" />
+          :class="{ 'drugDetailList_card-single': selectedDrugs.length === 1 }" @close-drug="toggleDisplayedDrug" />
       </div>
       <div v-if="selectedDrugs.length > 0" class="selectedDrugsSummary">
         <div class="selectedDrugsSummary_nameList" :class="{ 'selectedDrugsSummary_nameList-full': !isSideBarOpen }">
           <p v-for="selectedDrug in selectedDrugs" :key="selectedDrug.if_id" class="selectedDrugsSummary_name">
             {{ selectedDrug.drug_name }}
-            <span class="selectedDrugsSummary_close" @click="clickDrugName(selectedDrug)">×</span>
+            <span class="selectedDrugsSummary_close" @click="toggleDisplayedDrug(selectedDrug)">×</span>
           </p>
         </div>
         <div class="selectedDrugsSummary_menu" @click="isSummaryOpen = !isSummaryOpen">
@@ -120,7 +120,7 @@ const jumpToTargetIndex = letter => {
         <div v-if="isSummaryOpen" class="selectedDrugsSummary_window">
           <p v-for="selectedDrug in selectedDrugs" :key="selectedDrug.if_id" class="selectedDrugsSummary_windowName">
             {{ selectedDrug.drug_name }}
-            <span class="selectedDrugsSummary_windowNameClose" @click="clickDrugName(selectedDrug)">×</span>
+            <span class="selectedDrugsSummary_windowNameClose" @click="toggleDisplayedDrug(selectedDrug)">×</span>
           </p>
         </div>
       </div>
