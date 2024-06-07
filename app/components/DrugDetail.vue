@@ -55,13 +55,11 @@ watch(
     </div>
     <div class="docsSection">
       <div class="docsSection_tabs">
-        <div class="docsSection_tab" :class="{ 'docsSection_tab-active': activeTab === TABS.pi }"
-          @click="activeTab = TABS.pi">
-          <img class="docsSection_tabIcon" src="~assets/images/icon-PI.png" alt="">添付文書
+        <div class="docsSection_tab docsSection_tab-pi" :class="{ '-active': activeTab === TABS.pi }"
+          @click="activeTab = TABS.pi">添付文書
         </div>
-        <div class="docsSection_tab" :class="{ 'docsSection_tab-active': activeTab === TABS.if }"
-          @click="activeTab = TABS.if">
-          <img class="docsSection_tabIcon" src="~assets/images/icon-IF.png" alt="">インタビューフォーム
+        <div class="docsSection_tab docsSection_tab-if" :class="{ '-active': activeTab === TABS.if }"
+          @click="activeTab = TABS.if">インタビューフォーム
         </div>
       </div>
       <div v-show="activeTab === TABS.pi" class="docsSection_content">
@@ -138,15 +136,53 @@ watch(
     margin-top: 18px;
     cursor: pointer;
 
-    &-active {
-      background-color: #ffffff;
+    &.-active {
+      font-size: 14px;
       font-weight: bold;
+      color: #ffffff;
     }
-  }
 
-  &_tabIcon {
-    width: 20px;
-    margin-right: 4px;
+    &::before {
+      content: '';
+      width: 20px;
+      height: 20px;
+      display: block;
+      margin-right: 4px;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    &-pi {
+      &::before {
+        background-image: url('assets/images/icon-PI.png');
+      }
+
+      &.-active {
+        background-color: $pi_color;
+
+        &::before {
+          width: 16px;
+          height: 16px;
+          background-image: url('assets/images/icon-PI-white.png');
+        }
+      }
+    }
+
+    &-if {
+      &::before {
+        background-image: url('assets/images/icon-IF.png');
+      }
+
+      &.-active {
+        background-color: $if_color;
+
+        &::before {
+          width: 16px;
+          height: 16px;
+          background-image: url('assets/images/icon-IF-white.png');
+        }
+      }
+    }
   }
 
   &_content {
