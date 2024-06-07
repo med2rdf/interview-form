@@ -91,7 +91,7 @@ const jumpToTargetIndex = letter => {
     </aside>
     <main class="mainContent"
       :class="{ 'mainContent-full': !isSideBarOpen, 'mainContent-hide': selectedDrugs.length < 1 }">
-      <form class="formWrapper" :class="{ 'formWrapper-full': selectedDrugs.length < 1 }">
+      <form class="formWrapper" :class="{ 'formWrapper-full': selectedDrugs.length < 1 }" @submit.prevent>
         <div class="formWrapper_searchTarget" @click="isPulldownShown = !isPulldownShown">{{ selectedSearchTarget.label
           }}</div>
         <div v-if="isPulldownShown" class="formWrapper_searchTargetPulldown">
