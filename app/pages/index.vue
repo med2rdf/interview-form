@@ -78,6 +78,7 @@ const jumpToTargetIndex = letter => {
   const targetEl = document.querySelector(`#${letter}`)
   targetEl?.scrollIntoView({ behavior: "smooth" });
 }
+
 </script>
 
 <template>
@@ -99,14 +100,16 @@ const jumpToTargetIndex = letter => {
     selectTarget(target.key)">{{ target.label }}</p>
         </div>
         <input type="text" class="formWrapper_input" v-model="textSearchInput" @input="filterDisplayedDrug">
+        <img src="~assets/images/icon-refresh.png" alt="refresh" class="formWrapper_refresh"
+          @click="() => selectedDrugs = []">
       </form>
       <div class="drugDetailList">
-        <DrugDetail v-for="drug in selectedDrugs" :key="drug.if_id" :drug="drug" class="drugDetailList_card"
+        <DrugDetail v-for=" drug  in  selectedDrugs " :key="drug.if_id" :drug="drug" class="drugDetailList_card"
           :class="{ 'drugDetailList_card-single': selectedDrugs.length === 1 }" @close-drug="toggleDisplayedDrug" />
       </div>
       <div v-if="selectedDrugs.length > 0" class="selectedDrugsSummary">
         <div class="selectedDrugsSummary_nameList" :class="{ 'selectedDrugsSummary_nameList-full': !isSideBarOpen }">
-          <p v-for="selectedDrug in selectedDrugs" :key="selectedDrug.if_id" class="selectedDrugsSummary_name">
+          <p v-for=" selectedDrug  in  selectedDrugs " :key="selectedDrug.if_id" class="selectedDrugsSummary_name">
             {{ selectedDrug.drug_name }}
             <span class="selectedDrugsSummary_close" @click="toggleDisplayedDrug(selectedDrug)">×</span>
           </p>
@@ -117,15 +120,17 @@ const jumpToTargetIndex = letter => {
           <span class="selectedDrugsSummary_menuLine"></span>
         </div>
         <div v-if="isSummaryOpen" class="selectedDrugsSummary_window">
-          <p v-for="selectedDrug in selectedDrugs" :key="selectedDrug.if_id" class="selectedDrugsSummary_windowName">
+          <p v-for=" selectedDrug  in  selectedDrugs " :key="selectedDrug.if_id"
+            class="selectedDrugsSummary_windowName">
             {{ selectedDrug.drug_name }}
             <span class="selectedDrugsSummary_windowNameClose" @click="toggleDisplayedDrug(selectedDrug)">×</span>
           </p>
         </div>
       </div>
       <div v-else class="lettersIndex">
-        <template v-for="(letter, index) in letters">
-          <span :href="`#${letter}`" class="lettersIndex_letter" @click="jumpToTargetIndex(letter)">{{ letter }}</span>
+        <template v-for="( letter, index ) in  letters ">
+          <span :href="`#${letter}`" class="lettersIndex_letter" @click="jumpToTargetIndex(letter)">{{ letter
+            }}</span>
         </template>
       </div>
     </main>
@@ -185,6 +190,8 @@ const jumpToTargetIndex = letter => {
   color: $main_color;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
 
   &_searchTarget {
     position: absolute;
@@ -238,7 +245,13 @@ const jumpToTargetIndex = letter => {
     border: 0;
     box-sizing: border-box;
     padding-left: 120px;
+  }
 
+  &_refresh {
+    width: 26px;
+    height: auto;
+    margin-left: 10px;
+    cursor: pointer;
   }
 
   &-full {
